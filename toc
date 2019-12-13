@@ -1,0 +1,46 @@
+
+{:navgroup: .navgroup}
+{:topicgroup: .topicgroup}
+
+{: .toc subcollection="dl" category="network" audience="service" href="/docs/infrastructure/dl/getting-started.html" path="infrastructure/dl"}
+Direct Link
+
+    {: .navgroup id="learn"}
+    getting-started.md
+    about.md
+    dl-july-policy-change.md
+    responsibilities.md
+    pricing.md
+    diversity-models.md
+
+    {: .topicgroup}
+    Tutorials & video
+        /tutorials/solution-tutorials-secure-network-enclosure
+        /tutorials/solution-tutorials-byoip
+        direct-link-video.md
+    {: .navgroup-end}
+
+    {: .navgroup id="howto"}
+    order-nsp.md
+    attaching_connection.md
+    editing_gateway.md
+    deleting_gateway.md
+    dl-to-cos.md
+    {: .navgroup-end}
+
+    {: .navgroup id="reference"}
+    [API reference](https://{DomainName}/apidocs/direct_link)    
+    questionnaire-dedicated.md
+    iam.md
+    at_events.md
+    external-resources.md
+    understanding-latency.md
+    vrf-on-ibm-cloud.md
+    vrf-conversion-dl.md
+    {: .navgroup-end}
+
+    {: .navgroup id="help"}
+    known-limitations.md
+    faqs.md
+    getting-help.md 
+    {: .navgroup-end}
