@@ -27,13 +27,12 @@ As a security officer, auditor, or manager, you can use the Activity Tracker ser
 {{site.data.keyword.at_full_notm}} records user-initiated activities that change the state of a service in {{site.data.keyword.cloud_notm}}. You can use this service to investigate abnormal activity and critical actions and to comply with regulatory audit requirements. In addition, you can be alerted about actions as they happen. The events that are collected comply with the Cloud Auditing Data Federation (CADF) standard. For more information, see the [getting started tutorial for {{site.data.keyword.at_full_notm}}](/docs/services/Activity-Tracker-with-LogDNA?topic=logdnaat-getting-started#getting-started).
 
 ## Actions and event messaging for Direct Link API calls on Activity Tracker
-{: #at_actions}
- 
+{: #at_event_messaging}
+
 ### List of gateway events for Direct Link Dedicated
-{: #at_actions}
+{: #at_actions_gateway_events}
 
 The following table lists the actions that generate an event for the Direct Link Dedicated offering.
-
 
 
 | Action                      | Description |
@@ -46,9 +45,3 @@ The following table lists the actions that generate an event for the Direct Link
 | `directlink.dedicated.virtual_connection.update`  | An event is generated when an initiator updates a Direct Link Dedicated virtual connection. |
 | `directlink.dedicated.completion_notice.create`    | An event is generated when an initiator creates a Direct link Dedicated completion notice. |
 {: caption="Table 1. Manage Direct Link Dedicated gateway actions" caption-side="top"}
-
-** Things that coincide with GA **
-
-[Plan to add a new Network Foundations category for DL 2.0](https://test.cloud.ibm.com/docs/services/Activity-Tracker-with-LogDNA?topic=logdnaat-cloud_services)
-
-[Does DL 2.0 support all locations on this page?  If so, need a statement saying what we support & any if there are any limitations](https://test.cloud.ibm.com/docs/services/Activity-Tracker-with-LogDNA?topic=logdnaat-cloud_services_locations)
