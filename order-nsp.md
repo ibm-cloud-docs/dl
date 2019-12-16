@@ -62,7 +62,7 @@ To order IBM Cloud Direct Link Dedicated, follow these steps.
 
    A summary of your order is displayed with pricing estimates.
 
-1. Agree to the  [**Direct Links Prerequisites**](/docs/dl?topic=dl-ibm-cloud-dl-dedicated-questionnaire) and review Cloud Services **Terms**. Then, click **Create** to complete your order. You can request assistance from IBM Cloud Sales engineers at any time.
+1. Agree to the  [**Direct Link Prerequisites**](/docs/dl?topic=dl-ibm-cloud-dl-dedicated-questionnaire) and review Cloud Services **Terms**. Then, click **Create** to complete your order. You can request assistance from IBM Cloud Sales engineers at any time.
 1. Complete the connection.
 
 ## Completing the connection
