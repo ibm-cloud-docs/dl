@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-03-29"
+lastupdated: "2019-12-15"
 
 keywords: video, services, hybrid, embed, ffprobe, video files, stream
 

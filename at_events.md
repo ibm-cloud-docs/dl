@@ -2,7 +2,7 @@
 
 copyright:
   years: 2016, 2019
-lastupdated: "2019-11-19"
+lastupdated: "2019-12-15"
 
 keywords: IBM, activity tracker, LogDNA, event, security, Direct Link
 

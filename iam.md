@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019
-lastupdated: "2019-12-04"
+lastupdated: "2019-12-15"
 
 keywords: direct link, IAM, permissions, access
 

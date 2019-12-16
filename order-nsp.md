@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2018, 2019
-lastupdated: "2019-04-25"
+lastupdated: "2019-12-15"
 
 keywords: order, provider, capabilities, Dedicated, cross-connect, locations, PoP, data center, data, center, pricing, Letter of Authorization, LOA,
 
@@ -34,10 +34,10 @@ To order IBM Cloud Direct Link Dedicated, follow these steps.
 
 1. Log in to your [{{site.data.keyword.cloud_notm}}](https://{DomainName}/){:external} account and open the **Catalog**.
 1. Select the **Navigation Menu** icon ![Navigation Menu icon](images/menu_icon.png) on the upper left, then click **Hybrid Networking**.
-1. Select **Direct Link** to show the existing IBM Cloud Direct Link connections, if any.
+1. Select **Direct Link**. Any existing IBM Cloud Direct Link connections are shown.
 1. Click **Order Direct Link +** in the upper right of the page.
-1. Select the **Direct Link Dedicated** tile.
-1. Complete the following configuration information:
+1. On the "Select Direct Link Type" page, select **Order Dedicated**.
+1. In the order form, complete the following configuration information:
    * Enter a name for your Direct Link Dedicated connection.
    * Select a resource group to create the Direct Link connection and a connection speed. The speeds supported for the Direct Link Dedicated offering are 1, 2, 5, and 10 Gbps.
    * Optionally, enter a customer name, carrier name, or both.
@@ -54,10 +54,10 @@ To order IBM Cloud Direct Link Dedicated, follow these steps.
 
    * Optionally, select the network connection to be attached to the Direct Link gateway, and then enter a connection name. To add multiple network connections to the Direct Link gateway, click **Add Connection**.
 
-      * **Classic Infrastructure** networks allow you to connect to SoftLayer classic resources. The routing option that you select dictates the reachability of the resources in the selected location.
-      * **VPC** networks can contain either first or second generation compute resources, allowing you to connect to your account’s VPC resources. The routing option selected determines the reachability of the resources in the selected location.    
+      * **Classic Infrastructure** networks allow you to connect to IBM Cloud classic resources.
+      * **VPC** networks can contain either first or second generation compute resources, allowing you to connect to your account’s VPC resources.
 
-      If you selected the **Global** routing option along with your location selections, the menu list displays all the VPCs globally available in the specific account. If you selected **Local** routing, then only the VPCs available in the local region for your account are displayed.
+      The routing option that you selected determines the reachability of the resources in the selected location. If you selected the **Global** routing option along with your location selections, the menu list displays all the VPCs globally available in the specific account. If you selected **Local** routing, then only the VPCs available in the local region for your account are displayed.
       {:note}
 
    A summary of your order is displayed with pricing estimates.

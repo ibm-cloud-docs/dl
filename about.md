@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2018, 2019
-lastupdated: "2019-11-25"
+lastupdated: "2019-12-15"
 
 keywords: hybrid, solutions, features, benefits, port speed, cross-connect, use cases, latency, routing, options, colocation
 
@@ -36,7 +36,7 @@ These use cases are best for working with hybrid workloads, cross-provider workl
 
 ### Use Case 1: Customer facility to IBM Cloud
 
-![Figure 1](/images/direct-link-dedicated.png) 
+![Figure 1](/images/direct-link-dedicated.png)
 
 ### Use Case 2: Customer colocation to IBM Cloud
 

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-04-02"
+lastupdated: "2019-12-15"
 
 keywords: pricing
 
@@ -66,7 +66,7 @@ You, the customer, must arrange connectivity and billing with your service provi
 |   1 Gbps |  $5,000 |  $6,650 |  $8,000 |
 |   2 Gbps | $10,000 | $13,300 | $16,000 |
 |   5 Gbps | $25,000 | $33,250 | $49,000 |
-|  10 Gbps | $50,000 | $66,500 | $80,000 | 
+|  10 Gbps | $50,000 | $66,500 | $80,000 |
 
 ## Pricing for Direct Link Dedicated metered data transfer charges
 {: #metered-data-transfer-charges}

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019
-lastupdated: "2019-12-04"
+lastupdated: "2019-12-15"
 
 keywords: direct link, configure, connection
 
@@ -27,7 +27,7 @@ subcollection: dl
 
 # Deleting a Direct Link gateway and attached connections
 
-You can delete a gateway either before or after the gateway is moved to `Provisioned` state. However, keep in mind that a gateway is restricted from being deleted during some `In Progress` states.
+You can delete a gateway either before or after the gateway is moved to **Provisioned** state. However, keep in mind that a gateway is restricted from being deleted during some **In Progress** states.
 {:shortdesc}
 
 To delete a gateway, click **Actions** on the gateway's details page and then click **Delete**. Click **Delete** again to confirm the deletion.

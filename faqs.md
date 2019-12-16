@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2018, 2019
-lastupdated: "2019-07-10"
+lastupdated: "2019-12-15"
 
 keywords: faq, faqs, questions, answer, billing, fees, point-to-point, bandwidth, charges, redundancy, global routing, diversity, IPv6, BGP, charges, jumbo frames
 

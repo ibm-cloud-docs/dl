@@ -3,7 +3,7 @@
 copyright:
   years: 2017, 2018, 2019
 
-lastupdated: "2019-05-21"
+lastupdated: "2019-12-15"
 
 
 keywords: tutorials, solution, case study, white paper, announcement, blog,

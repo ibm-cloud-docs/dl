@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-04-02"
+lastupdated: "2019-12-15"
 
 keywords: diversity, redundancy, schematics, deployment, configuration, global routing, ECMP, Dual XCRs, model
 
@@ -27,7 +27,7 @@ subcollection: dl
 {:download: .download}  
 
 # Leveraging ECMP for redundant connections
-{: #more-about-ecmp} 
+{: #more-about-ecmp}
 
 Equal-cost multipath (ECMP) is a feature of border gateway protocol (BGP). Some customers asked us about using ECMP as a way to achieve redundancy. However, ECMP alone is not sufficient. This section explains why.
 
