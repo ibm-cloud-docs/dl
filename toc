@@ -25,12 +25,12 @@ Direct Link
     attaching_connection.md
     editing_gateway.md
     deleting_gateway.md
-    dl-to-cos.md    
-    iam.md
+    dl-to-cos.md
     {: .navgroup-end}
 
     {: .navgroup id="reference"}
-    [API reference](https://{DomainName}/apidocs/direct_link)
+    [API reference](https://{DomainName}/apidocs/direct_link)    
+    iam.md
     questionnaire-dedicated.md
     at_events.md
     external-resources.md
