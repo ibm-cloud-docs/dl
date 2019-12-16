@@ -32,7 +32,7 @@ subcollection: dl
 Pricing for the {{site.data.keyword.cloud}} Direct Link Dedicated offering is consistent for equivalent regions and bandwidth, as shown in the following monthly pricing table.
 {:shortdesc}
 
-Direct Link Dedicated pricing does NOT include the additional charges by service providers to enable connectivity to {{site.data.keyword.cloud_notm}}.
+Direct Link Dedicated pricing does NOT include any additional charges by service providers to enable connectivity to {{site.data.keyword.cloud_notm}}.
 {:note}
 
 ## Arranging for Direct Link connectivity

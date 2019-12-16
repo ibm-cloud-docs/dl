@@ -31,16 +31,17 @@ subcollection: dl
 
 The IBM Cloud Direct Link Dedicated solution lets customers terminate a single-tenant, fiber-based cross-connect into their own {{site.data.keyword.cloud_notm}} private network connection. This offering can be used by customers with colocation facilities that are next to IBM Cloud PoPs and data centers. It can also be used by network service providers that deliver circuits to customer premises or to other data centers.
 
- ## Common use cases
-These use cases are best for working with hybrid workloads, cross-provider workloads, large or frequent data transfers, private workloads, and environment administration. This option is usually selected: (1) when the wanted PoP does not have the wanted Exchange or network service provider, (2) for high-performance workloads requiring high throughput, or (3) for compliance requirements that cannot be satisfied by either the IBM Cloud Direct Link Exchange or Connect implementation model.
+## Use Case 1: Customer on-premises facility to IBM Cloud
 
-### Use Case 1: Customer facility to IBM Cloud
+These use cases are best for working with hybrid workloads, cross-provider workloads, large or frequent data transfers, private workloads, and environment administration. Use Case 1 is usually selected: (1) when you want dedicated connectivity for mission-critical workloads, (2) when deterministic latency is required, (3) when you need dedicated, single-tenant connections between a client and IBM, (4) when diverse ports in a point of presence (PoP) are available, or (5) when you require LAG group support for 10 GB or greater speeds. 
 
 ![Figure 1](/images/direct-link-dedicated.png)
 
 ### Use Case 2: Customer colocation to IBM Cloud
 
 ![Figure 2](/images/dedicated-model-colo.png)
+
+These use cases are best for working with hybrid workloads, cross-provider workloads, large or frequent data transfers, private workloads, and environment administration. Use Case 1 is usually selected: (1) when you want dedicated connectivity for mission-critical workloads, (2) when ultra-low latency is required, (3) when you need dedicated, single-tenant connections between a client and IBM, (4) when diverse ports in a PoP are available, or (5) when you require LAG group support for 10 GB or greater speeds. 
 
 **Termination location:** {{site.data.keyword.cloud_notm}} point of presence (PoP) or Data Center (DC).
 
@@ -56,4 +57,4 @@ These use cases are best for working with hybrid workloads, cross-provider workl
 
 **Redundancy**: {{site.data.keyword.cloud_notm}} does not provide redundancy as part of the product. To establish redundant connectivity, customer must acquire two connections on diverse cross connect routers (XCRs) and configure BGP on each Direct Link connection as they prefer. Examples include options such as: _prefer Lowest MED_, _prefer highest local-preference_, or _prefer shorter AS paths_.
 
-**Local and global routing options:** The Local Routing option is the default routing option. It provides access to data centers within the same market as the Direct Link PoP (denoted, for example, as DAL, AMS, or MEL). The Global Routing option is required as an add-on to connect your IBM Cloud resources to other IBM Cloud resources in data centers outside the local market. It provides a way to share workloads between IBM Cloud resources (for example Dallas to Ashburn, or Dallas to Frankfurt).
+**Local and global routing options:** The local routing option is the default routing option. It provides access to data centers within the same market as the Direct Link PoP (denoted, for example, as DAL, AMS, or MEL). The global routing option is required as an add-on to connect your IBM Cloud resources to other IBM Cloud resources in data centers outside the local market. It provides a way to share workloads between IBM Cloud resources (for example Dallas to Ashburn, or Dallas to Frankfurt).

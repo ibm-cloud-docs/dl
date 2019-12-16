@@ -27,7 +27,7 @@ subcollection: dl
 
 # Updating a Direct Link gateway
 
-You can update a Direct Link gateway either before or after the gateway is moved to `Provisioned` state. However, keep in mind that a gateway is restricted from editing during some `In Progress` states.
+You can update a Direct Link gateway either before or after the gateway is moved to **Provisioned** state. However, keep in mind that a gateway is restricted from editing during some **In Progress** states.
 {:shortdesc}
 
 To edit a Direct Link gateway, follow these steps:

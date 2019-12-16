@@ -47,10 +47,8 @@ Capabilities coming soon:
 * Support for a Direct Link connection to venues (CMS, Blockchain, SAP on Power, and more).
 * Support for a Direct Link connection to Public (for example, ICOS).
 
-To get started using IBM Cloud Direct Link Dedicated, follow these [step-by-step instructions](/docs/dl?topic=dl-how-to-order-ibm-cloud-dl-dedicated). If you want help with getting started, open a ticket through the [IBM Cloud console](https://cloud.ibm.com/unifiedsupport/cases/add){: external}, or you can contact your IBM Cloud Sales representative.
+To get started using IBM Cloud Direct Link Dedicated, follow these [step-by-step instructions](/docs/dl?topic=dl-how-to-order-ibm-cloud-dl-dedicated). If you want help with getting started, open a case through the [IBM Cloud console](https://cloud.ibm.com/unifiedsupport/cases/add){: external}, or you can contact your IBM Cloud Sales representative.
 
 ## Learn more
-
-If you require a diverse and redundant Direct Link deployment, you can review our [Models for diversity and redundancy](/docs/dl?topic=direct-link-models-for-diversity-and-redundancy-in-direct-link).
 
 For more information about our new Direct Link offering, see our [FAQs](/docs/dl?topic=dl-faqs).
