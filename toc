@@ -25,13 +25,13 @@ Direct Link
     attaching_connection.md
     editing_gateway.md
     deleting_gateway.md
-    dl-to-cos.md
+    dl-to-cos.md    
+    iam.md
     {: .navgroup-end}
 
     {: .navgroup id="reference"}
-    [API reference](https://{DomainName}/apidocs/direct_link)    
+    [API reference](https://{DomainName}/apidocs/direct_link)
     questionnaire-dedicated.md
-    iam.md
     at_events.md
     external-resources.md
     understanding-latency.md
@@ -42,5 +42,5 @@ Direct Link
     {: .navgroup id="help"}
     known-limitations.md
     faqs.md
-    getting-help.md 
+    getting-help.md
     {: .navgroup-end}
