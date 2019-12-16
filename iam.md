@@ -26,7 +26,7 @@ subcollection: dl
 {:generic: data-hd-programlang="generic"}
 {:download: .download}
 
-# Using IAM permissions with Direct Link
+# Identity and Access Management roles and actions
 {: #iam}
 
 IBM Cloud Direct Link Dedicated enables connectivity between customer on-premises resources to IBM Cloud resources hosted in classic and Virtual Private Cloud (VPC) infrastructures, including second-generation compute resources.
@@ -41,11 +41,11 @@ Direct Link Dedicated supports Reader, Writer, and Manager service-access roles.
 
 | Role | Description of Actions | Example Actions |
 |---|---|---|
-| Reader | Performs actions that don't change the state of resources. |<ul><li>List gateways</li><li>Get gateways</li><li>List a gateway's virtual connections</li><li>View a gateway's virtual connections</li><li>Retrieve gateway-related information (completion notice/letter of authorization)</li><li>View incoming connection requests* </li></ul>
-| Writer and Manager | Performs all actions, including managing gateways and virtual connections. |<ul><li>Create gateway</li><li>Delete gateway</li><li>Edit gateway</li><li>Add a virtual connection to a gateway* </li><li>Remove a virtual connection from a gateway* </li><li>Edit a virtual connection |                     |
+| Reader | Performs actions that don't change the state of resources. |<ul><li>List gateways</li><li>Get gateways</li><li>List a gateway's virtual connections</li><li>View a gateway's virtual connections</li><li>Retrieve gateway-related information (completion notice/letter of authorization)</li><li>View incoming connection requests* <sup>**Note**</sup></li></ul>
+| Writer and Manager | Performs all actions, including managing gateways and virtual connections. |<ul><li>Create gateway</li><li>Delete gateway</li><li>Edit gateway</li><li>Add a virtual connection to a gateway* <sup>**Note**</sup></li><li>Remove a virtual connection from a gateway* <sup>**Note**</sup> </li><li>Edit a virtual connection |                     |
 {: caption="Table 1. IAM service-access user roles and actions" caption-side="top"}
 
-/* To add or remove virtual connections to VPCs, or to accept/reject a connection request, the user must also have Editor or Administrator platform-access role permissions to the VPC. See [VPC: Getting started with IAM](/docs/vpc?topic=vpc-iam-getting-started) for more information.
+To add or remove virtual connections to VPCs, or to accept/reject a connection request, the user must also have Editor or Administrator platform-access role permissions to the VPC. See [VPC: Getting started with IAM](/docs/vpc?topic=vpc-iam-getting-started) for more information.
 {: note}
 
 ## Platform-access roles
