@@ -35,12 +35,29 @@ Pricing for the {{site.data.keyword.cloud}} Direct Link Dedicated offering is co
 Direct Link Dedicated pricing does NOT include any additional charges by service providers to enable connectivity to {{site.data.keyword.cloud_notm}}.
 {:note}
 
-## Arranging for Direct Link connectivity
+## Arranging for Direct Link connectivity  
 {: #arranging-for-dl-conectivity}
 
 You, the customer, must arrange connectivity and billing with your service providers, independently of {{site.data.keyword.cloud_notm}}. Direct Link Dedicated creates a Letter Of Authorization / Connecting Facility Assignment (LOA/CFA), which is usable by any service provider who can reach the Meet Me Room that is specified on that LOA/CFA. The provider who is connecting to the LOA/CFA must include pricing for the cross-connect in their quote to you; {{site.data.keyword.cloud_notm}} does not order cross-connects on behalf of any customer.
 
-## Pricing for Direct Link Dedicated port charges (metered)
+## Pricing for port charges
+{: #pricing-for-dl-port-charges}
+
+### Unmetered
+{: #pricing-for-dl-port-charges-unmetered}
+
+| Speed | USA, Canada & EU | Asia Pacific | Brazil & Mexico |
+|----|----|----|----|
+|  50 Mbps |    $250 |    $333 |    $400 |
+| 100 Mbps |    $500 |    $665 |    $800 |
+| 200 Mbps |  $1,000 |  $1,330 |  $1,600 |
+| 500 Mbps |  $2,500 |  $3,335 |  $4,000 |
+|   1 Gbps |  $5,000 |  $6,650 |  $8,000 |
+|   2 Gbps | $10,000 | $13,300 | $16,000 |
+|   5 Gbps | $25,000 | $33,250 | $49,000 |
+|  10 Gbps | $50,000 | $66,500 | $80,000 |
+
+### Metered  
 {: #pricing-for-dl-port-charges-metered}
 
 | Speed | Global |
@@ -54,21 +71,7 @@ You, the customer, must arrange connectivity and billing with your service provi
 |   5 Gbps |$1,200 |
 |  10 Gbps |$1,800 |
 
-## Pricing for Direct Link Dedicated port charges (unmetered)
-{: #pricing-for-dl-port-charges-unmetered}
-
-| Speed | USA, Canada & EU | Asia Pacific | Brazil & Mexico |
-|----|----|
-|  50 Mbps |    $250 |    $333 |    $400 |
-| 100 Mbps |    $500 |    $665 |    $800 |
-| 200 Mbps |  $1,000 |  $1,330 |  $1,600 |
-| 500 Mbps |  $2,500 |  $3,335 |  $4,000 |
-|   1 Gbps |  $5,000 |  $6,650 |  $8,000 |
-|   2 Gbps | $10,000 | $13,300 | $16,000 |
-|   5 Gbps | $25,000 | $33,250 | $49,000 |
-|  10 Gbps | $50,000 | $66,500 | $80,000 |
-
-## Pricing for Direct Link Dedicated metered data transfer charges
+## Pricing for metered data transfer charges
 {: #metered-data-transfer-charges}
 
 | Tier | USA, Canada & EU | Asia Pacific | Brazil & Mexico |
@@ -78,8 +81,16 @@ You, the customer, must arrange connectivity and billing with your service provi
 Data transfer is for Egress only, and varies based on region.
 {:note}
 
-## Pricing for Direct Link Dedicated global routing charges
+## Pricing for routing charges
 {: #pricing-for-global-routing-charges}
+
+### Local routing charges
+
+Local routing is the default routing option. It provides access to data centers within the same market as the Direct Link PoP. There is no charge for Local routing.
+
+** I wanted to mention Local routing here to show that default option is at no additional cost to customers  **
+
+### Global routing charges
 
 Global routing expands access to include all {{site.data.keyword.cloud_notm}} data centers globally. Bandwidth is unmetered and charged monthly based on the market. Details on the markets and other considerations can be found in our [FAQs](/docs/infrastructure/dl?topic=dl-faqs#what-are-the-local-routing-and-global-routing-options).
 

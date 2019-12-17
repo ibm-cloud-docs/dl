@@ -30,7 +30,7 @@ subcollection: dl
 You can delete a gateway either before or after the gateway is moved to **Provisioned** state. However, keep in mind that a gateway is restricted from being deleted during some **In Progress** states.
 {:shortdesc}
 
-To delete a gateway, click **Actions** on the gateway's details page and then click **Delete**. Click **Delete** again to confirm the deletion.
+To delete a gateway from the Direct Link table, highlight the row of the gateway that you want to delete, then click **Delete** from the **Overflow** menu  ![Overflow menu](images/overflow.png). Alternatively, you can click **Actions > Delete** on a gateway's details page. Click **Delete** again to confirm the deletion.
 
 If there are any virtual connections attached to the gateway, you must detach the virtual connection before deleting the gateway. To detach a virtual connection, click the **Delete** icon ![Delete icon](images/garbage_icon.png) next to the virtual connection entry on the gateway's details page. Then click **Delete** to confirm.
 {:important}

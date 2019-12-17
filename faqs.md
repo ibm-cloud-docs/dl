@@ -40,7 +40,7 @@ The new Direct Link offering differs from the Direct Link classic infrastructure
 
 The initial rollout of Direct Link is in the Dallas and Washington D.C. sites. The zone/region model allows for multiple data centers to exist in a single zone, and IBM intends to expand the AZs in the future. 
 
-For more information on the differences between the new Direct Link Dedicated offering and the Classic version, see [How do I know which type of IBM Cloud Direct Link I need?](/docs/direct-link?topic=direct-link-get-started-with-ibm-cloud-direct-link#how-do-i-know-which-type-of-ibm-cloud-direct-link-i-need-).{:external}
+For more information on the differences between the new Direct Link Dedicated offering and the Classic version, see [How do I know which type of IBM Cloud Direct Link I need?](/docs/direct-link?topic=direct-link-get-started-with-ibm-cloud-direct-link#how-do-i-know-which-type-of-ibm-cloud-direct-link-i-need-). 
 {: tip}
 
 ## What date is Direct Link available?

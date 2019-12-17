@@ -29,25 +29,31 @@ subcollection: dl
 # About the IBM Cloud Direct Link Dedicated solution
 {: #dl-dedicated-solution}
 
-The IBM Cloud Direct Link Dedicated solution lets customers terminate a single-tenant, fiber-based cross-connect into their own {{site.data.keyword.cloud_notm}} private network connection. This offering can be used by customers with colocation facilities that are next to IBM Cloud PoPs and data centers. It can also be used by network service providers that deliver circuits to customer premises or to other data centers.
+The IBM Cloud Direct Link Dedicated solution lets customers terminate a single-tenant, fiber-based cross-connect into their own {{site.data.keyword.cloud_notm}} private network connection. This offering can be used by customers with colocation facilities that are next to IBM Cloud PoPs and data centers. It can also be used by network service providers (NSPs) that deliver circuits to customer premises or to other data centers.
 
-## Use Case 1: Customer on-premises facility to IBM Cloud
+## Use cases
 
-These use cases are best for working with hybrid workloads, cross-provider workloads, large or frequent data transfers, private workloads, and environment administration. Use Case 1 is usually selected: (1) when you want dedicated connectivity for mission-critical workloads, (2) when deterministic latency is required, (3) when you need dedicated, single-tenant connections between a client and IBM, (4) when diverse ports in a point of presence (PoP) are available, or (5) when you require LAG group support for 10 GB or greater speeds. 
+These use cases are best for working with hybrid workloads, cross-provider workloads, large or frequent data transfers, private workloads, and environment administration. Both cases are are used: (1) when you want dedicated connectivity for mission-critical workloads, (2) when you need dedicated, single-tenant connections between a client and IBM, (3) when diverse ports in a point of presence (PoP) are available, or (4) when you require link aggregation group (LAG) support for 10 GB or greater speeds. 
+
+### Use case 1: Customer on-premises facility to IBM Cloud
+
+This use case is recommended when deterministic latency is required.
 
 ![Figure 1](/images/direct-link-dedicated.png)
 
-### Use Case 2: Customer colocation to IBM Cloud
+### Use case 2: Customer colocation to IBM Cloud
+
+This use case is recommended when ultra-low latency is required. 
 
 ![Figure 2](/images/dedicated-model-colo.png)
 
-These use cases are best for working with hybrid workloads, cross-provider workloads, large or frequent data transfers, private workloads, and environment administration. Use Case 1 is usually selected: (1) when you want dedicated connectivity for mission-critical workloads, (2) when ultra-low latency is required, (3) when you need dedicated, single-tenant connections between a client and IBM, (4) when diverse ports in a PoP are available, or (5) when you require LAG group support for 10 GB or greater speeds. 
+## More information
 
 **Termination location:** {{site.data.keyword.cloud_notm}} point of presence (PoP) or Data Center (DC).
 
 **Typical deployment time:** 10 - 15 business days after the new circuit reaches the PoP. Deployment time can possibly be 30 - 60 days overall, depending on your location and requirements when you order a circuit from an NSP or carrier.
 
-**Cross-connect details:** {{site.data.keyword.cloud_notm}} provides a Letter of Authorization (LOA) that a customer uses to order fiber Ethernet (single-mode fiber only, either 1Gig-LX or 10Gig-LR optics) that runs from a customer cage or provider cage to the {{site.data.keyword.cloud_notm}} CFA termination point, which will be tied down to the cross-connect router (XCR) infrastructure. The media must be a 1310 nm wavelength optic.
+**Cross-connect details:** {{site.data.keyword.cloud_notm}} provides a Letter of Authorization (LOA) that a customer uses to order fiber Ethernet (single-mode fiber only, either 1Gig-LX or 10Gig-LR optics) that runs from a customer cage or provider cage to the {{site.data.keyword.cloud_notm}} Connecting  Facility Assignment (CFA) termination point, which will be tied down to the cross-connect router (XCR) infrastructure. The media must be a 1310 nm wavelength optic.
 
 **Port speed options:** Select 1 Gbps, 2 Gbps, 5 Gbps, or 10 Gbps.
 

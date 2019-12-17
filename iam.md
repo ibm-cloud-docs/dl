@@ -41,12 +41,11 @@ Direct Link Dedicated supports Reader, Writer, and Manager service-access roles.
 
 | Role | Description of Actions | Example Actions |
 |---|---|---|
-| Reader | Performs actions that don't change the state of resources. |<ul><li>List gateways</li><li>Get gateways</li><li>List a gateway's virtual connections</li><li>View a gateway's virtual connections</li><li>Retrieve gateway-related information (completion notice/letter of authorization)</li><li>View incoming connection requests* <sup>Note</sup> </li></ul>
-| Writer and Manager | Performs all actions, including managing gateways and virtual connections. |<ul><li>Create gateway</li><li>Delete gateway</li><li>Edit gateway</li><li>Add a virtual connection to a gateway* <sup>Note</sup> </li> <li>Remove a virtual connection from a gateway* <sup>Note</sup> </li><li>Edit a virtual connection |                     |
+| Reader | Performs actions that don't change the state of resources. |<ul><li>List gateways</li><li>Get gateways</li><li>List a gateway's virtual connections</li><li>View a gateway's virtual connections</li><li>Retrieve gateway-related information (completion notice/letter of authorization)</li><li>View incoming connection requests&#8902; </li></ul>
+| Writer and Manager | Performs all actions, including managing gateways and virtual connections. |<ul><li>Create gateway</li><li>Delete gateway</li><li>Edit gateway</li><li>Add a virtual connection to a gateway&#8902;  </li> <li>Remove a virtual connection from a gateway&#8902; </li><li>Edit a virtual connection |                     |
 {: caption="Table 1. IAM service-access user roles and actions" caption-side="top"}
 
-To add or remove virtual connections to VPCs, or to accept/reject a connection request, the user must also have Editor or Administrator platform-access role permissions to the VPC. See [VPC: Getting started with IAM](/docs/vpc?topic=vpc-iam-getting-started) for more information.
-{: note}
+y&#8902; To add or remove virtual connections to VPCs, or to accept/reject a connection request, the user must also have Editor or Administrator platform-access role permissions to the VPC. See [VPC: Getting started with IAM](/docs/vpc?topic=vpc-iam-getting-started) for more information. 
 
 ## Platform-access roles
 
@@ -57,3 +56,8 @@ Direct Link Dedicated supports the Administrator platform-access role.
 |---|---|---|
 | Administrator | Allows a user to assign Direct Link IAM access policies to other users. | Update user access policies for the service. |                 |
 {: caption="Table 2. IAM platform-access user role and actions" caption-side="top"}
+
+
+## Viewing Direct Link resources in the Resource list
+
+To view Direct Link resources in the IBM Cloud Resource list, users need an IAM policy for the Direct Link service. Direct Link resource-type specific policies are not sufficient.

@@ -11,7 +11,7 @@ Direct Link
     dl-july-policy-change.md
     responsibilities.md
     pricing.md
-    diversity-models.md
+    ecmp.md
 
     {: .topicgroup}
     Tutorials & video
@@ -29,14 +29,14 @@ Direct Link
     {: .navgroup-end}
 
     {: .navgroup id="reference"}
-    [API reference](https://{DomainName}/apidocs/direct_link)    
+    [API reference](https://{DomainName}/apidocs/direct_link)
     iam.md
-    questionnaire-dedicated.md
     at_events.md
     external-resources.md
     understanding-latency.md
     vrf-on-ibm-cloud.md
     vrf-conversion-dl.md
+    questionnaire-dedicated.md
     {: .navgroup-end}
 
     {: .navgroup id="help"}

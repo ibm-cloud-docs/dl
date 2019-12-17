@@ -36,7 +36,7 @@ These resources are created by {{site.data.keyword.cloud}} and by some IBM partn
 
 ## Papers and case studies
 
-* [**Hybrid Cloud white paper**](https://public.dhe.ibm.com/cloud/bluemix/network/dl/ibm-hybrid-cloud-whitepaper.pdf){: external}
+* [**Hybrid Cloud white paper**](https://public.dhe.ibm.com/cloud/bluemix/network/direct-link/ibm-hybrid-cloud-whitepaper.pdf){: external}
 
     **Abstract:** Krystallize Technologies set up three different “real world” configurations that use the architecture that is described in this paper to design a dedicated, low-latency, private connection between cloud services and customer-provided network equipment, storage, and compute infrastructure that is durable and affordable.
 
@@ -69,7 +69,7 @@ These resources are created by {{site.data.keyword.cloud}} and by some IBM partn
 
 * [Megaport and IBM Empower Enterprise Cloud](https://www.ibm.com/cloud/blog/megaport-and-ibm-empower-enterprise-cloud){: external}, by Matt Simpson and Jill Tempelmeyer
 
-* [Supporting the next generation cloud applications with IBM Cloud Direct Link](https://www.ibm.com/blogs/cloud-computing/2018/06/26/next-generation-cloud-apps-ibm-cloud-dl/){: external}, by Gabriel Montanti
+* [Supporting the next generation cloud applications with IBM Cloud Direct Link](https://www.ibm.com/blogs/cloud-computing/2018/06/26/next-generation-cloud-apps-ibm-cloud-direct-link/){: external}, by Gabriel Montanti 
 
 * [IBM and Colt: Enabling Enterprise Digital Transformation](https://www.ibm.com/cloud/blog/announcements/ibm-colt-enterprise-digital-transformation){: external}, by Paul Hertzfeldt
 
