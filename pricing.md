@@ -88,8 +88,6 @@ Data transfer is for Egress only, and varies based on region.
 
 Local routing is the default routing option. It provides access to data centers within the same market as the Direct Link PoP. There is no charge for Local routing.
 
-** I wanted to mention Local routing here to show that default option is at no additional cost to customers  **
-
 ### Global routing charges
 
 Global routing expands access to include all {{site.data.keyword.cloud_notm}} data centers globally. Bandwidth is unmetered and charged monthly based on the market. Details on the markets and other considerations can be found in our [FAQs](/docs/infrastructure/dl?topic=dl-faqs#what-are-the-local-routing-and-global-routing-options).

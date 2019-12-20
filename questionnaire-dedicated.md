@@ -26,7 +26,7 @@ subcollection: dl
 {:generic: data-hd-programlang="generic"}
 {:download: .download}  
 
-# Direct Link Dedicated agreement
+# Direct Link prerequisites
 {: #ibm-cloud-dl-dedicated-questionnaire}
 
 When you are ready to finalize your Direct Link order, you are asked to read and agree to the following prerequisites. You can speak with an IBM Cloud Sales engineer at any time about these terms.

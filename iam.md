@@ -45,7 +45,7 @@ Direct Link Dedicated supports Reader, Writer, and Manager service-access roles.
 | Writer and Manager | Performs all actions, including managing gateways and virtual connections. |<ul><li>Create gateway</li><li>Delete gateway</li><li>Edit gateway</li><li>Add a virtual connection to a gateway&#8902;  </li> <li>Remove a virtual connection from a gateway&#8902; </li><li>Edit a virtual connection |                     |
 {: caption="Table 1. IAM service-access user roles and actions" caption-side="top"}
 
-y&#8902; To add or remove virtual connections to VPCs, or to accept/reject a connection request, the user must also have Editor or Administrator platform-access role permissions to the VPC. See [VPC: Getting started with IAM](/docs/vpc?topic=vpc-iam-getting-started) for more information. 
+&#8902; To add or remove virtual connections to VPCs, or to accept/reject a connection request, the user must also have Editor or Administrator platform-access role permissions to the VPC. See [VPC: Getting started with IAM](/docs/vpc?topic=vpc-iam-getting-started) for more information. 
 
 ## Platform-access roles
 

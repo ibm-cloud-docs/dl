@@ -32,7 +32,7 @@ subcollection: dl
 You can review answers to some frequently asked questions about {{site.data.keyword.cloud}} Direct Link Dedicated.
 {:shortdesc}
 
-## How does the new Direct Link differ from Direct Link Classic?
+## How does the new Direct Link differ from Direct Link on Classic?
 {: #differentiators}
 {: faq}
 
@@ -40,7 +40,7 @@ The new Direct Link offering differs from the Direct Link classic infrastructure
 
 The initial rollout of Direct Link is in the Dallas and Washington D.C. sites. The zone/region model allows for multiple data centers to exist in a single zone, and IBM intends to expand the AZs in the future. 
 
-For more information on the differences between the new Direct Link Dedicated offering and the Classic version, see [How do I know which type of IBM Cloud Direct Link I need?](/docs/direct-link?topic=direct-link-get-started-with-ibm-cloud-direct-link#how-do-i-know-which-type-of-ibm-cloud-direct-link-i-need-). 
+For more information on the differences between the new Direct Link Dedicated offering and the Classic version, see [How do I know which type of IBM Cloud Direct Link I need?](/docs/direct-link?topic=direct-link-get-started-with-ibm-cloud-direct-link#how-do-i-know-which-type-of-ibm-cloud-direct-link-i-need-).
 {: tip}
 
 ## What date is Direct Link available?
@@ -71,7 +71,7 @@ Six MZRs are in plan for 1H20 (Frankfurt, Tokyo, London, and Sydney in 1H20; To
 {: #roadmap-szrs}
 {: faq}
 
-Any existing customers on classic IaaS can remain in classic IaaS and continue to access classic IaaS outside of VPC-enabled data centers on Direct Link or Direct Link Classic.
+Any existing customers on classic IaaS can remain in classic IaaS and continue to access classic IaaS outside of VPC-enabled data centers on Direct Link or Direct Link on Classic.
 
 ## Will Direct Link be available in all IBM Cloud data centers?
 {: #dc}
@@ -121,13 +121,13 @@ Yes, this is possible on Direct Link. The VRF created is local to the XCR versu
 
 Yes, they are listed in Virtual Private Cloud [Quotas](/docs/vpc-on-classic?topic=vpc-on-classic-quotas) documentation.
 
-## How do I move from Direct Link Classic to the new Direct Link?
+## How do I move from Direct Link on Classic to the new Direct Link?
 {: #move-classic-to-new}
 {:faq}
 
 Direct Link has a completely new user interface and records system, requiring you to place a brand new Direct Link order.
 
-## Are there any performance impacts affected by moving from Direct Link Classic?
+## Are there any performance impacts affected by moving from Direct Link on Classic?
 {: #move-classic-to-new-performance}
 {:faq}
 

@@ -27,14 +27,14 @@ subcollection: dl
 
 # Updating a Direct Link gateway
 
-You can update a Direct Link gateway either before or after the gateway is moved to **Provisioned** state. However, keep in mind that a gateway is restricted from editing during some **In Progress** states.
+You can update a Direct Link gateway either before or after the gateway is moved to **Provisioned** state. However, keep in mind that a gateway is restricted from editing during **In review** and some **In progress** states.
 {:shortdesc}
 
 To edit a Direct Link gateway, follow these steps:
 
 1. Click **Actions** on the gateway's details page and then click **Edit**. A page with the gateway's details is shown.
 2. Update the Direct Link name, link speed, and routing option, as needed.
-3. Review and select **I accept IBM's Privacy statement and Terms and Conditions**.
+3. Read and agree to the **Direct Link prerequisites**.
 4. Click **Submit** for your changes to take effect.
 
 If you modify the speed or routing option, the pricing is changed accordingly.

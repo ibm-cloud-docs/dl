@@ -30,6 +30,7 @@ Direct Link
 
     {: .navgroup id="reference"}
     [API reference](https://{DomainName}/apidocs/direct_link)
+    cli.md
     iam.md
     at_events.md
     external-resources.md
