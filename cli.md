@@ -31,11 +31,10 @@ This document provides a reference of the command-line interface (CLI) commands 
 The commands are organized into the sections listed in the navigation pane on the right.
 {:shortdesc}
 
-By default, the API endpoint is set to `directlink.cloud.ibm.com`. If you need to set a different endpoint, then you can set the environment variable `IBMCLOUD_DL_API_ENDPOINT` to that endpoint. For example:
+Set the environment variable `IBMCLOUD_DL_VERSION` to mention the version, which is used in query parameters for all the APIs. Set the variable in the format `YYYY-MM-DD`. For example:  
 ```
-`export IBMCLOUD_DL_API_ENDPOINT=directlink.test.cloud.ibm.com`
+export IBMCLOUD_DL_VERSION=2019-10-25
 ```
-Set the environment variable `IBMCLOUD_DL_VERSION` to mention the version, which is used in query params for all the APIs.
 
 ## Before you begin
 {: #cli-ref-prereqs}
