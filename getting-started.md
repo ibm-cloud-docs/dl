@@ -29,9 +29,9 @@ subcollection: dl
 # Getting started with IBM Cloud Direct Link Dedicated
 {: #get-started-with-ibm-cloud-dl}
 
-Use IBM Cloud Direct Link to connect your on-premises resources to your cloud resources seamlessly. The speed and reliability of Direct Link lets you extend your organization’s data center network and offers more consistent, higher-throughput connectivity&mdash;without touching the public internet.
+Use IBM Cloud Direct Link to seamlessly connect your on-premises resources to your cloud resources. The speed and reliability of Direct Link lets you extend your organization’s data center network and offers more consistent, higher-throughput connectivity&mdash;without touching the public internet.
 
-IBM introduces a new Direct Link Dedicated release for VPC&mdash;the first of our "next generation" Direct Link offerings. Currently, this "limited availability" release only services the North America geography (Washington, D.C. and Dallas markets) with more locations being rolled out in 2020.
+IBM introduces a new release of Direct Link Dedicated now suporting VPC resources&mdash;the first of our "next generation" Direct Link offerings. Currently, this "limited availability" release only services the North America geography (Washington, D.C. and Dallas markets) with more locations being rolled out in 2020.
 
 Highlights include:
 
@@ -44,8 +44,8 @@ Highlights include:
 Capabilities coming soon:
 
 * Support for Virtual Private Endpoints (VPEs) from customer on-premises from a single customer account.
-* Support for a Direct Link connection to venues, such as CMS, Blockchain, SAP on Power, and more.
-* Support for a Direct Link connection to Public; for example, ICOS.
+* Support for a Direct Link connection to venues, such as Blockchain, SAP on Power, and more.
+* Support for a Direct Link connection to Public services; for example, IBM Cloud Object Storage (ICOS).
 
 To get started using IBM Cloud Direct Link Dedicated, follow these [step-by-step instructions](/docs/dl?topic=dl-how-to-order-ibm-cloud-dl-dedicated). If you want help with getting started, open a case through the [IBM Cloud console](https://cloud.ibm.com/unifiedsupport/cases/add){: external}, or you can contact your IBM Cloud Sales representative.
 
