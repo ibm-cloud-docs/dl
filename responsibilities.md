@@ -37,7 +37,7 @@ Learn about management responsibilities and terms and conditions that you have w
 
 IBM provides you with the ability to connect to an enterprise cloud platform to deploy your workload. You choose how to set up, integrate, back up, and operate your workloads in the cloud.
 
-### Direct Link and IBM Cloud infrastructure
+### Direct Link and {{site.data.keyword.cloud_notm}} infrastructure
 
 IBM's responsibilities:
 - Provide partner relationships with physical locations for Direct Link interconnects.
@@ -63,15 +63,15 @@ Your responsibilities:
 - Encrypt your data.
 - Assess and implement your wanted security measures.
 
-## Abuse of IBM Cloud Virtual Private Cloud
+## Abuse of {{site.data.keyword.cloud_notm}} Virtual Private Cloud
 {: #abuse-of-vpc}
 
-Clients must not misuse {{site.data.keyword.cloud}} Infrastructure.
+Clients must not misuse {{site.data.keyword.cloud}} infrastructure.
 
 Misuse includes:
 - Any illegal activity
 - Distribution or execution of malware
-- Harming IBM Cloud Infrastructure or interfering with the use of IBM Cloud Infrastructure
+- Harming {{site.data.keyword.cloud_notm}} infrastructure or interfering with the use of {{site.data.keyword.cloud_notm}} infrastructure
 - Harming or interfering with the use of any other service or system
 - Unauthorized access to any service or system
 - Unauthorized modification of any service or system

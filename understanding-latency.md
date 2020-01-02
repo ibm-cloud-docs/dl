@@ -58,7 +58,7 @@ Given that our shared goal is to minimize latency, it makes sense to limit the n
 
  * Understand how your providers route traffic: When you know more details about how your data is transferred to customers around the world, you can make better decisions about where you host your data.
 
-## How IBM Cloud minimizes network latency
+## How {{site.data.keyword.cloud_notm}} minimizes network latency
 {: #how-ibm-cloud-minimizes-network-latency}
 
 To minimize latency, {{site.data.keyword.cloud_notm}} took a unique approach to building our network. All of our data centers are connected to network points of presence (PoPs), and all of our network points of presence are connected to each other through our global backbone network. Because IBM maintains our own global backbone network, our network operations team can control network paths and data transfers more precisely than if we relied on other providers to move data between geographies.

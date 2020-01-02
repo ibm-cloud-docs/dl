@@ -27,8 +27,7 @@ subcollection: dl
 # CLI reference
 {: #direct-link-cli-commands}
 
-This document provides a reference of the command-line interface (CLI) commands available for IBM Cloud Direct Link Dedicated.
-The commands are organized into the sections listed in the navigation pane on the right.
+This document provides a reference of the command-line interface (CLI) commands available for {{site.data.keyword.cloud}} Direct Link Dedicated. The commands are organized into the sections listed in the navigation pane on the right.
 {:shortdesc}
 
 Set the environment variable `IBMCLOUD_DL_VERSION` to mention the version, which is used in query parameters for all the APIs. Set the variable in the format `YYYY-MM-DD`. For example:  
@@ -39,10 +38,10 @@ export IBMCLOUD_DL_VERSION=2019-10-25
 ## Before you begin
 {: #cli-ref-prereqs}
 
-Follow these instructions to use the Direct Link Command Line Interface, which is implemented as an IBM Cloud CLI plug-in. It provides the user with the means to manage their service instance and its associated resource(s) via a command line user interface.
+Follow these instructions to use the Direct Link Command Line Interface, which is implemented as an {{site.data.keyword.cloud_notm}} CLI plug-in. It provides the user with the means to manage their service instance and its associated resource(s) via a command line user interface.
 
-1. Install the [IBM Cloud CLI](/docs/cli?topic=cloud-cli-install-ibmcloud-cli){: external}.
-1. Install the `cloud-dl` CLI plug-in to the IBM Cloud CLI.
+1. Install the [{{site.data.keyword.cloud_notm}} CLI](/docs/cli?topic=cloud-cli-install-ibmcloud-cli){: external}.
+1. Install the `cloud-dl` CLI plug-in to the {{site.data.keyword.cloud_notm}} CLI.
 
    To install:
 

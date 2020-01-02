@@ -30,6 +30,7 @@ subcollection: dl
 {: #add-virtual-connection}
 
 You can add a virtual connection when you create a Direct Link gateway using the **Network connections** option. You can also add a virtual connection to the gateway either before or after the gateway is moved to **Provisioned** state.
+{: shortdesc}
 
 A gateway is restricted from adding connections during **In review** and some **In progress** states.
 {:note}
@@ -41,7 +42,7 @@ To add a virtual connection, follow these steps:
 You can create a new connection to the logged-in account, or request a connection to a network within another account.
 
 2. Select a network connection and then select your region from the menu list.
-3. Select the VPC network to attach to the gateway and enter a name for the connection. For connections to VPC networks in another IBM Cloud account, enter the CRN of the target VPC.
+3. Select the VPC network to attach to the gateway and enter a name for the connection. For connections to VPC networks in another {{site.data.keyword.cloud_notm}} account, enter the CRN of the target VPC.
 4. Click **Add** to attach the virtual connection to the gateway.
 
 After adding the virtual connection to the gateway, the VPC name displays under the virtual connections section on the gateway's details page.
@@ -52,7 +53,7 @@ You can add only one classic infrastructure virtual connection to a provisioned 
 ## Cross-account network connectivity with Direct Link
 {: #cross-account-virtual-connection}
 
-You can request virtual connections to networks in other IBM Cloud accounts only for Direct Link gateways that are already **Provisioned**.
+You can request virtual connections to networks in other {{site.data.keyword.cloud_notm}} accounts only for Direct Link gateways that are already **Provisioned**.
 
 Only one pending request is allowed per gateway. To create additional requests, you can cancel the pending virtual connection request, or wait for it to be accepted. Connection requests expire if not accepted within 72 hours.
 {:note}

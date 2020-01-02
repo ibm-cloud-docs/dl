@@ -26,15 +26,15 @@ subcollection: dl
 {:generic: data-hd-programlang="generic"}
 {:download: .download}  
 
-# Ordering IBM Cloud Direct Link Dedicated
+# Ordering {{site.data.keyword.cloud_notm}} Direct Link Dedicated
 {: #how-to-order-ibm-cloud-dl-dedicated}
 
-To order IBM Cloud Direct Link Dedicated, follow these steps.
+To order {{site.data.keyword.cloud}} Direct Link Dedicated, follow these steps.
 {:shortdesc}
 
 1. Log in to your [{{site.data.keyword.cloud_notm}}](https://{DomainName}/){:external} account.
 1. Select the **Navigation Menu** ![Navigation Menu icon](images/menu_icon.png) on the upper left, then click **Hybrid Networking**.
-1. Select **Direct Link**. Any existing IBM Cloud Direct Link connections are shown.
+1. Select **Direct Link**. Any existing {{site.data.keyword.cloud_notm}} Direct Link connections are shown.
 1. Click **Order Direct Link +** in the upper right of the page.
 1. In the order form, complete the following configuration information:
    * Enter a name for your Direct Link Dedicated connection.
@@ -53,7 +53,7 @@ To order IBM Cloud Direct Link Dedicated, follow these steps.
 
    * Optionally, select the network connection to be attached to the Direct Link gateway, and then enter a connection name. To add multiple network connections to the Direct Link gateway, click **Add connection+**. You can create one of the following connections:
 
-      * **Classic Infrastructure** networks allow you to connect to IBM Cloud classic resources. Only one classic infrastructure connection is allowed per Direct Link gateway.
+      * **Classic Infrastructure** networks allow you to connect to {{site.data.keyword.cloud_notm}} classic resources. Only one classic infrastructure connection is allowed per Direct Link gateway.
       * **VPC** networks can contain either first or second generation compute resources, allowing you to connect to your account’s VPC resources.
 
    You cannot request a connection to a network in another account when you create a gateway. However, you can request connection to a network in another account after a gateway is provisioned. You also can create classic infrastructure and VPC connections after a gateway is created. For more information, see [Adding virtual connections to a Direct Link gateway](/docs/dl?topic=dl-add-virtual-connection).
@@ -64,7 +64,7 @@ To order IBM Cloud Direct Link Dedicated, follow these steps.
 
    A summary of your order is displayed with pricing estimates.
 
-1. Agree to the [**Direct Link prerequisites**](/docs/dl?topic=dl-ibm-cloud-dl-dedicated-questionnaire) and review Cloud Services [**terms**](https://www.ibm.com/software/sla/sladb.nsf/sla/bm-8695-01). Then, click **Create** to complete your order. You can request assistance from IBM Cloud Sales engineers at any time.
+1. Agree to the [**Direct Link prerequisites**](/docs/dl?topic=dl-ibm-cloud-dl-dedicated-questionnaire) and review Cloud Services [**terms**](https://www.ibm.com/software/sla/sladb.nsf/sla/bm-8695-01). Then, click **Create** to complete your order. You can request assistance from {{site.data.keyword.cloud_notm}} Sales engineers at any time.
 1. Complete the connection.
 
 ## Completing the connection
@@ -76,8 +76,8 @@ Here's how the process works.
 
 1. After the Letter of Authorization (LOA) is uploaded by the IBM team, the connection status changes to **Waiting LOA Review**. At this time, you can click the corresponding buttons to preview and accept the LOA. After accepting the LOA, you can download the LOA document.
 2. After accepting the LOA and downloading it, the connection status changes to **Waiting completion notice upload**. At this time, you must take the LOA document to your carrier and get the completion notice.
-3. After receiving the completion notice, upload it. The specific connection shows an option in the IBM Cloud console to upload the completion notice. Notice that the connection status changes to **Completion notice review in progress**.
+3. After receiving the completion notice, upload it. The specific connection shows an option in the {{site.data.keyword.cloud_notm}} console to upload the completion notice. Notice that the connection status changes to **Completion notice review in progress**.
 4. The IBM team reviews the completion notice and accepts it. The IBM team then places the cross-connect fiber in the ports mentioned in the LOA. This completes the Direct Link configuration and the connection status changes to **Provisioned**.
-5. **Link status** indicates **Up**. You must then configure the BGP parameters on the Customer Edge Router (CER) for BGP session establishment. After this is completed, both the **BGP status** and **Link status** indicate **Up**.
+5. **Link status** indicates **Up**. You must then configure the BGP parameters on the Customer Edge Router (CER) for BGP session establishment. After this is completed, both the **BGP status** and **Link status** indicate **Up**.  
 
-  **Note**: It can take up to 30 minutes for the link status to update. 
+  **Note**: It can take up to 30 minutes for the link status to update.

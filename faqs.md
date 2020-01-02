@@ -40,7 +40,7 @@ The new Direct Link offering differs from the Direct Link classic infrastructure
 
 The initial rollout of Direct Link is in the Dallas and Washington D.C. sites. The zone/region model allows for multiple data centers to exist in a single zone, and IBM intends to expand the AZs in the future. 
 
-For more information on the differences between the new Direct Link Dedicated offering and the Classic version, see [How do I know which type of IBM Cloud Direct Link I need?](/docs/direct-link?topic=direct-link-get-started-with-ibm-cloud-direct-link#how-do-i-know-which-type-of-ibm-cloud-direct-link-i-need-).
+For more information on the differences between the new Direct Link Dedicated offering and the Classic version, see [How do I know which type of {{site.data.keyword.cloud_notm}} Direct Link I need?](/docs/direct-link?topic=direct-link-get-started-with-ibm-cloud-direct-link#how-do-i-know-which-type-of-ibm-cloud-direct-link-i-need-).
 {: tip}
 
 ## What date is Direct Link available?
@@ -73,7 +73,7 @@ Six MZRs are in plan for 1H20 (Frankfurt, Tokyo, London, and Sydney in 1H20; To
 
 Any existing customers on classic IaaS can remain in classic IaaS and continue to access classic IaaS outside of VPC-enabled data centers on Direct Link or Direct Link on Classic.
 
-## Will Direct Link be available in all IBM Cloud data centers?
+## Will Direct Link be available in all {{site.data.keyword.cloud_notm}} data centers?
 {: #dc}
 {: faq}
 
@@ -131,7 +131,7 @@ Direct Link has a completely new user interface and records system, requiring yo
 {: #move-classic-to-new-performance}
 {:faq}
 
-The new Direct Link performs better as it is not required to exist inside a customer's global VRF for classic IaaS. It is a true access platform to all of IBM Cloud.
+The new Direct Link performs better as it is not required to exist inside a customer's global VRF for classic IaaS. It is a true access platform to all of {{site.data.keyword.cloud_notm}}.
 
 ## In terms of cost, what do you pay for?
 {: #cost}
@@ -140,7 +140,7 @@ The new Direct Link performs better as it is not required to exist inside a cust
 There are two pricing plans: metered and unmetered. Metered has a port fee and bill per GB egressed across the Direct Link.
 Unmetered billing has a higher port fee and no usage charges, which is ideal for customers who consistently egress traffic across their direct link.
 
-## How does IBM Cloud Direct Link work?
+## How does {{site.data.keyword.cloud_notm}} Direct Link work?
 {: #how-does-ibm-cloud-dl-work}
 {:faq}
 
@@ -152,7 +152,7 @@ For every Direct Link customer, the {{site.data.keyword.cloud}} team assigns a s
 
 The fees for Direct Link cover the cost of service termination on the {{site.data.keyword.cloud_notm}} infrastructure.
 
-Infrastructure services are billed in advance and begin upon acceptance of a client’s order, however, due to the nature of IBM Cloud Direct Link, the Direct Link service billing begins when a Border Gateway Protocol (BGP) session is established with {{site.data.keyword.cloud_notm}}, or 30 days after the service key is provided to the client.
+Infrastructure services are billed in advance and begin upon acceptance of a client’s order, however, due to the nature of {{site.data.keyword.cloud_notm}} Direct Link, the Direct Link service billing begins when a Border Gateway Protocol (BGP) session is established with {{site.data.keyword.cloud_notm}}, or 30 days after the service key is provided to the client.
 
 Billing stops after (1) a customer requests a circuit to be deleted AND (2) the provider has de-provisioned the circuit.
 
@@ -162,11 +162,11 @@ Billing stops after (1) a customer requests a circuit to be deleted AND (2) the 
 
 You might have extra charges from your provider. Refer to your provider for their fee information.
 
-## How can I achieve redundancy with IBM Cloud Direct Link?
+## How can I achieve redundancy with {{site.data.keyword.cloud_notm}} Direct Link?
 {: #how-can-i-achieve-redundancy-with-ibm-cloud-dl}
 {:faq}
 
-Direct Link does not provide an inherently redundant service. Direct Link can provide diverse connections that enable customers to create redundancy via BGP. You can achieve diversity with Direct Link by connecting to more than one IBM Cloud Direct Link Dedicated provider for {{site.data.keyword.cloud_notm}}.
+Direct Link does not provide an inherently redundant service. Direct Link can provide diverse connections that enable customers to create redundancy via BGP. You can achieve diversity with Direct Link by connecting to more than one {{site.data.keyword.cloud_notm}} Direct Link Dedicated provider for {{site.data.keyword.cloud_notm}}.
 
 ## What is the difference between the default "local" routing and the global routing add-on for Direct Link?
 {: #what-is-the-difference-between-the-default-local-routing-and-the-global-routing-add-on-for-dl}
@@ -174,7 +174,7 @@ Direct Link does not provide an inherently redundant service. Direct Link can pr
 
 The local routing option is the default routing option. If your Direct Link is connected at the local PoP, it provides access to all data centers within that same market. In some markets, local routing is applicable for stand-alone PoP locations and direct links that are terminated at the data center. Check [the list of expanded markets](/docs/infrastructure/dl?topic=dl-pricing-for-ibm-cloud-dl#expanded-ibm-cloud-dl-local-markets) for more information.   
 
-With our standard Direct Link offering, you can send traffic between the data centers in your selected region. If you need access to other data centers outside of the specified region, you must order the global routing add-on. For example, you might use global routing to share workloads between dispersed IBM Cloud resources (such as Dallas to Ashburn, or Dallas to Frankfurt).
+With our standard Direct Link offering, you can send traffic between the data centers in your selected region. If you need access to other data centers outside of the specified region, you must order the global routing add-on. For example, you might use global routing to share workloads between dispersed {{site.data.keyword.cloud_notm}} resources (such as Dallas to Ashburn, or Dallas to Frankfurt).
 
 ## Why does a global routing add-on package exist for Direct Link?
 {: #why-does-a-global-routing-add-on-package-exist-for-dl}
@@ -198,7 +198,7 @@ Yes, as long as you order Direct Link with the global routing add-on.
 {: #can-i-restrict-the-regions-that-my-dl-can-reach}
 {:faq}
 
-No. IBM Cloud offers two options: (1) a local market only, or (2) all regions, with the global routing add-on.
+No. {{site.data.keyword.cloud_notm}} offers two options: (1) a local market only, or (2) all regions, with the global routing add-on.
 
 ## Can IBM Support IPv6 over Direct Link?
 {: #can-ibm-support-ipv6-over-dl}
@@ -216,7 +216,7 @@ No. IPv6 is public only.
 {: #does-dl-support-any-type-of-qos}
 {:faq}
 
-We are unable to support any QoS guarantees. QoS requires MPLS mapping between each of our service suppliers and IBM Cloud. Cloud Service providers generally cannot support QoS because it must reach from end-to-end and involve every device in between. No workaround is currently available by "tunneling" or any other method.
+We are unable to support any QoS guarantees. QoS requires MPLS mapping between each of our service suppliers and {{site.data.keyword.cloud_notm}}. Cloud Service providers generally cannot support QoS because it must reach from end-to-end and involve every device in between. No workaround is currently available by "tunneling" or any other method.
 
 ## Does Direct Link support Jumbo frames?
 {: #does-dl-support-jumbo-frames}

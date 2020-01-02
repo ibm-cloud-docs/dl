@@ -26,24 +26,25 @@ subcollection: dl
 {:generic: data-hd-programlang="generic"}
 {:download: .download}  
 
-# About the IBM Cloud Direct Link Dedicated solution
+# About the {{site.data.keyword.cloud_notm}} Direct Link Dedicated solution
 {: #dl-dedicated-solution}
 
-The IBM Cloud Direct Link Dedicated solution lets customers terminate a single-tenant, fiber-based cross-connect into their own {{site.data.keyword.cloud_notm}} private network connection. This offering can be used by customers with colocation facilities that are next to IBM Cloud PoPs and data centers. It can also be used by network service providers (NSPs) that deliver circuits to customer premises or to other data centers.
+The {{site.data.keyword.cloud}} Direct Link Dedicated solution lets customers terminate a single-tenant, fiber-based cross-connect into their own {{site.data.keyword.cloud_notm}} private network connection. This offering can be used by customers with colocation facilities that are next to {{site.data.keyword.cloud_notm}} PoPs and data centers. It can also be used by network service providers (NSPs) that deliver circuits to customer premises or to other data centers.
+{: shortdesc}
 
 ## Use cases
 
-These use cases are best for working with hybrid workloads, cross-provider workloads, large or frequent data transfers, private workloads, and environment administration. Both cases are are used: (1) when you want dedicated connectivity for mission-critical workloads, (2) when you need dedicated, single-tenant connections between a client and IBM, (3) when diverse ports in a point of presence (PoP) are available, or (4) when you require link aggregation group (LAG) support for 10 GB or greater speeds. 
+These use cases are best for working with hybrid workloads, cross-provider workloads, large or frequent data transfers, private workloads, and environment administration. Both cases are used: (1) when you want dedicated connectivity for mission-critical workloads, (2) when you need dedicated, single-tenant connections between a client and IBM, (3) when diverse ports in a point of presence (PoP) are available, or (4) when you require link aggregation group (LAG) support for 10 GB or greater speeds.
 
-### Use case 1: Customer on-premises facility to IBM Cloud
+### Use case 1: Customer on-premises facility to {{site.data.keyword.cloud_notm}}
 
 This use case is recommended when deterministic latency is required.
 
 ![Figure 1](/images/direct-link-dedicated.png)
 
-### Use case 2: Customer colocation to IBM Cloud
+### Use case 2: Customer colocation to {{site.data.keyword.cloud_notm}}
 
-This use case is recommended when ultra-low latency is required. 
+This use case is recommended when ultra-low latency is required.
 
 ![Figure 2](/images/dedicated-model-colo.png)
 
@@ -63,4 +64,4 @@ This use case is recommended when ultra-low latency is required.
 
 **Redundancy**: {{site.data.keyword.cloud_notm}} does not provide redundancy as part of the product. To establish redundant connectivity, customer must acquire two connections on diverse cross connect routers (XCRs) and configure BGP on each Direct Link connection as they prefer. Examples include options such as: _prefer Lowest MED_, _prefer highest local-preference_, or _prefer shorter AS paths_.
 
-**Local and global routing options:** The local routing option is the default routing option. It provides access to data centers within the same market as the Direct Link PoP (denoted, for example, as DAL, AMS, or MEL). The global routing option is required as an add-on to connect your IBM Cloud resources to other IBM Cloud resources in data centers outside the local market. It provides a way to share workloads between IBM Cloud resources (for example Dallas to Ashburn, or Dallas to Frankfurt).
+**Local and global routing options:** The local routing option is the default routing option. It provides access to data centers within the same market as the Direct Link PoP (denoted, for example, as DAL, AMS, or MEL). The global routing option is required as an add-on to connect your {{site.data.keyword.cloud_notm}} resources to other {{site.data.keyword.cloud_notm}} resources in data centers outside the local market. It provides a way to share workloads between {{site.data.keyword.cloud_notm}} resources (for example Dallas to Ashburn, or Dallas to Frankfurt).

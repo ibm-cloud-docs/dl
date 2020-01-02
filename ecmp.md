@@ -30,10 +30,11 @@ subcollection: dl
 {: #more-about-ecmp}
 
 Equal-cost multipath (ECMP) is a feature of border gateway protocol (BGP). Some customers asked us about using ECMP as a way to achieve redundancy. However, ECMP alone is not sufficient. This section explains why.
+{: shortdesc}
 
 ## Use Case 1: ECMP without diversity
 
-ECMP isn’t designed for creating redundant connections but for balancing the load over two links. With ECMP on {{site.data.keyword.cloud_notm}}, both connections must terminate to the same IBM Cloud cross-connect router (XCR), which makes it a single point of failure. (In other words, ECMP can be provisioned as two sessions only on the same {{site.data.keyword.cloud_notm}} XCR).
+ECMP isn’t designed for creating redundant connections but for balancing the load over two links. With ECMP on {{site.data.keyword.cloud_notm}}, both connections must terminate to the same {{site.data.keyword.cloud_notm}} cross-connect router (XCR), which makes it a single point of failure. (In other words, ECMP can be provisioned as two sessions only on the same {{site.data.keyword.cloud_notm}} XCR).
 
 ECMP for redundancy or load balancing can impact diversity at the IBM XCR and careful design is recommended for projects with Diversity or High Availability (HA) requirements.
 
