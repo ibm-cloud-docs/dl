@@ -34,7 +34,7 @@ The {{site.data.keyword.cloud}} Direct Link Dedicated solution lets customers te
 
 ## Use cases
 
-These use cases are best for working with hybrid workloads, cross-provider workloads, large or frequent data transfers, private workloads, and environment administration. Both cases are used: (1) when you want dedicated connectivity for mission-critical workloads, (2) when you need dedicated, single-tenant connections between a client and IBM, (3) when diverse ports in a point of presence (PoP) are available, or (4) when you require link aggregation group (LAG) support for 10 GB or greater speeds.
+The following use cases are best for working with hybrid workloads, cross-provider workloads, large or frequent data transfers, private workloads, and environment administration. Both cases are used: (1) when you want dedicated connectivity for mission-critical workloads, (2) when you need dedicated, single-tenant connections between a client and IBM, (3) when diverse ports in a point of presence (PoP) are available, or (4) when you require link aggregation group (LAG) support for 10 GB or greater speeds.
 
 ### Use case 1: Customer on-premises facility to {{site.data.keyword.cloud_notm}}
 
