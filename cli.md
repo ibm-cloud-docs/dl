@@ -63,7 +63,7 @@ Show Direct Link CLI plug-in information.
 
 ---
 
-### `ibmcloud dl --help`
+### `ibmcloud dl --h`
 {: #get-command-help}
 
 Get help on Direct Link commands.
@@ -72,108 +72,105 @@ Get help on Direct Link commands.
 
 ---
 
-## Gateway commands
-{: #gateway-commands}
-
-### `ibmcloud dl gateways`
+## `ibmcloud dl gws`
 {: #list-all-gateways}
 
 List all gateways.
 
-`ibmcloud dl gateways|gws [--output JSON]`
+`ibmcloud dl gateways|gws [--output json]`
 
-#### Command options
+### Command options
 {: #command-options-help-list-gateways}
 
-   `--output JSON`: Specify if you want the output displayed in JSON format.
+   `--output json`: Specify if you want the output displayed in JSON format.
 
 ---
 
-### `ibmcloud dl gateway <gateway_id>`
+## `ibmcloud dl gw GATEWAY_ID`
 {: #get-help-specific-gateway}
 
 View details of a specific gateway.
 
-`ibmcloud dl gateway|gw <gateway_id> [--output JSON]`
+`ibmcloud dl gateway|gw GATEWAY_ID [--output json]`
 
-#### Command options
+### Command options
 {: #command-options-gateway-view-details}
 
-   `<gateway_id>` : Specify the ID of the gateway.
+   `GATEWAY_ID` : Specify the ID of the gateway.
 
-   `--output JSON`: Specify if you want the output displayed in JSON format.
+   `--output json`: Specify if you want the output displayed in JSON format.
 
-#### Examples
+### Examples
 {: #example-get-gateway}
 
 `ibmcloud dl gateway a771366f-2c8c-49f6-a23b-9d49fad035a3`
 
-`ibmcloud dl gw a771366f-2c8c-49f6-a23b-9d49fad035a3 -output JSON`
+`ibmcloud dl gw a771366f-2c8c-49f6-a23b-9d49fad035a3 -output json`
 
 ---
 
-### `ibmcloud dl gateway-create <gateway_name> <options>`
+## `ibmcloud dl gwc GATEWAY_NAME OPTIONS`
 {: #create-gateway}
 
 Create a gateway.
 
-`ibmcloud dl gateway-create|gwc <gateway_name> <options> [-–help|--h] [-–output JSON]`
+`ibmcloud dl gateway-create|gwc GATEWAY_NAME --bgp-asn VALUE --cross-connect-router XCR --global|--local --metered|--unmetered -location-name LOCATION --speed-mbps SPEED_MBPS --type TYPE --bgp-base-cidr CIDR --bgp-ibm-cidr CIDR -bgp-cer-cidr CIDR [-–help|--h] [-–output json]`
 
- #### Command options
+ ### Command options
 {: #command-options-gateway-create}
 
-   `<gateway_name>` : Specify a name for the new gateway.
+   `GATEWAY_NAME` : Specify a name for the new gateway.
 
-   `--bgp-asn <value>` : Specify either the default value of `64999`, or select an ASN from allowed ranges.
+   `--bgp-asn VALUE` : Specify either the default value of `64999`, or select an ASN from allowed ranges.
 
-   `--cross-connect-router <xcr>` : Select the IBM cross-connect router for the Direct Link connection.
+   `--cross-connect-router XCR` : Select the IBM cross-connect router for the Direct Link connection.
 
-   `--<routing_value>` : Specify `--global` or `--local` routing.
+   `--global|--local` : Specify routing option.  Values are `--global` or `--local`.
 
-   `--<billing_value>` : Specify `--metered` or `--unmetered` billing.
+   `--metered|--unmetered` : Specify a billing value. Values are `--metered` or `--unmetered`.
 
-   `--location-name <location>` : Specify the location name; for example, `dal10`.
+   `--location-name LOCATION` : Specify the location name; for example, `dal10`.
 
-   `--speed-mbps <speed_mbps>` : Specify a value for the speed.
+   `--speed-mbps SPEED_MBPS` : Specify a value for the speed.
 
-   `--type <type>` : Specify the offering type; for example, `Dedicated`.
+   `--type TYPE` : Specify the Direct Link offering type. Values are `dedicated` or `dedicated_hosting`.
 
-   `--bgp-base-cidr <cidr>` : Specify the CIDR.
+   `--bgp-base-cidr CIDR` : Specify the CIDR.
 
-   `--bgp-ibm-cidr <cidr>` : Specify the CIDR.
+   `--bgp-ibm-cidr CIDR` : Specify the CIDR.
 
-   `--bgp-cer-cidr <cidr>` : Specify the CIDR.
+   `--bgp-cer-cidr CIDR` : Specify the CIDR.
 
    `--help|--h` : Optional: Get help on this command.   
 
-   `--output JSON`: Optional: Specify if you want the output displayed in JSON format.
+   `--output json`: Optional: Specify if you want the output displayed in JSON format.
 
-#### Examples
+### Examples
 {: #example-create-gateway}
 
 `ibmcloud dl gateway-create dl-cli-gw --bgp-asn 64999 --cross-connect-router LAB-xcr01.dal09 --global --metered --location-name dal09 --speed-mbps 1000 --type dedicated --bgp-base-cidr 169.254.0.51/30 --bgp-ibm-cidr 169.254.0.52/30 --bgp-cer-cidr 169.254.0.53/30`
 
-`ibmcloud dl gateway-create dl-cli-gw --bgp-asn 64999 --cross-connect-router LAB-xcr01.dal09 --global --metered --location-name dal09 --speed-mbps 1000 --type dedicated --bgp-base-cidr 169.254.0.51/30 --bgp-ibm-cidr 169.254.0.52/30 --bgp-cer-cidr 169.254.0.53/30 --output JSON`
+`ibmcloud dl gateway-create dl-cli-gw --bgp-asn 64999 --cross-connect-router LAB-xcr01.dal09 --global --metered --location-name dal09 --speed-mbps 1000 --type dedicated --bgp-base-cidr 169.254.0.51/30 --bgp-ibm-cidr 169.254.0.52/30 --bgp-cer-cidr 169.254.0.53/30 --output json`
 
 ---
 
-### `ibmcloud dl gateway-delete *gateway_id*`
+## `ibmcloud dl gwd GATEWAY_ID`
 {: #delete-gateway}
 
 Delete a specific gateway.
 
-`ibmcloud dl gateway-delete|gwd <gateway_id> [--help|--h] [--force|--f]`
+`ibmcloud dl gateway-delete|gwd GATEWAY_ID [--help|--h] [--force|--f]`
 
-#### Command options
+### Command options
 {: #command-options-gateway-delete}
 
-   `<gateway_id>`: Specify the ID of the gateway.
+   `GATEWAY_ID`: Specify the ID of the gateway.
 
    `--help|--h` : Optional: Get help on this command.   
 
    `--force|--f`: Optional: Force the delete operation without confirmation.
 
-#### Examples
+### Examples
 {: #example-delete-gateway1}
 
 `ibmcloud dl gateway-delete e281b18b-0dba-49ee-9c64-aea588b7f1fd`
@@ -182,196 +179,187 @@ Delete a specific gateway.
 
 ---
 
-### `ibmcloud dl gateway-update <gateway_id>`
+## `ibmcloud dl gwu GATEWAY_ID OPTIONS`
 {: #update-gateway}
 
 Update a specific gateway.
 
-`ibmcloud dl gateway-update|gwu <gateway_id> [--global <value>] [--speed-mbps <speed_mbps>][--loa-reject-reason <loa_reject_reason>][--operational-status <operational_status>][--output JSON] [--help|--h]  `
+`ibmcloud dl gateway-update|gwu GATEWAY_ID [--global VALUE] [--speed-mbps SPEED_MBPS][--loa-reject-reason LOA_REJECT_REASON][--operational-status OPERATIONAL_STATUS][--output json] [--help|--h]  `
 
-#### Command options
+### Command options
 {: #command-options-specific-gateway}
 
-   `<gateway_id>`: Specify the ID of the gateway.
+   `GATEWAY_ID`: Specify the ID of the gateway.
 
-   `--global <value>` : Gateways with global routing can connect to networks outside their region. Specify a `true` or `false` value.
+   `--global VALUE` : Gateways with global routing can connect to networks outside their region. Specify a `true` or `false` value.
 
-   `--speed-mbps <speed_mbps>` : Specify the speed of the gateway in mbps.
+   `--speed-mbps SPEED_MBPS` : Specify the speed of the gateway in MBPS.
 
-   `--loa-reject-reason <loa_reject_reason>` : Specify the reason for the Letter of Authorization (LOA) rejection.
+   `--loa-reject-reason LOA_REJECT_REASON` : Specify the reason for the Letter of Authorization (LOA) rejection.
 
-   `--operational-status <operational_status>` : Specify the gateway's operational status. Values are `loa_accepted` or `loa_rejected`.
+   `--operational-status OPERATIONAL_STATUS` : Specify the gateway's operational status. Values are `loa_accepted` or `loa_rejected`.
 
-   `--output JSON`: Optional: Specify if you want the output displayed in JSON format.
+   `--output json`: Optional: Specify if you want the output displayed in JSON format.
 
    `--help|--h` : Optional: Get help on this command.   
 
-#### Examples
+### Examples
 {: #example-update-gateway1}
 
 `ibmcloud dl gateway-update 8ba9e7b0-dded-400e-ad7e-6481dad0b157 --speed-mbps 5000 --name dl-cli-gw-updated`
 
-`ibmcloud dl gateway-update 8ba9e7b0-dded-400e-ad7e-6481dad0b157 --speed-mbps 5000 --name dl-cli-gw-updated --output JSON`
+`ibmcloud dl gateway-update 8ba9e7b0-dded-400e-ad7e-6481dad0b157 --speed-mbps 5000 --name dl-cli-gw-updated --output json`
 
 ---
 
-## Location command
-{: #location-command}
-
-### `ibmcloud dl location <location_name> <offering_type>`
+## `ibmcloud dl loc LOCATION_NAME OFFERING_TYPE`
 {: #location-retrieve}
 
 Retrieves location-specific information for a given offering type.
 
-`ibmcloud dl location|loc <location_name> <offering_type> [--output JSON] [--help|--h]`
+`ibmcloud dl location|loc LOCATION_NAME OFFERING_TYPE [--output json] [--help|--h]`
 
-#### Command options
+### Command options
 {: #command-options-location}
 
-  `<location_name>`: Specify the name of the location.
+  `LOCATION_NAME`: Specify the name of the location.
 
-  `<offering_type>`: Specify the Direct Link offering type. Values are `Dedicated` or `Dedicated_Hosting`.
+  `OFFERING_TYPE`: Specify the Direct Link offering type. Values are `dedicated` or `dedicated_hosting`.
 
-  `--output JSON`: Optional: Specify if you want the output displayed in JSON format.
+  `--output json`: Optional: Specify if you want the output displayed in JSON format.
 
    `--help|--h` : Optional: Get help on this command.   
 
-#### Examples
+### Examples
 {: #example-update-location}
 
-`ibmcloud dl location "Washington 2" DEDICATED`
+`ibmcloud dl location "Washington 2" dedicated`
 
-`ibmcloud dl loc "Washington 2" DEDICATED --output JSON`
+`ibmcloud dl loc "Washington 2" dedicated --output json`
 
 ---
 
-## Offering speed command
-{: #offering-speeds-command}
-
-### `ibmcloud dl offering-speeds <offering_type>`
+## `ibmcloud dl ospeeds OFFERING_TYPE`
 {: #offering-speeds-list}
 
 Lists all offering speeds for an offering type.
 
-`ibmcloud dl offering-speeds|ospeeds <offering_type> [--output JSON]`
+`ibmcloud dl offering-speeds|ospeeds OFFERING_TYPE [--output json]`
 
-#### Command options
+### Command options
 {: #command-options-offering-speeds-type}
 
-  `<offering_type>`: Specify the Direct Link offering type. Values are `Dedicated` or `Dedicated_Hosting`.
+  `OFFERING_TYPE`: Specify the Direct Link offering type. Values are `dedicated` or `dedicated_hosting`.
 
-  `--output JSON`: Optional: Specify if you want the output displayed in JSON format.
+  `--output json`: Optional: Specify if you want the output displayed in JSON format.
 
-#### Examples
+### Examples
 {: #example-offering-type}
 
-ibmcloud dl offering-speeds DEDICATED
+ibmcloud dl offering-speeds dedicated
 
-ibmcloud dl ospeeds DEDICATED_HOSTING --output JSON
+ibmcloud dl ospeeds dedicated_hosting --output json
 
 ---
 
-## Virtual connection command
-{: #virtual-connection-commands}
-
-### `ibmcloud dl virtual-connections`
+## `ibmcloud dl vcs`
 {: #virtual-connections-list}
 
 List virtual connections.
 
-`ibmcloud dl virtual-connections|vcs [--output JSON] [--help|--h]`
+`ibmcloud dl virtual-connections|vcs [--output json] [--help|--h]`
 
-#### Command options
+### Command options
 {: #command-options-offering-speeds}
 
-   `--output JSON`: Optional: Specify if you want the output displayed in JSON format.   
+   `--output json`: Optional: Specify if you want the output displayed in JSON format.   
 
    `--help|--h` : Optional: Get help on this command.   
 
-#### Examples
+### Examples
 {: #example-list-details-virtual-connection}
 
 `ibmcloud dl virtual-connections a771366f-2c8c-49f6-a23b-9d49fad035a3`
 
-`ibmcloud dl vcs a771366f-2c8c-49f6-a23b-9d49fad035a3 --output JSON`
+`ibmcloud dl vcs a771366f-2c8c-49f6-a23b-9d49fad035a3 --output json`
 
 ---
 
-### `ibmcloud dl virtual-connection <gateway_id> <virtual_connection_id>`
+## `ibmcloud dl vc GATEWAY_ID VIRTUAL_CONNECTION_ID`
 {: #virtual-connection-view}
 
 View details of a virtual connection.
 
-`ibmcloud dl virtual-connection|vc <gateway_id> <virtual_connection_id> [--output JSON] [--help]`
+`ibmcloud dl virtual-connection|vc GATEWAY_ID VIRTUAL_CONNECTION_ID [--output json] [--help]`
 
-#### Command options
+### Command options
 {: #command-options-view-details-virtual-connection}
 
-  `<gateway_id>`: Specify the ID of the gateway.
+  `GATEWAY_ID`: Specify the ID of the gateway.
 
-  `<virtual_connection_id>`: Specify the ID of the virtual connection.
+  `VIRTUAL_CONNECTION_ID`: Specify the ID of the virtual connection.
 
-  `--output JSON`: Optional: Specify if you want the output displayed in JSON format.   
+  `--output json`: Optional: Specify if you want the output displayed in JSON format.   
 
    `--help|--h` : Optional: Get help on this command.   
 
-#### Examples
+### Examples
 {: #example-show-details-virtual-connection}
 
 `ibmcloud dl virtual-connection a771366f-2c8c-49f6-a23b-9d49fad035a3 dea35ba0-7323-4d8d-9c8d-d7ecda55e23d`
 
-`ibmcloud dl vc a771366f-2c8c-49f6-a23b-9d49fad035a3 dea35ba0-7323-4d8d-9c8d-d7ecda55e23d --output JSON`
+`ibmcloud dl vc a771366f-2c8c-49f6-a23b-9d49fad035a3 dea35ba0-7323-4d8d-9c8d-d7ecda55e23d --output json`
 
 ---
 
-### `ibmcloud dl virtual-connection-create <options>`
+## `ibmcloud dl vcc OPTIONS`
 {: #virtual-connection-create}
 
 Creating a virtual connection.
 
-`ibmcloud dl virtual-connection-create|vcc [--type <type>] [--network-id <network_id>] [name <name>] [--format JSON] [--help|--h]`
+`ibmcloud dl virtual-connection-create|vcc [--type classic|--type vpc --network-id NETWORK_ID] [--name NAME] [--output json] [--help|--h]`
 
-#### Command options
+### Command options
 {: #command-options-create-virtual-connection}
 
-  `--type <type>`: Specify the type of virtual connection. Values are `classic` or `vpc`.
+  `--type TYPE`: Specify the type of virtual connection. Values are `classic` or `vpc`.
 
-  `--network-id <network_id>` : Specify the ID of the network. This is not required for `classic` type.
+  `--network-id NETWORK_ID` : Specify the ID of the network. This is not required for `classic` type.
 
-  `name <name>`: Specify the name of the virtual connection.
+  `--name NAME`: Specify the name of the virtual connection.
 
-  `--output JSON`: Optional: Specify if you want the output displayed in JSON format.  
+  `--output json`: Optional: Specify if you want the output displayed in JSON format.  
 
   `--help|--h` : Optional: Get help on this command.   
 
-#### Examples
+### Examples
 {: #example-create-virtual-connection}
 
 `ibmcloud dl virtual-connection-create fb0df64a-ef8d-4b3c-b473-dc0230593529 --type vpc --network-id crn:v1:staging:public:is:us-south:a/28e4d90ac7504be694471ee66e70d0d5::vpc:r134-b8b62f60-f152-471f-971a-376da52721e0 --name newVC`
 
-`ibmcloud dl vcc fb0df64a-ef8d-4b3c-b473-dc0230593529 --type vpc --network-id crn:v1:staging:public:is:us-south:a/28e4d90ac7504be694471ee66e70d0d5::vpc:r134-b8b62f60-f152-471f-971a-376da52721e0 --name newVC --output JSON`
+`ibmcloud dl vcc fb0df64a-ef8d-4b3c-b473-dc0230593529 --type vpc --network-id crn:v1:staging:public:is:us-south:a/28e4d90ac7504be694471ee66e70d0d5::vpc:r134-b8b62f60-f152-471f-971a-376da52721e0 --name newVC --output json`
 
 ---
 
-### `ibmcloud dl gateway-delete <gateway_id> <virtual_connection_id>`
+## `ibmcloud dl vcd GATEWAY_ID VIRTUAL_CONNECTION_ID`
 {: #delete-virtual-connection}
 
 Delete a virtual connection.
 
-`ibmcloud dl virtual-connection-delete|vcd <gateway_id> <virtual_connection_id> [--help|--h] [--force|--f]`
+`ibmcloud dl virtual-connection-delete|vcd GATEWAY_ID VIRTUAL_CONNECTION_ID [--help|--h] [--force|--f]`
 
-#### Command options
+### Command options
 {: #command-options-delete-virtual-connection}
 
-   `<gateway_id>`: Specify the ID of the gateway.
+   `GATEWAY_ID`: Specify the ID of the gateway.
 
-   `<virtual_connection_id>`: Specify the ID of the virtual connection.
+   `VIRTUAL_CONNECTION_ID`: Specify the ID of the virtual connection.
 
    `--help|--h` : Optional: Get help on this command.   
 
    `--force|--f`: Optional: Force the delete operation without confirmation.
 
-#### Examples
+### Examples
 {: #example-delete-virtual-connection}
 
 `ibmcloud dl virtual-connection-delete fb0df64a-ef8d-4b3c-b473-dc0230593529 0b1e165c-a89c-4682-9771-dbe062e3acf7`
@@ -380,53 +368,50 @@ Delete a virtual connection.
 
 ---
 
-### `ibmcloud dl virtual-connection-update|vcu --name <name> --status <status>`
+## `ibmcloud dl vcu --name NAME --status STATUS`
 {: #example-update-virtual-connection}
 
 Update a virtual connection.
 
-`ibmcloud dl virtual-connection-update|vcu --name <name> --status <status> [--output JSON] [--help|--h]`
+`ibmcloud dl virtual-connection-update|vcu --name NAME --status STATUS [--output json] [--help|--h]`
 
-#### Command options
+### Command options
 {: #command-options-update-virtual-connection}
 
-   `--name <name>` : Specify the name of the virtual connection.
+   `--name NAME` : Specify the name of the virtual connection.
 
-   `--status <status>` : Specify the virtual connection status. Values are `attached` or `rejected`.
+   `--status STATUS` : Specify the virtual connection status. Values are `attached` or `rejected`.
 
-   `--output JSON` : Optional: Specify if you want the output displayed in JSON format.
+   `--output json` : Optional: Specify if you want the output displayed in JSON format.
 
    `--help|--h` : Optional: Get help on this command.
 
-#### Examples
+### Examples
 {: #example-update-virtual-connection}
 
 `ibmcloud dl virtual-connection-update fb0df64a-ef8d-4b3c-b473-dc0230593529 3d577350-9450-4fd0-94b6-2f6da21b828e --name newVCUpdated`
 
-`ibmcloud dl vcu adaa0879-3509-4e71-b02b-0c7587ccbcfa 9b11fa61-6e74-4a8f-b978-bca1bead097f --name newVCUpdated --output JSON`
+`ibmcloud dl vcu adaa0879-3509-4e71-b02b-0c7587ccbcfa 9b11fa61-6e74-4a8f-b978-bca1bead097f --name newVCUpdated --output json`
 
 ---
 
-## Letter of Authorization (LOA) command
-{: #loa-commands}
-
-### `ibmcloud dl loa <gateway_id>`
+## `ibmcloud dl loa GATEWAY_ID OPTIONS`
 {: #loa-download}
 
 Download the LOA for the specified gateway in either the current, working directory or in the specified directory.
 
-`ibmcloud dl loa <gateway_id> [--file <output_directory_path>] [--help|--h]`
+`ibmcloud dl loa GATEWAY_ID [--file OUTPUT_DIRECTORY_PATH] [--help|--h]`
 
-#### Command options
+### Command options
 {: #command-options-loa-download}
 
-   `<gateway_id>` : Specify the ID of the gateway.
+   `GATEWAY_ID` : Specify the ID of the gateway.
 
-   `--file <output_directory_path>` : Optional: Specify the output directory path. For example, specify to download the LOA in the `/tmp` directory.
+   `--file OUTPUT_DIRECTORY_PATH` : Optional: Specify the output directory path. For example, specify to download the LOA in the `/tmp` directory.
 
    `--help|--h` : Optional: Get help on this command.   
 
-#### Examples
+### Examples
 {: #example-loa-download}
 
 `ibmcloud dl loa 5cc19d0a-792c-4595-adfc-f90fc650de01`
@@ -435,26 +420,23 @@ Download the LOA for the specified gateway in either the current, working direct
 
 ---
 
-## Completion notice commands
-{: #completion-notice-commands}
-
-### `ibmcloud dl completion-notice|cn <gateway_id>`
+## `ibmcloud dl cn GATEWAY_ID OPTIONS`
 {: #completion-notice-download}
 
 Download the completion notice for the specified gateway in either the current, working directory or in a specified output directory path.
 
-`ibmcloud dl completion-notice|cn <gateway_id> [--file <output_directory_path>][--help|--h]`
+`ibmcloud dl completion-notice|cn GATEWAY_ID [--file OUTPUT_DIRECTORY_PATH][--help|--h]`
 
-#### Command options
+### Command options
 {: #command-options-completion-notice-download}
 
-   `<gateway_id>` : Specify the ID of the gateway.
+   `GATEWAY_ID` : Specify the ID of the gateway.
 
-   `--file <output_directory_path>` : Optional: Specify the output directory path where you want to download the completion notice. For example, specify to download the completion notice in the `/tmp` directory.
+   `--file OUTPUT_DIRECTORY_PATH` : Optional: Specify the output directory path where you want to download the completion notice. For example, specify to download the completion notice in the `/tmp` directory.
 
    `--help|--h` : Optional: Get help on this command.   
 
-#### Examples
+### Examples
 {: #example-completion-notice-download}
 
 `ibmcloud dl completion-notice 0e28b9bc-06df-44f1-b5d7-08085b9fc935`
@@ -463,21 +445,21 @@ Download the completion notice for the specified gateway in either the current, 
 
 ---
 
-## `ibmcloud dl completion-notice-update <gateway_id>`
+## `ibmcloud dl completion-notice-update GATEWAY_ID OPTION`
 {: #completion-notice-upload}
 
 Upload the completion notice from either the current, working directory or a specified directory.
 
-`ibmcloud dl completion-notice-update <gateway_id> [-i <input_directory_path>]`
+`ibmcloud dl completion-notice-update GATEWAY_ID [-i INPUT_DIRECTORY_PATH]`
 
-#### Command options
+### Command options
 {: #command-options-completion-notice-upload}
 
-   `<gateway_id>` : Specify the ID of the gateway.
+   `GATEWAY_ID` : Specify the ID of the gateway.
 
-   `-i <input_directory_path>` : Optional: Specify the directory in which you want to upload the completion notice.
+   `-i INPUT_DIRECTORY_PATH` : Optional: Specify the directory in which you want to upload the completion notice.
 
-#### Examples
+### Examples
 {: #example-completion-notice-upload}
 
 `ibmcloud dl completion-notice-update 5cc19d0a-792c-4595-adfc-f90fc650de01`
@@ -486,28 +468,25 @@ Upload the completion notice from either the current, working directory or a spe
 
 ---
 
-## Offering type command
-{: #offering-type-command}
-
-### `ibmcloud dl locations <offering_type>`
+## `ibmcloud dl locs OFFERING_TYPE`
 {: #list-locations-offering-type-json}
 
 List the locations for a specific Direct Link offering type.
 
-`ibmcloud dl locations|locs <offering_type> [–-output JSON] [--help|--h]`
+`ibmcloud dl locations|locs OFFERING_TYPE [–-output json] [--help|--h]`
 
-#### Command options
+### Command options
 {: #command-options-offering_type}
 
-   `<offering_type>`: Specify the Direct Link offering type. Values are `Dedicated` or `Dedicated_Hosting`.
+   `OFFERING_TYPE`: Specify the Direct Link offering type. Values are `dedicated` or `dedicated_hosting`.
 
-   `--output JSON`: Optional: Specify if you want the output displayed in JSON format.
+   `--output json`: Optional: Specify if you want the output displayed in JSON format.
 
    `--help|--h` : Optional: Get help on this command.   
 
-#### Examples
+### Examples
 {: #example-offering-type1}
 
-`ibmcloud dl locations DEDICATED`
+`ibmcloud dl locations dedicated`
 
-`ibmcloud dl locs DEDICATED --output JSON`
+`ibmcloud dl locs dedicated --output json`

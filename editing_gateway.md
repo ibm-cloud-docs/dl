@@ -26,6 +26,7 @@ subcollection: dl
 {:download: .download}  
 
 # Updating a Direct Link gateway
+{: #update-dl-gateway}
 
 You can update a Direct Link gateway either before or after the gateway is moved to **Provisioned** state. However, keep in mind that a gateway is restricted from editing during **In review** and some **In progress** states.
 {:shortdesc}
