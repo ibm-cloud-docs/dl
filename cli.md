@@ -52,9 +52,7 @@ Follow these instructions to use the Direct Link Command Line Interface, which i
 
 ---
 
-## General commands
-
-### `ibmcloud plugin show dl-cli`
+## `ibmcloud plugin show dl-cli`
 {: #show-plugin-info}
 
 Show Direct Link CLI plug-in information.
@@ -63,7 +61,7 @@ Show Direct Link CLI plug-in information.
 
 ---
 
-### `ibmcloud dl --h`
+## `ibmcloud dl --h`
 {: #get-command-help}
 
 Get help on Direct Link commands.
@@ -82,7 +80,7 @@ List all gateways.
 ### Command options
 {: #command-options-help-list-gateways}
 
-   `--output json`: Specify if you want the output displayed in JSON format.
+   `--output json`: Optional: Specify if you want the output displayed in JSON format. Currently, `json` is the only format to choose.
 
 ---
 
@@ -98,7 +96,7 @@ View details of a specific gateway.
 
    `GATEWAY_ID` : Specify the ID of the gateway.
 
-   `--output json`: Specify if you want the output displayed in JSON format.
+   `--output json`: Optional: Specify if you want the output displayed in JSON format. Currently, `json` is the only format to choose.
 
 ### Examples
 {: #example-get-gateway}
@@ -143,7 +141,7 @@ Create a gateway.
 
    `--help|--h` : Optional: Get help on this command.   
 
-   `--output json`: Optional: Specify if you want the output displayed in JSON format.
+   `--output json`: Optional: Specify if you want the output displayed in JSON format. Currently, `json` is the only format to choose.
 
 ### Examples
 {: #example-create-gateway}
@@ -184,7 +182,7 @@ Delete a specific gateway.
 
 Update a specific gateway.
 
-`ibmcloud dl gateway-update|gwu GATEWAY_ID [--global VALUE] [--speed-mbps SPEED_MBPS][--loa-reject-reason LOA_REJECT_REASON][--operational-status OPERATIONAL_STATUS][--output json] [--help|--h]  `
+`ibmcloud dl gateway-update|gwu GATEWAY_ID [--global VALUE] [--speed-mbps SPEED_MBPS][--loa-reject-reason LOA_REJECT_REASON][--operational-status OPERATIONAL_STATUS] [--output json] [--help|--h]  `
 
 ### Command options
 {: #command-options-specific-gateway}
@@ -199,7 +197,7 @@ Update a specific gateway.
 
    `--operational-status OPERATIONAL_STATUS` : Specify the gateway's operational status. Values are `loa_accepted` or `loa_rejected`.
 
-   `--output json`: Optional: Specify if you want the output displayed in JSON format.
+   `--output json`: Optional: Specify if you want the output displayed in JSON format. Currently, `json` is the only format to choose.
 
    `--help|--h` : Optional: Get help on this command.   
 
@@ -226,7 +224,7 @@ Retrieves location-specific information for a given offering type.
 
   `OFFERING_TYPE`: Specify the Direct Link offering type. Values are `dedicated` or `dedicated_hosting`.
 
-  `--output json`: Optional: Specify if you want the output displayed in JSON format.
+  `--output json`: Optional: Specify if you want the output displayed in JSON format. Currently, `json` is the only format to choose.
 
    `--help|--h` : Optional: Get help on this command.   
 
@@ -251,14 +249,14 @@ Lists all offering speeds for an offering type.
 
   `OFFERING_TYPE`: Specify the Direct Link offering type. Values are `dedicated` or `dedicated_hosting`.
 
-  `--output json`: Optional: Specify if you want the output displayed in JSON format.
-
+  `--output json`: Optional: Specify if you want the output displayed in JSON format. Currently, `json` is the only format to choose.
+  
 ### Examples
 {: #example-offering-type}
 
-ibmcloud dl offering-speeds dedicated
+`ibmcloud dl offering-speeds dedicated`
 
-ibmcloud dl ospeeds dedicated_hosting --output json
+`ibmcloud dl ospeeds dedicated_hosting --output json`
 
 ---
 
@@ -272,7 +270,7 @@ List virtual connections.
 ### Command options
 {: #command-options-offering-speeds}
 
-   `--output json`: Optional: Specify if you want the output displayed in JSON format.   
+   `--output json`: Optional: Specify if you want the output displayed in JSON format. Currently, `json` is the only format to choose.  
 
    `--help|--h` : Optional: Get help on this command.   
 
@@ -299,8 +297,8 @@ View details of a virtual connection.
 
   `VIRTUAL_CONNECTION_ID`: Specify the ID of the virtual connection.
 
-  `--output json`: Optional: Specify if you want the output displayed in JSON format.   
-
+  `--output json`: Optional: Specify if you want the output displayed in JSON format. Currently, `json` is the only format to choose.
+  
    `--help|--h` : Optional: Get help on this command.   
 
 ### Examples
@@ -328,7 +326,7 @@ Creating a virtual connection.
 
   `--name NAME`: Specify the name of the virtual connection.
 
-  `--output json`: Optional: Specify if you want the output displayed in JSON format.  
+  `--output json`: Optional: Specify if you want the output displayed in JSON format. Currently, `json` is the only format to choose.
 
   `--help|--h` : Optional: Get help on this command.   
 
@@ -382,7 +380,7 @@ Update a virtual connection.
 
    `--status STATUS` : Specify the virtual connection status. Values are `attached` or `rejected`.
 
-   `--output json` : Optional: Specify if you want the output displayed in JSON format.
+   `--output json` : Optional: Specify if you want the output displayed in JSON format. Currently, `json` is the only format to choose.
 
    `--help|--h` : Optional: Get help on this command.
 
@@ -480,7 +478,7 @@ List the locations for a specific Direct Link offering type.
 
    `OFFERING_TYPE`: Specify the Direct Link offering type. Values are `dedicated` or `dedicated_hosting`.
 
-   `--output json`: Optional: Specify if you want the output displayed in JSON format.
+   `--output json`: Optional: Specify if you want the output displayed in JSON format. Currently, `json` is the only format to choose.
 
    `--help|--h` : Optional: Get help on this command.   
 
