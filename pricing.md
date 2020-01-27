@@ -26,19 +26,19 @@ subcollection: dl
 {:generic: data-hd-programlang="generic"}
 {:download: .download}  
 
-# Pricing for {{site.data.keyword.cloud_notm}} Direct Link Dedicated
+# Pricing for {{site.data.keyword.cloud_notm}} Direct Link
 {: #pricing-for-ibm-cloud-dl}
 
-Pricing for the {{site.data.keyword.cloud}} Direct Link Dedicated offering is consistent for equivalent regions and bandwidth, as shown in the following monthly pricing table.
+Pricing for {{site.data.keyword.cloud}} Direct Link offerings is consistent for equivalent regions and bandwidth, as shown in the following monthly pricing table. (For "on Classic" offerings, see [Pricing for IBM Cloud Direct Link on Classic](/docs/direct-link?topic=direct-link-pricing-for-ibm-cloud-direct-link).
 {:shortdesc}
 
-Direct Link Dedicated pricing does NOT include any additional charges by service providers to enable connectivity to {{site.data.keyword.cloud_notm}}.
+Direct Link pricing does NOT include any additional charges by service providers to enable connectivity to {{site.data.keyword.cloud_notm}}.  
 {:note}
 
 ## Arranging for Direct Link connectivity  
 {: #arranging-for-dl-conectivity}
 
-You, the customer, must arrange connectivity and billing with your service providers, independently of {{site.data.keyword.cloud_notm}}. Direct Link Dedicated creates a Letter Of Authorization / Connecting Facility Assignment (LOA/CFA), which is usable by any service provider who can reach the Meet Me Room that is specified on that LOA/CFA. The provider who is connecting to the LOA/CFA must include pricing for the cross-connect in their quote to you; {{site.data.keyword.cloud_notm}} does not order cross-connects on behalf of any customer.
+You, the customer, must arrange connectivity and billing with your service providers, independently of {{site.data.keyword.cloud_notm}}. Direct Link creates a Letter Of Authorization / Connecting Facility Assignment (LOA/CFA), which is usable by any service provider who can reach the Meet Me Room that is specified on that LOA/CFA. The provider who is connecting to the LOA/CFA must include pricing for the cross-connect in their quote to you. {{site.data.keyword.cloud_notm}} does not order cross-connects on behalf of any customer.
 
 ## Pricing for port charges
 {: #pricing-for-dl-port-charges}

@@ -63,7 +63,7 @@ These resources are created by {{site.data.keyword.cloud}} and by some IBM partn
 
 * [{{site.data.keyword.cloud_notm}} Solves Last Mile Challenges with Satellite](https://www.satellitetoday.com/mobility/2018/10/25/ibm-cloud-solves-last-mile-challenges-with-satellite/){: external}, by Adrienne Harebottle
 
-    Learn how SES Network's decision to partner with {{site.data.keyword.cloud_notm}} to help customers overcome key connectivity challenges by harnessing the power of satellite.
+    Learn how SES Network's decision to partner with {{site.data.keyword.cloud_notm}} to help customers overcome key connectivity challenges by harnessing the power of satellites.
 
 ## Blogs on the IBM website
 

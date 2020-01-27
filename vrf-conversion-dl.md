@@ -51,4 +51,4 @@ Existing {{site.data.keyword.cloud_notm}} customers can [open an IBM Support cas
 
 Migration is completed by the {{site.data.keyword.cloud_notm}} Network Engineering team. No other information is required from you, except an agreed-to schedule. Intermittent packet loss might last 15 - 30 minutes, depending on the complexity of your account. It might be longer if your account has legacy Direct Link connections. The process is highly automated, requiring minimal interaction by the IBM team.
 
-When you're opening the case, it's recommended to select the "Technical" support type option, with category **Networking > Direct Link**.
+When you're opening the case, it's recommended to select the **Technical** support type option, with a category of **Networking > Direct Link**.

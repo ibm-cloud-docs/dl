@@ -80,4 +80,5 @@ Here's how the process works.
 4. The IBM team reviews the completion notice and accepts it. The IBM team then places the cross-connect fiber in the ports mentioned in the LOA. This completes the Direct Link configuration and the connection status changes to **Provisioned**.
 5. **Link status** indicates **Up**. You must then configure the BGP parameters on the Customer Edge Router (CER) for BGP session establishment. After this is completed, both the **BGP status** and **Link status** indicate **Up**.  
 
-  **Note**: It can take up to 30 minutes for the link status to update.
+  It can take up to 30 minutes for the link status to update.  
+  {:note}

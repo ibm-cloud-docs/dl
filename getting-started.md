@@ -36,17 +36,17 @@ IBM introduces a new release of Direct Link Dedicated, now supporting VPC resour
 
 Highlights include:
 
-* Metered billing, which lowers the barrier of entry to {{site.data.keyword.cloud_notm}}.
-* Support for connections to multiple {{site.data.keyword.cloud_notm}} accounts from a single direct link.
-* Support for multiple VPCs (without classic access) from a single Direct Link within the same account.
-* Bring Your Own IP (BYOIP) address to create native connectivity between your on-premises environment and {{site.data.keyword.cloud_notm}}.
+* Metered billing, which lowers the barrier of entry to {{site.data.keyword.cloud_notm}}
+* Support for connections to multiple {{site.data.keyword.cloud_notm}} accounts from a single direct link
+* Support for multiple VPCs (without classic access) from a single Direct Link within the same account
+* Bring Your Own IP (BYOIP) address to create native connectivity between your on-premises environment and {{site.data.keyword.cloud_notm}}
 
 
 Capabilities coming soon:
 
-* Support for Virtual Private Endpoints (VPEs) from customer on-premises from a single customer account.
-* Support for a Direct Link connection to venues, such as Blockchain, SAP on Power, and more.
-* Support for a Direct Link connection to Public services; for example, {{site.data.keyword.cloud_notm}} Object Storage (ICOS).
+* Support for Virtual Private Endpoints (VPEs) from customer on-premises from a single customer account
+* Support for a Direct Link connection to venues, such as Blockchain, SAP on Power, and more
+* Support for a Direct Link connection to Public services; for example, {{site.data.keyword.cloud_notm}} Object Storage (ICOS)
 
 To get started using {{site.data.keyword.cloud_notm}} Direct Link Dedicated, follow these [step-by-step instructions](/docs/dl?topic=dl-how-to-order-ibm-cloud-dl-dedicated). If you want help with getting started, open a case through the [{{site.data.keyword.cloud_notm}} console](https://cloud.ibm.com/unifiedsupport/cases/add){: external}, or you can contact your {{site.data.keyword.cloud_notm}} Sales representative.
 

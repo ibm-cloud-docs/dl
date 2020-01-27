@@ -234,7 +234,7 @@ Typically, we install speeds of 1 GB and lower on 1 GB optics. For speeds of 2 -
 {: #is-ecmp-the-way-to-go-for-redundant-dl-connections}
 {:faq}
 
-ECMP isn’t for redundant connections, but for balancing the load over the two links. With ECMP, both connections must terminate to the same {{site.data.keyword.cloud_notm}} cross-connect router (XCR), which makes it a single point of failure. (In other words, ECMP can be provisioned only as two sessions on the same {{site.data.keyword.cloud_notm}} XCR.)
+ECMP isn’t for redundant connections, but for balancing the load over the two links. With ECMP, both connections must terminate to the same {{site.data.keyword.cloud_notm}} cross-connect router (XCR), which makes it a single point of failure. In other words, ECMP can be provisioned only as two sessions on the same {{site.data.keyword.cloud_notm}} XCR.
 
 ECMP is a feature of BGP. If you are looking for redundancy, get two Direct Link connections, one going into each XCR. If you want to use ECMP and have redundancy, you need two Direct Link connections on each XCR so that you can have 2 ECMP sessions running simultaneously.
 
