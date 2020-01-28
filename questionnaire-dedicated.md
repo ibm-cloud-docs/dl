@@ -46,7 +46,7 @@ When you are ready to finalize your Direct Link order, you are asked to read and
 
 7. Please be aware that if you use the `10.x.x.x` network, you still cannot overlap with your hosts within {{site.data.keyword.cloud_notm}} nor with the {{site.data.keyword.cloud_notm}} services network (`10.0.0.0/14`, `10.198.0.0/15`, and `10.200.0.0/14`).
 
-8. VRF is not compatible with {{site.data.keyword.cloud_notm}} SSL, PPTP, and IPSec VPN services. An alternative is to use the direct link itself for management of your servers or run your own VPN solution (such as a Vyatta) that can be configured with different types of VPN. After migrating to a VRF, SSL VPN typically works when a VPN connection is made to the same DC location as the compute that's being accessed, but does not allow access globally.
+8. VRF is not compatible with {{site.data.keyword.cloud_notm}} SSL and IPsec VPN services. An alternative is to use the direct link itself for management of your servers or run your own VPN solution (such as a Vyatta) that can be configured with different types of VPN. After migrating to a VRF, SSL VPN typically works when a VPN connection is made to the same DC location as the compute that's being accessed, but does not allow access globally.
 
 9. Direct Link Cloud requires BGP in order to implement routes to a customer's remote network.
 
