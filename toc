@@ -2,7 +2,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="dl" category="network" audience="service" href="/docs/infrastructure/dl/getting-started.html" path="infrastructure/dl"}
+{: .toc subcollection="dl" category="network" audience="service" href="/docs/dl/getting-started.html" path="dl"}
 Direct Link
 
     {: .navgroup id="learn"}

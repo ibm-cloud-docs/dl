@@ -90,7 +90,7 @@ Local routing is the default routing option. It provides access to data centers 
 
 ### Global routing charges
 
-Global routing expands access to include all {{site.data.keyword.cloud_notm}} data centers globally. Bandwidth is unmetered and charged monthly based on the market. Details on the markets and other considerations can be found in our [FAQs](/docs/infrastructure/dl?topic=dl-faqs#what-are-the-local-routing-and-global-routing-options).
+Global routing expands access to include all {{site.data.keyword.cloud_notm}} data centers globally. Bandwidth is unmetered and charged monthly based on the market. Details on the markets and other considerations can be found in our [FAQs](/docs/dl?topic=dl-faqs#what-are-the-local-routing-and-global-routing-options).
 
 | Speed | Global |
 |----|----|
