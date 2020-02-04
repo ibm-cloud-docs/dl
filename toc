@@ -9,7 +9,6 @@ Direct Link
     getting-started.md
     about.md
     dl-july-policy-change.md
-    responsibilities.md
     pricing.md
     ecmp.md
 
@@ -33,6 +32,7 @@ Direct Link
     cli.md
     iam.md
     at_events.md
+    responsibilities.md
     external-resources.md
     understanding-latency.md
     vrf-on-ibm-cloud.md

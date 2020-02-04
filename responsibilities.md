@@ -29,7 +29,7 @@ subcollection: dl
 # Your responsibilities by using IBM Cloud Direct Link
 {: #responsibilities-dl}
 
-Learn about management responsibilities and terms and conditions that you have when you use {{site.data.keyword.cloud}} Direct Link.
+Learn about management responsibilities that you have when you use {{site.data.keyword.cloud}} Direct Link. For overall terms of use, refer to the IBM Cloud Terms and Notices.
 {:shortdesc}
 
 ## Management responsibilities

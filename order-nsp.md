@@ -1,7 +1,7 @@
 ---
 
 copyright:
-  years: 2017, 2018, 2019
+  years: 2019, 2020
 lastupdated: "2019-12-15"
 
 keywords: order, provider, capabilities, Dedicated, cross-connect, locations, PoP, data center, data, center, pricing, Letter of Authorization, LOA,
@@ -62,7 +62,7 @@ To order {{site.data.keyword.cloud}} Direct Link Dedicated, follow these steps.
    The routing option that you selected determines the reachability of the resources in the selected location. If you selected the **Global** routing option along with your location selections, the **Regions** menu list displays all the regions that are globally available in the specific account. After selecting a region, you can select any VPC from the **Available connections** menu. If you selected **Local** routing, then only the region that corresponds to the selected location is available to select. When selected, VPCs available in the local region for your account are displayed.
    {:note}
 
-   A summary of your order is displayed with pricing estimates.
+   An order summary shows pricing estimates.
 
 1. Agree to the [**Direct Link prerequisites**](/docs/dl?topic=dl-ibm-cloud-dl-dedicated-questionnaire) and review Cloud Services [**terms**](https://www.ibm.com/software/sla/sladb.nsf/sla/bm-8695-01). Then, click **Create** to complete your order. You can request assistance from {{site.data.keyword.cloud_notm}} Sales engineers at any time.
 1. Complete the connection.

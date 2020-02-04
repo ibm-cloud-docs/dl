@@ -1,7 +1,7 @@
 ---
 
 copyright:
-  years: 2017, 2018, 2019
+  years: 2019, 2020
 lastupdated: "2019-12-15"
 
 keywords: faq, faqs, questions, answer, billing, fees, point-to-point, bandwidth, charges, redundancy, global routing, diversity, IPv6, BGP, charges, jumbo frames
@@ -244,4 +244,4 @@ Alternatively, some of our customers set up two links into different XCR in the 
 {: #is-there-an-sla-on-the-diret-link-xr-connections}
 {:faq}
 
-There is no SLA on Direct Link today. Customers can achieve 99.999% effectively with two or more Direct Links that are properly configured for failover by using BGP, but IBM cannot control that or provide an SLA on it.
+There is no Service Level Agreement (SLA) on Direct Link today. Customers can achieve 99.999% effectively with two or more direct links that are properly configured for failover by using BGP, but IBM cannot control that or provide an SLA on it.

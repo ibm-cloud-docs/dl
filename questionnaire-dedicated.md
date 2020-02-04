@@ -1,7 +1,7 @@
 ---
 
 copyright:
-  years: 2018, 2019
+  years: 2019, 2020
 lastupdated: "2019-12-15"
 
 keywords: dedicated, finalize, questionnaire, special network services, billing, fees, VRF, BGP, case, cross-connect, link speed, VPN, data center, PoP, ECMP

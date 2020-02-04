@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2018, 2019
-lastupdated: "2019-12-15"
+  years: 2018, 2020
+lastupdated: "2020-02-04"
 
 keywords: pricing
 
@@ -29,7 +29,7 @@ subcollection: dl
 # Pricing for {{site.data.keyword.cloud_notm}} Direct Link
 {: #pricing-for-ibm-cloud-dl}
 
-Pricing for {{site.data.keyword.cloud}} Direct Link offerings is consistent for equivalent regions and bandwidth, as shown in the following monthly pricing table. (For "on Classic" offerings, see [Pricing for IBM Cloud Direct Link on Classic](/docs/direct-link?topic=direct-link-pricing-for-ibm-cloud-direct-link).
+Pricing for {{site.data.keyword.cloud}} Direct Link offerings is consistent for equivalent regions and bandwidth, as shown in the following monthly pricing table. (For "on Classic" offerings, see [Pricing for IBM Cloud Direct Link on Classic](/docs/direct-link?topic=direct-link-pricing-for-ibm-cloud-direct-link).)
 {:shortdesc}
 
 Direct Link pricing does NOT include any additional charges by service providers to enable connectivity to {{site.data.keyword.cloud_notm}}.  
