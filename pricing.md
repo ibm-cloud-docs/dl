@@ -78,7 +78,7 @@ You, the customer, must arrange connectivity and billing with your service provi
 |----|----|----|----|
 | Per GB | $0.025 | $0.050 | $0.140 |
 
-Data transfer is for Egress only, and varies based on region.
+Data transfer is for egress only, and varies based on region.
 {:note}
 
 ## Pricing for routing charges
