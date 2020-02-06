@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, 2020
-lastupdated: "2019-12-15"
+lastupdated: "2020-02-06"
 
 keywords: order, provider, capabilities, Dedicated, cross-connect, locations, PoP, data center, data, center, pricing, Letter of Authorization, LOA,
 
@@ -49,8 +49,11 @@ To order {{site.data.keyword.cloud}} Direct Link Dedicated, follow these steps.
    * For BGP and Connections:
       * Select the IBM cross connect router for the Direct Link connection. The number of direct links associated with the account for each router is shown next to the router name.
       * Select a BGP peering subnet for the Direct Link connection. There are two choices for BGP subnets. If you select **Auto-select IP**, the IPs are assigned from the link local IP range, 169.254.0.0/16. If you select **Manual select IP**, you can specify IPs (in CIDR format) from the ranges `169.254.0.0/16`, `192.168.0.0/16`, `10.254.0.0/16` or `172.16.0.0/12`.
-      * For BGP ASN, use either the default value of `64999`, or select an ASN from the specified allowed ranges.  
-
+      * For BGP ASN, use either the default value of `64999`, or select an ASN from the specified allowed ranges.
+      Allowed ASN ranges are:
+        * For a 2-byte range, enter a value between `1-64495` or default `64999`.
+        * For a 2-byte or 4-byte range, enter a value between `131072-4199999999`.
+        * For a 4-byte range, enter a value between `4201000000-4201064511`.
    * Optionally, select the network connection to be attached to the Direct Link gateway, and then enter a connection name. To add multiple network connections to the Direct Link gateway, click **Add connection+**. You can create one of the following connections:
 
       * **Classic Infrastructure** networks allow you to connect to {{site.data.keyword.cloud_notm}} classic resources. Only one classic infrastructure connection is allowed per Direct Link gateway.
@@ -76,7 +79,7 @@ Here's how the process works.
 
 1. After the Letter of Authorization (LOA) is uploaded by the IBM team, the connection status changes to **Waiting LOA Review**. At this time, you can click the corresponding buttons to preview and accept the LOA. After accepting the LOA, you can download the LOA document.
 2. After accepting the LOA and downloading it, the connection status changes to **Waiting completion notice upload**. At this time, you must take the LOA document to your carrier and get the completion notice.
-3. After receiving the completion notice, upload it. The specific connection shows an option in the {{site.data.keyword.cloud_notm}} console to upload the completion notice. Notice that the connection status changes to **Completion notice review in progress**.
+3. After receiving the completion notice, upload it (the completion notice must be in PDF format with the name **completion_notice.pdf** in order for the automation to process it properly). The specific connection shows an option in the {{site.data.keyword.cloud_notm}} console to upload the completion notice. Notice that the connection status changes to **Completion notice review in progress**.
 4. The IBM team reviews the completion notice and accepts it. The IBM team then places the cross-connect fiber in the ports mentioned in the LOA. This completes the Direct Link configuration and the connection status changes to **Provisioned**.
 5. **Link status** indicates **Up**. You must then configure the BGP parameters on the Customer Edge Router (CER) for BGP session establishment. After this is completed, both the **BGP status** and **Link status** indicate **Up**.  
 
