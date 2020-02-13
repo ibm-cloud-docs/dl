@@ -66,7 +66,7 @@ Your responsibilities:
 ## Abuse of {{site.data.keyword.cloud_notm}} Virtual Private Cloud
 {: #abuse-of-vpc}
 
-Clients must not misuse IBM Cloud infrastructure.
+Clients must not misuse {{site.data.keyword.cloud}} infrastructure.
 
 Misuse includes:
 - Any illegal activity

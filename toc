@@ -28,8 +28,8 @@ Direct Link
     {: .navgroup-end}
 
     {: .navgroup id="reference"}
-    [API reference](https://{DomainName}/apidocs/direct_link)
-    cli.md
+    [Direct Link API reference](https://{DomainName}/apidocs/direct_link)    
+    /dl-cli-plugin/dl-cli-plugin-dl-cli
     iam.md
     at_events.md
     responsibilities.md
