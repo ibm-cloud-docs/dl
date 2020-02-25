@@ -41,11 +41,11 @@ Direct Link Dedicated supports Reader, Writer, and Manager service-access roles.
 
 | Role | Description of Actions | Example Actions |
 |---|---|---|
-| Reader | Performs actions that don't change the state of resources. |<ul><li>List gateways</li><li>Get gateways</li><li>List a gateway's virtual connections</li><li>View a gateway's virtual connections</li><li>Retrieve gateway-related information (completion notice/letter of authorization)</li><li>View incoming connection requests&#8902; </li></ul>
-| Writer and Manager | Performs all actions, including managing gateways and virtual connections. |<ul><li>Create gateway</li><li>Delete gateway</li><li>Edit gateway</li><li>Add a virtual connection to a gateway&#8902;  </li> <li>Remove a virtual connection from a gateway&#8902; </li><li>Edit a virtual connection |                     |
+| Reader | Performs actions that don't change the state of resources. |<ul><li>List gateways</li><li>Get gateways</li><li>List a gateway's virtual connections</li><li>View a gateway's virtual connections</li><li>Retrieve gateway-related information (completion notice/letter of authorization)</li><li>View incoming connection requests&ast; </li></ul>
+| Writer and Manager | Performs all actions, including managing gateways and virtual connections. |<ul><li>Create gateway</li><li>Delete gateway</li><li>Edit gateway</li><li>Add a virtual connection to a gateway&ast;  </li> <li>Remove a virtual connection from a gateway&ast; </li><li>Edit a virtual connection</li></ul> |                     |
 {: caption="Table 1. IAM service-access user roles and actions" caption-side="top"}
 
-&#8902; To add or remove virtual connections to VPCs, or to accept/reject a connection request, the user must also have Editor or Administrator platform-access role permissions to the VPC. See [VPC: Getting started with IAM](/docs/vpc?topic=vpc-iam-getting-started) for more information.
+&ast; To add or remove virtual connections to VPCs, or to accept/reject a connection request, the user must also have Editor or Administrator platform-access role permissions to the VPC. See [VPC: Getting started with IAM](/docs/vpc?topic=vpc-iam-getting-started) for more information.
 
 ## Platform-access roles
 
