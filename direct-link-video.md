@@ -26,7 +26,7 @@ subcollection: dl
 {:generic: data-hd-programlang="generic"}
 {:download: .download}  
 
-# Video: Direct Link for Hybrid Cloud
+# Video - Direct Link for Hybrid Cloud
 {: #offering-video}
 
 The {{site.data.keyword.cloud}} Direct Link offerings provide connectivity from an external source into your secure and reliable environment.
