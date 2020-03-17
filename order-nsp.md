@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, 2020
-lastupdated: "2020-02-06"
+lastupdated: "2020-03-17"
 
 keywords: order, provider, capabilities, Dedicated, cross-connect, locations, PoP, data center, data, center, pricing, Letter of Authorization, LOA,
 
@@ -85,3 +85,31 @@ Here's how the process works.
 
   It can take up to 30 minutes for the link status to update.  
   {:note}
+
+  ## Locations
+{: #dedicated-locations}
+
+The table gives details about the {{site.data.keyword.cloud_notm}} data centers where Direct Link Dedicated (2.0) is available:
+
+|**IBM Location Code** | **Location Type** | **Meet Me Room Operator**| **Operator Site Code** | **Operator Address** |
+|-----------------|-----------------|-----------------|--------------------|--------------------|
+| **EMEA** |  |  |  |
+| Frankfurt 2 | DC(AZ1) | Zenium | FRA1 | Leonhard - Heisswolf Str 4., Frankfurt am Main |
+| Frankfurt 3 | PoP | Equinix| FRA6 | Larchenstrasse 110, Frankfurt Griesheim |
+| Frankfurt 4 | DC(AZ2) | E-Shelter | Frankfurt 1 | Eschborner Landstrasse 100, Building H |
+| Frankfurt 5 | DC(AZ3) | InterXion | FRA05 | Weismüllerstraße 40 |
+| London 1 | PoP | Equinix (fTelecity) | LD8 | 6/7 Harbour Exchange E14 9GE |
+| London 3 | PoP | Equinix | LD5 | 8 Buckingham Ave |
+| London 5 | DC(AZ2) | Gyron |  | Maxted Cl, Hemel Hempstead  |
+| London 6 | DC(AZ3) | Zenium( Cyrus One) | LON1 | 12 Liverpool Rd, Trading Estate |
+| **Americas** |  |  |  |
+| Dallas 3 | PoP | Equinix | DA1 | 1950 N. Stemmons Freeway |
+| Dallas 4 | PoP | Digital Realty | DFW14 | 2323 Bryan St |
+| Dallas 10 | DC(AZ1) | QTS | IRV | 6431 Longhorn Drive |
+| Dallas 12 | DC(AZ1) | Digital Realty | DFW18 | 907 Security Row |
+| Dallas 13 | DC(AZ1) | Cyrus One | Carrollton - Frankford | 1649 W. Frankford Rd |
+| Washington DC 2 | PoP | Equinix | DC2 | 21715 Filigree Ct |
+| Washington DC 4 | DC(AZ1) | Digital Realty | IAD38 | 44060 Digital Loudoun Plaza (Bldg K) |
+| Washington DC 5 | PoP | Coresite | DC2 | 12098 Sunrise Valley Dr |
+| Washington DC 6 | DC(AZ1) | Raging Wire | VA2 | 44610 Guilford Drive |
+| Washington DC 7 | DC(AZ1) | Sabey | Sabey Intergate.Ashburn | 21741 Red Rum Dr|
