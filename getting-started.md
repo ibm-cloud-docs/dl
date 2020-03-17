@@ -32,7 +32,7 @@ subcollection: dl
 Use {{site.data.keyword.cloud}} Direct Link to seamlessly connect your on-premises resources to your cloud resources. The speed and reliability of Direct Link lets you extend your organization’s data center network and offers more consistent, higher-throughput connectivity&mdash;without touching the public internet.
 {: shortdesc}
 
-IBM introduces a new release of Direct Link Dedicated, now supporting VPC resources&mdash;the first of our "next generation" Direct Link offerings. Currently, this "limited availability" release only services the North America geography (Washington, D.C. and Dallas markets) with more locations being rolled out soon.
+IBM introduces a new release of Direct Link Dedicated, now supporting VPC resources&mdash;the first of our "next generation" Direct Link offerings. Currently, this "limited availability" release only services certain Multi Zone Regions (Frankfurt, London, Dallas and Washington, D.C.  markets) with more locations being rolled out soon.
 
 Highlights include:
 
