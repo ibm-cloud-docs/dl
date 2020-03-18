@@ -46,7 +46,7 @@ You, the customer, must arrange connectivity and billing with your service provi
 ### Unmetered
 {: #pricing-for-dl-port-charges-unmetered}
 
-| Speed | USA, Canada & EU | Asia Pacific | Brazil & Mexico |
+| Speed | US, Canada & EU | Asia Pacific | Brazil & Mexico |
 |----|----|----|----|
 |  50 Mbps |    $250 |    $333 |    $400 |
 | 100 Mbps |    $500 |    $665 |    $800 |
@@ -74,7 +74,7 @@ You, the customer, must arrange connectivity and billing with your service provi
 ## Pricing for metered data transfer charges
 {: #metered-data-transfer-charges}
 
-| Tier | USA, Canada & EU | Asia Pacific | Brazil & Mexico |
+| Tier | US, Canada & EU | Asia Pacific | Brazil & Mexico |
 |----|----|----|----|
 | Per GB | $0.025 | $0.050 | $0.140 |
 
@@ -86,11 +86,11 @@ Data transfer is for egress only, and varies based on region.
 
 ### Local routing charges
 
-Local routing is the default routing option. It provides access to data centers within the same market as the Direct Link PoP. There is no charge for Local routing.
+Local routing is the default routing option. It provides access to data centers within the same market as the Direct Link PoP. There's no charge for Local routing.
 
 ### Global routing charges
 
-Global routing expands access to include all {{site.data.keyword.cloud_notm}} data centers globally. Bandwidth is unmetered and charged monthly based on the market. Details on the markets and other considerations can be found in our [FAQs](/docs/dl?topic=dl-faqs#what-are-the-local-routing-and-global-routing-options).
+Global routing expands access to include all {{site.data.keyword.cloud_notm}} data centers globally. Bandwidth is unmetered and charged monthly based on the market. Details on the markets and other considerations can be found in our [FAQs](/docs/dl?topic=dl-faqs).
 
 | Speed | Global |
 |----|----|

@@ -36,18 +36,18 @@ You can review answers to some frequently asked questions about {{site.data.keyw
 {: #differentiators}
 {: faq}
 
-The new Direct Link offering differs from the Direct Link classic infrastructure in that Direct Link is decoupled from classic IaaS, and exists only in the local XCR. This enables native connectivity to VPC and future capabilities without being forced into the classic IaaS network.
+The new Direct Link offering differs from the Direct Link classic infrastructure in that Direct Link is decoupled from classic IaaS, and exists only in the local cross-connect router (XCR). This design enables native connectivity to VPC and future capabilities without being forced into the classic IaaS network.
 
-The initial rollout of Direct Link is in the Dallas and Washington D.C. sites. The zone/region model allows for multiple data centers to exist in a single zone, and IBM intends to expand the AZs in the future. 
+The initial rollout of Direct Link is in the Dallas and Washington D.C. sites. The zone-region model allows for multiple data centers to exist in a single zone.
 
-For more information on the differences between the new Direct Link Dedicated offering and the Classic version, see [How do I know which type of {{site.data.keyword.cloud_notm}} Direct Link I need?](/docs/direct-link?topic=direct-link-get-started-with-ibm-cloud-direct-link#how-do-i-know-which-type-of-ibm-cloud-direct-link-i-need-).
+For more information about the differences between the new Direct Link Dedicated offering and the Classic version, see [How do I know which Direct Link solution to order?](/docs/direct-link?topic=direct-link-get-started-with-ibm-cloud-direct-link#get-started-solution-to-order).
 {: tip}
 
 ## What date is Direct Link available?
 {: #date-available}
 {: faq}
 
-Direct Link Dedicated is currently offered as a "limited availability" release for VPC with virtual servers in DAL and WDC multizone regions. General Availability (GA) is coming soon, followed by Direct Link Connect and Direct Link Dedicated Hosting.
+Direct Link Dedicated is offered as a "limited availability" release for VPC with virtual servers in DAL and WDC multizone regions.
 
 ## What is planned for Direct Link Exchange?
 {: #exchange-eom}
@@ -67,7 +67,7 @@ Initial rollout plans are for two MZRs. Other PoPs across the portfolio will sup
 
 Six MZRs are in plan for 1H20 (Frankfurt, Tokyo, London, and Sydney in 1H20; Toronto and Sao Paulo in 2H20.
 
-## If Direct Link is not available for SZRs, how will financial services clients handle the data they need to keep in their regions? 
+## If Direct Link is not available for SZRs, how do  financial services clients handle the data that they need to keep in their regions? 
 {: #roadmap-szrs}
 {: faq}
 
@@ -77,7 +77,7 @@ Any existing customers on classic IaaS can remain in classic IaaS and continue t
 {: #dc}
 {: faq}
 
-Direct Link will be available in the following data centers by the end of 2020:
+The plan is for Direct Link to be available in the following data centers by the end of 2020:
 
 | Region | Zone | Data Center |
 |:---|:---|:---|
@@ -125,26 +125,26 @@ Yes, they are listed in Virtual Private Cloud [Quotas](/docs/vpc-on-classic?topi
 {: #move-classic-to-new}
 {:faq}
 
-Direct Link has a completely new user interface and records system, requiring you to place a brand new Direct Link order.
+Direct Link has a new user interface and records system, requiring you to place a brand new Direct Link order.
 
 ## Are there any performance impacts affected by moving from Direct Link on Classic?
 {: #move-classic-to-new-performance}
 {:faq}
 
-The new Direct Link performs better as it is not required to exist inside a customer's global VRF for classic IaaS. It is a true access platform to all of {{site.data.keyword.cloud_notm}}.
+The new Direct Link performs better as it's not required to exist inside a customer's global VRF for classic IaaS. It is a true access platform to all of {{site.data.keyword.cloud_notm}}.
 
 ## In terms of cost, what do you pay for?
 {: #cost}
 {:faq}
 
 There are two pricing plans: metered and unmetered. Metered has a port fee and bill per GB egressed across the Direct Link.
-Unmetered billing has a higher port fee and no usage charges, which is ideal for customers who consistently egress traffic across their direct link.
+Unmetered billing has a higher port fee and no usage charges, which are ideal for customers who consistently egress traffic across their direct link.
 
 ## How does {{site.data.keyword.cloud_notm}} Direct Link work?
 {: #how-does-ibm-cloud-dl-work}
 {:faq}
 
-For every Direct Link customer, the {{site.data.keyword.cloud}} team assigns a small private subnet to build a point-to-point network between the {{site.data.keyword.cloud_notm}} cross-connect router (XCR) and the customer's edge router (CER). Then, {{site.data.keyword.cloud_notm}} and the customer configure BGP to exchange routes between the environments. Finally, {{site.data.keyword.cloud_notm}} places the customer into a VRF to allow for the implementation of non-unique routes to the private address space of the customer's remote network.
+For every Direct Link customer, the {{site.data.keyword.cloud}} team assigns a small private subnet to build a point-to-point network between the {{site.data.keyword.cloud_notm}} cross-connect router (XCR) and the customer's edge router (CER). Then, {{site.data.keyword.cloud_notm}} and the customer configure Border Gateway Protocol (BGP) to exchange routes between the environments. Finally, {{site.data.keyword.cloud_notm}} places the customer into a VRF to allow for the implementation of non-unique routes to the private address space of the customer's remote network.
 
 ## When does billing begin with Direct Link?
 {: #when-does-billing-begin-with-dl}
@@ -152,7 +152,7 @@ For every Direct Link customer, the {{site.data.keyword.cloud}} team assigns a s
 
 The fees for Direct Link cover the cost of service termination on the {{site.data.keyword.cloud_notm}} infrastructure.
 
-Infrastructure services are billed in advance and begin upon acceptance of a client’s order, however, due to the nature of {{site.data.keyword.cloud_notm}} Direct Link, the Direct Link service billing begins when a Border Gateway Protocol (BGP) session is established with {{site.data.keyword.cloud_notm}}, or 30 days after the service key is provided to the client.
+Infrastructure services are billed in advance and begin upon acceptance of a client’s order. However, due to the nature of {{site.data.keyword.cloud_notm}} Direct Link, the Direct Link service billing begins when a BGP session is established with {{site.data.keyword.cloud_notm}}, or 30 days after the service key is provided to the client.
 
 Billing stops after (1) a customer requests a circuit to be deleted AND (2) the provider has de-provisioned the circuit.
 
@@ -172,7 +172,7 @@ Direct Link does not provide an inherently redundant service. Direct Link can pr
 {: #what-is-the-difference-between-the-default-local-routing-and-the-global-routing-add-on-for-dl}
 {:faq}
 
-The local routing option is the default routing option. If your Direct Link is connected at the local PoP, it provides access to all data centers within that same market. In some markets, local routing is applicable for stand-alone PoP locations and direct links that are terminated at the data center. Check [the list of expanded markets](/docs/dl?topic=dl-pricing-for-ibm-cloud-dl#expanded-ibm-cloud-dl-local-markets) for more information.   
+The local routing option is the default routing option. If your Direct Link is connected at the local PoP, it provides access to all data centers within that same market. In some markets, local routing is applicable for stand-alone PoP locations and direct links that are terminated at the data center.  
 
 With our standard Direct Link offering, you can send traffic between the data centers in your selected region. If you need access to other data centers outside of the specified region, you must order the global routing add-on. For example, you might use global routing to share workloads between dispersed {{site.data.keyword.cloud_notm}} resources (such as Dallas to Ashburn, or Dallas to Frankfurt).
 
@@ -182,7 +182,7 @@ With our standard Direct Link offering, you can send traffic between the data ce
 
 The global routing add-on prevents our customers from experiencing unexpected data costs when traversing outside of their data center's local market. It keeps costs lower for most of our customers, and it provides the ability for customers with a global presence to reach all regions across the globe easily. However, usually a customer requires only a local bandwidth package.
 
-## If I am connected to a Direct Link Dedicated in a region such as Dallas, do I have access to other regions in the US through Direct Link?
+## If I am connected to a Direct Link Dedicated in a region, such as Dallas, can I access other regions in the US through Direct Link?
 {: #if-i-am-connected-to-a-dl-dedicated}
 {:faq}
 
@@ -192,7 +192,7 @@ Yes, you are able to gain access to areas outside of your local market if you ch
 {: #can-i-connect-to-any-available-region-from-a-given-dl-location}
 {:faq}
 
-Yes, as long as you order Direct Link with the global routing add-on.
+Yes, if you order Direct Link with the global routing add-on.
 
 ## Can I restrict the regions that my Direct Link can reach?
 {: #can-i-restrict-the-regions-that-my-dl-can-reach}
@@ -238,10 +238,10 @@ ECMP isn’t for redundant connections, but for balancing the load over the two 
 
 ECMP is a feature of BGP. If you are looking for redundancy, get two Direct Link connections, one going into each XCR. If you want to use ECMP and have redundancy, you need two Direct Link connections on each XCR so that you can have 2 ECMP sessions running simultaneously.
 
-Alternatively, some of our customers set up two links into different XCR in the same data center, for example WDC02, then failover as needed by using BGP configurations. This configuration is less redundant (less safe) than having Direct Link connections into two separate data centers, such as WDC02 and WDC05.
+Alternatively, some customers set up two links into a different XCR in the same data center (for example, WDC02) and then failover as needed by using BGP configurations. This configuration is less redundant (less safe) than having Direct Link connections into two separate data centers, such as WDC02 and WDC05.
 
-## Is there an SLA on the Direct Link XCR connections up to the account’s BCR connection?
+## Is there a Service Level Agreement (SLA) on the Direct Link XCR connections up to the account’s BCR connection?
 {: #is-there-an-sla-on-the-diret-link-xr-connections}
 {:faq}
 
-There is no Service Level Agreement (SLA) on Direct Link today. Customers can achieve 99.999% effectively with two or more direct links that are properly configured for failover by using BGP, but IBM cannot control that or provide an SLA on it.
+There is no SLA on Direct Link today. Customers can achieve 99.999% effectively with two or more direct links that are properly configured for failover by using BGP, but IBM cannot control that or provide an SLA on it.
