@@ -86,7 +86,7 @@ Here's how the process works.
   It can take up to 30 minutes for the link status to update.  
   {:note}
 
-  ## Locations
+## Locations
 {: #dedicated-locations}
 
 The table gives details about the {{site.data.keyword.cloud_notm}} data centers where Direct Link Dedicated (2.0) is available:
