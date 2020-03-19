@@ -45,8 +45,6 @@ The new Direct Link"2.0" offering allows connectivity to both Classic IaaS as we
 For more information about the differences between the new Direct Link Dedicated "2.0" offering and the Classic version, see [How do I know which Direct Link solution to order?](/docs/direct-link?topic=direct-link-get-started-with-ibm-cloud-direct-link#get-started-solution-to-order).
 {: tip}
 
-
-
 ## What is planned for Direct Link Exchange?
 {: #exchange-eom}
 {: faq}
