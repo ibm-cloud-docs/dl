@@ -12,6 +12,8 @@ subcollection: dl
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
+{:faq: data-hd-content-type='faq'}
+{:support: data-reuse='support'}
 {:DomainName: data-hd-keyref="DomainName"}
 {:note: .note}
 {:important: .important}
@@ -35,6 +37,7 @@ You can review answers to some frequently asked questions about {{site.data.keyw
 ## How does the new Direct Link differ from Direct Link on Classic?
 {: #differentiators}
 {: faq}
+{: support}
 
 The new Direct Link "2.0" offering differs from the Direct Link classic infrastructure in that Direct Link "2.0" is decoupled from classic IaaS, and exists only in the local cross-connect router (XCR). This design enables native connectivity to VPC and future capabilities without being forced into the classic IaaS network.
 
@@ -48,18 +51,21 @@ For more information about the differences between the new Direct Link Dedicated
 ## What is planned for Direct Link Exchange?
 {: #exchange-eom}
 {: faq}
+{: support}
 
 The marketplace has evolved since Direct Link Exchange was established. With data center operators now blurring the lines as Network Service Providers, IBM will be combining the Exchange offering with Connect on the new "next generation" platform to reflect both this change in the marketplace and simplify the Direct Link portfolio. Direct Link Exchange will service only the Direct Link classic infrastructure. After migrations of the partner inter-connections to the XCRs are complete, Exchange will be moved to End of Marketing (EoM).
 
 ## Will Direct Link "2.0" be available in non-MZRs, or is it only a solution for MZRs?  
 {: #dl-mzr}
 {: faq}
+{: support}
 
 Initial rollout plans are for the MZRs to be prioritized. Other PoPs across the portfolio will support the new Direct Link access model, enabling access to the classic infrastructure and VPC expansions as they occur.
 
 ## What other locations are in the 2020 roadmap?
 {: #roadmap}
 {: faq}
+{: support}
 
 Six MZRs are in plan for 1H20 (Frankfurt, Tokyo, London, and Sydney in 1H20; Toronto and Sao Paulo in 2H20.
 
@@ -72,6 +78,7 @@ Any existing customers on classic IaaS can remain in classic IaaS and continue t
 ## Will Direct Link "2.0" be available in all {{site.data.keyword.cloud_notm}} data centers?
 {: #dc}
 {: faq}
+{: support}
 
 The plan is for Direct Link to be available in the following data centers by the end of 2020:
 
@@ -87,6 +94,7 @@ The plan is for Direct Link to be available in the following data centers by the
 ## Where are the Direct Link "2.0" offerings enabled?
 {: #classic-enabled-versus-dl}
 {:faq}
+{: support}
 
 | MZR | Direct Link Classic | Direct Link |
 |:---|:---|:---|
@@ -100,6 +108,7 @@ The plan is for Direct Link to be available in the following data centers by the
 ## How do I interconnect the classic infrastructure and VPC?
 {: #interconnect}
 {:faq}
+{: support}
 
 You can connect the classic infrastructure and VPC with classic peering as described in (/docs/vpc-on-classic-network?topic=vpc-on-classic-setting-up-access-to-your-classic-infrastructure-from-vpc).
 
@@ -108,12 +117,14 @@ Classic access features of VPC are an option at VPC setup and can only be enable
 ## Is there a way to connect Direct Link "2.0" to VPC without using the classic infrastructure?
 {: #connect-wo-using-classic}
 {:faq}
+{: support}
 
 Yes, this is possible on Direct Link "2.0". The VRF created is local to the XCR versus global on the classic intrastructure. Route targeting to VPC then enables Direct Link "2.0" to be used with VPC natively using the UI (and not touch the classic infrastructure).
 
 ## Are there documented limitations on Direct Link?
 {: #direct-link-vpc-limitations}
 {:faq}
+{: support}
 
 Yes, they are listed in Virtual Private Cloud [Quotas](/docs/vpc-on-classic?topic=vpc-on-classic-quotas) documentation.
 

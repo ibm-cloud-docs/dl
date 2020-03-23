@@ -2,7 +2,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="dl" category="network" audience="service" href="/docs/dl/getting-started.html" path="dl"}
+{: .toc subcollection="dl" category="network" audience="service" href="/docs/dl/getting-started.html" console-page="/interconnectivity" product-page="https://www.ibm.com/cloud/direct-link" path="dl"}
 Direct Link
 
     {: .navgroup id="learn"}
@@ -17,6 +17,12 @@ Direct Link
         /tutorials/solution-tutorials-secure-network-enclosure
         /tutorials/solution-tutorials-byoip
         direct-link-video.md
+
+    {: .topicgroup}
+    Related links
+        [Direct Link on Classic](/direct-link/direct-link-get-started-with-ibm-cloud-direct-link)
+        [Virtual Private Cloud](/vpc/vpc-getting-started)
+        [What are computer networking solutions?](https://www.ibm.com/cloud/learn/networking-a-complete-guide#toc-computer-n-9C7jokVu)
     {: .navgroup-end}
 
     {: .navgroup id="howto"}
@@ -28,7 +34,7 @@ Direct Link
     {: .navgroup-end}
 
     {: .navgroup id="reference"}
-    [Direct Link API reference](https://{DomainName}/apidocs/direct_link)    
+    [Direct Link API reference](https://{DomainName}/apidocs/direct_link)
     /dl-cli-plugin/dl-cli-plugin-dl-cli
     iam.md
     at_events.md
@@ -41,7 +47,7 @@ Direct Link
     {: .navgroup-end}
 
     {: .navgroup id="help"}
-    known-limitations.md
     faqs.md
+    known-limitations.md
     getting-help.md
     {: .navgroup-end}

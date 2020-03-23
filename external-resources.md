@@ -31,14 +31,14 @@ subcollection: dl
 # Related resources
 {: #related-resources}
 
-These resources are created by {{site.data.keyword.cloud}} and by some IBM partners and customers.
+These resources are created by {{site.data.keyword.cloud}} and by some IBM Business Partners and customers.
 {:shortdesc}
 
 ## Papers and case studies
 
 * [**Hybrid Cloud white paper**](https://public.dhe.ibm.com/cloud/bluemix/network/direct-link/ibm-hybrid-cloud-whitepaper.pdf){: external}
 
-    **Abstract:** Krystallize Technologies set up three different “real world” configurations that use the architecture that is described in this paper to design a dedicated, low-latency, private connection between cloud services and customer-provided network equipment, storage, and compute infrastructure that is durable and affordable.
+    **Abstract** - Krystallize Technologies set up three different "real world" configurations that use the architecture that is described in this paper to design a dedicated, low-latency, private connection between cloud services and customer-provided network equipment, storage, and compute infrastructure that is durable and affordable.
 
     This paper presents test results that show how a well-designed, well-executed, hybrid cloud architecture performs versus one that uses standard facilities, using connections and an architecture that is not optimized for application performance.
 
@@ -49,7 +49,7 @@ These resources are created by {{site.data.keyword.cloud}} and by some IBM partn
 
 * [**Case Study for Direct Link and {{site.data.keyword.cloud_notm}}**](https://www.digitalrealty.com/case-studies/ibm-cloud){: external}
 
-    **Abstract:** As {{site.data.keyword.cloud_notm}} needed to expand its global data center footprint to meet burgeoning demand for its Infrastructure-as-a-Service offering, it needed the right data center partner to achieve the best available combination of power, space, and price.
+    **Abstract** - As {{site.data.keyword.cloud_notm}} needed to expand its global data center footprint to meet burgeoning demand for its Infrastructure-as-a-Service offering, it needed the right data center partner to achieve the best available combination of power, space, and price.
 
     Delivery systems that put extra steps between server deployments, cloud, and customers were too slow and indirect to deliver the low latency and high throughput {{site.data.keyword.cloud_notm}} promises its customers.
 
@@ -71,9 +71,9 @@ These resources are created by {{site.data.keyword.cloud}} and by some IBM partn
 
 * [Supporting the next generation cloud applications with {{site.data.keyword.cloud_notm}} Direct Link](https://www.ibm.com/blogs/cloud-computing/2018/06/26/next-generation-cloud-apps-ibm-cloud-direct-link/){: external}, by Gabriel Montanti
 
-* [IBM and Colt: Enabling Enterprise Digital Transformation](https://www.ibm.com/cloud/blog/announcements/ibm-colt-enterprise-digital-transformation){: external}, by Paul Hertzfeldt
+* [IBM and Colt - Enabling Enterprise Digital Transformation](https://www.ibm.com/cloud/blog/announcements/ibm-colt-enterprise-digital-transformation){: external}, by Paul Hertzfeldt
 
-* [Digital Realty and {{site.data.keyword.cloud_notm}} Direct Link: Built for Enterprise Cloud](https://www.ibm.com/cloud/blog/announcements/digital-realty-ibm-cloud-dl-expand-network){: external}, by Paul Hertzfeldt
+* [Digital Realty and {{site.data.keyword.cloud_notm}} Direct Link - Built for Enterprise Cloud](https://www.ibm.com/cloud/blog/announcements/digital-realty-ibm-cloud-dl-expand-network){: external}, by Paul Hertzfeldt
 
 * [PacketFabric and {{site.data.keyword.cloud_notm}} Enable Secure Enterprise Connections](https://www.ibm.com/cloud/blog/announcements/packetfabric-ibm-enable-secure-enterprise-connections){: external}, by Paul Hertzfeldt
 

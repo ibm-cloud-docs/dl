@@ -87,7 +87,7 @@ Compared to the older ACL model, there are a few minor tradeoffs to take into ac
 
 Many {{site.data.keyword.cloud_notm}} customers currently operate with a shared tenancy model on the {{site.data.keyword.cloud_notm}} network. During conversion, your shared tenancy is converted to use a _customer VRF_, most commonly with a new Direct Link subscription.  
 
-For specific information about how to initiate a VRF conversion for your account, see the conversion instructions for your {{site.data.keyword.cloud_notm}} offering. For example:
+For specific information about how to initiate a VRF conversion for your account, see the conversion instructions for your {{site.data.keyword.cloud_notm}} offering. For example,
 
 * [Direct Link conversion instructions](/docs/dl?topic=dl-what-happens-during-the-account-conversion-process)
 * [VPC conversion instructions](/docs/vpc-on-classic?topic=vpc-on-classic-setting-up-access-to-your-classic-infrastructure-from-vpc#how-you-can-initiate-the-conversion)

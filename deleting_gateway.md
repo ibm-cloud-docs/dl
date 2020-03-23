@@ -24,8 +24,14 @@ subcollection: dl
 {:term: .term}  
 {:generic: data-hd-programlang="generic"}
 {:download: .download}  
+{:help: data-hd-content-type='help'}
+{:support: data-reuse='support'}
+
 
 # Deleting a Direct Link gateway and attached connections
+{: delete-direct-link-gateway}
+{: help} 
+{: support}
 
 You can delete a gateway either before or after the gateway is moved to **Provisioned** state. However, a gateway is restricted from being deleted during **In review** and some **In progress** states.
 {:shortdesc}

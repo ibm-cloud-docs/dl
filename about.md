@@ -4,7 +4,7 @@ copyright:
   years: 2019, 2020
 lastupdated: "2019-12-15"
 
-keywords: hybrid, solutions, features, benefits, port speed, cross-connect, use cases, latency, routing, options, colocation
+keywords: hybrid, solutions, features, benefits, port speed, cross-connect, use cases, latency, routing, options, colocation, interconnectivity
 
 subcollection: dl
 
@@ -54,7 +54,7 @@ Use when ultra-low latency is required.
 
 ## More information
 
-**Termination location** - 
+**Termination location** -
 {{site.data.keyword.cloud_notm}} point of presence (PoP) or Data Center (DC).
 
 **Typical deployment time** - Averages 10-15 business days after the new circuit reaches the PoP. Deployment time can possibly be 30 - 60 days overall, depending on your location and requirements when you order a circuit from an NSP or carrier.

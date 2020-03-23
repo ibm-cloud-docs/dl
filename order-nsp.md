@@ -25,15 +25,19 @@ subcollection: dl
 {:term: .term}  
 {:generic: data-hd-programlang="generic"}
 {:download: .download}  
+{:help: data-hd-content-type='help'}
+{:support: data-reuse='support'}
 
 # Ordering {{site.data.keyword.cloud_notm}} Direct Link Dedicated
 {: #how-to-order-ibm-cloud-dl-dedicated}
+{: help} 
+{: support}
 
 To order {{site.data.keyword.cloud}} Direct Link Dedicated, follow these steps.
 {:shortdesc}
 
 1. Log in to your [{{site.data.keyword.cloud_notm}}](https://{DomainName}/){:external} account.
-1. Select the **Navigation Menu** ![Navigation Menu icon](images/menu_icon.png) on the upper left, then click **Hybrid Networking**.
+1. Select the **Navigation Menu** ![Navigation Menu icon](images/menu_icon.png) on the upper left, then click **Interconnectivity**.
 1. Select **Direct Link**. Any existing {{site.data.keyword.cloud_notm}} Direct Link connections are shown.
 1. Click **Order Direct Link +** in the upper right of the page.
 1. In the order form, complete the following configuration information:

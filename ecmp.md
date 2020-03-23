@@ -42,7 +42,7 @@ ECMP for redundancy or load balancing can impact diversity at the IBM XCR and ca
 
 ## Use Case 2: ECMP with diversity
 
-ECMP is a feature of BGP. If you want to use ECMP and have redundancy, you’ll need two Direct Link connections on each XCR, so that you can have two ECMP sessions going simultaneously.
+ECMP is a feature of BGP. If you want to use ECMP and have redundancy, you require two Direct Link connections on each XCR so that you can have two ECMP sessions going simultaneously.
 
 For HA with ECMP, it is recommended that four Direct Link circuits be established; two at diverse XCRs to achieve diversity.
 
