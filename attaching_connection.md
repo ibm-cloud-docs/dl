@@ -51,7 +51,7 @@ After the virtual connection is added to the gateway, the VPC name displays unde
 You can add only one classic infrastructure virtual connection to a provisioned Direct Link connection. However, you can add multiple VPC virtual connections.  
 {: note}
 
-## Cross-account network connectivity with Direct Link
+## Cross-account (VPC only) network connectivity with Direct Link
 {: #cross-account-virtual-connection}
 
 You can request virtual connections to networks in other {{site.data.keyword.cloud_notm}} accounts only for Direct Link gateways that are already **Provisioned**.
