@@ -60,7 +60,7 @@ The marketplace has evolved since Direct Link Exchange was established. With dat
 {: faq}
 {: support}
 
-Initial rollout plans are for the MZRs to be prioritized. Other PoPs across the portfolio will support the new Direct Link access model, enabling access to the classic infrastructure and VPC expansions as they occur.
+Initial rollout plans are for the Multi-Zone Regions (MZRs) to be prioritized. Other PoPs across the portfolio will support the new Direct Link access model, enabling access to the classic infrastructure and VPC expansions as they occur.
 
 ## What other locations are in the 2020 roadmap?
 {: #roadmap}
@@ -69,7 +69,7 @@ Initial rollout plans are for the MZRs to be prioritized. Other PoPs across the 
 
 Six MZRs are in plan for 1H20 (Frankfurt, Tokyo, London, and Sydney in 1H20; Toronto and Sao Paulo in 2H20.
 
-## If Direct Link "2.0" is not available for SZRs, how do  financial services clients handle the data that they need to keep in their regions?
+## If Direct Link "2.0" is not available for Single-Zone Regions (SZRs), how do financial services clients handle the data that they need to keep in their regions?
 {: #roadmap-szrs}
 {: faq}
 
