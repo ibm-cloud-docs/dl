@@ -97,30 +97,30 @@ The table gives details about the {{site.data.keyword.cloud_notm}} data centers 
 
 |**IBM Location Code** | **Location Type** | **Meet Me Room Operator**| **Operator Site Code** | **Operator Address** |
 |-----------------|-----------------|-----------------|--------------------|--------------------|
-| **Americas** |  |  |  |
-| Dallas 3 | PoP | Equinix | DA1 | 1950 N. Stemmons Freeway |
-| Dallas 4 | PoP | Digital Realty | DFW14 | 2323 Bryan St |
+| **Americas** |  |  |  |  |
+| Dallas 3 | PoP 1 | Equinix | DA1 | 1950 N. Stemmons Freeway |
+| Dallas 4 | PoP 2 | Digital Realty | DFW14 | 2323 Bryan St |
 | Dallas 10 | DC(AZ1) | QTS | IRV | 6431 Longhorn Drive |
 | Dallas 12 | DC(AZ1) | Digital Realty | DFW18 | 907 Security Row |
 | Dallas 13 | DC(AZ1) | Cyrus One | Carrollton - Frankford | 1649 W. Frankford Rd |
-| Washington DC 2 | PoP | Equinix | DC2 | 21715 Filigree Ct |
+| Washington DC 2 | PoP 1 | Equinix | DC2 | 21715 Filigree Ct |
 | Washington DC 4 | DC(AZ1) | Digital Realty | IAD38 | 44060 Digital Loudoun Plaza (Bldg K) |
-| Washington DC 5 | PoP | Coresite | DC2 | 12098 Sunrise Valley Dr |
+| Washington DC 5 | PoP 2 | Coresite | DC2 | 12098 Sunrise Valley Dr |
 | Washington DC 6 | DC(AZ1) | Raging Wire | VA2 | 44610 Guilford Drive |
 | Washington DC 7 | DC(AZ1) | Sabey | Sabey Intergate.Ashburn | 21741 Red Rum Dr |
-| **APAC** |  |  |  |
+| **APAC** |  |  |  |  |
 | Sydney 1 | DC(AZ1) | Global Switch | SYD01 | 400 Harris Street aka 273 Pyrmont St Ultimo |
 | Sydney 4 | DC(AZ2) | Digital Realty | SYD10 | 1-11 Templar Rd, Erskine Park |
 | Sydney 5 | DC(AZ3) | Equinix | SY4 | 200 Bourke Road |
 | Tokyo 3 | PoP 2 | Equinix | TY4 | Chiyoda-ku |
-| **EMEA** |  |  |  |
-| Frankfurt 1 | PoP | InterXion (DLR) | FRA01 | Hanauer Landstrasse 302 |
+| **EMEA** |  |  |  |  |
+| Frankfurt 1 | PoP 1 | InterXion (DLR) | FRA01 | Hanauer Landstrasse 302 |
 | Frankfurt 2 | DC(AZ1) | Zenium | FRA1 | Leonhard - Heisswolf Str 4., Frankfurt am Main |
-| Frankfurt 3 | PoP | Equinix| FRA6 | Larchenstrasse 110, Frankfurt Griesheim |
+| Frankfurt 3 | PoP 2 | Equinix| FRA6 | Larchenstrasse 110, Frankfurt Griesheim |
 | Frankfurt 4 | DC(AZ2) | E-Shelter | Frankfurt 1 | Eschborner Landstrasse 100, Building H |
 | Frankfurt 5 | DC(AZ3) | InterXion | FRA05 | Weismüllerstraße 40 |
 | London 2 | DC | Digital Realty | LHR13 | Fountain Court, Cox Lane, Suites 210 and 230 |
-| London 3 | PoP | Equinix | LD5 | 8 Buckingham Ave |
+| London 3 | PoP 2 | Equinix | LD5 | 8 Buckingham Ave |
 | London 4 | DC(AZ1) | ARK | A103 | A57 Cody Technology Park Old, Victor Way, Farnborough |
 | London 5 | DC(AZ2) | Gyron |  | Maxted Cl, Hemel Hempstead  |
 | London 6 | DC(AZ3) | Zenium( Cyrus One) | LON1 | 12 Liverpool Rd, Trading Estate |
