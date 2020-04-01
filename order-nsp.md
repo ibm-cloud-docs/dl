@@ -107,9 +107,9 @@ The table gives details about the {{site.data.keyword.cloud_notm}} data centers 
 | Washington DC 4 | DC(AZ1) | Digital Realty | IAD38 | 44060 Digital Loudoun Plaza (Bldg K) |
 | Washington DC 5 | PoP | Coresite | DC2 | 12098 Sunrise Valley Dr |
 | Washington DC 6 | DC(AZ1) | Raging Wire | VA2 | 44610 Guilford Drive |
-| Washington DC 7 | DC(AZ1) | Sabey | Sabey Intergate.Ashburn | 21741 Red Rum Dr|
+| Washington DC 7 | DC(AZ1) | Sabey | Sabey Intergate.Ashburn | 21741 Red Rum Dr |
 | **APAC** |  |  |  |
-| Sydney 1 | DC(AZ1) | Global Switch | SYD01 | 400 Harris Street aka 273 Pyrmont St Ultimo  |
+| Sydney 1 | DC(AZ1) | Global Switch | SYD01 | 400 Harris Street aka 273 Pyrmont St Ultimo |
 | Sydney 4 | DC(AZ2) | Digital Realty | SYD10 | 1-11 Templar Rd, Erskine Park |
 | Sydney 5 | DC(AZ3) | Equinix | SY4 | 200 Bourke Road |
 | Tokyo 3 | PoP 2 | Equinix | TY4 | Chiyoda-ku |
