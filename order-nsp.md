@@ -104,6 +104,7 @@ The table gives details about the {{site.data.keyword.cloud_notm}} data centers 
 | Frankfurt 3 | PoP | Equinix| FRA6 | Larchenstrasse 110, Frankfurt Griesheim |
 | Frankfurt 4 | DC(AZ2) | E-Shelter | Frankfurt 1 | Eschborner Landstrasse 100, Building H |
 | Frankfurt 5 | DC(AZ3) | InterXion | FRA05 | Weismüllerstraße 40 |
+| London 2 | DC | Digital Realty | LHR13 | Fountain Court, Cox Lane, Suites 210 and 230|
 | London 3 | PoP | Equinix | LD5 | 8 Buckingham Ave |
 | London 4 | DC(AZ1) | ARK | A103 | A57 Cody Technology Park Old, Victor Way, Farnborough |
 | London 5 | DC(AZ2) | Gyron |  | Maxted Cl, Hemel Hempstead  |
