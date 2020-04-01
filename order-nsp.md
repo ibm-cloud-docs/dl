@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, 2020
-lastupdated: "2020-03-17"
+lastupdated: "2020-04-01"
 
 keywords: order, provider, capabilities, Dedicated, cross-connect, locations, PoP, data center, data, center, pricing, Letter of Authorization, LOA,
 
@@ -30,17 +30,16 @@ subcollection: dl
 
 # Ordering {{site.data.keyword.cloud_notm}} Direct Link Dedicated
 {: #how-to-order-ibm-cloud-dl-dedicated}
-{: help} 
+{: help}
 {: support}
 
 To order {{site.data.keyword.cloud}} Direct Link Dedicated, follow these steps.
 {:shortdesc}
 
 1. Log in to your [{{site.data.keyword.cloud_notm}}](https://{DomainName}/){:external} account.
-1. Select the **Navigation Menu** ![Navigation Menu icon](images/menu_icon.png) on the upper left, then click **Interconnectivity**.
-1. Select **Direct Link**. Any existing {{site.data.keyword.cloud_notm}} Direct Link connections are shown.
+1. Select the **Navigation Menu** ![Navigation Menu icon](images/menu_icon.png) on the upper left, then click **Hybrid Networking**.
 1. Click **Order Direct Link +** in the upper right of the page.
-1. In the order form, complete the following configuration information:
+1. In the Direct Link Dedicated order form, complete the following configuration information:
    * Enter a name for your Direct Link Dedicated connection.
    * Select a resource group to create the Direct Link connection and a connection speed. The speeds supported for the Direct Link Dedicated offering are 1, 2, 5, and 10 Gbps.
    * Optionally, enter a customer name, carrier name, or both.
@@ -98,16 +97,6 @@ The table gives details about the {{site.data.keyword.cloud_notm}} data centers 
 
 |**IBM Location Code** | **Location Type** | **Meet Me Room Operator**| **Operator Site Code** | **Operator Address** |
 |-----------------|-----------------|-----------------|--------------------|--------------------|
-| **EMEA** |  |  |  |
-| Frankfurt 1 | PoP | InterXion (DLR) | FRA01 | Hanauer Landstrasse 302 |
-| Frankfurt 2 | DC(AZ1) | Zenium | FRA1 | Leonhard - Heisswolf Str 4., Frankfurt am Main |
-| Frankfurt 3 | PoP | Equinix| FRA6 | Larchenstrasse 110, Frankfurt Griesheim |
-| Frankfurt 4 | DC(AZ2) | E-Shelter | Frankfurt 1 | Eschborner Landstrasse 100, Building H |
-| Frankfurt 5 | DC(AZ3) | InterXion | FRA05 | Weismüllerstraße 40 |
-| London 3 | PoP | Equinix | LD5 | 8 Buckingham Ave |
-| London 4 | DC(AZ1) | ARK | A103 | A57 Cody Technology Park Old, Victor Way, Farnborough |
-| London 5 | DC(AZ2) | Gyron |  | Maxted Cl, Hemel Hempstead  |
-| London 6 | DC(AZ3) | Zenium( Cyrus One) | LON1 | 12 Liverpool Rd, Trading Estate |
 | **Americas** |  |  |  |
 | Dallas 3 | PoP | Equinix | DA1 | 1950 N. Stemmons Freeway |
 | Dallas 4 | PoP | Digital Realty | DFW14 | 2323 Bryan St |
@@ -119,3 +108,19 @@ The table gives details about the {{site.data.keyword.cloud_notm}} data centers 
 | Washington DC 5 | PoP | Coresite | DC2 | 12098 Sunrise Valley Dr |
 | Washington DC 6 | DC(AZ1) | Raging Wire | VA2 | 44610 Guilford Drive |
 | Washington DC 7 | DC(AZ1) | Sabey | Sabey Intergate.Ashburn | 21741 Red Rum Dr|
+| **APAC** |  |  |  |
+| Sydney 1 | DC(AZ1) | Global Switch | SYD01 | 400 Harris Street aka 273 Pyrmont St Ultimo  |
+| Sydney 4 | DC(AZ2) | Digital Realty | SYD10 | 1-11 Templar Rd, Erskine Park |
+| Sydney 5 | DC(AZ3) | Equinix | SY4 | 200 Bourke Road |
+| Tokyo 3 | PoP 2 | Equinix | TY4 | Chiyoda-ku |
+| **EMEA** |  |  |  |
+| Frankfurt 1 | PoP | InterXion (DLR) | FRA01 | Hanauer Landstrasse 302 |
+| Frankfurt 2 | DC(AZ1) | Zenium | FRA1 | Leonhard - Heisswolf Str 4., Frankfurt am Main |
+| Frankfurt 3 | PoP | Equinix| FRA6 | Larchenstrasse 110, Frankfurt Griesheim |
+| Frankfurt 4 | DC(AZ2) | E-Shelter | Frankfurt 1 | Eschborner Landstrasse 100, Building H |
+| Frankfurt 5 | DC(AZ3) | InterXion | FRA05 | Weismüllerstraße 40 |
+| London 2 | DC | Digital Realty | LHR13 | Fountain Court, Cox Lane, Suites 210 and 230 |
+| London 3 | PoP | Equinix | LD5 | 8 Buckingham Ave |
+| London 4 | DC(AZ1) | ARK | A103 | A57 Cody Technology Park Old, Victor Way, Farnborough |
+| London 5 | DC(AZ2) | Gyron |  | Maxted Cl, Hemel Hempstead  |
+| London 6 | DC(AZ3) | Zenium( Cyrus One) | LON1 | 12 Liverpool Rd, Trading Estate |
