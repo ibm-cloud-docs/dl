@@ -113,6 +113,7 @@ The table gives details about the {{site.data.keyword.cloud_notm}} data centers 
 | Sydney 4 | DC(AZ2) | Digital Realty | SYD10 | 1-11 Templar Rd, Erskine Park |
 | Sydney 5 | DC(AZ3) | Equinix | SY4 | 200 Bourke Road |
 | Tokyo 3 | PoP 2 | Equinix | TY4 | Chiyoda-ku |
+| Tokyo 5 | DC(AZ3) | NTT |  | Kawasaki Kangagawa |
 | **EMEA** |  |  |  |  |
 | Frankfurt 1 | PoP 1 | Digital Realty (fInterXion) | FRA01 | Hanauer Landstrasse 302 |
 | Frankfurt 2 | DC(AZ1) | Cyrus One (fZenium) | FRA1 | Leonhard - Heisswolf Str 4., Frankfurt am Main |
