@@ -2,7 +2,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="dl" category="network" audience="service" href="/docs/dl/getting-started.html" console-page="/interconnectivity" product-page="https://www.ibm.com/cloud/direct-link" path="dl"}
+{: .toc subcollection="dl" category="network" audience="service" href="/docs/dl/getting-started" console-page="/interconnectivity" product-page="https://www.ibm.com/cloud/direct-link" path="dl"}
 Direct Link
 
     {: .navgroup id="learn"}
