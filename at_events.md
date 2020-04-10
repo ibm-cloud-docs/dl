@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2016, 2019
-lastupdated: "2019-12-15"
+  years: 2020
+lastupdated: "2020-04-10"
 
 keywords: IBM, activity tracker, LogDNA, event, security, Direct Link
 
@@ -40,8 +40,8 @@ The following table lists the actions that generate an event for the Direct Link
 | `directlink.dedicated.gateway.create`   | An event is generated when an initiator creates a Direct Link Dedicated gateway. |
 | `directlink.dedicated.gateway.delete`     | An event is generated when an initiator deletes a Direct Link Dedicated gateway. |
 | `directlink.dedicated.gateway.update`   | An event is generated when an initiator updates a Direct Link Dedicated gateway. |
-| `directlink.dedicated.virtual_connection.create`   | An event is generated when an initiator creates a Direct Link Dedicated virtual connection. |
-| `directlink.dedicated.virtual_connection.delete`     | An event is generated when an initiator deletes a Direct Link Dedicated virtual connection. |
-| `directlink.dedicated.virtual_connection.update`  | An event is generated when an initiator updates a Direct Link Dedicated virtual connection. |
-| `directlink.dedicated.completion_notice.create`    | An event is generated when an initiator creates a Direct link Dedicated completion notice. |
+| `directlink.dedicated.virtual-connection.create`   | An event is generated when an initiator creates a Direct Link Dedicated virtual connection. |
+| `directlink.dedicated.virtual-connection.delete`     | An event is generated when an initiator deletes a Direct Link Dedicated virtual connection. |
+| `directlink.dedicated.virtual-connection.update`  | An event is generated when an initiator updates a Direct Link Dedicated virtual connection. |
+| `directlink.dedicated.completion-notice.create`    | An event is generated when an initiator creates a Direct link Dedicated completion notice. |
 {: caption="Table 1. Manage Direct Link Dedicated gateway actions" caption-side="top"}
