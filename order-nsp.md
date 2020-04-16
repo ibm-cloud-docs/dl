@@ -37,7 +37,7 @@ To order {{site.data.keyword.cloud}} Direct Link Dedicated, follow these steps.
 {:shortdesc}
 
 1. Log in to your [{{site.data.keyword.cloud_notm}}](https://{DomainName}/){:external} account.
-1. Select the **Navigation Menu** ![Navigation Menu icon](images/menu_icon.png) on the upper left, then click **Hybrid Networking**.
+1. Select the **Navigation Menu** ![Navigation Menu icon](images/menu_icon.png) on the upper left, then click **Interconnectivity**.
 1. Click **Order Direct Link +** in the upper right of the page.
 1. In the Direct Link Dedicated order form, complete the following configuration information:
    * Enter a name for your Direct Link Dedicated connection.
