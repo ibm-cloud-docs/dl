@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, 2020
-lastupdated: "2020-04-08"
+lastupdated: "2020-04-24"
 
 keywords: order, provider, capabilities, Dedicated, cross-connect, locations, PoP, data center, data, center, pricing, Letter of Authorization, LOA,
 
@@ -38,39 +38,47 @@ To order {{site.data.keyword.cloud}} Direct Link Dedicated, follow these steps.
 
 1. Log in to your [{{site.data.keyword.cloud_notm}}](https://{DomainName}/){:external} account.
 1. Select the **Navigation Menu** ![Navigation Menu icon](images/menu_icon.png) on the upper left, then click **Interconnectivity**.
-1. Click **Order Direct Link +** in the upper right of the page.
-1. In the Direct Link Dedicated order form, complete the following configuration information:
+1. Click **Order Direct Link**.
+1. Select the **Direct Link Dedicated** option.
+1. In the Direct Link Dedicated order form, complete the following information:
    * Enter a name for your Direct Link Dedicated connection.
-   * Select a resource group to create the Direct Link connection and a connection speed. The speeds supported for the Direct Link Dedicated offering are 1, 2, 5, and 10 Gbps.
-   * Optionally, enter a customer name, carrier name, or both.
-   * Select either **Metered** or **Unmetered** for the billing option for the Dedicated connection.
-   * For Location, select the **N/S America** geography and then select either the **Washington, D.C.** or **Dallas** market. Continue selecting options for type, site, and routing.
+   * Choose a resource group to create the Direct Link connection. Resource groups help manage and contain resources associated with an account. Select **Default** if you don't have any other groups defined in the drop-down list. For more information about resource groups, see [Best practices for organizing resources in a resource group](/docs/resources?topic=resources-bp_resourcegroups).
+   * Choose a connection speed. The speeds supported for the Direct Link Dedicated offering are 1 Gbps, 2 Gbps, 5 Gbps, 10 Gbps, and 500 Mbps. Note that speeds above 1 Gbps require 10 Gbps service from the client's carrier and equipment.  
+   * Optionally, type a customer name, carrier name, or both.
+   * For Billing, select **Metered** or **Unmetered**. Metered pricing is paying only for what you use. Unmetered is unlimited access, for a predicable, monthly fee. See [Pricing for IBM Cloud Direct Link](/docs/dl?topic=dl-pricing-for-ibm-cloud-dl) for details.
+   * For Location, select a geography, followed by a market, type, site, and routing option.
 
-      Local and global routing options are supported for Direct Link Dedicated. When you select a routing option, the location details with reachable sites are displayed.
+      Local and global routing options are supported for Direct Link Dedicated. When you select a routing option, the location details with reachable sites are displayed.  
       {:note}
+1. In the BGP and Connections section, complete the following information:
+      * Select the IBM cross-connect router for the Direct Link connection. The number of direct links associated with your  account for each router is shown next to the router name.
+      * Select a BGP peering subnet for the Direct Link connection. There are two choices for BGP subnets.
 
-   * For BGP and Connections:
-      * Select the IBM cross connect router for the Direct Link connection. The number of direct links associated with the account for each router is shown next to the router name.
-      * Select a BGP peering subnet for the Direct Link connection. There are two choices for BGP subnets. If you select **Auto-select IP**, the IPs are assigned from the link local IP range, 169.254.0.0/16. If you select **Manual select IP**, you can specify IPs (in CIDR format) from the ranges `169.254.0.0/16`, `192.168.0.0/16`, `10.254.0.0/16` or `172.16.0.0/12`.
+         * Select **Auto-select IP** for IBM to assign an IP address from IP range, `169.254.0.0/16`.
+
+         * Select **Manual-select IP** to specify your own IP addresses (in CIDR format) from the ranges `10.254.0.0/16`, `172.16.0.0/12`, `192.168.0.0/16`, `169.254.0.0/16`, or `Public`. Manual-select is useful when trying to avoid conflicts with an existing connection.
+
       * For BGP ASN, use either the default value of `64999`, or select an ASN from the specified allowed ranges.
+
       Allowed ASN ranges are:
-        * For a 2-byte range, enter a value between `1-64495` or default `64999`.
-        * For a 2-byte or 4-byte range, enter a value between `131072-4199999999`.
-        * For a 4-byte range, enter a value between `4201000000-4201064511`.
-   * Optionally, select the network connection to be attached to the Direct Link gateway, and then enter a connection name. To add multiple network connections to the Direct Link gateway, click **Add connection+**. You can create one of the following connections:
+         * For a 2-byte range, enter a value between `1-64495` or default `64999`.
+         * For a 2-byte or 4-byte range, enter a value between `131072-4199999999`.
+         * For a 4-byte range, enter a value between `4201000000-4201064511`.
 
-      * **Classic Infrastructure** networks allow you to connect to {{site.data.keyword.cloud_notm}} classic resources. Only one classic infrastructure connection is allowed per Direct Link gateway.
-      * **VPC** networks can contain either first or second generation compute resources, allowing you to connect to your account’s VPC resources.
+      * Optionally, select the network connection to be attached to the Direct Link gateway, and then enter a connection name. To add multiple network connections to the Direct Link gateway, click **Add connection+**. You can create one of the following connections:
 
-   You cannot request a connection to a network in another account when you create a gateway. However, you can request connection to a network in another account after a gateway is provisioned. You also can create classic infrastructure and VPC connections after a gateway is created. For more information, see [Adding virtual connections to a Direct Link gateway](/docs/dl?topic=dl-add-virtual-connection).
-   {:important}
+         * **Classic Infrastructure** networks allow you to connect to {{site.data.keyword.cloud_notm}} classic resources. Only one classic infrastructure connection is allowed per Direct Link gateway.
+         * **VPC** networks can contain either first or second generation compute resources, allowing you to connect to your account’s VPC resources.
 
-   The routing option that you selected determines the reachability of the resources in the selected location. If you selected the **Global** routing option along with your location selections, the **Regions** menu list displays all the regions that are globally available in the specific account. After selecting a region, you can select any VPC from the **Available connections** menu. If you selected **Local** routing, then only the region that corresponds to the selected location is available to select. When selected, VPCs available in the local region for your account are displayed.
-   {:note}
+      You cannot request a connection to a network in another account when you create a gateway. However, you can request connection to a network in another account after a gateway is provisioned. You also can create classic infrastructure and VPC connections after a gateway is created. For more information, see [Adding virtual connections to a Direct Link gateway](/docs/dl?topic=dl-add-virtual-connection).
+      {:important}
+
+      The routing option that you selected determines the reachability of the resources in the selected location. If you selected the **Global** routing option along with your location selections, the **Regions** menu list displays all the regions that are globally available in the specific account. After selecting a region, you can select any VPC from the **Available connections** menu. If you selected **Local** routing, then only the region that corresponds to the selected location is available to select. When selected, VPCs available in the local region for your account are displayed.
+    {:note}
 
    An order summary shows pricing estimates.
 
-1. Agree to the [**Direct Link prerequisites**](/docs/dl?topic=dl-ibm-cloud-dl-dedicated-questionnaire) and review Cloud Services [**terms**](https://www.ibm.com/software/sla/sladb.nsf/sla/bm-8695-01). Then, click **Create** to complete your order. You can request assistance from {{site.data.keyword.cloud_notm}} Sales engineers at any time.
+1. Read and agree to the [**Direct Link prerequisites**](/docs/dl?topic=dl-ibm-cloud-dl-dedicated-questionnaire) and review Cloud Services [**terms**](https://www.ibm.com/software/sla/sladb.nsf/sla/bm-8695-01). Then, click **Create** to complete your order.  
 1. Complete the connection.
 
 ## Completing the connection
@@ -110,6 +118,7 @@ The table gives details about the {{site.data.keyword.cloud_notm}} data centers 
 | Washington DC 7 | DC(AZ1) | Sabey | Sabey Intergate.Ashburn | 21741 Red Rum Dr |
 | **APAC** |  |  |  |  |
 | Sydney 1 | DC(AZ1) | Global Switch | SYD01 | 400 Harris Street aka 273 Pyrmont St Ultimo |
+| Sydney 3 | PoP | NextDC | SYD03 | 4 Eden Park Drive, Marquarie Park |
 | Sydney 4 | DC(AZ2) | Digital Realty | SYD10 | 1-11 Templar Rd, Erskine Park |
 | Sydney 5 | DC(AZ3) | Equinix | SY4 | 200 Bourke Road |
 | Tokyo 3 | PoP 2 | Equinix | TY4 | Chiyoda-ku |
