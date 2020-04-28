@@ -109,8 +109,8 @@ The table gives details about the {{site.data.keyword.cloud_notm}} data centers 
 | Dallas 3 | PoP 1 | Equinix | DA1 | 1950 N. Stemmons Freeway |
 | Dallas 4 | PoP 2 | Digital Realty | DFW14 | 2323 Bryan St |
 | Dallas 10 | DC(AZ1) | QTS | IRV | 6431 Longhorn Drive |
-| Dallas 12 | DC(AZ1) | Digital Realty | DFW18 | 907 Security Row |
-| Dallas 13 | DC(AZ1) | Cyrus One | Carrollton - Frankford | 1649 W. Frankford Rd |
+| Dallas 12 | DC(AZ2) | Digital Realty | DFW18 | 907 Security Row |
+| Dallas 13 | DC(AZ3) | Cyrus One | Carrollton - Frankford | 1649 W. Frankford Rd |
 | Washington DC 2 | PoP 1 | Equinix | DC2 | 21715 Filigree Ct |
 | Washington DC 4 | DC(AZ1) | Digital Realty | IAD38 | 44060 Digital Loudoun Plaza (Bldg K) |
 | Washington DC 5 | PoP 2 | Coresite | DC2 | 12098 Sunrise Valley Dr |
