@@ -106,6 +106,9 @@ The table gives details about the {{site.data.keyword.cloud_notm}} data centers 
 |**IBM Location Code** | **Location Type** | **Meet Me Room Operator**| **Operator Site Code** | **Operator Address** |
 |-----------------|-----------------|-----------------|--------------------|--------------------|
 | **Americas** |  |  |  |  |
+| Chicago 1 |  PoP | Equinix  | CH4 |  350 E. Cermak |
+| Dallas 3 | PoP 1 | Equinix | DA1 | 1950 N. Stemmons Freeway |
+| Dallas 4 | PoP 2 | Digital Realty | DFW14 | 2323 Bryan St |
 | Dallas 3 | PoP 1 | Equinix | DA1 | 1950 N. Stemmons Freeway |
 | Dallas 4 | PoP 2 | Digital Realty | DFW14 | 2323 Bryan St |
 | Dallas 10 | DC(AZ1) | QTS | IRV | 6431 Longhorn Drive |
