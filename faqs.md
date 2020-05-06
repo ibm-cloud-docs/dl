@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, 2020
-lastupdated: "2020-03-23"
+lastupdated: "2020-05-06"
 
 keywords: faq, faqs, questions, answer, billing, fees, point-to-point, bandwidth, charges, redundancy, global routing, diversity, IPv6, BGP, charges, jumbo frames
 
@@ -28,7 +28,7 @@ subcollection: dl
 {:generic: data-hd-programlang="generic"}
 {:download: .download}  
 
-# FAQs
+# FAQs for Direct Link
 {: #faqs}
 
 You can review answers to some frequently asked questions about {{site.data.keyword.cloud}} Direct Link Dedicated "2.0".
@@ -43,7 +43,7 @@ The new Direct Link "2.0" offering differs from the Direct Link classic infrastr
 
 The initial rollout of Direct Link "2.0" is in the Dallas and Washington D.C. sites. The zone-region model allows for multiple data centers to exist in a single zone.
 
-The new Direct Link"2.0" offering allows connectivity to both Classic IaaS as well as VPCs, whereas the Classic Direct Link always connects to IaaS network and a global VRF first. Classic Direct Link can only reach Classic VPC on a limited basis, and cannot reach VPC Gen 2 at all.
+The new Direct Link "2.0" offering allows connectivity to both Classic IaaS as well as VPCs, whereas the Classic Direct Link always connects to IaaS network and a global VRF first. Classic Direct Link can only reach  VPC on a limited basis utilizing a VPC feature called Classic Access. See [Setting up access to your Classic Infrastructure from VPC](/docs/vpc?topic=vpc-setting-up-access-to-classic-infrastructure) for more information.
 
 For more information about the differences between the new Direct Link Dedicated "2.0" offering and the Classic version, see [How do I know which Direct Link solution to order?](/docs/direct-link?topic=direct-link-get-started-with-ibm-cloud-direct-link#get-started-solution-to-order).
 {: tip}
@@ -67,7 +67,7 @@ Initial rollout plans are for the Multi-Zone Regions (MZRs) to be prioritized. O
 {: faq}
 {: support}
 
-Six MZRs are in plan for 1H20 (Frankfurt, Tokyo, London, and Sydney in 1H20; Toronto and Sao Paulo in 2H20.
+Six MZRs are in plan for 1H20 (Frankfurt, Tokyo, London, and Sydney in 1H20); Toronto and Sao Paulo in 2H20.
 
 ## If Direct Link "2.0" is not available for Single-Zone Regions (SZRs), how do financial services clients handle the data that they need to keep in their regions?
 {: #roadmap-szrs}
@@ -110,7 +110,7 @@ The plan is for Direct Link to be available in the following data centers by the
 {:faq}
 {: support}
 
-You can connect the classic infrastructure and VPC with classic peering as described in (/docs/vpc-on-classic-network?topic=vpc-on-classic-setting-up-access-to-your-classic-infrastructure-from-vpc).
+You can connect the classic infrastructure and VPC with classic peering as described in [Setting up access to your Classic Infrastructure from VPC](/docs/vpc-on-classic-network?topic=vpc-on-classic-setting-up-access-to-your-classic-infrastructure-from-vpc).
 
 Classic access features of VPC are an option at VPC setup and can only be enabled at the initial VPC creation. For more information, see [Creating and managing network resources in VPC](/docs/vpc-on-classic?topic=vpc-on-classic-creating-and-managing-network-resources-in-vpc).
 
