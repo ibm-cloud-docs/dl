@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, 2020
-lastupdated: "2020-04-24"
+lastupdated: "2020-05-11"
 
 keywords: order, provider, capabilities, Dedicated, cross-connect, locations, PoP, data center, data, center, pricing, Letter of Authorization, LOA,
 
@@ -54,9 +54,9 @@ To order {{site.data.keyword.cloud}} Direct Link Dedicated, follow these steps.
       * Select the IBM cross-connect router for the Direct Link connection. The number of direct links associated with your  account for each router is shown next to the router name.
       * Select a BGP peering subnet for the Direct Link connection. There are two choices for BGP subnets.
 
-         * Select **Auto-select IP** for IBM to assign an IP address from IP range, `169.254.0.0/16`.
+         Select **Auto-select IP** for IBM to assign an IP address from IP range, `169.254.0.0/16`.
 
-         * Select **Manual-select IP** to specify your own IP addresses (in CIDR format) from the ranges `10.254.0.0/16`, `172.16.0.0/12`, `192.168.0.0/16`, `169.254.0.0/16`, or `Public`. Manual-select is useful when trying to avoid conflicts with an existing connection.
+         Select **Manual-select IP** to specify your own IP addresses (in CIDR format) from the ranges `10.254.0.0/16`, `172.16.0.0/12`, `192.168.0.0/16`, `169.254.0.0/16`, or `Public` (a public address that you own). Manual-select is useful when trying to avoid conflicts with an existing connection.
 
       * For BGP ASN, use either the default value of `64999`, or select an ASN from the specified allowed ranges.
 
@@ -74,7 +74,7 @@ To order {{site.data.keyword.cloud}} Direct Link Dedicated, follow these steps.
       {:important}
 
       The routing option that you selected determines the reachability of the resources in the selected location. If you selected the **Global** routing option along with your location selections, the **Regions** menu list displays all the regions that are globally available in the specific account. After selecting a region, you can select any VPC from the **Available connections** menu. If you selected **Local** routing, then only the region that corresponds to the selected location is available to select. When selected, VPCs available in the local region for your account are displayed.
-    {:note}
+   {:note}
 
    An order summary shows pricing estimates.
 
@@ -125,6 +125,7 @@ The table gives details about the {{site.data.keyword.cloud_notm}} data centers 
 | Sydney 3 | PoP 2 | NextDC | SYD03 | 4 Eden Park Drive, Marquarie Park |
 | Sydney 4 | DC(AZ2) | Digital Realty | SYD10 | 1-11 Templar Rd, Erskine Park |
 | Sydney 5 | DC(AZ3) | Equinix | SY4 | 200 Bourke Road |
+| Tokyo 1 | Pop | Equinix | TY2  |  |
 | Tokyo 3 | PoP 2 | Equinix | TY4 | Chiyoda-ku |
 | Tokyo 4 | DC(AZ2) | Softbank | | Saitama |
 | Tokyo 5 | DC(AZ3) | NTT |  | Kawasaki Kangagawa |
@@ -139,3 +140,4 @@ The table gives details about the {{site.data.keyword.cloud_notm}} data centers 
 | London 4 | DC(AZ1) | ARK | A103 | A57 Cody Technology Park Old, Victor Way, Farnborough |
 | London 5 | DC(AZ2) | Gyron |  | Maxted Cl, Hemel Hempstead  |
 | London 6 | DC(AZ3) | Cyrus One (fZenium) | LON1 | 12 Liverpool Rd, Trading Estate |
+| Paris 2 | PoP | Equinix | PA2 | 114 Rue Ambroise Croizat, St Denis |
