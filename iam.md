@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2019
-lastupdated: "2019-12-15"
+  years: 2020
+lastupdated: "2020-05-18"
 
 keywords: direct link, IAM, permissions, access
 
@@ -26,17 +26,17 @@ subcollection: dl
 {:generic: data-hd-programlang="generic"}
 {:download: .download}
 
-#  Identity and Access Management roles and actions
+# Managing access for Direct Link
 {: #iam}
 
-{{site.data.keyword.cloud}} Direct Link Dedicated enables connectivity between customer on-premises resources to {{site.data.keyword.cloud_notm}} resources that are hosted in classic and Virtual Private Cloud (VPC) infrastructures, including second-generation compute resources.
+{{site.data.keyword.cloud}} Direct Link enables connectivity between customer on-premises resources to {{site.data.keyword.cloud_notm}} resources that are hosted in classic and Virtual Private Cloud (VPC) infrastructures, including second-generation compute resources.
 {: shortdesc}
 
-{{site.data.keyword.cloud_notm}} Direct Link Dedicated uses {{site.data.keyword.cloud_notm}} Identity and Access Management (IAM) platform access roles to manage access to the service's resources. IAM access roles allow account administrators to assign different levels of permission for calling the service's APIs and accessing the UI. The following table provides example actions that you can take against the Direct Link service and its resources, depending on the user's assigned roles. 
+{{site.data.keyword.cloud_notm}} Direct Link uses {{site.data.keyword.cloud_notm}} Identity and Access Management (IAM) platform access roles to manage access to the service's resources. IAM access roles allow account administrators to assign different levels of permission for calling the service's APIs and accessing the UI. The following table provides example actions that you can take against the Direct Link service and its resources, depending on the user's assigned roles.
 
 ## Platform-access roles
 
-Direct Link Dedicated supports Administrator, Editor, and Viewer platform-access roles.
+Direct Link supports Administrator, Editor, and Viewer platform-access roles.
 {: shortdesc}
 
 | Role | Description of Actions | Example Actions |
@@ -44,10 +44,14 @@ Direct Link Dedicated supports Administrator, Editor, and Viewer platform-access
 | Administrator | Allows a user to assign Direct Link IAM access policies to other users. | Update user access policies for the service. |         
 | Editor | Performs all actions, including managing gateways and virtual connections. |<ul><li>Create gateway</li><li>Delete gateway</li><li>Edit gateway</li><li>Add a virtual connection to a gateway&ast;</li> <li>Remove a virtual connection from a gateway&ast;</li><li>Edit a virtual connection</li></ul> |   
 | Viewer| Performs actions that don't change the state of resources. |<ul><li>List gateways</li><li>Get gateways</li><li>List a gateway's virtual connections</li><li>View a gateway's virtual connections</li><li>Retrieve gateway-related information (completion notice/letter of authorization)</li><li>View incoming connection requests&ast;</li></ul> |
-{: caption="Table 1. IAM platform-access user role and actions" caption-side="top"} 
+{: caption="Table 1. IAM platform-access user role and actions" caption-side="top"}
 
 &ast; To add or remove virtual connections to VPCs, or to accept or reject a connection request, the user must also have Editor or Administrator platform-access role permissions to the VPC. See [VPC: Getting started with IAM](/docs/vpc?topic=vpc-iam-getting-started) for more information.
 
+**Notes**:
+
+* All Direct Link resources exist in a resource group. Creating a Direct Link resource requires Viewer access to the selected resource group.
+* For information about assigning user roles in the console, see [Managing access to resources](/docs/iam?topic=iam-iammanidaccser#iammanidaccser).
 
 ## Viewing Direct Link resources in the Resource list
 
