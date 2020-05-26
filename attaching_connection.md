@@ -30,7 +30,7 @@ subcollection: dl
 
 # Adding virtual connections to a Direct Link gateway
 {: #add-virtual-connection}
-{: help} 
+{: help}
 {: support}
 
 You can add a virtual connection when you create a Direct Link gateway by using the **Network connections** option. You can also add a virtual connection to the gateway after the gateway is provisioned.
@@ -40,7 +40,7 @@ To add a connection to a provisioned gateway, follow these steps:
 
 1. Highlight the row of the gateway in the Direct Link table, then click **Add connection** from the **Overflow** ![Overflow menu](images/overflow.png) menu. Alternatively, you can click **Actions > Add connection** on the gateway's details page.
 
-You can create a new connection to the logged-in account, or request a connection to a network within another account.
+   You can create a new connection to the logged-in account, or request a connection to a network within another account.
 
 2. Select a network connection and then select your region from the menu list.
 3. Select the VPC network to attach to the gateway and enter a name for the connection. For connections to VPC networks in another {{site.data.keyword.cloud_notm}} account, enter the Cloud Resource Name (CRN) of the target VPC.
