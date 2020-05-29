@@ -1,9 +1,9 @@
 ---
 
 copyright:
-  years: 2019, 2020
+  years: 2020
 
-lastupdated: "2019-12-15"
+lastupdated: "2020-05-15"
 
 
 keywords: tutorials, solution, case study, white paper, announcement, blog,
@@ -35,6 +35,7 @@ These resources are created by {{site.data.keyword.cloud}} and by some IBM Busin
 {:shortdesc}
 
 ## Papers and case studies
+{: #papers-case-studies}
 
 * [**Hybrid Cloud white paper**](https://public.dhe.ibm.com/cloud/bluemix/network/direct-link/ibm-hybrid-cloud-whitepaper.pdf){: external}
 
@@ -56,6 +57,7 @@ These resources are created by {{site.data.keyword.cloud}} and by some IBM Busin
     Choosing to colocate at Digital Realty’s hub locations in APAC and the US puts {{site.data.keyword.cloud_notm}} data centers right next door to Digital Realty’s world-class data center deployments, with direct dark fiber connection between them.
 
 ## Featured announcements
+{: #featured-announcements}
 
 * [InterCloud Offers Dedicated Connectivity to {{site.data.keyword.cloud_notm}}](https://info.intercloud.com/intercloud-offers-dedicated-connectivity-to-ibm-cloud){: external}
 
@@ -66,14 +68,15 @@ These resources are created by {{site.data.keyword.cloud}} and by some IBM Busin
     Learn how SES Network's decision to partner with {{site.data.keyword.cloud_notm}} to help customers overcome key connectivity challenges by harnessing the power of satellites.
 
 ## Blogs on the IBM website
+{: #blogs}
 
 * [Megaport and IBM Empower Enterprise Cloud](https://www.ibm.com/cloud/blog/megaport-and-ibm-empower-enterprise-cloud){: external}, by Matt Simpson and Jill Tempelmeyer
 
-* [Supporting the next generation cloud applications with {{site.data.keyword.cloud_notm}} Direct Link](https://www.ibm.com/blogs/cloud-computing/2018/06/26/next-generation-cloud-apps-ibm-cloud-direct-link/){: external}, by Gabriel Montanti
+* [Supporting the next generation cloud applications with {{site.data.keyword.dl_full_notm}}](https://www.ibm.com/blogs/cloud-computing/2018/06/26/next-generation-cloud-apps-ibm-cloud-direct-link/){: external}, by Gabriel Montanti
 
 * [IBM and Colt - Enabling Enterprise Digital Transformation](https://www.ibm.com/cloud/blog/announcements/ibm-colt-enterprise-digital-transformation){: external}, by Paul Hertzfeldt
 
-* [Digital Realty and {{site.data.keyword.cloud_notm}} Direct Link - Built for Enterprise Cloud](https://www.ibm.com/cloud/blog/announcements/digital-realty-ibm-cloud-dl-expand-network){: external}, by Paul Hertzfeldt
+* [Digital Realty and {{site.data.keyword.dl_full_notm}} - Built for Enterprise Cloud](https://www.ibm.com/cloud/blog/announcements/digital-realty-ibm-cloud-dl-expand-network){: external}, by Paul Hertzfeldt
 
 * [PacketFabric and {{site.data.keyword.cloud_notm}} Enable Secure Enterprise Connections](https://www.ibm.com/cloud/blog/announcements/packetfabric-ibm-enable-secure-enterprise-connections){: external}, by Paul Hertzfeldt
 

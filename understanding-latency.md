@@ -1,7 +1,7 @@
 ---
 copyright:
-  years: 1994, 2017, 2018, 2019
-lastupdated: "2019-12-15"
+  years: 2020
+lastupdated: "2020-05-15"
 
 keywords: hybrid, solution, latency, connected, milliseconds, high-capacity, performance, security, data, path, resiliency, PoPs, globe, infrastructure, backbone, traffic, workloads
 
@@ -33,7 +33,7 @@ subcollection: dl
 
 Whether you have an online store, run big data solutions, or have your employees set up on a network with access to files around the world, you never want to hear that slow page loading, or slow data transfer, is keeping you from a sale. Slowdowns can be caused by network latency, which is the measurement of how quickly data travels between two connected points on the internet. You can think of it as the amount of time it takes for one packet of data to get from one place to another.
 
-Globally, the internet’s overall latency can vary significantly, depending on how far the data must travel physically, how many times the data must hop between service providers, how much bandwidth is available along the way, what other data is traveling across the same path, in addition to other variables. {{site.data.keyword.cloud_notm}} Direct Link offers deterministic latency with greater security, relative to the internet for predictable performance.
+Globally, the internet’s overall latency can vary significantly, depending on how far the data must travel physically, how many times the data must hop between service providers, how much bandwidth is available along the way, what other data is traveling across the same path, in addition to other variables. {{site.data.keyword.dl_full_notm}} offers deterministic latency with greater security, relative to the internet for predictable performance.
 
 
 ## Understanding network latency
@@ -56,12 +56,12 @@ Given that our shared goal is to minimize latency, it makes sense to limit the n
 
  * Understand how your providers route traffic: When you know more details about how your data is transferred to customers around the world, you can make better decisions about where you host your data.
 
-## How {{site.data.keyword.cloud_notm}} minimizes network latency
+## How IBM Cloud minimizes network latency
 {: #how-ibm-cloud-minimizes-network-latency}
 
 To minimize latency, {{site.data.keyword.cloud_notm}} took a unique approach to building our network. All of our data centers are connected to network points of presence (PoPs), and all of our network points of presence are connected to each other through our global backbone network. Because IBM maintains our own global backbone network, our network operations team can control network paths and data transfers more precisely than if we relied on other providers to move data between geographies.
 
-For example, if an {{site.data.keyword.cloud_notm}} customer in Berlin wants to watch a cat video hosted on an {{site.data.keyword.cloud_notm}} server in Dallas, the packets of data that makes up that cat video travels across our backbone network (which is exclusively used by {{site.data.keyword.cloud_notm}} traffic) to Frankfurt, where the packets are sent to one of our peering or transit public network Service Providers, finally to get to the user in Berlin. Even better, if our customer uses {{site.data.keyword.cloud_notm}} CDN capability, the packets are sent from an edge server that is located close to the customer, and they never need to be sent from Dallas at all.
+For example, if an {{site.data.keyword.cloud_notm}} customer in Berlin wants to watch a cat video hosted on an {{site.data.keyword.cloud_notm}} server in Dallas, the packets of data that makes up that cat video travels across our backbone network (which is exclusively used by {{site.data.keyword.cloud_notm}} traffic) to Frankfurt, where the packets are sent to one of our peering or transit public service providers, finally to get to the user in Berlin. Even better, if our customer uses {{site.data.keyword.cloud_notm}} CDN capability, the packets are sent from an edge server that is located close to the customer, and they never need to be sent from Dallas at all.
 
 Without a global backbone network, the video packets are sent to a peering or transit public network provider in Dallas, then that provider routes the packets across its network or sends the packets to another provider at a network hop, and the packets finally bounce their way to Germany. It’s entirely possible that the packets might get from Dallas to Berlin with the same network latency without using the global backbone network, but without the global backbone network, more variables exist; the total latency is much more difficult to guarantee or predict.
 
@@ -73,5 +73,5 @@ Along with using our own global backbone network, {{site.data.keyword.cloud_notm
 Your customers want your data as quickly as you can get it to them. The time that it takes for your data to get to them across the internet is called network latency. The more control that you have over your data’s network path, the more consistent (and lower) your network latency can be.
 
 * With Direct Link, we give you control over the path your data travels, so your data’s travel is not interrupted or blocked by other traffic.
-* {{site.data.keyword.cloud_notm}} offers industry-leading Service Providers-- providing high performance, security, and resiliency.
+* {{site.data.keyword.cloud_notm}} offers industry-leading service providers-- providing high performance, security, and resiliency.
 * At {{site.data.keyword.cloud_notm}}, we continue to add network Points of Presence (PoPs) across the globe to bring your customers’ data closer to your customers; thereby, improving latency and overall performance to meet the needs of your hybrid cloud workloads.

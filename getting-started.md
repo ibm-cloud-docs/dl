@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2019, 2020
-lastupdated: "2019-12-15"
+  years: 2020
+lastupdated: "2020-05-26"
 
 keywords: hybrid, workloads, deployments, multi-cloud, data transfer, descriptions, diverse, redundant
 
@@ -14,6 +14,8 @@ subcollection: dl
 {:new_window: target="_blank"}
 {:DomainName: data-hd-keyref="DomainName"}
 {:note: .note}
+{:preview: .preview}
+{:beta: .beta}
 {:important: .important}
 {:deprecated: .deprecated}
 {:external: target="_blank" .external}
@@ -26,30 +28,41 @@ subcollection: dl
 {:generic: data-hd-programlang="generic"}
 {:download: .download}  
 
-# Getting started with {{site.data.keyword.cloud_notm}} Direct Link
+# Getting started with IBM Cloud Direct Link 2.0
 {: #get-started-with-ibm-cloud-dl}
 
-Use {{site.data.keyword.cloud}} Direct Link to seamlessly connect your on-premises resources to your cloud resources. The speed and reliability of Direct Link extends your organization’s data center network and offers more consistent, higher-throughput connectivity, without touching the public internet.
+Use {{site.data.keyword.dl_full}} to seamlessly connect your on-premises resources to your cloud resources. The speed and reliability of Direct Link extends your organization’s data center network and offers more consistent, higher-throughput connectivity, keeping traffic within the IBM Cloud network.
 {: shortdesc}
-
-IBM introduces a new release of Direct Link Dedicated, now supporting VPC resources&mdash;the first of our "next generation" Direct Link offerings. Currently, this "limited availability" release only services certain Multi Zone Regions (Frankfurt, London, Dallas, and Washington, D.C.  markets) with more locations being rolled out soon.
 
 Highlights include:
 
 * Metered billing, which lowers the barrier of entry to {{site.data.keyword.cloud_notm}}
 * Support for connections to multiple {{site.data.keyword.cloud_notm}} accounts from a single direct link
-* Support for multiple VPCs (without classic access) from a single Direct Link within the same account
+* Support for multiple VPCs (without classic access) from a single direct link within the same account
 * Bring Your Own IP (BYOIP) address to create native connectivity between your on-premises environment and {{site.data.keyword.cloud_notm}}
 
+The following Direct Link 2.0 offerings are available:
 
-Features coming soon:
+## Direct Link Dedicated
+{: #get-started-with-direct-link-dedicated}
 
-* Support for Virtual Private Endpoints (VPEs) from customer on-premises from a single customer account
-* Support for a Direct Link connection to venues, such as blockchain, SAP on Power, and more
-* Support for a Direct Link connection to Public services; for example, {{site.data.keyword.cloud_notm}} Object Storage (ICOS)
+Terminate a single-tenant, fiber-based, cross-connect into your own IBM Cloud private network connection. This offering is also used by colocation facilities adjacent to IBM Cloud PoPs and data centers.
 
-To get started using {{site.data.keyword.cloud_notm}} Direct Link Dedicated, follow these [step-by-step instructions](/docs/dl?topic=dl-how-to-order-ibm-cloud-dl-dedicated). If you want help with getting started, open a case through the [{{site.data.keyword.cloud_notm}} console](https://cloud.ibm.com/unifiedsupport/cases/add){: external}, or you can contact your {{site.data.keyword.cloud_notm}} Sales representative.
+To get started using {{site.data.keyword.dl_full_notm}} Dedicated, follow these [instructions](/docs/dl?topic=dl-how-to-order-ibm-cloud-dl-dedicated) for ordering the service.
+
+## Direct Link Connect (Beta)
+{: #get-started-with-direct-link-connect}
+
+Leverage a service provider to quickly establish and deliver connectivity to IBM Cloud locations. These Connect providers are already connected to the IBM Cloud network, using multi-tenant, high capacity links (also known as network-to-network interfaces, or NNI).  
+
+The beta release of {{site.data.keyword.dl_full}} Connect is only available to whitelisted users. Contact your IBM Cloud Sales representative if you are interested in getting early access to this beta offering.
+</br>
+After the Direct Link Connect service is made generally available, you must upgrade to the standard paid plan to continue using instances that you created during the beta. Upgrade instructions will be provided to beta participants. Any instances that continue to use the beta plan for this service beyond 30 days after general availability are subject to deletion.
+{: preview}
+
+To get started using {{site.data.keyword.dl_full_notm}} Connect, follow these [instructions](/docs/dl?topic=dl-how-to-order-ibm-cloud-dl-connect) for ordering the service..
 
 ## Learn more
+{: #learn-more}
 
-For more information about this new Direct Link "2.0" offering, see our [FAQs](/docs/dl?topic=dl-faqs).
+For more information about Direct Link 2.0 offerings, see our [FAQs](/docs/dl?topic=dl-faqs).

@@ -1,49 +1,57 @@
-
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
 {: .toc subcollection="dl" category="network" audience="service" href="/docs/dl/getting-started" console-page="/interconnectivity" product-page="https://www.ibm.com/cloud/direct-link" path="dl"}
-Direct Link
+Direct Link 2.0
 
     {: .navgroup id="learn"}
     getting-started.md
     about.md
     dl-july-policy-change.md
     pricing.md
+    diversity-models.md
     ecmp.md
 
     {: .topicgroup}
-    Tutorials & video
+    Videos & tutorials
+        [Video: IBM Cloud Networking Overview](https://www.youtube.com/watch?v=KMRAXSu6KJ8)
+        [Video: Direct Link for Hybrid Cloud](https://www.youtube.com/embed/ZRY2LPJREQw?rel=0)
         /tutorials/solution-tutorials-secure-network-enclosure
         /tutorials/solution-tutorials-byoip
-        direct-link-video.md
 
     {: .topicgroup}
     Related links
-        [Direct Link on Classic](/direct-link/direct-link-get-started-with-ibm-cloud-direct-link)
+        [{{site.data.keyword.dlc_full_notm}}](/direct-link/direct-link-get-started-with-ibm-cloud-direct-link)
         [Virtual Private Cloud](/vpc/vpc-getting-started)
         [What are computer networking solutions?](https://www.ibm.com/cloud/learn/networking-a-complete-guide#toc-computer-n-9C7jokVu)
     {: .navgroup-end}
 
     {: .navgroup id="howto"}
     order-nsp.md
+    order-connect.md
     attaching_connection.md
     editing_gateway.md
     deleting_gateway.md
     dl-to-cos.md
+    ha-dr.md
+
+    {: .topicgroup}
+    Enhancing security for IBM Cloud Direct Link
+          iam.md
+          data-security.md
+          at_events.md
     {: .navgroup-end}
 
     {: .navgroup id="reference"}
-    [Direct Link API reference](https://{DomainName}/apidocs/direct_link)
+    [Direct Link 2.0 API reference](https://{DomainName}/apidocs/direct_link)
+    [Direct Link 2.0 Provider API reference (Beta)](https://{DomainName}/apidocs/direct_link_provider_beta)
     /dl-cli-plugin/dl-cli-plugin-dl-cli
-    iam.md
-    at_events.md
-    responsibilities.md
-    external-resources.md
     understanding-latency.md
     vrf-on-ibm-cloud.md
     vrf-conversion-dl.md
-    questionnaire-dedicated.md
+    prerequisites.md
+    responsibilities.md
+    external-resources.md
     {: .navgroup-end}
 
     {: .navgroup id="help"}

@@ -1,80 +1,75 @@
 ---
 
 copyright:
-  years: 2019
-lastupdated: "2019-12-15"
-
-keywords: direct, link, responsibilities, ha, high availability, disaster recovery, security, interconnects
-
-subcollection: dl
+  years: 2020
+lastupdated: "2020-05-14"
 
 ---
 
+{:new_window: target="_blank_"}
 {:shortdesc: .shortdesc}
-{:new_window: target="_blank"}
-{:DomainName: data-hd-keyref="DomainName"}
+{:screen: .screen}
+{:pre: .pre}
+{:codeblock: .codeblock}
+{:tip: .tip}
 {:note: .note}
 {:important: .important}
 {:deprecated: .deprecated}
-{:external: target="_blank" .external}
-{:shortdesc: .shortdesc}
-{:codeblock: .codeblock}
-{:pre: .pre}
-{:screen: .screen}
-{:tip: .tip}
-{:term: .term}  
-{:generic: data-hd-programlang="generic"}
-{:download: .download}  
+{:download: .download}
+{:preview: .preview}
 
-# Your responsibilities by using IBM Cloud Direct Link
-{: #responsibilities-dl}
+# Understanding your responsibilities when using IBM Cloud Direct Link
+{: #dl-responsibilities}
 
-Learn about management responsibilities that you have when you use {{site.data.keyword.cloud}} Direct Link. For overall terms of use, refer to the IBM Cloud Terms and Notices.
+Learn about the management responsibilities and terms and conditions that you have when you use {{site.data.keyword.dl_full_notm}}. For a high-level view of the service types in {{site.data.keyword.Bluemix}} and the breakdown of responsibilities between the customer and {{site.data.keyword.IBM_notm}} for each type, see [Shared responsibilities for {{site.data.keyword.cloud_notm}} offerings](/docs/overview?topic=overview-shared-responsibilities).
 {:shortdesc}
 
-## Management responsibilities
-{: #responsibilities}
+Review the following sections for the specific responsibilities for you and for {{site.data.keyword.IBM_notm}} when you use {{site.data.keyword.dl_full_notm}}. For the overall terms of use, see [{{site.data.keyword.Bluemix}} Terms and Notices](/docs/overview/terms-of-use?topic=overview-terms).
 
-IBM provides you with the ability to connect to an enterprise cloud platform to deploy your workload. You choose how to set up, integrate, back up, and operate your workloads in the cloud.
+## IBM Cloud infrastructure
+{: #ibmcloud-infrastructure}
 
-### Direct Link and {{site.data.keyword.cloud_notm}} infrastructure
+You and IBM have unique responsibilities for infrastructure provisioning and management.
 
-IBM's responsibilities:
-- Provide partner relationships with physical locations for Direct Link interconnects.
-- Deploy a fully managed, highly available, secured, IBM-owned infrastructure.
-- Fulfill requests for Direct Link connections.
+| Responsibilities |  Ownership |
+|---------------------------|------|
+| Deploy a fully managed, highly available, secured, IBM-owned infrastructure. | IBM |
+| Provision and manage the Direct Link gateway. | IBM |
+| Fulfill requests for Direct Link connections. | IBM |
+| Fulfill requirements for additional capacity based on use. | IBM |
+| Provide partner relationships with physical locations for Direct Link interconnects. | IBM |
+| Follow the instructions in the {{site.data.keyword.dl_full_notm}} user documentation to make any necessary configurations, such as BGP, setting up local or global routing and connections to resources. | Customer |
+| Understand Direct Link is *not* a redundant service; and while IBM Cloud supplies Diverse Router (XCR) options, failover must be built into the BGP scheme a customer deploys between multiple Direct Links. | Customer|
+| Use the provided capabilities, and adjust networking configurations to meet the needs of your workload. | Customer |
+| Order cross-connects via chosen service provider (such as Equinix and AT&T) as needed for Direct Link Dedicated. | Customer |
+| Upload Completion notice from service provider when Cross Connect is completed by chosen service provider. | Customer |
+| Monitor service notifications for communications regarding maintenance operations. | Customer |
+| Make sure that any self-provided BGP addresses do not conflict with blocks that are used by IBM or by resources external to your deployment. | Customer |
+| Make sure that there are no IP address conflicts between on-premises subnets and subnets on IBM Cloud for both VPC and Classic infrastructure connections. | Customer |
+| Establish diversity and redundancy as needed. | Customer |
+| Design and deploy your workload in a way that achieves the wanted availability and Disaster Recovery capabilities by using our provided tools. For example, deploy in different zones of a region, use at least two load balancers that are located in different zones, and either use DNS records to point to the load balancers, or ensure that your application can handle a list of IP addresses that it can connect to.
 
-Your responsibilities:
-- Use the provided capabilities, and adjust networking configurations to meet the needs of your workload.
-- Establish diversity and redundancy as needed.
-- Make sure that any self-provided BGP addresses do not conflict with blocks that are used by IBM or by resources external to your deployment
-- Design and deploy your workload in a way that achieves the wanted availability and DR capabilities by using our provided tools. For example, deploy in different zones of a region, use at least two load balancers that are located in different zones, and either use DNS records to point to the load balancers, or ensure that your application can handle a list of IP addresses that it can connect to.
+{: caption="Table 1. IBM Cloud infrastructure responsibilities" caption-side="top"}
 
-### Security-rich environment
-{: #security-rick-environment}
+## Security and regulation compliance
+{: #security-rich-environment}
 
-IBM's responsibilities:
-- Provide infrastructure only.
-- Maintain controls commensurate to current industry compliance standards.
-- Enable security features.
+You and IBM have unique responsibilities for security and compliance.
 
-Your responsibilities:
-- Restrict user access to the appropriate resources.
-- Encrypt your data.
-- Assess and implement your wanted security measures.
+| Responsibilities |  Ownership |
+|---------------------------|------|
+| Maintain General Data Protection Regulation (GDPR) readiness for customer compliance. | IBM |
+| Enable security features. | IBM |
+| Restrict user access to the appropriate resources and resource groups. | Customer |
+{: caption="Table 2. Security and regulation responsibilities" caption-side="top"}
 
-## Abuse of {{site.data.keyword.cloud_notm}} Virtual Private Cloud
-{: #abuse-of-vpc}
+## Disaster recovery
+{: #disaster-recovery-responsibilities}
 
-Clients must not misuse {{site.data.keyword.cloud}} infrastructure.
+You and IBM have unique responsibilities for disaster recovery.
 
-Misuse includes:
-- Any illegal activity
-- Distribution or execution of malware
-- Harming {{site.data.keyword.cloud_notm}} infrastructure or interfering with the use of {{site.data.keyword.cloud_notm}} infrastructure
-- Harming or interfering with the use of any other service or system
-- Unauthorized access to any service or system
-- Unauthorized modification of any service or system
-- Violation of the personal rights of others
-
-See [Cloud Services terms](/docs/overview/terms-of-use?topic=overview-terms) for overall terms of use.
+| Responsibilities |  Ownership |
+|----------|-----------------------|
+| Provide diverse network options for consumption. | IBM |
+| Ensure diversity of Direct Link is deployed. | Customer |
+{: caption="Table 3. Disaster recovery responsibilities" caption-side="top"}

@@ -1,7 +1,6 @@
-This repository contains documentation that covers four offerings:
+This repository contains documentation that covers 3 "2.0" offerings for VPC Gen 2:
 
-* Direct Link Connect
-* Direct Link Exchange
+* Direct Link Connect 
 * Direct Link Dedicated
 * Direct Link Dedicated Hosting (that's colocation)
 

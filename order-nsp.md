@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2019, 2020
-lastupdated: "2020-05-15"
+  years: 2020
+lastupdated: "2020-05-26"
 
 keywords: order, provider, capabilities, Dedicated, cross-connect, locations, PoP, data center, data, center, pricing, Letter of Authorization, LOA,
 
@@ -28,78 +28,122 @@ subcollection: dl
 {:help: data-hd-content-type='help'}
 {:support: data-reuse='support'}
 
-# Ordering {{site.data.keyword.cloud_notm}} Direct Link Dedicated
+# Ordering IBM Cloud Direct Link Dedicated
 {: #how-to-order-ibm-cloud-dl-dedicated}
 {: help}
 {: support}
 
-To order {{site.data.keyword.cloud}} Direct Link Dedicated, follow these steps.
+To order Direct Link Dedicated, you must determine the location connecting to IBM Cloud, complete the required configuration information, then click **Create** to submit your order.
+
+## Before you begin
+{: #before-you-begin-dedicated}
+
+Determine the location connection to IBM Cloud by verifying your colocation provider's or service provider's capabilities to reach the Meet Me Room and cross-connect into IBM Cloud.
+{: important}
+
+## Ordering instructions
+{: #instructions-dedicated}
+
+To order {{site.data.keyword.dl_full}} Dedicated, follow these steps.
 {:shortdesc}
 
 1. Log in to your [{{site.data.keyword.cloud_notm}}](https://{DomainName}/){:external} account.
-1. Select the **Navigation Menu** ![Navigation Menu icon](images/menu_icon.png) on the upper left, then click **Interconnectivity**.
+1. Click Menu ![Menu icon](images/menu_icon.png) on the upper left, then click **Interconnectivity**.
 1. Click **Order Direct Link**.
 1. Select the **Direct Link Dedicated** option.
-1. In the Direct Link Dedicated order form, complete the following information:
-   * Enter a name for your Direct Link Dedicated connection.
-   * Choose a resource group to create the Direct Link connection. Resource groups help manage and contain resources associated with an account. Select **Default** if you don't have any other groups defined in the drop-down list. For more information about resource groups, see [Best practices for organizing resources in a resource group](/docs/resources?topic=resources-bp_resourcegroups).
-   * Choose a connection speed. The speeds supported for the Direct Link Dedicated offering are 1 Gbps, 2 Gbps, 5 Gbps, 10 Gbps, and 500 Mbps. Note that speeds above 1 Gbps require 10 Gbps service from the client's carrier and equipment.  
-   * Optionally, type a customer name, carrier name, or both.
-   * For Billing, select **Metered** or **Unmetered**. Metered pricing is paying only for what you use. Unmetered is unlimited access, for a predicable, monthly fee. See [Pricing for IBM Cloud Direct Link](/docs/dl?topic=dl-pricing-for-ibm-cloud-dl) for details.
-   * For Location, select a geography, followed by a market, type, site, and routing option.
 
-      Local and global routing options are supported for Direct Link Dedicated. When you select a routing option, the location details with reachable sites are displayed.  
+   ![Choose Direct Link Option](/images/dl_options.png)   
+
+1. Optionally, click **Open checklist** to review the ordering process (described in [Completing the connection](/docs/dl?topic=dl-how-to-order-ibm-cloud-dl-dedicated#complete-connection)).
+1. In the Configuration section, complete the following information:
+   * Type a name for your Direct Link Dedicated connection.
+   * Choose a resource group to create the Direct Link connection. Resource groups help manage and contain resources associated with an account. Select **Default** if you don't have other groups defined in the drop-down list.
+
+   For more information about resource groups, see [Best practices for organizing resources in a resource group](/docs/resources?topic=resources-bp_resourcegroups).
+   {: note}
+
+   * Choose a connection speed. The speeds supported for the Direct Link Dedicated offering are 1 Gbps, 2 Gbps, 5 Gbps, and 10 Gbps.
+
+   Speeds above 1 Gbps require 10 Gbps service from the client's carrier and equipment. If you intend to upgrade the speed for this gateway, select 2 Gbps to start with; otherwise, you will not be able to upgrade to a higher speed on this gateway.
+   {: tip}
+
+   * Type your company name and carrier provider.
+   * For Billing, select **Metered** or **Unmetered**. Metered pricing is paying only for what you use. Unmetered is unlimited access, for a predicable, monthly fee. See [Pricing for {{site.data.keyword.dl_full_notm}}](/docs/dl?topic=dl-pricing-for-ibm-cloud-dl) for details.
+
+      ![Configuration section](/images/dl-config.png)   
+
+1. In the Location section, select a geography, followed by a market, type, site, and routing option.
+
+      Local and global routing options are supported. When you select a routing option, the location details with reachable sites are displayed.  
       {:note}
-1. In the BGP and Connections section, complete the following information:
-      * Select the IBM cross-connect router for the Direct Link connection. The number of direct links associated with your  account for each router is shown next to the router name.
-      * Select a BGP peering subnet for the Direct Link connection. There are two choices for BGP subnets.
 
-         Select **Auto-select IP** for IBM to assign an IP address from IP range, `169.254.0.0/16`.
+   ![Location section](/images/dl-location.png)   
 
-         Select **Manual-select IP** to specify your own IP addresses (in CIDR format) from the ranges `10.254.0.0/16`, `172.16.0.0/12`, `192.168.0.0/16`, `169.254.0.0/16`, or `Public` (a public address that you own). Manual-select is useful when trying to avoid conflicts with an existing connection.
+1. In the BGP and connections section, complete the following information:
 
-      * For BGP ASN, use either the default value of `64999`, or select an ASN from the specified allowed ranges.
+   * Select the IBM cross-connect router for the Direct Link connection. The number of direct links associated with your account for each router is shown next to the router name.   
+   * Select a BGP peering subnet for the Direct Link connection. There are two choices for BGP subnets.
+
+      * Select **Auto-select IP** for IBM to assign an IP address from IP range, `169.254.0.0/16`.
+      * Select **Manual-select IP** to specify two of your own IP addresses (in CIDR format) from the ranges `10.254.0.0/16`, `172.16.0.0/12`, `192.168.0.0/16`, `169.254.0.0/16`, or `Public` (a public IP address that you own). Manual-select is useful when trying to avoid conflicts with an existing subnet in use.
+
+      Make sure that any self-provided BGP addresses do not conflict with blocks that are used by IBM, or by resources external to your Direct Link deployment.
+      {: important}
+
+   * For BGP ASN, use either the default value of `64999` or select an ASN from the specified allowed ranges.
 
       Allowed ASN ranges are:
-         * For a 2-byte range, enter a value between `1-64495` or default `64999`.
-         * For a 2-byte or 4-byte range, enter a value between `131072-4199999999`.
-         * For a 4-byte range, enter a value between `4201000000-4201064511`.
 
-      * Optionally, select the network connection to be attached to the Direct Link gateway, and then enter a connection name. To add multiple network connections to the Direct Link gateway, click **Add connection+**. You can create one of the following connections:
+      * For a 2-byte range, enter a value between `1-64495` or the default `64999`.
+      * For a 2-byte or 4-byte range, enter a value between `131072-4199999999`.
+      * For a 4-byte range, enter a value between `4201000000-4201064511`.
 
-         * **Classic Infrastructure** networks allow you to connect to {{site.data.keyword.cloud_notm}} classic resources. Only one classic infrastructure connection is allowed per Direct Link gateway.
-         * **VPC** networks can contain either first or second generation compute resources, allowing you to connect to your account’s VPC resources.
+      ![BGP section](/images/dl-bgp.png)   
+
+   * Optionally, select the network connection to be attached to the Direct Link gateway and enter a connection name. To add multiple network connections to the Direct Link gateway, click **Add connection +**. You can create one of the following connections:
+
+      * **Classic infrastructure** networks allow you to connect to {{site.data.keyword.cloud_notm}} classic resources. Only one classic infrastructure connection is allowed per Direct Link gateway.
+      * **VPC** networks can contain either first or second generation compute resources, allowing you to connect to your account’s VPC resources.
+
+      ![Add connection section](/images/dl-conn.png)   
 
       You cannot request a connection to a network in another account when you create a gateway. However, you can request connection to a network in another account after a gateway is provisioned. You also can create classic infrastructure and VPC connections after a gateway is created. For more information, see [Adding virtual connections to a Direct Link gateway](/docs/dl?topic=dl-add-virtual-connection).
-      {:important}
+      {: tip}
 
-      The routing option that you selected determines the reachability of the resources in the selected location. If you selected the **Global** routing option along with your location selections, the **Regions** menu list displays all the regions that are globally available in the specific account. After selecting a region, you can select any VPC from the **Available connections** menu. If you selected **Local** routing, then only the region that corresponds to the selected location is available to select. When selected, VPCs available in the local region for your account are displayed.
-   {:note}
+      The routing option that you select determines the reachability of the resources in the selected location. If you select the **Global** routing option along with your location selections, the **Region** menu list displays all the regions that are globally available in the specific account. After selecting a region, you can select any VPC from the **Available connections** menu. If you select **Local** routing, then only the region that corresponds to the selected location is available to select. When selected, the VPCs available in the local region for your account are shown.
+      {: note}
 
-   An order summary shows pricing estimates.
+1. An order summary shows pricing estimates for your review. Read and agree to the [**Direct Link prerequisites**](/docs/dl?topic=dl-ibm-cloud-dl-prerequisites) and review Cloud Services [**Terms**](https://www.ibm.com/software/sla/sladb.nsf/sla/bm-8695-01). Then, click **Create** to complete your order.  
 
-1. Read and agree to the [**Direct Link prerequisites**](/docs/dl?topic=dl-ibm-cloud-dl-dedicated-questionnaire) and review Cloud Services [**terms**](https://www.ibm.com/software/sla/sladb.nsf/sla/bm-8695-01). Then, click **Create** to complete your order.  
-1. Complete the connection.
+   If you want to add GB egress data to your estimate, click **Add to estimate** to calculate the cost. You can also click the **About** tab for links to Direct Link pricing tables and other helpful resources.
+   {: tip}
+
+Complete your connection, using the following instructions.
 
 ## Completing the connection
 {: #complete-connection}
 
-After you create your Direct Link order, the Direct Link table indicates an **LOA creation in progress** connection status. Click the name of the connection to open its details page. Then, view the Actions section to see if you have any actions pending.
+After you submit your Direct Link order, the Direct Link table indicates an **LOA creation in progress** connection status. Click the name of the connection to open its details page. Then, view the Actions section to see if you have any actions pending.
 
-Here's how the process works.
+Here's how the process works:
 
-1. After the Letter of Authorization (LOA) is uploaded by the IBM team, the connection status changes to **Waiting LOA Review**. At this time, you can click the corresponding buttons to preview and accept the LOA. After accepting the LOA, you can download the LOA document.
-2. After accepting the LOA and downloading it, the connection status changes to **Waiting completion notice upload**. At this time, you must take the LOA document to your carrier and get the completion notice.
-3. After receiving the completion notice, upload it (the completion notice must be in PDF format with the name **completion_notice.pdf** in order for the automation to process it properly). The specific connection shows an option in the {{site.data.keyword.cloud_notm}} console to upload the completion notice. Notice that the connection status changes to **Completion notice review in progress**.
-4. The IBM team reviews the completion notice and accepts it. The IBM team then places the cross-connect fiber in the ports mentioned in the LOA. This completes the Direct Link configuration and the connection status changes to **Provisioned**.
-5. **Link status** indicates **Up**. You must then configure the BGP parameters on the Customer Edge Router (CER) for BGP session establishment. After this is completed, both the **BGP status** and **Link status** indicate **Up**.  
+1. IBM Cloud uploads a Letter of Authorization (LOA) containing a Connecting Facility Assignment (CFA). In turn, the connection status changes to **Waiting LOA review**. At this time you can click the corresponding buttons to preview and accept the LOA. After accepting the LOA you can download the LOA document.
+2. After accepting the LOA and downloading it the connection status changes to **Waiting completion notice upload**. You must now take the LOA document to your carrier and get the completion notice. To do so, you can:
+
+   * Supply the LOA/CFA to your colocation provider and have them order a cross connect and any required inter-campus connectivity.
+   * Supply the LOA/CFA to your service provider and have them order a third-party cross connect, as well as the circuit between your on-premises and the appropriate Meet Me Room.
+
+3. After receiving the completion notice from your carrier, upload it. The completion notice must be in PDF format with the name **completion_notice.pdf** in order for the automation to process it properly. The specific connection shows an option in the {{site.data.keyword.cloud_notm}} console to upload the completion notice. Notice that the connection status changes to **Completion notice review in progress**.
+
+4. The IBM Cloud team reviews the completion notice and accepts it. The IBM Cloud team then places the cross-connect fiber in the ports mentioned in the LOA. This completes the Direct Link configuration and the connection status changes to **Provisioned**.
+
+5. You must then configure the BGP parameters on the Customer Edge Router (CER) for BGP session establishment. After this completes, the **BGP status** indicates **Established** and **Link status** indicates **Up**.  
 
   It can take up to 30 minutes for the link status to update.  
   {:note}
 
 ## Locations
 {: #dedicated-locations}
-
 
 The table gives details about the {{site.data.keyword.cloud_notm}} data centers where Direct Link Dedicated (2.0) is available:
 

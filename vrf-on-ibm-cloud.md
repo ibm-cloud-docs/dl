@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2019
-lastupdated: "2019-12-15"
+  years: 2020
+lastupdated: "2020-05-15"
 
 keywords: VRF, IP, routers, backbone, service, VLAN, multiple isolation, tenant, tenancy, datacenters, data, center, shared tenancy, private endpoint, customer VRF, Private Network Question, support, case, CSE, cloud service endpoint
 
@@ -26,13 +26,13 @@ subcollection: dl
 {:generic: data-hd-programlang="generic"}
 {:download: .download}  
 
-# Virtual routing and forwarding on {{site.data.keyword.cloud_notm}}
+# Virtual routing and forwarding on IBM Cloud
 {: #overview-of-virtual-routing-and-forwarding-vrf-on-ibm-cloud}
 
 By definition, virtual routing and forwarding (VRF) is a technology that is included in IP network routers. It is delivered as an inherent backbone service.
 {:shortdesc}
 
-## Connectivity options for {{site.data.keyword.cloud_notm}}
+## Connectivity options for IBM Cloud
 {: #connectivity-options-for-ibm-cloud}
 
 Dispersed cloud resources are resources in more than one location or in more than one subnet or VLAN. These types of resources require a routing function to communicate among themselves, even within a private network context. This document describes a "multiple isolation" tenancy communication option, which often is called a customer VRF. It is implemented as an MPLS Layer-3 VPN (RFC 4364) across the global {{site.data.keyword.cloud}} backbone.
