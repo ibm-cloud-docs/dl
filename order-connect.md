@@ -37,9 +37,7 @@ subcollection: dl
 
 Direct Link Connect is a Beta release and only available to whitelisted users.
 
-The beta release of {{site.data.keyword.dl_full}} Connect is only available to whitelisted users. Contact your IBM Cloud Sales representative if you are interested in getting early access to this beta offering.
-</br>
-After the Direct Link Connect service is made generally available, you must upgrade to the standard paid plan to continue using instances that you created during the beta. Upgrade instructions will be provided to beta participants. Any instances that continue to use the beta plan for this service beyond 30 days after general availability are subject to deletion.
+The beta release of {{site.data.keyword.dl_full}} Connect is only available to whitelisted users. Contact your IBM Cloud Sales representative if you are interested in getting early access to this beta offering. After the Direct Link Connect service is made generally available, you must upgrade to the standard paid plan to continue using instances that you created during the beta. Upgrade instructions will be provided to beta participants. Any instances that continue to use the beta plan for this service beyond 30 days after general availability are subject to deletion.
 {: preview}
 
 ## Ordering instructions
