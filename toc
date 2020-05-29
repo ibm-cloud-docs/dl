@@ -23,7 +23,7 @@ Direct Link 2.0
     Related links
         [Direct Link on Classic](/direct-link/direct-link-get-started-with-ibm-cloud-direct-link)
         [Virtual Private Cloud](/vpc/vpc-getting-started)
-        [What are computer networking solutions?](https://www.ibm.com/cloud/learn/networking-a-complete-guide#toc-computer-n-9C7jokVu)
+        [IBM Cloud Networking](https://www.ibm.com/cloud/learn/networking-a-complete-guide)
     {: .navgroup-end}
 
     {: .navgroup id="howto"}
