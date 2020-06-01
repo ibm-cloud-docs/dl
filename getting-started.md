@@ -41,6 +41,12 @@ Highlights include:
 * Support for multiple VPCs (without classic access) from a single direct link within the same account
 * Bring Your Own IP (BYOIP) address to create native connectivity between your on-premises environment and {{site.data.keyword.cloud_notm}}
 
+Features coming soon:
+
+* Support for Virtual Private Endpoints (VPEs) from customer on-premises from a single customer account
+* Support for a Direct Link connection to venues, such as blockchain, SAP on Power, and more
+* Support for a Direct Link connection to Public services; for example, {{site.data.keyword.cloud_notm}} Object Storage (ICOS)
+
 The following Direct Link 2.0 offerings are available:
 
 ## Direct Link Dedicated
