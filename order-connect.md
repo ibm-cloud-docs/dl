@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-05-26"
+lastupdated: "2020-06-04"
 
 keywords: order, provider, capabilities, Connect, cross-connect, locations, PoP, data center, pricing
 
@@ -37,7 +37,7 @@ subcollection: dl
 
 Direct Link Connect is a Beta release and only available to whitelisted users.
 
-The beta release of {{site.data.keyword.dl_full}} Connect is only available to whitelisted users. Contact your IBM Cloud Sales representative if you are interested in getting early access to this beta offering. After the Direct Link Connect service is made generally available, you must upgrade to the standard paid plan to continue using instances that you created during the beta. Upgrade instructions will be provided to beta participants. Any instances that continue to use the beta plan for this service beyond 30 days after general availability are subject to deletion.
+The beta release of {{site.data.keyword.dl_full}} Connect is only available to whitelisted users. Contact your IBM Cloud Sales representative if you are interested in getting early access to this beta offering. After the Direct Link Connect service is made generally available, you must upgrade to the standard paid plan to continue using instances that you created during the beta. Upgrade instructions will be provided to beta participants. Any instance that continues to use the beta plan for this service beyond 30 days after general availability is subject to deletion.
 {: beta}
 
 ## Ordering instructions
@@ -82,12 +82,15 @@ To order {{site.data.keyword.dl_full}} Connect, follow these steps.
 
       * For BGP ASN, use either the default value of `64999` or select an ASN from the specified allowed ranges.
 
-      Allowed ASN ranges are:
+         **For Layer-3 IP VPN providers only**: You must specify the carrier's ASN, not your own. For a list of carrier interconnection types, see [Comparing Layer-2 and Layer-3 connections for Direct Link](/docs/dl?topic=dl-comparing-layer-2-layer-3)
+         {: important}
+
+         Allowed ASN ranges are:
          * For a 2-byte range, enter a value between `1-64495` or the default `64999`.
          * For a 2-byte or 4-byte range, enter a value between `131072-4199999999`.
          * For a 4-byte range, enter a value between `4201000000-4201064511`.
 
-      ![BGP section](/images/dl-bgp-connect.png)            
+         ![BGP section](/images/dl-bgp-connect.png)            
 
       * Optionally, select the network connection to attach to the Direct Link gateway then enter a connection name. To add multiple network connections to the Direct Link gateway, click **Add connection +**. You can create one of the following connections:
 
@@ -120,45 +123,13 @@ After you create your Direct Link order, the Direct Link table indicates a **Pro
 * Order a virtual circuit through your Connect provider and reference the case ID of the Direct Link Connect request as your Request ID or Authorization ID.
 
 ## Locations
-{: #connect-locations}
+{: #connect-classic-locations}
 
+Our Direct Link Connect providers include these locations:
 
-The table gives details about the {{site.data.keyword.cloud_notm}} data centers where Direct Link Connect is available:
-
-|**IBM Location Code** | **Location Type** | **Meet Me Room Operator**| **Operator Site Code** | **Operator Address** |
-|-----------------|-----------------|-----------------|--------------------|--------------------|
-| **Americas** |  |  |  |  |
-| Chicago 1 |  PoP | Equinix  | CH4 |  350 E. Cermak |
-| Dallas 3 | PoP 1 | Equinix | DA1 | 1950 N. Stemmons Freeway |
-| Dallas 4 | PoP 2 | Digital Realty | DFW14 | 2323 Bryan St |
-| Dallas 10 | DC(AZ1) | QTS | IRV | 6431 Longhorn Drive |
-| Dallas 12 | DC(AZ2) | Digital Realty | DFW18 | 907 Security Row |
-| Dallas 13 | DC(AZ3) | Cyrus One | Carrollton - Frankford | 1649 W. Frankford Rd |
-| San Jose 2 | PoP | Equinix | SV111 | Great Oaks Blvd |
-| Washington DC 2 | PoP 1 | Equinix | DC2 | 21715 Filigree Ct |
-| Washington DC 4 | DC(AZ1) | Digital Realty | IAD38 | 44060 Digital Loudoun Plaza (Bldg K) |
-| Washington DC 5 | PoP 2 | Coresite | DC2 | 12098 Sunrise Valley Dr |
-| Washington DC 6 | DC(AZ2) | Raging Wire | VA2 | 44610 Guilford Drive |
-| Washington DC 7 | DC(AZ3) | Sabey | Sabey Intergate.Ashburn | 21741 Red Rum Dr |
-| **APAC** |  |  |  |  |
-| Sydney 1 | DC(AZ1) | Global Switch | SYD01 | 400 Harris Street aka 273 Pyrmont St Ultimo |
-| Sydney 2 | PoP 1 | Equinix | SY3 | 47 Bourke Rd |
-| Sydney 3 | PoP 2 | NextDC | SYD03 | 4 Eden Park Drive, Marquarie Park |
-| Sydney 4 | DC(AZ2) | Digital Realty | SYD10 | 1-11 Templar Rd, Erskine Park |
-| Sydney 5 | DC(AZ3) | Equinix | SY4 | 200 Bourke Road |
-| Tokyo 1 | Pop | Equinix | TY2  |  |
-| Tokyo 3 | PoP 2 | Equinix | TY4 | Chiyoda-ku |
-| Tokyo 4 | DC(AZ2) | Softbank | | Saitama |
-| Tokyo 5 | DC(AZ3) | NTT |  | Kawasaki Kangagawa |
-| **EMEA** |  |  |  |  |
-| Frankfurt 1 | PoP 1 | Digital Realty (fInterXion) | FRA01 | Hanauer Landstrasse 302 |
-| Frankfurt 2 | DC(AZ1) | Cyrus One (fZenium) | FRA1 | Leonhard - Heisswolf Str 4., Frankfurt am Main |
-| Frankfurt 3 | PoP 2 | Equinix| FRA6 | Larchenstrasse 110, Frankfurt Griesheim |
-| Frankfurt 4 | DC(AZ2) | E-Shelter | Frankfurt 1 | Eschborner Landstrasse 100, Building H |
-| Frankfurt 5 | DC(AZ3) | Digital Realty (fInterXion) | FRA05 | Weismüllerstraße 40 |
-| London 2 | DC | Digital Realty | LHR13 | Fountain Court, Cox Lane, Suites 210 and 230 |
-| London 3 | PoP 2 | Equinix | LD5 | 8 Buckingham Ave |
-| London 4 | DC(AZ1) | ARK | A103 | A57 Cody Technology Park Old, Victor Way, Farnborough |
-| London 5 | DC(AZ2) | Gyron |  | Maxted Cl, Hemel Hempstead  |
-| London 6 | DC(AZ3) | Cyrus One (fZenium) | LON1 | 12 Liverpool Rd, Trading Estate |
-| Paris 2 | PoP | Equinix | PA2 | 114 Rue Ambroise Croizat, St Denis |
+| Partners | Available Markets |
+|--------------|--------------|
+| CenturyLink Dynamic Connections |  **Americas:** Washington DC 2 |
+| IBM Power Virtual Server | **Americas:** Washington DC 4<br />**EU:** Frankfurt 4, Frankfurt 5, London 6  |
+| Megaport | **Americas:**  Dallas 4<br />**EU:** London 3 (no diversity) |
+| Equinix | **APAC:**  Tokyo 3<br />**EU:** Frankfurt 3,London 3 <br />**Americas:** Chicago 1, Dallas 3, San Jose 2, Washington DC 2 |				

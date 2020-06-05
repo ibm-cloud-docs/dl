@@ -9,8 +9,13 @@ Direct Link 2.0
     about.md
     dl-july-policy-change.md
     pricing.md
-    diversity-models.md
     ecmp.md
+
+    {: .topicgroup}
+    Deployment considerations
+        diversity-models.md
+        layer-2-layer-3.md
+        ecmp.md
 
     {: .topicgroup}
     Videos & tutorials
@@ -27,7 +32,7 @@ Direct Link 2.0
     {: .navgroup-end}
 
     {: .navgroup id="howto"}
-    order-nsp.md
+    order-nsp.md 
     order-connect.md
     attaching_connection.md
     editing_gateway.md
