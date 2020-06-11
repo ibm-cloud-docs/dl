@@ -27,12 +27,13 @@ subcollection: dl
 {:download: .download}  
 
 # Leveraging ECMP for redundant connections
-{: #more-about-ecmp}
+{: #leveraging-ecmp-for-redundant-connections}
 
 Equal-cost multipath (ECMP) is a feature of the Border Gateway Protocol (BGP). ECMP alone is not sufficient to achieve redundancy, and the use cases in this topic explain why.
 {: shortdesc}
 
 ## Use Case 1: ECMP without diversity
+{: #use-case-without-diversity-ecmp}
 
 ECMP isn’t designed for creating redundant connections but for balancing the load over two links. With ECMP on {{site.data.keyword.cloud_notm}}, both connections must terminate to the same {{site.data.keyword.cloud_notm}} cross-connect router (XCR), which makes it a single point of failure. In other words, ECMP can be provisioned as two sessions only on the same {{site.data.keyword.cloud_notm}} XCR.
 
@@ -41,9 +42,10 @@ ECMP for redundancy or load balancing can impact diversity at the IBM XCR. As a 
 ![ECMP Dedicated model](/images/ecmp-without-diversity.png "ECMP Dedicated model"){: caption="Figure 1: ECMP provisioning" caption-side="top"}
 
 ## Use Case 2: ECMP with diversity
+{: #use-case-with-diversity-ecmp}
 
-ECMP is a feature of BGP. If you want to use ECMP and have redundancy, you must have two Direct Link connections on each XCR so that you can have two ECMP sessions going simultaneously.
+ECMP is a feature of BGP. If you want to use ECMP and have redundancy, you must have two {{site.data.keyword.dl_short}} connections on each XCR so that you can have two ECMP sessions going simultaneously.
 
-For HA with ECMP, it is recommended that four Direct Link circuits be established, with two of them at diverse XCRs to achieve diversity.
+For HA with ECMP, it is recommended that four {{site.data.keyword.dl_short}} circuits be established, with two of them at diverse XCRs to achieve diversity.
 
 ![ECMP Dual XCR Model](/images/ecmp-with-diversity.png "ECMP Dual XCR Model"){: caption="Figure 2: ECMP with Dual XCRs" caption-side="top"}
