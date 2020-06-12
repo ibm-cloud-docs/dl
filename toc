@@ -32,7 +32,7 @@ Direct Link 2.0
     {: .navgroup-end}
 
     {: .navgroup id="howto"}
-    order-nsp.md 
+    order-nsp.md
     order-connect.md
     attaching_connection.md
     editing_gateway.md
@@ -49,7 +49,6 @@ Direct Link 2.0
 
     {: .navgroup id="reference"}
     [Direct Link 2.0 API reference](https://{DomainName}/apidocs/direct_link)
-    [Direct Link 2.0 Provider API reference (Beta)](https://{DomainName}/apidocs/direct_link_provider_beta)
     /dl-cli-plugin/dl-cli-plugin-dl-cli
     understanding-latency.md
     vrf-on-ibm-cloud.md
