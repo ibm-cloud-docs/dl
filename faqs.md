@@ -34,7 +34,7 @@ subcollection: dl
 You can review answers to some frequently asked questions about {{site.data.keyword.dl_full}} 2.0.
 {:shortdesc}
 
-## How does the new {{site.data.keyword.dl_short}} 2.0 differ from {{site.data.keyword.dlc_short_notm}}?
+## How does the new {{site.data.keyword.dl_short}} 2.0 differ from {{site.data.keyword.dlc_short}}?
 {: #differentiators}
 {: faq}
 {: support}
