@@ -9,7 +9,6 @@ Direct Link 2.0
     about.md
     dl-july-policy-change.md
     pricing.md
-    ecmp.md
 
     {: .topicgroup}
     Deployment considerations
