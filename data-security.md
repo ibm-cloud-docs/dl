@@ -4,7 +4,7 @@ copyright:
   years: 2020
 lastupdated: "2020-02-24"
 
-keywords: data encryption in Direct Link, data storage for Direct Link, bring your own keys for Direct Link, BYOK for Direct Link, key management for Direct Link, key encryption for Direct Link, personal data in Direct Link, data deletion for Direct Link, data in Direct Link, data security in Direct Link
+keywords: data encryption in {{site.data.keyword.dl_short}}, data storage for {{site.data.keyword.dl_short}}, bring your own keys for {{site.data.keyword.dl_short}}, BYOK for {{site.data.keyword.dl_short}}, key management for {{site.data.keyword.dl_short}}, key encryption for {{site.data.keyword.dl_short}}, personal data in {{site.data.keyword.dl_short}}, data deletion for {{site.data.keyword.dl_short}}, data in {{site.data.keyword.dl_short}}, data security in {{site.data.keyword.dl_short}}
 
 subcollection: dl
 
@@ -18,51 +18,52 @@ subcollection: dl
 {:codeblock: .codeblock}
 {:tip: .tip}
 
-# Securing your data in Direct Link
+# Securing your data in {{site.data.keyword.dl_short}}
 {: #mng-data}
 
-All interaction with Direct Link from clients is encrypted. The Direct Link configuration is deleted on request through the API or user interface.
+{{site.data.keyword.dl_short}} does not store any customer data. Data transmitted through a transit gateway is not encrypted by IBM.
 
+Data about your specific {{site.data.keyword.dl_short}} configuration are encrypted in transit and at rest. {{site.data.keyword.dl_short}} configuration data is deleted upon your request through API or User Interface.
 {: shortdesc}
 
-## How your data is stored and encrypted in Direct Link
+## How your data is stored and encrypted in {{site.data.keyword.dl_short}}
 {: #data-storage}
 
-All interaction with Direct Link from clients is encrypted. For example, when a client uses an API or interacts with the service via User Interface to configure gateways and connections, all such interactions are fully end-to-end encrypted. Likewise, data elements related to the clients' configuration are encrypted in transit and at rest. No personal or sensitive data is stored, processed, or transmitted. Data at rest is stored in an encrypted database.
+All interaction with {{site.data.keyword.dl_short}} from clients is encrypted. For example, when a client uses an API or interacts with the service via User Interface to configure gateways and connections, all such interactions are fully end-to-end encrypted. Likewise, data elements related to the clients' configuration are encrypted in transit and at rest. No personal or sensitive data is stored, processed, or transmitted. Data at rest is stored in an encrypted database.
 
-However, the result of using Direct Link is to join customer networks together. Once networks are joined together, for example from one VPC to another, the encryption of data that clients choose to transmit across the network is the client's responsibility.
+However, the result of using {{site.data.keyword.dl_short}} is to join customer networks together. Once networks are joined together, for example from one VPC to another, the encryption of data that clients choose to transmit across the network is the client's responsibility.
 
-## Protecting your sensitive data in Direct Link
+## Protecting your sensitive data in {{site.data.keyword.dl_short}}
 {: #data-encryption}
 
-All data related to a Direct Link configuration is not considered as sensitive data. The configuration data is encrypted at rest at the database level. No customer-managed keys are managed by the Direct Link offering. Therefore, neither Key Protect nor Hyper Protect Crypto Services are used.
+All data related to {site.data.keyword.dl_short}}'s configuration is not considered as sensitive data. The configuration data is encrypted at rest at the database level. No customer-managed keys are managed by the {{site.data.keyword.dl_short}} offering. Therefore, neither Key Protect nor Hyper Protect Crypto Services are used.
 
 ### About customer-managed keys
 {: #about-encryption}
 
-No customer-managed keys are managed by the Direct Link offering. Therefore, neither Key Protect nor Hyper Protect Crypto Services are used.
+No customer-managed keys are managed by the {{site.data.keyword.dl_short}} offering. Therefore, neither Key Protect nor Hyper Protect Crypto Services are used.
 
-### Enabling customer-managed keys for Direct Link
+### Enabling customer-managed keys for {{site.data.keyword.dl_short}}
 {: #using-byok}
 
-No customer-managed keys are managed by the Direct Link offering. Therefore, neither Key Protect nor Hyper Protect Crypto Services are used.
+No customer-managed keys are managed by the {{site.data.keyword.dl_short}} offering. Therefore, neither Key Protect nor Hyper Protect Crypto Services are used.
 
-### Working with customer-managed keys for Direct Link
+### Working with customer-managed keys for {{site.data.keyword.dl_short}}
 {: #working-with-keys}
 
-No customer-managed keys are managed by the Direct Link offering. Therefore, neither Key Protect nor Hyper Protect Crypto Services are used.
+No customer-managed keys are managed by the {{site.data.keyword.dl_short}} offering. Therefore, neither Key Protect nor Hyper Protect Crypto Services are used.
 
-## Deleting your data in Direct Link
+## Deleting your data in {{site.data.keyword.dl_short}}
 {: #data-delete}
 
-The Direct Link configuration is deleted on request through the API or user interface.
+The {{site.data.keyword.dl_short}} configuration is deleted on request through the API or user interface.
 
-### Deleting Direct Link instances
+### Deleting {{site.data.keyword.dl_short}} instances
 {: #service-delete}
 
-The Direct Link configuration is deleted on request through the API or user interface.
+The {{site.data.keyword.dl_short}} configuration is deleted on request through the API or user interface.
 
-### Restoring deleted data for Direct Link
+### Restoring deleted data for {{site.data.keyword.dl_short}}
 {: #data-restore}
 
-Direct Link does not support the restoration of deleted data.
+{{site.data.keyword.dl_short}} does not support the restoration of deleted data.
