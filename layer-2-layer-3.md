@@ -26,13 +26,13 @@ subcollection: direct-link
 {:generic: data-hd-programlang="generic"}
 {:download: .download}  
 
-# Comparing Layer-2 and Layer-3 connections for Direct Link
+# Comparing Layer-2 and Layer-3 connections for {{site.data.keyword.dl_short}}
 {: #comparing-layer-2-layer-3}
 
-{{site.data.keyword.cloud}} Direct Link accepts OSI Layer-2 and Layer-3 partner interconnections from network service providers (NSPs). Some network service providers offer services for both of these layers on different networks, however, some providers might choose **not** to interconnect all of their networks into {{site.data.keyword.cloud_notm}}.
+{{site.data.keyword.dl_full}} accepts OSI Layer-2 and Layer-3 partner interconnections from network service providers (NSPs). Some network service providers offer services for both of these layers on different networks, however, some providers might choose **not** to interconnect all of their networks into {{site.data.keyword.cloud_notm}}.
 {:shortdesc}
 
-When planning your {{site.data.keyword.cloud_notm}} Direct Link deployment, consider the characteristics that are associated with Layer-2 and Layer-3 connections, so you can create a deployment that best suits your needs.
+When planning your {{site.data.keyword.dl_short}} deployment, consider the characteristics that are associated with Layer-2 and Layer-3 connections, so you can create a deployment that best suits your needs.
 
 ## Considerations for Layer-2 connections
 {: #layer-2-networks}
@@ -47,7 +47,10 @@ For each VLAN-based virtual circuit, which you create with a Layer-2 partner int
 ## Considerations for Layer-3 connections
 {: #layer-3-networks}
 
-For Layer-3 connections, for each virtual circuit, your service provider establishes a BGP session between {{site.data.keyword.cloud_notm}} XCRs and the provider's edge routers. You do not need to configure BGP with {{site.data.keyword.cloud_notm}} for your on-premises router because your service provider manages the BGP configuration to {{site.data.keyword.cloud_notm}}. **This means when you order Direct Link Connect via the IBM Portal, you need to populate the Layer 3 providers ASN for the BGP session, not your customer ASN**
+For Layer-3 connections, for each virtual circuit, your service provider establishes a BGP session between {{site.data.keyword.cloud_notm}} XCRs and the provider's edge routers. You do not need to configure BGP with {{site.data.keyword.cloud_notm}} for your on-premises router because your service provider manages the BGP configuration to {{site.data.keyword.cloud_notm}}. 
+
+When you order {{site.data.keyword.dl_short}} Connect via the IBM Cloud console, you need to populate the Layer-3 providers ASN for the BGP session, not your customer ASN.
+{: important}
 
 * Layer-3 IP VPN or AVPN networks enable "any-to-any" connectivity.
 * Layer-3 networks require the network service provider to maintain a BGP session between the enterprise and {{site.data.keyword.cloud_notm}}.

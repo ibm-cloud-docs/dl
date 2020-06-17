@@ -43,12 +43,12 @@ These resources are created by {{site.data.keyword.cloud}} and by some IBM Busin
 
     This paper presents test results that show how a well-designed, well-executed, hybrid cloud architecture performs versus one that uses standard facilities, using connections and an architecture that is not optimized for application performance.
 
-     * Direct Link Dedicated Hosting solution features and benefits
+     * {{site.data.keyword.dl_short}} Dedicated Hosting solution features and benefits
      * Reference solution for implementing NetApp private storage for {{site.data.keyword.cloud_notm}}, colocated in a Digital Reality data center
      * Results of performance tests conducted by Krystallize Technologies
 
 
-* [**Case Study for Direct Link and {{site.data.keyword.cloud_notm}}**](https://www.digitalrealty.com/case-studies/ibm-cloud){: external}
+* [**Case Study for {{site.data.keyword.dl_short}} and {{site.data.keyword.cloud_notm}}**](https://www.digitalrealty.com/case-studies/ibm-cloud){: external}
 
     **Abstract** - As {{site.data.keyword.cloud_notm}} needed to expand its global data center footprint to meet burgeoning demand for its Infrastructure-as-a-Service offering, it needed the right data center partner to achieve the best available combination of power, space, and price.
 

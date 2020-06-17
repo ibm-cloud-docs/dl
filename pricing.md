@@ -26,21 +26,21 @@ subcollection: dl
 {:generic: data-hd-programlang="generic"}
 {:download: .download}  
 
-# Pricing for IBM Cloud Direct Link
+# Pricing for {{site.data.keyword.dl_full_notm}}
 {: #pricing-for-ibm-cloud-dl}
 
-Pricing for {{site.data.keyword.dl_full}} 2.0 offerings is consistent for equivalent regions and bandwidth, as shown in the following monthly pricing table.
+Pricing for {{site.data.keyword.dl_full}} (2.0) offerings is consistent for equivalent regions and bandwidth, as shown in the following monthly pricing table.
 {:shortdesc}
 
 Issues to be aware of:
 
-* Direct Link pricing does NOT include any additional charges by service providers to enable connectivity to {{site.data.keyword.cloud_notm}}.  
-* There is no charge if you are participating in the Direct Link Connect beta release.
+* {{site.data.keyword.dl_short}} pricing does NOT include any additional charges by service providers to enable connectivity to {{site.data.keyword.cloud_notm}}.  
+* There is no charge if you are participating in the {{site.data.keyword.dl_short}} Connect beta release.
 
-## Arranging for Direct Link connectivity  
+## Arranging for {{site.data.keyword.dl_short}} connectivity  
 {: #arranging-for-dl-conectivity}
 
-You, the customer, must arrange connectivity and billing with your service providers, independently of {{site.data.keyword.cloud_notm}}. Direct Link creates a Letter Of Authorization / Connecting Facility Assignment (LOA/CFA) which is usable by any service provider who can reach the Meet Me Room that is specified on that LOA/CFA. The provider who is connecting to the LOA/CFA must include pricing for the cross-connect in their quote to you. {{site.data.keyword.cloud_notm}} does not order cross-connects on behalf of any customer.
+You, the customer, must arrange connectivity and billing with your service providers, independently of {{site.data.keyword.cloud_notm}}. {{site.data.keyword.dl_short}} creates a Letter Of Authorization / Connecting Facility Assignment (LOA/CFA) which is usable by any service provider who can reach the Meet Me Room that is specified on that LOA/CFA. The provider who is connecting to the LOA/CFA must include pricing for the cross-connect in their quote to you. {{site.data.keyword.cloud_notm}} does not order cross-connects on behalf of any customer.
 
 ## Pricing for port charges
 {: #pricing-for-dl-port-charges}
@@ -60,7 +60,7 @@ The following tables list the pricing for metered and unmetered port charges.
 |   2 Gbps | $10,000 | $13,300 | $16,000 |
 |   5 Gbps | $25,000 | $33,250 | $49,000 |
 |  10 Gbps | $50,000 | $66,500 | $80,000 |
-{: caption="Table 1. Direct Link unmetered port charges" caption-side="top"}
+{: caption="Table 1. {{site.data.keyword.dl_short}} unmetered port charges" caption-side="top"}
 
 ### Metered  
 {: #pricing-for-dl-port-charges-metered}
@@ -75,7 +75,7 @@ The following tables list the pricing for metered and unmetered port charges.
 |   2 Gbps |  $500 |
 |   5 Gbps |$1,200 |
 |  10 Gbps |$1,800 |
-{: caption="Table 2. Direct Link metered port charges" caption-side="top"}
+{: caption="Table 2. {{site.data.keyword.dl_short}} metered port charges" caption-side="top"}
 
 Metered port fee pricing is determined by the bandwidth speed of the port.
 {:note}
@@ -89,7 +89,7 @@ The following table lists the pricing for metered data transfer charges.
 | Tier | US, Canada & EU | Asia Pacific | Brazil & Mexico |
 |----|----|----|----|
 | Per GB | $0.025 | $0.050 | $0.140 |
-{: caption="Table 3. Direct Link metered data transfer charges" caption-side="top"}
+{: caption="Table 3. {{site.data.keyword.dl_short}} metered data transfer charges" caption-side="top"}
 
 Data transfer is for egress only, and varies based on region. Inbound data transfer to IBM Cloud is free.
 {:note}
@@ -102,7 +102,7 @@ The following sections list the pricing for local and global routing charges.
 ### Local routing charges
 {: #pricing-local-routing-charges}
 
-Local routing is the default routing option. It provides access to data centers within the same market as the Direct Link PoP. There's no charge for Local routing.
+Local routing is the default routing option. It provides access to data centers within the same market as the {{site.data.keyword.dl_short}} PoP. There's no charge for Local routing.
 
 ### Global routing charges
 {: #pricing-global-routing-charges}
@@ -119,4 +119,4 @@ Global routing expands access to include all {{site.data.keyword.cloud_notm}} da
 |   2 Gbps |$1,200 |
 |   5 Gbps |$2,500 |
 |  10 Gbps |$2,500 |
-{: caption="Table 4. Direct Link global routing charges" caption-side="top"}
+{: caption="Table 4. {{site.data.keyword.dl_short}} global routing charges" caption-side="top"}

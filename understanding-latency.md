@@ -28,7 +28,7 @@ subcollection: dl
 # Understanding latency
 {: #understanding-latency}
 
-{{site.data.keyword.cloud}} offers data centers with Direct Link capabilities around the globe. Therefore, you can count on minimal latency when you use Direct Link to create your Hybrid cloud solution by linking your {{site.data.keyword.cloud_notm}} to your existing infrastructure.
+{{site.data.keyword.cloud}} offers data centers with {{site.data.keyword.dl_short}} capabilities around the globe. Therefore, you can count on minimal latency when you use {{site.data.keyword.dl_short}} to create your Hybrid cloud solution by linking your {{site.data.keyword.cloud_notm}} to your existing infrastructure.
 {:shortdesc}
 
 Whether you have an online store, run big data solutions, or have your employees set up on a network with access to files around the world, you never want to hear that slow page loading, or slow data transfer, is keeping you from a sale. Slowdowns can be caused by network latency, which is the measurement of how quickly data travels between two connected points on the internet. You can think of it as the amount of time it takes for one packet of data to get from one place to another.
@@ -72,6 +72,6 @@ Along with using our own global backbone network, {{site.data.keyword.cloud_notm
 
 Your customers want your data as quickly as you can get it to them. The time that it takes for your data to get to them across the internet is called network latency. The more control that you have over your data’s network path, the more consistent (and lower) your network latency can be.
 
-* With Direct Link, we give you control over the path your data travels, so your data’s travel is not interrupted or blocked by other traffic.
+* With {{site.data.keyword.dl_short}}, we give you control over the path your data travels, so your data’s travel is not interrupted or blocked by other traffic.
 * {{site.data.keyword.cloud_notm}} offers industry-leading service providers-- providing high performance, security, and resiliency.
 * At {{site.data.keyword.cloud_notm}}, we continue to add network Points of Presence (PoPs) across the globe to bring your customers’ data closer to your customers; thereby, improving latency and overall performance to meet the needs of your hybrid cloud workloads.

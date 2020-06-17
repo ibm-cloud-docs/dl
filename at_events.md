@@ -4,7 +4,7 @@ copyright:
   years: 2020
 lastupdated: "2020-05-18"
 
-keywords: IBM, activity tracker, LogDNA, event, security, Direct Link
+keywords: IBM, activity tracker, LogDNA, event, security, {{site.data.keyword.dl_short}}
 
 subcollection: dl
 
@@ -18,16 +18,16 @@ subcollection: dl
 {:important: .important}
 {:note: .note}
 
-# Auditing events for IBM Cloud Direct Link
+# Auditing events for {{site.data.keyword.dl_full_notm}}
 {: #at_events}
 
-As a security officer, auditor, or manager, you can use the Activity Tracker service to track how users and applications interact with the Direct Link service in {{site.data.keyword.cloud}}.
+As a security officer, auditor, or manager, you can use the Activity Tracker service to track how users and applications interact with the {{site.data.keyword.dl_short}} service in {{site.data.keyword.cloud}}.
 {: shortdesc}
 
 {{site.data.keyword.at_full_notm}} records user-initiated activities that change the state of a service in {{site.data.keyword.cloud_notm}}. You can use this service to investigate abnormal activity and critical actions and to comply with regulatory audit requirements. In addition, you can be alerted about actions as they happen. The events that are collected comply with the Cloud Auditing Data Federation (CADF) standard. For more information, see the [getting started tutorial for {{site.data.keyword.at_full_notm}}](/docs/Activity-Tracker-with-LogDNA?topic=Activity-Tracker-with-LogDNA-getting-started).
 
 
-## Events for Direct Link Dedicated
+## Events for {{site.data.keyword.dl_short}} Dedicated
 {: #at_actions_dedicated}
 
 ### List of management events
@@ -42,7 +42,7 @@ As a security officer, auditor, or manager, you can use the Activity Tracker ser
 | `directlink.dedicated.virtual-connection.delete` | Dedicated virtual connection was deleted. |
 | `directlink.dedicated.virtual-connection.update` | Dedicated virtual connection was updated. |
 | `directlink.dedicated.completion-notice.create` | Dedicated completion notice was created. |
-{: caption="Table 1. List of Direct Link Dedicated management events" caption-side="top"}
+{: caption="Table 1. List of {{site.data.keyword.dl_short}} Dedicated management events" caption-side="top"}
 
 ### List of data events
 {: #at_data_events_dedicated}
@@ -53,10 +53,10 @@ As a security officer, auditor, or manager, you can use the Activity Tracker ser
 | `directlink.gateway.list` | Dedicated and Connect gateways were listed. |
 | `directlink.dedicated.virtual-connection.read` | Dedicated virtual connection was retrieved. |
 | `directlink.dedicated.completion-notice.read` | Dedicated completion notice was retrieved. |
-{: caption="Table 2. List of Direct Link Dedicated data events" caption-side="top"}
+{: caption="Table 2. List of {{site.data.keyword.dl_short}} Dedicated data events" caption-side="top"}
 
 
-## Events for Direct Link Connect
+## Events for {{site.data.keyword.dl_short}} Connect
 {: #at_actions_connect}
 
 ### List of management events
@@ -71,7 +71,7 @@ As a security officer, auditor, or manager, you can use the Activity Tracker ser
 | `directlink.connect.virtual-connection.delete` | Connect virtual connection was deleted. |
 | `directlink.connect.virtual-connection.update` | Connect virtual connection was updated. |
 | `directlink.connect.gateway.action` | Connect gateway action was applied. |
-{: caption="Table 3. List of Direct Link Connect management events" caption-side="top"}
+{: caption="Table 3. List of {{site.data.keyword.dl_short}} Connect management events" caption-side="top"}
 
 ### List of data events
 {: #at_data_events_connect}
@@ -82,7 +82,7 @@ As a security officer, auditor, or manager, you can use the Activity Tracker ser
 | `directlink.gateway.list`  | Dedicated and Connect gateways were listed. |
 | `directlink.connect.virtual-connection.list` | Connect virtual connections were listed. |
 | `directlink.connect.virtual-connection.read` | Connect virtual connection was retrieved. |
-{: caption="Table 4. List of Direct Link Connect data events" caption-side="top"}
+{: caption="Table 4. List of {{site.data.keyword.dl_short}} Connect data events" caption-side="top"}
 
 ## Viewing events
 {: #at_ui}

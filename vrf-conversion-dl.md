@@ -29,7 +29,7 @@ subcollection: dl
 # Converting to virtual routing and forwarding
 {: #what-happens-during-the-account-conversion-process}
 
-Many {{site.data.keyword.cloud}} customers currently operate with a shared tenancy model on the {{site.data.keyword.cloud_notm}} network. During conversion, your shared tenancy is converted to use a customer VRF, most commonly with a new Direct Link subscription.
+Many {{site.data.keyword.cloud}} customers currently operate with a shared tenancy model on the {{site.data.keyword.cloud_notm}} network. During conversion, your shared tenancy is converted to use a customer VRF, most commonly with a new {{site.data.keyword.dl_short}} subscription.
 {:shortdesc}
 
 A "customer VRF" refers to multiple isolation network connectivity. For more information, see [Virtual routing and forwarding on IBM Cloud](/docs/dl?topic=dl-overview-of-virtual-routing-and-forwarding-vrf-on-ibm-cloud).
@@ -49,6 +49,6 @@ Existing {{site.data.keyword.cloud_notm}} customers can [open an IBM Support cas
 
 "We are requesting that account _your account number_ is moved to its own VRF. We understand the risks and approve the change. Reply with the scheduled window(s) of time where this change will be made so we can prepare for the migration."
 
-Migration is completed by the {{site.data.keyword.cloud_notm}} Network Engineering team. No other information is required from you, except an agreed-to schedule. Intermittent packet loss might last 15 - 30 minutes, depending on the complexity of your account. It might be longer if your account has legacy Direct Link connections. The process is highly automated, requiring minimal interaction by the IBM team.
+Migration is completed by the {{site.data.keyword.cloud_notm}} Network Engineering team. No other information is required from you, except an agreed-to schedule. Intermittent packet loss might last 15 - 30 minutes, depending on the complexity of your account. It might be longer if your account has legacy {{site.data.keyword.dl_short}} connections. The process is highly automated, requiring minimal interaction by the IBM team.
 
-When you're opening the case, it's recommended to select the **Technical** support type option, with a category of **Networking > Direct Link**.
+When you're opening the case, it's recommended to select the **Technical** support type option, with a category of **Networking > {{site.data.keyword.dl_short}}**.

@@ -18,7 +18,7 @@ lastupdated: "2020-05-14"
 {:download: .download}
 {:preview: .preview}
 
-# Understanding your responsibilities when using IBM Cloud Direct Link
+# Understanding your responsibilities when using {{site.data.keyword.dl_full_notm}}
 {: #dl-responsibilities}
 
 Learn about the management responsibilities and terms and conditions that you have when you use {{site.data.keyword.dl_full_notm}}. For a high-level view of the service types in {{site.data.keyword.Bluemix}} and the breakdown of responsibilities between the customer and {{site.data.keyword.IBM_notm}} for each type, see [Shared responsibilities for {{site.data.keyword.cloud_notm}} offerings](/docs/overview?topic=overview-shared-responsibilities).
@@ -34,14 +34,14 @@ You and IBM have unique responsibilities for infrastructure provisioning and man
 | Responsibilities |  Ownership |
 |---------------------------|------|
 | Deploy a fully managed, highly available, secured, IBM-owned infrastructure. | IBM |
-| Provision and manage the Direct Link gateway. | IBM |
-| Fulfill requests for Direct Link connections. | IBM |
+| Provision and manage the {{site.data.keyword.dl_short}} gateway. | IBM |
+| Fulfill requests for {{site.data.keyword.dl_short}} connections. | IBM |
 | Fulfill requirements for additional capacity based on use. | IBM |
-| Provide partner relationships with physical locations for Direct Link interconnects. | IBM |
+| Provide partner relationships with physical locations for {{site.data.keyword.dl_short}} interconnects. | IBM |
 | Follow the instructions in the {{site.data.keyword.dl_full_notm}} user documentation to make any necessary configurations, such as BGP, setting up local or global routing and connections to resources. | Customer |
-| Understand Direct Link is *not* a redundant service; and while IBM Cloud supplies Diverse Router (XCR) options, failover must be built into the BGP scheme a customer deploys between multiple Direct Links. | Customer|
+| Understand {{site.data.keyword.dl_short}} is *not* a redundant service; and while IBM Cloud supplies Diverse Router (XCR) options, failover must be built into the BGP scheme a customer deploys between multiple {{site.data.keyword.dl_short}}s. | Customer|
 | Use the provided capabilities, and adjust networking configurations to meet the needs of your workload. | Customer |
-| Order cross-connects via chosen service provider (such as Equinix and AT&T) as needed for Direct Link Dedicated. | Customer |
+| Order cross-connects via chosen service provider (such as Equinix and AT&T) as needed for {{site.data.keyword.dl_short}} Dedicated. | Customer |
 | Upload Completion notice from service provider when Cross Connect is completed by chosen service provider. | Customer |
 | Monitor service notifications for communications regarding maintenance operations. | Customer |
 | Make sure that any self-provided BGP addresses do not conflict with blocks that are used by IBM or by resources external to your deployment. | Customer |
@@ -71,5 +71,5 @@ You and IBM have unique responsibilities for disaster recovery.
 | Responsibilities |  Ownership |
 |----------|-----------------------|
 | Provide diverse network options for consumption. | IBM |
-| Ensure diversity of Direct Link is deployed. | Customer |
+| Ensure diversity of {{site.data.keyword.dl_short}} is deployed. | Customer |
 {: caption="Table 3. Disaster recovery responsibilities" caption-side="top"}

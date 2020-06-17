@@ -31,19 +31,19 @@ subcollection: dl
 # FAQs for {{site.data.keyword.dl_short}}
 {: #faqs}
 
-You can review answers to some frequently asked questions about {{site.data.keyword.dl_full}} 2.0.
+You can review answers to some frequently asked questions about {{site.data.keyword.dl_full}} (2.0).
 {:shortdesc}
 
-## How does the new {{site.data.keyword.dl_short}} 2.0 differ from {{site.data.keyword.dlc_short}}?
+## How does the new {{site.data.keyword.dl_short}} (2.0) differ from {{site.data.keyword.dlc_short}}?
 {: #differentiators}
 {: faq}
 {: support}
 
-The new {{site.data.keyword.dl_short}} 2.0 offering differs from the {{site.data.keyword.dl_short}} classic infrastructure in that {{site.data.keyword.dl_short}} 2.0 is decoupled from classic IaaS, and exists only in the local cross-connect router (XCR). This design enables native connectivity to VPC and future capabilities without being forced into the classic IaaS network.
+The new {{site.data.keyword.dl_short}} (2.0) offering differs from the {{site.data.keyword.dl_short}} classic infrastructure in that {{site.data.keyword.dl_short}} (2.0) is decoupled from classic IaaS, and exists only in the local cross-connect router (XCR). This design enables native connectivity to VPC and future capabilities without being forced into the classic IaaS network.
 
-The 2.0 offering allows connectivity to both classic IaaS as well as VPCs, whereas {{site.data.keyword.dlc_full_notm}} always connects to the IaaS network and a global VRF first. {{site.data.keyword.dlc_full_notm}} can only reach the VPC on a limited basis using a feature named Classic Access and by adding global routing to the direct link. See [Setting up access to your Classic Infrastructure from VPC](/docs/vpc?topic=vpc-setting-up-access-to-classic-infrastructure) for more information.
+The {{site.data.keyword.dl_short}} (2.0) offering allows connectivity to both classic IaaS as well as VPCs, whereas {{site.data.keyword.dlc_full_notm}} always connects to the IaaS network and a global VRF first. {{site.data.keyword.dlc_full_notm}} can only reach the VPC on a limited basis using a feature named Classic Access and by adding global routing to the direct link. See [Setting up access to your Classic Infrastructure from VPC](/docs/vpc?topic=vpc-setting-up-access-to-classic-infrastructure) for more information.
 
-For more information about the differences between the new {{site.data.keyword.dl_short}} 2.0 offering and the classic version, see [How do I know which {{site.data.keyword.dl_short}} solution to order?](/docs/direct-link?topic=direct-link-get-started-with-ibm-cloud-direct-link#get-started-solution-to-order).
+For more information about the differences between the new {{site.data.keyword.dl_short}} (2.0) offering and the classic version, see [How do I know which {{site.data.keyword.dl_short}} solution to order?](/docs/direct-link?topic=direct-link-get-started-with-ibm-cloud-direct-link#get-started-solution-to-order).
 {: tip}
 
 ## What is planned for {{site.data.keyword.dl_short}} Exchange?
@@ -53,7 +53,7 @@ For more information about the differences between the new {{site.data.keyword.d
 
 The marketplace has evolved since {{site.data.keyword.dl_short}} Exchange was established. With data center operators now blurring the lines as network service providers, IBM will be combining the Exchange offering with Connect on the new "next generation" platform to reflect both this change and simplify the {{site.data.keyword.dl_short}} portfolio. {{site.data.keyword.dl_short}} Exchange will service only the {{site.data.keyword.dl_short}} classic infrastructure. After migrations of the partner inter-connections to the XCRs are complete, Exchange will be moved to End of Marketing (EoM).
 
-## Will {{site.data.keyword.dl_short}} 2.0 be available in non-MZRs, or is it only a solution for MZRs?  
+## Will {{site.data.keyword.dl_short}} (2.0) be available in non-MZRs, or is it only a solution for MZRs?  
 {: #dl-mzr}
 {: faq}
 {: support}
@@ -67,13 +67,13 @@ Initial rollout plans are for the Multi-Zone Regions (MZRs) to be prioritized. O
 
 Six MZRs are in plan for 2020 (Dallas, Frankfurt, London, Sydney, Tokyo, Washington D.C.). In addition, Osaka, Toronto, and Sao Paulo are coming soon.
 
-## If {{site.data.keyword.dl_short}} 2.0 is not available for Single-Zone Regions (SZRs), how do financial services clients handle the data that they need to keep in their regions?
+## If {{site.data.keyword.dl_short}} (2.0) is not available for Single-Zone Regions (SZRs), how do financial services clients handle the data that they need to keep in their regions?
 {: #roadmap-szrs}
 {: faq}
 
-Any existing customers on classic IaaS can remain in classic IaaS and continue to access classic IaaS data centers using {{site.data.keyword.dl_short}} 2.0 or {{site.data.keyword.dlc_full_notm}}. VPC connectivity is fully supported ONLY on {{site.data.keyword.dl_short}} 2.0.
+Any existing customers on classic IaaS can remain in classic IaaS and continue to access classic IaaS data centers using {{site.data.keyword.dl_short}} (2.0) or {{site.data.keyword.dlc_full_notm}}. VPC connectivity is fully supported ONLY on {{site.data.keyword.dl_short}} (2.0).
 
-## Will {{site.data.keyword.dl_short}} 2.0 be available in all IBM Cloud data centers?
+## Will {{site.data.keyword.dl_short}} (2.0) be available in all IBM Cloud data centers?
 {: #dc}
 {: faq}
 {: support}
@@ -89,7 +89,7 @@ Any existing customers on classic IaaS can remain in classic IaaS and continue t
 | au-syd | au-syd-1<br />au-sy-2<br />au-syd-3 | SYD01<br />SYD04<br />SYD05 |
 | us-east | us-east-1<br />us-east-2<br />us-east-3 | WDC-04<br />WDC06<br />WDC07 |
 
-## Where are the  {{site.data.keyword.dl_short}} 2.0 offerings enabled?
+## Where are the  {{site.data.keyword.dl_short}} (2.0) offerings enabled?
 {: #classic-enabled-versus-dl}
 {:faq}
 {: support}
@@ -105,12 +105,12 @@ You can connect the classic infrastructure and VPC with classic peering as descr
 
 Classic access features of VPC are an option at VPC setup and can only be enabled at the initial VPC creation. For more information, see [Creating and managing network resources in VPC](/docs/vpc-on-classic?topic=vpc-on-classic-creating-and-managing-network-resources-in-vpc).
 
-## Is there a way to connect {{site.data.keyword.dl_short}} 2.0 to VPC without using the classic infrastructure?
+## Is there a way to connect {{site.data.keyword.dl_short}} (2.0) to VPC without using the classic infrastructure?
 {: #connect-wo-using-classic}
 {:faq}
 {: support}
 
-Yes, this is possible on {{site.data.keyword.dl_short}} 2.0. The VRF created is local to the XCR versus global on the classic infrastructure. Route targeting to VPC then enables {{site.data.keyword.dl_short}} 2.0 to be used with VPC natively using the UI (without touching the classic infrastructure).
+Yes, this is possible on {{site.data.keyword.dl_short}} (2.0). The VRF created is local to the XCR versus global on the classic infrastructure. Route targeting to VPC then enables {{site.data.keyword.dl_short}} (2.0) to be used with VPC natively using the UI (without touching the classic infrastructure).
 
 ## Are there documented limitations on {{site.data.keyword.dl_short}}?
 {: #direct-link-vpc-limitations}
@@ -119,23 +119,23 @@ Yes, this is possible on {{site.data.keyword.dl_short}} 2.0. The VRF created is 
 
 Yes, they are listed in Virtual Private Cloud [Quotas](/docs/vpc-on-classic?topic=vpc-on-classic-quotas) documentation.
 
-## How do I move from  {{site.data.keyword.dlc_full_notm}} to the new  {{site.data.keyword.dl_short}} 2.0?
+## How do I move from  {{site.data.keyword.dlc_full_notm}} to the new  {{site.data.keyword.dl_short}} (2.0)?
 {: #move-classic-to-new}
 {:faq}
 
-{{site.data.keyword.dl_short}} 2.0 has a new user interface and records system, requiring you to place a brand new {{site.data.keyword.dl_short}} 2.0 order.
+{{site.data.keyword.dl_short}} (2.0) has a new user interface and records system, requiring you to place a brand new {{site.data.keyword.dl_short}} (2.0) order.
 
 ## Are there any performance impacts affected by moving from {{site.data.keyword.dlc_full_notm}}?
 {: #move-classic-to-new-performance}
 {:faq}
 
-The new {{site.data.keyword.dl_short}} 2.0 performs better as it's not required to exist inside your global VRF for classic IaaS. It is a true access platform to all of {{site.data.keyword.cloud_notm}}.
+The new {{site.data.keyword.dl_short}} (2.0) performs better as it's not required to exist inside your global VRF for classic IaaS. It is a true access platform to all of {{site.data.keyword.cloud_notm}}.
 
 ## In terms of cost, what do I pay for?
 {: #cost}
 {:faq}
 
-There are two pricing plans: metered and unmetered. Metered has a port fee and bill per GB egressed across the {{site.data.keyword.dl_short}} 2.0.
+There are two pricing plans: metered and unmetered. Metered has a port fee and bill per GB egressed across the {{site.data.keyword.dl_short}} (2.0).
 Unmetered billing has a higher port fee and no usage charges, which are ideal for customers who consistently egress traffic across their direct link.
 
 ## How does {{site.data.keyword.dl_full_notm}} work?
@@ -160,7 +160,7 @@ Billing stops after (1) you request a circuit to be deleted, and (2) the provide
 
 You might have extra charges from your provider. See to your carrier or service provider for their fee information.
 
-## How can I achieve redundancy with {{site.data.keyword.dl_short}} 2.0?
+## How can I achieve redundancy with {{site.data.keyword.dl_short}} (2.0)?
 {: #how-can-i-achieve-redundancy-with-ibm-cloud-dl}
 {:faq}
 

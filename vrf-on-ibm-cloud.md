@@ -63,7 +63,7 @@ Using VRF, {{site.data.keyword.cloud_notm}} tenants are allowed to use remote IP
 
 IBM is moving forward with a next-generation Cloud deployment to enable Virtual Private Cloud (VPC) in our availability zones (AZs). This new VPC capability enables Bring-Your-Own-IP (BYoIP) in the VPC-enabled AZs, which are located in Dallas, Washington DC, London, Frankfurt, Tokyo, and Sydney.
 
-For example, each tenant on the backbone who uses VRF can have only one customer VRF per Direct Link, which provides connectivity among all the tenant’s servers, regardless of location. However, an {{site.data.keyword.cloud_notm}} tenant might have more than one Direct Link account that feeds into a single cross-connect router.
+For example, each tenant on the backbone who uses VRF can have only one customer VRF per {{site.data.keyword.dl_short}}, which provides connectivity among all the tenant’s servers, regardless of location. However, an {{site.data.keyword.cloud_notm}} tenant might have more than one {{site.data.keyword.dl_short}} account that feeds into a single cross-connect router.
 {: note}
 
 * A tenant’s servers in any VLAN, in any pod, in any data center worldwide can reach all of that tenant’s other servers globally.
@@ -86,10 +86,10 @@ Compared to the older ACL model, there are a few minor tradeoffs to take into ac
 * VLAN spanning is a feature of the shared tenancy model and is not available in a VRF; this will be disabled upon conversion to the Customer VRF.
 * IPsec VPN managed service on {{site.data.keyword.cloud_notm}} classic infrastructure remote access is not available.
 
-Many {{site.data.keyword.cloud_notm}} customers currently operate with a shared tenancy model on the {{site.data.keyword.cloud_notm}} network. During conversion, your shared tenancy is converted to use a _customer VRF_, most commonly with a new Direct Link subscription.  
+Many {{site.data.keyword.cloud_notm}} customers currently operate with a shared tenancy model on the {{site.data.keyword.cloud_notm}} network. During conversion, your shared tenancy is converted to use a _customer VRF_, most commonly with a new {{site.data.keyword.dl_short}} subscription.  
 
 For specific information about how to initiate a VRF conversion for your account, see the conversion instructions for your {{site.data.keyword.cloud_notm}} offering. For example,
 
-* [Direct Link conversion instructions](/docs/dl?topic=dl-what-happens-during-the-account-conversion-process)
+* [{{site.data.keyword.dl_short}} conversion instructions](/docs/dl?topic=dl-what-happens-during-the-account-conversion-process)
 * [VPC conversion instructions](/docs/vpc-on-classic?topic=vpc-on-classic-setting-up-access-to-your-classic-infrastructure-from-vpc#how-you-can-initiate-the-conversion)
 * [{{site.data.keyword.cloud_notm}} service endpoints conversion instructions](/docs/account?topic=account-vrf-service-endpoint)

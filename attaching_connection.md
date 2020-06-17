@@ -28,12 +28,12 @@ subcollection: dl
 {:help: data-hd-content-type='help'}
 {:support: data-reuse='support'}
 
-# Adding virtual connections to a Direct Link gateway
+# Adding virtual connections to a {{site.data.keyword.dl_short}} gateway
 {: #add-virtual-connection}
 {: help}
 {: support}
 
-You can add a virtual connection when you create a Direct Link gateway by using the **Network connections** option. You can also add a virtual connection to the gateway after provisioning the gateway.
+You can add a virtual connection when you create a {{site.data.keyword.dl_short}} gateway by using the **Network connections** option. You can also add a virtual connection to the gateway after provisioning the gateway.
 {: shortdesc}
 
 Make sure that there are no IP address conflicts between on-premises subnets and subnets on IBM Cloud for both VPC and classic infrastructure connections.
@@ -41,7 +41,7 @@ Make sure that there are no IP address conflicts between on-premises subnets and
 
 To add a connection to a provisioned gateway, follow these steps:
 
-1. Highlight the row of the gateway in the Direct Link table, then click **Add connection** from the Overflow ![Overflow menu](images/overflow.png) menu. Alternatively, you can click **Add connection +** on the gateway's details page.
+1. Highlight the row of the gateway in the {{site.data.keyword.dl_short}} table, then click **Add connection** from the Overflow ![Overflow menu](images/overflow.png) menu. Alternatively, you can click **Add connection +** on the gateway's details page.
 
    You can create a connection to the logged-in account, or request a connection to a network within another account.
 
@@ -51,24 +51,24 @@ To add a connection to a provisioned gateway, follow these steps:
 
 After the virtual connection is added to the gateway, the VPC name is shown under the virtual connections section on the gateway's details page.
 
-You can add only one classic infrastructure virtual connection to a provisioned Direct Link connection. However, you can add multiple VPC virtual connections.  
+You can add only one classic infrastructure virtual connection to a provisioned {{site.data.keyword.dl_short}} connection. However, you can add multiple VPC virtual connections.  
 {: note}
 
-## Cross-account (VPC only) network connectivity with Direct Link
+## Cross-account (VPC only) network connectivity with {{site.data.keyword.dl_short}}
 {: #cross-account-virtual-connection}
 
-You can request virtual connections to networks in other {{site.data.keyword.cloud_notm}} accounts for Direct Link gateways that indicate the **Provisioned** status.
+You can request virtual connections to networks in other {{site.data.keyword.cloud_notm}} accounts for {{site.data.keyword.dl_short}} gateways that indicate the **Provisioned** status.
 
 Only one pending request is allowed per gateway. To create more requests, you can cancel the pending virtual connection request or wait for it to be accepted. Connection requests expire if not accepted within 72 hours.
 {:tip}
 
 Follow these steps to connect networks owned by different accounts:
 
-1. Click the Direct Link name in the table to show its details, then click **Add connection** in the Virtual connections section.
+1. Click the {{site.data.keyword.dl_short}} name in the table to show its details, then click **Add connection** in the Virtual connections section.
 2. On the Add connection page select **Request connection to a network in another account**.   
 3. Type the VPC CRN of the cross-account network.
 
-   To get the CRN of a VPC, click Menu ![Menu icon](../icons/icon_hamburger.svg) > **Resource list** from the {{site.data.keyword.cloud_notm}} console. Expand **VPC Infrastructure** to list your VPCs. Select a VPC and click the **Status** entry to view its details. Copy the CRN and paste it in the Direct Link window.
+   To get the CRN of a VPC, click Menu ![Menu icon](../icons/icon_hamburger.svg) > **Resource list** from the {{site.data.keyword.cloud_notm}} console. Expand **VPC Infrastructure** to list your VPCs. Select a VPC and click the **Status** entry to view its details. Copy the CRN and paste it in the {{site.data.keyword.dl_short}} window.
    {: tip}
 
 4.  Type the name of the network connection, then click **Add**.
@@ -77,7 +77,7 @@ Follow these steps to connect networks owned by different accounts:
 
    The network connection shows in the gateway account with the **Pending approval** status.  
 
-5. The network (VPC) owner's account shows the gateway in **View only** mode. From the network (VPC) owner's account, go to the Direct Link dashboard and click the gateway name in the table.
+5. The network (VPC) owner's account shows the gateway in **View only** mode. From the network (VPC) owner's account, go to the {{site.data.keyword.dl_short}} dashboard and click the gateway name in the table.
 
 6. In the Virtual Connections section, see **Action required** to view the incoming request. Click **Accept** to accept the network connection request.   
 
