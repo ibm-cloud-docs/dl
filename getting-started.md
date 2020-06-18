@@ -61,7 +61,7 @@ To get started using {{site.data.keyword.dl_full_notm}} Dedicated, follow these 
 
 Leverage a service provider to quickly establish and deliver connectivity to IBM Cloud locations. These Connect providers are already connected to the IBM Cloud network, using multi-tenant, high capacity links (also known as network-to-network interfaces, or NNI).  
 
-The beta release of {{site.data.keyword.dl_full}} Connect is only available to whitelisted users. Contact your IBM Cloud Sales representative if you are interested in getting early access to this beta offering. After the {{site.data.keyword.dl_short}} Connect service is made generally available, you must upgrade to the standard paid plan to continue using instances that you created during the beta. Upgrade instructions will be provided to beta participants. Any instance that continues to use the beta plan for this service beyond 30 days after general availability is subject to deletion.
+The beta release of {{site.data.keyword.dl_full}} Connect is only available to allowlisted users. Contact your IBM Cloud Sales representative if you are interested in getting early access to this beta offering. After the {{site.data.keyword.dl_short}} Connect service is made generally available, you must upgrade to the standard paid plan to continue using instances that you created during the beta. Upgrade instructions will be provided to beta participants. Any instance that continues to use the beta plan for this service beyond 30 days after general availability is subject to deletion.
 {: beta}
 
 To get started using {{site.data.keyword.dl_full_notm}} Connect, follow these [instructions](/docs/dl?topic=dl-how-to-order-ibm-cloud-dl-connect) for ordering the service..
