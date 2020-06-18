@@ -75,11 +75,7 @@ Use when deterministic latency is required.
 
 Use when ultra-low latency is required.
 
-![Figure 2](/images/dedicated-model-colo.png)
-
-![TEST 1 GRAPHIC](/images/at_lb_example.png){: new_window}
-
-![TEST 2 FILE](at_lb_example.md){: new_window}
+![Figure 2](/images/dedicated-model-colo.png) 
 
 **Termination location** - {{site.data.keyword.cloud_notm}} point of presence (PoP) or Data Center (DC).
 
