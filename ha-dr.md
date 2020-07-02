@@ -28,7 +28,7 @@ subcollection: dl
 The {{site.data.keyword.dl_full}} global service is highly available within any {{site.data.keyword.cloud_notm}} location. However, recovering from disasters that affect an entire location requires planning and preparation.
 {: shortdesc}
 
-You are responsible for understanding your connection configuration, customization, and usage of the service. You are also responsible for being ready to re-create an instance of the service in a new location and restore your data there.
+You are responsible for understanding your connection configuration, customization, and usage of the service. You are also responsible for being ready to re-create an instance of the service in a new location and restore your data there. See this link for how to design Diversity to achieve HA with Direct Link https://cloud.ibm.com/docs/dl?topic=dl-models-for-diversity-and-redundancy-in-direct-link
 
 ## High availability within the service
 {: #high-availability}
@@ -38,12 +38,12 @@ You are responsible for understanding your connection configuration, customizati
 ## High availability for customer {{site.data.keyword.dl_short}} connections
 {: #high-availability-customer}
 
-Your {{site.data.keyword.dl_short}} connections are location specific. It is up to you to set up any High Availability or Disaster Recovery plans that are required.
+Your {{site.data.keyword.dl_short}} connections are location specific. It is up to you to set up any High Availability or Disaster Recovery plans that are required.  See this link for how to design Diversity to achieve HA with Direct Link https://cloud.ibm.com/docs/dl?topic=dl-models-for-diversity-and-redundancy-in-direct-link
 
 ## Disaster recovery
 {: #disaster-recovery}
 
-In the event of a catastrophic failure impacting an entire region, and the {{site.data.keyword.dl_short}} physical link between on-premises and {{site.data.keyword.cloud}} was in that region, you would experience an outage. If you require a highly available connection to {{site.data.keyword.cloud}}, it is imperative that you have a redundant connection in a second region. If you decide to rely on a single connection, it is recommended that you back up all configuration elements in case you would ever have to recreate your {{site.data.keyword.dl_short}} gateway and virtual connections.
+In the event of a catastrophic failure impacting an entire region, and the {{site.data.keyword.dl_short}} physical link between on-premises and {{site.data.keyword.cloud}} was in that region, you would experience an outage. If you require a highly available connection to {{site.data.keyword.cloud}}, it is imperative that you have a redundant connection in a second region. If you decide to rely on a single connection, it is recommended that you back up all configuration elements in case you would ever have to recreate your {{site.data.keyword.dl_short}} gateway and virtual connections.  See this link for how to design Diversity to achieve HA with Direct Link https://cloud.ibm.com/docs/dl?topic=dl-models-for-diversity-and-redundancy-in-direct-link
 
 ### Backing up {{site.data.keyword.dl_short}} gateways for disaster recovery
 {: #disaster-recovery-dl}
