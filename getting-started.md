@@ -45,7 +45,7 @@ Features coming soon:
 
 * Support for Virtual Private Endpoints (VPEs) from customer on-premises from a single customer account
 * Support for a {{site.data.keyword.dl_short}} connection to venues, such as blockchain, SAP on Power, and more
-* Support for a {{site.data.keyword.dl_short}} connection to Public services; for example, {{site.data.keyword.cloud_notm}} Object Storage (ICOS)
+* Support for a {{site.data.keyword.dl_short}} connection to Public services
 
 The following {{site.data.keyword.dl_short}} (2.0) offerings are available:
 
