@@ -124,9 +124,7 @@ After you create your {{site.data.keyword.dl_short}} order, the {{site.data.keyw
 
    To locate the service key, navigate to the [{{site.data.keyword.dl_short}} dashboard](https://cloud.ibm.com/interconnectivity/direct-link), then click the Direct Link name in the table to show its details.
    {: note}
-
-* After you place your order, return to the Direct Link dashboard in the IBM Cloud console to review your configuration and finalize creation of the direct link. Estimated pricing pricing is shown for your approval.
-
+   
 ## Locations
 {: #connect-classic-locations}
 
