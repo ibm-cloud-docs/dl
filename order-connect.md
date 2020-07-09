@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-06-04"
+lastupdated: "2020-07-08"
 
 keywords: order, provider, capabilities, Connect, cross-connect, locations, PoP, data center, pricing
 
@@ -115,12 +115,17 @@ Complete your connection using the following instructions.
 ## Completing the connection
 {: #complete-connection-connect}
 
-After you create your {{site.data.keyword.dl_short}} order, the {{site.data.keyword.dl_short}} table indicates a **Provisioned** connection status. You must then configure the BGP parameters on the Customer Edge Router (CER) for BGP session establishment. After this completes, the BGP status indicates `Established`.
+After you create your {{site.data.keyword.dl_short}} order, the {{site.data.keyword.dl_short}} dashboard indicates a **Provisioned** connection status. You must then configure the BGP parameters on the Customer Edge Router (CER) for BGP session establishment. After this completes, the BGP status indicates `Established`.
 
 **Next steps**
 
-* Contact your Connect provider and negotiate connectivity to your on-premises or colocation.
-* Order a virtual circuit through your Connect provider and reference the case ID of the {{site.data.keyword.dl_short}} Connect request as your Request ID or Authorization ID.
+* Contact your network provider and negotiate connectivity to your on-premises or colocation.
+* Take note of the service key of the gateway, then create a request on the provider portal to order a virtual circuit. Reference the case ID of the {{site.data.keyword.dl_short}} Connect request as your Request ID or Authorization ID.
+
+   To locate the service key, navigate to the [{{site.data.keyword.dl_short}} dashboard](https://cloud.ibm.com/interconnectivity/direct-link), then click the Direct Link name in the table to show its details.
+   {: note}
+
+* After you place your order, return to the Direct Link dashboard in the IBM Cloud console to review your configuration and finalize creation of the direct link. Estimated pricing pricing is shown for your approval.
 
 ## Locations
 {: #connect-classic-locations}
