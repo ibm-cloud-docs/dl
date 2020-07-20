@@ -39,7 +39,6 @@ Highlights include:
 * Metered billing, which lowers the barrier of entry to {{site.data.keyword.cloud_notm}}
 * Support for connections to multiple {{site.data.keyword.cloud_notm}} accounts from a single direct link
 * Support for multiple VPCs (without classic access) from a single direct link within the same account
-* Bring Your Own IP (BYOIP) address to create native connectivity between your on-premises environment and {{site.data.keyword.cloud_notm}}
 
 Features coming soon:
 
