@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-07-08"
+lastupdated: "2020-07-27"
 
 keywords: order, provider, capabilities, Connect, cross-connect, locations, PoP, data center, pricing
 
@@ -35,10 +35,13 @@ subcollection: dl
 {: help}
 {: support}
 
-{{site.data.keyword.dl_short}} Connect is a Beta release and only available to allowlisted users.
-
 The beta release of {{site.data.keyword.dl_full}} Connect is only available to allowlisted users. Contact your IBM Cloud Sales representative if you are interested in getting early access to this beta offering. After the {{site.data.keyword.dl_short}} Connect service is made generally available, you must upgrade to the standard paid plan to continue using instances that you created during the beta. Upgrade instructions will be provided to beta participants. Any instance that continues to use the beta plan for this service beyond 30 days after general availability is subject to deletion.
 {: beta}
+
+IBM Cloud highly recommends that a second, diverse direct link be established to prevent outages, whether unplanned, or planned due to maintenance. For more information, see [Models for diversity and redundancy](/docs/dl?topic=dl-models-for-diversity-and-redundancy-in-direct-link).
+{: important}
+
+Learn more
 
 ## Ordering instructions
 {: #instructions-connect}
@@ -124,15 +127,44 @@ After you create your {{site.data.keyword.dl_short}} order, the {{site.data.keyw
 
    To locate the service key, navigate to the [{{site.data.keyword.dl_short}} dashboard](https://cloud.ibm.com/interconnectivity/direct-link), then click the Direct Link name in the table to show its details.
    {: note}
-   
-## Locations
+
+## Providers & Locations
 {: #connect-classic-locations}
 
-Our {{site.data.keyword.dl_short}} Connect providers include these locations:
+The following table lists {{site.data.keyword.dl_short}} Connect providers and locations.
+{:shortdesc}
 
-| Partners | Available Markets |
-|--------------|--------------|
-| CenturyLink Dynamic Connections |  **Americas:** Washington DC 2 |
-| IBM Power Virtual Server | **Americas:** Washington DC 4<br />**EU:** Frankfurt 4, Frankfurt 5, London 6  |
-| Megaport | **Americas:**  Dallas 4<br />**EU:** London 3 (no diversity) |
-| Equinix | **APAC:**  Tokyo 3<br />**EU:** Frankfurt 3,London 3 <br />**Americas:** Chicago 1, Dallas 3, San Jose 2, Washington DC 2|				
+| Provider | Locations |
+|----|----|
+| At Tokyo | **APAC:** Osaka 1 |
+| CenturyLink Dynamic Connections |  **Americas:** Washington DC 2 |  
+| Equinix | **APAC:**  Tokyo 3<br />**EU:** Frankfurt 3,London 3 <br />**Americas:** Chicago 1, Dallas 3, San Jose 2, Washington DC 2 |
+| IBM Power Virtual Server | **Americas:** Washington DC 4<br />**EU:** Frankfurt 4, Frankfurt 5, London 6 |
+| Megaport | **Americas:**  Dallas 4<br />**APAC:** Osaka 1<br />**EU:** London 3 (no diversity) |
+{: class="simple-tab-table"}
+{: caption="Table 1. Direct Link Connect by Provider" caption-side="left"}
+{: #simpletabtable1}
+{: tab-title="By Provider"}
+{: tab-group="connect-simple"}
+
+| Location | Providers |
+|----|----|----|
+| Chicago 1 | Equinix |
+| Dallas 3 | Equinix |
+| Dallas 4 | Megaport |
+| Frankfort 3 | Equinix |
+| Frankfort 4 | IBM Power Virtual Server |
+| Frankfort 5 | IBM Power Virtual Server |
+| London 3 | Equinix <br />  Megaport (no diversity)|
+| London 3 (no diversity) | Megaport |
+| London 6 | IBM Power Virtual Server |
+| Osaka  1 | At Tokyo<br />Megaport |
+| San Jose 2 | Equinix |
+| Tokyo 3 | Equinix |
+| Washington DC 2 | CenturyLink Dynamic Connections<br />Equinix |
+| Washington DC 4 | IBM Power Virtual Server |
+{: caption="Table 2. Direct Link Connect by Location" caption-side="left"}
+{: #simpletabtable2}
+{: tab-title="By Location"}
+{: tab-group="connect-simple"}
+{: class="simple-tab-table"}
