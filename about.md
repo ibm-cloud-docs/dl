@@ -75,13 +75,13 @@ Use when deterministic latency is required.
 
 Use when ultra-low latency is required.
 
-![Figure 2](/images/dedicated-model-colo.png) 
+![Figure 2](/images/dedicated-model-colo.png)
 
 **Termination location** - {{site.data.keyword.cloud_notm}} point of presence (PoP) or Data Center (DC).
 
 **Typical deployment time** - Averages 10-15 business days after the new circuit reaches the PoP. Deployment time can be 30 - 60 days overall, depending on your location and the requirements when you order a circuit from a service provider or carrier.
 
-**Cross-connect details** - {site.data.keyword.cloud_notm}} provides a Letter of Authorization (LOA) that you can use to order fiber Ethernet (single-mode fiber only, either 1Gig-LX or 10Gig-LR optics). This Ethernet runs from a customer cage or provider cage to the {{site.data.keyword.cloud_notm}} Connecting Facility Assignment (CFA) termination point, which is tied down to the cross-connect router (XCR) infrastructure. The media must be a 1310 nm wavelength optic.
+**Cross-connect details** - {{site.data.keyword.cloud_notm}} provides a Letter of Authorization (LOA) that you can use to order fiber Ethernet (single-mode fiber only, either 1Gig-LX or 10Gig-LR optics). This Ethernet runs from a customer cage or provider cage to the {{site.data.keyword.cloud_notm}} Connecting Facility Assignment (CFA) termination point, which is tied down to the cross-connect router (XCR) infrastructure. The media must be a 1310 nm wavelength optic.
 
 **Port speed options** - Select 1 Gbps, 2 Gbps, 5 Gbps, or 10 Gbps.
 
