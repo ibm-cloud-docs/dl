@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-07-23"
+lastupdated: "2020-08-05"
 
 keywords: order, provider, capabilities, Dedicated, cross-connect, locations, PoP, data center, data, center, pricing, Letter of Authorization, LOA,
 
