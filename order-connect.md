@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-07-27"
+lastupdated: "2020-08-05"
 
 keywords: order, provider, capabilities, Connect, cross-connect, locations, PoP, data center, pricing
 
@@ -66,10 +66,10 @@ To order {{site.data.keyword.dl_full}} Connect, follow these steps.
 
 1. In the Location section, select a geography, followed by a market, type, site, and routing option.
 
-      Local and global routing options are supported for {{site.data.keyword.dl_short}} Connect. When you select a routing option, the location details with reachable sites are shown.  
-      {:note}            
+   Local and global routing options are supported for {{site.data.keyword.dl_short}} Connect. When you select a routing option, the location details with reachable sites are shown.  
+   {:note}            
 
-      ![Location section](/images/dl-location-connect.png)   
+   ![Location section](/images/dl-location-connect.png)   
 
    * Choose a provider and then select a connection speed. The speeds supported for the {{site.data.keyword.dl_short}} Connect offering are 50 Mbps, 100 Mbps, 200 Mbps, 500 Mbps, and 1 Gbps, 2 Gbps, and 5 Gbps.
 
@@ -128,7 +128,7 @@ After you create your {{site.data.keyword.dl_short}} order, the {{site.data.keyw
    To locate the service key, navigate to the [{{site.data.keyword.dl_short}} dashboard](https://cloud.ibm.com/interconnectivity/direct-link), then click the Direct Link name in the table to show its details.
    {: note}
 
-## Providers & Locations
+## Providers and locations
 {: #connect-classic-locations}
 
 The following table lists {{site.data.keyword.dl_short}} Connect providers and locations.
@@ -138,9 +138,11 @@ The following table lists {{site.data.keyword.dl_short}} Connect providers and l
 |----|----|
 | At Tokyo | **APAC:** Osaka 1 |
 | CenturyLink Dynamic Connections |  **Americas:** Washington DC 2 |  
-| Equinix | **APAC:**  Tokyo 3<br />**EU:** Frankfurt 3,London 3 <br />**Americas:** Chicago 1, Dallas 3, San Jose 2, Washington DC 2 |
+| Colt | **Americas:** San Jose 2<br />Washington DC 2 |
+| Epsilon | **APAC:** Hong Kong 2 |
+| Equinix | **APAC:** Tokyo 3<br />**EU:** Frankfurt 3, London 3 <br />**Americas:** Chicago 1, Dallas 3, San Jose 2, Washington DC 2|
 | IBM Power Virtual Server | **Americas:** Washington DC 4<br />**EU:** Frankfurt 4, Frankfurt 5, London 6 |
-| Megaport | **Americas:**  Dallas 4<br />**APAC:** Osaka 1<br />**EU:** London 3 (no diversity) |
+| Megaport | **Americas:**  Dallas 4<br />**APAC:** Osaka 1<br />**EU:** Amsterdam 2<br />London 3 (no diversity) |
 {: class="simple-tab-table"}
 {: caption="Table 1. Direct Link Connect by Provider" caption-side="left"}
 {: #simpletabtable1}
@@ -148,20 +150,22 @@ The following table lists {{site.data.keyword.dl_short}} Connect providers and l
 {: tab-group="connect-simple"}
 
 | Location | Providers |
-|----|----|----|
+|----|----|
+| Amsterdam 2 | Megaport |
 | Chicago 1 | Equinix |
 | Dallas 3 | Equinix |
 | Dallas 4 | Megaport |
 | Frankfort 3 | Equinix |
 | Frankfort 4 | IBM Power Virtual Server |
 | Frankfort 5 | IBM Power Virtual Server |
-| London 3 | Equinix <br />  Megaport (no diversity)|
+| Hong Kong 2 | Epsilon |
+| London 3 | Equinix <br />Megaport (no diversity)|
 | London 3 (no diversity) | Megaport |
 | London 6 | IBM Power Virtual Server |
 | Osaka  1 | At Tokyo<br />Megaport |
-| San Jose 2 | Equinix |
+| San Jose 2 | Colt<br />Equinix |
 | Tokyo 3 | Equinix |
-| Washington DC 2 | CenturyLink Dynamic Connections<br />Equinix |
+| Washington DC 2 | CenturyLink Dynamic Connections<br />Colt<br />Equinix |
 | Washington DC 4 | IBM Power Virtual Server |
 {: caption="Table 2. Direct Link Connect by Location" caption-side="left"}
 {: #simpletabtable2}
