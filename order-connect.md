@@ -141,6 +141,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect providers and l
 | Colt | **Americas:** San Jose 2<br />Washington DC 2 |
 | Epsilon | **APAC:** Hong Kong 2 |
 | Equinix | **APAC:** Tokyo 3<br />**EU:** Frankfurt 3, London 3 <br />**Americas:** Chicago 1, Dallas 3, San Jose 2, Washington DC 2|
+| IBM BlueFringe | **EU:** Frankfurt 3 |
 | IBM Power Virtual Server | **Americas:** Washington DC 4<br />**EU:** Frankfurt 4, Frankfurt 5, London 6 |
 | Megaport | **Americas:**  Dallas 4<br />**APAC:** Osaka 1<br />**EU:** Amsterdam 2<br />London 3 (no diversity) |
 {: class="simple-tab-table"}
@@ -155,11 +156,11 @@ The following table lists {{site.data.keyword.dl_short}} Connect providers and l
 | Chicago 1 | Equinix |
 | Dallas 3 | Equinix |
 | Dallas 4 | Megaport |
-| Frankfort 3 | Equinix |
+| Frankfort 3 | Equinix<br />IBM BlueFringe |
 | Frankfort 4 | IBM Power Virtual Server |
 | Frankfort 5 | IBM Power Virtual Server |
 | Hong Kong 2 | Epsilon |
-| London 3 | Equinix <br />Megaport (no diversity)|
+| London 3 | Equinix<br />Megaport (no diversity)|
 | London 3 (no diversity) | Megaport |
 | London 6 | IBM Power Virtual Server |
 | Osaka  1 | At Tokyo<br />Megaport |
