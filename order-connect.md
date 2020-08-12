@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-08-05"
+lastupdated: "2020-08-12"
 
 keywords: order, provider, capabilities, Connect, cross-connect, locations, PoP, data center, pricing
 
@@ -138,12 +138,12 @@ The following table lists {{site.data.keyword.dl_short}} Connect providers and l
 |----|----|
 | At Tokyo | **APAC:** Osaka 1 |
 | CenturyLink Dynamic Connections |  **Americas:** Washington DC 2 |  
-| Colt | **Americas:** San Jose 2<br />Washington DC 2 |
+| Colt | **Americas:** San Jose 2, Washington DC 2 |
 | Epsilon | **APAC:** Hong Kong 2 |
-| Equinix | **APAC:** Tokyo 3<br />**EU:** Frankfurt 3, London 3 <br />**Americas:** Chicago 1, Dallas 3, San Jose 2, Washington DC 2|
-| IBM BlueFringe | **EU:** Frankfurt 3 |
+| Equinix | **APAC:** Tokyo 3<br />**EU:** Frankfurt 3, London 3 <br />**Americas:** Chicago 1, Dallas 3, San Jose 2, Washington DC 2 |
 | IBM Power Virtual Server | **Americas:** Washington DC 4<br />**EU:** Frankfurt 4, Frankfurt 5, London 6 |
-| Megaport | **Americas:**  Dallas 4<br />**APAC:** Osaka 1<br />**EU:** Amsterdam 2<br />London 3 (no diversity) |
+| IBM BlueFringe | **Americas:** Dallas 3, Washington DC 2<br />**EU:** Frankfurt 3 |
+| Megaport | **Americas:**  Dallas 4<br />**APAC:** Osaka 1<br />**EU:** Amsterdam 2, London 3 (no diversity) |
 {: class="simple-tab-table"}
 {: caption="Table 1. Direct Link Connect by Provider" caption-side="left"}
 {: #simpletabtable1}
@@ -154,19 +154,19 @@ The following table lists {{site.data.keyword.dl_short}} Connect providers and l
 |----|----|
 | Amsterdam 2 | Megaport |
 | Chicago 1 | Equinix |
-| Dallas 3 | Equinix |
+| Dallas 3 | Equinix<br />IBM BlueFringe |
 | Dallas 4 | Megaport |
 | Frankfort 3 | Equinix<br />IBM BlueFringe |
 | Frankfort 4 | IBM Power Virtual Server |
 | Frankfort 5 | IBM Power Virtual Server |
 | Hong Kong 2 | Epsilon |
-| London 3 | Equinix<br />Megaport (no diversity)|
+| London 3 | Equinix <br />Megaport (no diversity)|
 | London 3 (no diversity) | Megaport |
 | London 6 | IBM Power Virtual Server |
 | Osaka  1 | At Tokyo<br />Megaport |
 | San Jose 2 | Colt<br />Equinix |
 | Tokyo 3 | Equinix |
-| Washington DC 2 | CenturyLink Dynamic Connections<br />Colt<br />Equinix |
+| Washington DC 2 | CenturyLink Dynamic Connections<br />Colt<br />Equinix<br />IBM BlueFringe |
 | Washington DC 4 | IBM Power Virtual Server |
 {: caption="Table 2. Direct Link Connect by Location" caption-side="left"}
 {: #simpletabtable2}
