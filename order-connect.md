@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-08-12"
+lastupdated: "2020-08-18"
 
 keywords: order, provider, capabilities, Connect, cross-connect, locations, PoP, data center, pricing
 
@@ -137,6 +137,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect providers and l
 | Provider | Locations |
 |----|----|
 | At Tokyo | **APAC:** Osaka 1 |
+| British Telecom | **Americas:** Washington DC 2 |  
 | CenturyLink Dynamic Connections |  **Americas:** Washington DC 2 |  
 | Colt | **Americas:** San Jose 2, Washington DC 2 |
 | Epsilon | **APAC:** Hong Kong 2 |
@@ -166,7 +167,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect providers and l
 | Osaka  1 | At Tokyo<br />Megaport |
 | San Jose 2 | Colt<br />Equinix |
 | Tokyo 3 | Equinix |
-| Washington DC 2 | CenturyLink Dynamic Connections<br />Colt<br />Equinix<br />IBM BlueFringe |
+| Washington DC 2 | British Telecom<br />CenturyLink Dynamic Connections<br />Colt<br />Equinix<br />IBM BlueFringe |
 | Washington DC 4 | IBM Power Virtual Server |
 {: caption="Table 2. Direct Link Connect by Location" caption-side="left"}
 {: #simpletabtable2}
