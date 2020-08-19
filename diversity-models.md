@@ -6,7 +6,7 @@ lastupdated: "2020-05-28"
 
 keywords: diversity, redundancy, schematics, deployment, configuration, global routing, ECMP, Dual XCRs, model
 
-subcollection: direct-link
+subcollection: dl
 
 ---
 
