@@ -187,3 +187,4 @@ The table gives details about the {{site.data.keyword.cloud_notm}} data centers 
 | London 4 | DC(AZ1) | ARK | A103 | A57 Cody Technology Park Old, Victor Way, Farnborough |
 | London 5 | DC(AZ2) | Gyron |  | Maxted Cl, Hemel Hempstead  |
 | London 6 | DC(AZ3) | CyrusOne (fZenium) | LON1 | 12 Liverpool Rd, Trading Estate |
+| Paris 3 | PoP | Equinix | PA3 | 114 Rue Ambroise Croizat, Saint Denis |
