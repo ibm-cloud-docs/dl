@@ -13,6 +13,7 @@ Direct Link 2.0
     {: .topicgroup}
     Deployment considerations
         diversity-models.md
+        alternative-deployments.md
         layer-2-layer-3.md
         ecmp.md
 
