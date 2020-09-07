@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-08-21"
+lastupdated: "2020-08-05"
 
 keywords: order, provider, capabilities, Dedicated, cross-connect, locations, PoP, data center, data, center, pricing, Letter of Authorization, LOA,
 
@@ -49,8 +49,10 @@ To order {{site.data.keyword.dl_full}} Dedicated, follow these steps.
 
 1. Log in to your [{{site.data.keyword.cloud_notm}}](https://{DomainName}/){:external} account.
 1. Click Menu ![Menu icon](images/menu_icon.png) on the upper left, then click **Interconnectivity**.
-1. Click **Order {{site.data.keyword.dl_short}}**.
-1. Select the **{{site.data.keyword.dl_short}} Dedicated** option.
+1. Scroll to locate the Dedicated tile, then click **Order {{site.data.keyword.dl_short}}** to order.
+
+   Alternatively, you can click **Direct Link** in the left navigation pane to view the Direct Link page, which lists existing Direct Link instances. From this page, you can click **Order Direct Link** > **Direct Link Dedicated** tile.
+   {: tip}
 
    ![Choose {{site.data.keyword.dl_short}} Option](/images/dl_options.png)   
 
@@ -59,7 +61,7 @@ To order {{site.data.keyword.dl_full}} Dedicated, follow these steps.
    * Type a name for your {{site.data.keyword.dl_short}} Dedicated connection.
    * Choose a resource group to create the {{site.data.keyword.dl_short}} connection. Resource groups help manage and contain resources associated with an account. Select **Default** if you don't have other groups defined in the drop-down list.
 
-   For more information about resource groups, see [Best practices for organizing resources in a resource group](/docs/resources?topic=resources-bp_resourcegroups).
+   For more information about resource groups, see [Best practices for organizing resources in a resource group](/docs/account?topic=account-account_setup).
    {: note}
 
    * Choose a connection speed. The speeds supported for the {{site.data.keyword.dl_short}} Dedicated offering are 1 Gbps, 2 Gbps, 5 Gbps, and 10 Gbps.
@@ -176,15 +178,16 @@ The table gives details about the {{site.data.keyword.cloud_notm}} data centers 
 | Tokyo 4 | DC(AZ2) | Softbank | | Saitama |
 | Tokyo 5 | DC(AZ3) | NTT |  | Kawasaki Kangagawa |
 | **EMEA** |  |  |  |  |
-| Frankfurt 1 | PoP 1 | Digital Realty (fInterXion) | FRA01 | Hanauer Landstrasse 302 |
-| Frankfurt 2 | DC(AZ1) | CyrusOne (fZenium) | FRA1 | Leonhard - Heisswolf Str 4., Frankfurt am Main |
-| Frankfurt 3 | PoP 2 | Equinix| FRA6 | Larchenstrasse 110, Frankfurt Griesheim |
+| Amsterdam 1 & 2 | PoP | Equinix | AMS02 | Luttenbergweg 4, 1101 EC |
+| Frankfurt 1 | PoP 1 | Digital Realty (InterXion) | FRA01 | Hanauer Landstrasse 302 |
+| Frankfurt 2 | DC(AZ1) | CyrusOne (Zenium) | FRA1 | Leonhard - Heisswolf Str 4., Frankfurt am Main |
+| Frankfurt 3 | PoP 2 | Equinix | FRA6 | Larchenstrasse 110, Frankfurt Griesheim |
 | Frankfurt 4 | DC(AZ2) | E-Shelter | Frankfurt 1 | Eschborner Landstrasse 100, Building H |
-| Frankfurt 5 | DC(AZ3) | Digital Realty (fInterXion) | FRA05 | Weismüllerstraße 40 |
-| London 1 | PoP | Equinix (fTelecity) | LD8 | 6/7 Harbour Exchange E14 9GE |
+| Frankfurt 5 | DC(AZ3) | Digital Realty (InterXion) | FRA05 | Weismüllerstraße 40 |
+| London 1 | PoP | Equinix (Telecity) | LD8 | 6/7 Harbour Exchange E14 9GE |
 | London 2 | DC | Digital Realty | LHR13 | Fountain Court, Cox Lane, Suites 210 and 230 |
 | London 3 | PoP 2 | Equinix | LD5 | 8 Buckingham Ave |
 | London 4 | DC(AZ1) | ARK | A103 | A57 Cody Technology Park Old, Victor Way, Farnborough |
 | London 5 | DC(AZ2) | Gyron |  | Maxted Cl, Hemel Hempstead  |
-| London 6 | DC(AZ3) | CyrusOne (fZenium) | LON1 | 12 Liverpool Rd, Trading Estate |
+| London 6 | DC(AZ3) | CyrusOne (Zenium) | LON1 | 12 Liverpool Rd, Trading Estate |
 | Paris 3 | PoP | Equinix | PA3 | 114 Rue Ambroise Croizat, Saint Denis |

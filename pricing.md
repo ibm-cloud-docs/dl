@@ -32,10 +32,8 @@ subcollection: dl
 Pricing for {{site.data.keyword.dl_full}} (2.0) offerings is consistent for equivalent regions and bandwidth, as shown in the following monthly pricing table.
 {:shortdesc}
 
-Issues to be aware of:
-
-* {{site.data.keyword.dl_short}} pricing does NOT include any additional charges by service providers to enable connectivity to {{site.data.keyword.cloud_notm}}.  
-* There is no charge if you are participating in the {{site.data.keyword.dl_short}} Connect beta release.
+{{site.data.keyword.dl_short}} pricing does NOT include any additional charges by service providers to enable connectivity to {{site.data.keyword.cloud_notm}}.  
+{: important}
 
 ## Arranging for {{site.data.keyword.dl_short}} connectivity  
 {: #arranging-for-dl-conectivity}
