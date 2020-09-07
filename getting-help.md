@@ -34,4 +34,4 @@ subcollection: dl
 If you have problems or questions when you use {{site.data.keyword.dl_full}}, you can search for information or post your quetion on [Stack Overflow](https://stackoverflow.com/search?q=dl+ibm-cloud){: external} and tag your question with **direct-link** and **ibm-cloud**.
 {:shortdesc}
 
- You can also open an IBM Support case in the [{{site.data.keyword.cloud_notm}} console](https://cloud.ibm.com/unifiedsupport/cases/add){: external}. For more information about opening an IBM Support case, or about support levels and case severities, see [Contacting support](/docs/get-support?topic=get-support-getting-customer-support).
+ You can also open an IBM Support case in the [{{site.data.keyword.cloud_notm}} console](https://cloud.ibm.com/unifiedsupport/cases/add){: external}. For more information about opening an IBM Support case, or about support levels and case severities, see [Contacting support](/docs/get-support).

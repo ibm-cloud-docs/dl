@@ -52,7 +52,7 @@ subcollection: dl
 **Notes**:
 
 * All {{site.data.keyword.dl_short}} resources exist in a resource group. Creating a {{site.data.keyword.dl_short}} resource requires Viewer access to the selected resource group.
-* For information about assigning user roles in the console, see [Managing access to resources](/docs/iam?topic=iam-iammanidaccser#iammanidaccser).
+* For information about assigning user roles in the console, see [Managing access to resources](/docs/account?topic=account-assign-access-resources).
 
 ## Viewing {{site.data.keyword.dl_short}} resources in the Resource list
 {: #viewing-direct-link-resources}

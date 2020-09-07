@@ -47,7 +47,7 @@ For each VLAN-based virtual circuit, which you create with a Layer-2 partner int
 ## Considerations for Layer-3 connections
 {: #layer-3-networks}
 
-For Layer-3 connections, for each virtual circuit, your service provider establishes a BGP session between {{site.data.keyword.cloud_notm}} XCRs and the provider's edge routers. You do not need to configure BGP with {{site.data.keyword.cloud_notm}} for your on-premises router because your service provider manages the BGP configuration to {{site.data.keyword.cloud_notm}}.
+For Layer-3 connections, for each virtual circuit, your service provider establishes a BGP session between {{site.data.keyword.cloud_notm}} XCRs and the provider's edge routers. You do not need to configure BGP with {{site.data.keyword.cloud_notm}} for your on-premises router because your service provider manages the BGP configuration to {{site.data.keyword.cloud_notm}}. 
 
 When you order {{site.data.keyword.dl_short}} Connect via the IBM Cloud console, you need to populate the Layer-3 providers ASN for the BGP session, not your customer ASN.
 {: important}
