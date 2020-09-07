@@ -49,7 +49,7 @@ Currrently, two types of connections are available:
    * NAT
    * Tunneling for BYOIP
 
-* **{{site.data.keyword.dl_short}} Connect** (Beta) - Offers private access to your IBM Cloud infrastructure and to any other clouds linked to your service provider through your local IBM Cloud data center. This option is perfect for creating multi-cloud connectivity in a single environment. IBM connects customers to the IBM Cloud private network, using a shared bandwidth topology. As with all {{site.data.keyword.dl_short}} products, you can add global routing that enables private network traffic to all IBM Cloud locations.
+* **{{site.data.keyword.dl_short}} Connect (Beta)** - Offers private access to your IBM Cloud infrastructure and to any other clouds linked to your service provider through your local IBM Cloud data center. This option is perfect for creating multi-cloud connectivity in a single environment. IBM connects customers to the IBM Cloud private network, using a shared bandwidth topology. As with all {{site.data.keyword.dl_short}} products, you can add global routing that enables private network traffic to all IBM Cloud locations.
 
 ## Use cases
 {: #use-cases}

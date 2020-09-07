@@ -33,7 +33,7 @@ subcollection: dl
 {: help}
 {: support}
 
-You can add a virtual connection when you create a {{site.data.keyword.dl_short}} gateway by using the **Network connections** option. You can also add a virtual connection to the gateway after provisioning the gateway.
+You can add a virtual connection when you create a {{site.data.keyword.dl_short}} gateway, or after provisioning the gateway.
 {: shortdesc}
 
 Make sure that there are no IP address conflicts between on-premises subnets and subnets on IBM Cloud for both VPC and classic infrastructure connections.
