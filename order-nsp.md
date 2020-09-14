@@ -178,7 +178,7 @@ The table gives details about the {{site.data.keyword.cloud_notm}} data centers 
 | Tokyo 4 | DC(AZ2) | Softbank | | Saitama |
 | Tokyo 5 | DC(AZ3) | NTT |  | Kawasaki Kangagawa |
 | **EMEA** |  |  |  |  |
-| Amsterdam 1 & 2 | PoP | Equinix | AMS02 | Luttenbergweg 4, 1101 EC |
+| Amsterdam 2 | PoP | Equinix | AMS02 | Luttenbergweg 4, 1101 EC |
 | Frankfurt 1 | PoP 1 | Digital Realty (InterXion) | FRA01 | Hanauer Landstrasse 302 |
 | Frankfurt 2 | DC(AZ1) | CyrusOne (Zenium) | FRA1 | Leonhard - Heisswolf Str 4., Frankfurt am Main |
 | Frankfurt 3 | PoP 2 | Equinix | FRA6 | Larchenstrasse 110, Frankfurt Griesheim |
