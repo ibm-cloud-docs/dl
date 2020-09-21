@@ -36,7 +36,7 @@ However, the result of using {{site.data.keyword.dl_short}} is to join customer 
 ## Protecting your sensitive data in {{site.data.keyword.dl_short}}
 {: #data-encryption}
 
-All data related to {site.data.keyword.dl_short}}'s configuration is not considered as sensitive data. The configuration data is encrypted at rest at the database level. No customer-managed keys are managed by the {{site.data.keyword.dl_short}} offering. Therefore, neither Key Protect nor Hyper Protect Crypto Services are used.
+All data related to {{site.data.keyword.dl_short}}'s configuration is not considered as sensitive data. The configuration data is encrypted at rest at the database level. No customer-managed keys are managed by the {{site.data.keyword.dl_short}} offering. Therefore, neither Key Protect nor Hyper Protect Crypto Services are used.
 
 ### About customer-managed keys
 {: #about-encryption}
