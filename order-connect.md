@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-08-18"
+lastupdated: "2020-09-15"
 
 keywords: order, provider, capabilities, Connect, cross-connect, locations, PoP, data center, pricing
 
@@ -30,16 +30,16 @@ subcollection: dl
 {:help: data-hd-content-type='help'}
 {:support: data-reuse='support'}
 
-# Ordering {{site.data.keyword.dl_full_notm}} Connect (Beta)
+# Ordering {{site.data.keyword.dl_full_notm}} Connect
 {: #how-to-order-ibm-cloud-dl-connect}
 {: help}
 {: support}
 
-The beta release of {{site.data.keyword.dl_full}} Connect is only available to allowlisted users. Contact your IBM Cloud Sales representative if you are interested in getting early access to this beta offering. After the {{site.data.keyword.dl_short}} Connect service is made generally available, you must upgrade to the standard paid plan to continue using instances that you created during the beta. Upgrade instructions will be provided to beta participants. Any instance that continues to use the beta plan for this service beyond 30 days after general availability is subject to deletion.
-{: beta}
-
 IBM Cloud highly recommends that a second, diverse direct link be established to prevent outages, whether unplanned, or planned due to maintenance. For more information, see [Models for diversity and redundancy](/docs/dl?topic=dl-models-for-diversity-and-redundancy-in-direct-link).
 {: important}
+
+The beta release of {{site.data.keyword.dl_full}} Connect is only available to allowlisted users. Contact your IBM Cloud Sales representative if you are interested in getting early access to this beta offering. After the {{site.data.keyword.dl_short}} Connect service is made generally available, you must upgrade to the standard paid plan to continue using instances that you created during the beta. Upgrade instructions will be provided to beta participants. Any instance that continues to use the beta plan for this service beyond 30 days after general availability is subject to deletion.
+{: beta}
 
 ## Ordering instructions
 {: #instructions-connect}
@@ -75,7 +75,6 @@ To order {{site.data.keyword.dl_full}} Connect, follow these steps.
 
 1. In the BGP and connections section, complete the following information:
 
-      * Select the port for the {{site.data.keyword.dl_short}} gateway.
       * Select a BGP peering subnet for the {{site.data.keyword.dl_short}} connection. There are two choices for BGP subnets:
          * Select **Auto-select IP** for IBM to assign an IP address from IP range, `169.254.0.0/16`.
          * Select **Manual-select IP** to specify two of your own IP addresses (in CIDR format) from the ranges `10.254.0.0/16`, `172.16.0.0/12`, `192.168.0.0/16`, `169.254.0.0/16`, or `Public` (a public IP address that you own). Manual-select is useful when trying to avoid conflicts with an existing subnet in use.
@@ -83,15 +82,10 @@ To order {{site.data.keyword.dl_full}} Connect, follow these steps.
          Make sure that any self-provided BGP addresses do not conflict with blocks that are used by IBM, or by resources external to your {{site.data.keyword.dl_short}} deployment.
          {: important}
 
-      * For BGP ASN, use either the default value of `64999` or select an ASN from the specified allowed ranges.
-
          **For Layer-3 IP VPN providers only**: You must specify the carrier's ASN, not your own. For a list of carrier interconnection types, see [Comparing Layer-2 and Layer-3 connections for {{site.data.keyword.dl_short}}](/docs/dl?topic=dl-comparing-layer-2-layer-3)
          {: important}
 
-         Allowed ASN ranges are:
-         * For a 2-byte range, enter a value between `1-64495` or the default `64999`.
-         * For a 2-byte or 4-byte range, enter a value between `131072-4199999999`.
-         * For a 4-byte range, enter a value between `4201000000-4201064511`.
+         Excluded ASNs: 64512, 64513, 65100, 65201-65234, 65402-65433, 65500, and 4201065000-4201065999.
 
          ![BGP section](/images/dl-bgp-connect.png)            
 
@@ -137,14 +131,16 @@ The following table lists {{site.data.keyword.dl_short}} Connect providers and l
 | Provider | Locations |
 |----|----|
 | At Tokyo | **APAC:** Osaka 1 |
-| British Telecom | **Americas:** Washington DC 2 |  
+| British Telecom | **Americas:** Washington DC 2<br />**EU:** London 3 |  
 | CenturyLink Dynamic Connections | **Americas:** Washington DC 2 |  
 | Colt | **Americas:** San Jose 2, Washington DC 2 |
 | Epsilon | **APAC:** Hong Kong 2 |
-| Equinix | **APAC:** Tokyo 3<br />**EU:** Frankfurt 3, London 3 <br />**Americas:** Chicago 1, Dallas 3, San Jose 2, Washington DC 2 |
-| IBM Power Virtual Server | **Americas:** Washington DC 4<br />**EU:** Frankfurt 4, Frankfurt 5, London 6 |
+| Equinix | **Americas:** Chicago 1, Dallas 3, San Jose 2, Washington DC 2<br />**APAC:** Tokyo 3<br />**EU:** Frankfurt 3, London 3 |
 | IBM BlueFringe | **Americas:** Dallas 3, Washington DC 2<br />**EU:** Frankfurt 3 |
-| Megaport | **Americas:**  Dallas 4<br />**APAC:** Osaka 1<br />**EU:** Amsterdam 2, London 3 (no diversity) |
+| IBM Global Network Peering Platform (GNPP) | **EU:** London 1, London 4 |
+| IBM Power Virtual Server | **Americas:** Washington DC 4<br />**EU:** Frankfurt 4, Frankfurt 5, London 6 |
+| PCCW | **Americas:** Miami 1<br />**APAC:** Sydney 5<br />**EU:** Frankfurt 5 |
+| Megaport | **Americas:**  Dallas 4, San Jose 2<br />**APAC:** Osaka 1<br />**EU:** Amsterdam 2, London 3 (no diversity) |
 {: class="simple-tab-table"}
 {: caption="Table 1. Direct Link Connect by Provider" caption-side="left"}
 {: #simpletabtable1}
@@ -157,15 +153,18 @@ The following table lists {{site.data.keyword.dl_short}} Connect providers and l
 | Chicago 1 | Equinix |
 | Dallas 3 | Equinix<br />IBM BlueFringe |
 | Dallas 4 | Megaport |
-| Frankfort 3 | Equinix<br />IBM BlueFringe |
-| Frankfort 4 | IBM Power Virtual Server |
-| Frankfort 5 | IBM Power Virtual Server |
+| Frankfurt 3 | Equinix<br />IBM BlueFringe |
+| Frankfurt 4 | IBM Power Virtual Server |
+| Frankfurt 5 | IBM Power Virtual Server<br />PCCW |
 | Hong Kong 2 | Epsilon |
-| London 3 | Equinix <br />Megaport (no diversity)|
-| London 3 (no diversity) | Megaport |
+| London 1 | IBM Global Network Peering Platform (GNPP) |
+| London 3 | British Telecom<br />Equinix<br />Megaport (no diversity) |
+| London 4 | Global NPP |
 | London 6 | IBM Power Virtual Server |
+| Miami 1 | PCCW |
 | Osaka  1 | At Tokyo<br />Megaport |
-| San Jose 2 | Colt<br />Equinix |
+| San Jose 2 | Colt<br />Equinix<br />Megaport |
+| Sydney 5 | PCCW |
 | Tokyo 3 | Equinix |
 | Washington DC 2 | British Telecom<br />CenturyLink Dynamic Connections<br />Colt<br />Equinix<br />IBM BlueFringe |
 | Washington DC 4 | IBM Power Virtual Server |
