@@ -55,8 +55,6 @@ To order {{site.data.keyword.dl_full}} Dedicated, follow these steps.
    Alternatively, you can click **Direct Link** in the left navigation pane to view the Direct Link page, which lists existing Direct Link instances. From this page, you can click **Order Direct Link** > **Direct Link Dedicated** tile.
    {: tip}
 
-   ![Choose {{site.data.keyword.dl_short}} Option](/images/dl_options.png)   
-
 1. Optionally, click **Open checklist** to review the ordering process (described in [Completing the connection](/docs/dl?topic=dl-how-to-order-ibm-cloud-dl-dedicated#complete-connection)).
 1. In the Configuration section, complete the following information:
    * Type a name for your {{site.data.keyword.dl_short}} Dedicated connection.
