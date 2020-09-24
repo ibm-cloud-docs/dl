@@ -7,6 +7,7 @@ Direct Link 2.0
     {: .navgroup id="learn"}
     getting-started.md
     about.md
+    migrating-from-beta.md
     dl-july-policy-change.md
     pricing.md
 
@@ -48,7 +49,7 @@ Direct Link 2.0
     {: .navgroup-end}
 
     {: .navgroup id="reference"}
-    [Direct Link 2.0 API reference](https://{DomainName}/apidocs/direct_link)
+    [Direct Link (2.0) API reference](https://{DomainName}/apidocs/direct_link)
     /dl-cli-plugin/dl-cli-plugin-dl-cli
     understanding-latency.md
     vrf-on-ibm-cloud.md
