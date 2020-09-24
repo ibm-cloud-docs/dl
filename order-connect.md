@@ -93,7 +93,7 @@ To order {{site.data.keyword.dl_full}} Connect, follow these steps:
       * **For Layer-3 IP VPN providers only**: You must specify the carrier's ASN, not your own. For a list of carrier interconnection types, see [Comparing Layer-2 and Layer-3 connections for {{site.data.keyword.dl_short}}](/docs/dl?topic=dl-comparing-layer-2-layer-3).
       * Excluded ASNs: 64512, 64513, 65100, 65201-65234, 65402-65433, 65500, and 4201065000-4201065999
 
-   ![BGP and connections section](/images/dl-bgp-connect.png)            
+      ![BGP and connections section](/images/dl-bgp-connect.png)            
 
    * Optionally, select the network connection to attach to the {{site.data.keyword.dl_short}} gateway then enter a connection name. To add multiple network connections to the {{site.data.keyword.dl_short}} gateway, click **Add connection +**. You can create one of the following connections:
 
