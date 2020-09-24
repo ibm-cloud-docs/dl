@@ -52,7 +52,6 @@ To order {{site.data.keyword.dl_short}} Connect, you must determine the location
 {:shortdesc}
 
 To order {{site.data.keyword.dl_full}} Connect, follow these steps:
-{:shortdesc}
 
 1. Log in to your [{{site.data.keyword.cloud_notm}}](https://{DomainName}/){:external} account.
 1. Click Menu ![Menu icon](images/menu_icon.png) on the upper left of the page, then click **Interconnectivity**.
@@ -87,7 +86,7 @@ To order {{site.data.keyword.dl_full}} Connect, follow these steps:
       * Select **Manual-select IP** to specify two of your own IP addresses (in CIDR format) from the ranges `10.254.0.0/16`, `172.16.0.0/12`, `192.168.0.0/16`, `169.254.0.0/16`, or `Public` (a public IP address that you own). Manual-select is useful when trying to avoid conflicts with an existing subnet in use.
 
       Make sure that any self-provided BGP addresses do not conflict with blocks that are used by IBM, or by resources external to your {{site.data.keyword.dl_short}} deployment.
-      {: important}
+      {:important}
 
       **For Layer-3 IP VPN providers only**: You must specify the carrier's ASN, not your own. For a list of carrier interconnection types, see [Comparing Layer-2 and Layer-3 connections for {{site.data.keyword.dl_short}}](/docs/dl?topic=dl-comparing-layer-2-layer-3).
 
