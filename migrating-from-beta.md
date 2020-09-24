@@ -34,13 +34,13 @@ subcollection: dl
 {: preview}
 
 To migrate Direct Link Connect gateways to a standard, paid plan before the 30-day window expires, enter the following command:
- 
+
 ```
-ibmcloud resource service-instance-update <gateway_name> --service-plan-id 3341e514-f13c-469b-800c-03c7e827fc7b
+ibmcloud resource service-instance-update GATEWAY_NAME --service-plan-id 3341e514-f13c-469b-800c-03c7e827fc7b
 ```
 {: pre}
 
-Where <gateway_name> is the name of your gateway. 
+Where `GATEWAY_NAME` is the name of your gateway. 
 
 Use the service plan ID as stated in the command.
 {: note}
