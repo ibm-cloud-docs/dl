@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2020
-lastupdated: "2020-09-23"
+lastupdated: "2020-09-24"
 
 keywords: migration, direct link connect, migrating from beta release, move to paid plan
 
@@ -34,16 +34,15 @@ subcollection: dl
 {: preview}
 
 To migrate Direct Link Connect gateways to a standard, paid plan before the 30-day window expires, enter the following command:
-
+ 
 ```
-ibmcloud resource service-instance-update ( NAME | ID ) [--service-plan-id SERVICE_PLAN_ID]
+ibmcloud resource service-instance-update <gateway_name> --service-plan-id 3341e514-f13c-469b-800c-03c7e827fc7b
 ```
 {: pre}
 
-For example:
+Where <gateway_name> is the name of your gateway. 
 
-```
-ibmcloud resource service-instance-update nwk-stdplan --service-plan-id 3341e514-f13c-469b-800c-03c7e827fc7b
-```
+Use the service plan ID as stated in the command.
+{: note}
 
 For information about opening an IBM Support case, or about support levels and ticket severities, see [Getting help and support](/docs/dl?topic=dl-getting-help-and-support).
