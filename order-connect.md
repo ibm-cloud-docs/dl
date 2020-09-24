@@ -42,7 +42,7 @@ IBM Cloud highly recommends that a second, diverse direct link be established to
 {: preview}
 
 ## Planning consideration
-{: #before-you-begin-dedicated}
+{: #before-you-begin-connect}
 
 All subnets of the VPC or classic network will be connected to the direct link. When creating VPCs, make sure to create the VPCs with non-overlapping prefixes and unique subnets. To ensure successful connectivity with the classic infrastructure, do not use IP addresses for your VPCs in the `10.0.0.0/14`, `10.200.0.0/14`, `10.198.0.0/15`, and `10.254.0.0/16` blocks.
 
