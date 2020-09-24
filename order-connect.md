@@ -55,8 +55,10 @@ To order {{site.data.keyword.dl_full}} Connect, follow these steps:
 {:shortdesc}
 
 1. Log in to your [{{site.data.keyword.cloud_notm}}](https://{DomainName}/){:external} account.
-1. Click Menu ![Menu icon](images/menu_icon.png) on the upper left, then click **Interconnectivity**.
+1. Click Menu ![Menu icon](images/menu_icon.png) on the upper left of the page, then click **Interconnectivity**.
 1. Scroll to locate the Connect tile, then click **Order {{site.data.keyword.dl_short}}**.
+
+   ![Ordering options](/images/dl_options.png)   
 
    Alternatively, you can click **Direct Link** in the left navigation pane to view the Direct Link page, which lists existing Direct Link instances. From this page, you can click **Order Direct Link** > **Direct Link Connect**.
    {: tip}
@@ -68,14 +70,12 @@ To order {{site.data.keyword.dl_full}} Connect, follow these steps:
 
       ![Configuration section](/images/dl-config-connect.png)   
 
-1. In the Location section, select a geography, followed by a market, type, site, and routing option.
+1. In the Location section, select a geography, followed by a market, type, site, and routing option. Then, select a provider and a connection speed. The {{site.data.keyword.dl_short}} Connect offering supports the following speeds: 50 Mbps, 100 Mbps, 200 Mbps, 500 Mbps, 1 Gbps, 2 Gbps, and 5 Gbps.
+   
+      ![Location section](/images/dl-location-connect.png)  
 
-      Local and global routing options are supported for {{site.data.keyword.dl_short}} Connect. When you select a routing option, the location details and reachable sites are shown.  
-      {:note}            
-
-      ![Location section](/images/dl-location-connect.png)   
-
-   * Choose a provider and then select a connection speed. The {{site.data.keyword.dl_short}} Connect offering supports the following speeds: 50 Mbps, 100 Mbps, 200 Mbps, 500 Mbps, 1 Gbps, 2 Gbps, and 5 Gbps.
+   Local and global routing options are supported for {{site.data.keyword.dl_short}} Connect. The routing option that you select determines the reachability of the resources in the selected location. If you select the **Global** routing option along with your location selections, the **Region** menu list shows all the regions that are globally available in the specific account. After selecting a region, you can select any VPC from the **Available connections** menu. If you select **Local** routing, then only the region that corresponds to the selected location is available. When selected, VPCs available in the local region for your account are shown.
+   {:note}          
 
 1. In the BGP and connections section, complete the following information:
 
@@ -103,9 +103,6 @@ To order {{site.data.keyword.dl_full}} Connect, follow these steps:
     You cannot request a connection to a network in another account when you create a gateway. However, you can request a connection to a network in another account after a gateway is provisioned. You also can create classic infrastructure and VPC connections after a gateway is created. To learn more, see [Adding virtual connections to a {{site.data.keyword.dl_short}} gateway](/docs/dl?topic=dl-add-virtual-connection).
     {:tip}
 
-    The routing option that you select determines the reachability of the resources in the selected location. If you select the **Global** routing option along with your location selections, the **Region** menu list shows all the regions that are globally available in the specific account. After selecting a region, you can select any VPC from the **Available connections** menu. If you select **Local** routing, then only the region that corresponds to the selected location is available. When selected, VPCs available in the local region for your account are shown.
-    {:note}
-
 1. An order summary shows pricing estimates for your review. Read and agree to the [**{{site.data.keyword.dl_short}} prerequisites**](/docs/dl?topic=dl-ibm-cloud-dl-prerequisites) and review Cloud Services [**Terms**](https://www.ibm.com/software/sla/sladb.nsf/sla/bm-8695-01). Then, click **Create** to complete your order.  
 
    If you want to add GB egress data to your estimate, click **Add to estimate** to calculate the cost. You can also click the **About** tab for links to {{site.data.keyword.dl_short}} pricing tables and other helpful resources.
@@ -116,7 +113,7 @@ After you create your {{site.data.keyword.dl_short}} order, the {{site.data.keyw
 ## Completing the connection
 {: #complete-connection-connect}
 
- To complete your connection, follow these steps:
+To complete your connection, follow these steps:
 
 1. Contact your network provider and negotiate connectivity to your on-premises or colocation.
 1. Create a request on the provider portal to order a virtual circuit. Reference the case ID of the {{site.data.keyword.dl_short}} Connect request as your Request ID or Authorization ID.      
