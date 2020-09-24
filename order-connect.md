@@ -111,12 +111,12 @@ To order {{site.data.keyword.dl_full}} Connect, follow these steps:
    If you want to add GB egress data to your estimate, click **Add to estimate** to calculate the cost. You can also click the **About** tab for links to {{site.data.keyword.dl_short}} pricing tables and other helpful resources.
    {:tip}
 
-Complete your connection using the following instructions.
+After you create your {{site.data.keyword.dl_short}} order, the {{site.data.keyword.dl_short}} dashboard indicates a **Provisioned** connection status.
 
 ## Completing the connection
 {: #complete-connection-connect}
 
-After you create your {{site.data.keyword.dl_short}} order, the {{site.data.keyword.dl_short}} dashboard indicates a **Provisioned** connection status. Next, follow these steps:
+ To complete your connection, follow these steps:
 
 1. Contact your network provider and negotiate connectivity to your on-premises or colocation.
 1. Create a request on the provider portal to order a virtual circuit. Reference the case ID of the {{site.data.keyword.dl_short}} Connect request as your Request ID or Authorization ID.      
