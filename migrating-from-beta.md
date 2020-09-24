@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2020
-lastupdated: "2020-07-30"
+lastupdated: "2020-09-23"
 
 keywords: migration, direct link connect, migrating from beta release, move to paid plan
 

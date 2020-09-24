@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-05-27"
+lastupdated: "2020-09-23"
 
 keywords: hybrid, solutions, features, benefits, port speed, cross-connect, use cases, latency, routing, options, colocation, interconnectivity
 

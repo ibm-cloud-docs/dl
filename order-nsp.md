@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-08-05"
+lastupdated: "2020-09-23"
 
 keywords: Dedicated, cross-connect
 

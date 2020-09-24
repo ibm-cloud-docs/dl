@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-09-15"
+lastupdated: "2020-09-23"
 
 keywords: Connect, cross-connect
 
@@ -117,7 +117,7 @@ Complete your connection using the following instructions.
 ## Completing the connection
 {: #complete-connection-connect}
 
-After you create your {{site.data.keyword.dl_short}} order, the {{site.data.keyword.dl_short}} dashboard indicates a **Provisioned** connection status. Next, follow these steps: 
+After you create your {{site.data.keyword.dl_short}} order, the {{site.data.keyword.dl_short}} dashboard indicates a **Provisioned** connection status. Next, follow these steps:
 
 1. Contact your network provider and negotiate connectivity to your on-premises or colocation.
 1. Create a request on the provider portal to order a virtual circuit. Reference the case ID of the {{site.data.keyword.dl_short}} Connect request as your Request ID or Authorization ID.      

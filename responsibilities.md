@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-06-24"
+lastupdated: "2020-09-23"
 
 ---
 
@@ -28,7 +28,7 @@ Review the following sections for the specific responsibilities for you and for 
 
 ## Incident and operations management
 {: #incident-and-ops}
- 
+
 Incident and operations management includes tasks such as monitoring, event management, high availability, problem determination, recovery, and full state backup and recovery.
 
 | Task | {{site.data.keyword.IBM_notm}} Responsibilities | Your Responsibilities |
@@ -43,7 +43,7 @@ Incident and operations management includes tasks such as monitoring, event mana
 
 ## Change management
 {: #change-management}
- 
+
 Change management includes tasks such as deployment, configuration, upgrades, patching, configuration changes, and deletion.
 
 | Task | {{site.data.keyword.IBM_notm}} Responsibilities | Your Responsibilities |
@@ -61,7 +61,7 @@ Identity and access management includes tasks such as authentication, authorizat
 
 | Task | {{site.data.keyword.IBM_notm}} Responsibilities | Your Responsibilities |
 |----------|-----------------------|--------|
-| Identity and access | {{site.data.keyword.IBM_notm}} provides the function to restrict access to resources through the IBM Cloud console and REST APIs.  | The Customer is responsible for managing access to resources through IBM Cloud Identity and Access Management (IAM). | 
+| Identity and access | {{site.data.keyword.IBM_notm}} provides the function to restrict access to resources through the IBM Cloud console and REST APIs.  | The Customer is responsible for managing access to resources through IBM Cloud Identity and Access Management (IAM). |
 {: caption="Table 3. Responsibilites for identity and access management" caption-side="top"}
 
 ## Security and regulation compliance
