@@ -4,7 +4,7 @@ copyright:
   years: 2020
 lastupdated: "2020-09-15"
 
-keywords: order, provider, capabilities, Connect, cross-connect, locations, PoP, data center, pricing
+keywords: Connect, cross-connect
 
 subcollection: dl
 
@@ -38,8 +38,13 @@ subcollection: dl
 IBM Cloud highly recommends that a second, diverse direct link be established to prevent outages, whether unplanned, or planned due to maintenance. For more information, see [Models for diversity and redundancy](/docs/dl?topic=dl-models-for-diversity-and-redundancy-in-direct-link).
 {: important}
 
-The beta release of {{site.data.keyword.dl_full}} Connect is only available to allowlisted users. Contact your IBM Cloud Sales representative if you are interested in getting early access to this beta offering. After the {{site.data.keyword.dl_short}} Connect service is made generally available, you must upgrade to the standard paid plan to continue using instances that you created during the beta. Upgrade instructions will be provided to beta participants. Any instance that continues to use the beta plan for this service beyond 30 days after general availability is subject to deletion.
-{: beta}
+23 September 2020: Direct Link Connect is a limited availability offering. If you participated in the beta release, you must migrate to a standard paid plan to continue using instances that you created during the beta. Any instances that continue to use the beta plan for this service beyond the 30 days notice of general availability are subject to deletion. For more information, see [Migrating Direct Link Connect gateways](/docs/dl?topic=dl-migration).
+{: preview}
+
+## Planning consideration
+{: #before-you-begin-dedicated}
+
+All subnets of the VPC or classic network will be connected to the direct link. When creating VPCs, make sure to create the VPCs with non-overlapping prefixes and unique subnets. To ensure successful connectivity with the classic infrastructure, do not use IP addresses for your VPCs in the `10.0.0.0/14`, `10.200.0.0/14`, `10.198.0.0/15`, and `10.254.0.0/16` blocks.
 
 ## Ordering instructions
 {: #instructions-connect}
@@ -47,14 +52,14 @@ The beta release of {{site.data.keyword.dl_full}} Connect is only available to a
 To order {{site.data.keyword.dl_short}} Connect, you must determine the location that connects to IBM Cloud, complete the required configuration information, then click **Create** to submit your order for processing.
 {:shortdesc}
 
-To order {{site.data.keyword.dl_full}} Connect, follow these steps.
+To order {{site.data.keyword.dl_full}} Connect, follow these steps:
 {:shortdesc}
 
 1. Log in to your [{{site.data.keyword.cloud_notm}}](https://{DomainName}/){:external} account.
 1. Click Menu ![Menu icon](images/menu_icon.png) on the upper left, then click **Interconnectivity**.
-1. Scroll to locate the Connect tile, then click **Order {{site.data.keyword.dl_short}}** to order.
+1. Scroll to locate the Connect tile, then click **Order {{site.data.keyword.dl_short}}**.
 
-   Alternatively, you can click **Direct Link** in the left navigation pane to view the Direct Link page, which lists existing Direct Link instances. From this page, you can click **Order Direct Link** > **Direct Link Connect** tile.
+   Alternatively, you can click **Direct Link** in the left navigation pane to view the Direct Link page, which lists existing Direct Link instances. From this page, you can click **Order Direct Link** > **Direct Link Connect**.
    {: tip}
 1. Optionally, click **Open checklist** to review the ordering process (also described in [Completing the connection](/docs/dl?topic=dl-how-to-order-ibm-cloud-dl-connect#complete-connection-connect)).
 1. In the Configuration section, complete the following information:
@@ -66,12 +71,12 @@ To order {{site.data.keyword.dl_full}} Connect, follow these steps.
 
 1. In the Location section, select a geography, followed by a market, type, site, and routing option.
 
-      Local and global routing options are supported for {{site.data.keyword.dl_short}} Connect. When you select a routing option, the location details with reachable sites are shown.  
+      Local and global routing options are supported for {{site.data.keyword.dl_short}} Connect. When you select a routing option, the location details and reachable sites are shown.  
       {:note}            
 
       ![Location section](/images/dl-location-connect.png)   
 
-   * Choose a provider and then select a connection speed. The speeds supported for the {{site.data.keyword.dl_short}} Connect offering are 50 Mbps, 100 Mbps, 200 Mbps, 500 Mbps, and 1 Gbps, 2 Gbps, and 5 Gbps.
+   * Choose a provider and then select a connection speed. The {{site.data.keyword.dl_short}} Connect offering supports the following speeds: 50 Mbps, 100 Mbps, 200 Mbps, 500 Mbps, 1 Gbps, 2 Gbps, and 5 Gbps.
 
 1. In the BGP and connections section, complete the following information:
 
@@ -96,11 +101,11 @@ To order {{site.data.keyword.dl_full}} Connect, follow these steps.
 
          ![Add connection section](/images/dl-conn-connect.png)   
 
-      You cannot request a connection to a network in another account when you create a gateway. However, you can request connection to a network in another account after a gateway is provisioned. You also can create classic infrastructure and VPC connections after a gateway is created. To learn more, see [Adding virtual connections to a {{site.data.keyword.dl_short}} gateway](/docs/dl?topic=dl-add-virtual-connection).
-      {:tip}
+    You cannot request a connection to a network in another account when you create a gateway. However, you can request a connection to a network in another account after a gateway is provisioned. You also can create classic infrastructure and VPC connections after a gateway is created. To learn more, see [Adding virtual connections to a {{site.data.keyword.dl_short}} gateway](/docs/dl?topic=dl-add-virtual-connection).
+    {:tip}
 
-      The routing option that you select determines the reachability of the resources in the selected location. If you select the **Global** routing option along with your location selections, the **Region** menu list shows all the regions that are globally available in the specific account. After selecting a region, you can select any VPC from the **Available connections** menu. If you select **Local** routing, then only the region that corresponds to the selected location is available. When selected, VPCs available in the local region for your account are shown.
-      {:note}
+    The routing option that you select determines the reachability of the resources in the selected location. If you select the **Global** routing option along with your location selections, the **Region** menu list shows all the regions that are globally available in the specific account. After selecting a region, you can select any VPC from the **Available connections** menu. If you select **Local** routing, then only the region that corresponds to the selected location is available. When selected, VPCs available in the local region for your account are shown.
+    {:note}
 
 1. An order summary shows pricing estimates for your review. Read and agree to the [**{{site.data.keyword.dl_short}} prerequisites**](/docs/dl?topic=dl-ibm-cloud-dl-prerequisites) and review Cloud Services [**Terms**](https://www.ibm.com/software/sla/sladb.nsf/sla/bm-8695-01). Then, click **Create** to complete your order.  
 
@@ -112,15 +117,11 @@ Complete your connection using the following instructions.
 ## Completing the connection
 {: #complete-connection-connect}
 
-After you create your {{site.data.keyword.dl_short}} order, the {{site.data.keyword.dl_short}} dashboard indicates a **Provisioned** connection status. You must then configure the BGP parameters on the Customer Edge Router (CER) for BGP session establishment. After this completes, the BGP status indicates `Established`.
+After you create your {{site.data.keyword.dl_short}} order, the {{site.data.keyword.dl_short}} dashboard indicates a **Provisioned** connection status. Next, follow these steps: 
 
-**Next steps**
-
-* Contact your network provider and negotiate connectivity to your on-premises or colocation.
-* Take note of the service key of the gateway, then create a request on the provider portal to order a virtual circuit. Reference the case ID of the {{site.data.keyword.dl_short}} Connect request as your Request ID or Authorization ID.
-
-   To locate the service key, navigate to the [{{site.data.keyword.dl_short}} dashboard](https://cloud.ibm.com/interconnectivity/direct-link), then click the Direct Link name in the table to show its details.
-   {: note}
+1. Contact your network provider and negotiate connectivity to your on-premises or colocation.
+1. Create a request on the provider portal to order a virtual circuit. Reference the case ID of the {{site.data.keyword.dl_short}} Connect request as your Request ID or Authorization ID.      
+1. Configure the BGP parameters on the Customer Edge Router (CER) for BGP session establishment. After this completes, the BGP status indicates `Established`.
 
 ## Providers and locations
 {: #connect-classic-locations}
@@ -134,13 +135,12 @@ The following table lists {{site.data.keyword.dl_short}} Connect providers and l
 | British Telecom | **Americas:** Washington DC 2<br />**EU:** London 3 |  
 | CenturyLink Dynamic Connections | **Americas:** Washington DC 2 |  
 | Colt | **Americas:** San Jose 2, Washington DC 2 |
-| Epsilon | **APAC:** Hong Kong 2 |
+| Epsilon | **APAC:** Hong Kong 2<br />**EU:** London 1 |
 | Equinix | **Americas:** Chicago 1, Dallas 3, San Jose 2, Washington DC 2<br />**APAC:** Tokyo 3<br />**EU:** Frankfurt 3, London 3 |
 | IBM BlueFringe | **Americas:** Dallas 3, Washington DC 2<br />**EU:** Frankfurt 3 |
 | IBM Global Network Peering Platform (GNPP) | **EU:** London 1, London 4 |
 | IBM Power Virtual Server | **Americas:** Washington DC 4<br />**EU:** Frankfurt 4, Frankfurt 5, London 6 |
 | PCCW | **Americas:** Miami 1<br />**APAC:** Sydney 5<br />**EU:** Frankfurt 5 |
-| Megaport | **Americas:**  Dallas 4, San Jose 2<br />**APAC:** Osaka 1<br />**EU:** Amsterdam 2, London 3 (no diversity) |
 {: class="simple-tab-table"}
 {: caption="Table 1. Direct Link Connect by Provider" caption-side="left"}
 {: #simpletabtable1}
@@ -149,21 +149,19 @@ The following table lists {{site.data.keyword.dl_short}} Connect providers and l
 
 | Location | Providers |
 |----|----|
-| Amsterdam 2 | Megaport |
 | Chicago 1 | Equinix |
 | Dallas 3 | Equinix<br />IBM BlueFringe |
-| Dallas 4 | Megaport |
 | Frankfurt 3 | Equinix<br />IBM BlueFringe |
 | Frankfurt 4 | IBM Power Virtual Server |
 | Frankfurt 5 | IBM Power Virtual Server<br />PCCW |
 | Hong Kong 2 | Epsilon |
-| London 1 | IBM Global Network Peering Platform (GNPP) |
-| London 3 | British Telecom<br />Equinix<br />Megaport (no diversity) |
+| London 1 | Epsilon<br />IBM Global Network Peering Platform (GNPP) |
+| London 3 | British Telecom<br />Equinix |
 | London 4 | Global NPP |
 | London 6 | IBM Power Virtual Server |
 | Miami 1 | PCCW |
-| Osaka  1 | At Tokyo<br />Megaport |
-| San Jose 2 | Colt<br />Equinix<br />Megaport |
+| Osaka  1 | At Tokyo |
+| San Jose 2 | Colt<br />Equinix |
 | Sydney 5 | PCCW |
 | Tokyo 3 | Equinix |
 | Washington DC 2 | British Telecom<br />CenturyLink Dynamic Connections<br />Colt<br />Equinix<br />IBM BlueFringe |

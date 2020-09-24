@@ -33,7 +33,7 @@ subcollection: dl
 {: help}
 {: support}
 
-You can add a virtual connection when you create a {{site.data.keyword.dl_short}} gateway, or after provisioning the gateway.
+You can add a virtual connection when you create a {{site.data.keyword.dl_short}} gateway, or after the gateway is provisioned.
 {: shortdesc}
 
 Make sure that there are no IP address conflicts between on-premises subnets and subnets on IBM Cloud for both VPC and classic infrastructure connections.
@@ -68,7 +68,7 @@ Follow these steps to connect networks owned by different accounts:
 2. On the Add connection page select **Request connection to a network in another account**.   
 3. Type the VPC CRN of the cross-account network.
 
-   To get the CRN of a VPC, click Menu ![Menu icon](../icons/icon_hamburger.svg) > **Resource list** from the {{site.data.keyword.cloud_notm}} console. Expand **VPC Infrastructure** to list your VPCs. Select a VPC and click the **Status** entry to view its details. Copy the CRN and paste it in the {{site.data.keyword.dl_short}} window.
+   To get the CRN of a VPC, click Menu ![Menu icon](/images/menu_icon.png) > **Resource list** from the {{site.data.keyword.cloud_notm}} console. Expand **VPC Infrastructure** to list your VPCs. Select a VPC and click the **Status** entry to view its details. Copy the CRN and paste it in the {{site.data.keyword.dl_short}} window.
    {: tip}
 
 4.  Type the name of the network connection, then click **Add**.

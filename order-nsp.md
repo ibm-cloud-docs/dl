@@ -4,7 +4,7 @@ copyright:
   years: 2020
 lastupdated: "2020-08-05"
 
-keywords: order, provider, capabilities, Dedicated, cross-connect, locations, PoP, data center, data, center, pricing, Letter of Authorization, LOA,
+keywords: Dedicated, cross-connect
 
 subcollection: dl
 
@@ -34,12 +34,13 @@ subcollection: dl
 {: support}
 
 To order {{site.data.keyword.dl_short}} Dedicated, you must determine the location connecting to IBM Cloud, complete the required configuration information, then click **Create** to submit your order.
+{:shortdesc}
 
-## Before you begin
+## Planning considerations
 {: #before-you-begin-dedicated}
 
-Determine the location connection to IBM Cloud by verifying your colocation provider's or service provider's capabilities to reach the Meet Me Room and cross-connect into IBM Cloud.
-{: important}
+* Before you begin, determine the location connection to IBM Cloud by verifying your colocation provider's or service provider's capabilities to reach the Meet Me Room and cross-connect into IBM Cloud.
+* All subnets of the VPC or classic network will be connected to the direct link. When creating VPCs, make sure to create the VPCs with non-overlapping prefixes and unique subnets. To ensure successful connectivity with the classic infrastructure, do not use IP addresses for your VPCs in the `10.0.0.0/14`, `10.200.0.0/14`, `10.198.0.0/15`, and `10.254.0.0/16` blocks.
 
 ## Ordering instructions
 {: #instructions-dedicated}
@@ -109,11 +110,11 @@ To order {{site.data.keyword.dl_full}} Dedicated, follow these steps.
 
       ![Add connection section](/images/dl-conn.png)   
 
-      You cannot request a connection to a network in another account when you create a gateway. However, you can request connection to a network in another account after a gateway is provisioned. You also can create classic infrastructure and VPC connections after a gateway is created. For more information, see [Adding virtual connections to a {{site.data.keyword.dl_short}} gateway](/docs/dl?topic=dl-add-virtual-connection).
-      {: tip}
+    You cannot request a connection to a network in another account when you create a gateway. However, you can request connection to a network in another account after a gateway is provisioned. You also can create classic infrastructure and VPC connections after a gateway is created. For more information, see [Adding virtual connections to a {{site.data.keyword.dl_short}} gateway](/docs/dl?topic=dl-add-virtual-connection).
+    {: tip}
 
-      The routing option that you select determines the reachability of the resources in the selected location. If you select the **Global** routing option along with your location selections, the **Region** menu list displays all the regions that are globally available in the specific account. After selecting a region, you can select any VPC from the **Available connections** menu. If you select **Local** routing, then only the region that corresponds to the selected location is available to select. When selected, the VPCs available in the local region for your account are shown.
-      {: note}
+    The routing option that you select determines the reachability of the resources in the selected location. If you select the **Global** routing option along with your location selections, the **Region** menu list displays all the regions that are globally available in the specific account. After selecting a region, you can select any VPC from the **Available connections** menu. If you select **Local** routing, then only the region that corresponds to the selected location is available to select. When selected, the VPCs available in the local region for your account are shown.
+    {: note}
 
 1. An order summary shows pricing estimates for your review. Read and agree to the [**{{site.data.keyword.dl_short}} prerequisites**](/docs/dl?topic=dl-ibm-cloud-dl-prerequisites) and review Cloud Services [**Terms**](https://www.ibm.com/software/sla/sladb.nsf/sla/bm-8695-01). Then, click **Create** to complete your order.  
 

@@ -56,12 +56,15 @@ Terminate a single-tenant, fiber-based, cross-connect into your own IBM Cloud Pr
 
 To get started using {{site.data.keyword.dl_full_notm}} Dedicated, follow these [instructions](/docs/dl?topic=dl-how-to-order-ibm-cloud-dl-dedicated) for ordering the service.
 
-## {{site.data.keyword.dl_short}} Connect (Beta)
+## {{site.data.keyword.dl_short}} Connect
 {: #get-started-with-direct-link-connect}
 
 Use a service provider to quickly establish and deliver connectivity to IBM Cloud locations. These Connect providers are already connected to the IBM Cloud network that uses multi-tenant, high capacity links (also known as network-to-network interfaces, or NNI).  
 
 To get started using {{site.data.keyword.dl_full_notm}} Connect, follow these [instructions](/docs/dl?topic=dl-how-to-order-ibm-cloud-dl-connect) for ordering the service.
+
+23 September 2020: Direct Link Connect is a limited availability offering. If you participated in the beta release, you must migrate to a standard paid plan to continue using instances that you created during the beta. Any instances that continue to use the beta plan for this service beyond the 30 days notice of general availability are subject to deletion. For more information, see [Migrating Direct Link Connect gateways](/docs/dl?topic=dl-migration).
+{: preview}
 
 ## Learn more
 {: #learn-more}

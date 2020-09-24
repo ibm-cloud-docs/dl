@@ -38,6 +38,7 @@ Incident and operations management includes tasks such as monitoring, event mana
 | Fulfillment| {{site.data.keyword.IBM_notm}} fulfills requests for {{site.data.keyword.dl_short}} connections and additional capacity based on use. | The Customer is responsible for monitoring service notifications for communications regarding maintenance operations. The Customer is also responsible for uploading the Completion notice from their service provider when Cross Connect is completed by the chosen service provider. |
 | Partnership | {{site.data.keyword.IBM_notm}} provides partner relationships with physical locations for {{site.data.keyword.dl_short}} interconnects. | The Customer is responsible for ordering connectivity services from appropriate partner.|
 | Performance | {{site.data.keyword.IBM_notm}} does not have a Service Level Agreement (SLA) today. A Customer can achieve 99.99% effectively with two or more direct links that are properly configured for failover by using BGP, but IBM cannot control that, or provide an SLA on it. | The Customer is responsible for opening tickets in the event of an outage to track performance. |
+| IP addressing | {{site.data.keyword.IBM_notm}} assigns the subnets to VPCs specified by the Customer. | The Customer is responsible for ensuring no IP  overlap on their on-premises subnet. |
 {: caption="Table 1. Responsibilites for incident and operations" caption-side="top"}
 
 ## Change management

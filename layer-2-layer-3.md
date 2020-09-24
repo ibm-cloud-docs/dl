@@ -4,7 +4,7 @@ copyright:
   years: 2018, 2019
 lastupdated: "2019-04-30"
 
-keywords: layer 2, layer 3, interconnect, partner, multi-cloud, other clouds, BGP, XCR
+keywords: layer 2, layer 3, interconnect, BGP, XCR
 
 subcollection: dl
 
@@ -49,7 +49,7 @@ For each VLAN-based virtual circuit, which you create with a Layer-2 partner int
 
 For Layer-3 connections, for each virtual circuit, your service provider establishes a BGP session between {{site.data.keyword.cloud_notm}} XCRs and the provider's edge routers. You do not need to configure BGP with {{site.data.keyword.cloud_notm}} for your on-premises router because your service provider manages the BGP configuration to {{site.data.keyword.cloud_notm}}. 
 
-When you order {{site.data.keyword.dl_short}} Connect via the IBM Cloud console, you need to populate the Layer-3 providers ASN for the BGP session, not your customer ASN.
+When you order {{site.data.keyword.dl_short}} Connect via the IBM Cloud console, you need to populate the Layer-3 provider's ASN for the BGP session, not your customer ASN.
 {: important}
 
 * Layer-3 IP VPN or AVPN networks enable "any-to-any" connectivity.

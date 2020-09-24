@@ -41,7 +41,7 @@ You can review answers to some frequently asked questions about {{site.data.keyw
 
 The new {{site.data.keyword.dl_short}} (2.0) offering differs from the {{site.data.keyword.dl_short}} classic infrastructure in that {{site.data.keyword.dl_short}} (2.0) is decoupled from classic IaaS, and exists only in the local cross-connect router (XCR). This design enables native connectivity to VPC and future capabilities without being forced into the classic IaaS network.
 
-The {{site.data.keyword.dl_short}} (2.0) offering allows connectivity to both classic IaaS as well as VPCs, whereas {{site.data.keyword.dlc_full_notm}} always connects to the IaaS network and a global VRF first. {{site.data.keyword.dlc_full_notm}} can only reach the VPC on a limited basis using a feature named Classic Access and by adding global routing to the direct link. See [Setting up access to your Classic Infrastructure from VPC](/docs/vpc?topic=vpc-setting-up-access-to-classic-infrastructure) for more information.
+The (2.0) offering allows connectivity to both classic IaaS as well as VPCs, whereas {{site.data.keyword.dlc_full_notm}} always connects to the IaaS network and a global VRF first. {{site.data.keyword.dlc_full_notm}} can only reach the VPC on a limited basis using a feature named Classic Access and by adding global routing to the direct link. See [Setting up access to your Classic Infrastructure from VPC](/docs/vpc?topic=vpc-setting-up-access-to-classic-infrastructure) for more information.
 
 For more information about the differences between the new {{site.data.keyword.dl_short}} (2.0) offering and the classic version, see [How do I know which {{site.data.keyword.dl_short}} solution to order?](/docs/direct-link?topic=direct-link-get-started-with-ibm-cloud-direct-link#get-started-solution-to-order).
 {: tip}
@@ -94,7 +94,7 @@ Any existing customers on classic IaaS can remain in classic IaaS and continue t
 {:faq}
 {: support}
 
-For the most up-to-date information, see [{{site.data.keyword.dl_short}} Dedicated](/docs/dl?topic=dl-how-to-order-ibm-cloud-dl-dedicated#dedicated-locations) and [{{site.data.keyword.dl_short}} Connect (Beta)](/docs/dl?topic=dl-how-to-order-ibm-cloud-dl-connect#connect-classic-locations) locations.
+For the most up-to-date information, see [{{site.data.keyword.dl_short}} Dedicated](/docs/dl?topic=dl-how-to-order-ibm-cloud-dl-dedicated#dedicated-locations) and [{{site.data.keyword.dl_short}} Connect](/docs/dl?topic=dl-how-to-order-ibm-cloud-dl-connect#connect-classic-locations) locations.
 
 ## How do I interconnect the classic infrastructure and VPC?
 {: #interconnect}
@@ -143,6 +143,12 @@ Unmetered billing has a higher port fee and no usage charges, which are ideal fo
 {:faq}
 
 For every {{site.data.keyword.dl_short}} customer, the {{site.data.keyword.cloud}} team assigns a small private subnet to build a point-to-point network between the {{site.data.keyword.cloud_notm}} cross-connect router (XCR) and your edge router (CER). Then, you and {{site.data.keyword.cloud_notm}} configure the Border Gateway Protocol (BGP) to exchange routes between the environments. Finally, {{site.data.keyword.cloud_notm}} places you into a VRF to allow for the implementation of non-unique routes to the private address space of your remote network.
+
+## If I order a direct link with local routing, is it possible to upgrade and switch to global routing later?
+{: #order-local-routing-then-switch}
+{:faq}
+
+Yes, you can change the routing option any time after creating the gateway. To do so, click **Actions** on the gateway's details page and then click **Edit**. This is not a disruptive change. The gateway is billed for global routing for the month, even if the change takes effect halfway through the month.
 
 ## When does billing begin with {{site.data.keyword.dl_short}}?
 {: #when-does-billing-begin-with-dl}

@@ -51,16 +51,23 @@ The term "customer VRF" is used to describe _multiple isolation_ network connect
 
 VRF allows multiple instances of a routing table to exist in a router and to work simultaneously. With VRF, each cloud tenant's VRF network is segmented within its routing table. This segmentation allows for IP address overlaps, and it doesn’t create any interaction or interference with other tenant VRFs. {{site.data.keyword.cloud_notm}} uses a large majority of the `10.0.0.0/8` network, which might overlap with many remote networks, for example networks deployed at customer data centers.
 
-Using VRF, {{site.data.keyword.cloud_notm}} tenants are allowed to use remote IP addresses that normally would not be allowed to overlap in the Global table. IBM still reserves the following RFC 1918, link-local addresses, and multicast addresses, which are not routable from this VRF service:
+Using VRF, {{site.data.keyword.cloud_notm}} tenants are allowed to use remote IP addresses that normally would not be allowed to overlap in the Global table. When accessing VPC only, IBM still reserves the following RFC 1918, link-local addresses, and multicast addresses, which are not routable from this VRF service:
 
-* `10.0.0.0/14`
-* `10.200.0.0/14`
-* `10.198.0.0/15`
-* `169.254.0.0/16`
-* `224.0.0.0/4`
-* `166.9.0.0/16`(used by the private endpoint service)
-* Any IP ranges assigned to your VLANs on the IBM platform.
+   * 169.254.0.0/16
+   * 224.0.0.0/4
+   * 166.9.0.0/16( used by the private endpoint service)
+   * Any IP ranges assigned to your VLANs on the IBM platform.
 
+The following ranges are now available with {{site.data.keyword.cloud_notm}} Direct Link 2.0 and VPC Gen 2 only:
+
+   * 10.0.0.0/14
+   * 10.200.0.0/14
+   * 10.198.0.0/15
+
+IBM is moving forward with a next-generation Cloud deployment to enable Virtual Private Cloud (VPC) in our availability zones (AZs). This new VPC capability enables Bring-Your-Own-IP (BYoIP) in the VPC-enabled AZs, which are located in Dallas, Washington DC, London, Frankfurt, Tokyo, and Sydney.
+
+For example, each tenant on the backbone who uses VRF can have only one customer VRF per {{site.data.keyword.dl_short}}, which provides connectivity among all the tenant’s servers, regardless of location. However, an {{site.data.keyword.cloud_notm}} tenant might have more than one {{site.data.keyword.dl_short}} account that feeds into a single cross-connect router.
+{: note}
 IBM is moving forward with a next-generation Cloud deployment to enable Virtual Private Cloud (VPC) in our availability zones (AZs). This new VPC capability enables Bring-Your-Own-IP (BYoIP) in the VPC-enabled AZs, which are located in Dallas, Washington DC, London, Frankfurt, Tokyo, and Sydney.
 
 For example, each tenant on the backbone who uses VRF can have only one customer VRF per {{site.data.keyword.dl_short}}, which provides connectivity among all the tenant’s servers, regardless of location. However, an {{site.data.keyword.cloud_notm}} tenant might have more than one {{site.data.keyword.dl_short}} account that feeds into a single cross-connect router.
