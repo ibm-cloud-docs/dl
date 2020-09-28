@@ -40,7 +40,7 @@ ibmcloud resource service-instance-update GATEWAY_NAME --service-plan-id 3341e51
 ```
 {: pre}
 
-Where `GATEWAY_NAME` is the name of your gateway. 
+Where `GATEWAY_NAME` is the name of your gateway.
 
 Use the service plan ID as stated in the command.
 {: note}
