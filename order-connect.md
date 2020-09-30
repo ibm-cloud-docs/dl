@@ -122,7 +122,7 @@ To complete your connection, follow these steps:
 1. Configure the BGP parameters on the Customer Edge Router (CER) for BGP session establishment. After this completes, the BGP status indicates `Established`.
 
 ## Providers and locations
-{: #connect-classic-locations}
+{: #connect-locations}
 
 The following table lists {{site.data.keyword.dl_short}} Connect providers and locations.
 {:shortdesc}

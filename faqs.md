@@ -90,7 +90,7 @@ Any existing customers on classic IaaS can remain in classic IaaS and continue t
 | us-east | us-east-1<br />us-east-2<br />us-east-3 | WDC-04<br />WDC06<br />WDC07 |
 
 ## Where are the  {{site.data.keyword.dl_short}} (2.0) offerings enabled?
-{: #classic-enabled-versus-dl}
+{: #offerings-enabled}
 {:faq}
 {: support}
 
