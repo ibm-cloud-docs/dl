@@ -161,7 +161,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect providers and l
 | London 4 | Global NPP |
 | London 6 | IBM Power Virtual Server |
 | Miami 1 | PCCW |
-| Osaka  1 | At Tokyo<br />PCCW |
+| Osaka 1 | At Tokyo<br />PCCW |
 | San Jose 2 | Colt<br />Equinix |
 | Sydney 3 | PCCW |
 | Sydney 5 | PCCW |
