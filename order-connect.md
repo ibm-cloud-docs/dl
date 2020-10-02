@@ -137,8 +137,11 @@ The following table lists {{site.data.keyword.dl_short}} Connect providers and l
 | Equinix | **Americas:** Chicago 1, Dallas 3, San Jose 2, Washington DC 2<br />**APAC:** Tokyo 3<br />**EU:** Frankfurt 3, London 3 |
 | IBM BlueFringe | **Americas:** Dallas 3, Washington DC 2<br />**EU:** Frankfurt 3 |
 | IBM Global Network Peering Platform (GNPP) | **EU:** London 1, London 4 |
-| IBM Power Virtual Server | **Americas:** Washington DC 4<br />**EU:** Frankfurt 4, Frankfurt 5, London 6 |
-| PCCW | **Americas:** Miami 1<br />**APAC:** Osaka 1, Sydney 3, Sydney 5<br />**EU:** Frankfurt 5 |
+| IBM Power Virtual Server | **Americas:** Washington DC 4<br />**APAC:** Tokyo 5<br />**EU:** Frankfurt 4, Frankfurt 5, London 6 |
+| NTT | **APAC:** Tokyo 4 |
+| SoftBank | **APAC:** Tokyo 5 |
+| PCCW | **Americas:** Miami 1<br />**APAC:** Osaka 1, Sydney 3, Sydney 5<br />**EU:** Frankfurt 5 | 
+| Tokai | **APAC:** Tokyo 3 |
 {: class="simple-tab-table"}
 {: caption="Table 1. Direct Link Connect by Provider" caption-side="left"}
 {: #simpletabtable1}
@@ -162,7 +165,9 @@ The following table lists {{site.data.keyword.dl_short}} Connect providers and l
 | San Jose 2 | Colt<br />Equinix |
 | Sydney 3 | PCCW |
 | Sydney 5 | PCCW |
-| Tokyo 3 | Equinix |
+| Tokyo 3 | Equinix<br />Tokai |
+| Tokyo 4 | NTT |
+| Tokyo 5 | IBM Power Virtual Server<br />Softbank |
 | Washington DC 2 | British Telecom<br />CenturyLink Dynamic Connections<br />Colt<br />Equinix<br />IBM BlueFringe |
 | Washington DC 4 | IBM Power Virtual Server |
 {: caption="Table 2. Direct Link Connect by Location" caption-side="left"}
