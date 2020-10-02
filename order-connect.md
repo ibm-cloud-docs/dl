@@ -137,7 +137,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect providers and l
 | Equinix | **Americas:** Chicago 1, Dallas 3, San Jose 2, Washington DC 2<br />**APAC:** Tokyo 3<br />**EU:** Frankfurt 3, London 3 |
 | IBM BlueFringe | **Americas:** Dallas 3, Washington DC 2<br />**EU:** Frankfurt 3 |
 | IBM Global Network Peering Platform (GNPP) | **EU:** London 1, London 4 |
-| IBM Power Virtual Server | **Americas:** Washington DC 4<br />**APAC:** Tokyo 4<br />**EU:** Frankfurt 4, Frankfurt 5, London 6 |
+| IBM Power Virtual Server | **Americas:** Dallas 13, Washington DC 4<br />**APAC:** Sydney 4, Sydney 5, Tokyo 4<br />**EU:** Frankfurt 4, Frankfurt 5, London 4, London 6 |
 | NTT | **APAC:** Tokyo 5 |
 | SoftBank | **APAC:** Tokyo 4 |
 | PCCW | **Americas:** Miami 1<br />**APAC:** Osaka 1, Sydney 3, Sydney 5<br />**EU:** Frankfurt 5 |
@@ -152,19 +152,21 @@ The following table lists {{site.data.keyword.dl_short}} Connect providers and l
 |----|----|
 | Chicago 1 | Equinix |
 | Dallas 3 | Equinix<br />IBM BlueFringe |
+| Dallas 13 | IBM Power Virtual Server |
 | Frankfurt 3 | Equinix<br />IBM BlueFringe |
 | Frankfurt 4 | IBM Power Virtual Server |
 | Frankfurt 5 | IBM Power Virtual Server<br />PCCW |
 | Hong Kong 2 | Epsilon |
 | London 1 | Epsilon<br />IBM Global Network Peering Platform (GNPP) |
 | London 3 | British Telecom<br />Equinix |
-| London 4 | Global NPP |
+| London 4 | Global NPP<br />IBM Power Virtual Server |
 | London 6 | IBM Power Virtual Server |
 | Miami 1 | PCCW |
 | Osaka 1 | At Tokyo<br />PCCW |
 | San Jose 2 | Colt<br />Equinix |
 | Sydney 3 | PCCW |
-| Sydney 5 | PCCW |
+| Sydney 4 | IBM Power Virtual Server |
+| Sydney 5 | IBM Power Virtual Server<br />PCCW |
 | Tokyo 3 | Equinix<br />Tokai |
 | Tokyo 4 | IBM Power Virtual Server<br />Softbank |
 | Tokyo 5 | NTT |
