@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-10-02"
+lastupdated: "2020-10-15"
 
 keywords: Connect, cross-connect
 
@@ -130,13 +130,14 @@ The following table lists {{site.data.keyword.dl_short}} Connect providers and l
 | Provider | Locations |
 |----|----|
 | At Tokyo | **APAC:** Osaka 1 |
+| AT&T NetBond for Cloud | **Americas:** Washington DC 2 |
 | British Telecom | **Americas:** Washington DC 2<br />**EU:** London 3 |  
 | CenturyLink Dynamic Connections | **Americas:** Washington DC 2 |  
 | Colt | **Americas:** San Jose 2, Washington DC 2 |
 | Epsilon | **APAC:** Hong Kong 2<br />**EU:** London 1 |
 | Equinix | **Americas:** Chicago 1, Dallas 3, San Jose 2, Washington DC 2<br />**APAC:** Tokyo 3<br />**EU:** Frankfurt 3, London 3 |
 | IBM BlueFringe | **Americas:** Dallas 3, Washington DC 2<br />**EU:** Frankfurt 3 |
-| IBM Global Network Peering Platform (GNPP) | **EU:** London 1, London 4 |
+| IBM Global Network Peering Platform (GNPP) | **EU:** London 1, London 3, London 4 |
 | IBM Power Virtual Server | **Americas:** Dallas 13, Washington DC 4<br />**APAC:** Sydney 4, Sydney 5, Tokyo 4<br />**EU:** Frankfurt 4, Frankfurt 5, London 4, London 6 |
 | NTT | **APAC:** Tokyo 5 |
 | SoftBank | **APAC:** Tokyo 4 |
@@ -158,11 +159,11 @@ The following table lists {{site.data.keyword.dl_short}} Connect providers and l
 | Frankfurt 5 | IBM Power Virtual Server<br />PCCW |
 | Hong Kong 2 | Epsilon |
 | London 1 | Epsilon<br />IBM Global Network Peering Platform (GNPP) |
-| London 3 | British Telecom<br />Equinix |
-| London 4 | Global NPP<br />IBM Power Virtual Server |
+| London 3 | British Telecom<br />Equinix<br />IBM Global Network Peering Platform (GNPP)|
+| London 4 | IBM Global Network Peering Platform (GNPP)<br />IBM Power Virtual Server |
 | London 6 | IBM Power Virtual Server |
 | Miami 1 | PCCW |
-| Osaka 1 | At Tokyo<br />PCCW |
+| Osaka  1 | At Tokyo<br />PCCW |
 | San Jose 2 | Colt<br />Equinix |
 | Sydney 3 | PCCW |
 | Sydney 4 | IBM Power Virtual Server |
@@ -170,7 +171,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect providers and l
 | Tokyo 3 | Equinix<br />Tokai |
 | Tokyo 4 | IBM Power Virtual Server<br />Softbank |
 | Tokyo 5 | NTT |
-| Washington DC 2 | British Telecom<br />CenturyLink Dynamic Connections<br />Colt<br />Equinix<br />IBM BlueFringe |
+| Washington DC 2 | AT&T NetBond for Cloud<br />British Telecom<br />CenturyLink Dynamic Connections<br />Colt<br />Equinix<br />IBM BlueFringe |
 | Washington DC 4 | IBM Power Virtual Server |
 {: caption="Table 2. Direct Link Connect by Location" caption-side="left"}
 {: #simpletabtable2}
