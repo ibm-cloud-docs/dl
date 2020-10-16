@@ -2,9 +2,9 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-07-02"
+lastupdated: "2020-10-15"
 
-keywords: high availability, disaster recovery, direct link
+keywords:  
 
 subcollection: dl
 
@@ -48,9 +48,9 @@ In the event of a catastrophic failure impacting an entire region, and the {{sit
 ### Backing up {{site.data.keyword.dl_short}} gateways for disaster recovery
 {: #disaster-recovery-dl}
 
-You must be prepared to recreate your {{site.data.keyword.dl_short}} gateways and connections. This section helps you ensure you have all the data needed.
+You must be prepared to recreate your {{site.data.keyword.dl_short}} gateways and connections. This section helps you ensure that you have all the data needed.
 
-{{site.data.keyword.dl_short}} backups are stored in the us-south and eu-du regions.
+{{site.data.keyword.dl_short}} backups are cross-regionally durable. Backups are stored across multiple regions, and are restorable to other regions.
 {: note}
 
 Preserve a list of all your direct links and their connections. To do so, perform the following procedure:
@@ -62,6 +62,5 @@ The following steps use the IBM Cloud CLI, but you can also use the {{site.data.
 2. For each gateway, use the `ibmcloud dl virtual-connections GATEWAY_ID` command to list information about its connections. Save this output.
 
 For more information, see the [{{site.data.keyword.dl_short}} CLI reference](/docs/dl?topic=dl-cli-plugin-dl-cli).
-{: tip}
 
 Saving the information returned from these commands helps you recover from a failure quickly. In the event of a failure, use the saved information and run the `ibmcloud dl gateway-create` and `ibmcloud dl virtual-connection-create` commands to recreate your direct links and their connections.
