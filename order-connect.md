@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-10-15"
+lastupdated: "2020-10-20"
 
 keywords: Connect, cross-connect
 
@@ -142,6 +142,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect providers and l
 | NTT | **APAC:** Tokyo 5 |
 | SoftBank | **APAC:** Tokyo 4 |
 | PCCW | **Americas:** Miami 1<br />**APAC:** Osaka 1, Sydney 3, Sydney 5<br />**EU:** Frankfurt 5 |
+| Telia | **Americas:** Dallas 3 |
 | Tokai | **APAC:** Tokyo 3 |
 {: class="simple-tab-table"}
 {: caption="Table 1. Direct Link Connect by Provider" caption-side="left"}
@@ -152,7 +153,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect providers and l
 | Location | Providers |
 |----|----|
 | Chicago 1 | Equinix |
-| Dallas 3 | Equinix<br />IBM BlueFringe |
+| Dallas 3 | Equinix<br />IBM BlueFringe<br />Telia |
 | Dallas 13 | IBM Power Virtual Server |
 | Frankfurt 3 | Equinix<br />IBM BlueFringe |
 | Frankfurt 4 | IBM Power Virtual Server |
