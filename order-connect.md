@@ -2,9 +2,9 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-10-20"
+lastupdated: "2020-10-27"
 
-keywords: Connect, cross-connect
+keywords:
 
 subcollection: dl
 
@@ -44,6 +44,11 @@ subcollection: dl
 * IBM Cloud highly recommends that a second, diverse direct link be established to prevent outages, whether unplanned, or planned due to maintenance. For more information, see [Models for diversity and redundancy](/docs/dl?topic=dl-models-for-diversity-and-redundancy-in-direct-link).
 
 * All subnets of the VPC or classic network will be connected to the direct link. When creating VPCs, make sure to create the VPCs with non-overlapping prefixes and unique subnets. To ensure successful connectivity with the classic infrastructure, do not use IP addresses for your VPCs in the `10.0.0.0/14`, `10.200.0.0/14`, `10.198.0.0/15`, and `10.254.0.0/16` blocks.
+
+## Partner-specific instructions
+{: #instructions-partner}
+
+[AT&T NetBond](/docs/dl?topic=dl-netbond)
 
 ## Ordering instructions
 {: #instructions-connect}
@@ -135,7 +140,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect providers and l
 | CenturyLink Dynamic Connections | **Americas:** Washington DC 2 |  
 | Colt | **Americas:** San Jose 2, Washington DC 2 |
 | Epsilon | **APAC:** Hong Kong 2<br />**EU:** London 1 |
-| Equinix | **Americas:** Chicago 1, Dallas 3, San Jose 2, Washington DC 2<br />**APAC:** Tokyo 3<br />**EU:** Frankfurt 3, London 3 |
+| Equinix | **Americas:** Chicago 1, Dallas 3, San Jose 2, Washington DC 2<br />**APAC:** Osaka 1, Tokyo 3<br />**EU:** Frankfurt 3, London 3 |
 | IBM BlueFringe | **Americas:** Dallas 3, Washington DC 2<br />**EU:** Frankfurt 3 |
 | IBM Global Network Peering Platform (GNPP) | **EU:** London 1, London 3, London 4 |
 | IBM Power Virtual Server | **Americas:** Dallas 13, Washington DC 4<br />**APAC:** Sydney 4, Sydney 5, Tokyo 4<br />**EU:** Frankfurt 4, Frankfurt 5, London 4, London 6 |
@@ -164,7 +169,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect providers and l
 | London 4 | IBM Global Network Peering Platform (GNPP)<br />IBM Power Virtual Server |
 | London 6 | IBM Power Virtual Server |
 | Miami 1 | PCCW |
-| Osaka  1 | At Tokyo<br />PCCW |
+| Osaka  1 | At Tokyo<br />Equinix<br />PCCW |
 | San Jose 2 | Colt<br />Equinix |
 | Sydney 3 | PCCW |
 | Sydney 4 | IBM Power Virtual Server |
