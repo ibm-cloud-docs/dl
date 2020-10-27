@@ -56,7 +56,8 @@ Follow these steps to request a VLAN assignment from AT&T NetBond:
    * In the IBM Support case, note the following information:
 
       **Subject**:      
-      * DL 2.0 Connect manual implementation AT&T NetBond<br />
+      * DL 2.0 Connect manual implementation AT&T NetBond
+
       **Description**:
       * Route this ticket directly to the Special Network Services (SNS) queue for Direct Link 2.0 Connect implementation with AT&T NetBond.
       * Include the NetBond connection service key that was assigned by NetBond (as provided in Step 1).
