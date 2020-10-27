@@ -35,6 +35,11 @@ Direct Link 2.0
     {: .navgroup id="howto"}
     order-nsp.md
     order-connect.md
+
+    {: .topicgroup}
+    Partner-specific instructions
+          dl-netbond.md
+
     attaching_connection.md
     editing_gateway.md
     deleting_gateway.md
