@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-10-27"
+lastupdated: "2020-10-30"
 
 keywords:
 
@@ -137,7 +137,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect providers and l
 | At Tokyo | **APAC:** Osaka 1 |
 | AT&T NetBond for Cloud | **Americas:** Washington DC 2 |
 | British Telecom | **Americas:** Washington DC 2<br />**EU:** London 3 |  
-| CenturyLink Dynamic Connections | **Americas:** Washington DC 2 |  
+| CenturyLink Dynamic Connections | **Americas:** San Jose 2<br />Washington DC 2 |   
 | Colt | **Americas:** San Jose 2, Washington DC 2 |
 | Epsilon | **APAC:** Hong Kong 2<br />**EU:** London 1 |
 | Equinix | **Americas:** Chicago 1, Dallas 3, San Jose 2, Washington DC 2<br />**APAC:** Osaka 1, Tokyo 3<br />**EU:** Frankfurt 3, London 3 |
@@ -149,6 +149,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect providers and l
 | PCCW | **Americas:** Miami 1<br />**APAC:** Osaka 1, Sydney 3, Sydney 5<br />**EU:** Frankfurt 5 |
 | Telia | **Americas:** Dallas 3 |
 | Tokai | **APAC:** Tokyo 3 |
+| Vodafone | **EU:** Frankfurt 3 |
 {: class="simple-tab-table"}
 {: caption="Table 1. Direct Link Connect by Provider" caption-side="left"}
 {: #simpletabtable1}
@@ -160,7 +161,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect providers and l
 | Chicago 1 | Equinix |
 | Dallas 3 | Equinix<br />IBM BlueFringe<br />Telia |
 | Dallas 13 | IBM Power Virtual Server |
-| Frankfurt 3 | Equinix<br />IBM BlueFringe |
+| Frankfurt 3 | Equinix<br />IBM BlueFringe<br />Vodafone |
 | Frankfurt 4 | IBM Power Virtual Server |
 | Frankfurt 5 | IBM Power Virtual Server<br />PCCW |
 | Hong Kong 2 | Epsilon |
@@ -170,7 +171,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect providers and l
 | London 6 | IBM Power Virtual Server |
 | Miami 1 | PCCW |
 | Osaka  1 | At Tokyo<br />Equinix<br />PCCW |
-| San Jose 2 | Colt<br />Equinix |
+| San Jose 2 | CenturyLink Dynamic Connections<br />Colt<br />Equinix |
 | Sydney 3 | PCCW |
 | Sydney 4 | IBM Power Virtual Server |
 | Sydney 5 | IBM Power Virtual Server<br />PCCW |
