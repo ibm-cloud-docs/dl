@@ -19,9 +19,9 @@ Direct Link 2.0
         ecmp.md
 
     {: .topicgroup}
-    Videos & tutorials
-        [Video: IBM Cloud Networking Overview](https://www.youtube.com/watch?v=KMRAXSu6KJ8)
-        [Video: Direct Link for Hybrid Cloud](https://www.youtube.com/embed/ZRY2LPJREQw?rel=0)
+    Videos & tutorials    
+        video-hybrid-cloud.md
+        video-networking-overview.md
         /solution-tutorials/solution-tutorials-secure-network-enclosure
         /solution-tutorials/solution-tutorials-byoip
 
