@@ -19,7 +19,7 @@ keywords:
 {:video: .video}
 
 # Video - IBM Cloud networking overview
-{: #offering-video}
+{: #networking-overview-video}
 
 {{site.data.keyword.cloud}} offers networking solutions for the real world – exclusively designed to enhance your traffic, satisfy your users, and protect your sanity.
 {: shortdesc}
