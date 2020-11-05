@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-11-03"
+lastupdated: "2020-11-05"
 
 keywords:
 
@@ -150,6 +150,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect providers and l
 | Telia | **Americas:** Dallas 3 |
 | Tokai | **APAC:** Tokyo 3 |
 | Vodafone | **EU:** Frankfurt 3 |
+| Zenlayer | **APAC:** Tokyo 1 |
 {: class="simple-tab-table"}
 {: caption="Table 1. Direct Link Connect by Provider" caption-side="left"}
 {: #simpletabtable1}
@@ -175,6 +176,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect providers and l
 | Sydney 3 | PCCW |
 | Sydney 4 | IBM Power Virtual Server |
 | Sydney 5 | IBM Power Virtual Server<br />PCCW |
+| Tokyo 1 | Zenlayer |
 | Tokyo 3 | Equinix<br />Tokai |
 | Tokyo 4 | IBM Power Virtual Server<br />Softbank |
 | Tokyo 5 | NTT |
