@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-11-05"
+lastupdated: "2020-11-11"
 
 keywords:
 
@@ -150,7 +150,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect providers and l
 | Telia | **Americas:** Dallas 3 |
 | Tokai | **APAC:** Tokyo 3 |
 | Vodafone | **EU:** Frankfurt 3 |
-| Zenlayer | **APAC:** Tokyo 1 |
+| Zenlayer | **APAC:** Hong Kong 3, Tokyo 1 |
 {: class="simple-tab-table"}
 {: caption="Table 1. Direct Link Connect by Provider" caption-side="left"}
 {: #simpletabtable1}
@@ -166,6 +166,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect providers and l
 | Frankfurt 4 | IBM Power Virtual Server |
 | Frankfurt 5 | IBM Power Virtual Server<br />PCCW |
 | Hong Kong 2 | Epsilon |
+| Hong Kong 3 | Zenlayer |
 | London 1 | Epsilon<br />IBM Global Network Peering Platform (GNPP) |
 | London 3 | British Telecom<br />Equinix<br />IBM Global Network Peering Platform (GNPP)|
 | London 4 | IBM Global Network Peering Platform (GNPP)<br />IBM Power Virtual Server |
