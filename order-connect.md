@@ -35,9 +35,6 @@ subcollection: dl
 {: help}
 {: support}
 
-23 September 2020: Direct Link Connect is a limited availability offering. If you participated in the beta release, you must migrate to a standard paid plan to continue using instances that you created during the beta. Any instances that continue to use the beta plan for this service beyond the 30 days notice of general availability are subject to deletion. For more information, see [Migrating Direct Link Connect gateways](/docs/dl?topic=dl-migration).
-{: preview}
-
 ## Planning considerations
 {: #before-you-begin-connect}
 
