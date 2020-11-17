@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-11-11"
+lastupdated: "2020-11-17"
 
 keywords:
 
@@ -136,6 +136,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect providers and l
 | British Telecom | **Americas:** Washington DC 2<br />**EU:** London 3 |  
 | CenturyLink Dynamic Connections | **Americas:** San Jose 2, Washington DC 2 |   
 | Colt | **Americas:** San Jose 2, Washington DC 2 |
+| Console Connect by PCCW | **Americas:** Dallas 3 |
 | Epsilon | **Americas:** Washington DC 2<br />**APAC:** Hong Kong 2<br />**EU:** London 1 |
 | Equinix | **Americas:** Chicago 1, Dallas 3, San Jose 2, Washington DC 2<br />**APAC:** Osaka 1, Tokyo 3<br />**EU:** Frankfurt 3, London 3 |
 | IBM BlueFringe | **Americas:** Dallas 3, Washington DC 2<br />**EU:** Frankfurt 3 |
@@ -157,7 +158,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect providers and l
 | Location | Providers |
 |----|----|
 | Chicago 1 | Equinix |
-| Dallas 3 | Equinix<br />IBM BlueFringe<br />Telia |
+| Dallas 3 |  Console Connect by PCCW<br />Equinix<br />IBM BlueFringe<br />Telia |
 | Dallas 13 | IBM Power Virtual Server |
 | Frankfurt 3 | Equinix<br />IBM BlueFringe<br />Vodafone |
 | Frankfurt 4 | IBM Power Virtual Server |
