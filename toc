@@ -6,7 +6,7 @@ Direct Link 2.0
 
     {: .navgroup id="learn"}
     getting-started.md
-    about.md 
+    about.md
     dl-july-policy-change.md
     pricing.md
 
@@ -38,6 +38,7 @@ Direct Link 2.0
     {: .topicgroup}
     Partner-specific instructions
           dl-netbond.md
+          dl-equinix.md
 
     attaching_connection.md
     editing_gateway.md
