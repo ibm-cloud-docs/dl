@@ -48,8 +48,8 @@ To order {{site.data.keyword.dl_short}} Connect, you must determine the location
 ## Partner-specific instructions
 {: #instructions-partner}
 
-[AT&T NetBond](/docs/dl?topic=dl-netbond)
-[Equinix](/docs/dl?topic=dl-equinix)
+* [AT&T NetBond](/docs/dl?topic=dl-netbond)
+* [Equinix](/docs/dl?topic=dl-equinix)
 
 ## Ordering instructions
 {: #instructions-connect}
