@@ -63,5 +63,5 @@ The IBM Special Network Services (SNS) team receives your request and is able ap
 
 Accept the connection request by navigating to the IBM Cloud Direct Link page and clicking **Accept** from the Action menu. The virtual connection shows as **Provisioned** in the Equinix Fabric portal.
 
-The timeline for approval is within 24 hours.
+The timeline for approval is within 24 hours. If the 24-hour Service Level Agreement (SLA) is not acceptable, you can [create an IBM Support case](https://cloud.ibm.com/unifiedsupport/cases/form) and request that it be routed to the SNS team.
 {: note}
