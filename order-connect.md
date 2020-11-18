@@ -35,6 +35,9 @@ subcollection: dl
 {: help}
 {: support}
 
+To order {{site.data.keyword.dl_short}} Connect, you must determine the location connecting to IBM Cloud, complete the required configuration information, then click **Create** to submit your order.
+{:shortdesc}
+
 ## Planning considerations
 {: #before-you-begin-connect}
 
@@ -46,6 +49,7 @@ subcollection: dl
 {: #instructions-partner}
 
 [AT&T NetBond](/docs/dl?topic=dl-netbond)
+[Equinix](/docs/dl?topic=dl-equinix)
 
 ## Ordering instructions
 {: #instructions-connect}
