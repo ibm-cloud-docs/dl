@@ -51,21 +51,17 @@ After you create your Direct Link Connect order, follow these steps to create a 
 1. Click **Next**.
 
    ![Select Locations](/images/equinix-port.png "Select Locations")
-   
+
 1. On the Connections Details page, enter the connection information. For the IBM Cloud Account ID, enter the service key (for example, `114340xxx`) that was generated when you provisioned your direct link. This key can be found on the Direct Link details page.
-   
+
    ![Connection Details](/images/equinix-connection-details.png "Connection Details")
-   
+
 1. Select a **Connection Speed**, then click **Next**.   
 1. Review and click **Submit Your Order**.
 
-The IBM Special Network Services (SNS) team receives your request and is able approve the connection in the buyer-side portal.
-  
-You can view your newly created virtual connection for Direct Link by going to **Connections**. The connection will be in a pending provisioning state (**Pending Provider VLAN**).
+The IBM Special Network Services (SNS) team receives your request and is able approve the connection in the buyer-side portal. You can view your newly created virtual connection for Direct Link by going to **Connections**. The connection will be in a pending, provisioning state (**Pending Provider VLAN**).
 
-Accept the connection request by navigating to the IBM Cloud Direct Link page and clicking **Accept** from the Action menu.
-
-The virtual connection shows as **Provisioned** in the Equinix Fabric portal.
+Accept the connection request by navigating to the IBM Cloud Direct Link page and clicking **Accept** from the Action menu. The virtual connection shows as **Provisioned** in the Equinix Fabric portal.
 
 The timeline for approval is within 24 hours.
 {: note}
