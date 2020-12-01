@@ -2,9 +2,9 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-09-23"
+lastupdated: "2020-11-30"
 
-keywords: Dedicated, cross-connect
+keywords:  
 
 subcollection: dl
 
@@ -54,6 +54,8 @@ To order {{site.data.keyword.dl_full}} Dedicated, follow these steps.
 
    Alternatively, you can click **Direct Link** in the left navigation pane to view the Direct Link page, which lists existing Direct Link instances. From this page, you can click **Order Direct Link** > **Direct Link Dedicated** tile.
    {: tip}
+
+   ![Choose {{site.data.keyword.dl_short}} Option](/images/dl_options.png)   
 
 1. Optionally, click **Open checklist** to review the ordering process (described in [Completing the connection](/docs/dl?topic=dl-how-to-order-ibm-cloud-dl-dedicated#complete-connection)).
 1. In the Configuration section, complete the following information:
@@ -159,6 +161,9 @@ The table gives details about the {{site.data.keyword.cloud_notm}} data centers 
 | Dallas 13 | DC(AZ3) | CyrusOne | Carrollton - Frankford | 1649 W. Frankford Rd |
 | San Jose 2 | PoP | Equinix | SV111 | Great Oaks Blvd |
 | Seattle 2 | PoP | Digital Reality (The Westin Building) | WBX | 2001 6th Avenue |
+| Toronto 3 | PoP | IBM Cloud | TOR03 | 45 Parliament Street |
+| Toronto 4 | DC(AZ1) | IBM Cloud | TOR04 | 300 Bartor Road |
+| Toronto 5 | DC(AZ2) | IBM Cloud | TOR05 | 1 Century Place |
 | Washington DC 2 | PoP 1 | Equinix | DC2 | 21715 Filigree Ct |
 | Washington DC 4 | DC(AZ1) | Digital Realty | IAD38 | 44060 Digital Loudoun Plaza (Bldg K) |
 | Washington DC 5 | PoP 2 | Coresite | DC2 | 12098 Sunrise Valley Dr |
