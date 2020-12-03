@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-11-17"
+lastupdated: "2020-12-01"
 
 keywords:
 
@@ -42,7 +42,6 @@ To order {{site.data.keyword.dl_short}} Connect, you must determine the location
 {: #before-you-begin-connect}
 
 * IBM Cloud highly recommends that a second, diverse direct link be established to prevent outages, whether unplanned, or planned due to maintenance. For more information, see [Models for diversity and redundancy](/docs/dl?topic=dl-models-for-diversity-and-redundancy-in-direct-link).
-
 * All subnets of the VPC or classic network will be connected to the direct link. When creating VPCs, make sure to create the VPCs with non-overlapping prefixes and unique subnets. To ensure successful connectivity with the classic infrastructure, do not use IP addresses for your VPCs in the `10.0.0.0/14`, `10.200.0.0/14`, `10.198.0.0/15`, and `10.254.0.0/16` blocks.
 
 ## Partner-specific instructions
@@ -140,7 +139,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect providers and l
 | British Telecom | **Americas:** Washington DC 2<br />**EU:** London 3 |  
 | CenturyLink Dynamic Connections | **Americas:** San Jose 2, Washington DC 2 |   
 | Colt | **Americas:** San Jose 2, Washington DC 2 |
-| Console Connect by PCCW | **Americas:** Dallas 3 |
+| Console Connect by PCCW | **Americas:** Dallas 3, Miami 1<br />**APAC:** Osaka 1, Sydney 3, Sydney 5<br />**EU:** Frankfurt 5 |
 | Epsilon | **Americas:** Washington DC 2<br />**APAC:** Hong Kong 2<br />**EU:** London 1 |
 | Equinix | **Americas:** Chicago 1, Dallas 3, San Jose 2, Washington DC 2<br />**APAC:** Osaka 1, Tokyo 3<br />**EU:** Frankfurt 3, London 3 |
 | IBM BlueFringe | **Americas:** Dallas 3, Washington DC 2<br />**EU:** Frankfurt 3 |
@@ -148,7 +147,6 @@ The following table lists {{site.data.keyword.dl_short}} Connect providers and l
 | IBM Power Virtual Server | **Americas:** Dallas 13, Washington DC 4<br />**APAC:** Sydney 4, Sydney 5, Tokyo 4<br />**EU:** Frankfurt 4, Frankfurt 5, London 4, London 6 |
 | NTT | **APAC:** Tokyo 5 |
 | SoftBank | **APAC:** Tokyo 4 |
-| PCCW | **Americas:** Miami 1<br />**APAC:** Osaka 1, Sydney 3, Sydney 5<br />**EU:** Frankfurt 5 |
 | Telia | **Americas:** Dallas 3 |
 | Tokai | **APAC:** Tokyo 3 |
 | Vodafone | **EU:** Frankfurt 3 |
@@ -166,19 +164,19 @@ The following table lists {{site.data.keyword.dl_short}} Connect providers and l
 | Dallas 13 | IBM Power Virtual Server |
 | Frankfurt 3 | Equinix<br />IBM BlueFringe<br />Vodafone |
 | Frankfurt 4 | IBM Power Virtual Server |
-| Frankfurt 5 | IBM Power Virtual Server<br />PCCW |
+| Frankfurt 5 | Console Connect by PCCW<br />IBM Power Virtual Server |
 | Hong Kong 2 | Epsilon |
 | Hong Kong 3 | Zenlayer |
 | London 1 | Epsilon<br />IBM Global Network Peering Platform (GNPP) |
 | London 3 | British Telecom<br />Equinix<br />IBM Global Network Peering Platform (GNPP)|
 | London 4 | IBM Global Network Peering Platform (GNPP)<br />IBM Power Virtual Server |
 | London 6 | IBM Power Virtual Server |
-| Miami 1 | PCCW |
-| Osaka  1 | At Tokyo<br />Equinix<br />PCCW |
+| Miami 1 | Console Connect by PCCW |
+| Osaka  1 | At Tokyo<br />Console Connect by PCCW<br />Equinix |
 | San Jose 2 | CenturyLink Dynamic Connections<br />Colt<br />Equinix |
-| Sydney 3 | PCCW |
+| Sydney 3 | Console Connect by PCCW |
 | Sydney 4 | IBM Power Virtual Server |
-| Sydney 5 | IBM Power Virtual Server<br />PCCW |
+| Sydney 5 | Console Connect by PCCW<br />IBM Power Virtual Server |
 | Tokyo 1 | Zenlayer |
 | Tokyo 3 | Equinix<br />Tokai |
 | Tokyo 4 | IBM Power Virtual Server<br />Softbank |
