@@ -112,6 +112,9 @@ Classic access features of VPC are an option at VPC setup and can only be enable
 
 Yes, this is possible on {{site.data.keyword.dl_short}} (2.0). The VRF created is local to the XCR versus global on the classic infrastructure. Route targeting to VPC then enables {{site.data.keyword.dl_short}} (2.0) to be used with VPC natively using the UI (without touching the classic infrastructure).
 
+When routing on-premises subnets from the direct link through a VPC, you must create a route in the VPC routing table. For more information, see [Creating a route](/docs/vpc?topic=vpc-create-vpc-route).
+{: note}
+
 ## Are there documented limitations on {{site.data.keyword.dl_short}}?
 {: #direct-link-vpc-limitations}
 {:faq}

@@ -77,6 +77,11 @@ For example, each tenant on the backbone who uses VRF can have only one customer
 * Every tenant’s customer VRF is connected to the common shared services network to provide private reachability for those servers to use DNS, shared storage, monitoring, patching, and more.
 * The customer VRF is a connectivity service that provides isolation among tenants. Any additional controls that are needed within a tenancy must be provisioned separately by using a gateway, security groups, or host-based controls.
 
+## Routing consideration with VPC
+{: #routing-considerations-vpc}
+
+When routing on-premises subnets from the direct link through a VPC, you must create a route in the VPC routing table. For more information, see [Creating a route](/docs/vpc?topic=vpc-create-vpc-route).
+
 ## Benefits of moving to VRF
 {: #benefits-of-moving-to-vrf}
 
@@ -95,7 +100,7 @@ Compared to the older ACL model, there are a few minor tradeoffs to take into ac
 
 Many {{site.data.keyword.cloud_notm}} customers currently operate with a shared tenancy model on the {{site.data.keyword.cloud_notm}} network. During conversion, your shared tenancy is converted to use a _customer VRF_, most commonly with a new {{site.data.keyword.dl_short}} subscription.  
 
-For specific information about how to initiate a VRF conversion for your account, see the conversion instructions for your {{site.data.keyword.cloud_notm}} offering. 
+For specific information about how to initiate a VRF conversion for your account, see the conversion instructions for your {{site.data.keyword.cloud_notm}} offering.
 
 * [{{site.data.keyword.dl_short}} conversion instructions](/docs/dl?topic=dl-what-happens-during-the-account-conversion-process)
 * [VPC conversion instructions](/docs/vpc-on-classic?topic=vpc-on-classic-setting-up-access-to-your-classic-infrastructure-from-vpc#how-you-can-initiate-the-conversion)
