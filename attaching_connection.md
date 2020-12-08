@@ -4,7 +4,7 @@ copyright:
   years: 2020
 lastupdated: "2020-05-26"
 
-keywords: direct link, configure, connection
+keywords:  
 
 subcollection: dl
 
@@ -45,8 +45,8 @@ To add a connection to a provisioned gateway, follow these steps:
 
    You can create a connection to the logged-in account, or request a connection to a network within another account.
 
-2. Select a network connection, then choose your region from the menu list.
-3. Select the VPC network to attach to the gateway and enter a name for the connection. For connections to VPC networks in another {{site.data.keyword.cloud_notm}} account, enter the Cloud Resource Name (CRN) of the target VPC.
+2. Choose the type of network connection and enter a name for the connection.
+3. For VPC connections, select the region and the VPC network to attach to the gateway. For connections to VPC networks in another {{site.data.keyword.cloud_notm}} account, enter the Cloud Resource Name (CRN) of the target VPC.
 4. Click **Add** to attach the virtual connection to the gateway.
 
 After the virtual connection is added to the gateway, the VPC name is shown under the virtual connections section on the gateway's details page.
