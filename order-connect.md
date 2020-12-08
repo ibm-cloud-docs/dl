@@ -140,11 +140,13 @@ The following table lists {{site.data.keyword.dl_short}} Connect providers and l
 | CenturyLink Dynamic Connections | **Americas:** San Jose 2, Washington DC 2 |   
 | Colt | **Americas:** San Jose 2, Washington DC 2 |
 | Console Connect by PCCW | **Americas:** Dallas 3, Miami 1<br />**APAC:** Osaka 1, Sydney 3, Sydney 5<br />**EU:** Frankfurt 5 |
+| DE-CIX | **EU:** Frankfurt 3 |
 | Epsilon | **Americas:** Washington DC 2<br />**APAC:** Hong Kong 2<br />**EU:** London 1 |
 | Equinix | **Americas:** Chicago 1, Dallas 3, San Jose 2, Washington DC 2<br />**APAC:** Osaka 1, Tokyo 3<br />**EU:** Frankfurt 3, London 3 |
 | IBM BlueFringe | **Americas:** Dallas 3, Washington DC 2<br />**EU:** Frankfurt 3 |
-| IBM Global Network Peering Platform (GNPP) | **EU:** London 1, London 3, London 4 |
+| IBM Global Network Peering Platform (GNPP) | **EU:** Frankfurt 3, London 1, London 3, London 4 |
 | IBM Power Virtual Server | **Americas:** Dallas 13, Washington DC 4<br />**APAC:** Sydney 4, Sydney 5, Tokyo 4<br />**EU:** Frankfurt 4, Frankfurt 5, London 4, London 6 |
+| Intercloud | **EU:** Frankfurt 3 |
 | NTT | **APAC:** Tokyo 5 |
 | SoftBank | **APAC:** Tokyo 4 |
 | Telia | **Americas:** Dallas 3 |
@@ -162,14 +164,14 @@ The following table lists {{site.data.keyword.dl_short}} Connect providers and l
 | Chicago 1 | Equinix |
 | Dallas 3 |  Console Connect by PCCW<br />Equinix<br />IBM BlueFringe<br />Telia |
 | Dallas 13 | IBM Power Virtual Server |
-| Frankfurt 3 | Equinix<br />IBM BlueFringe<br />Vodafone |
+| Frankfurt 3 | DE-CIX<br />Equinix<br />IBM BlueFringe<br />IBM Global NPP<br />Intercloud<br />Vodafone |
 | Frankfurt 4 | IBM Power Virtual Server |
 | Frankfurt 5 | Console Connect by PCCW<br />IBM Power Virtual Server |
 | Hong Kong 2 | Epsilon |
 | Hong Kong 3 | Zenlayer |
-| London 1 | Epsilon<br />IBM Global Network Peering Platform (GNPP) |
-| London 3 | British Telecom<br />Equinix<br />IBM Global Network Peering Platform (GNPP)|
-| London 4 | IBM Global Network Peering Platform (GNPP)<br />IBM Power Virtual Server |
+| London 1 | Epsilon<br />IBM Global NPP |
+| London 3 | British Telecom<br />Equinix<br />IBM Global NPP|
+| London 4 | IBM Global NPP<br />IBM Power Virtual Server |
 | London 6 | IBM Power Virtual Server |
 | Miami 1 | Console Connect by PCCW |
 | Osaka  1 | At Tokyo<br />Console Connect by PCCW<br />Equinix |
