@@ -137,22 +137,23 @@ The following table lists {{site.data.keyword.dl_short}} Connect providers and l
 | At Tokyo | **APAC:** Osaka 1 |
 | AT&T NetBond for Cloud | **Americas:** Washington DC 2 |
 | British Telecom | **Americas:** Washington DC 2<br />**EU:** London 3 |  
-| CenturyLink Dynamic Connections | **Americas:** San Jose 2, Washington DC 2 |   
-| Colt | **Americas:** San Jose 2, Washington DC 2 |
-| Console Connect by PCCW | **Americas:** Dallas 3, Miami 1<br />**APAC:** Osaka 1, Sydney 3, Sydney 5<br />**EU:** Frankfurt 5 |
+| CenturyLink Dynamic Connections | **Americas:** Dallas 3, San Jose 2, Washington DC 2 |    
+| Console Connect by PCCW | **Americas:** Dallas 3 |
 | DE-CIX | **EU:** Frankfurt 3 |
-| Epsilon | **Americas:** Washington DC 2<br />**APAC:** Hong Kong 2<br />**EU:** London 1 |
+| Epsilon | **Americas:** Washington DC 2<br />**APAC:** Amsterdam 2<br />**EU:** London 1 |
 | Equinix | **Americas:** Chicago 1, Dallas 3, San Jose 2, Washington DC 2<br />**APAC:** Osaka 1, Tokyo 3<br />**EU:** Frankfurt 3, London 3 |
 | IBM BlueFringe | **Americas:** Dallas 3, Washington DC 2<br />**EU:** Frankfurt 3 |
-| IBM Global Network Peering Platform (GNPP) | **EU:** Frankfurt 3, London 1, London 3, London 4 |
-| IBM Power Virtual Server | **Americas:** Dallas 13, Washington DC 4<br />**APAC:** Sydney 4, Sydney 5, Tokyo 4<br />**EU:** Frankfurt 4, Frankfurt 5, London 4, London 6 |
+| IBM Global Network Peering Platform (GNPP) | **Americas:** Dallas 3, Washington DC 2<br />**EU:** Frankfurt 3, London 1, London 3, London 4 |
+| IBM Power Virtual Server | **Americas:** Dallas 12, Dallas 13, Washington DC 4<br />**APAC:** Sydney 4, Sydney 5, Tokyo 4<br />**EU:** Frankfurt 4, Frankfurt 5, London 4, London 6 |
 | Intercloud | **EU:** Frankfurt 3 |
+| IXReach | **Americas:** Washington DC 2 |
+| NextDC | **APAC:** Sydney 3 |
 | NTT | **APAC:** Tokyo 5 |
+| Neutrona | **Americas:** Dallas 3, Washington DC 2 |
+| PacketFabric | **Americas:** Dallas 4, Washington DC 2, San Jose 2 |
 | SoftBank | **APAC:** Tokyo 4 |
-| Telia | **Americas:** Dallas 3 |
 | Tokai | **APAC:** Tokyo 3 |
 | Vodafone | **EU:** Frankfurt 3 |
-| Zenlayer | **APAC:** Hong Kong 3, Tokyo 1 |
 {: class="simple-tab-table"}
 {: caption="Table 1. Direct Link Connect by Provider" caption-side="left"}
 {: #simpletabtable1}
@@ -161,29 +162,28 @@ The following table lists {{site.data.keyword.dl_short}} Connect providers and l
 
 | Location | Providers |
 |----|----|
+| Amsterdam 2 | Epsilon |
 | Chicago 1 | Equinix |
-| Dallas 3 |  Console Connect by PCCW<br />Equinix<br />IBM BlueFringe<br />Telia |
+| Dallas 3 |  CenturyLink Dynamic Connections<br />Console Connect by PCCW<br />Equinix<br />IBM BlueFringe<br />IBM GNPP<br />Neutrona |
+| Dallas 4 |  PacketFabric |
+| Dallas 12 | IBM Power Virtual Server |
 | Dallas 13 | IBM Power Virtual Server |
-| Frankfurt 3 | DE-CIX<br />Equinix<br />IBM BlueFringe<br />IBM Global NPP<br />Intercloud<br />Vodafone |
+| Frankfurt 3 | DE-CIX<br />Equinix<br />IBM BlueFringe<br />IBM GNPP<br />Intercloud<br />Vodafone |
 | Frankfurt 4 | IBM Power Virtual Server |
-| Frankfurt 5 | Console Connect by PCCW<br />IBM Power Virtual Server |
-| Hong Kong 2 | Epsilon |
-| Hong Kong 3 | Zenlayer |
-| London 1 | Epsilon<br />IBM Global NPP |
-| London 3 | British Telecom<br />Equinix<br />IBM Global NPP|
-| London 4 | IBM Global NPP<br />IBM Power Virtual Server |
+| Frankfurt 5 | IBM Power Virtual Server |
+| London 1 | Epsilon<br />IBM GNPP |
+| London 3 | British Telecom<br />Equinix<br />IBM GNPP|
+| London 4 | IBM GNPP<br />IBM Power Virtual Server |
 | London 6 | IBM Power Virtual Server |
-| Miami 1 | Console Connect by PCCW |
-| Osaka  1 | At Tokyo<br />Console Connect by PCCW<br />Equinix |
-| San Jose 2 | CenturyLink Dynamic Connections<br />Colt<br />Equinix |
-| Sydney 3 | Console Connect by PCCW |
+| Osaka  1 | At Tokyo<br />Equinix |
+| San Jose 2 | CenturyLink Dynamic Connections<br />Equinix<br />PacketFabric |
+| Sydney 3 | NextDC |
 | Sydney 4 | IBM Power Virtual Server |
-| Sydney 5 | Console Connect by PCCW<br />IBM Power Virtual Server |
-| Tokyo 1 | Zenlayer |
+| Sydney 5 | IBM Power Virtual Server |
 | Tokyo 3 | Equinix<br />Tokai |
 | Tokyo 4 | IBM Power Virtual Server<br />Softbank |
 | Tokyo 5 | NTT |
-| Washington DC 2 | AT&T NetBond for Cloud<br />British Telecom<br />CenturyLink Dynamic Connections<br />Colt<br />Epsilon<br />Equinix<br />IBM BlueFringe |
+| Washington DC 2 | AT&T NetBond for Cloud<br />British Telecom<br />CenturyLink Dynamic Connections<br />Epsilon<br />Equinix<br />IBM BlueFringe<br />IBM GNPP<br />IXReach<br />Neutrona<br />PacketFabric |
 | Washington DC 4 | IBM Power Virtual Server |
 {: caption="Table 2. Direct Link Connect by Location" caption-side="left"}
 {: #simpletabtable2}
