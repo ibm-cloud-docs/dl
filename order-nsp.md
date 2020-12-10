@@ -169,13 +169,14 @@ The table gives details about the {{site.data.keyword.cloud_notm}} data centers 
 | Washington DC 7 | DC(AZ3) | Sabey | Sabey Intergate.Ashburn | 21741 Red Rum Dr |
 | **APAC** |  |  |  |  |
 | Hong Kong 3 |	PoP |	Equinix |	HKG2 |	17/F Kerry Warehouse |
-| Osaka 1 | PoP | Equinix | OS1 | Nishi-Shinsaibashi Bldg., 1-26-1 Shin-machi, Osaka  |
+| Osaka 1 | PoP | Equinix | OS1 | Nishi-Shinsaibashi Bldg., 1-26-1 Shin-machi, Osaka |
 | Sydney 1 | DC(AZ1) | Global Switch | SYD01 | 400 Harris Street aka 273 Pyrmont St Ultimo |
 | Sydney 2 | PoP 1 | Equinix | SY3 | 47 Bourke Rd |
 | Sydney 3 | PoP 2 | NextDC | SYD03 | 4 Eden Park Drive, Marquarie Park |
 | Sydney 4 | DC(AZ2) | Digital Realty | SYD10 | 1-11 Templar Rd, Erskine Park |
 | Sydney 5 | DC(AZ3) | Equinix | SY4 | 200 Bourke Road |
-| Tokyo 1 | Pop | Equinix | TY2  |  |
+| Tokyo 1 | Pop | Equinix | TY2 | 7th Floor, 3-8-21 Higashi-Shinagawa |
+| Tokyo 2 | DC | At Toyko | TOK02 | Shin-Toyosu Cube, 6-2-12 Toyosu, Koto-ku |
 | Tokyo 3 | PoP 2 | Equinix | TY4 | Chiyoda-ku |
 | Tokyo 4 | DC(AZ2) | Softbank | | Saitama |
 | Tokyo 5 | DC(AZ3) | NTT |  | Kawasaki Kangagawa |
