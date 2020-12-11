@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-12-01"
+lastupdated: "2020-12-09"
 
 keywords:
 
@@ -37,6 +37,9 @@ subcollection: dl
 
 To order {{site.data.keyword.dl_short}} Connect, you must determine the location connecting to IBM Cloud, complete the required configuration information, then click **Create** to submit your order.
 {:shortdesc}
+
+If you participated in the Direct Link Connect beta program, you must migrate your Direct Link Connect gateways to a standard, paid plan. For more information, see [Migrating Direct Link gateways](/docs/dl?topic=dl-how-to-order-ibm-cloud-dl-connect#migration).
+{: note}
 
 ## Planning considerations
 {: #before-you-begin-connect}
@@ -190,3 +193,24 @@ The following table lists {{site.data.keyword.dl_short}} Connect providers and l
 {: tab-title="By Location"}
 {: tab-group="connect-simple"}
 {: class="simple-tab-table"}
+
+## Migrating Direct Link Connect gateways
+{: #migration}
+
+If you participated in the beta release, you must migrate to a standard, paid plan to continue using instances that you created during the beta. Any instances that continue to use the beta plan for this service are subject to deletion.  
+{: preview}
+
+To migrate Direct Link Connect gateways to a standard, paid plan, enter the following command:
+
+```
+ibmcloud resource service-instance-update ( NAME | ID ) [--service-plan-id SERVICE_PLAN_ID]
+```
+{: pre}
+
+For example:
+
+```
+ibmcloud resource service-instance-update nwk-stdplan --service-plan-id 3341e514-f13c-469b-800c-03c7e827fc7b
+```
+
+For information about opening an IBM Support case, or about support levels and ticket severities, see [Getting help and support](/docs/dl?topic=dl-getting-help-and-support).
