@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-12-09"
+lastupdated: "2020-01-05"
 
 keywords:
 
@@ -144,7 +144,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect providers and l
 | Console Connect by PCCW | **Americas:** Dallas 3 |
 | DE-CIX | **EU:** Frankfurt 3 |
 | Epsilon | **Americas:** Washington DC 2<br />**APAC:** Amsterdam 2<br />**EU:** London 1 |
-| Equinix | **Americas:** Chicago 1, Dallas 3, San Jose 2, Washington DC 2<br />**APAC:** Osaka 1, Tokyo 3<br />**EU:** Frankfurt 3, London 3 |
+| Equinix | **Americas:** Chicago 1, Dallas 3, San Jose 2, Toronto 3, Washington DC 2<br />**APAC:** Osaka 1, Tokyo 3<br />**EU:** Frankfurt 3, London 3 |
 | IBM BlueFringe | **Americas:** Dallas 3, Washington DC 2<br />**EU:** Frankfurt 3 |
 | IBM Global Network Peering Platform (GNPP) | **Americas:** Dallas 3, Washington DC 2<br />**EU:** Frankfurt 3, London 1, London 3, London 4 |
 | IBM Power Virtual Server | **Americas:** Dallas 12, Dallas 13, Washington DC 4<br />**APAC:** Sydney 4, Sydney 5, Tokyo 4<br />**EU:** Frankfurt 4, Frankfurt 5, London 4, London 6 |
@@ -186,6 +186,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect providers and l
 | Tokyo 3 | Equinix<br />Tokai |
 | Tokyo 4 | IBM Power Virtual Server<br />Softbank |
 | Tokyo 5 | NTT |
+| Toronto 3 | Equinix |
 | Washington DC 2 | AT&T NetBond for Cloud<br />British Telecom<br />CenturyLink Dynamic Connections<br />Epsilon<br />Equinix<br />IBM BlueFringe<br />IBM GNPP<br />IXReach<br />Neutrona<br />PacketFabric |
 | Washington DC 4 | IBM Power Virtual Server |
 {: caption="Table 2. Direct Link Connect by Location" caption-side="left"}
