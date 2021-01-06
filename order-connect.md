@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2021
-lastupdated: "2021-01-05"
+lastupdated: "2021-01-06"
 
 keywords:
 
@@ -140,7 +140,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect providers and l
 | At Tokyo | **APAC:** Osaka 1 |
 | AT&T NetBond for Cloud | **Americas:** Washington DC 2 |
 | British Telecom | **Americas:** Washington DC 2<br />**EU:** London 3 |  
-| CenturyLink Dynamic Connections | **Americas:** Dallas 3, San Jose 2, Washington DC 2 |    
+| CenturyLink Dynamic Connections | **Americas:** Dallas 3, San Jose 2, Toronto 2, Washington DC 2 |    
 | Console Connect by PCCW | **Americas:** Dallas 3 |
 | DE-CIX | **EU:** Frankfurt 3 |
 | Epsilon | **Americas:** Washington DC 2<br />**APAC:** Amsterdam 2<br />**EU:** London 1 |
@@ -186,6 +186,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect providers and l
 | Tokyo 3 | Equinix<br />Tokai |
 | Tokyo 4 | IBM Power Virtual Server<br />Softbank |
 | Tokyo 5 | NTT |
+| Toronto 2 | CenturyLink Dynamic Connections |
 | Toronto 3 | Equinix |
 | Washington DC 2 | AT&T NetBond for Cloud<br />British Telecom<br />CenturyLink Dynamic Connections<br />Epsilon<br />Equinix<br />IBM BlueFringe<br />IBM GNPP<br />IXReach<br />Neutrona<br />PacketFabric |
 | Washington DC 4 | IBM Power Virtual Server |
