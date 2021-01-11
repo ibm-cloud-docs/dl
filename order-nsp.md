@@ -99,6 +99,8 @@ To order {{site.data.keyword.dl_full}} Dedicated, follow these steps.
       * For a 2-byte or 4-byte range, enter a value between `131072-4199999999`.
       * For a 4-byte range, enter a value between `4201000000-4201064511`.
 
+      Excluded ASNs: 64512, 64513, 65100, 65201-65234, 65402-65433, 65500, and 4201065000-4201065999
+
       ![BGP section](/images/dl-bgp.png)   
 
    * Optionally, select the network connection to be attached to the {{site.data.keyword.dl_short}} gateway and enter a connection name. To add multiple network connections to the {{site.data.keyword.dl_short}} gateway, click **Add connection +**. You can create one of the following connections:
