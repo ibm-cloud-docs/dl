@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2021
-lastupdated: "2021-01-06"
+lastupdated: "2021-01-14"
 
 keywords:
 
@@ -158,6 +158,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect providers and l
 | SoftBank | **APAC:** Tokyo 4 |
 | Tokai | **APAC:** Tokyo 3 |
 | Vodafone | **EU:** Frankfurt 3 |
+| Zayo | **Americas:** Dallas 3 |
 {: class="simple-tab-table"}
 {: caption="Table 1. Direct Link Connect by Provider" caption-side="left"}
 {: #simpletabtable1}
@@ -168,7 +169,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect providers and l
 |----|----|
 | Amsterdam 2 | Epsilon |
 | Chicago 1 | Equinix |
-| Dallas 3 |  CenturyLink Dynamic Connections<br />Console Connect by PCCW<br />Equinix<br />IBM BlueFringe<br />IBM GNPP<br />Neutrona |
+| Dallas 3 |  CenturyLink Dynamic Connections<br />Console Connect by PCCW<br />Equinix<br />IBM BlueFringe<br />IBM GNPP<br />Neutrona<br />Zayo |
 | Dallas 4 |  PacketFabric |
 | Dallas 12 | IBM Power Virtual Server |
 | Dallas 13 | IBM Power Virtual Server |
