@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020
-lastupdated: "2020-10-27"
+  years: 2020, 2021
+lastupdated: "2021-01-28"
 
 keywords:
 
@@ -35,8 +35,10 @@ subcollection: dl
 
 After you create your Direct Link Connect order, follow these steps to create a connection for your Equinix service provider.
 
-1. Log in to the Equinix Cloud Exchange (ECX) Fabric portal.
+For Exchange on Classic instructions, see [Steps to order Direct Link Exchange on Classic for Equinix](/docs/direct-link?topic=direct-link-how-to-order-ibm-cloud-direct-link-exchange#provisioning-ibm-cloud-direct-link-exchange-for-equinix).
+{: note}
 
+1. Log in to the Equinix Cloud Exchange (ECX) Fabric portal.
    * Navigate to [https://ecxfabric.equinix.com](https://ecxfabric.equinix.com).
    * Enter your username and password.
    * Click **Sign In**.   
@@ -44,18 +46,13 @@ After you create your Direct Link Connect order, follow these steps to create a 
 1. In the **IBM Cloud Direct Link 2** profile, click **Create Connection**.
 
    ![Equinix ordering](/images/equinix-ibm-cloud-2.png "Equinix ordering")
-
 1. In the Origin section, click **Port**.
-1. Select a **Location**.
-1. Select a **Destination**.
-1. Click **Next**.
 
-   ![Select Locations](/images/equinix-port.png "Select Locations")
-
-1. On the Connections Details page, enter the connection information. For the IBM Cloud Account ID, enter the service key (for example, `114340xxx`) that was generated when you provisioned your direct link. This key can be found on the Direct Link details page.
-
-   ![Connection Details](/images/equinix-connection-details.png "Connection Details")
-
+   ![Select a Port, Location, and Destination](/images/equinix-port.png "Select a Port, Location, and Destination")   
+1. Select a **Location**, followed by a **Destination**. Then, click **Next**.
+1. On the Connection Details page, enter the connection information. For the IBM Cloud Account ID, enter the service key (for example, `114340xxx`) that was generated when you provisioned your direct link. This key can be found on the Direct Link details page.
+   
+   ![Connection Details](/images/equinix-connection-details.png "Connection Details")   
 1. Select a **Connection Speed**, then click **Next**.   
 1. Review and click **Submit Your Order**.
 
@@ -63,5 +60,5 @@ The IBM Special Network Services (SNS) team receives your request and is able ap
 
 Accept the connection request by navigating to the IBM Cloud Direct Link page and clicking **Accept** from the Action menu. The virtual connection shows as **Provisioned** in the Equinix Fabric portal.
 
-The timeline for approval is within 24 hours. If the 24-hour Service Level Agreement (SLA) is not acceptable, you can [create an IBM Support case](https://cloud.ibm.com/unifiedsupport/cases/form) and request that it be routed to the SNS team.
+The timeline for approval is within 24 hours. If the 24-hour Service Level Agreement (SLA) is not acceptable, you can [create an IBM Support case](https://cloud.ibm.com/unifiedsupport/cases/form) and request that it be routed to the SNS team. 
 {: note}
