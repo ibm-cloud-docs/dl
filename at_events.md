@@ -1,10 +1,10 @@
 ---
 
 copyright:
-  years: 2020
-lastupdated: "2020-05-18"
+  years: 2020, 2021
+lastupdated: "2021-02-01"
 
-keywords: IBM, activity tracker, LogDNA, event, security, {{site.data.keyword.dl_short}}
+keywords:
 
 subcollection: dl
 
@@ -26,7 +26,6 @@ As a security officer, auditor, or manager, you can use the Activity Tracker ser
 
 {{site.data.keyword.at_full_notm}} records user-initiated activities that change the state of a service in {{site.data.keyword.cloud_notm}}. You can use this service to investigate abnormal activity and critical actions and to comply with regulatory audit requirements. In addition, you can be alerted about actions as they happen. The events that are collected comply with the Cloud Auditing Data Federation (CADF) standard. For more information, see the [getting started tutorial for {{site.data.keyword.at_full_notm}}](/docs/Activity-Tracker-with-LogDNA?topic=Activity-Tracker-with-LogDNA-getting-started).
 
-
 ## Events for {{site.data.keyword.dl_short}} Dedicated
 {: #at_actions_dedicated}
 
@@ -38,11 +37,23 @@ As a security officer, auditor, or manager, you can use the Activity Tracker ser
 | `directlink.dedicated.gateway.create` | Dedicated gateway was created. |
 | `directlink.dedicated.gateway.delete` | Dedicated gateway was deleted. |
 | `directlink.dedicated.gateway.update` | Dedicated gateway was updated. |
+{: class="simple-tab-table"}
+{: caption="Table 1. List of {{site.data.keyword.dl_short}} Dedicated gateway events" caption-side="left"}
+{: #simpletabtable1}
+{: tab-title="Dedicated Gateway Events"}
+{: tab-group="connect-simple-1"} 
+
+| Action                      | Description |
+|-----------------------------|---------|
 | `directlink.dedicated.virtual-connection.create` | Dedicated virtual connection was created. |
 | `directlink.dedicated.virtual-connection.delete` | Dedicated virtual connection was deleted. |
 | `directlink.dedicated.virtual-connection.update` | Dedicated virtual connection was updated. |
 | `directlink.dedicated.completion-notice.create` | Dedicated completion notice was created. |
-{: caption="Table 1. List of {{site.data.keyword.dl_short}} Dedicated management events" caption-side="top"}
+{: caption="Table 2. List of {{site.data.keyword.dl_short}} Dedicated virtual connection events" caption-side="left"}
+{: #simpletabtable2}
+{: tab-title="Dedicated Virtual Connection Events"}
+{: tab-group="connect-simple-1"}
+{: class="simple-tab-table"}
 
 ### List of data events
 {: #at_data_events_dedicated}
@@ -51,10 +62,21 @@ As a security officer, auditor, or manager, you can use the Activity Tracker ser
 |-----------------------------|---------|
 | `directlink.dedicated.gateway.read` | Dedicated gateway was retrieved. |
 | `directlink.gateway.list` | Dedicated and Connect gateways were listed. |
+{: class="simple-tab-table"}
+{: caption="Table 3. List of {{site.data.keyword.dl_short}} Dedicated data events" caption-side="left"}
+{: #simpletabtable1}
+{: tab-title="Dedicated Gateway Events"}
+{: tab-group="connect-simple-2"}  
+
+| Action                      | Description |
+|-----------------------------|---------|
 | `directlink.dedicated.virtual-connection.read` | Dedicated virtual connection was retrieved. |
 | `directlink.dedicated.completion-notice.read` | Dedicated completion notice was retrieved. |
-{: caption="Table 2. List of {{site.data.keyword.dl_short}} Dedicated data events" caption-side="top"}
-
+{: class="simple-tab-table"}
+{: caption="Table 4. List of {{site.data.keyword.dl_short}} Dedicated Data Events" caption-side="left"}
+{: #simpletabtable2}
+{: tab-title="Dedicated Virtual Connection Events"}
+{: tab-group="connect-simple-2"}  
 
 ## Events for {{site.data.keyword.dl_short}} Connect
 {: #at_actions_connect}
@@ -67,11 +89,24 @@ As a security officer, auditor, or manager, you can use the Activity Tracker ser
 | `directlink.connect.gateway.create` | Connect gateway was retrieved. |
 | `directlink.connect.gateway.delete` | Connect gateway was deleted. |
 | `directlink.connect.gateway.update` | Connect gateway was updated. |
+| `directlink.connect.gateway.action` | Connect gateway action was applied. |
+{: class="simple-tab-table"}
+{: caption="Table 5. List of {{site.data.keyword.dl_short}} Connect Gateway Events" caption-side="left"}
+{: #simpletabtable1}
+{: tab-title="Connect Gateway Events"}
+{: tab-group="connect-simple-3"} 
+
+| Action                      | Description |
+|-----------------------------|---------|
 | `directlink.connect.virtual-connection.create` | Connect virtual connection was created. |
 | `directlink.connect.virtual-connection.delete` | Connect virtual connection was deleted. |
 | `directlink.connect.virtual-connection.update` | Connect virtual connection was updated. |
-| `directlink.connect.gateway.action` | Connect gateway action was applied. |
-{: caption="Table 3. List of {{site.data.keyword.dl_short}} Connect management events" caption-side="top"}
+{: class="simple-tab-table"}
+{: caption="Table 6. List of {{site.data.keyword.dl_short}} Connect Virtual Connection Events" caption-side="left"}
+{: #simpletabtable2}
+{: tab-title="Connect Virtual Connection Events"}
+{: tab-group="connect-simple-3"} 
+ 
 
 ### List of data events
 {: #at_data_events_connect}
@@ -80,9 +115,21 @@ As a security officer, auditor, or manager, you can use the Activity Tracker ser
 |-----------------------------|---------|
 | `directlink.connect.gateway.read` | Connect gateway was retrieved. |
 | `directlink.gateway.list`  | Dedicated and Connect gateways were listed. |
+{: class="simple-tab-table"}
+{: caption="Table 7. List of {{site.data.keyword.dl_short}} Connect Gateway Events" caption-side="left"}
+{: #simpletabtable1}
+{: tab-title="Connect Gateway Events"}
+{: tab-group="connect-simple-4"} 
+
+| Action                      | Description |
+|-----------------------------|---------|
 | `directlink.connect.virtual-connection.list` | Connect virtual connections were listed. |
 | `directlink.connect.virtual-connection.read` | Connect virtual connection was retrieved. |
-{: caption="Table 4. List of {{site.data.keyword.dl_short}} Connect data events" caption-side="top"}
+{: class="simple-tab-table"}
+{: caption="Table 8. List of {{site.data.keyword.dl_short}} Connect Virtual Connection Events" caption-side="left"}
+{: #simpletabtable2}
+{: tab-title="Connect Virtual Connection Events"}
+{: tab-group="connect-simple-4"} 
 
 ## Viewing events
 {: #at_ui}
@@ -94,20 +141,10 @@ To view these events, you must [provision an instance](/docs/services/Activity-T
 ## Analyzing events
 {: #at_events_iam_analyze}
 
-{{site.data.keyword.at_full_notm}} compiles all of your logs at an account level, which means that all of your services are shown in the same instance, per region. If you have an app that runs in Dallas and another app that runs in London, the events are found in the respective instances of Activity Tracker.
+Refer to the following information when analyzing events:
 
-**Prerequisite**: You must have an instance of {{site.data.keyword.at_full_notm}} in the region where you want to track events.
-
-1. Log in to your IBM Cloud account.
-1. In the IBM Cloud console navigation, click **Observability**.
-1. Select **Activity Tracker** from the **Observability** navigation.
-1. Click **View LogDNA**. When the dashboard loads, you'll see an overview of all of the activity that is covered by that instance of Activity Tracker with LogDNA. You can use the search operators to filter the events by tags, sources, apps, or levels. You can also search for specific events or jump to a specific timeframe.
-1. To see events for a specific application, select the app that you want to track from the **All Apps** list. To help meet compliance regulations, you can choose to retain your events or archive them into [IBM Cloud Object Storage](https://www.ibm.com/cloud/object-storage).
-
-Figure 1 shows an Activity Tracker instance with a sample Create Gateway event.
-
-   ![Create Gateway event](images/dl-create-gateway-event.png "View of your Activity Tracker instance with a sample Create Gateway event"){: caption="Figure 1: Create Gateway event" caption-side="bottom"}
-
-Figure 2 shows an Activity Tracker instance with a sample Update Gateway event.  `newValue` shows the new values and `initialValue` lists the ID of the resource being changed.
-
-   ![Update Gateway event](images/dl-update-gateway-event.png "View of your Activity Tracker instance with a sample Update Gateway event"){: caption="Figure 2: Update Gateway event" caption-side="bottom"}
+- Use the search bar to search for `action:directlink.connect.virtual-connection` to get the list of events related to Direct Link Connect, or `action:directlink.dedicated.virtual-connection`  to get events that are related to Direct Link Dedicated.
+- The target field identifies the Direct Link gateway assocated with an event. When the gateway exists in a different account or there is no gateway associated with the request, the target is set as `crn:v1:bluemix:public:directlink:global:a/<your account ID>:::`.  Events that don't correspond to a gateway will not have resource group information. For more information about cross-account gateway connections, see [Cross-account (VPC only) network connectivity with Direct Link](/docs/dl?topic=dl-add-virtual-connection#cross-account-virtual-connection). 
+- Events that report update actions do not include information about the delta of the change.
+- The event's initiator field contains information about who initiated each request. In authorized cross-account scenarios `IBM` is identified as the initiator. 
+- The name of the service in {{site.data.keyword.cloud_notm}} is `directlink.connect`; therefore, all AT events have an action formatted as `<svcname>.<object>.<action>`, where `svcname` can be `directlink.connect` or `directlink.dedicated`.
