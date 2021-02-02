@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020
-lastupdated: "2020-05-26"
+  years: 2020, 2021
+lastupdated: "2021-02-01"
 
 keywords:  
 
@@ -60,7 +60,7 @@ You can add only one classic infrastructure virtual connection to a provisioned 
 You can request virtual connections to networks in other {{site.data.keyword.cloud_notm}} accounts for {{site.data.keyword.dl_short}} gateways that indicate the **Provisioned** status.
 
 Only one pending request is allowed per gateway. To create more requests, you can cancel the pending virtual connection request or wait for it to be accepted. Connection requests expire if not accepted within 72 hours.
-{:tip}
+{:note}
 
 Follow these steps to connect networks owned by different accounts:
 
@@ -68,8 +68,9 @@ Follow these steps to connect networks owned by different accounts:
 2. On the Add connection page select **Request connection to a network in another account**.   
 3. Type the VPC CRN of the cross-account network.
 
-   To get the CRN of a VPC, click Menu ![Menu icon](/images/menu_icon.png) > **Resource list** from the {{site.data.keyword.cloud_notm}} console. Expand **VPC Infrastructure** to list your VPCs. Select a VPC and click the **Status** entry to view its details. Copy the CRN and paste it in the {{site.data.keyword.dl_short}} window.
-   {: tip}
+   **Tip**: To get the CRN of a VPC, click Menu ![Menu icon](/images/menu_icon.png) > **Resource List** from the {{site.data.keyword.cloud_notm}} console. Expand **VPC infrastructure** to list your VPCs. Then, click the row of the VPC, copy the CRN to the clipboard, and paste it in the {{site.data.keyword.dl_short}} window.  For example: 
+
+   ![Get CRN of a VPC](/images/crn.png) 
 
 4.  Type the name of the network connection, then click **Add**.
 
