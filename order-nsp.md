@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020
-lastupdated: "2020-11-30"
+  years: 2020, 2021
+lastupdated: "2021-02-02"
 
 keywords:  
 
@@ -161,9 +161,9 @@ The table gives details about the {{site.data.keyword.cloud_notm}} data centers 
 | Dallas 13 | DC(AZ3) | CyrusOne | Carrollton - Frankford | 1649 W. Frankford Rd |
 | San Jose 2 | PoP | Equinix | SV111 | Great Oaks Blvd |
 | Seattle 2 | PoP | Digital Reality (The Westin Building) | WBX | 2001 6th Avenue |
-| Toronto 3 | PoP | IBM Cloud | TOR03 | 45 Parliament Street |
-| Toronto 4 | DC(AZ1) | IBM Cloud | TOR04 | 300 Bartor Road |
-| Toronto 5 | DC(AZ2) | IBM Cloud | TOR05 | 1 Century Place |
+| Toronto 3 | PoP | Equinix| TOR03 | 45 Parliament Street, Toronto |
+| Toronto 4 | DC(AZ1) | Server Farm | TOR04 | 300 Bartor Road, North York |
+| Toronto 5 | DC(AZ2) | Digital Reality | TOR05 | 1 Century Place, Vaughan |
 | Washington DC 2 | PoP 1 | Equinix | DC2 | 21715 Filigree Ct |
 | Washington DC 4 | DC(AZ1) | Digital Realty | IAD38 | 44060 Digital Loudoun Plaza (Bldg K) |
 | Washington DC 5 | PoP 2 | Coresite | DC2 | 12098 Sunrise Valley Dr |
@@ -171,13 +171,13 @@ The table gives details about the {{site.data.keyword.cloud_notm}} data centers 
 | Washington DC 7 | DC(AZ3) | Sabey | Sabey Intergate.Ashburn | 21741 Red Rum Dr |
 | **APAC** |  |  |  |  |
 | Hong Kong 3 |	PoP |	Equinix |	HKG2 |	17/F Kerry Warehouse |
-| Osaka 1 | PoP | Equinix | OS1 | Nishi-Shinsaibashi Bldg., 1-26-1 Shin-machi, Osaka |
+| Osaka 1 | PoP | Equinix | OS1 | Nishi-Shinsaibashi Bldg., 1-26-1 Shin-machi, Osaka  |
 | Sydney 1 | DC(AZ1) | Global Switch | SYD01 | 400 Harris Street aka 273 Pyrmont St Ultimo |
 | Sydney 2 | PoP 1 | Equinix | SY3 | 47 Bourke Rd |
 | Sydney 3 | PoP 2 | NextDC | SYD03 | 4 Eden Park Drive, Marquarie Park |
 | Sydney 4 | DC(AZ2) | Digital Realty | SYD10 | 1-11 Templar Rd, Erskine Park |
 | Sydney 5 | DC(AZ3) | Equinix | SY4 | 200 Bourke Road |
-| Tokyo 1 | Pop | Equinix | TY2 | 7th Floor, 3-8-21 Higashi-Shinagawa |
+| Tokyo 1 | Pop | Equinix | TY2  | 7th Floor, 3-8-21 Higashi-Shinagawa |
 | Tokyo 2 | DC | At Toyko | TOK02 | Shin-Toyosu Cube, 6-2-12 Toyosu, Koto-ku |
 | Tokyo 3 | PoP 2 | Equinix | TY4 | Chiyoda-ku |
 | Tokyo 4 | DC(AZ2) | Softbank | | Saitama |
