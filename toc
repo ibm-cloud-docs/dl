@@ -2,7 +2,7 @@
 {:topicgroup: .topicgroup}
 
 {: .toc subcollection="dl" category="network_interconnectivity" audience="service" href="/docs/dl/getting-started" console-page="/interconnectivity" product-page="https://www.ibm.com/cloud/direct-link" path="dl"}
-Direct Link 2.0
+Direct Link (2.0)
 
     {: .navgroup id="learn"}
     getting-started.md
@@ -26,13 +26,14 @@ Direct Link 2.0
 
     {: .topicgroup}
     Related links
-        [Direct Link on Classic](/direct-link/direct-link-get-started-with-ibm-cloud-direct-link)
+        [IBM Cloud Direct Link on Classic](/direct-link/direct-link-get-started-with-ibm-cloud-direct-link)
         [Virtual Private Cloud](/vpc/vpc-getting-started)
         [IBM Cloud Networking](https://www.ibm.com/cloud/learn/networking-a-complete-guide)
     {: .navgroup-end}
 
     {: .navgroup id="howto"}
     order-nsp.md
+    order-dedicated-hosting-beta.md
     order-connect.md
 
     {: .topicgroup}
@@ -45,16 +46,19 @@ Direct Link 2.0
     deleting_gateway.md
     dl-to-cos.md
     ha-dr.md
+    vpe-integration.md
 
     {: .topicgroup}
-    Enhancing security for IBM Cloud Direct Link
+    Enhancing security
           iam.md
           data-security.md
           at_events.md
+          manage-scc.md
     {: .navgroup-end}
 
     {: .navgroup id="reference"}
     [Direct Link (2.0) API reference](https://{DomainName}/apidocs/direct_link)
+    [Direct Link Connect (2.0) Provider API reference](https://{DomainName}/apidocs/direct_link_provider_api)
     /dl-cli-plugin/dl-cli-plugin-dl-cli
     understanding-latency.md
     vrf-on-ibm-cloud.md
@@ -62,6 +66,7 @@ Direct Link 2.0
     prerequisites.md
     responsibilities.md
     external-resources.md
+    [Terraform](https://cloud.ibm.com/docs/terraform?topic=terraform-getting-started)
     {: .navgroup-end}
 
     {: .navgroup id="help"}
