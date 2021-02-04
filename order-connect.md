@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2021
-lastupdated: "2021-01-14"
+lastupdated: "2021-02-04"
 
 keywords:
 
@@ -144,7 +144,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect providers and l
 | Console Connect by PCCW | **Americas:** Dallas 3 |
 | DE-CIX | **EU:** Frankfurt 3 |
 | Epsilon | **Americas:** Washington DC 2<br />**APAC:** Amsterdam 2<br />**EU:** London 1 |
-| Equinix | **Americas:** Chicago 1, Dallas 3, San Jose 2, Toronto 3, Washington DC 2<br />**APAC:** Osaka 1, Tokyo 3<br />**EU:** Frankfurt 3, London 3 |
+| Equinix | **Americas:** Chicago 1, Dallas 3, San Jose 2, Toronto 3, Washington DC 2<br />**APAC:** Osaka 1, Tokyo 3<br />**EU:** Frankfurt 3, London 3, Paris 3 |
 | IBM BlueFringe | **Americas:** Dallas 3, Washington DC 2<br />**EU:** Frankfurt 3 |
 | IBM Global Network Peering Platform (GNPP) | **Americas:** Dallas 3, Washington DC 2<br />**EU:** Frankfurt 3, London 1, London 3, London 4 |
 | IBM Power Virtual Server | **Americas:** Dallas 12, Dallas 13, Washington DC 4<br />**APAC:** Sydney 4, Sydney 5, Tokyo 4<br />**EU:** Frankfurt 4, Frankfurt 5, London 4, London 6 |
@@ -182,6 +182,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect providers and l
 | London 4 | IBM GNPP<br />IBM Power Virtual Server |
 | London 6 | IBM Power Virtual Server |
 | Osaka  1 | At Tokyo<br />Equinix |
+| Paris 3 | Equinix |
 | San Jose 2 | CenturyLink Dynamic Connections<br />Equinix<br />PacketFabric |
 | Sydney 3 | NextDC |
 | Sydney 4 | IBM Power Virtual Server |
@@ -205,17 +206,28 @@ The following table lists {{site.data.keyword.dl_short}} Connect providers and l
 If you participated in the beta release, you must migrate to a standard, paid plan to continue using instances that you created during the beta. Any instances that continue to use the beta plan for this service are subject to deletion.  
 {: preview}
 
-To migrate Direct Link Connect gateways to a standard, paid plan, enter the following command:
+To migrate Direct Link Connect gateways to a standard, paid plan, follow these steps:
 
-```
-ibmcloud resource service-instance-update ( NAME | ID ) [--service-plan-id SERVICE_PLAN_ID]
-```
-{: pre}
+1. Install {{site.data.keyword.cloud_notm}} CLI on your system, if you have not already done so. For more information, see [Getting started with the IBM Cloud CLI](/docs/cli?topic=cli-getting-started).
+1. Log in to the account that you used to create the Direct Link 2.0 Connect gateways.
+1. Enter the following command:
 
-For example:
+   ```
+   ibmcloud resource service-instance-update NAME --service-plan-id SERVICE_PLAN_ID
+   ```
+   {: pre}
 
-```
-ibmcloud resource service-instance-update nwk-stdplan --service-plan-id 3341e514-f13c-469b-800c-03c7e827fc7b
-```
+   Where:
+
+   * `NAME` is the name of the gateway instance.
+   * `service-plan-id` indicates the type of plan. 
+   * `SERVICE_PLAN_ID` is the ID of the service plan that you want to set. For Direct Link Connect, this ID is `3341e514-f13c-469b-800c-03c7e827fc7b`.
+
+   For example:
+
+   ```
+   ibmcloud resource service-instance-update nwk-stdplan --service-plan-id 3341e514-f13c-469b-800c-03c7e827fc7b
+   ```
+   Where `nwk-stdplan` is the name of the gateway that you created in the account. 
 
 For information about opening an IBM Support case, or about support levels and ticket severities, see [Getting help and support](/docs/dl?topic=dl-getting-help-and-support).
