@@ -35,16 +35,16 @@ subcollection: dl
 {: help}
 {: support}
 
-To order {{site.data.keyword.dl_short}} Connect, you must determine the location connecting to IBM Cloud, complete the required configuration information, then click **Create** to submit your order.
+To order {{site.data.keyword.dl_short}} Connect, you must determine the location connecting to {{site.data.keyword.cloud}}, complete the required configuration information, then click **Create** to submit your order.
 {:shortdesc}
 
-If you participated in the Direct Link Connect beta program, you must migrate your Direct Link Connect gateways to a standard, paid plan. For more information, see [Migrating Direct Link gateways](/docs/dl?topic=dl-how-to-order-ibm-cloud-dl-connect#migration).
+If you participated in the Direct Link Connect beta program, you must migrate your {{site.data.keyword.dl_short}} Connect gateways to a standard, paid plan. For more information, see [Migrating {{site.data.keyword.dl_short}} gateways](/docs/dl?topic=dl-how-to-order-ibm-cloud-dl-connect#migration).
 {: note}
 
 ## Planning considerations
 {: #before-you-begin-connect}
 
-* IBM Cloud highly recommends that a second, diverse direct link be established to prevent outages, whether unplanned, or planned due to maintenance. For more information, see [Models for diversity and redundancy](/docs/dl?topic=dl-models-for-diversity-and-redundancy-in-direct-link).
+* {{site.data.keyword.cloud_notm}} highly recommends that a second, diverse direct link be established to prevent outages, whether unplanned, or planned due to maintenance. For more information, see [Models for diversity and redundancy](/docs/dl?topic=dl-models-for-diversity-and-redundancy-in-direct-link).
 * All subnets of the VPC or classic network will be connected to the direct link. When creating VPCs, make sure to create the VPCs with non-overlapping prefixes and unique subnets. To ensure successful connectivity with the classic infrastructure, do not use IP addresses for your VPCs in the `10.0.0.0/14`, `10.200.0.0/14`, `10.198.0.0/15`, and `10.254.0.0/16` blocks.
 
 ## Partner-specific instructions
@@ -56,7 +56,7 @@ If you participated in the Direct Link Connect beta program, you must migrate yo
 ## Ordering instructions
 {: #instructions-connect}
 
-To order {{site.data.keyword.dl_short}} Connect, you must determine the location that connects to IBM Cloud, complete the required configuration information, then click **Create** to submit your order for processing.
+To order {{site.data.keyword.dl_short}} Connect, you must determine the location that connects to {{site.data.keyword.cloud_notm}}, complete the required configuration information, then click **Create** to submit your order for processing.
 {:shortdesc}
 
 To order {{site.data.keyword.dl_full}} Connect, follow these steps:
@@ -69,10 +69,10 @@ To order {{site.data.keyword.dl_full}} Connect, follow these steps:
 
    Alternatively, you can click **Direct Link** in the left navigation pane to view the Direct Link page, which lists existing Direct Link instances. From this page, you can click **Order Direct Link** > **Direct Link Connect**.
    {: tip}
-1. Optionally, click **Open checklist** to review the ordering process (also described in [Completing the connection](/docs/dl?topic=dl-how-to-order-ibm-cloud-dl-connect#complete-connection-connect)).
+1. Click **Open checklist** to review the ordering process (also described in [Completing the connection](/docs/dl?topic=dl-how-to-order-ibm-cloud-dl-connect#complete-connection-connect)).
 1. In the Configuration section, complete the following information:
    * Type a name for your {{site.data.keyword.dl_short}} connection.
-   * Choose a resource group to create the {{site.data.keyword.dl_short}} connection. Resource groups help manage and contain resources associated with an account. Select **Default** if you don't have any other groups defined in the drop-down list. For more information about resource groups, see [Best practices for organizing resources in a resource group](/docs/account?topic=account-account_setup).
+   * Choose a resource group to create the {{site.data.keyword.dl_short}} connection. Resource groups help manage and contain resources associated with an account. Select **default** if you don't have any other groups defined in the drop-down list. For more information about resource groups, see [Best practices for organizing resources in a resource group](/docs/account?topic=account-account_setup).
    * For Billing, select **Metered** or **Unmetered**. Metered pricing is paying only for what you use. Unmetered is unlimited access, for a predicable, monthly fee. See [Pricing for {{site.data.keyword.dl_full_notm}}](/docs/dl?topic=dl-pricing-for-ibm-cloud-dl) for details.
 
       ![Configuration section](/images/dl-config-connect.png)   
@@ -89,8 +89,6 @@ To order {{site.data.keyword.dl_full}} Connect, follow these steps:
 
 1. In the BGP and connections section, complete the following information:
 
-   * Select the port for the {{site.data.keyword.dl_short}} gateway.
-
    * Select a BGP peering subnet for the {{site.data.keyword.dl_short}} connection. There are two choices for BGP subnets:
       * Select **Auto-select IP** for IBM to assign an IP address from IP range, `169.254.0.0/16`.
       * Select **Manual-select IP** to specify two of your own IP addresses (in CIDR format) from the ranges `10.254.0.0/16`, `172.16.0.0/12`, `192.168.0.0/16`, `169.254.0.0/16`, or `Public` (a public IP address that you own). Manual-select is useful when trying to avoid conflicts with an existing subnet in use.
@@ -99,7 +97,7 @@ To order {{site.data.keyword.dl_full}} Connect, follow these steps:
 
       * Make sure that any self-provided BGP addresses do not conflict with blocks that are used by IBM, or by resources external to your {{site.data.keyword.dl_short}} deployment.
       * **For Layer-3 IP VPN providers only**: You must specify the carrier's ASN, not your own. For a list of carrier interconnection types, see [Comparing Layer-2 and Layer-3 connections for {{site.data.keyword.dl_short}}](/docs/dl?topic=dl-comparing-layer-2-layer-3).
-      * Excluded ASNs: 64512, 64513, 65100, 65201-65234, 65402-65433, 65500, and 4201065000-4201065999
+      * Excluded ASNs: 0, 13884, 36351, 64512, 64513, 65100, 65201-65234, 65402-65433, 65500, and 420106500-4201065999
 
       ![BGP and connections section](/images/dl-bgp-connect.png)            
 
@@ -220,7 +218,7 @@ To migrate Direct Link Connect gateways to a standard, paid plan, follow these s
    Where:
 
    * `NAME` is the name of the gateway instance.
-   * `service-plan-id` indicates the type of plan. 
+   * `service-plan-id` indicates the type of plan.
    * `SERVICE_PLAN_ID` is the ID of the service plan that you want to set. For Direct Link Connect, this ID is `3341e514-f13c-469b-800c-03c7e827fc7b`.
 
    For example:
@@ -228,6 +226,6 @@ To migrate Direct Link Connect gateways to a standard, paid plan, follow these s
    ```
    ibmcloud resource service-instance-update nwk-stdplan --service-plan-id 3341e514-f13c-469b-800c-03c7e827fc7b
    ```
-   Where `nwk-stdplan` is the name of the gateway that you created in the account. 
+   Where `nwk-stdplan` is the name of the gateway that you created in the account.
 
 For information about opening an IBM Support case, or about support levels and ticket severities, see [Getting help and support](/docs/dl?topic=dl-getting-help-and-support).
