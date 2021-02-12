@@ -84,11 +84,10 @@ To order {{site.data.keyword.dl_full}} Connect, follow these steps:
 
    ![Location section](/images/dl-location-connect.png)  
 
-   Local and global routing options are supported for {{site.data.keyword.dl_short}} Connect. The routing option that you select determines the reachability of the resources in the selected location. If you select the **Global** routing option along with your location selections, the **Region** menu list shows all the regions that are globally available in the specific account. After selecting a region, you can select any VPC from the **Available connections** menu. If you select **Local** routing, then only the region that corresponds to the selected location is available. When selected, VPCs available in the local region for your account are shown.
-   {:note}          
+   Local and global routing options are supported for {{site.data.keyword.dl_short}} Connect. The routing option that you select determines the reachability of the resources in the selected location. If you select the **Global** routing option along with your location selections, the **Region** menu list shows all the regions that are globally available in the specific account. After selecting a region, you can select any VPC from the **Available connections** menu. If you select **Local** routing, then only the region that corresponds to the selected location is available. When selected, VPCs available in the local region for your account are shown.  
 
 1. In the BGP and connections section, complete the following information:
-
+ 
    * Select a BGP peering subnet for the {{site.data.keyword.dl_short}} connection. There are two choices for BGP subnets:
       * Select **Auto-select IP** for IBM to assign an IP address from IP range, `169.254.0.0/16`.
       * Select **Manual-select IP** to specify two of your own IP addresses (in CIDR format) from the ranges `10.254.0.0/16`, `172.16.0.0/12`, `192.168.0.0/16`, `169.254.0.0/16`, or `Public` (a public IP address that you own). Manual-select is useful when trying to avoid conflicts with an existing subnet in use.
@@ -97,7 +96,7 @@ To order {{site.data.keyword.dl_full}} Connect, follow these steps:
 
       * Make sure that any self-provided BGP addresses do not conflict with blocks that are used by IBM, or by resources external to your {{site.data.keyword.dl_short}} deployment.
       * **For Layer-3 IP VPN providers only**: You must specify the carrier's ASN, not your own. For a list of carrier interconnection types, see [Comparing Layer-2 and Layer-3 connections for {{site.data.keyword.dl_short}}](/docs/dl?topic=dl-comparing-layer-2-layer-3).
-      * Excluded ASNs: 0, 13884, 36351, 64512, 64513, 65100, 65201-65234, 65402-65433, 65500, and 420106500-4201065999
+      * Excluded ASNs: `0`, `13884`, `36351`, `64512`, `64513`, `65100`, `65201-65234`, `65402-65433`, `65500`, and `420106500-4201065999`.
 
       ![BGP and connections section](/images/dl-bgp-connect.png)            
 
@@ -218,7 +217,7 @@ To migrate Direct Link Connect gateways to a standard, paid plan, follow these s
    Where:
 
    * `NAME` is the name of the gateway instance.
-   * `service-plan-id` indicates the type of plan.
+   * `service-plan-id` indicates the type of plan. 
    * `SERVICE_PLAN_ID` is the ID of the service plan that you want to set. For Direct Link Connect, this ID is `3341e514-f13c-469b-800c-03c7e827fc7b`.
 
    For example:
@@ -226,6 +225,6 @@ To migrate Direct Link Connect gateways to a standard, paid plan, follow these s
    ```
    ibmcloud resource service-instance-update nwk-stdplan --service-plan-id 3341e514-f13c-469b-800c-03c7e827fc7b
    ```
-   Where `nwk-stdplan` is the name of the gateway that you created in the account.
+   Where `nwk-stdplan` is the name of the gateway that you created in the account. 
 
 For information about opening an IBM Support case, or about support levels and ticket severities, see [Getting help and support](/docs/dl?topic=dl-getting-help-and-support).
