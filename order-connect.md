@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2021
-lastupdated: "2021-02-11"
+lastupdated: "2021-02-15"
 
 keywords:
 
@@ -89,7 +89,7 @@ To order {{site.data.keyword.dl_full}} Connect, follow these steps:
 1. In the BGP and connections section, complete the following information:
 
    * Depending on the speed that you selected, you might need to select a port for the {{site.data.keyword.dl_short}} gateway.
- 
+
    * Select a BGP peering subnet for the {{site.data.keyword.dl_short}} connection. There are two choices for BGP subnets:
       * Select **Auto-select IP** for IBM to assign an IP address from IP range, `169.254.0.0/16`.
       * Select **Manual-select IP** to specify two of your own IP addresses (in CIDR format) from the ranges `10.254.0.0/16`, `172.16.0.0/12`, `192.168.0.0/16`, `169.254.0.0/16`, or `Public` (a public IP address that you own). Manual-select is useful when trying to avoid conflicts with an existing subnet in use.
@@ -136,7 +136,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect providers and l
 
 | Provider | Locations |
 |----|----|
-| At Tokyo | **APAC:** Osaka 1 |
+| At Tokyo | **APAC:** Osaka 1, Tokyo 2 |
 | AT&T NetBond for Cloud | **Americas:** Washington DC 2 |
 | British Telecom | **Americas:** Washington DC 2<br />**EU:** London 3 |  
 | CenturyLink Dynamic Connections | **Americas:** Dallas 3, San Jose 2, Toronto 2, Washington DC 2 |    
@@ -187,6 +187,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect providers and l
 | Sydney 3 | NextDC |
 | Sydney 4 | IBM Power Virtual Server |
 | Sydney 5 | IBM Power Virtual Server |
+| Tokyo 2 | AT Tokyo |
 | Tokyo 3 | Equinix<br />Tokai |
 | Tokyo 4 | IBM Power Virtual Server<br />Softbank |
 | Tokyo 5 | NTT |
@@ -220,7 +221,7 @@ To migrate Direct Link Connect gateways to a standard, paid plan, follow these s
    Where:
 
    * `NAME` is the name of the gateway instance.
-   * `service-plan-id` indicates the type of plan. 
+   * `service-plan-id` indicates the type of plan.
    * `SERVICE_PLAN_ID` is the ID of the service plan that you want to set. For Direct Link Connect, this ID is `3341e514-f13c-469b-800c-03c7e827fc7b`.
 
    For example:
@@ -228,6 +229,6 @@ To migrate Direct Link Connect gateways to a standard, paid plan, follow these s
    ```
    ibmcloud resource service-instance-update nwk-stdplan --service-plan-id 3341e514-f13c-469b-800c-03c7e827fc7b
    ```
-   Where `nwk-stdplan` is the name of the gateway that you created in the account. 
+   Where `nwk-stdplan` is the name of the gateway that you created in the account.
 
 For information about opening an IBM Support case, or about support levels and ticket severities, see [Getting help and support](/docs/dl?topic=dl-getting-help-and-support).
