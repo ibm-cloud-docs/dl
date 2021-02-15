@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2021
-lastupdated: "2021-02-04"
+lastupdated: "2021-02-11"
 
 keywords:
 
@@ -87,6 +87,8 @@ To order {{site.data.keyword.dl_full}} Connect, follow these steps:
    Local and global routing options are supported for {{site.data.keyword.dl_short}} Connect. The routing option that you select determines the reachability of the resources in the selected location. If you select the **Global** routing option along with your location selections, the **Region** menu list shows all the regions that are globally available in the specific account. After selecting a region, you can select any VPC from the **Available connections** menu. If you select **Local** routing, then only the region that corresponds to the selected location is available. When selected, VPCs available in the local region for your account are shown.  
 
 1. In the BGP and connections section, complete the following information:
+
+   * Depending on the speed that you selected, you might need to select a port for the {{site.data.keyword.dl_short}} gateway.
  
    * Select a BGP peering subnet for the {{site.data.keyword.dl_short}} connection. There are two choices for BGP subnets:
       * Select **Auto-select IP** for IBM to assign an IP address from IP range, `169.254.0.0/16`.
@@ -142,9 +144,9 @@ The following table lists {{site.data.keyword.dl_short}} Connect providers and l
 | DE-CIX | **EU:** Frankfurt 3 |
 | Epsilon | **Americas:** Washington DC 2<br />**APAC:** Amsterdam 2<br />**EU:** London 1 |
 | Equinix | **Americas:** Chicago 1, Dallas 3, San Jose 2, Toronto 3, Washington DC 2<br />**APAC:** Osaka 1, Tokyo 3<br />**EU:** Frankfurt 3, London 3, Paris 3 |
-| IBM BlueFringe | **Americas:** Dallas 3, Washington DC 2<br />**EU:** Frankfurt 3 |
+| IBM BlueFringe | **Americas:** Dallas 3, Washington DC 2<br />**APAC:** Amsterdam 2<br />**EU:** Frankfurt 3 |
 | IBM Global Network Peering Platform (GNPP) | **Americas:** Dallas 3, Washington DC 2<br />**EU:** Frankfurt 3, London 1, London 3, London 4 |
-| IBM Power Virtual Server | **Americas:** Dallas 12, Dallas 13, Washington DC 4<br />**APAC:** Sydney 4, Sydney 5, Tokyo 4<br />**EU:** Frankfurt 4, Frankfurt 5, London 4, London 6 |
+| IBM Power Virtual Server | **Americas:** Dallas 12, Dallas 13, Washington DC 4<br />**APAC:** Osaka 21, Sydney 4, Sydney 5, Tokyo 4<br />**EU:** Frankfurt 4, Frankfurt 5, London 4, London 6 |
 | Intercloud | **EU:** Frankfurt 3 |
 | Interxion | **EU:** Frankfurt 1 |
 | IXReach | **Americas:** Washington DC 2 |
@@ -164,7 +166,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect providers and l
 
 | Location | Providers |
 |----|----|
-| Amsterdam 2 | Epsilon |
+| Amsterdam 2 | Epsilon<br />IBM BlueFringe |
 | Chicago 1 | Equinix |
 | Dallas 3 |  CenturyLink Dynamic Connections<br />Console Connect by PCCW<br />Equinix<br />IBM BlueFringe<br />IBM GNPP<br />Neutrona<br />Zayo |
 | Dallas 4 |  PacketFabric |
@@ -179,6 +181,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect providers and l
 | London 4 | IBM GNPP<br />IBM Power Virtual Server |
 | London 6 | IBM Power Virtual Server |
 | Osaka  1 | At Tokyo<br />Equinix |
+| Osaka 21 |IBM Power Virtual Server |
 | Paris 3 | Equinix |
 | San Jose 2 | CenturyLink Dynamic Connections<br />Equinix<br />PacketFabric |
 | Sydney 3 | NextDC |
