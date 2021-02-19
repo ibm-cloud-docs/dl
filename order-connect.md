@@ -149,7 +149,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect providers and l
 | Intercloud | **EU:** Frankfurt 3 |
 | Interxion | **EU:** Frankfurt 1 |
 | IXReach | **Americas:** Washington DC 2 |
-| Megaport | **Americas:** Chicago 1, Dallas 4, San Jose 2, Toronto 2, Washington DC 2<br />**APAC:** Tokyo 2, Tokyo 3<br />**EU**: Frankfurt 1, Paris 2, Sydney 2 |
+| Megaport | **Americas:** Chicago 1, Dallas 4, San Jose 2, Toronto 2, Washington DC 2<br />**APAC:** Tokyo 2, Tokyo 3<br />**EU**: Frankfurt 1, London 3, Paris 2, Sydney 2 |
 | NextDC | **APAC:** Sydney 3 |
 | NTT | **APAC:** Tokyo 5 |
 | Neutrona | **Americas:** Dallas 3, Washington DC 2 |
@@ -178,7 +178,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect providers and l
 | Frankfurt 4 | IBM Power Virtual Server |
 | Frankfurt 5 | IBM Power Virtual Server |
 | London 1 | Epsilon<br />IBM Global NPP |
-| London 3 | British Telecom<br />Equinix<br />IBM Global NPP|
+| London 3 | British Telecom<br />Equinix<br />IBM Global NPP<br />Megaport|
 | London 4 | IBM Global NPP<br />IBM Power Virtual Server |
 | London 6 | IBM Power Virtual Server |
 | Osaka  1 | Equinix |
