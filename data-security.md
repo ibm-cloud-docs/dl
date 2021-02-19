@@ -4,7 +4,7 @@ copyright:
   years: 2020
 lastupdated: "2020-02-24"
 
-keywords: data encryption in {{site.data.keyword.dl_short}}, data storage for {{site.data.keyword.dl_short}}, bring your own keys for {{site.data.keyword.dl_short}}, BYOK for {{site.data.keyword.dl_short}}, key management for {{site.data.keyword.dl_short}}, key encryption for {{site.data.keyword.dl_short}}, personal data in {{site.data.keyword.dl_short}}, data deletion for {{site.data.keyword.dl_short}}, data in {{site.data.keyword.dl_short}}, data security in {{site.data.keyword.dl_short}}
+keywords:
 
 subcollection: dl
 
