@@ -136,7 +136,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect providers and l
 
 | Provider | Locations |
 |----|----|
-| At Tokyo | **APAC:** Osaka 1, Tokyo 2 |
+| At Tokyo | **APAC:** Tokyo 2 |
 | AT&T NetBond for Cloud | **Americas:** Washington DC 2 |
 | British Telecom | **Americas:** Washington DC 2<br />**EU:** London 3 |  
 | CenturyLink Dynamic Connections | **Americas:** Dallas 3, San Jose 2, Toronto 2, Washington DC 2 |    
@@ -181,7 +181,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect providers and l
 | London 3 | British Telecom<br />Equinix<br />IBM Global NPP|
 | London 4 | IBM Global NPP<br />IBM Power Virtual Server |
 | London 6 | IBM Power Virtual Server |
-| Osaka  1 | At Tokyo<br />Equinix |
+| Osaka  1 | Equinix |
 | Osaka 21 |IBM Power Virtual Server |
 | Paris 2 | Megaport |
 | Paris 3 | Equinix |
