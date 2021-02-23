@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2021
-lastupdated: "2021-02-02"
+lastupdated: "2021-02-21"
 
 keywords:  
 
@@ -161,6 +161,7 @@ The table gives details about the {{site.data.keyword.cloud_notm}} data centers 
 | Dallas 13 | DC(AZ3) | CyrusOne | Carrollton - Frankford | 1649 W. Frankford Rd |
 | San Jose 2 | PoP | Equinix | SV111 | Great Oaks Blvd |
 | Seattle 2 | PoP | Digital Reality (The Westin Building) | WBX | 2001 6th Avenue |
+| Toronto 2 | PoP | Cologix | TOR02 | 151 Front Street Toronto |
 | Toronto 3 | PoP | Equinix| TOR03 | 45 Parliament Street, Toronto |
 | Toronto 4 | DC(AZ1) | Server Farm | TOR04 | 300 Bartor Road, North York |
 | Toronto 5 | DC(AZ2) | Digital Reality | TOR05 | 1 Century Place, Vaughan |
