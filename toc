@@ -33,13 +33,17 @@ Direct Link (2.0)
 
     {: .navgroup id="howto"}
     order-nsp.md
-    order-dedicated-hosting-beta.md
-    order-connect.md
 
     {: .topicgroup}
-    Partner-specific instructions
-          dl-netbond.md
-          dl-equinix.md
+    Ordering IBM Cloud Direct Link Connect
+        order-connect.md
+
+        {: .topicgroup}
+        Partner-specific instructions
+            dl-netbond.md
+            dl-netbond-essentials.md
+            dl-equinix.md 
+            dl-verizon-sci.md
 
     attaching_connection.md
     editing_gateway.md
