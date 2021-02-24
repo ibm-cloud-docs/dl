@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2021
-lastupdated: "2021-02-19"
+lastupdated: "2021-02-24"
 
 keywords:
 
@@ -50,8 +50,10 @@ If you participated in the Direct Link Connect beta program, you must migrate yo
 ## Partner-specific instructions
 {: #instructions-partner}
 
-* [AT&T NetBond](/docs/dl?topic=dl-netbond)
+* [AT&T NetBond for Cloud](/docs/dl?topic=dl-netbond)
+* [AT&T NetBond Essentials via Equinix Fabric](/docs/dl?topic=dl-att-netbond-essentials)
 * [Equinix](/docs/dl?topic=dl-equinix)
+* [Verizon SCI via Equinix Fabric](/docs/dl?topic=dl-verizon-sci)
 
 ## Ordering instructions
 {: #instructions-connect}
