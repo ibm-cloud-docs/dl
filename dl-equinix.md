@@ -50,7 +50,7 @@ For Exchange on Classic instructions, see [Steps to order Direct Link Exchange o
 
    ![Select a Port, Location, and Destination](/images/equinix-port.png "Select a Port, Location, and Destination")   
 1. Select a **Location**, followed by a **Destination**. Then, click **Next**.
-1. On the Connection Details page, enter the connection information. For the IBM Cloud Account ID, enter the service key (for example, `114340xxx`) that was generated when you provisioned your direct link. This key can be found on the Direct Link details page.
+1. On the Connection Details page, enter the connection information. For the IBM Cloud Account ID, enter the service key (for example, `aaa-bbbb-cccc`) that was generated when you provisioned your direct link. This key can be found on the Direct Link details page.
 
    ![Connection Details](/images/equinix-connection-details.png "Connection Details")   
 1. Select a **Connection Speed**, then click **Next**.   
