@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2021
-lastupdated: "2021-02-21"
+lastupdated: "2021-02-25"
 
 keywords:  
 
@@ -41,6 +41,7 @@ To order {{site.data.keyword.dl_short}} Dedicated, you must determine the locati
 
 * Before you begin, determine the location connection to IBM Cloud by verifying your colocation provider's or service provider's capabilities to reach the Meet Me Room and cross-connect into IBM Cloud.
 * All subnets of the VPC or classic network will be connected to the direct link. When creating VPCs, make sure to create the VPCs with non-overlapping prefixes and unique subnets. To ensure successful connectivity with the classic infrastructure, do not use IP addresses for your VPCs in the `10.0.0.0/14`, `10.200.0.0/14`, `10.198.0.0/15`, and `10.254.0.0/16` blocks.
+* {{site.data.keyword.cloud_notm}} VPC permits the use of RFC-1918 and IANA-registered IPv4 address space, privately within your VPC, with some exceptions in the IANA special-purpose ranges, and select ranges assigned to {{site.data.keyword.cloud_notm}} services. When using IANA-registered ranges within your enterprise, and within VPCs in conjunction with Direct Link, custom routes must be installed in each zone. For more information, see [Routing considerations for IANA-registered IP assignments](/docs/vpc?topic=vpc-interconnectivity#routing-considerations-iana).
 
 ## Ordering instructions
 {: #instructions-dedicated}
@@ -161,7 +162,7 @@ The table gives details about the {{site.data.keyword.cloud_notm}} data centers 
 | Dallas 13 | DC(AZ3) | CyrusOne | Carrollton - Frankford | 1649 W. Frankford Rd |
 | San Jose 2 | PoP | Equinix | SV111 | Great Oaks Blvd |
 | Seattle 2 | PoP | Digital Reality (The Westin Building) | WBX | 2001 6th Avenue |
-| Toronto 2 | PoP | Cologix | TOR02 | 151 Front Street Toronto |
+| Toronto 2 | PoP | Cologix | TOR02 | 151 Front Street, Toronto |
 | Toronto 3 | PoP | Equinix| TOR03 | 45 Parliament Street, Toronto |
 | Toronto 4 | DC(AZ1) | Server Farm | TOR04 | 300 Bartor Road, North York |
 | Toronto 5 | DC(AZ2) | Digital Reality | TOR05 | 1 Century Place, Vaughan |
