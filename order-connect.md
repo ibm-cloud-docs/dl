@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2021
-lastupdated: "2021-02-25"
+lastupdated: "2021-03-01"
 
 keywords:
 
@@ -53,7 +53,7 @@ If you participated in the Direct Link Connect beta program, you must migrate yo
 
 * [AT&T NetBond for Cloud](/docs/dl?topic=dl-netbond)
 * [AT&T NetBond Essentials via Equinix Fabric](/docs/dl?topic=dl-att-netbond-essentials)
-* [Equinix](/docs/dl?topic=dl-equinix) 
+* [Equinix](/docs/dl?topic=dl-equinix)
 * [Verizon SCI via Equinix Fabric](/docs/dl?topic=dl-verizon-sci)
 
 ## Ordering instructions
@@ -143,6 +143,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect providers and l
 | AT&T NetBond for Cloud | **Americas:** Washington DC 2 |
 | British Telecom | **Americas:** Washington DC 2<br />**EU:** London 3 |  
 | CenturyLink Dynamic Connections | **Americas:** Dallas 3, San Jose 2, Toronto 2, Washington DC 2 |    
+| Cologix | **Americas:** Washington DC 2 |
 | DE-CIX | **EU:** Frankfurt 3, Frankfurt 5 |
 | Epsilon | **Americas:** Washington DC 2<br />**APAC:** Amsterdam 2<br />**EU:** London 1 |
 | Equinix | **Americas:** Chicago 1, Dallas 3, San Jose 2, Toronto 3, Washington DC 2<br />**APAC:** Osaka 1, Tokyo 3<br />**EU:** Frankfurt 3, London 3, Paris 3 |
@@ -199,7 +200,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect providers and l
 | Tokyo 5 | NTT |
 | Toronto 2 | CenturyLink Dynamic Connections<br />Megaport |
 | Toronto 3 | Equinix |
-| Washington DC 2 | AT&T NetBond for Cloud<br />British Telecom<br />CenturyLink Dynamic Connections<br />Epsilon<br />Equinix<br />IBM BlueFringe<br />IBM Global NPP<br />IXReach<br />Megaport<br />Neutrona<br />PacketFabric |
+| Washington DC 2 | AT&T NetBond for Cloud<br />British Telecom<br />CenturyLink Dynamic Connections<br />Cologix<br />Epsilon<br />Equinix<br />IBM BlueFringe<br />IBM Global NPP<br />IXReach<br />Megaport<br />Neutrona<br />PacketFabric |
 | Washington DC 4 | IBM Power Virtual Server |
 {: caption="Table 2. Direct Link Connect by Location" caption-side="left"}
 {: #simpletabtable2}
