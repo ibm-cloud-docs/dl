@@ -54,6 +54,7 @@ If you participated in the Direct Link Connect beta program, you must migrate yo
 * [AT&T NetBond for Cloud](/docs/dl?topic=dl-netbond)
 * [AT&T NetBond Essentials via Equinix Fabric](/docs/dl?topic=dl-att-netbond-essentials)
 * [Equinix](/docs/dl?topic=dl-equinix)
+* [Megaport](/docs/dl?topic=dl-megaport)
 * [Verizon SCI via Equinix Fabric](/docs/dl?topic=dl-verizon-sci)
 
 ## Ordering instructions

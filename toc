@@ -42,7 +42,8 @@ Direct Link (2.0)
         Partner-specific instructions
             dl-netbond.md
             dl-netbond-essentials.md
-            dl-equinix.md 
+            dl-equinix.md
+            dl-megaport.md
             dl-verizon-sci.md
 
     attaching_connection.md
