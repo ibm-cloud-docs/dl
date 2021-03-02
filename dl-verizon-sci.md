@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2021
-lastupdated: "2021-02-21"
+lastupdated: "2021-03-02"
 
 keywords:
 
@@ -35,29 +35,29 @@ subcollection: dl
 
 Follow these steps to create a Direct Link connection with Verizon SCI and Equinix Fabric.
 
-1. Obtain an IP subnet and local ASN (typically, the Verizon Public ASN) for the BGP from the Verizon SCI service.
+1. Obtain an IP subnet and local ASN (typically, the Verizon Public ASN `1684`) for the BGP from the Verizon SCI service.
 
-   This block is usually a `/30` IP block. 
+   This block is usually a `/31` or `/30` IP block.
    {: note}
 
-1. Order an {{site.data.keyword.cloud}} Direct Link (2.0) Connect gateway through the [{{site.data.keyword.cloud_notm}} console](https://cloud.ibm.com){:external}. For instructions, see [Ordering IBM Cloud Direct Link Connect](/docs/dl?topic=dl-how-to-order-ibm-cloud-dl-connect). 
+1. Order an {{site.data.keyword.cloud}} Direct Link (2.0) Connect gateway through the [{{site.data.keyword.cloud_notm}} console](https://cloud.ibm.com){:external}. For instructions, see [Ordering IBM Cloud Direct Link Connect](/docs/dl?topic=dl-how-to-order-ibm-cloud-dl-connect).
 
-   During the ordering process (Step 7), you can specify your own IP address. Make sure to specify the Verizon SCI-supplied IP addresses instead of your actual client Edge IP addresses. 
+   During the ordering process (Step 7), you can specify your own IP address. Make sure to specify the Verizon SCI-supplied IP addresses instead of your actual client Edge IP addresses.
 
    To specify your own IP address, follow these steps:
 
       * Choose **Manual-select IP**.
-      * For Range, select **Public**. 
+      * For Range, select **Public**.
       * For Your CIDR, enter the specific IP address from the Verizon-supplied subnet (for example, `10.254.0.26/30`).
       * For your IBM CIDR, enter the specific IP address from the remaining addresses in the Verizon-supplied subnet (for example, `10.254.0.25/30`).
-      * For BGP ASN, enter the supplied local ASN (typically, the Verizon Public ASN) supplied by Verizon.
-      
+      * For BGP ASN, enter the supplied local ASN (typically, the Verizon Public ASN `1684`) supplied by Verizon.
+
          ![Direct Link Connect ordering](/images/public-range.png "Manual-select IP Public Range")
 
    Write down and retain the connection name and the service key generated from the order.
    {: important}
 
-1. Send the connection name that you created and the generated service key to the Verizon SCI team. If you are granted permission by Verizon to order Direct Link Connect through the Equinix Fabric portal, complete your order using the Equinix Cloud Exchange (ECX) Fabric portal. 
+1. Send the connection name that you created and the generated service key to the Verizon SCI team. If you are granted permission by Verizon to order Direct Link Connect through the Equinix Fabric portal, complete your order using the Equinix Cloud Exchange (ECX) Fabric portal.
 
 ### Completing your order using the Equinix Fabric portal
 
@@ -83,5 +83,5 @@ The IBM Special Network Services (SNS) team receives your request and is able ap
 
 Accept the connection request by navigating to the IBM Cloud Direct Link page and clicking **Accept** from the Action menu. The Direct Link Gateway BGP Status shows as **Established** in the IBM Cloud Console, and **Provisioned** in the Equinix Fabric portal.
 
-The timeline for approval is within 24 hours. If the 24-hour Service Level Agreement (SLA) is not acceptable, you can [create an IBM Support case](https://cloud.ibm.com/unifiedsupport/cases/form) and request that it be routed to the SNS team.
+The timeline for approval is within 24-48 hours. If the 48-hour Service Level Agreement (SLA) is not acceptable, you can create an [IBM Support case](https://cloud.ibm.com/unifiedsupport/cases/form) and request that it be routed to the SNS team.
 {: note}
