@@ -143,8 +143,8 @@ The following table lists {{site.data.keyword.dl_short}} Connect providers and l
 | At Tokyo | **APAC:** Tokyo 2 |
 | AT&T NetBond for Cloud | **Americas:** Washington DC 2 |
 | British Telecom | **Americas:** Washington DC 2<br />**EU:** London 3 |  
-| CenturyLink Dynamic Connections | **Americas:** Dallas 3, San Jose 2, Toronto 2, Washington DC 2 |    
-| Cologix | **Americas:** Washington DC 2 |
+| CenturyLink Dynamic Connections | **Americas:** Dallas 3, San Jose 2, Toronto 2, Washington DC 2 |  
+| Cologix | **Americas:** Washington DC 2 |  
 | DE-CIX | **EU:** Frankfurt 3, Frankfurt 5 |
 | Epsilon | **Americas:** Washington DC 2<br />**APAC:** Amsterdam 2<br />**EU:** London 1 |
 | Equinix | **Americas:** Chicago 1, Dallas 3, San Jose 2, Toronto 3, Washington DC 2<br />**APAC:** Osaka 1, Tokyo 3<br />**EU:** Frankfurt 3, London 3, Paris 3 |
@@ -154,7 +154,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect providers and l
 | Intercloud | **EU:** Frankfurt 3 |
 | Interxion | **EU:** Frankfurt 1 |
 | IXReach | **Americas:** Washington DC 2 |
-| Megaport | **Americas:** Chicago 1, Dallas 4, San Jose 2, Toronto 2, Washington DC 2<br />**APAC:** Tokyo 2, Tokyo 3<br />**EU**: Frankfurt 1, London 3, Paris 2, Sydney 2 |
+| Megaport | **Americas:** Chicago 1, Dallas 4, San Jose 2, Toronto 2, Washington DC 2<br />**APAC:** Amsterdam 2, Tokyo 2, Tokyo 3<br />**EU**: Frankfurt 1, London 3, Paris 2, Sydney 2 |
 | NextDC | **APAC:** Sydney 3 |
 | NTT | **APAC:** Tokyo 5 |
 | Neutrona | **Americas:** Dallas 3, Washington DC 2 |
@@ -172,7 +172,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect providers and l
 
 | Location | Providers |
 |----|----|
-| Amsterdam 2 | Epsilon<br />IBM BlueFringe |
+| Amsterdam 2 | Epsilon<br />IBM BlueFringe<br />Megaport |
 | Chicago 1 | Equinix<br />Megaport |
 | Dallas 3 |  CenturyLink Dynamic Connections<br />Equinix<br />IBM BlueFringe<br />IBM Global NPP<br />Neutrona<br />PCCW<br />Zayo |
 | Dallas 4 |  PacketFabric<br />Megaport |
