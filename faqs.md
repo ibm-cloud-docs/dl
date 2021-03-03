@@ -1,10 +1,10 @@
 ---
 
 copyright:
-  years: 2020
-lastupdated: "2020-05-27"
+  years: 2020, 2021
+lastupdated: "2021-03-03"
 
-keywords: faq, faqs, questions, answer, billing, fees, point-to-point, bandwidth, charges, redundancy, global routing, diversity, IPv6, BGP, charges, jumbo frames
+keywords:  
 
 subcollection: dl
 
@@ -94,7 +94,7 @@ Any existing customers on classic IaaS can remain in classic IaaS and continue t
 {:faq}
 {: support}
 
-For the most up-to-date information, see [{{site.data.keyword.dl_short}} Dedicated](/docs/dl?topic=dl-how-to-order-ibm-cloud-dl-dedicated#dedicated-locations) and [{{site.data.keyword.dl_short}} Connect](/docs/dl?topic=dl-how-to-order-ibm-cloud-dl-connect#connect-classic-locations) locations.
+For the most up-to-date information, see [{{site.data.keyword.dl_short}} Dedicated](/docs/dl?topic=dl-how-to-order-ibm-cloud-dl-dedicated#dedicated-locations) and [{{site.data.keyword.dl_short}} Connect](/docs/dl?topic=dl-how-to-order-ibm-cloud-dl-connect#connect-locations) locations.
 
 ## How do I interconnect the classic infrastructure and VPC?
 {: #interconnect}
@@ -252,3 +252,9 @@ Alternatively, some customers set up two links into a different XCR in the same 
 {:faq}
 
 There is no SLA on {{site.data.keyword.dl_short}} today. You can achieve 99.99% effectively with two or more direct links that are properly configured for failover by using BGP, but IBM cannot control that or provide an SLA on it.
+
+## For Direct Link (2.0) offerings, does IBM set a BGP password?
+{: #on-direct-link-exchange-does-ibm-set-a-bgp-password}
+{:faq}
+
+By default, BGP passwords for Direct Link aren't set up. IBM does not support enabling a BGP password.
