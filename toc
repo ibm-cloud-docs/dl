@@ -49,7 +49,7 @@ Direct Link (2.0)
     attaching_connection.md
     editing_gateway.md
     deleting_gateway.md
-    dl-to-cos.md
+    dl-to-cos.md 
     ha-dr.md
     vpe-integration.md
 
