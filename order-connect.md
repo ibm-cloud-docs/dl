@@ -152,7 +152,6 @@ The following table lists {{site.data.keyword.dl_short}} Connect providers and l
 | IBM Global Network Peering Platform (NPP) | **Americas:** Dallas 3, Washington DC 2<br />**EU:** Frankfurt 3, London 1, London 3, London 4 |
 | IBM Power Virtual Server | **Americas:** Dallas 12, Dallas 13, Washington DC 4<br />**APAC:** Osaka 21, Sydney 4, Sydney 5, Tokyo 4<br />**EU:** Frankfurt 4, Frankfurt 5, London 4, London 6 |
 | Intercloud | **EU:** Frankfurt 3 |
-| Interxion | **EU:** Frankfurt 1 |
 | IXReach | **Americas:** Washington DC 2 |
 | Megaport | **Americas:** Chicago 1, Dallas 4, San Jose 2, Toronto 2, Washington DC 2<br />**APAC:** Amsterdam 2, Tokyo 2, Tokyo 3<br />**EU**: Frankfurt 1, London 3, Paris 2, Sydney 2 |
 | NextDC | **APAC:** Sydney 3 |
@@ -178,7 +177,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect providers and l
 | Dallas 4 |  PacketFabric<br />Megaport |
 | Dallas 12 | IBM Power Virtual Server |
 | Dallas 13 | IBM Power Virtual Server |
-| Frankfurt 1 | Interxion<br />Megaport |
+| Frankfurt 1 | Megaport |
 | Frankfurt 3 | DE-CIX<br />Equinix<br />IBM BlueFringe<br />IBM Global NPP<br />Intercloud<br />Vodafone |
 | Frankfurt 4 | IBM Power Virtual Server |
 | Frankfurt 5 | DE-CIX<br />IBM Power Virtual Server |
