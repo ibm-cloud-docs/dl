@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2021
-lastupdated: "2021-03-01"
+lastupdated: "2021-03-12"
 
 keywords:
 
@@ -149,7 +149,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect providers and l
 | Epsilon | **Americas:** Washington DC 2<br />**APAC:** Amsterdam 2<br />**EU:** London 1 |
 | Equinix | **Americas:** Chicago 1, Dallas 3, San Jose 2, Toronto 3, Washington DC 2<br />**APAC:** Osaka 1, Tokyo 3<br />**EU:** Frankfurt 3, London 3, Paris 3 |
 | IBM BlueFringe | **Americas:** Dallas 3, Washington DC 2<br />**APAC:** Amsterdam 2<br />**EU:** Frankfurt 3 |
-| IBM Global Network Peering Platform (NPP) | **Americas:** Dallas 3, Washington DC 2<br />**EU:** Frankfurt 3, London 1, London 3, London 4 |
+| IBM Global Network Peering Platform (NPP) | **Americas:** Dallas 3, Washington DC 2<br />**APAC:** Amsterdam 2<br />**EU:** Frankfurt 3, London 1, London 3, London 4 |
 | IBM Power Virtual Server | **Americas:** Dallas 12, Dallas 13, Washington DC 4<br />**APAC:** Osaka 21, Sydney 4, Sydney 5, Tokyo 4<br />**EU:** Frankfurt 4, Frankfurt 5, London 4, London 6 |
 | Intercloud | **EU:** Frankfurt 3 |
 | IXReach | **Americas:** Washington DC 2 |
@@ -171,7 +171,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect providers and l
 
 | Location | Providers |
 |----|----|
-| Amsterdam 2 | Epsilon<br />IBM BlueFringe<br />Megaport |
+| Amsterdam 2 | Epsilon<br />IBM BlueFringe<br />IBM Global Network Peering Platform (NPP)<br />Megaport |
 | Chicago 1 | Equinix<br />Megaport |
 | Dallas 3 |  CenturyLink Dynamic Connections<br />Equinix<br />IBM BlueFringe<br />IBM Global NPP<br />Neutrona<br />PCCW<br />Zayo |
 | Dallas 4 |  PacketFabric<br />Megaport |
