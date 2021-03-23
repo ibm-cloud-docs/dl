@@ -20,7 +20,6 @@ Direct Link (2.0)
     {: .topicgroup}
     Videos & tutorials
         video-hybrid-cloud.md
-        video-networking-overview.md
         /solution-tutorials/solution-tutorials-secure-network-enclosure
         /solution-tutorials/solution-tutorials-byoip
 
@@ -49,7 +48,7 @@ Direct Link (2.0)
     attaching_connection.md
     editing_gateway.md
     deleting_gateway.md
-    dl-to-cos.md 
+    dl-to-cos.md
     ha-dr.md
     vpe-integration.md
 
