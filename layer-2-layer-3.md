@@ -4,7 +4,7 @@ copyright:
   years: 2018, 2019
 lastupdated: "2019-04-30"
 
-keywords: layer 2, layer 3, interconnect, BGP, XCR
+keywords:  
 
 subcollection: dl
 
@@ -47,7 +47,7 @@ For each VLAN-based virtual circuit, which you create with a Layer-2 partner int
 ## Considerations for Layer-3 connections
 {: #layer-3-networks}
 
-For Layer-3 connections, for each virtual circuit, your service provider establishes a BGP session between {{site.data.keyword.cloud_notm}} XCRs and the provider's edge routers. You do not need to configure BGP with {{site.data.keyword.cloud_notm}} for your on-premises router because your service provider manages the BGP configuration to {{site.data.keyword.cloud_notm}}. 
+For Layer-3 connections, for each virtual circuit, your service provider establishes a BGP session between {{site.data.keyword.cloud_notm}} XCRs and the provider's edge routers. You do not need to configure BGP with {{site.data.keyword.cloud_notm}} for your on-premises router because your service provider manages the BGP configuration to {{site.data.keyword.cloud_notm}}.
 
 When you order {{site.data.keyword.dl_short}} Connect via the IBM Cloud console, you need to populate the Layer-3 provider's ASN for the BGP session, not your customer ASN.
 {: important}
@@ -75,6 +75,7 @@ The following table summarizes the type of connections that each {{site.data.key
 | Console Connect by PCCW | Layer 2 |
 | Digital Realty Service Exchange | Layer 2 |
 | Epsilon | Layer 2 |
+| Equinix Fabric | Layer 2 |
 | EU Networks | Layer 2 |
 | IBM BlueFringe | **Layer 3** |
 | Intercloud | **Layer 3** |
