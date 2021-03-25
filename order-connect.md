@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2021
-lastupdated: "2021-03-12"
+lastupdated: "2021-03-25"
 
 keywords:
 
@@ -145,7 +145,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect providers and l
 | British Telecom | **Americas:** Washington DC 2<br />**EU:** London 3 |  
 | CenturyLink Dynamic Connections | **Americas:** Dallas 3, San Jose 2, Toronto 2, Washington DC 2 |  
 | Cologix | **Americas:** Washington DC 2 |  
-| DE-CIX | **EU:** Frankfurt 3, Frankfurt 5 |
+| DE-CIX | **EU:** Frankfurt 3, Frankfurt 4, Frankfurt 5 |
 | Epsilon | **Americas:** Washington DC 2<br />**APAC:** Amsterdam 2<br />**EU:** London 1 |
 | Equinix | **Americas:** Chicago 1, Dallas 3, San Jose 2, Toronto 3, Washington DC 2<br />**APAC:** Osaka 1, Tokyo 3<br />**EU:** Frankfurt 3, London 3, Paris 3 |
 | IBM BlueFringe | **Americas:** Dallas 3, Washington DC 2<br />**APAC:** Amsterdam 2<br />**EU:** Frankfurt 3 |
@@ -179,7 +179,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect providers and l
 | Dallas 13 | IBM Power Virtual Server |
 | Frankfurt 1 | Megaport |
 | Frankfurt 3 | DE-CIX<br />Equinix<br />IBM BlueFringe<br />IBM Global NPP<br />Intercloud<br />Vodafone |
-| Frankfurt 4 | IBM Power Virtual Server |
+| Frankfurt 4 | DE-CIX<br />IBM Power Virtual Server |
 | Frankfurt 5 | DE-CIX<br />IBM Power Virtual Server |
 | London 1 | Epsilon<br />IBM Global NPP |
 | London 3 | British Telecom<br />Equinix<br />IBM Global NPP<br />Megaport|
