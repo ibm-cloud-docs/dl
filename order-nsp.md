@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2021
-lastupdated: "2021-02-25"
+lastupdated: "2021-03-31"
 
 keywords:  
 
@@ -41,7 +41,7 @@ To order {{site.data.keyword.dl_short}} Dedicated, you must determine the locati
 
 * Before you begin, determine the location connection to IBM Cloud by verifying your colocation provider's or service provider's capabilities to reach the Meet Me Room and cross-connect into IBM Cloud.
 * All subnets of the VPC or classic network will be connected to the direct link. When creating VPCs, make sure to create the VPCs with non-overlapping prefixes and unique subnets. To ensure successful connectivity with the classic infrastructure, do not use IP addresses for your VPCs in the `10.0.0.0/14`, `10.200.0.0/14`, `10.198.0.0/15`, and `10.254.0.0/16` blocks.
-* {{site.data.keyword.cloud_notm}} VPC permits the use of RFC-1918 and IANA-registered IPv4 address space, privately within your VPC, with some exceptions in the IANA special-purpose ranges, and select ranges assigned to {{site.data.keyword.cloud_notm}} services. When using IANA-registered ranges within your enterprise, and within VPCs in conjunction with Direct Link, custom routes must be installed in each zone. For more information, see [Routing considerations for IANA-registered IP assignments](/docs/vpc?topic=vpc-interconnectivity#routing-considerations-iana).
+* {{site.data.keyword.cloud_notm}} VPC permits the use of RFC-1918 and IANA-registered IPv4 address space, privately within your VPC, with some exceptions in the IANA Special-Purpose ranges, and select ranges assigned to {{site.data.keyword.cloud_notm}} services.  When using IANA-registered ranges within your enterprise, and within VPCs in conjunction with {{site.data.keyword.cloud_notm}} Direct Link, custom routes must be installed in each zone. For more information, see [Routing considerations for IANA-registered IP assignments](/docs/vpc?topic=vpc-interconnectivity#routing-considerations-iana).
 
 ## Ordering instructions
 {: #instructions-dedicated}
@@ -160,7 +160,11 @@ The table gives details about the {{site.data.keyword.cloud_notm}} data centers 
 | Dallas 10 | DC(AZ1) | QTS | IRV | 6431 Longhorn Drive |
 | Dallas 12 | DC(AZ2) | Digital Realty | DFW18 | 907 Security Row |
 | Dallas 13 | DC(AZ3) | CyrusOne | Carrollton - Frankford | 1649 W. Frankford Rd |
+| Miami 1 | PoP  | TERREMARK | MI1 | 50 NE 9th Street |
 | San Jose 2 | PoP | Equinix | SV111 | Great Oaks Blvd |
+| Sao Paulo 3 | PoP  | ODATA | SAO03 | 39,2, Estr. dos Romeiros |
+| Sao Paulo 4 | DC(AZ1) | ODATA | SAO04 | 943 - Votuparim, Estr. dos Romeiros |
+| Sao Paulo 5 | DC(AZ2) | ASCENTY | SAO05 | Avenida 2, n.º 50, Quadra G1 1B Parte A Gleba 1B |
 | Seattle 2 | PoP | Digital Reality (The Westin Building) | WBX | 2001 6th Avenue |
 | Toronto 2 | PoP | Cologix | TOR02 | 151 Front Street, Toronto |
 | Toronto 3 | PoP | Equinix| TOR03 | 45 Parliament Street, Toronto |
@@ -174,6 +178,9 @@ The table gives details about the {{site.data.keyword.cloud_notm}} data centers 
 | **APAC** |  |  |  |  |
 | Hong Kong 3 |	PoP |	Equinix |	HKG2 |	17/F Kerry Warehouse |
 | Osaka 1 | PoP | Equinix | OS1 | Nishi-Shinsaibashi Bldg., 1-26-1 Shin-machi, Osaka  |
+| Osaka 21  | DC(AZ1)| SOFTBANK | OSA021 | 6-1 Saitoaokita Mino-shi |
+| Osaka 22  | DC(AZ2) | SOFTBANK | OSA022 | 6-1 Saitoaokita Mino-shi |
+| Osaka 23  | DC(AZ3) | SOFTBANK | OSA023 | 6-1 Saitoaokita Mino-shi |
 | Sydney 1 | DC(AZ1) | Global Switch | SYD01 | 400 Harris Street aka 273 Pyrmont St Ultimo |
 | Sydney 2 | PoP 1 | Equinix | SY3 | 47 Bourke Rd |
 | Sydney 3 | PoP 2 | NextDC | SYD03 | 4 Eden Park Drive, Marquarie Park |
