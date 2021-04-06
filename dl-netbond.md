@@ -47,7 +47,7 @@ Follow these steps to request a VLAN assignment from AT&T NetBond for Cloud:
       Ensure that the range you choose is the range that you specified in the NetBond portal.
       {: note}
 
-   * In the BGP ASN field, specify `8030`.
+   * In the BGP ASN field, specify the ASN provided by AT&T.
 
 1. Open an IBM Support case. For details, see [Create a case](https://cloud.ibm.com/unifiedsupport/cases/add) in the IBM Support Center.
 
