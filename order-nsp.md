@@ -178,9 +178,9 @@ The table gives details about the {{site.data.keyword.cloud_notm}} data centers 
 | **APAC** |  |  |  |  |
 | Hong Kong 3 |	PoP |	Equinix |	HKG2 |	17/F Kerry Warehouse |
 | Osaka 1 | PoP | Equinix | OS1 | Nishi-Shinsaibashi Bldg., 1-26-1 Shin-machi, Osaka  |
-| Osaka 21  | DC(AZ1)| SOFTBANK | OSA021 | 6-1 Saitoaokita Mino-shi |
-| Osaka 22  | DC(AZ2) | SOFTBANK | OSA022 | 6-1 Saitoaokita Mino-shi |
-| Osaka 23  | DC(AZ3) | SOFTBANK | OSA023 | 6-1 Saitoaokita Mino-shi |
+| Osaka 21  | DC(AZ1)| IDC Frontier (SoftBank) | OSA021 | 6-1 Saitoaokita Mino-shi |
+| Osaka 22  | DC(AZ2) | IDC Frontier (SoftBank) | OSA022 | 6-1 Saitoaokita Mino-shi |
+| Osaka 23  | DC(AZ3) | IDC Frontier (SoftBank) | OSA023 | 6-1 Saitoaokita Mino-shi |
 | Sydney 1 | DC(AZ1) | Global Switch | SYD01 | 400 Harris Street aka 273 Pyrmont St Ultimo |
 | Sydney 2 | PoP 1 | Equinix | SY3 | 47 Bourke Rd |
 | Sydney 3 | PoP 2 | NextDC | SYD03 | 4 Eden Park Drive, Marquarie Park |
