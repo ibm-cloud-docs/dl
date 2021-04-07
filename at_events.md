@@ -24,7 +24,7 @@ subcollection: dl
 As a security officer, auditor, or manager, you can use the Activity Tracker service to track how users and applications interact with the {{site.data.keyword.dl_short}} service in {{site.data.keyword.cloud}}.
 {: shortdesc}
 
-{{site.data.keyword.at_full_notm}} records user-initiated activities that change the state of a service in {{site.data.keyword.cloud_notm}}. You can use this service to investigate abnormal activity and critical actions and to comply with regulatory audit requirements. In addition, you can be alerted about actions as they happen. The events that are collected comply with the Cloud Auditing Data Federation (CADF) standard. For more information, see the [getting started tutorial for {{site.data.keyword.at_full_notm}}](/docs/Activity-Tracker-with-LogDNA?topic=Activity-Tracker-with-LogDNA-getting-started).
+{{site.data.keyword.at_full_notm}} records user-initiated activities that change the state of a service in {{site.data.keyword.cloud_notm}}. You can use this service to investigate abnormal activity and critical actions and to comply with regulatory audit requirements. In addition, you can be alerted about actions as they happen. The events that are collected comply with the Cloud Auditing Data Federation (CADF) standard. For more information, see the [getting started tutorial for {{site.data.keyword.at_full_notm}}](/docs/activity-tracker?topic=activity-tracker-getting-started).
 
 ## Events for {{site.data.keyword.dl_short}} Dedicated
 {: #at_actions_dedicated}
@@ -41,7 +41,7 @@ As a security officer, auditor, or manager, you can use the Activity Tracker ser
 {: caption="Table 1. List of {{site.data.keyword.dl_short}} Dedicated gateway events" caption-side="left"}
 {: #simpletabtable1}
 {: tab-title="Dedicated Gateway Events"}
-{: tab-group="connect-simple-1"} 
+{: tab-group="connect-simple-1"}
 
 | Action                      | Description |
 |-----------------------------|---------|
@@ -94,7 +94,7 @@ As a security officer, auditor, or manager, you can use the Activity Tracker ser
 {: caption="Table 5. List of {{site.data.keyword.dl_short}} Connect Gateway Events" caption-side="left"}
 {: #simpletabtable1}
 {: tab-title="Connect Gateway Events"}
-{: tab-group="connect-simple-3"} 
+{: tab-group="connect-simple-3"}
 
 | Action                      | Description |
 |-----------------------------|---------|
@@ -105,8 +105,8 @@ As a security officer, auditor, or manager, you can use the Activity Tracker ser
 {: caption="Table 6. List of {{site.data.keyword.dl_short}} Connect Virtual Connection Events" caption-side="left"}
 {: #simpletabtable2}
 {: tab-title="Connect Virtual Connection Events"}
-{: tab-group="connect-simple-3"} 
- 
+{: tab-group="connect-simple-3"}
+
 
 ### List of data events
 {: #at_data_events_connect}
@@ -119,7 +119,7 @@ As a security officer, auditor, or manager, you can use the Activity Tracker ser
 {: caption="Table 7. List of {{site.data.keyword.dl_short}} Connect Gateway Events" caption-side="left"}
 {: #simpletabtable1}
 {: tab-title="Connect Gateway Events"}
-{: tab-group="connect-simple-4"} 
+{: tab-group="connect-simple-4"}
 
 | Action                      | Description |
 |-----------------------------|---------|
@@ -129,14 +129,14 @@ As a security officer, auditor, or manager, you can use the Activity Tracker ser
 {: caption="Table 8. List of {{site.data.keyword.dl_short}} Connect Virtual Connection Events" caption-side="left"}
 {: #simpletabtable2}
 {: tab-title="Connect Virtual Connection Events"}
-{: tab-group="connect-simple-4"} 
+{: tab-group="connect-simple-4"}
 
 ## Viewing events
 {: #at_ui}
 
 Events are available in the **Frankfurt (eu-de)** region.
 
-To view these events, you must [provision an instance](/docs/services/Activity-Tracker-with-LogDNA?topic=Activity-Tracker-with-LogDNA-provision#provision) of the {{site.data.keyword.at_full_notm}} service in the **Frankfurt (eu-de)** region. Then, you must [open the {{site.data.keyword.at_full_notm}} UI](/docs/Activity-Tracker-with-LogDNA?topic=Activity-Tracker-with-LogDNA-launch).
+To view these events, you must [provision an instance](/docs/activity-tracker?topic=activity-tracker-provision#provision) of the {{site.data.keyword.at_full_notm}} service in the **Frankfurt (eu-de)** region. Then, you must [open the {{site.data.keyword.at_full_notm}} UI](/docs/activity-tracker?topic=activity-tracker-launch).
 
 ## Analyzing events
 {: #at_events_iam_analyze}
@@ -144,7 +144,7 @@ To view these events, you must [provision an instance](/docs/services/Activity-T
 Refer to the following information when analyzing events:
 
 - Use the search bar to search for `action:directlink.connect.virtual-connection` to get the list of events related to Direct Link Connect, or `action:directlink.dedicated.virtual-connection`  to get events that are related to Direct Link Dedicated.
-- The target field identifies the Direct Link gateway assocated with an event. When the gateway exists in a different account or there is no gateway associated with the request, the target is set as `crn:v1:bluemix:public:directlink:global:a/<your account ID>:::`.  Events that don't correspond to a gateway will not have resource group information. For more information about cross-account gateway connections, see [Cross-account (VPC only) network connectivity with Direct Link](/docs/dl?topic=dl-add-virtual-connection#cross-account-virtual-connection). 
+- The target field identifies the Direct Link gateway assocated with an event. When the gateway exists in a different account or there is no gateway associated with the request, the target is set as `crn:v1:bluemix:public:directlink:global:a/<your account ID>:::`.  Events that don't correspond to a gateway will not have resource group information. For more information about cross-account gateway connections, see [Cross-account (VPC only) network connectivity with Direct Link](/docs/dl?topic=dl-add-virtual-connection#cross-account-virtual-connection).
 - Events that report update actions do not include information about the delta of the change.
-- The event's initiator field contains information about who initiated each request. In authorized cross-account scenarios `IBM` is identified as the initiator. 
+- The event's initiator field contains information about who initiated each request. In authorized cross-account scenarios `IBM` is identified as the initiator.
 - The name of the service in {{site.data.keyword.cloud_notm}} is `directlink.connect`; therefore, all AT events have an action formatted as `<svcname>.<object>.<action>`, where `svcname` can be `directlink.connect` or `directlink.dedicated`.
