@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2021
-lastupdated: "2021-03-25"
+lastupdated: "2021-04-08"
 
 keywords:
 
@@ -150,11 +150,11 @@ The following table lists {{site.data.keyword.dl_short}} Connect providers and l
 | Equinix | **Americas:** Chicago 1, Dallas 3, San Jose 2, Toronto 3, Washington DC 2<br />**APAC:** Osaka 1, Tokyo 3<br />**EU:** Frankfurt 3, London 3, Paris 3 |
 | IBM BlueFringe | **Americas:** Dallas 3, Washington DC 2<br />**EU:** Amsterdam 2, Frankfurt 3 |
 | IBM Global Network Peering Platform (NPP) | **Americas:** Dallas 3, Washington DC 2<br />**EU:** Amsterdam 2, Frankfurt 3, London 1, London 3, London 4 |
-| IBM Power Virtual Server | **Americas:** Dallas 12, Dallas 13, Washington DC 4<br />**APAC:** Osaka 21, Sydney 4, Sydney 5, Tokyo 4<br />**EU:** Frankfurt 4, Frankfurt 5, London 4, London 6 |
+| IBM Power Virtual Server | **Americas:** Dallas 12, Dallas 13, Washington DC 4<br />**APAC:** Osaka 21, Tokyo 4<br />**EU:** Frankfurt 4, Frankfurt 5, London 4, London 6, Sydney 4, Sydney 5 |
 | Intercloud | **EU:** Frankfurt 3 |
 | IXReach | **Americas:** Washington DC 2 |
 | Megaport | **Americas:** Chicago 1, Dallas 4, San Jose 2, Toronto 2, Washington DC 2<br />**APAC:** Osaka 1, Tokyo 2, Tokyo 3<br />**EU**: Amsterdam 2, Frankfurt 1, London 3, Paris 2, Sydney 2 |
-| NextDC | **APAC:** Sydney 3 |
+| NextDC | **EU:** Sydney 3 |
 | NTT | **APAC:** Tokyo 5 |
 | Neutrona | **Americas:** Dallas 3, Washington DC 2 |
 | PacketFabric | **Americas:** Dallas 4, Washington DC 2, San Jose 2 |
