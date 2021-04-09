@@ -185,7 +185,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect providers and l
 | London 3 | British Telecom<br />Equinix<br />IBM Global NPP<br />Megaport|
 | London 4 | IBM Global NPP<br />IBM Power Virtual Server |
 | London 6 | IBM Power Virtual Server |
-| Osaka  1 | AT Tokyo<br />Equinix<br /><br />Megaport<br />Tokai |
+| Osaka  1 | AT Tokyo<br />Equinix<br />Megaport<br />Tokai |
 | Osaka 21 |IBM Power Virtual Server |
 | Paris 2 | Megaport |
 | Paris 3 | Equinix |
