@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2021
-lastupdated: "2021-03-03"
+lastupdated: "2021-04-20"
 
 keywords:  
 
@@ -60,34 +60,11 @@ The marketplace has evolved since {{site.data.keyword.dl_short}} Exchange was es
 
 Initial rollout plans are for the Multi-Zone Regions (MZRs) to be prioritized. Other PoPs across the portfolio will support the new {{site.data.keyword.dl_short}} access model, enabling access to the classic infrastructure and VPC expansions as they occur.
 
-## What other locations are in the 2020 roadmap?
-{: #roadmap}
-{: faq}
-{: support}
-
-Six MZRs are in plan for 2020 (Dallas, Frankfurt, London, Sydney, Tokyo, Washington D.C.). In addition, Osaka, Toronto, and Sao Paulo are coming soon.
-
 ## If {{site.data.keyword.dl_short}} (2.0) is not available for Single-Zone Regions (SZRs), how do financial services clients handle the data that they need to keep in their regions?
 {: #roadmap-szrs}
 {: faq}
 
 Any existing customers on classic IaaS can remain in classic IaaS and continue to access classic IaaS data centers using {{site.data.keyword.dl_short}} (2.0) or {{site.data.keyword.dlc_full_notm}}. VPC connectivity is fully supported ONLY on {{site.data.keyword.dl_short}} (2.0).
-
-## Will {{site.data.keyword.dl_short}} (2.0) be available in all IBM Cloud data centers?
-{: #dc}
-{: faq}
-{: support}
-
-{{site.data.keyword.dl_short}} will be available in the following data centers by the end of 2020:
-
-| Region | Zone | Data Center |
-|:---|:---|:---|
-| us-south | us-south-1<br />us-south-2<br />us-south-3 | DAL10<br />DAL12<br />DAL13 |
-| eu-de | eu-de-1<br />eu-de-2<br />eu-de-3 | FRA02<br />FRA04<br />FRA05 |
-| jp-tok | jp-tok-1<br />jp-tok-2<br />jp-tok-3 | TOK02<br />TOK04<br />TOK05 |
-| eu-gb | eu-gb-1<br />eu-gb-2<br />eu-gb-3 | LON04<br />LON05<br />LON06 |
-| au-syd | au-syd-1<br />au-sy-2<br />au-syd-3 | SYD01<br />SYD04<br />SYD05 |
-| us-east | us-east-1<br />us-east-2<br />us-east-3 | WDC-04<br />WDC06<br />WDC07 |
 
 ## Where are the  {{site.data.keyword.dl_short}} (2.0) offerings enabled?
 {: #offerings-enabled}
