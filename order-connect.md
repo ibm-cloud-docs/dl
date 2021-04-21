@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2021
-lastupdated: "2021-04-19"
+lastupdated: "2021-04-20"
 
 keywords:
 
@@ -141,7 +141,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect providers and l
 | Provider | Locations |
 |----|----|
 | At Tokyo | **APAC:** Osaka 1, Tokyo 2 |
-| AT&T NetBond for Cloud | **Americas:** Washington DC 2 |
+| AT&T NetBond for Cloud | **Americas:** Dallas 3, Washington DC 2 |
 | British Telecom | **Americas:** Washington DC 2<br />**EU:** London 3 |  
 | CenturyLink Dynamic Connections | **Americas:** Dallas 3, San Jose 2, Toronto 2, Washington DC 2 |  
 | Cologix | **Americas:** Washington DC 2 |  
@@ -173,7 +173,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect providers and l
 |----|----|
 | Amsterdam 2 | Epsilon<br />IBM BlueFringe<br />IBM Global Network Peering Platform (NPP)<br />Megaport |
 | Chicago 1 | Equinix<br />Megaport |
-| Dallas 3 |  CenturyLink Dynamic Connections<br />Equinix<br />IBM BlueFringe<br />IBM Global NPP<br />Neutrona<br />PCCW<br />Zayo |
+| Dallas 3 |  AT&T NetBond for Cloud<br />CenturyLink Dynamic Connections<br />Equinix<br />IBM BlueFringe<br />IBM Global NPP<br />Neutrona<br />PCCW<br />Zayo |
 | Dallas 4 |  PacketFabric<br />Megaport |
 | Dallas 12 | IBM Power Virtual Server |
 | Dallas 13 | IBM Power Virtual Server |
