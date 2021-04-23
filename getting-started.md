@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020
-lastupdated: "2020-06-04"
+  years: 2020, 2021
+lastupdated: "2021-04-22"
 
 keywords: multi-cloud, data transfer, interconnectivity, direct link
 
@@ -39,7 +39,7 @@ Highlights include:
 * Metered billing, which lowers the barrier of entry to {{site.data.keyword.cloud_notm}}
 * Support for connections to multiple {{site.data.keyword.cloud_notm}} accounts from a single direct link
 * Support for multiple VPCs (without classic access) from a single direct link within the same account
-* Bring Your Own IP (BYOIP) address to create native connectivity between your on-premises environment and {{site.data.keyword.cloud_notm}}
+* Bring Your Own IP (BYOIP) address to create native connectivity between your on-premises environment and {{site.data.keyword.cloud_notm}} 
 
 Features coming soon:
 
@@ -71,3 +71,6 @@ To get started using {{site.data.keyword.dl_full_notm}} Connect, follow these [i
 * If you require a diverse, redundant, or multi-cloud deployment for Direct Link Connect, see [Alternatives for your Direct Link Connect (2.0) deployment](/docs/dl?topic=dl-alternatives-for-your-ibm-cloud-direct-link-deployment).
 
 * For more information about {{site.data.keyword.dl_short}} (2.0) offerings, see our [FAQs](/docs/dl?topic=dl-faqs).
+
+Currently, there isn't a migration path from {{site.data.keyword.dlc_short}} offerings to {{site.data.keyword.dl_short}} (2.0). You must order a new {{site.data.keyword.dl_short}} (2.0) Dedicated or {{site.data.keyword.dl_short}} (2.0) Connect connection.
+{: note}
