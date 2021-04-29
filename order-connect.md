@@ -144,7 +144,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect providers and l
 | At Tokyo | **APAC:** Osaka 1, Tokyo 2 |
 | AT&T NetBond for Cloud | **Americas:** Dallas 3, Washington DC 2 |
 | BBIX | **APAC:** Tokyo 1, Tokyo 3 |
-| British Telecom | **Americas:** Washington DC 2<br />**EU:** London 3 |  
+| British Telecom | **Americas:** Washington DC 2<br />**EU:** Frankfurt 1, Frankfurt 3, London 3 |  
 | CenturyLink Dynamic Connections | **Americas:** Dallas 3, San Jose 2, Toronto 2, Washington DC 2 |  
 | Cologix | **Americas:** Washington DC 2 |  
 | DE-CIX | **EU:** Frankfurt 3, Frankfurt 4, Frankfurt 5 |
@@ -179,8 +179,8 @@ The following table lists {{site.data.keyword.dl_short}} Connect providers and l
 | Dallas 4 |  PacketFabric<br />Megaport |
 | Dallas 12 | IBM Power Virtual Server |
 | Dallas 13 | IBM Power Virtual Server |
-| Frankfurt 1 | Megaport |
-| Frankfurt 3 | DE-CIX<br />Equinix<br />IBM BlueFringe<br />IBM Global NPP<br />Intercloud<br />Vodafone |
+| Frankfurt 1 | British Telecom<br />Megaport |
+| Frankfurt 3 | British Telecom<br />DE-CIX<br />Equinix<br />IBM BlueFringe<br />IBM Global NPP<br />Intercloud<br />Vodafone |
 | Frankfurt 4 | DE-CIX<br />IBM Power Virtual Server |
 | Frankfurt 5 | DE-CIX<br />IBM Power Virtual Server |
 | London 1 | Epsilon<br />IBM Global NPP |
