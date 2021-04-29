@@ -166,8 +166,9 @@ The table gives details about the {{site.data.keyword.cloud_notm}} data centers 
 | Sao Paulo 4 | DC(AZ1) | ODATA | SAO04 | 943 - Votuparim, Estr. dos Romeiros |
 | Sao Paulo 5 | DC(AZ2) | ASCENTY | SAO05 | Avenida 2, n.º 50, Quadra G1 1B Parte A Gleba 1B |
 | Seattle 2 | PoP | Digital Reality (The Westin Building) | WBX | 2001 6th Avenue |
+| Toronto 1 | DC | Digital Realty | TOR01 | 371 Gough Rd Suite #130 Markham, Ontario |
 | Toronto 2 | PoP | Cologix | TOR02 | 151 Front Street, Toronto |
-| Toronto 3 | PoP | Equinix| TOR03 | 45 Parliament Street, Toronto |
+| Toronto 3 | PoP | Equinix | TOR03 | 45 Parliament Street, Toronto |
 | Toronto 4 | DC(AZ1) | Server Farm | TOR04 | 300 Bartor Road, North York |
 | Toronto 5 | DC(AZ2) | Digital Reality | TOR05 | 1 Century Place, Vaughan |
 | Washington DC 2 | PoP 1 | Equinix | DC2 | 21715 Filigree Ct |
