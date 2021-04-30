@@ -58,7 +58,7 @@ Using VRF, {{site.data.keyword.cloud_notm}} tenants are allowed to use remote IP
    * 166.9.0.0/16( used by the private endpoint service)
    * Any IP ranges assigned to your VLANs on the IBM platform.
 
-The following ranges are now available with {{site.data.keyword.cloud_notm}} Direct Link 2.0 and VPC Gen 2 only:
+The following ranges are now available with {{site.data.keyword.cloud_notm}} Direct Link 2.0 only:
 
    * 10.0.0.0/14
    * 10.200.0.0/14
