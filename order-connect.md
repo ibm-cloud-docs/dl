@@ -143,7 +143,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect providers and l
 | Ascenty | **Americas:** Sao Paulo 5 |
 | At Tokyo | **APAC:** Osaka 1, Tokyo 2 |
 | AT&T NetBond for Cloud | **Americas:** Dallas 3, Washington DC 2 |
-| BBIX | **APAC:** Tokyo 1, Tokyo 3 |
+| BBX | **APAC:** Tokyo 1, Tokyo 3 |
 | British Telecom | **Americas:** Washington DC 2<br />**EU:** Frankfurt 1, Frankfurt 3, London 3 |  
 | CenturyLink Dynamic Connections | **Americas:** Dallas 3, San Jose 2, Toronto 2, Washington DC 2 |  
 | Cologix | **Americas:** Washington DC 2 |  
@@ -197,9 +197,9 @@ The following table lists {{site.data.keyword.dl_short}} Connect providers and l
 | Sydney 3 | NextDC |
 | Sydney 4 | IBM Power Virtual Server |
 | Sydney 5 | IBM Power Virtual Server |
-| Tokyo 1 | BBIX |
+| Tokyo 1 | BBX |
 | Tokyo 2 | AT Tokyo<br />Megaport |
-| Tokyo 3 | BBIX<br />Equinix<br />Megaport<br />Tokai |
+| Tokyo 3 | BBX<br />Equinix<br />Megaport<br />Tokai |
 | Tokyo 4 | IBM Power Virtual Server<br />Softbank |
 | Tokyo 5 | NTT |
 | Toronto 1 | IBM Power Virtual Server |
