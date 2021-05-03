@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2021
-lastupdated: "2021-04-29"
+lastupdated: "2021-05-03"
 
 keywords:
 
@@ -145,6 +145,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect providers and l
 | AT&T NetBond for Cloud | **Americas:** Dallas 3, Washington DC 2 |
 | BBX | **APAC:** Tokyo 1, Tokyo 3 |
 | British Telecom | **Americas:** Washington DC 2<br />**EU:** Frankfurt 1, Frankfurt 3, London 3 |  
+| China Unicom | **APAC:** Hong Kong 3 |
 | CenturyLink Dynamic Connections | **Americas:** Dallas 3, San Jose 2, Toronto 2, Washington DC 2 |  
 | Cologix | **Americas:** Washington DC 2 |  
 | DE-CIX | **EU:** Frankfurt 3, Frankfurt 4, Frankfurt 5 |
@@ -183,6 +184,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect providers and l
 | Frankfurt 3 | British Telecom<br />DE-CIX<br />Equinix<br />IBM BlueFringe<br />IBM Global NPP<br />Intercloud<br />Vodafone |
 | Frankfurt 4 | DE-CIX<br />IBM Power Virtual Server |
 | Frankfurt 5 | DE-CIX<br />IBM Power Virtual Server |
+| Hong Kong 3 | China Unicom |
 | London 1 | Epsilon<br />IBM Global NPP |
 | London 3 | British Telecom<br />Equinix<br />IBM Global NPP<br />Megaport|
 | London 4 | IBM Global NPP<br />IBM Power Virtual Server |
