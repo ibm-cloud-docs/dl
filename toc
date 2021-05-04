@@ -19,8 +19,7 @@ Direct Link (2.0)
 
     {: .topicgroup}
     Videos & tutorials
-        video-hybrid-cloud.md
-        /solution-tutorials/solution-tutorials-secure-network-enclosure
+        video-hybrid-cloud.md 
         /solution-tutorials/solution-tutorials-byoip
 
     {: .topicgroup}
