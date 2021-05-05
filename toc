@@ -19,7 +19,7 @@ Direct Link (2.0)
 
     {: .topicgroup}
     Videos & tutorials
-        video-hybrid-cloud.md 
+        video-hybrid-cloud.md
         /solution-tutorials/solution-tutorials-byoip
 
     {: .topicgroup}
@@ -74,6 +74,11 @@ Direct Link (2.0)
 
     {: .navgroup id="help"}
     faqs.md
+
+    {: .topicgroup}
+    Troubleshooting Direct Link
+          maintenance.md
+          
     known-limitations.md
     getting-help.md
     {: .navgroup-end}
