@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020
-lastupdated: "2020-05-27"
+  years: 2020, 2021
+lastupdated: "2021-03-19"
 
 keywords: pricing
 
@@ -63,6 +63,9 @@ The following tables list the pricing for metered and unmetered port charges.
 ### Metered  
 {: #pricing-for-dl-port-charges-metered}
 
+Provider speeds greater than 10 Gbps for Direct Link Connect incur metered billing only.
+{: important}
+
 | Speed | Global |
 |----|----|
 |  50 Mbps |   $40 |
@@ -73,6 +76,10 @@ The following tables list the pricing for metered and unmetered port charges.
 |   2 Gbps |  $500 |
 |   5 Gbps |$1,200 |
 |  10 Gbps |$1,800 |
+|  25 Gbps (IBM Connect only) |$2,999 |
+|  40 Gbps (IBM Connect only) |$6,999 |
+|  50 Gbps (IBM Connect only) |$7,999 |
+| 100 Gbps (IBM Connect only)|$12,999 |
 {: caption="Table 2. {{site.data.keyword.dl_short}} metered port charges" caption-side="top"}
 
 Metered port fee pricing is determined by the bandwidth speed of the port.
@@ -105,16 +112,4 @@ Local routing is the default routing option. It provides access to data centers 
 ### Global routing charges
 {: #pricing-global-routing-charges}
 
-Global routing expands access to include all {{site.data.keyword.cloud_notm}} data centers globally. Bandwidth is unmetered and charged monthly based on the market. Details on the markets and other considerations can be found in our [FAQs](/docs/dl?topic=dl-faqs).
-
-| Speed | Global |
-|----|----|
-|  50 Mbps |   $55 |
-| 100 Mbps |   $75 |
-| 200 Mbps |  $110 |
-| 500 Mbps |  $320 |
-|   1 Gbps |  $650 |
-|   2 Gbps |$1,200 |
-|   5 Gbps |$2,500 |
-|  10 Gbps |$2,500 |
-{: caption="Table 4. {{site.data.keyword.dl_short}} global routing charges" caption-side="top"}
+Global routing expands access to include all {{site.data.keyword.cloud_notm}} data centers globally. There's no charge for Global routing. Details on the markets and other considerations can be found in our [FAQs](/docs/dl?topic=dl-faqs).
