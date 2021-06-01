@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2021
-lastupdated: "2021-02-14"
+lastupdated: "2021-05-24"
 
 keywords:
 
@@ -59,6 +59,8 @@ For Exchange on Classic instructions, see [Steps to order Direct Link Exchange o
 The IBM Special Network Services (SNS) team receives your request and is able approve the connection in the buyer-side portal. You can view your newly created virtual connection for Direct Link by going to **Connections**. The connection will be in a pending, provisioning state (**Pending Provider VLAN**).
 
 Accept the connection request by navigating to the IBM Cloud Direct Link page and clicking **Accept** from the Action menu. The virtual connection shows as **Provisioned** in the Equinix Fabric portal.
+
+Optionally, you can enable BGP MD5 authentication to secure the BGP session by allowing routing messages only from routers using a shared authentication key. For more information, see [Enabling Message Digest 5 authentication](/docs/dl?topic=dl-dl-md5).
 
 The timeline for approval is within 24 hours. If the 24-hour Service Level Agreement (SLA) is not acceptable, you can [create an IBM Support case](https://cloud.ibm.com/unifiedsupport/cases/form) and request that it be routed to the SNS team.
 {: note}

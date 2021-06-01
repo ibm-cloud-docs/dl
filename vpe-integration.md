@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2021
-lastupdated: "2021-03-04"
+lastupdated: "2021-05-28"
 
 keywords: vpe
 
@@ -10,15 +10,26 @@ subcollection: dl
 
 ---
 
+
 {:shortdesc: .shortdesc}
-{:new_window: target="_blank_"}
+{:new_window: target="_blank"}
 {:codeblock: .codeblock}
 {:pre: .pre}
 {:screen: .screen}
-{:tip: .tip}
-{:download: .download}
+{:term: .term}
 {:note: .note}
+{:tip: .tip}
 {:important: .important}
+{:external: target="_blank_" .external}
+{:generic: data-hd-programlang="generic"}
+{:download: .download}
+{:DomainName: data-hd-keyref="DomainName"}
+{:help: data-hd-content-type='help'}
+{:support: data-reuse='support'}
+{:ui: .ph data-hd-interface='ui'}
+{:cli: .ph data-hd-interface='cli'}
+{:api: .ph data-hd-interface='api'}
+{:terraform: .ph data-hd-interface='terraform'}
 
 # Integrating with Virtual Private Endpoint for VPC
 {: #vpe-for-ibm-cloud-direct-link}
@@ -35,6 +46,7 @@ Follow instructions in [Getting started](/docs/vpc?topic=vpc-about-vpe#vpe-getti
 
 ### Using the CLI
 {: #vpe-setup-cli}
+{: cli}
 
 After creating an endpoint gateway for Direct Link, follow these steps:
 
@@ -53,6 +65,7 @@ After creating an endpoint gateway for Direct Link, follow these steps:
 
 ### Using the VPE for VPC API
 {: #vpe-setup-api}
+{: api}
 
 After creating an endpoint gateway for the {{site.data.keyword.dl_short}} service, use the service endpoints FQDN `private.directlink.cloud.ibm.com` in the URL to access the service. For example:
 
@@ -63,6 +76,7 @@ curl https://private.directlink.cloud.ibm.com/v1/direct_links?version='2020-03-3
 
 ### Using the SDK
 {: #dl-sdk}
+{: api}
 
 After creating an endpoint gateway for {{site.data.keyword.dl_full_notm}}, you must use the private endpoint's FQDN when setting the service's FQDN during construction of the Direct Link gateway service object.
 
@@ -73,6 +87,7 @@ For examples of setting the service's FQDN for the specific SDK language, see [S
 
 ### Using Terraform
 {: #using-terraform}
+{: terraform}
 
 If you plan to access the Direct Link service using Terraform, make sure to set the `IBMCLOUD_DL_API_ENDPOINT` environment variable to `private.directlink.cloud.ibm.com`. For example:
 

@@ -16,6 +16,7 @@ Direct Link (2.0)
         alternative-deployments.md
         layer-2-layer-3.md
         ecmp.md
+        dl-md5-authentication.md
 
     {: .topicgroup}
     Videos & tutorials
@@ -78,7 +79,7 @@ Direct Link (2.0)
     {: .topicgroup}
     Troubleshooting Direct Link
           maintenance.md
-          
+
     known-limitations.md
     getting-help.md
     {: .navgroup-end}
