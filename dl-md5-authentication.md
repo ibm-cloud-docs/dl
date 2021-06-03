@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-6-01"
+lastupdated: "2021-6-03"
 
 keywords:  
 
@@ -38,7 +38,7 @@ You can store your keys in either Key Protect or Hyper Protect Crypto Services (
 
 1. Set up a key store instance with keys. For instructions, see [Key Protect: Getting started with encryption keys](/docs/key-protect?topic=key-protect-getting-started-tutorial) or [HPCS: Creating and importing encryption keys](/docs/hs-crypto?topic=hs-crypto-tutorial-import-keys).
 
-   BGP MD5 keys must be type-standard. The key material that you provide must be base64-encoded and the original string cannot exceed a maximum of 126 ASCII characters in length. Also, for HPCS, the key must be created as an imported standard key. For information about creating base64-encoded encryption keys, see the next section.
+   BGP MD5 keys must be type-standard. The key material that you provide must be base64-encoded and the original string cannot exceed a maximum of 126 ASCII characters in length. For information about creating base64-encoded encryption keys, see [Creating base64-encoded encryption keys](/docs/dl?topic=dl-dl-md5#create-encryption-keys).
    {: note}
 
 1. After you create encryption keys for Direct Link, use IBM Cloud Identity and Access Management (IAM) to grant authorization between your instance and the Direct Link service. You can grant access at the instance level, which grants the Direct Link service access to all the keys inside that instance. You can also grant access on a key-by-key basis. For instructions, see [Using authorizations to grant access between services](/docs/account?topic=account-serviceauth).
