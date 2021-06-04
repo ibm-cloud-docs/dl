@@ -38,7 +38,11 @@ Pricing for {{site.data.keyword.dl_full}} (2.0) offerings is consistent for equi
 ## Arranging for {{site.data.keyword.dl_short}} connectivity  
 {: #arranging-for-dl-conectivity}
 
-You, the customer, must arrange connectivity and billing with your service providers, independently of {{site.data.keyword.cloud_notm}}. {{site.data.keyword.dl_short}} creates a Letter Of Authorization / Connecting Facility Assignment (LOA/CFA) which is usable by any service provider who can reach the Meet Me Room that is specified on that LOA/CFA. The provider who is connecting to the LOA/CFA must include pricing for the cross-connect in their quote to you. {{site.data.keyword.cloud_notm}} does not order cross-connects on behalf of any customer.
+You, the customer, must arrange connectivity and billing with your service providers, independently of {{site.data.keyword.cloud_notm}}.
+
+{{site.data.keyword.dl_short}} Dedicated creates a Letter Of Authorization / Connecting Facility Assignment (LOA/CFA) which is usable by any service provider who can reach the Meet Me Room that is specified on that LOA/CFA. The provider who is connecting to the LOA/CFA must include pricing for the cross-connect in their quote to you. {{site.data.keyword.cloud_notm}} does not order cross-connects on behalf of any customer.
+
+{{site.data.keyword.dl_short}} Connect uses pre-established physical connections to support virtual connections that Do Not need a LOA/CFA, but do require ordering from the Service Provider. 
 
 ## Pricing for port charges
 {: #pricing-for-dl-port-charges}
@@ -112,4 +116,8 @@ Local routing is the default routing option. It provides access to data centers 
 ### Global routing charges
 {: #pricing-global-routing-charges}
 
-Global routing expands access to include all {{site.data.keyword.cloud_notm}} data centers globally. There's no charge for Global routing. Details on the markets and other considerations can be found in our [FAQs](/docs/dl?topic=dl-faqs).
+Global routing expands access to include all {{site.data.keyword.cloud_notm}} data centers globally. There's no charge for Global routing on Direct Link 2.0.
+
+Direct Link Classic will still carry the Global Routing charge.  
+
+Details on the markets and other considerations can be found in our [FAQs](/docs/dl?topic=dl-faqs).
