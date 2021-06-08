@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2021
-lastupdated: "2021-05-03"
+lastupdated: "2021-06-07"
 
 keywords:
 
@@ -164,7 +164,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect providers and l
 | PCCW | **Americas:** Dallas 3 |
 | SoftBank | **APAC:** Tokyo 4 |
 | Tokai | **APAC:** Osaka 1, Tokyo 3 |
-| Vodafone | **EU:** Frankfurt 3 |
+| Vodafone | **EU:** Frankfurt 3, London 1 |
 | Zayo | **Americas:** Dallas 3, Toronto 2 |
 {: class="simple-tab-table"}
 {: caption="Table 1. Direct Link Connect by Provider" caption-side="left"}
@@ -185,7 +185,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect providers and l
 | Frankfurt 4 | DE-CIX<br />IBM Power Virtual Server |
 | Frankfurt 5 | DE-CIX<br />IBM Power Virtual Server |
 | Hong Kong 3 | China Unicom |
-| London 1 | Epsilon<br />IBM Global NPP |
+| London 1 | Epsilon<br />IBM Global NPP<br />Vodafone |
 | London 3 | British Telecom<br />Equinix<br />IBM Global NPP<br />Megaport|
 | London 4 | IBM Global NPP<br />IBM Power Virtual Server |
 | London 6 | IBM Power Virtual Server |
