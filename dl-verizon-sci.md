@@ -83,7 +83,5 @@ The IBM Special Network Services (SNS) team receives your request and is able ap
 
 Accept the connection request by navigating to the IBM Cloud Direct Link page and clicking **Accept** from the Action menu. The Direct Link Gateway BGP Status shows as **Established** in the IBM Cloud Console, and **Provisioned** in the Equinix Fabric portal.
 
-Optionally, you can enable BGP MD5 authentication to secure the BGP session by allowing routing messages only from routers using a shared authentication key. For more information, see [Enabling Message Digest 5 authentication](/docs/dl?topic=dl-dl-md5).
-
 The timeline for approval is within 24-48 hours. If the 48-hour Service Level Agreement (SLA) is not acceptable, you can create an [IBM Support case](https://cloud.ibm.com/unifiedsupport/cases/form) and request that it be routed to the SNS team.
 {: note}
