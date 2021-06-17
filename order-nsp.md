@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2021
-lastupdated: "2021-05-12"
+lastupdated: "2021-06-16"
 
 keywords:  
 
@@ -81,7 +81,7 @@ To order {{site.data.keyword.dl_full}} Dedicated, follow these steps.
 
    ![Location section](/images/dl-location.png)   
 
-1. In the BGP and connections section, complete the following information:
+1. {: #dl-dedicated-bgp}In the BGP and connections section, complete the following information:
 
    * Select the IBM cross-connect router for the {{site.data.keyword.dl_short}} connection. The number of direct links associated with your account for each router is shown next to the router name.   
    * Select a BGP peering subnet for the {{site.data.keyword.dl_short}} connection. There are two choices for BGP subnets.
@@ -180,7 +180,7 @@ The table gives details about the {{site.data.keyword.cloud_notm}} data centers 
 | **APAC** |  |  |  |  |
 | Hong Kong 3 |	PoP |	Equinix |	HKG2 |	17/F Kerry Warehouse |
 | Osaka 1 | PoP | Equinix | OS1 | Nishi-Shinsaibashi Bldg., 1-26-1 Shin-machi, Osaka  |
-| Osaka 21  | DC(AZ1)| IDC Frontier (SoftBank) | OSA021 | 6-1 Saitoaokita Mino-shi |
+| Osaka 21  | DC(AZ1) |  IDC Frontier (SoftBank) | OSA021 | 6-1 Saitoaokita Mino-shi |
 | Osaka 22  | DC(AZ2) | IDC Frontier (SoftBank) | OSA022 | 6-1 Saitoaokita Mino-shi |
 | Osaka 23  | DC(AZ3) | IDC Frontier (SoftBank) | OSA023 | 6-1 Saitoaokita Mino-shi |
 | Sydney 1 | DC(AZ1) | Global Switch | SYD01 | 400 Harris Street aka 273 Pyrmont St Ultimo |
@@ -206,4 +206,5 @@ The table gives details about the {{site.data.keyword.cloud_notm}} data centers 
 | London 4 | DC(AZ1) | ARK | A103 | A57 Cody Technology Park Old, Victor Way, Farnborough |
 | London 5 | DC(AZ2) | Gyron |  | Maxted Cl, Hemel Hempstead  |
 | London 6 | DC(AZ3) | CyrusOne (Zenium) | LON1 | 12 Liverpool Rd, Trading Estate |
+| Milan 2 | PoP | Infracom Italia | Infracom 21 Via Caldera Way | Infracom Italia Spa, Building D, Caldera Business Park, Via Caldera, 21 |
 | Paris 3 | PoP | Equinix | PA3 | 114 Rue Ambroise Croizat, Saint Denis |
