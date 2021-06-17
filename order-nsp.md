@@ -82,7 +82,7 @@ To order {{site.data.keyword.dl_full}} Dedicated, follow these steps.
       Speeds above 1 Gbps require 10 Gbps service from the client's carrier and equipment. If you intend to upgrade the speed for this gateway, select 2 Gbps to start with; otherwise, you will not be able to upgrade to a higher speed on this gateway.
       {: tip}
 
-      ![Gateway section](/images/dl-location-connect.png)   
+      ![Gateway section](/images/dl-config-dedicated.png)   
 
    The routing option that you select determines the reachability of the resources in the selected location. If you select the **Global** routing option along with your location selections, the **Region** menu list displays all the regions that are globally available in the specific account. After selecting a region, you can select any VPC from the **Available connections** menu. If you select **Local** routing, then only the region that corresponds to the selected location is available to select. When selected, the VPCs available in the local region for your account are shown.
    {: note}
