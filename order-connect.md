@@ -113,7 +113,7 @@ To order Direct Link Connect, follow these steps:
       * **For Layer-3 providers only**: You must specify the carrier's ASN, not your own. For a list of carrier interconnection types, see [Comparing Layer-2 and Layer-3 connections for {{site.data.keyword.dl_short}}](/docs/dl?topic=dl-comparing-layer-2-layer-3).
       * Excluded ASNs: `0`, `13884`, `36351`, `64512`, `64513`, `65100`, `65201-65234`, `65402-65433`, `65500`, and `420106500-4201065999`.
 
-   ![BGP section](/images/dl-bgp-connect.png)  
+      ![BGP section](/images/dl-bgp-connect.png)  
 
 1. In the Connections section, select the type of network connection that you want to bind to the {{site.data.keyword.dl_short}} gateway. You can select a connection type when you create a direct link, or after your direct link is provisioned.
 
@@ -122,7 +122,7 @@ To order Direct Link Connect, follow these steps:
       * **Classic infrastructure** networks allow you to connect to {{site.data.keyword.cloud_notm}} classic resources. Only one classic infrastructure connection is allowed per {{site.data.keyword.dl_short}} gateway.
       * **VPC** networks can contain either first or second generation compute resources, allowing you to connect to your account’s VPC resources.
 
-   ![Connections section](/images/dl-conn-connect.png) 
+      ![Connections section](/images/dl-conn-connect.png)
 
       You cannot request a connection to a network in another account when you create a gateway. However, you can request a connection to a network in another account after a gateway is provisioned. You also can create classic infrastructure and VPC connections after a gateway is created. To learn more, see [Adding virtual connections to a {{site.data.keyword.dl_short}} gateway](/docs/dl?topic=dl-add-virtual-connection).
       {:tip}
