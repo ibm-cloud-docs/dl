@@ -41,7 +41,8 @@ To order {{site.data.keyword.dl_short}} Dedicated, you must determine the locati
 
 * Before you begin, determine the location connection to IBM Cloud by verifying your colocation provider's or service provider's capabilities to reach the Meet Me Room and cross-connect into IBM Cloud.
 * All subnets of the VPC or classic network will be connected to the direct link. When creating VPCs, make sure to create the VPCs with non-overlapping prefixes and unique subnets. To ensure successful connectivity with the classic infrastructure, do not use IP addresses for your VPCs in the `10.0.0.0/14`, `10.200.0.0/14`, `10.198.0.0/15`, and `10.254.0.0/16` blocks.
-* {{site.data.keyword.cloud_notm}} VPC permits the use of RFC-1918 and IANA-registered IPv4 address space, privately within your VPC, with some exceptions in the IANA Special-Purpose ranges, and select ranges assigned to {{site.data.keyword.cloud_notm}} services.  When using IANA-registered ranges within your enterprise, and within VPCs in conjunction with {{site.data.keyword.cloud_notm}} Direct Link, custom routes must be installed in each zone. For more information, see [Routing considerations for IANA-registered IP assignments](/docs/vpc?topic=vpc-interconnectivity#routing-considerations-iana).
+* A Generic Routing Encapsulation (GRE)/IPsec tunneling requirement between a customer edge router (CER) and a customer virtual router in {{site.data.keyword.cloud_notm}} requires a non-conflicting subnet when ordering. Default addresses for Direct Link 2.0 are non-routable and do not support tunneling.
+* {{site.data.keyword.cloud_notm}} VPC permits the use of RFC-1918 and IANA-registered IPv4 address space, privately within your VPC, with some exceptions in the IANA Special-Purpose ranges, and select ranges assigned to {{site.data.keyword.cloud_notm}} services. When using IANA-registered ranges within your enterprise, and within VPCs in conjunction with {{site.data.keyword.cloud_notm}} Direct Link, custom routes must be installed in each zone. For more information, see [Routing considerations for IANA-registered IP assignments](/docs/vpc?topic=vpc-interconnectivity#routing-considerations-iana).
 
 ## Ordering instructions
 {: #instructions-dedicated}
@@ -53,35 +54,44 @@ To order {{site.data.keyword.dl_full}} Dedicated, follow these steps.
 1. Click Menu ![Menu icon](images/menu_icon.png) on the upper left, then click **Interconnectivity**.
 1. Scroll to locate the Dedicated tile, then click **Order {{site.data.keyword.dl_short}}** to order.
 
+   ![Direct Link offering tiles](/images/dl_options.png)  
+
    Alternatively, you can click **Direct Link** in the left navigation pane to view the Direct Link page, which lists existing Direct Link instances. From this page, you can click **Order Direct Link** > **Direct Link Dedicated** tile.
    {: tip}
 
-1. Optionally, click **Open checklist** to review the ordering process (described in [Completing the connection](/docs/dl?topic=dl-how-to-order-ibm-cloud-dl-dedicated#complete-connection)).
-1. In the Configuration section, complete the following information:
+1. In the Before you begin section, click **Open checklist** to review the ordering process (also described in [Completing the connection](/docs/dl?topic=dl-how-to-order-ibm-cloud-dl-dedicated#complete-connection)).
+
+   ![Before you begin section](/images/dl-before-you-begin.png)  
+
+1. In the Resource section, complete the following information:
    * Type a name for your {{site.data.keyword.dl_short}} Dedicated connection.
-   * Choose a resource group to create the {{site.data.keyword.dl_short}} connection. Resource groups help manage and contain resources associated with an account. Select **Default** if you don't have other groups defined in the drop-down list.
+   * Choose a resource group to create the {{site.data.keyword.dl_short}} connection. Resource groups help manage and contain resources associated with an account. Select **Default** if you don't have other groups defined in the drop-down list. For more information about resource groups, see [Best practices for organizing resources in a resource group](/docs/account?topic=account-account_setup).    
+   * Type your customer and carrier names.
 
-   For more information about resource groups, see [Best practices for organizing resources in a resource group](/docs/account?topic=account-account_setup).
-   {: note}
+      ![Resource section](/images/dl-resource-dedicated.png)
 
-   * Choose a connection speed. The speeds supported for the {{site.data.keyword.dl_short}} Dedicated offering are 1 Gbps, 2 Gbps, 5 Gbps, and 10 Gbps.
+1. In the Gateway section, complete the following:
 
-   Speeds above 1 Gbps require 10 Gbps service from the client's carrier and equipment. If you intend to upgrade the speed for this gateway, select 2 Gbps to start with; otherwise, you will not be able to upgrade to a higher speed on this gateway.
-   {: tip}
-
-   * Type your company name and carrier provider.
-   * For Billing, select **Metered** or **Unmetered**. Metered pricing is paying only for what you use. Unmetered is unlimited access, for a predicable, monthly fee. See [Pricing for {{site.data.keyword.dl_full_notm}}](/docs/dl?topic=dl-pricing-for-ibm-cloud-dl) for details.
-
-      ![Configuration section](/images/dl-config.png)   
-
-1. In the Location section, select a geography, followed by a market, type, site, and routing option.
+   * Select a geography, followed by a market, type, site, and routing option.
 
       Local and global routing options are supported. When you select a routing option, the location details with reachable sites are displayed.  
       {:note}
 
-   ![Location section](/images/dl-location.png)   
+   * Choose a connection speed. The speeds supported for the {{site.data.keyword.dl_short}} Dedicated offering are 1 Gbps, 2 Gbps, 5 Gbps, and 10 Gbps.
 
-1. {: #dl-dedicated-bgp}In the BGP and connections section, complete the following information:
+      Speeds above 1 Gbps require 10 Gbps service from the client's carrier and equipment. If you intend to upgrade the speed for this gateway, select 2 Gbps to start with; otherwise, you will not be able to upgrade to a higher speed on this gateway.
+      {: tip}
+
+      ![Gateway section](/images/dl-location-connect.png)   
+
+   The routing option that you select determines the reachability of the resources in the selected location. If you select the **Global** routing option along with your location selections, the **Region** menu list displays all the regions that are globally available in the specific account. After selecting a region, you can select any VPC from the **Available connections** menu. If you select **Local** routing, then only the region that corresponds to the selected location is available to select. When selected, the VPCs available in the local region for your account are shown.
+   {: note}
+
+1. In the Billing section, select **Metered** or **Unmetered**. Metered pricing is paying only for what you use. Unmetered is unlimited access, for a predicable, monthly fee. See [Pricing for {{site.data.keyword.dl_full_notm}}](/docs/dl?topic=dl-pricing-for-ibm-cloud-dl) for details.
+
+   ![Billing section](/images/dl-billing.png)  
+
+1. {: #dl-dedicated-bgp}In the BGP section, complete the following information:
 
    * Select the IBM cross-connect router for the {{site.data.keyword.dl_short}} connection. The number of direct links associated with your account for each router is shown next to the router name.   
    * Select a BGP peering subnet for the {{site.data.keyword.dl_short}} connection. There are two choices for BGP subnets.
@@ -89,8 +99,7 @@ To order {{site.data.keyword.dl_full}} Dedicated, follow these steps.
       * Select **Auto-select IP** for IBM to assign an IP address from IP range, `169.254.0.0/16`.
       * Select **Manual-select IP** to specify two of your own IP addresses (in CIDR format) from the ranges `10.254.0.0/16`, `172.16.0.0/12`, `192.168.0.0/16`, `169.254.0.0/16`, or `Public` (a public IP address that you own). Manual-select is useful when trying to avoid conflicts with an existing subnet in use.
 
-      Make sure that any self-provided BGP addresses do not conflict with blocks that are used by IBM, or by resources external to your {{site.data.keyword.dl_short}} deployment.
-      {: important}
+      **Important**: Make sure that any self-provided BGP addresses do not conflict with blocks that are used by IBM, or by resources external to your {{site.data.keyword.dl_short}} deployment. Also, if you plan to use GRE or IPsec tunneling with your Direct Link gateway, you must select a BGP IP other than `169.254.0.0/16`.
 
    * For BGP ASN, use either the default value of `64999` or select an ASN from the specified allowed ranges.
 
@@ -100,11 +109,11 @@ To order {{site.data.keyword.dl_full}} Dedicated, follow these steps.
       * For a 2-byte or 4-byte range, enter a value between `131072-4199999999`.
       * For a 4-byte range, enter a value between `4201000000-4201064511`.
 
-      Excluded ASNs: 64512, 64513, 65100, 65201-65234, 65402-65433, 65500, and 4201065000-4201065999
+      Excluded ASNs: `64512`, `64513`, `65100`, `65201-65234`, `65402-65433`, `65500`, and `4201065000-4201065999`
 
-      ![BGP section](/images/dl-bgp.png)   
+      ![BGP section](/images/dl-bgp-connect.png)   
 
-   * Optionally, select the network connection to be attached to the {{site.data.keyword.dl_short}} gateway and enter a connection name. To add multiple network connections to the {{site.data.keyword.dl_short}} gateway, click **Add connection +**. You can create one of the following connections:
+1. Optionally, select the network connection to be attached to the {{site.data.keyword.dl_short}} gateway and enter a connection name. To add multiple network connections to the {{site.data.keyword.dl_short}} gateway, click **Add connection +**. You can create one of the following connections:
 
       * **Classic infrastructure** networks allow you to connect to {{site.data.keyword.cloud_notm}} classic resources. Only one classic infrastructure connection is allowed per {{site.data.keyword.dl_short}} gateway.
       * **VPC** networks can contain either first or second generation compute resources, allowing you to connect to your account’s VPC resources.
@@ -113,9 +122,6 @@ To order {{site.data.keyword.dl_full}} Dedicated, follow these steps.
 
     You cannot request a connection to a network in another account when you create a gateway. However, you can request connection to a network in another account after a gateway is provisioned. You also can create classic infrastructure and VPC connections after a gateway is created. For more information, see [Adding virtual connections to a {{site.data.keyword.dl_short}} gateway](/docs/dl?topic=dl-add-virtual-connection).
     {: tip}
-
-    The routing option that you select determines the reachability of the resources in the selected location. If you select the **Global** routing option along with your location selections, the **Region** menu list displays all the regions that are globally available in the specific account. After selecting a region, you can select any VPC from the **Available connections** menu. If you select **Local** routing, then only the region that corresponds to the selected location is available to select. When selected, the VPCs available in the local region for your account are shown.
-    {: note}
 
 1. An order summary shows pricing estimates for your review. Read and agree to the [**{{site.data.keyword.dl_short}} prerequisites**](/docs/dl?topic=dl-ibm-cloud-dl-prerequisites) and review Cloud Services [**Terms**](https://www.ibm.com/software/sla/sladb.nsf/sla/bm-8695-01). Then, click **Create** to complete your order.  
 
@@ -167,9 +173,9 @@ The table gives details about the {{site.data.keyword.cloud_notm}} data centers 
 | Sao Paulo 4 | DC(AZ1) | ODATA | SAO04 | 943 - Votuparim, Estr. dos Romeiros |
 | Sao Paulo 5 | DC(AZ2) | ASCENTY | SAO05 | Avenida 2, n.º 50, Quadra G1 1B Parte A Gleba 1B |
 | Seattle 2 | PoP | Digital Reality (The Westin Building) | WBX | 2001 6th Avenue |
-| Toronto 1 | DC | Digital Realty | TOR01 | 371 Gough Rd Suite #130 Markham, Ontario |
+| Toronto 1 | DC | Digital Realty | TOR01 | 371 Gough Rd Suite # 130 Markham, Ontario |
 | Toronto 2 | PoP | Cologix | TOR02 | 151 Front Street, Toronto |
-| Toronto 3 | PoP | Equinix | TOR03 | 45 Parliament Street, Toronto |
+| Toronto 3 | PoP | Equinix| TOR03 | 45 Parliament Street, Toronto |
 | Toronto 4 | DC(AZ1) | Server Farm | TOR04 | 300 Bartor Road, North York |
 | Toronto 5 | DC(AZ2) | Digital Reality | TOR05 | 1 Century Place, Vaughan |
 | Washington DC 2 | PoP 1 | Equinix | DC2 | 21715 Filigree Ct |
@@ -180,7 +186,7 @@ The table gives details about the {{site.data.keyword.cloud_notm}} data centers 
 | **APAC** |  |  |  |  |
 | Hong Kong 3 |	PoP |	Equinix |	HKG2 |	17/F Kerry Warehouse |
 | Osaka 1 | PoP | Equinix | OS1 | Nishi-Shinsaibashi Bldg., 1-26-1 Shin-machi, Osaka  |
-| Osaka 21  | DC(AZ1) |  IDC Frontier (SoftBank) | OSA021 | 6-1 Saitoaokita Mino-shi |
+| Osaka 21  | DC(AZ1)|  IDC Frontier (SoftBank) | OSA021 | 6-1 Saitoaokita Mino-shi |
 | Osaka 22  | DC(AZ2) | IDC Frontier (SoftBank) | OSA022 | 6-1 Saitoaokita Mino-shi |
 | Osaka 23  | DC(AZ3) | IDC Frontier (SoftBank) | OSA023 | 6-1 Saitoaokita Mino-shi |
 | Sydney 1 | DC(AZ1) | Global Switch | SYD01 | 400 Harris Street aka 273 Pyrmont St Ultimo |
