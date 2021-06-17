@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2021
-lastupdated: "2021-06-07"
+lastupdated: "2021-06-17"
 
 keywords:
 
@@ -74,12 +74,16 @@ To order Direct Link Connect, follow these steps:
 
    Alternatively, you can click **Direct Link** on the left navigation pane to view the Direct Link page, which lists existing Direct Link instances. From this page, you can click **Order Direct Link** > **Direct Link Connect**.
    {: tip}
+
 1. In the Before you begin section, click **Open checklist** to review the ordering process (also described in [Completing the connection](/docs/dl?topic=dl-how-to-order-ibm-cloud-dl-connect#complete-connection-connect)).
+
+   ![Before you begin section](/images/dl-before-you-begin.png)   
+
 1. In the Resource section, complete the following information:
    * Type a name for your {{site.data.keyword.dl_short}} connection.
    * Choose a resource group to create the {{site.data.keyword.dl_short}} connection. Resource groups help manage and contain resources associated with an account. Select **default** if you don't have any other groups defined in the drop-down list. For more information about resource groups, see [Best practices for organizing resources in a resource group](/docs/account?topic=account-account_setup).
 
-      ![Before you begin and Resource sections](/images/dl-config-connect.png)   
+      ![Resource sections](/images/dl-config-connect.png)   
 
 1. In the Gateway section, select a geography, followed by a market, type, site, and routing option. Then, select a provider and a connection speed.
 
