@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2021
-lastupdated: "2021-05-24"
+lastupdated: "2021-06-24"
 
 keywords:
 
@@ -50,15 +50,17 @@ For Exchange on Classic instructions, see [Steps to order Direct Link Exchange o
 
    ![Select a Port, Location, and Destination](/images/equinix-port.png "Select a Port, Location, and Destination")   
 1. Select a **Location**, followed by a **Destination**. Then, click **Next**.
-1. On the Connection Details page, enter the connection information. For the IBM Cloud Account ID, enter the service key (for example, `aaa-bbbb-cccc`) that was generated when you provisioned your direct link. This key can be found on the Direct Link details page.
+1. On the Connection Details page, enter the connection information. For the IBM Service Key, enter the service key (for example, `aaa-bbbb-cccc`) that was generated when you provisioned your direct link. This key can be found on the Direct Link details page.
 
-   ![Connection Details](/images/equinix-connection-details.png "Connection Details")   
+   ![Connection Details](/images/equinix-connection-details.png "Connection Details")      
 1. Select a **Connection Speed**, then click **Next**.   
 1. Review and click **Submit Your Order**.
 
 The IBM Special Network Services (SNS) team receives your request and is able approve the connection in the buyer-side portal. You can view your newly created virtual connection for Direct Link by going to **Connections**. The connection will be in a pending, provisioning state (**Pending Provider VLAN**).
 
-Accept the connection request by navigating to the IBM Cloud Direct Link page and clicking **Accept** from the Action menu. The virtual connection shows as **Provisioned** in the Equinix Fabric portal.
+Accept the connection request by navigating to the IBM Cloud Direct Link page and clicking **Accept** from the Actions menu. The virtual connection shows as **Provisioned** in the Equinix Fabric portal.
 
 The timeline for approval is within 24 hours. If the 24-hour Service Level Agreement (SLA) is not acceptable, you can [create an IBM Support case](https://cloud.ibm.com/unifiedsupport/cases/form) and request that it be routed to the SNS team.
+
+Optionally, you can enable BGP MD5 authentication to provide additional security for the BGP session. For more information, see [Accepting provider-created connections](/docs/dl?topic=dl-accepting-the-provider-created-connection).
 {: note}
