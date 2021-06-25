@@ -4,7 +4,7 @@ copyright:
   years: 2020
 lastupdated: "2020-05-15"
 
-keywords: direct link, configure, connection
+keywords:  
 
 subcollection: dl
 ---

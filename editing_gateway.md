@@ -1,10 +1,10 @@
 ---
 
 copyright:
-  years: 2020
-lastupdated: "2020-05-15"
+  years: 2021
+lastupdated: "2021-02-08"
 
-keywords: direct link, configure, connection
+keywords:  
 
 subcollection: dl
 ---
@@ -39,8 +39,10 @@ To edit a {{site.data.keyword.dl_short}} gateway, follow these steps:
 
 1. Click **Actions** on the gateway's details page and then click **Edit**. A page with the gateway's details shows.
 2. Update the {{site.data.keyword.dl_short}} name, link speed, and routing option as needed.
-3. Read and agree to the [**{{site.data.keyword.dl_short}} prerequisites**](/docs/dl?topic=dl-ibm-cloud-dl-prerequisites).
+
+   If you modify the speed or routing option, the pricing changes.
+3. Read and agree to the [{{site.data.keyword.dl_short}} prerequisites](/docs/dl?topic=dl-ibm-cloud-dl-prerequisites).
 4. Click **Submit** for your changes to take effect.
 
-If you modify the speed or routing option, the pricing changes.
+There is no disruption to the existing {{site.data.keyword.dl_short}} gateway. Updated charges take effect during the next billing cycle.  
 {:note}
