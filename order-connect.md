@@ -2,9 +2,9 @@
 
 copyright:
   years: 2020, 2021
-lastupdated: "2021-06-17"
+lastupdated: "2021-06-24"
 
-keywords:
+keywords:  
 
 subcollection: dl
 
@@ -13,9 +13,7 @@ subcollection: dl
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 {:DomainName: data-hd-keyref="DomainName"}
-{:preview: .preview}
 {:note: .note}
-{:beta: .beta}
 {:important: .important}
 {:deprecated: .deprecated}
 {:external: target="_blank" .external}
@@ -46,7 +44,7 @@ If you participated in the Direct Link Connect beta program, you must migrate yo
 
 * {{site.data.keyword.cloud_notm}} highly recommends that a second, diverse direct link be established to prevent outages, whether unplanned, or planned due to maintenance. For more information, see [Models for diversity and redundancy](/docs/dl?topic=dl-models-for-diversity-and-redundancy-in-direct-link).
 * All subnets of the VPC or classic network will be connected to the direct link. When creating VPCs, make sure to create the VPCs with non-overlapping prefixes and unique subnets. To ensure successful connectivity with the classic infrastructure, do not use IP addresses for your VPCs in the `10.0.0.0/14`, `10.200.0.0/14`, `10.198.0.0/15`, and `10.254.0.0/16` blocks.
-* A Generic Routing Encapsulation (GRE)/IPsec tunneling requirement between a customer edge router (CER) and a customer virtual router in {{site.data.keyword.cloud_notm}} requires a non-conflicting subnet when ordering. Default addresses for Direct Link 2.0 are non-routable and do not support tunneling.
+* A Generic Routing Encapsulation (GRE)/IPsec tunneling requirement between your Edge router and a customer virtual router in {{site.data.keyword.cloud_notm}} requires a non-conflicting subnet when ordering. Default addresses for Direct Link 2.0 are non-routable and do not support tunneling.
 * {{site.data.keyword.cloud_notm}} VPC permits the use of RFC-1918 and IANA-registered IPv4 address space, privately within your VPC, with some exceptions in the IANA Special-Purpose ranges, and select ranges assigned to {{site.data.keyword.cloud_notm}} services.  When using IANA-registered ranges within your enterprise, and within VPCs in conjunction with {{site.data.keyword.cloud_notm}} Direct Link, custom routes must be installed in each zone. For more information, see [Routing considerations for IANA-registered IP assignments](/docs/vpc?topic=vpc-interconnectivity#routing-considerations-iana).
 
 ## Partner-specific instructions
@@ -77,13 +75,13 @@ To order Direct Link Connect, follow these steps:
 
 1. In the Before you begin section, click **Open checklist** to review the ordering process (also described in [Completing the connection](/docs/dl?topic=dl-how-to-order-ibm-cloud-dl-connect#complete-connection-connect)).
 
-   ![Before you begin section](/images/dl-before-you-begin.png)   
+   ![Before you begin section](/images/dl-before-you-begin.png)  
 
 1. In the Resource section, complete the following information:
    * Type a name for your {{site.data.keyword.dl_short}} connection.
    * Choose a resource group to create the {{site.data.keyword.dl_short}} connection. Resource groups help manage and contain resources associated with an account. Select **default** if you don't have any other groups defined in the drop-down list. For more information about resource groups, see [Best practices for organizing resources in a resource group](/docs/account?topic=account-account_setup).
 
-      ![Resource sections](/images/dl-config-connect.png)   
+      ![Resource section](/images/dl-config-connect.png)   
 
 1. In the Gateway section, select a geography, followed by a market, type, site, and routing option. Then, select a provider and a connection speed.
 
@@ -109,7 +107,8 @@ To order Direct Link Connect, follow these steps:
       * Select **Auto-select IP** for IBM to assign an IP address from IP range, `169.254.0.0/16`.
       * Select **Manual-select IP** to specify two of your own IP addresses (in CIDR format) from the ranges `10.254.0.0/16`, `172.16.0.0/12`, `192.168.0.0/16`, `169.254.0.0/16`, or `Public` (a public IP address that you own). Manual-select is useful when trying to avoid conflicts with an existing subnet in use.
 
-      **Important**: Make sure that any self-provided BGP addresses do not conflict with blocks that are used by IBM, or by resources external to your {{site.data.keyword.dl_short}} deployment. Also, if you plan to use GRE or IPsec tunneling with your Direct Link gateway, you must select a BGP IP other than `169.254.0.0/16`.
+      Make sure that any self-provided BGP addresses do not conflict with blocks that are used by IBM, or by resources external to your {{site.data.keyword.dl_short}} deployment. Also, if you plan to use GRE or IPsec tunneling with your Direct Link gateway, you must select a BGP IP other than `169.254.0.0/16`.
+      {: important}
 
    * Enter your BGP ASN.
 
@@ -117,16 +116,27 @@ To order Direct Link Connect, follow these steps:
       * **For Layer-3 providers only**: You must specify the carrier's ASN, not your own. For a list of carrier interconnection types, see [Comparing Layer-2 and Layer-3 connections for {{site.data.keyword.dl_short}}](/docs/dl?topic=dl-comparing-layer-2-layer-3).
       * Excluded ASNs: `0`, `13884`, `36351`, `64512`, `64513`, `65100`, `65201-65234`, `65402-65433`, `65500`, and `420106500-4201065999`.
 
-      ![BGP section](/images/dl-bgp-connect.png)  
+   * Optionally, enable Message Digest 5 (MD5) authentication, an added security measure that secures the BGP session by allowing routing of messages only from routers using a shared authentication key. You can enable MD5 authentication when you create a direct link, or after your direct link is provisioned.
+
+      Supported keystores are Hyper Protect Crypto Services (HPCS) or Key Protect.
+
+      **Important**:
+
+         * You must configure the same BGP MD5 authentication key on both your Edge router and the IBM cross-connect router (XCR). The shared authentication key on the IBM device must be stored in your HPCS or Key Protect instance and shared with the Direct Link service. For more information, see [Setting up BGP Message Digest 5 (MD5) authentication keys](/docs/dl?topic=dl-dl-md5).
+         * You can achieve hitless key refresh if the keys are updated on both your Edge router and on the IBM cross-connect router (XCR) within 90 seconds. As a pre-condition, you must configure the BGP hold time on your router to a minimum of 90 seconds. All Direct Link routers have a 90-second configuration by default. Either side can initiate the key refresh, but both sides must refresh within the configured BGP hold time to avoid traffic disruption.
+
+      **WARNING**: If a BGP peering session was established and you enable BGP MD5 authentication (or change the authentication key to a different value), BGP sessions are re-established, which will interrupt communication between the BGP peers.
+
+      ![BGP section](/images/dl-bgp-connect.png)            
 
 1. In the Connections section, select the type of network connection that you want to bind to the {{site.data.keyword.dl_short}} gateway. You can select a connection type when you create a direct link, or after your direct link is provisioned.
 
    Select from the following connection types:
 
-      * **Classic infrastructure** networks allow you to connect to {{site.data.keyword.cloud_notm}} classic resources. Only one classic infrastructure connection is allowed per {{site.data.keyword.dl_short}} gateway.
-      * **VPC** networks can contain either first or second generation compute resources, allowing you to connect to your account’s VPC resources.
+   * **Classic infrastructure** networks allow you to connect to {{site.data.keyword.cloud_notm}} classic resources. Only one classic infrastructure connection is allowed per {{site.data.keyword.dl_short}} gateway.
+   * **VPC** networks can contain either first or second generation compute resources, allowing you to connect to your account’s VPC resources.
 
-      ![Connections section](/images/dl-conn-connect.png)
+   ![Connections section](/images/dl-conn-connect.png)   
 
       You cannot request a connection to a network in another account when you create a gateway. However, you can request a connection to a network in another account after a gateway is provisioned. You also can create classic infrastructure and VPC connections after a gateway is created. To learn more, see [Adding virtual connections to a {{site.data.keyword.dl_short}} gateway](/docs/dl?topic=dl-add-virtual-connection).
       {:tip}
@@ -145,7 +155,7 @@ To complete your connection, follow these steps:
 
 1. Contact your network provider and negotiate connectivity to your on-premises or colocation.
 1. Create a request on the provider portal to order a virtual circuit. Reference the case ID of the {{site.data.keyword.dl_short}} Connect request as your Request ID or Authorization ID.      
-1. Configure the BGP parameters on the Customer Edge Router (CER) for BGP session establishment. After this completes, the BGP status indicates `Established`.
+1. Configure the BGP parameters on your Edge router for BGP session establishment. After this completes, the BGP status indicates `Established`.
 
 ## Providers and locations
 {: #connect-locations}
@@ -179,6 +189,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect providers and l
 | PCCW | **Americas:** Dallas 3 |
 | SoftBank | **APAC:** Tokyo 4 |
 | Tokai | **APAC:** Osaka 1, Tokyo 3 |
+| Verizon SCI | **Americas:** Washington DC 2 |
 | Vodafone | **EU:** Frankfurt 3, London 1 |
 | Zayo | **Americas:** Dallas 3, Toronto 2 |
 {: class="simple-tab-table"}
@@ -222,7 +233,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect providers and l
 | Toronto 1 | IBM Power Virtual Server |
 | Toronto 2 | CenturyLink Dynamic Connections<br />Megaport<br />Zayo |
 | Toronto 3 | Equinix |
-| Washington DC 2 | AT&T NetBond for Cloud<br />British Telecom<br />CenturyLink Dynamic Connections<br />Cologix<br />Epsilon<br />Equinix<br />IBM BlueFringe<br />IBM Global NPP<br />IXReach<br />Megaport<br />Neutrona<br />PacketFabric |
+| Washington DC 2 | AT&T NetBond for Cloud<br />British Telecom<br />CenturyLink Dynamic Connections<br />Cologix<br />Epsilon<br />Equinix<br />IBM BlueFringe<br />IBM Global NPP<br />IXReach<br />Megaport<br />Neutrona<br />PacketFabric<br />Verizon SCI |
 | Washington DC 4 | IBM Power Virtual Server |
 {: caption="Table 2. Direct Link Connect by Location" caption-side="left"}
 {: #simpletabtable2}

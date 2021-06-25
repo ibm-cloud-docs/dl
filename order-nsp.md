@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2021
-lastupdated: "2021-06-16"
+lastupdated: "2021-06-24"
 
 keywords:  
 
@@ -41,7 +41,7 @@ To order {{site.data.keyword.dl_short}} Dedicated, you must determine the locati
 
 * Before you begin, determine the location connection to IBM Cloud by verifying your colocation provider's or service provider's capabilities to reach the Meet Me Room and cross-connect into IBM Cloud.
 * All subnets of the VPC or classic network will be connected to the direct link. When creating VPCs, make sure to create the VPCs with non-overlapping prefixes and unique subnets. To ensure successful connectivity with the classic infrastructure, do not use IP addresses for your VPCs in the `10.0.0.0/14`, `10.200.0.0/14`, `10.198.0.0/15`, and `10.254.0.0/16` blocks.
-* A Generic Routing Encapsulation (GRE)/IPsec tunneling requirement between a customer edge router (CER) and a customer virtual router in {{site.data.keyword.cloud_notm}} requires a non-conflicting subnet when ordering. Default addresses for Direct Link 2.0 are non-routable and do not support tunneling.
+* A Generic Routing Encapsulation (GRE)/IPsec tunneling requirement between your Edge router and a virtual router in {{site.data.keyword.cloud_notm}} requires a non-conflicting subnet when ordering. Default addresses for Direct Link 2.0 are non-routable and do not support tunneling.
 * {{site.data.keyword.cloud_notm}} VPC permits the use of RFC-1918 and IANA-registered IPv4 address space, privately within your VPC, with some exceptions in the IANA Special-Purpose ranges, and select ranges assigned to {{site.data.keyword.cloud_notm}} services. When using IANA-registered ranges within your enterprise, and within VPCs in conjunction with {{site.data.keyword.cloud_notm}} Direct Link, custom routes must be installed in each zone. For more information, see [Routing considerations for IANA-registered IP assignments](/docs/vpc?topic=vpc-interconnectivity#routing-considerations-iana).
 
 ## Ordering instructions
@@ -64,6 +64,7 @@ To order {{site.data.keyword.dl_full}} Dedicated, follow these steps.
    ![Before you begin section](/images/dl-before-you-begin.png)  
 
 1. In the Resource section, complete the following information:
+
    * Type a name for your {{site.data.keyword.dl_short}} Dedicated connection.
    * Choose a resource group to create the {{site.data.keyword.dl_short}} connection. Resource groups help manage and contain resources associated with an account. Select **Default** if you don't have other groups defined in the drop-down list. For more information about resource groups, see [Best practices for organizing resources in a resource group](/docs/account?topic=account-account_setup).    
    * Type your customer and carrier names.
@@ -94,12 +95,13 @@ To order {{site.data.keyword.dl_full}} Dedicated, follow these steps.
 1. {: #dl-dedicated-bgp}In the BGP section, complete the following information:
 
    * Select the IBM cross-connect router for the {{site.data.keyword.dl_short}} connection. The number of direct links associated with your account for each router is shown next to the router name.   
-   * Select a BGP peering subnet for the {{site.data.keyword.dl_short}} connection. There are two choices for BGP subnets.
+   * Select a BGP peering subnet for the {{site.data.keyword.dl_short}} connection. There are two choices for BGP subnets:
 
-      * Select **Auto-select IP** for IBM to assign an IP address from IP range, `169.254.0.0/16`.
-      * Select **Manual-select IP** to specify two of your own IP addresses (in CIDR format) from the ranges `10.254.0.0/16`, `172.16.0.0/12`, `192.168.0.0/16`, `169.254.0.0/16`, or `Public` (a public IP address that you own). Manual-select is useful when trying to avoid conflicts with an existing subnet in use.
+      * Select **Auto-select IP** for IBM to assign an IP address from IP range `169.254.0.0/16`.
+      * Select **Manual-select IP** to specify two of your own IP addresses (in CIDR format) from the ranges `10.254.0.0/16`, `172.16.0.0/12`, `192.168.0.0/16`, `169.254.0.0/16`, or `Public` (a public IP address that you own). Manual-select is useful when trying to avoid conflicts with an existing subnet that is in use.
 
-      **Important**: Make sure that any self-provided BGP addresses do not conflict with blocks that are used by IBM, or by resources external to your {{site.data.keyword.dl_short}} deployment. Also, if you plan to use GRE or IPsec tunneling with your Direct Link gateway, you must select a BGP IP other than `169.254.0.0/16`.
+      Make sure that any self-provided BGP addresses do not conflict with blocks that are used by IBM, or by resources external to your {{site.data.keyword.dl_short}} deployment. Also, if you plan to use GRE or IPsec tunneling with your Direct Link gateway, you must select a BGP IP other than `169.254.0.0/16`.
+      {: important}
 
    * For BGP ASN, use either the default value of `64999` or select an ASN from the specified allowed ranges.
 
@@ -109,19 +111,30 @@ To order {{site.data.keyword.dl_full}} Dedicated, follow these steps.
       * For a 2-byte or 4-byte range, enter a value between `131072-4199999999`.
       * For a 4-byte range, enter a value between `4201000000-4201064511`.
 
-      Excluded ASNs: `64512`, `64513`, `65100`, `65201-65234`, `65402-65433`, `65500`, and `4201065000-4201065999`
+      Excluded ASNs: `64512`, `64513`, `65100`, `65201-65234`, `65402-65433`, `65500`, and `4201065000-4201065999`.
+
+   * Optionally, enable Message Digest 5 (MD5) authentication, an added security measure that secures the BGP session by allowing routing of messages only from routers using a shared authentication key. You can enable MD5 authentication when you create a direct link, or after your direct link is provisioned.
+
+      Supported keystores are Hyper Protect Crypto Services (HPCS) or Key Protect.
+
+      **Important**:
+
+         * You must configure the same BGP MD5 authentication key on both your Edge router and the IBM cross-connect router (XCR). The shared authentication key on the IBM device must be stored in your HPCS or Key Protect instance and shared with the Direct Link service. For more information, see [Setting up BGP Message Digest 5 (MD5) authentication keys](/docs/dl?topic=dl-dl-md5).
+         * You can achieve hitless key refresh if the keys are updated on both your Edge router and on the IBM cross-connect router (XCR) within 90 seconds. As a pre-condition, you must configure the BGP hold time on your router to a minimum of 90 seconds. All Direct Link routers have a 90-second configuration by default. Either side can initiate the key refresh, but both sides must refresh within the configured BGP hold time to avoid traffic disruption.
+
+      **WARNING**: If a BGP peering session was established and you enable BGP MD5 authentication (or change the authentication key to a different value), BGP sessions are re-established, which will interrupt communication between the BGP peers.
 
       ![BGP section](/images/dl-bgp-connect.png)   
 
-1. Optionally, select the network connection to be attached to the {{site.data.keyword.dl_short}} gateway and enter a connection name. To add multiple network connections to the {{site.data.keyword.dl_short}} gateway, click **Add connection +**. You can create one of the following connections:
+1. In the Connections section, select the network connection to be attached to the {{site.data.keyword.dl_short}} gateway and enter a connection name. To add multiple network connections to the {{site.data.keyword.dl_short}} gateway, click **Add connection +**. You can create one of the following connections:
 
-      * **Classic infrastructure** networks allow you to connect to {{site.data.keyword.cloud_notm}} classic resources. Only one classic infrastructure connection is allowed per {{site.data.keyword.dl_short}} gateway.
-      * **VPC** networks can contain either first or second generation compute resources, allowing you to connect to your account’s VPC resources.
+   * **Classic infrastructure** networks allow you to connect to {{site.data.keyword.cloud_notm}} classic resources. Only one classic infrastructure connection is allowed per {{site.data.keyword.dl_short}} gateway.
+   * **VPC** networks can contain either first or second generation compute resources, allowing you to connect to your account’s VPC resources.
 
-      ![Add connection section](/images/dl-conn.png)   
+      ![Add connection section](/images/dl-conn-connect.png)   
 
-    You cannot request a connection to a network in another account when you create a gateway. However, you can request connection to a network in another account after a gateway is provisioned. You also can create classic infrastructure and VPC connections after a gateway is created. For more information, see [Adding virtual connections to a {{site.data.keyword.dl_short}} gateway](/docs/dl?topic=dl-add-virtual-connection).
-    {: tip}
+      You cannot request a connection to a network in another account when you create a gateway. However, you can request a connection to a network in another account after a gateway is provisioned. You also can create classic infrastructure and VPC connections after a gateway is created. To learn more, see [Adding virtual connections to a {{site.data.keyword.dl_short}} gateway](/docs/dl?topic=dl-add-virtual-connection).
+      {:tip}
 
 1. An order summary shows pricing estimates for your review. Read and agree to the [**{{site.data.keyword.dl_short}} prerequisites**](/docs/dl?topic=dl-ibm-cloud-dl-prerequisites) and review Cloud Services [**Terms**](https://www.ibm.com/software/sla/sladb.nsf/sla/bm-8695-01). Then, click **Create** to complete your order.  
 
@@ -147,7 +160,7 @@ Here's how the process works:
 
 4. The IBM Cloud team reviews the completion notice and accepts it. The IBM Cloud team then places the cross-connect fiber in the ports mentioned in the LOA. This completes the {{site.data.keyword.dl_short}} configuration and the connection status changes to **Provisioned**.
 
-5. You must then configure the BGP parameters on the Customer Edge Router (CER) for BGP session establishment. After this completes, the **BGP status** indicates **Established** and **Link status** indicates **Up**.  
+5. You must then configure the BGP parameters on your Edge router for BGP session establishment. After this completes, the **BGP status** indicates **Established** and **Link status** indicates **Up**.  
 
   It can take up to 30 minutes for the link status to update.  
   {:note}
