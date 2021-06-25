@@ -1,0 +1,50 @@
+{
+    "title": "IBM Cloud Direct Link 2.0 docs",
+    "lastupdated": "2021-06-24",
+    "introduction": "The IBM Cloud Direct Link solution is designed to seamlessly connect your on-premises resources to your cloud resources. Leverage the docs, CLI, and API reference to plan for, provision, and manage your direct links.",
+    "section_devtools": {
+      "api": "/apidocs/direct_link",
+      "cli": "/docs/dl?topic=dl-cli-plugin-dl-cli",
+      "terraform": "https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs/resources/dl_gateway"
+    },
+    "section_recommended": [
+      {
+        "title": "Direct Link home page",
+        "description": "Why Direct Link? Learn about Direct Link 2.0 and our industry-leading service providers.",
+        "href": "https://www.ibm.com/cloud/direct-link"
+      },
+      {
+        "title": "Ordering IBM Cloud Direct Link Dedicated",
+        "description": "Terminate a single-tenant, fiber-based, cross connect into your own IBM Cloud private network connection. Also used by colocation facilities adjacent to IBM Cloud PoPs and data centers.",
+        "href": "/docs/dl?topic=dl-how-to-order-ibm-cloud-dl-dedicated"
+      },
+      {
+        "title": "Ordering IBM Cloud Direct Link Connect",
+        "description": "Fast setup! Leverage a service provider to quickly establish and deliver connectivity to IBM Cloud locations. Ideal for multi-cloud environments with your service provider's network.",
+        "href": "/docs/dl?topic=dl-how-to-order-ibm-cloud-dl-connect"
+      }
+    ],
+    "section_videos": [
+      {
+        "title": "IBM Cloud Direct Link for hybrid cloud",
+        "href": "/docs/dl?topic=dl-offering-video",
+        "thumbnail": "/images/thumbnail.png"
+      }
+    ],
+    "section_learn": {
+      "developer": "https://developer.ibm.com/depmodels/cloud/",
+      "architecture": "https://www.ibm.com/cloud/architecture",
+      "training": "https://www.ibm.com/training/cloud",
+      "community": "https://community.ibm.com/community/user/publiccloud/search?executeSearch=true&SearchTerm=direct%20link&rf=%5EMulti04%3Adirect%5E"
+    },
+    "section_updates": {
+      "view_more": "https://www.ibm.com/cloud/direct-link",
+      "tiles": [
+        {
+          "date": "24 June 2021",
+          "title": "Message Digest 5 support",
+          "description": "BGP authentication enables routers to share information only if they can verify that they are talking to a trusted source, based on a key. You can store keys in either Key Protect or Hyper Protect Crypto Services."
+        }
+      ]
+    }
+  }

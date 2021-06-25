@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="dl" category="network_interconnectivity" audience="service" href="/docs/dl/getting-started" console-page="/interconnectivity" product-page="https://www.ibm.com/cloud/direct-link" path="dl"}
+{: .toc subcollection="dl" category="network_interconnectivity" audience="service" href="/docs/dl" console-page="/interconnectivity" product-page="https://www.ibm.com/cloud/direct-link" path="dl"}
 Direct Link (2.0)
 
     {: .navgroup id="learn"}
@@ -43,11 +43,17 @@ Direct Link (2.0)
             dl-equinix.md
             dl-megaport.md
             dl-verizon-sci.md
+            dl-accepting-provider-enabled-connection.md
 
-    attaching_connection.md
-    editing_gateway.md
-    deleting_gateway.md
-    dl-to-cos.md
+    {: .topicgroup}
+    Managing direct links
+        attaching_connection.md
+        dl-cross-account-connection.md
+        editing_gateway.md
+        deleting_gateway.md
+        dl-disable-md5.md
+
+    dl-md5-authentication.md
     ha-dr.md
     vpe-integration.md
 
@@ -63,6 +69,7 @@ Direct Link (2.0)
     [Direct Link (2.0) API reference](https://{DomainName}/apidocs/direct_link)
     [Direct Link Connect (2.0) Provider API reference](https://{DomainName}/apidocs/direct_link_provider_api)
     /dl-cli-plugin/dl-cli-plugin-dl-cli
+    release_notes.md
     understanding-latency.md
     vrf-on-ibm-cloud.md
     vrf-conversion-dl.md
@@ -78,6 +85,8 @@ Direct Link (2.0)
     {: .topicgroup}
     Troubleshooting Direct Link
           maintenance.md
+          dl-ts-key-configuration-md5.md
+          dl-ts-not-in-provisioned-state.md
 
     known-limitations.md
     getting-help.md
