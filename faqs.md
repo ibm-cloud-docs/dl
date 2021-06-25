@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2021
-lastupdated: "2021-04-20"
+lastupdated: "2021-04-19"
 
 keywords:  
 
@@ -122,13 +122,13 @@ Unmetered billing has a higher port fee and no usage charges, which are ideal fo
 {: #how-does-ibm-cloud-dl-work}
 {:faq}
 
-For every {{site.data.keyword.dl_short}} customer, the {{site.data.keyword.cloud}} team assigns a small private subnet to build a point-to-point network between the {{site.data.keyword.cloud_notm}} cross-connect router (XCR) and your edge router (CER). Then, you and {{site.data.keyword.cloud_notm}} configure the Border Gateway Protocol (BGP) to exchange routes between the environments. Finally, {{site.data.keyword.cloud_notm}} places you into a VRF to allow for the implementation of non-unique routes to the private address space of your remote network.
+For every {{site.data.keyword.dl_short}} customer, the {{site.data.keyword.cloud}} team assigns a small private subnet to build a point-to-point network between the {{site.data.keyword.cloud_notm}} cross-connect router (XCR) and your Edge router. Then, you and {{site.data.keyword.cloud_notm}} configure the Border Gateway Protocol (BGP) to exchange routes between the environments. Finally, {{site.data.keyword.cloud_notm}} places you into a VRF to allow for the implementation of non-unique routes to the private address space of your remote network.
 
 ## If I order a direct link with local routing, is it possible to upgrade and switch to global routing later?
 {: #order-local-routing-then-switch}
 {:faq}
 
-Yes, you can change the routing option any time after creating the gateway. To do so, click **Actions** on the gateway's details page and then click **Edit**. This is not a disruptive change. The gateway is billed for global routing for the month, even if the change takes effect halfway through the month.
+Yes, you can change the routing option any time after creating the gateway. To do so, click **Actions** on the gateway's details page and then click **Edit**. This is not a disruptive change.
 
 ## When does billing begin with {{site.data.keyword.dl_short}}?
 {: #when-does-billing-begin-with-dl}
@@ -152,37 +152,37 @@ You might have extra charges from your provider. See to your carrier or service 
 
 {{site.data.keyword.dl_short}} does not provide an inherently redundant service. {{site.data.keyword.dl_short}} can provide diverse connections that enable you to create redundancy using BGP. You can achieve diversity with {{site.data.keyword.dl_short}} by connecting to more than one {{site.data.keyword.dl_full_notm}} Dedicated provider for {{site.data.keyword.cloud_notm}}.
 
-## What's the difference between the default local routing and the global routing add-on for {{site.data.keyword.dl_short}}?
+## What's the difference between the default local routing and global routing for {{site.data.keyword.dl_short}}?
 {: #what-is-the-difference-between-the-default-local-routing-and-the-global-routing-add-on-for-dl}
 {:faq}
 
 The local routing option is the default routing option. If your {{site.data.keyword.dl_short}} is connected at the local PoP, it provides access to all data centers within that same market. In some markets, local routing is applicable for stand-alone PoP locations and direct links that are terminated at the data center.  
 
-With our standard {{site.data.keyword.dl_short}} offering, you can send traffic between the data centers in your selected region. If you need access to other data centers outside the specified region, you must order the global routing add-on. For example, you might use global routing to share workloads between dispersed {{site.data.keyword.cloud_notm}} resources, such Dallas to Ashburn, or Dallas to Frankfurt.
+With our standard {{site.data.keyword.dl_short}} offering, you can send traffic between the data centers in your selected region. If you need access to other data centers outside the specified region, you must use global routing. For example, you might use global routing to share workloads between dispersed {{site.data.keyword.cloud_notm}} resources, such Dallas to Ashburn, or Dallas to Frankfurt.
 
-## Why does a global routing add-on package exist for {{site.data.keyword.dl_short}}?
+## Why does global routing exist for {{site.data.keyword.dl_short}}?
 {: #why-does-a-global-routing-add-on-package-exist-for-dl}
 {:faq}
 
-The global routing add-on prevents you from experiencing unexpected data costs when traversing outside of your data center's local market. It lowers costs, and, if you have a global presence, allows you to reach all regions easily. However, usually you require only a local bandwidth package.
+Global routing prevents you from experiencing unexpected data costs when traversing outside of your data center's local market. It lowers costs, and, if you have a global presence, allows you to reach all regions easily. However, usually you require only a local bandwidth package.
 
 ## If I am connected to a {{site.data.keyword.dl_short}} in a region, such as Dallas, can I access other regions in the US through {{site.data.keyword.dl_short}}?
 {: #if-i-am-connected-to-a-dl}
 {:faq}
 
-Yes, you are able to gain access to areas outside of your local market if you choose the global routing add-on. If this option is not selected, your {{site.data.keyword.dl_short}} traffic is limited to the local market for the PoP or data center location you selected. See [Pricing for {{site.data.keyword.dl_full_notm}}](/docs/dl?topic=dl-pricing-for-ibm-cloud-dl) for details.
+Yes, you are able to gain access to areas outside of your local market if you choose global routing. If this option is not selected, your {{site.data.keyword.dl_short}} traffic is limited to the local market for the PoP or data center location you selected. See [Pricing for {{site.data.keyword.dl_full_notm}}](/docs/dl?topic=dl-pricing-for-ibm-cloud-dl) for details.
 
 ## Can I connect to any available region from a given {{site.data.keyword.dl_short}} location?
 {: #can-i-connect-to-any-available-region-from-a-given-dl-location}
 {:faq}
 
-Yes, if you order {{site.data.keyword.dl_short}} with the global routing add-on.
+Yes, if you order {{site.data.keyword.dl_short}} with global routing.
 
 ## Can I restrict the regions that my {{site.data.keyword.dl_short}} can reach?
 {: #can-i-restrict-the-regions-that-my-dl-can-reach}
 {:faq}
 
-No. {{site.data.keyword.cloud_notm}} offers two options: (1) A local market only, or (2) all regions with the global routing add-on.
+No. {{site.data.keyword.cloud_notm}} offers two options: (1) A local market only, or (2) all regions with global routing.
 
 ## Does IBM Support IPv6 over {{site.data.keyword.dl_short}}?
 {: #can-ibm-support-ipv6-over-dl}
@@ -234,4 +234,4 @@ There is no SLA on {{site.data.keyword.dl_short}} today. You can achieve 99.99% 
 {: #on-direct-link-exchange-does-ibm-set-a-bgp-password}
 {:faq}
 
-By default, BGP passwords for Direct Link aren't set up. IBM does not support enabling a BGP password.
+By default, BGP passwords for Direct Link aren't set up. Currently, BGP MD5 authentication is supported.
