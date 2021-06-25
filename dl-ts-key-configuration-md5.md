@@ -32,7 +32,7 @@ My BGP peering session isn't coming up. What should I do?
 The BGP peering session cannot be established.
 {: tsSymptoms}
 
-During an authenticated BGP session, BGP peers must be configured with the same key to establish a BGP neighbor relationship.
+Possible causes are a problem with the IP configuration, an ASN mismatch, or your BGP peers are not configured with the same key to establish a BGP neighbor relationship.
 {: tsCauses}
 
 Try the following fixes to resolve this issue:
