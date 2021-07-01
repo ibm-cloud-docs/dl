@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2021
-lastupdated: "2021-06-24"
+lastupdated: "2021-07-01"
 
 keywords:  
 
@@ -181,10 +181,11 @@ The table gives details about the {{site.data.keyword.cloud_notm}} data centers 
 | Dallas 13 | DC(AZ3) | CyrusOne | Carrollton - Frankford | 1649 W. Frankford Rd |
 | Miami 1 | PoP  | TERREMARK | MI1 | 50 NE 9th Street |
 | San Jose 2 | PoP | Equinix | SV111 | Great Oaks Blvd |
+| San Paulo 1 | DC | Digital Realty (Ascenty) | SAO01 | Rua Presbitero Plinio Alves de Souza, 757 J. Ermida II,Jundiai |
 | San Paulo 2 | PoP | Equinix | SP4 | Avenida Ceci, 1900, Tambore, Barueri, SP, 06460 120 BR, Brazil |
 | Sao Paulo 3 | PoP  | ODATA | SAO03 | 39,2, Estr. dos Romeiros |
 | Sao Paulo 4 | DC(AZ1) | ODATA | SAO04 | 943 - Votuparim, Estr. dos Romeiros |
-| Sao Paulo 5 | DC(AZ2) | ASCENTY | SAO05 | Avenida 2, n.º 50, Quadra G1 1B Parte A Gleba 1B |
+| Sao Paulo 5 | DC(AZ2) | Ascenty | SAO05 | Avenida 2, n.º 50, Quadra G1 1B Parte A Gleba 1B |
 | Seattle 2 | PoP | Digital Reality (The Westin Building) | WBX | 2001 6th Avenue |
 | Toronto 1 | DC | Digital Realty | TOR01 | 371 Gough Rd Suite # 130 Markham, Ontario |
 | Toronto 2 | PoP | Cologix | TOR02 | 151 Front Street, Toronto |
