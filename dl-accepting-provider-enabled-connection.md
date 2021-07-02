@@ -98,7 +98,7 @@ To enable MD5 authentication after submitting your order, follow these steps:
 
 1. Click the MD5 authentication toggle button to enable it, then complete the following:
 
-   * For Keystore, Select **Hyper Protect Crypto Services** or **Key Protect**.
+   * For the keystore, select **Hyper Protect Crypto Services** or **Key Protect**.
    * Choose an authentication keystore instance and authentication key.
 
 1. Click **Create**.
