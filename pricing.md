@@ -67,9 +67,6 @@ The following tables list the pricing for metered and unmetered port charges.
 ### Metered  
 {: #pricing-for-dl-port-charges-metered}
 
-Provider speeds greater than 10 Gbps for Direct Link Connect incur metered billing only.
-{: important}
-
 | Speed | Global |
 |----|----|
 |  50 Mbps |   $40 |
@@ -79,11 +76,7 @@ Provider speeds greater than 10 Gbps for Direct Link Connect incur metered billi
 |   1 Gbps |  $250 |
 |   2 Gbps |  $500 |
 |   5 Gbps |$1,200 |
-|  10 Gbps |$1,800 |
-|  25 Gbps (IBM Connect only) |$2,999 |
-|  40 Gbps (IBM Connect only) |$6,999 |
-|  50 Gbps (IBM Connect only) |$7,999 |
-| 100 Gbps (IBM Connect only)|$12,999 |
+|  10 Gbps (Direct Link Dedicated only) |$1,800 |
 {: caption="Table 2. {{site.data.keyword.dl_short}} metered port charges" caption-side="top"}
 
 Metered port fee pricing is determined by the bandwidth speed of the port.
