@@ -1,5 +1,5 @@
 {
-    "title": "IBM Cloud Direct Link 2.0 docs",
+    "title": "Direct Link 2.0 docs",
     "lastupdated": "2021-06-24",
     "introduction": "The IBM Cloud Direct Link solution is designed to seamlessly connect your on-premises resources to your cloud resources. Leverage the docs, CLI, and API reference to plan for, provision, and manage your direct links.",
     "section_devtools": {
@@ -9,17 +9,12 @@
     },
     "section_recommended": [
       {
-        "title": "Direct Link home page",
-        "description": "Why Direct Link? Learn about Direct Link 2.0 and our industry-leading service providers.",
-        "href": "https://www.ibm.com/cloud/direct-link"
-      },
-      {
-        "title": "Ordering IBM Cloud Direct Link Dedicated",
+        "title": "Ordering Direct Link Dedicated",
         "description": "Terminate a single-tenant, fiber-based, cross connect into your own IBM Cloud private network connection. Also used by colocation facilities adjacent to IBM Cloud PoPs and data centers.",
         "href": "/docs/dl?topic=dl-how-to-order-ibm-cloud-dl-dedicated"
       },
       {
-        "title": "Ordering IBM Cloud Direct Link Connect",
+        "title": "Ordering Direct Link Connect",
         "description": "Fast setup! Leverage a service provider to quickly establish and deliver connectivity to IBM Cloud locations. Ideal for multi-cloud environments with your service provider's network.",
         "href": "/docs/dl?topic=dl-how-to-order-ibm-cloud-dl-connect"
       }
