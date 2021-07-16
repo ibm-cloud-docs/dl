@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2021
-lastupdated: "2021-07-01"
+lastupdated: "2021-07-15"
 
 keywords:  
 
@@ -180,12 +180,12 @@ The table gives details about the {{site.data.keyword.cloud_notm}} data centers 
 | Dallas 12 | DC(AZ2) | Digital Realty | DFW18 | 907 Security Row |
 | Dallas 13 | DC(AZ3) | CyrusOne | Carrollton - Frankford | 1649 W. Frankford Rd |
 | Miami 1 | PoP  | TERREMARK | MI1 | 50 NE 9th Street |
-| San Jose 2 | PoP | Equinix | SV111 | Great Oaks Blvd |
+| San Jose 2 | PoP | Equinix | SV1 | 11 Great Oaks Blvd |
 | Sao Paulo 1 | DC | Digital Realty (Ascenty) | SAO01 | Rua Presbitero Plinio Alves de Souza, 757 J. Ermida II,Jundiai |
 | Sao Paulo 2 | PoP | Equinix | SP4 | Avenida Ceci, 1900, Tambore, Barueri, SP, 06460 120 BR, Brazil |
 | Sao Paulo 3 | PoP  | ODATA | SAO03 | 39,2, Estr. dos Romeiros |
 | Sao Paulo 4 | DC(AZ1) | ODATA | SAO04 | 943 - Votuparim, Estr. dos Romeiros |
-| Sao Paulo 5 | DC(AZ2) | Ascenty | SAO05 | Avenida 2, n.º 50, Quadra G1 1B Parte A Gleba 1B |
+| Sao Paulo 5 | DC(AZ2) | ASCENTY | SAO05 | Avenida 2, n.º 50, Quadra G1 1B Parte A Gleba 1B |
 | Seattle 2 | PoP | Digital Reality (The Westin Building) | WBX | 2001 6th Avenue |
 | Toronto 1 | DC | Digital Realty | TOR01 | 371 Gough Rd Suite # 130 Markham, Ontario |
 | Toronto 2 | PoP | Cologix | TOR02 | 151 Front Street, Toronto |
@@ -214,12 +214,12 @@ The table gives details about the {{site.data.keyword.cloud_notm}} data centers 
 | Tokyo 4 | DC(AZ2) | Softbank | | Saitama |
 | Tokyo 5 | DC(AZ3) | NTT |  | Kawasaki Kangagawa |
 | **EMEA** |  |  |  |  |
-| Amsterdam 2 | PoP | Equinix | AMS02 | Luttenbergweg 4, 1101 EC |
-| Frankfurt 1 | PoP 1 | Digital Realty (InterXion) | FRA01 | Hanauer Landstrasse 302 |
+| Amsterdam 2 | PoP | Equinix | AM2 | Luttenbergweg 4, 1101 EC |
+| Frankfurt 1 | PoP 1 | Digital Realty (InterXion) | FRA6 | Hanauer Landstrasse 302 |
 | Frankfurt 2 | DC(AZ1) | CyrusOne (Zenium) | FRA1 | Leonhard - Heisswolf Str 4., Frankfurt am Main |
-| Frankfurt 3 | PoP 2 | Equinix | FRA6 | Larchenstrasse 110, Frankfurt Griesheim |
+| Frankfurt 3 | PoP 2 | Equinix | FR6 | Larchenstrasse 110, Frankfurt Griesheim |
 | Frankfurt 4 | DC(AZ2) | E-Shelter | Frankfurt 1 | Eschborner Landstrasse 100, Building H |
-| Frankfurt 5 | DC(AZ3) | Digital Realty (InterXion) | FRA05 | Weismüllerstraße 40 |
+| Frankfurt 5 | DC(AZ3) | Digital Realty (InterXion) | FRA11 | Weismüllerstraße 40 |
 | London 1 | PoP | Equinix (Telecity) | LD8 | 6/7 Harbour Exchange E14 9GE |
 | London 2 | DC | Digital Realty | LHR13 | Fountain Court, Cox Lane, Suites 210 and 230 |
 | London 3 | PoP 2 | Equinix | LD5 | 8 Buckingham Ave |
