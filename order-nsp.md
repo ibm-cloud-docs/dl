@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2021
-lastupdated: "2021-07-15"
+lastupdated: "2021-07-27"
 
 keywords:  
 
@@ -208,6 +208,7 @@ The table gives details about the {{site.data.keyword.cloud_notm}} data centers 
 | Sydney 3 | PoP 2 | NextDC | SYD03 | 4 Eden Park Drive, Marquarie Park |
 | Sydney 4 | DC(AZ2) | Digital Realty | SYD10 | 1-11 Templar Rd, Erskine Park |
 | Sydney 5 | DC(AZ3) | Equinix | SY4 | 200 Bourke Road |
+| Taipei 1 | PoP | Chief Telecom | TPE01 | Chief L.Y. Building 3rd floor, No. 250 Yuang Guang St Taipei, Taiwan, R.O.C. |
 | Tokyo 1 | Pop | Equinix | TY2  | 7th Floor, 3-8-21 Higashi-Shinagawa |
 | Tokyo 2 | DC | At Toyko | TOK02 | Shin-Toyosu Cube, 6-2-12 Toyosu, Koto-ku |
 | Tokyo 3 | PoP 2 | Equinix | TY4 | Chiyoda-ku |
