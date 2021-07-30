@@ -69,7 +69,6 @@ Direct Link (2.0)
     [Direct Link (2.0) API reference](https://{DomainName}/apidocs/direct_link)
     [Direct Link Connect (2.0) Provider API reference](https://{DomainName}/apidocs/direct_link_provider_api)
     /dl-cli-plugin/dl-cli-plugin-dl-cli
-    release_notes.md
     understanding-latency.md
     vrf-on-ibm-cloud.md
     vrf-conversion-dl.md
@@ -88,6 +87,7 @@ Direct Link (2.0)
           dl-ts-key-configuration-md5.md
           dl-ts-not-in-provisioned-state.md
 
-    known-limitations.md
+    known-limitations.md    
+    release_notes.md
     getting-help.md
     {: .navgroup-end}
