@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2021
-lastupdated: "2021-06-24"
+lastupdated: "2021-07-30"
 
 keywords:  
 
@@ -20,6 +20,7 @@ subcollection: dl
 {:codeblock: .codeblock}
 {:pre: .pre}
 {:screen: .screen}
+{:beta: .beta}
 {:tip: .tip}
 {:term: .term}
 {:generic: data-hd-programlang="generic"}
@@ -31,7 +32,10 @@ subcollection: dl
 Check back regularly to see what's new with {{site.data.keyword.cloud}} Direct Link.
 {:shortdesc}
 
-## 25 June 2021
-{: #june-2021}
+## 2 August 2021
+{: #august-2021}
 
-**BGP Message Digest 5 authentication support** - Border Gateway Protocol (BGP) authentication enables routers to share information only if they can verify that they are talking to a trusted source, based on a key. TCP MD5 authentication adds an extra layer of security between BGP peers by verifying each transmitted message sent through a BGP session. You can store your keys in either Key Protect or Hyper Protect Crypto Services (HPCS).
+**Direct Link (2.0) connection support for transit gateways** (Beta) - Direct Link now supports Transit Gateway connections. A Direct Link connection allows an on-premises network to connect to other networks (for instance, VPC and classic infrastructure) that are connected to the same transit gateway.
+
+   This is a Beta feature that requires special approval. The use of this functionality should not be for production workloads. If you are interested in participating in this Beta, you can either open a Sev 4 support case and request access or contact your IBM Sales representative.
+   {: beta}

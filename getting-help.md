@@ -6,7 +6,7 @@ copyright:
   years: 2020
 lastupdated: "2020-05-15"
 
-keywords: help, support, case, forum, Stack Overflow
+keywords: case, forum, Stack Overflow
 
 subcollection: dl
 

@@ -5,8 +5,7 @@ copyright:
 
 lastupdated: "2020-05-15"
 
-
-keywords: tutorials, solution, case study, white paper, announcement, blog,
+keywords: tutorials, solution, case study, white paper, announcement, blog
 
 subcollection: dl
 

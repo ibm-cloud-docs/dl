@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2021
-lastupdated: "2021-04-22"
+lastupdated: "2021-07-30"
 
 keywords: multi-cloud, data transfer, interconnectivity, direct link
 
@@ -39,15 +39,12 @@ Highlights include:
 * Metered billing, which lowers the barrier of entry to {{site.data.keyword.cloud_notm}}
 * Support for connections to multiple {{site.data.keyword.cloud_notm}} accounts from a single direct link
 * Support for multiple VPCs (without classic access) from a single direct link within the same account
-* Bring Your Own IP (BYOIP) address to create native connectivity between your on-premises environment and {{site.data.keyword.cloud_notm}} 
-
-Features coming soon:
-
-* Support for Virtual Private Endpoints (VPEs) from customer on-premises from a single customer account
-* Support for a {{site.data.keyword.dl_short}} connection to venues, such as blockchain, SAP on Power, and more
-* Support for a {{site.data.keyword.dl_short}} connection to Public services
-
-The following {{site.data.keyword.dl_short}} (2.0) offerings are available:
+* Bring Your Own IP (BYOIP) address to create native connectivity between your on-premises environment and {{site.data.keyword.cloud_notm}}
+* Support for new connect speeds for high bandwidth through {{site.data.keyword.dl_short}} Connect (10, 25, 40, 50, and 100 Gbps).
+*  Direct Link connections to and from transit gateways.
+   
+   Connecting to {{site.data.keyword.cloud_notm}} Transit Gateway is a Beta feature that requires special approval. The use of this functionality should not be for production workloads. If you are interested in participating in this Beta, you can either open a Sev 4 support case and request access or contact your IBM Sales representative.
+   {: beta}
 
 ## {{site.data.keyword.dl_short}} Dedicated
 {: #get-started-with-direct-link-dedicated}
@@ -71,6 +68,6 @@ To get started using {{site.data.keyword.dl_full_notm}} Connect, follow these [i
 * If you require a diverse, redundant, or multi-cloud deployment for Direct Link Connect, see [Alternatives for your Direct Link Connect (2.0) deployment](/docs/dl?topic=dl-alternatives-for-your-ibm-cloud-direct-link-deployment).
 
 * For more information about {{site.data.keyword.dl_short}} (2.0) offerings, see our [FAQs](/docs/dl?topic=dl-faqs).
-
+   
 Currently, there isn't a migration path from {{site.data.keyword.dlc_short}} offerings to {{site.data.keyword.dl_short}} (2.0). You must order a new {{site.data.keyword.dl_short}} (2.0) Dedicated or {{site.data.keyword.dl_short}} (2.0) Connect connection.
 {: note}

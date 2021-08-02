@@ -49,6 +49,7 @@ Direct Link (2.0)
     Managing direct links
         attaching_connection.md
         dl-cross-account-connection.md
+        dl-as-a-spoke.md
         editing_gateway.md
         deleting_gateway.md
         dl-disable-md5.md
@@ -87,7 +88,7 @@ Direct Link (2.0)
           dl-ts-key-configuration-md5.md
           dl-ts-not-in-provisioned-state.md
 
-    known-limitations.md    
+    known-limitations.md
     release_notes.md
     getting-help.md
     {: .navgroup-end}

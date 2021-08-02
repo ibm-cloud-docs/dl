@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2021
-lastupdated: "2021-07-27"
+lastupdated: "2021-07-30"
 
 keywords:  
 
@@ -19,6 +19,7 @@ subcollection: dl
 {:external: target="_blank" .external}
 {:shortdesc: .shortdesc}
 {:codeblock: .codeblock}
+{:beta: .beta}
 {:pre: .pre}
 {:screen: .screen}
 {:tip: .tip}
@@ -43,6 +44,10 @@ To order {{site.data.keyword.dl_short}} Dedicated, you must determine the locati
 * All subnets of the VPC or classic network will be connected to the direct link. When creating VPCs, make sure to create the VPCs with non-overlapping prefixes and unique subnets. To ensure successful connectivity with the classic infrastructure, do not use IP addresses for your VPCs in the `10.0.0.0/14`, `10.200.0.0/14`, `10.198.0.0/15`, and `10.254.0.0/16` blocks.
 * A Generic Routing Encapsulation (GRE)/IPsec tunneling requirement between your Edge router and a virtual router in {{site.data.keyword.cloud_notm}} requires a non-conflicting subnet when ordering. Default addresses for Direct Link 2.0 are non-routable and do not support tunneling.
 * {{site.data.keyword.cloud_notm}} VPC permits the use of RFC-1918 and IANA-registered IPv4 address space, privately within your VPC, with some exceptions in the IANA Special-Purpose ranges, and select ranges assigned to {{site.data.keyword.cloud_notm}} services. When using IANA-registered ranges within your enterprise, and within VPCs in conjunction with {{site.data.keyword.cloud_notm}} Direct Link, custom routes must be installed in each zone. For more information, see [Routing considerations for IANA-registered IP assignments](/docs/vpc?topic=vpc-interconnectivity#routing-considerations-iana).
+* _Beta participants only_ - If you joined the beta to connect your direct link to a transit gateway, keep in mind that a single Direct Link gateway instance accepts a maximum of 120 on-premises address prefixes when connected to a transit gateway. Consider aggregating prefixes to keep within this limit.
+
+   The Transit Gateway Beta requires special approval. The use of this functionality should not be for production workloads. If you are interested in participating in this Beta, you can either open a Sev 4 support case and request access or contact your IBM Sales representative.
+   {: beta}
 
 ## Ordering instructions
 {: #instructions-dedicated}
@@ -120,21 +125,24 @@ To order {{site.data.keyword.dl_full}} Dedicated, follow these steps.
       **Important**:
 
       * You must configure the same BGP MD5 authentication key on both your Edge router and the IBM cross-connect router (XCR). The shared authentication key on the IBM device must be stored in your HPCS or Key Protect instance and shared with the Direct Link service. For more information, see [Setting up BGP Message Digest 5 (MD5) authentication keys](/docs/dl?topic=dl-dl-md5).
-      * You can achieve hitless key refresh if the keys are updated on both your Edge router and on the IBM cross-connect router (XCR) within 90 seconds. As a pre-condition, you must configure the BGP hold time on your router to a minimum of 90 seconds. All Direct Link routers have a 90-second configuration by default. Either side can initiate the key refresh, but both sides must refresh within the configured BGP hold time to avoid traffic disruption.                  
+      * You can achieve hitless key refresh if the keys are updated on both your Edge router and on the IBM cross-connect router (XCR) within 90 seconds. As a pre-condition, you must configure the BGP hold time on your router to a minimum of 90 seconds. All Direct Link routers have a 90-second configuration by default. Either side can initiate the key refresh, but both sides must refresh within the configured BGP hold time to avoid traffic disruption.
 
      **WARNING**: If a BGP peering session was established and you enable BGP MD5 authentication (or change the authentication key to a different value), BGP sessions are re-established, which will interrupt communication between the BGP peers.
 
       ![BGP section](/images/dl-bgp-connect.png)   
 
-1. In the Connections section, select the network connection to be attached to the {{site.data.keyword.dl_short}} gateway and enter a connection name. To add multiple network connections to the {{site.data.keyword.dl_short}} gateway, click **Add connection +**. You can create one of the following connections:
+1. In the Connections section, select the type of network connection that you want to bind to the {{site.data.keyword.dl_short}} gateway and enter a connection name. To add multiple network connections to the {{site.data.keyword.dl_short}} gateway, click **Add connection +**.
 
-   * **Classic infrastructure** networks allow you to connect to {{site.data.keyword.cloud_notm}} classic resources. Only one classic infrastructure connection is allowed per {{site.data.keyword.dl_short}} gateway.
-   * **VPC** networks can contain either first or second generation compute resources, allowing you to connect to your account’s VPC resources.
+   Select from the following connection types:
 
-      ![Add connection section](/images/dl-conn-connect.png)   
+      * **Classic infrastructure** networks allow you to connect to {{site.data.keyword.cloud_notm}} classic resources. Only one classic infrastructure connection is allowed per {{site.data.keyword.dl_short}} gateway.
+      * **VPC** networks can contain either first or second generation compute resources, allowing you to connect to your account’s VPC resources.
 
       You cannot request a connection to a network in another account when you create a gateway. However, you can request a connection to a network in another account after a gateway is provisioned. You also can create classic infrastructure and VPC connections after a gateway is created. To learn more, see [Adding virtual connections to a {{site.data.keyword.dl_short}} gateway](/docs/dl?topic=dl-add-virtual-connection).
       {:tip}
+
+   If you are participating in the Transit Gateway Beta, select **Transit Gateway** to bind your direct link to transit gateways. You can bind your direct link to one or more local gateways, or one global gateway. Keep in mind that you must also initiate a Direct Link connection through the [{{site.data.keyword.cloud_notm}} Transit Gateway console](https://cloud.ibm.com/interconnectivity/transit){: external} from the same {{site.data.keyword.cloud_notm}} account. For instructions, see [Adding a connection](/docs/transit-gateway?topic=transit-gateway-adding-connections){: external}.
+   {: beta}
 
 1. An order summary shows pricing estimates for your review. Read and agree to the [**{{site.data.keyword.dl_short}} prerequisites**](/docs/dl?topic=dl-ibm-cloud-dl-prerequisites) and review Cloud Services [**Terms**](https://www.ibm.com/software/sla/sladb.nsf/sla/bm-8695-01). Then, click **Create** to complete your order.  
 
@@ -150,15 +158,18 @@ After you submit your {{site.data.keyword.dl_short}} order, the {{site.data.keyw
 
 Here's how the process works:
 
-1. IBM Cloud uploads a Letter of Authorization (LOA) containing a Connecting Facility Assignment (CFA). In turn, the connection status changes to **Waiting LOA review**. At this time you can click the corresponding buttons to preview and accept the LOA. After accepting the LOA you can download the LOA document.
-2. After accepting the LOA and downloading it the connection status changes to **Waiting completion notice upload**. You must now take the LOA document to your carrier and get the completion notice. To do so, you can:
+1. IBM Cloud uploads a Letter of Authorization (LOA) containing a Connecting Facility Assignment (CFA). In turn, the connection status changes to **Waiting LOA review**. At this time, you can click the corresponding buttons to preview and accept the LOA.
+2. After accepting the LOA and downloading it, the connection status changes to **Waiting completion notice upload**. You must now take the LOA document to your carrier and get the completion notice. To do so, you can:
 
    * Supply the LOA/CFA to your colocation provider and have them order a cross connect and any required inter-campus connectivity.
    * Supply the LOA/CFA to your service provider and have them order a third-party cross connect, as well as the circuit between your on-premises and the appropriate Meet Me Room.
 
-3. After receiving the completion notice from your carrier, upload it. The completion notice must be in PDF format with the name **completion_notice.pdf** in order for the automation to process it properly. The specific connection shows an option in the {{site.data.keyword.cloud_notm}} console to upload the completion notice. Notice that the connection status changes to **Completion notice review in progress**.
+   IBM Cloud will not order a cross-connect on a customer's behalf.
+   {: note}
 
-4. The IBM Cloud team reviews the completion notice and accepts it. The IBM Cloud team then places the cross-connect fiber in the ports mentioned in the LOA. This completes the {{site.data.keyword.dl_short}} configuration and the connection status changes to **Provisioned**.
+3. After receiving the completion notice from your carrier, upload it. The completion notice must be in PDF format with the name **completion_notice.pdf** for the automation to process it properly. The specific connection shows an option in the {{site.data.keyword.cloud_notm}} console to upload the completion notice. Notice that the connection status changes to **Completion notice review in progress**.
+
+4. The IBM Cloud team reviews the completion notice and accepts it. The IBM Cloud team then places an order to have the fiber installed between the patch panel/port mentioned in the LOA and the device port. This process can take 1-4 business days, depending on how quickly the site provider finishes the request. This completes the physical-layer portion of the direct link and the connection status changes to **Provisioned.**
 
 5. You must then configure the BGP parameters on your Edge router for BGP session establishment. After this completes, the **BGP status** indicates **Established** and **Link status** indicates **Up**.  
 

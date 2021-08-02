@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-10-15"
+lastupdated: "2020-07-02"
 
 keywords:  
 
@@ -61,6 +61,6 @@ The following steps use the IBM Cloud CLI, but you can also use the {{site.data.
 1. Use the `ibmcloud dl gateways` command to list details about all your direct links. Save this output.
 2. For each gateway, use the `ibmcloud dl virtual-connections GATEWAY_ID` command to list information about its connections. Save this output.
 
-For more information, see the [{{site.data.keyword.dl_short}} CLI reference](/docs/dl?topic=dl-cli-plugin-dl-cli).
+For more information, see the [{{site.data.keyword.dl_short}} CLI reference](/docs/dl?topic=dl-cli-plugin-dl-cli). 
 
 Saving the information returned from these commands helps you recover from a failure quickly. In the event of a failure, use the saved information and run the `ibmcloud dl gateway-create` and `ibmcloud dl virtual-connection-create` commands to recreate your direct links and their connections.

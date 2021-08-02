@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2021
-lastupdated: "2021-07-06"
+lastupdated: "2021-07-29"
 
 keywords:  
 
@@ -20,6 +20,7 @@ subcollection: dl
 {:shortdesc: .shortdesc}
 {:codeblock: .codeblock}
 {:pre: .pre}
+{:beta: .beta}
 {:screen: .screen}
 {:tip: .tip}
 {:term: .term}  
@@ -46,6 +47,10 @@ If you participated in the Direct Link Connect beta program, you must migrate yo
 * All subnets of the VPC or classic network will be connected to the direct link. When creating VPCs, make sure to create the VPCs with non-overlapping prefixes and unique subnets. To ensure successful connectivity with the classic infrastructure, do not use IP addresses for your VPCs in the `10.0.0.0/14`, `10.200.0.0/14`, `10.198.0.0/15`, and `10.254.0.0/16` blocks.
 * A Generic Routing Encapsulation (GRE)/IPsec tunneling requirement between your Edge router and a customer virtual router in {{site.data.keyword.cloud_notm}} requires a non-conflicting subnet when ordering. Default addresses for Direct Link 2.0 are non-routable and do not support tunneling.
 * {{site.data.keyword.cloud_notm}} VPC permits the use of RFC-1918 and IANA-registered IPv4 address space, privately within your VPC, with some exceptions in the IANA Special-Purpose ranges, and select ranges assigned to {{site.data.keyword.cloud_notm}} services.  When using IANA-registered ranges within your enterprise, and within VPCs in conjunction with {{site.data.keyword.cloud_notm}} Direct Link, custom routes must be installed in each zone. For more information, see [Routing considerations for IANA-registered IP assignments](/docs/vpc?topic=vpc-interconnectivity#routing-considerations-iana).
+* _Beta participants only_ - If you joined the beta to connect your direct link to a transit gateway, keep in mind that a single Direct Link gateway instance accepts a maximum of 120 on-premises address prefixes when connected to a transit gateway. Consider aggregating prefixes to keep within this limit.
+
+   The Transit Gateway Beta requires special approval. The use of this functionality should not be for production workloads. If you are interested in participating in this Beta, you can either open a Sev 4 support case and request access or contact your IBM Sales representative.
+   {: beta}
 
 ## Partner-specific instructions
 {: #instructions-partner}
@@ -88,7 +93,7 @@ To order Direct Link Connect, follow these steps:
    Available speeds are based on your provider's location. {{site.data.keyword.dl_short}} Connect supports the following speeds: 50 Mbps, 100 Mbps, 200 Mbps, 500 Mbps, 1 Gbps, 2 Gbps, 5 Gbps, 10 Gbps, 25 Gbps, 40 Gbps, 50 Gbps, and 100 Gbps.
    {:note}  
 
-   ![Gateway section](/images/dl-location-connect.png)  
+   ![Location section](/images/dl-location-connect.png)  
 
    Local and global routing options are supported for {{site.data.keyword.dl_short}} Connect. The routing option that you select determines the reachability of the resources in the selected location. If you select the **Global** routing option along with your location selections, the **Region** menu list shows all the regions that are globally available in the specific account. After selecting a region, you can select any VPC from the **Available connections** menu. If you select **Local** routing, then only the region that corresponds to the selected location is available. When selected, VPCs available in the local region for your account are shown.  
 
@@ -125,21 +130,22 @@ To order Direct Link Connect, follow these steps:
       * You must configure the same BGP MD5 authentication key on both your Edge router and the IBM cross-connect router (XCR). The shared authentication key on the IBM device must be stored in your HPCS or Key Protect instance and shared with the Direct Link service. For more information, see [Setting up BGP Message Digest 5 (MD5) authentication keys](/docs/dl?topic=dl-dl-md5).
       * You can achieve hitless key refresh if the keys are updated on both your Edge router and on the IBM cross-connect router (XCR) within 90 seconds. As a pre-condition, you must configure the BGP hold time on your router to a minimum of 90 seconds. All Direct Link routers have a 90-second configuration by default. Either side can initiate the key refresh, but both sides must refresh within the configured BGP hold time to avoid traffic disruption.
 
-    **WARNING**: If a BGP peering session was established and you enable BGP MD5 authentication (or change the authentication key to a different value), BGP sessions are re-established, which will interrupt communication between the BGP peers.
+     **WARNING**: If a BGP peering session was established and you enable BGP MD5 authentication (or change the authentication key to a different value), BGP sessions are re-established, which will interrupt communication between the BGP peers.
 
       ![BGP section](/images/dl-bgp-connect.png)            
 
-1. In the Connections section, select the type of network connection that you want to bind to the {{site.data.keyword.dl_short}} gateway. You can select a connection type when you create a direct link, or after your direct link is provisioned.
+1. In the Connections section, select the type of network connection that you want to bind to the {{site.data.keyword.dl_short}} gateway and enter a connection name. To add multiple network connections to the {{site.data.keyword.dl_short}} gateway, click **Add connection +**.
 
    Select from the following connection types:
 
-   * **Classic infrastructure** networks allow you to connect to {{site.data.keyword.cloud_notm}} classic resources. Only one classic infrastructure connection is allowed per {{site.data.keyword.dl_short}} gateway.
-   * **VPC** networks can contain either first or second generation compute resources, allowing you to connect to your account’s VPC resources.
-
-   ![Connections section](/images/dl-conn-connect.png)   
+      * **Classic infrastructure** networks allow you to connect to {{site.data.keyword.cloud_notm}} classic resources. Only one classic infrastructure connection is allowed per {{site.data.keyword.dl_short}} gateway.
+      * **VPC** networks can contain either first or second generation compute resources, allowing you to connect to your account’s VPC resources.
 
       You cannot request a connection to a network in another account when you create a gateway. However, you can request a connection to a network in another account after a gateway is provisioned. You also can create classic infrastructure and VPC connections after a gateway is created. To learn more, see [Adding virtual connections to a {{site.data.keyword.dl_short}} gateway](/docs/dl?topic=dl-add-virtual-connection).
       {:tip}
+
+   If you are participating in the Transit Gateway Beta, select **Transit Gateway** to bind your direct link to transit gateways. You can bind your direct link to one or more local gateways, or one global gateway. Keep in mind that you must also initiate a Direct Link connection through the [{{site.data.keyword.cloud_notm}} Transit Gateway console](https://cloud.ibm.com/interconnectivity/transit){: external} from the same {{site.data.keyword.cloud_notm}} account. For instructions, see [Adding a connection](/docs/transit-gateway?topic=transit-gateway-adding-connections){: external}.
+   {: beta}
 
 1. An order summary shows pricing estimates for your review. Read and agree to the [{{site.data.keyword.dl_short}} prerequisites](/docs/dl?topic=dl-ibm-cloud-dl-prerequisites) and review Cloud Services [Terms](https://www-03.ibm.com/software/sla/sladb.nsf/searchsaas/?searchview&searchorder=4&searchmax=0&query=(Direct+Link+Connect)). Then, click **Create** to complete your order.  
 

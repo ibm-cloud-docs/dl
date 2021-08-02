@@ -4,7 +4,7 @@ copyright:
   years: 2018, 2020
 lastupdated: "2020-07-16"
 
-keywords: use case, alternatives, deployments, diverse, redundant, default, multi-cloud, other clouds, schematic
+keywords: 
 
 subcollection: dl
 
@@ -32,7 +32,7 @@ subcollection: dl
 Describes alternatives that you can choose for your Direct Link Connect deployments.
 {:shortdesc}
 
-The default deployments of Direct Link Connect do not include redundant configuration, although they can be deployed diversely on discrete routers. 
+The default deployments of Direct Link Connect do not include redundant configuration, although they can be deployed diversely on discrete routers.
 
 Many customers choose to create redundant deployments by setting up an additional Direct Link connection. The following diagrams illustrate some schematic representations of alternative Direct Link deployments
 

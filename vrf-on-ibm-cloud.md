@@ -4,7 +4,7 @@ copyright:
   years: 2020
 lastupdated: "2020-05-15"
 
-keywords: VRF, IP, routers, backbone, service, VLAN, multiple isolation, tenant, tenancy, datacenters, data, center, shared tenancy, private endpoint, customer VRF, Private Network Question, support, case, CSE, cloud service endpoint
+keywords:  VRF
 
 subcollection: dl
 
