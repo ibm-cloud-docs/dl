@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2021
-lastupdated: "2021-07-29"
+lastupdated: "2021-08-03"
 
 keywords:  
 
@@ -178,7 +178,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect providers and l
 | British Telecom | **Americas:** Washington DC 2<br />**EU:** Frankfurt 1, Frankfurt 3, London 3 |  
 | China Unicom | **APAC:** Hong Kong 3 |
 | CenturyLink Dynamic Connections | **Americas:** Dallas 3, San Jose 2, Toronto 2, Washington DC 2 |  
-| Cologix | **Americas:** Toronto 2, Washington DC 2 |  
+| Cologix | **Americas:** Chicago 1, Toronto 2, Washington DC 2 |  
 | DE-CIX | **EU:** Frankfurt 3, Frankfurt 4, Frankfurt 5 |
 | Epsilon | **Americas:** Washington DC 2<br />**EU:** Amsterdam 2, London 1 |
 | Equinix | **Americas:** Chicago 1, Dallas 3, San Jose 2, Toronto 3, Washington DC 2<br />**APAC:** Osaka 1, Tokyo 3<br />**EU:** Frankfurt 3, London 3, Paris 3 |
@@ -207,7 +207,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect providers and l
 | Location | Providers |
 |----|----|
 | Amsterdam 2 | Epsilon<br />IBM BlueFringe<br />IBM Global Network Peering Platform (NPP)<br />Megaport |
-| Chicago 1 | Equinix<br />Megaport |
+| Chicago 1 | Cologix<br />Equinix<br />Megaport |
 | Dallas 3 |  AT&T NetBond for Cloud<br />CenturyLink Dynamic Connections<br />Equinix<br />IBM BlueFringe<br />IBM Global NPP<br />Neutrona<br />PCCW<br />Zayo |
 | Dallas 4 |  PacketFabric<br />Megaport |
 | Dallas 12 | IBM Power Virtual Server |
