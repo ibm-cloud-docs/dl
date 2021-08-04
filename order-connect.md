@@ -181,7 +181,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect providers and l
 | Cologix | **Americas:** Chicago 1, Toronto 2, Washington DC 2 |  
 | DE-CIX | **EU:** Frankfurt 3, Frankfurt 4, Frankfurt 5 |
 | Epsilon | **Americas:** Washington DC 2<br />**EU:** Amsterdam 2, London 1 |
-| Equinix | **Americas:** Chicago 1, Dallas 3, San Jose 2, Toronto 3, Washington DC 2<br />**APAC:** Osaka 1, Tokyo 3<br />**EU:** Frankfurt 3, London 3, Paris 3 |
+| Equinix | **Americas:** Chicago 1, Dallas 3, San Jose 2, Sao Paulo 2, Toronto 3, Washington DC 2<br />**APAC:** Osaka 1, Tokyo 3<br />**EU:** Frankfurt 3, London 3, Paris 3 |
 | IBM BlueFringe | **Americas:** Dallas 3, Washington DC 2<br />**EU:** Amsterdam 2, Frankfurt 3 |
 | IBM Global Network Peering Platform (NPP) | **Americas:** Dallas 3, Washington DC 2<br />**EU:** Amsterdam 2, Frankfurt 3, London 1, London 3, London 4 |
 | IBM Power Virtual Server | **Americas:** Dallas 12, Dallas 13, Toronto 1, Washington DC 4<br />**APAC:** Osaka 21, Sydney 4, Sydney 5, Tokyo 4<br />**EU:** Frankfurt 4, Frankfurt 5, London 4, London 6 |
@@ -226,6 +226,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect providers and l
 | Paris 2 | Megaport |
 | Paris 3 | Equinix |
 | San Jose 2 | CenturyLink Dynamic Connections<br />Equinix<br />Megaport<br />PacketFabric |
+| Sao Paulo 2 | Equinix |
 | Sao Paulo 5 | Ascenty |
 | Sydney 2 | Megaport |
 | Sydney 3 | NextDC |
