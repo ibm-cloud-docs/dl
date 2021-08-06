@@ -70,13 +70,13 @@ Direct Link (2.0)
     [Direct Link (2.0) API reference](https://{DomainName}/apidocs/direct_link)
     [Direct Link Connect (2.0) Provider API reference](https://{DomainName}/apidocs/direct_link_provider_api)
     /dl-cli-plugin/dl-cli-plugin-dl-cli
+    [Terraform reference](https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs/resources/dl_gateway)
     understanding-latency.md
     vrf-on-ibm-cloud.md
     vrf-conversion-dl.md
     prerequisites.md
     responsibilities.md
     external-resources.md
-    [Terraform](https://cloud.ibm.com/docs/terraform?topic=terraform-getting-started)
     {: .navgroup-end}
 
     {: .navgroup id="help"}
