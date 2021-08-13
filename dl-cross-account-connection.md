@@ -28,8 +28,8 @@ subcollection: dl
 {:help: data-hd-content-type='help'}
 {:support: data-reuse='support'}
 
-# Adding a cross-account (VPC only) connection 
-{: #cross-account-virtual-connection}
+# Adding a cross-account (VPC only) connection
+{: #cross-account-virtual-connection-vpc}
 
 You can request virtual connections to networks in other {{site.data.keyword.cloud_notm}} accounts for {{site.data.keyword.dl_short}} gateways that indicate the **Provisioned** status.
 
