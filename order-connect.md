@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2021
-lastupdated: "2021-08-13"
+lastupdated: "2021-08-16"
 
 keywords:  
 
@@ -177,7 +177,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect providers and l
 | BBIX | **APAC:** Tokyo 1, Tokyo 3 |
 | British Telecom | **Americas:** Washington DC 2<br />**EU:** Frankfurt 1, Frankfurt 3, London 3 |  
 | China Unicom | **APAC:** Hong Kong 3 |
-| CenturyLink Dynamic Connections | **Americas:** Dallas 3, San Jose 2, Toronto 2, Washington DC 2 |  
+| CenturyLink Dynamic Connections | **Americas:** Dallas 3, San Jose 2, Toronto 2, Washington DC 2<br />**EU:** London 3, Paris 2 |  
 | Cologix | **Americas:** Chicago 1, Toronto 2, Washington DC 2 |  
 | Colt | **EU:** Frankfurt 1 |
 | DE-CIX | **EU:** Frankfurt 3, Frankfurt 4, Frankfurt 5 |
@@ -219,12 +219,12 @@ The following table lists {{site.data.keyword.dl_short}} Connect providers and l
 | Frankfurt 5 | DE-CIX<br />IBM Power Virtual Server |
 | Hong Kong 3 | China Unicom |
 | London 1 | Epsilon<br />IBM Global NPP<br />Vodafone |
-| London 3 | British Telecom<br />Equinix<br />IBM Global NPP<br />Megaport|
+| London 3 | British Telecom<br />CenturyLink Dynamic Connections<br />Equinix<br />IBM Global NPP<br />Megaport|
 | London 4 | IBM Global NPP<br />IBM Power Virtual Server |
 | London 6 | IBM Power Virtual Server |
 | Osaka  1 | AT Tokyo<br />Equinix<br />Megaport<br />Tokai |
 | Osaka 21 |IBM Power Virtual Server |
-| Paris 2 | Megaport |
+| Paris 2 | CenturyLink Dynamic Connections<br />Megaport |
 | Paris 3 | Equinix |
 | San Jose 2 | CenturyLink Dynamic Connections<br />Equinix<br />Megaport<br />PacketFabric |
 | Sao Paulo 2 | Equinix |
