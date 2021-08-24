@@ -57,6 +57,7 @@ Direct Link (2.0)
     dl-md5-authentication.md
     ha-dr.md
     vpe-integration.md
+    terraform.md
 
     {: .topicgroup}
     Enhancing security
