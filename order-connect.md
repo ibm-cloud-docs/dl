@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2021
-lastupdated: "2021-08-16"
+lastupdated: "2021-08-26"
 
 keywords:  
 
@@ -182,7 +182,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect providers and l
 | Colt | **EU:** Frankfurt 1 |
 | DE-CIX | **EU:** Frankfurt 3, Frankfurt 4, Frankfurt 5 |
 | Epsilon | **Americas:** Washington DC 2<br />**EU:** Amsterdam 2, London 1 |
-| Equinix | **Americas:** Chicago 1, Dallas 3, San Jose 2, Sao Paulo 2, Toronto 3, Washington DC 2<br />**APAC:** Osaka 1, Tokyo 3<br />**EU:** Frankfurt 3, London 3, Paris 3 |
+| Equinix | **Americas:** Chicago 1, Dallas 3, San Jose 2, Sao Paulo 2, Toronto 2, Toronto 3, Washington DC 2<br />**APAC:** Osaka 1, Tokyo 3<br />**EU:** Frankfurt 3, London 3, Paris 3 |
 | IBM BlueFringe | **Americas:** Dallas 3, Washington DC 2<br />**EU:** Amsterdam 2, Frankfurt 3 |
 | IBM Global Network Peering Platform (NPP) | **Americas:** Dallas 3, Washington DC 2<br />**EU:** Amsterdam 2, Frankfurt 3, London 1, London 3, London 4 |
 | IBM Power Virtual Server | **Americas:** Dallas 12, Dallas 13, Toronto 1, Washington DC 4<br />**APAC:** Osaka 21, Sydney 4, Sydney 5, Tokyo 4<br />**EU:** Frankfurt 4, Frankfurt 5, London 4, London 6 |
@@ -239,7 +239,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect providers and l
 | Tokyo 4 | IBM Power Virtual Server<br />Softbank |
 | Tokyo 5 | NTT |
 | Toronto 1 | IBM Power Virtual Server |
-| Toronto 2 | CenturyLink Dynamic Connections<br />Cologix<br />Megaport<br />Zayo |
+| Toronto 2 | CenturyLink Dynamic Connections<br />Cologix<br />Equinix<br />Megaport<br />Zayo |
 | Toronto 3 | Equinix |
 | Washington DC 2 | AT&T NetBond for Cloud<br />British Telecom<br />CenturyLink Dynamic Connections<br />Cologix<br />Epsilon<br />Equinix<br />IBM BlueFringe<br />IBM Global NPP<br />IXReach<br />Megaport<br />Neutrona<br />PacketFabric<br />Verizon SCI |
 | Washington DC 4 | IBM Power Virtual Server |
