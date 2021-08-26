@@ -30,13 +30,13 @@ Looking for a managed Terraform on {{site.data.keyword.cloud}} solution? Try out
 ## Installing Terraform and configuring resources for Direct Link (2.0)
 {: #install-terraform}
 
-Before you begin, make sure that you have the [required access](/docs/dl?topic=dl-iam) to create and work with Direct Link (2.0) resources. 
+Before you begin, make sure that you have the [required access](/docs/dl?topic=dl-iam) to create and work with Direct Link (2.0) resources.
 
 1. Follow the [Terraform on {{site.data.keyword.cloud}} getting started tutorial](/docs/ibm-cloud-provider-for-terraform?topic=ibm-cloud-provider-for-terraform-getting-started) to install the Terraform CLI and configure the {{site.data.keyword.cloud}} Provider plug-in for Terraform. The plug-in abstracts the {{site.data.keyword.cloud}} APIs that are used to provision, update, or delete Direct Link service instances and resources.
 1. Create a Terraform configuration file that is named `main.tf`. In this file, you add the configuration to create a Direct Link service instance and to assign a user an access policy in Identity and Access Management (IAM) for that instance by using HashiCorp Configuration Language (HCL). For more information, see the [Terraform documentation](https://www.terraform.io/docs/language/index.html){: external}.
 
    The Direct Link resource in the following example is named `test_dl_routers` and is created as a Dedicated gateway in the `dal10` location.
-   
+
    For more information about arguments and attributes, see the [`ibm_dl_gateway`](https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs/resources/dl_gateway){: external} usage example.
    {: note}
 
@@ -46,20 +46,20 @@ Before you begin, make sure that you have the [required access](/docs/dl?topic=d
            location_name = "dal10"
        }
 
-   resource ibm_dl_gateway test_dl_gateway {
+   resource "ibm_dl_gateway" "test_dl_gateway" {
      bgp_asn =  64999
-     global = true 
+     global = true
      metered = false
      name = "Gateway1"
      resource_group = "bf823d4f45b64ceaa4671bee0479346e"
-     speed_mbps = 1000 
-     type =  "dedicated" 
+     speed_mbps = 1000
+     type =  "dedicated"
      cross_connect_router = data.ibm_dl_routers.test_dl_routers.cross_connect_routers[0].router_name
      location_name = data.ibm_dl_routers.test_dl_routers.location_name
-     customer_name = "Customer1" 
+     customer_name = "Customer1"
      carrier_name = "Carrier1"
 
-   } 
+   }
    ```
    {: codeblock}
 
