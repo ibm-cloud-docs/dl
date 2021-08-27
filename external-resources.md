@@ -31,7 +31,7 @@ subcollection: dl
 {: #related-resources}
 
 These resources are created by {{site.data.keyword.cloud}} and by some IBM Business Partners and customers.
-{:shortdesc}
+{: shortdesc}
 
 ## Papers and case studies
 {: #papers-case-studies}
@@ -43,7 +43,7 @@ These resources are created by {{site.data.keyword.cloud}} and by some IBM Busin
     This paper presents test results that show how a well-designed, well-executed, hybrid cloud architecture performs versus one that uses standard facilities, using connections and an architecture that is not optimized for application performance.
 
      * {{site.data.keyword.dl_short}} Dedicated Hosting solution features and benefits
-     * Reference solution for implementing NetApp private storage for {{site.data.keyword.cloud_notm}}, colocated in a Digital Reality data center
+     * Reference solution for implementing NetApp private storage for {{site.data.keyword.cloud_notm}}, colocated in a Digital Realty data center
      * Results of performance tests conducted by Krystallize Technologies
 
 

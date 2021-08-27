@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2021
-lastupdated: "2021-07-30"
+lastupdated: "2021-08-27"
 
 keywords:  
 
@@ -35,14 +35,16 @@ subcollection: dl
 {: support}
 
 To order {{site.data.keyword.dl_short}} Dedicated, you must determine the location connecting to IBM Cloud, complete the required configuration information, then click **Create** to submit your order.
-{:shortdesc}
+{: shortdesc}
 
 ## Planning considerations
 {: #before-you-begin-dedicated}
 
+Make sure that you review the following considerations before ordering Direct Link Dedicated:
+
 * Before you begin, determine the location connection to IBM Cloud by verifying your colocation provider's or service provider's capabilities to reach the Meet Me Room and cross-connect into IBM Cloud.
 * All subnets of the VPC or classic network will be connected to the direct link. When creating VPCs, make sure to create the VPCs with non-overlapping prefixes and unique subnets. To ensure successful connectivity with the classic infrastructure, do not use IP addresses for your VPCs in the `10.0.0.0/14`, `10.200.0.0/14`, `10.198.0.0/15`, and `10.254.0.0/16` blocks.
-* A Generic Routing Encapsulation (GRE)/IPsec tunneling requirement between your Edge router and a virtual router in {{site.data.keyword.cloud_notm}} requires a non-conflicting subnet when ordering. Default addresses for Direct Link 2.0 are non-routable and do not support tunneling.
+* A Generic Routing Encapsulation (GRE)/IPsec tunneling requirement between your Edge router and a virtual router in {{site.data.keyword.cloud_notm}} requires a non-conflicting subnet when ordering. Default addresses for Direct Link are non-routable and do not support tunneling.
 * {{site.data.keyword.cloud_notm}} VPC permits the use of RFC-1918 and IANA-registered IPv4 address space, privately within your VPC, with some exceptions in the IANA Special-Purpose ranges, and select ranges assigned to {{site.data.keyword.cloud_notm}} services. When using IANA-registered ranges within your enterprise, and within VPCs in conjunction with {{site.data.keyword.cloud_notm}} Direct Link, custom routes must be installed in each zone. For more information, see [Routing considerations for IANA-registered IP assignments](/docs/vpc?topic=vpc-interconnectivity#routing-considerations-iana).
 * _Beta participants only_ - If you joined the beta to connect your direct link to a transit gateway, keep in mind that a single Direct Link gateway instance accepts a maximum of 120 on-premises address prefixes when connected to a transit gateway. Consider aggregating prefixes to keep within this limit.
 
@@ -53,9 +55,9 @@ To order {{site.data.keyword.dl_short}} Dedicated, you must determine the locati
 {: #instructions-dedicated}
 
 To order {{site.data.keyword.dl_full}} Dedicated, follow these steps.
-{:shortdesc}
+{: shortdesc}
 
-1. Log in to your [{{site.data.keyword.cloud_notm}}](https://{DomainName}/){:external} account.
+1. Log in to your [{{site.data.keyword.cloud_notm}}](https://{DomainName}/){: external} account.
 1. Click Menu ![Menu icon](images/menu_icon.png) on the upper left, then click **Interconnectivity**.
 1. Scroll to locate the Dedicated tile, then click **Order {{site.data.keyword.dl_short}}** to order.
 
@@ -81,7 +83,7 @@ To order {{site.data.keyword.dl_full}} Dedicated, follow these steps.
    * Select a geography, followed by a market, type, site, and routing option.
 
       Local and global routing options are supported. When you select a routing option, the location details with reachable sites are displayed.  
-      {:note}
+      {: note}
 
    * Choose a connection speed. The speeds supported for the {{site.data.keyword.dl_short}} Dedicated offering are 1 Gbps, 2 Gbps, 5 Gbps, and 10 Gbps.
 
@@ -97,7 +99,7 @@ To order {{site.data.keyword.dl_full}} Dedicated, follow these steps.
 
    ![Billing section](/images/dl-billing.png)  
 
-1. {: #dl-dedicated-bgp}In the BGP section, complete the following information:
+1. In the BGP section, complete the following information: {: #dl-dedicated-bgp}
 
    * Select the IBM cross-connect router for the {{site.data.keyword.dl_short}} connection. The number of direct links associated with your account for each router is shown next to the router name.   
    * Select a BGP peering subnet for the {{site.data.keyword.dl_short}} connection. There are two choices for BGP subnets:
@@ -133,13 +135,13 @@ To order {{site.data.keyword.dl_full}} Dedicated, follow these steps.
 
 1. In the Connections section, select the type of network connection that you want to bind to the {{site.data.keyword.dl_short}} gateway and enter a connection name. To add multiple network connections to the {{site.data.keyword.dl_short}} gateway, click **Add connection +**.
 
-   Select from the following connection types:
+      Select from the following connection types:
 
       * **Classic infrastructure** networks allow you to connect to {{site.data.keyword.cloud_notm}} classic resources. Only one classic infrastructure connection is allowed per {{site.data.keyword.dl_short}} gateway.
       * **VPC** networks can contain either first or second generation compute resources, allowing you to connect to your account’s VPC resources.
 
       You cannot request a connection to a network in another account when you create a gateway. However, you can request a connection to a network in another account after a gateway is provisioned. You also can create classic infrastructure and VPC connections after a gateway is created. To learn more, see [Adding virtual connections to a {{site.data.keyword.dl_short}} gateway](/docs/dl?topic=dl-add-virtual-connection).
-      {:tip}
+      {: tip}
 
    If you are participating in the Transit Gateway Beta, select **Transit Gateway** to bind your direct link to transit gateways. You can bind your direct link to one or more local gateways, or one global gateway. Keep in mind that you must also initiate a Direct Link connection through the [{{site.data.keyword.cloud_notm}} Transit Gateway console](https://cloud.ibm.com/interconnectivity/transit){: external} from the same {{site.data.keyword.cloud_notm}} account. For instructions, see [Adding a connection](/docs/transit-gateway?topic=transit-gateway-adding-connections){: external}.
    {: beta}
@@ -159,7 +161,7 @@ After you submit your {{site.data.keyword.dl_short}} order, the {{site.data.keyw
 Here's how the process works:
 
 1. IBM Cloud uploads a Letter of Authorization (LOA) containing a Connecting Facility Assignment (CFA). In turn, the connection status changes to **Waiting LOA review**. At this time, you can click the corresponding buttons to preview and accept the LOA.
-2. After accepting the LOA and downloading it, the connection status changes to **Waiting completion notice upload**. You must now take the LOA document to your carrier and get the completion notice. To do so, you can:
+1. After accepting the LOA and downloading it, the connection status changes to **Waiting completion notice upload**. You must now take the LOA document to your carrier and get the completion notice. To do so, you can:
 
    * Supply the LOA/CFA to your colocation provider and have them order a cross connect and any required inter-campus connectivity.
    * Supply the LOA/CFA to your service provider and have them order a third-party cross connect, as well as the circuit between your on-premises and the appropriate Meet Me Room.
@@ -167,14 +169,14 @@ Here's how the process works:
    IBM Cloud will not order a cross-connect on a customer's behalf.
    {: note}
 
-3. After receiving the completion notice from your carrier, upload it. The completion notice must be in PDF format with the name **completion_notice.pdf** for the automation to process it properly. The specific connection shows an option in the {{site.data.keyword.cloud_notm}} console to upload the completion notice. Notice that the connection status changes to **Completion notice review in progress**.
+1. After receiving the completion notice from your carrier, upload it. The completion notice must be in PDF format with the name **completion_notice.pdf** for the automation to process it properly. The specific connection shows an option in the {{site.data.keyword.cloud_notm}} console to upload the completion notice. Notice that the connection status changes to **Completion notice review in progress**.
 
-4. The IBM Cloud team reviews the completion notice and accepts it. The IBM Cloud team then places an order to have the fiber installed between the patch panel/port mentioned in the LOA and the device port. This process can take 1-4 business days, depending on how quickly the site provider finishes the request. This completes the physical-layer portion of the direct link and the connection status changes to **Provisioned.**
+1. The IBM Cloud team reviews the completion notice and accepts it. The IBM Cloud team then places an order to have the fiber installed between the patch panel/port mentioned in the LOA and the device port. This process can take 1-4 business days, depending on how quickly the site provider finishes the request. This completes the physical-layer portion of the direct link and the connection status changes to **Provisioned.**
 
-5. You must then configure the BGP parameters on your Edge router for BGP session establishment. After this completes, the **BGP status** indicates **Established** and **Link status** indicates **Up**.  
+1. You must then configure the BGP parameters on your Edge router for BGP session establishment. After this completes, the **BGP status** indicates **Established** and **Link status** indicates **Up**.  
 
-  It can take up to 30 minutes for the link status to update.  
-  {:note}
+   It can take up to 30 minutes for the link status to update.  
+   {: note}
 
 ## Locations
 {: #dedicated-locations}
@@ -192,17 +194,17 @@ The table gives details about the {{site.data.keyword.cloud_notm}} data centers 
 | Dallas 13 | DC(AZ3) | CyrusOne | Carrollton - Frankford | 1649 W. Frankford Rd |
 | Miami 1 | PoP  | TERREMARK | MI1 | 50 NE 9th Street |
 | San Jose 2 | PoP | Equinix | SV1 | 11 Great Oaks Blvd |
-| Sao Paulo 1 | DC | Digital Realty (Ascenty) | SAO01 | Rua Presbitero Plinio Alves de Souza, 757 J. Ermida II,Jundiai |
+| Sao Paulo 1 | DC(AZ1) | Digital Realty (Ascenty) | SAO01 | Rua Presbitero Plinio Alves de Souza, 757 J. Ermida II,Jundiai |
 | Sao Paulo 2 | PoP | Equinix | SP4 | Avenida Ceci, 1900, Tambore, Barueri, SP, 06460 120 BR, Brazil |
 | Sao Paulo 3 | PoP  | ODATA | SAO03 | 39,2, Estr. dos Romeiros |
-| Sao Paulo 4 | DC(AZ1) | ODATA | SAO04 | 943 - Votuparim, Estr. dos Romeiros |
-| Sao Paulo 5 | DC(AZ2) | ASCENTY | SAO05 | Avenida 2, n.º 50, Quadra G1 1B Parte A Gleba 1B |
-| Seattle 2 | PoP | Digital Reality (The Westin Building) | WBX | 2001 6th Avenue |
-| Toronto 1 | DC | Digital Realty | TOR01 | 371 Gough Rd Suite # 130 Markham, Ontario |
+| Sao Paulo 4 | DC(AZ2) | ODATA | SAO04 | 943 - Votuparim, Estr. dos Romeiros |
+| Sao Paulo 5 | DC(AZ3) | ASCENTY | SAO05 | Avenida 2, n.º 50, Quadra G1 1B Parte A Gleba 1B |
+| Seattle 2 | PoP | Digital Realty (The Westin Building) | WBX | 2001 6th Avenue |
+| Toronto 1 | DC(AZ1)| Digital Realty | TOR01 | 371 Gough Rd Suite # 130 Markham, Ontario |
 | Toronto 2 | PoP | Cologix | TOR02 | 151 Front Street, Toronto |
 | Toronto 3 | PoP | Equinix| TOR03 | 45 Parliament Street, Toronto |
-| Toronto 4 | DC(AZ1) | Server Farm | TOR04 | 300 Bartor Road, North York |
-| Toronto 5 | DC(AZ2) | Digital Reality | TOR05 | 1 Century Place, Vaughan |
+| Toronto 4 | DC(AZ2) | Server Farm | TOR04 | 300 Bartor Road, North York |
+| Toronto 5 | DC(AZ3) | Digital Realty | TOR05 | 1 Century Place, Vaughan |
 | Washington DC 2 | PoP 1 | Equinix | DC2 | 21715 Filigree Ct |
 | Washington DC 4 | DC(AZ1) | Digital Realty | IAD38 | 44060 Digital Loudoun Plaza (Bldg K) |
 | Washington DC 5 | PoP 2 | Coresite | DC2 | 12098 Sunrise Valley Dr |
@@ -221,7 +223,7 @@ The table gives details about the {{site.data.keyword.cloud_notm}} data centers 
 | Sydney 5 | DC(AZ3) | Equinix | SY4 | 200 Bourke Road |
 | Taipei 1 | PoP | Chief Telecom | TPE01 | Chief L.Y. Building 3rd floor, No. 250 Yuang Guang St Taipei, Taiwan, R.O.C. |
 | Tokyo 1 | Pop | Equinix | TY2  | 7th Floor, 3-8-21 Higashi-Shinagawa |
-| Tokyo 2 | DC | At Toyko | TOK02 | Shin-Toyosu Cube, 6-2-12 Toyosu, Koto-ku |
+| Tokyo 2 | DC(AZ1) | At Toyko | TOK02 | Shin-Toyosu Cube, 6-2-12 Toyosu, Koto-ku |
 | Tokyo 3 | PoP 2 | Equinix | TY4 | Chiyoda-ku |
 | Tokyo 4 | DC(AZ2) | Softbank | | Saitama |
 | Tokyo 5 | DC(AZ3) | NTT |  | Kawasaki Kangagawa |
