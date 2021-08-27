@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2021
-lastupdated: "2021-05-29"
+lastupdated: "2021-08-26"
 
 keywords: pricing
 
@@ -30,7 +30,7 @@ subcollection: dl
 {: #pricing-for-ibm-cloud-dl}
 
 Pricing for {{site.data.keyword.dl_full}} (2.0) offerings is consistent for equivalent regions and bandwidth, as shown in the following monthly pricing table.
-{:shortdesc}
+{: shortdesc}
 
 {{site.data.keyword.dl_short}} pricing does NOT include any additional charges by service providers to enable connectivity to {{site.data.keyword.cloud_notm}}.  
 {: important}
@@ -42,7 +42,7 @@ You, the customer, must arrange connectivity and billing with your service provi
 
 {{site.data.keyword.dl_short}} Dedicated creates a Letter Of Authorization / Connecting Facility Assignment (LOA/CFA) which is usable by any service provider who can reach the Meet Me Room that is specified on that LOA/CFA. The provider who is connecting to the LOA/CFA must include pricing for the cross-connect in their quote to you. {{site.data.keyword.cloud_notm}} does not order cross-connects on behalf of any customer.
 
-{{site.data.keyword.dl_short}} Connect uses pre-established physical connections to support virtual connections that Do Not need a LOA/CFA, but do require ordering from the Service Provider.
+{{site.data.keyword.dl_short}} Connect uses pre-established physical connections to support virtual connections that Do Not need a LOA/CFA, but do require ordering from the Service Provider. 
 
 ## Pricing for port charges
 {: #pricing-for-dl-port-charges}
@@ -54,33 +54,40 @@ The following tables list the pricing for metered and unmetered port charges.
 
 | Speed | US, Canada & EU | Asia Pacific | Brazil & Mexico |
 |----|----|----|----|
-|  50 Mbps |    $250 |    $333 |    $400 |
-| 100 Mbps |    $500 |    $665 |    $800 |
-| 200 Mbps |  $1,000 |  $1,330 |  $1,600 |
-| 500 Mbps |  $2,500 |  $3,335 |  $4,000 |
+|  50 Mbps (Direct Link Connect only) |    $250 |    $333 |    $400 |
+| 100 Mbps (Direct Link Connect only) |    $500 |    $665 |    $800 |
+| 200 Mbps (Direct Link Connect only) |  $1,000 |  $1,330 |  $1,600 |
+| 500 Mbps (Direct Link Connect only) |  $2,500 |  $3,335 |  $4,000 |
 |   1 Gbps |  $5,000 |  $6,650 |  $8,000 |
 |   2 Gbps | $10,000 | $13,300 | $16,000 |
 |   5 Gbps | $25,000 | $33,250 | $49,000 |
-|  10 Gbps | $50,000 | $66,500 | $80,000 |
+|  10 Gbps (Direct Link Dedicated only) | $50,000 | $66,500 | $80,000 |
 {: caption="Table 1. {{site.data.keyword.dl_short}} unmetered port charges" caption-side="top"}
 
 ### Metered  
 {: #pricing-for-dl-port-charges-metered}
 
+Provider speeds greater than 10 Gbps for Direct Link Connect incur metered billing only.
+{: important}
+
 | Speed | Global |
 |----|----|
-|  50 Mbps |   $40 |
-| 100 Mbps |   $45 |
-| 200 Mbps |   $60 |
-| 500 Mbps |  $150 |
+|  50 Mbps (Direct Link Connect only) |   $40 |
+| 100 Mbps (Direct Link Connect only) |   $45 |
+| 200 Mbps (Direct Link Connect only) |   $60 |
+| 500 Mbps (Direct Link Connect only) |  $150 |
 |   1 Gbps |  $250 |
 |   2 Gbps |  $500 |
 |   5 Gbps |$1,200 |
 |  10 Gbps (Direct Link Dedicated only) |$1,800 |
+|  25 Gbps (Direct Link Connect only) |$2,999 |
+|  40 Gbps (Direct Link Connect only) |$6,999 |
+|  50 Gbps (Direct Link Connect only) |$7,999 |
+| 100 Gbps (Direct Link Connect only)|$12,999 |
 {: caption="Table 2. {{site.data.keyword.dl_short}} metered port charges" caption-side="top"}
 
 Metered port fee pricing is determined by the bandwidth speed of the port.
-{:note}
+{: note}
 
 
 ## Pricing for metered data transfer charges
@@ -94,7 +101,7 @@ The following table lists the pricing for metered data transfer charges.
 {: caption="Table 3. {{site.data.keyword.dl_short}} metered data transfer charges" caption-side="top"}
 
 Data transfer is for egress only, and varies based on region. Inbound data transfer to IBM Cloud is free.
-{:note}
+{: note}
 
 ## Pricing for routing charges
 {: #pricing-for-global-routing-charges}
