@@ -50,7 +50,6 @@ toc:
       id: howto
       topics:
       - order-nsp.md
-      - order-dedicated-hosting-beta.md
       - topicgroup:
         label: Ordering IBM Cloud Direct Link Connect
         topics:
