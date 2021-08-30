@@ -4,7 +4,7 @@ copyright:
   years: 2018, 2020
 lastupdated: "2020-07-16"
 
-keywords: 
+keywords:
 
 subcollection: dl
 
@@ -26,11 +26,11 @@ subcollection: dl
 {:generic: data-hd-programlang="generic"}
 {:download: .download}
 
-# Alternatives for your Direct Link Connect (2.0) deployment
+# Alternatives for your Direct Link Connect deployment
 {: #alternatives-for-your-ibm-cloud-direct-link-deployment}
 
 Describes alternatives that you can choose for your Direct Link Connect deployments.
-{:shortdesc}
+{: shortdesc}
 
 The default deployments of Direct Link Connect do not include redundant configuration, although they can be deployed diversely on discrete routers.
 

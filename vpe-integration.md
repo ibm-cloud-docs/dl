@@ -56,6 +56,7 @@ After creating an endpoint gateway for Direct Link, follow these steps:
    ibmcloud update
    ```
    {: pre}
+
 1. Update the Direct Link CLI plug-in:
 
    ```sh

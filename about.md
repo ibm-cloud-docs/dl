@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020
-lastupdated: "2020-11-20"
+  years: 2020, 2021
+lastupdated: "2020-04-15"
 
 keywords: interconnectivity
 
@@ -31,23 +31,22 @@ subcollection: dl
 {: #dl-about}
 
 {{site.data.keyword.dl_full}} offerings provide connectivity from an external source into a customer's {{site.data.keyword.cloud_notm}} private network. {{site.data.keyword.dl_short}} can be viewed as an alternative to a traditional site-to-site VPN solution, which is designed for customers that need more consistent, higher-throughput connectivity between a remote network and their {{site.data.keyword.cloud_notm}} environments.
-{:shortdesc}
+{: shortdesc}
 
-   The {{site.data.keyword.dl_full_notm}} service is a routed, OSI Layer-3 service. It offers a direct connection to the {{site.data.keyword.cloud_notm}} private network backbone, with low latency and speeds up to 10 Gbps.
+The {{site.data.keyword.dl_full_notm}} service is a routed, OSI Layer-3 service. It offers a direct connection to the {{site.data.keyword.cloud_notm}} private network backbone, with low latency and speeds up to 10 Gbps.
 
-  For increased flexibility in creating this Layer-3 connectivity, {{site.data.keyword.dl_full_notm}} enables customers to use:
+For increased flexibility in creating this Layer-3 connectivity, {{site.data.keyword.dl_full_notm}} enables customers to use:
 
-   * Dual IP for remote hosts
-   * Tunneling for BYOIP
+* Dual IP for remote hosts
+* Tunneling for BYOIP
 
 ## {{site.data.keyword.dl_short}} offerings
 {: #overview-of-direct-link-offerings}
 
 Currrently, two types of connections are available:
-{:shortdesc}
+{: shortdesc}
 
 * **{{site.data.keyword.dl_short}} Dedicated** - Allows customers to terminate a single-tenant, fiber-based cross-connect into the {{site.data.keyword.cloud_notm}} network. This offering can be used by customers with colocation premises that are next to {{site.data.keyword.cloud_notm}} PoPs and data centers, as well as network service providers that deliver circuits to customer on-premises or other data centers.
-
 
 * **{{site.data.keyword.dl_short}} Connect** - Offers private access to your IBM Cloud infrastructure and to any other clouds linked to your service provider through your local IBM Cloud data center. This option is perfect for creating multi-cloud connectivity in a single environment. IBM connects customers to the IBM Cloud private network, using a shared bandwidth topology. As with all {{site.data.keyword.dl_short}} products, you can add global routing that enables private network traffic to all IBM Cloud locations.
 
@@ -95,7 +94,7 @@ Use when ultra-low latency is required.
 These use cases are best for working with hybrid workloads, cross-provider workloads, large or frequent data transfers, private workloads, and environment administration. Use these use cases:
 
 * When you want quicker connectivity for mission-critical workloads.
-* When you need connections between a client network and IBM Cloud at speeds of at 5 Gbps or less.
+* When you need connections between a client network and IBM Cloud at speeds of 5 Gbps or less.
 * When diverse ports in a point of presence (PoP) are available.
 
 ### {{site.data.keyword.dl_short}} Connect use case 1: Leveraging service provider networks to virtually reach IBM Cloud
@@ -137,5 +136,3 @@ Some benefits include:
 **Redundancy**: {{site.data.keyword.cloud_notm}} does not provide redundancy as part of the product. To establish redundant connectivity, you must acquire two connections on diverse cross connect routers (XCRs) and configure BGP on each {{site.data.keyword.dlc_full_notm}} connection as they prefer. Examples include: _prefer Lowest MED_, _prefer highest local-preference_, or _prefer shorter AS paths_.
 
 **Local and global routing options:** The default routing option is Local routing. It provides access to data centers within the same market as the {{site.data.keyword.dl_short}} PoP (denoted, for example, as DAL, AMS, or MEL). The global routing option is required as an add-on to connect your IBM Cloud resources to other IBM Cloud resources in data centers outside the local market. It is used to share workloads between IBM Cloud resources (for example, Dallas to Ashburn, or Dallas to Frankfurt).
-
-

@@ -34,7 +34,7 @@ subcollection: dl
 You can request virtual connections to networks in other {{site.data.keyword.cloud_notm}} accounts for {{site.data.keyword.dl_short}} gateways that indicate the **Provisioned** status.
 
 Only one pending request is allowed per gateway. To create more requests, you can cancel the pending virtual connection request or wait for it to be accepted. Connection requests expire if not accepted within 72 hours.
-{:note}
+{: note}
 
 Follow these steps to connect networks owned by different accounts:
 
@@ -46,7 +46,7 @@ Follow these steps to connect networks owned by different accounts:
 
    ![Get CRN of a VPC](/images/crn.png)
 
-4.  Type the name of the network connection, then click **Add**.
+4. Type the name of the network connection, then click **Add**.
 
    ![Request connection to a network in another account](/images/dl-add-conn.png)
 
@@ -69,4 +69,4 @@ Follow these steps to connect networks owned by different accounts:
    ![Virtual connection changes to Ready](/images/dl-vc5.png)
 
 The gateway account owner (or the network account owner) can delete the virtual connection. If the network owner deletes the virtual connection, the gateway owner sees the connection status as **Detached**. The gateway owner can delete the detached virtual connection from the gateway.
-{:note}
+{: note}

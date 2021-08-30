@@ -1,9 +1,9 @@
 ---
 
 copyright:
-  years: 2020
+  years: 2020, 2021
 
-lastupdated: "2020-05-15"
+lastupdated: "2021-08-30"
 
 keywords: tutorials, solution, case study, white paper, announcement, blog
 
@@ -32,6 +32,27 @@ subcollection: dl
 
 These resources are created by {{site.data.keyword.cloud}} and by some IBM Business Partners and customers.
 {: shortdesc}
+
+## Blogs on the IBM website
+{: #blogs}
+
+* [Demystifying Direct Link Offerings](https://www.ibm.com/cloud/blog/demystifying-direct-link-offerings){: external), by Bepsy Paul
+
+* [Megaport and IBM Empower Enterprise Cloud](https://www.ibm.com/cloud/blog/megaport-and-ibm-empower-enterprise-cloud){: external}, by Matt Simpson and Jill Tempelmeyer
+
+* [Supporting the next generation cloud applications with {{site.data.keyword.dl_full_notm}}](https://www.ibm.com/blogs/cloud-computing/2018/06/26/next-generation-cloud-apps-ibm-cloud-direct-link/){: external}, by Gabriel Montanti
+
+* [IBM and Colt - Enabling Enterprise Digital Transformation](https://www.ibm.com/cloud/blog/announcements/ibm-colt-enterprise-digital-transformation){: external}, by Paul Hertzfeldt
+
+* [Digital Realty and {{site.data.keyword.dl_full_notm}} - Built for Enterprise Cloud](https://www.ibm.com/cloud/blog/announcements/digital-realty-ibm-cloud-dl-expand-network){: external}, by Paul Hertzfeldt
+
+* [PacketFabric and {{site.data.keyword.cloud_notm}} Enable Secure Enterprise Connections](https://www.ibm.com/cloud/blog/announcements/packetfabric-ibm-enable-secure-enterprise-connections){: external}, by Paul Hertzfeldt
+
+* [AT TOKYO Connects to {{site.data.keyword.cloud_notm}} to Support Mission-Critical Applications](https://www.ibm.com/cloud/blog/announcements/tokyo-connects-ibm-cloud-support-mission-critical-applications){: external}, by Paul Hertzfeldt
+
+* [Interxion Optimizes Enterprise Hybrid and Multi-Cloud Strategy with {{site.data.keyword.cloud_notm}} Services](https://www.ibm.com/cloud/blog/announcements/interxion-enterprise-ibm-cloud-services){: external}, by Paul Hertzfeldt
+
+* [Improve Digital Experiences with SES Networks and IBM](https://www.ibm.com/cloud/blog/improve-digital-experiences-with-ses-networks-and-ibm){: external}, by Paul Hertzfeldt
 
 ## Papers and case studies
 {: #papers-case-studies}
@@ -66,21 +87,3 @@ These resources are created by {{site.data.keyword.cloud}} and by some IBM Busin
 
     Learn how SES Network's decision to partner with {{site.data.keyword.cloud_notm}} to help customers overcome key connectivity challenges by harnessing the power of satellites.
 
-## Blogs on the IBM website
-{: #blogs}
-
-* [Megaport and IBM Empower Enterprise Cloud](https://www.ibm.com/cloud/blog/megaport-and-ibm-empower-enterprise-cloud){: external}, by Matt Simpson and Jill Tempelmeyer
-
-* [Supporting the next generation cloud applications with {{site.data.keyword.dl_full_notm}}](https://www.ibm.com/blogs/cloud-computing/2018/06/26/next-generation-cloud-apps-ibm-cloud-direct-link/){: external}, by Gabriel Montanti
-
-* [IBM and Colt - Enabling Enterprise Digital Transformation](https://www.ibm.com/cloud/blog/announcements/ibm-colt-enterprise-digital-transformation){: external}, by Paul Hertzfeldt
-
-* [Digital Realty and {{site.data.keyword.dl_full_notm}} - Built for Enterprise Cloud](https://www.ibm.com/cloud/blog/announcements/digital-realty-ibm-cloud-dl-expand-network){: external}, by Paul Hertzfeldt
-
-* [PacketFabric and {{site.data.keyword.cloud_notm}} Enable Secure Enterprise Connections](https://www.ibm.com/cloud/blog/announcements/packetfabric-ibm-enable-secure-enterprise-connections){: external}, by Paul Hertzfeldt
-
-* [AT TOKYO Connects to {{site.data.keyword.cloud_notm}} to Support Mission-Critical Applications](https://www.ibm.com/cloud/blog/announcements/tokyo-connects-ibm-cloud-support-mission-critical-applications){: external}, by Paul Hertzfeldt
-
-* [Interxion Optimizes Enterprise Hybrid and Multi-Cloud Strategy with {{site.data.keyword.cloud_notm}} Services](https://www.ibm.com/cloud/blog/announcements/interxion-enterprise-ibm-cloud-services){: external}, by Paul Hertzfeldt
-
-* [Improve Digital Experiences with SES Networks and IBM](https://www.ibm.com/cloud/blog/improve-digital-experiences-with-ses-networks-and-ibm){: external}, by Paul Hertzfeldt

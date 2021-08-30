@@ -35,8 +35,13 @@
     "section_updates": {
       "view_more": "https://www.ibm.com/cloud/direct-link",
       "tiles": [
+          {
+            "date": "30 August 2021",
+            "title": "Direct Link (2.0) connection support for transit gateways",
+            "description": "Direct Link now supports Transit Gateway connections. A Direct Link connection allows an on-premises network to connect to other networks (for instance, VPC and classic infrastructure) that are connected to the same transit gateway. The beta release for this feature has ended. If you participated in this beta, you can continue to use the gateways that you created during the beta period.
+          },
         {
-          "date": "24 June 2021",
+          "date": "30 June 2021",
           "title": "Message Digest 5 support",
           "description": "BGP authentication enables routers to share information only if they can verify that they are talking to a trusted source, based on a key. You can store keys in either Key Protect or Hyper Protect Crypto Services."
         }

@@ -33,7 +33,7 @@ subcollection: dl
 {: support}
 
 You can update a {{site.data.keyword.dl_short}} gateway either before or after the gateway moves to the **Provisioned** state. However, a gateway is restricted from editing during **In review** and some **in progress** states.
-{:shortdesc}
+{: shortdesc}
 
 To edit a {{site.data.keyword.dl_short}} gateway, follow these steps:
 
@@ -45,4 +45,4 @@ To edit a {{site.data.keyword.dl_short}} gateway, follow these steps:
 4. Click **Submit** for your changes to take effect.
 
 There is no disruption to the existing {{site.data.keyword.dl_short}} gateway. Updated charges take effect during the next billing cycle.  
-{:note}
+{: note}

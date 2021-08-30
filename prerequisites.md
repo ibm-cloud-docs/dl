@@ -30,7 +30,7 @@ subcollection: dl
 {: #ibm-cloud-dl-prerequisites}
 
 When you are ready to finalize your {{site.data.keyword.dl_short}} order, you are asked to read and agree to the following prerequisites. You can speak with an {{site.data.keyword.cloud}} Sales specialist at any time about these terms.
-{:shortdesc}
+{: shortdesc}
 
 1. Each {{site.data.keyword.dl_full_notm}} connection requires a unique order. If you require multiple connections, order a {{site.data.keyword.dl_short}} for each connection.
 

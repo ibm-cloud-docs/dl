@@ -18,7 +18,7 @@ subcollection: dl
 {:tip: .tip}
 
 
-# Setting up Terraform for Direct Link (2.0)
+# Setting up Terraform for Direct Link
 {: #terraform-setup-dl}
 
 Terraform on {{site.data.keyword.cloud}} enables predictable and consistent provisioning of {{site.data.keyword.cloud_notm}} services so that you can rapidly build complex, multi-tier cloud environments following Infrastructure as Code (IaC) principles. Similar to using the {{site.data.keyword.cloud_notm}} CLI or API and SDKs, you can automate the provisioning, update, and deletion of your Direct Link (2.0) instances by using HashiCorp Configuration Language (HCL).

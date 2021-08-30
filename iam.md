@@ -65,8 +65,8 @@ The following table shows the authorization changes for cross-account virtual co
 | Related account | Capability | Required authorization |
 |---|---|---|
 | Gateway account | Any capabilities not mentioned in this table. | No authorization changes. |
-| Gateway account | Create and delete a cross-account virtual connection. | `directlink.dedicated.edit` or `directlink.connect.edit` <br />No VPC authorization required at create or delete time. |
+| Gateway account | Create and delete a cross-account virtual connection. | `directlink.dedicated.edit` or `directlink.connect.edit`  \n No VPC authorization required at create or delete time. |
 | Network account | View read-only gateways and virtual connections. | Service-level `directlink.dedicated.view` or `directlink.connect.view` |
-| Network account | Accept and reject pending connections. | Service-level `directlink.dedicated.view` or `directlink.connect.view`<br />Update authorization on the connected VPC. |
-| Network account | `DELETE` attached virtual connection. | Service-level `directlink.dedicated.view` or `directlink.connect.view`<br /> Update authorization on the connected VPC. |
+| Network account | Accept and reject pending connections. | Service-level `directlink.dedicated.view` or `directlink.connect.view`  \n Update authorization on the connected VPC. |
+| Network account | `DELETE` attached virtual connection. | Service-level `directlink.dedicated.view` or `directlink.connect.view`  \n  Update authorization on the connected VPC. |
 {: caption="Table 2. Authorization changes for cross-account virtual connections" caption-side="top"}

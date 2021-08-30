@@ -30,7 +30,7 @@ subcollection: dl
 {: #overview-of-virtual-routing-and-forwarding-vrf-on-ibm-cloud}
 
 By definition, virtual routing and forwarding (VRF) is a technology that is included in IP network routers. It is delivered as an inherent backbone service.
-{:shortdesc}
+{: shortdesc}
 
 ## Connectivity options for IBM Cloud
 {: #connectivity-options-for-ibm-cloud}

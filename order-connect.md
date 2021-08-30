@@ -14,6 +14,7 @@ subcollection: dl
 {:new_window: target="_blank"}
 {:DomainName: data-hd-keyref="DomainName"}
 {:note: .note}
+{:download: .download}  
 {:important: .important}
 {:deprecated: .deprecated}
 {:external: target="_blank" .external}
@@ -25,7 +26,6 @@ subcollection: dl
 {:tip: .tip}
 {:term: .term}  
 {:generic: data-hd-programlang="generic"}
-{:download: .download}  
 {:help: data-hd-content-type='help'}
 {:support: data-reuse='support'}
 
@@ -35,22 +35,18 @@ subcollection: dl
 {: support}
 
 To order {{site.data.keyword.dl_short}} Connect, you must determine the location connecting to {{site.data.keyword.cloud}}, complete the required configuration information, then click **Create** to submit your order.
-{:shortdesc}
-
-If you participated in the Direct Link Connect beta program, you must migrate your {{site.data.keyword.dl_short}} Connect gateways to a standard, paid plan. For more information, see [Migrating {{site.data.keyword.dl_short}} gateways](/docs/dl?topic=dl-how-to-order-ibm-cloud-dl-connect#migration).
-{: note}
+{: shortdesc}
 
 ## Planning considerations
 {: #before-you-begin-connect}
 
+Make sure that you review the following considerations before ordering Direct Link Connect:
+
 * {{site.data.keyword.cloud_notm}} highly recommends that a second, diverse direct link be established to prevent outages, whether unplanned, or planned due to maintenance. For more information, see [Models for diversity and redundancy](/docs/dl?topic=dl-models-for-diversity-and-redundancy-in-direct-link).
 * All subnets of the VPC or classic network will be connected to the direct link. When creating VPCs, make sure to create the VPCs with non-overlapping prefixes and unique subnets. To ensure successful connectivity with the classic infrastructure, do not use IP addresses for your VPCs in the `10.0.0.0/14`, `10.200.0.0/14`, `10.198.0.0/15`, and `10.254.0.0/16` blocks.
-* A Generic Routing Encapsulation (GRE)/IPsec tunneling requirement between your Edge router and a customer virtual router in {{site.data.keyword.cloud_notm}} requires a non-conflicting subnet when ordering. Default addresses for Direct Link 2.0 are non-routable and do not support tunneling.
+* A Generic Routing Encapsulation (GRE)/IPsec tunneling requirement between your Edge router and a customer virtual router in {{site.data.keyword.cloud_notm}} requires a non-conflicting subnet when ordering. Default addresses for Direct Link are non-routable and do not support tunneling.
 * {{site.data.keyword.cloud_notm}} VPC permits the use of RFC-1918 and IANA-registered IPv4 address space, privately within your VPC, with some exceptions in the IANA Special-Purpose ranges, and select ranges assigned to {{site.data.keyword.cloud_notm}} services.  When using IANA-registered ranges within your enterprise, and within VPCs in conjunction with {{site.data.keyword.cloud_notm}} Direct Link, custom routes must be installed in each zone. For more information, see [Routing considerations for IANA-registered IP assignments](/docs/vpc?topic=vpc-interconnectivity#routing-considerations-iana).
-* _Beta participants only_ - If you joined the beta to connect your direct link to a transit gateway, keep in mind that a single Direct Link gateway instance accepts a maximum of 120 on-premises address prefixes when connected to a transit gateway. Consider aggregating prefixes to keep within this limit.
-
-   The Transit Gateway Beta requires special approval. The use of this functionality should not be for production workloads. If you are interested in participating in this Beta, you can either open a Sev 4 support case and request access or contact your IBM Sales representative.
-   {: beta}
+* If you plan to connect your direct link to a transit gateway, keep in mind that a single Direct Link gateway instance accepts a maximum of 120 on-premises address prefixes when connected to a transit gateway. Consider aggregating prefixes to keep within this limit.
 
 ## Partner-specific instructions
 {: #instructions-partner}
@@ -65,11 +61,11 @@ If you participated in the Direct Link Connect beta program, you must migrate yo
 {: #instructions-connect}
 
 To order Direct Link Connect, you must determine the location that connects to {{site.data.keyword.cloud_notm}}, complete the required configuration information, then click **Create** to submit your order for processing.
-{:shortdesc}
+{: shortdesc}
 
 To order Direct Link Connect, follow these steps:
 
-1. Log in to your [{{site.data.keyword.cloud_notm}}](https://{DomainName}/){:external} account.
+1. Log in to your [{{site.data.keyword.cloud_notm}}](https://{DomainName}/){: external} account.
 1. Click Menu ![Menu icon](images/menu_icon.png) on the upper left of the page, then click **Interconnectivity**.
 1. Scroll to locate the Connect tile, then click **Order {{site.data.keyword.dl_short}}**.
 
@@ -91,7 +87,7 @@ To order Direct Link Connect, follow these steps:
 1. In the Gateway section, select a geography, followed by a market, type, site, and routing option. Then, select a provider and a connection speed.
 
    Available speeds are based on your provider's location. {{site.data.keyword.dl_short}} Connect supports the following speeds: 50 Mbps, 100 Mbps, 200 Mbps, 500 Mbps, 1 Gbps, 2 Gbps, 5 Gbps, 10 Gbps, 25 Gbps, 40 Gbps, 50 Gbps, and 100 Gbps.
-   {:note}  
+   {: note}  
 
    ![Location section](/images/dl-location-connect.png)  
 
@@ -104,7 +100,7 @@ To order Direct Link Connect, follow these steps:
    Unmetered billing is only available for specific speeds.
    {: important}
 
-1. {: #dl-connect-bgp}In the BGP section, complete the following information:
+1. In the BGP section, complete the following information: {: #dl-connect-bgp}
 
    * Depending on the speed that you selected, you might need to select a port for the {{site.data.keyword.dl_short}} gateway. The speed range attainable with available ports is shown.
 
@@ -142,15 +138,15 @@ To order Direct Link Connect, follow these steps:
       * **VPC** networks can contain either first or second generation compute resources, allowing you to connect to your account’s VPC resources.
 
       You cannot request a connection to a network in another account when you create a gateway. However, you can request a connection to a network in another account after a gateway is provisioned. You also can create classic infrastructure and VPC connections after a gateway is created. To learn more, see [Adding virtual connections to a {{site.data.keyword.dl_short}} gateway](/docs/dl?topic=dl-add-virtual-connection).
-      {:tip}
+      {: tip}
 
-   If you are participating in the Transit Gateway Beta, select **Transit Gateway** to bind your direct link to transit gateways. You can bind your direct link to one or more local gateways, or one global gateway. Keep in mind that you must also initiate a Direct Link connection through the [{{site.data.keyword.cloud_notm}} Transit Gateway console](https://cloud.ibm.com/interconnectivity/transit){: external} from the same {{site.data.keyword.cloud_notm}} account. For instructions, see [Adding a connection](/docs/transit-gateway?topic=transit-gateway-adding-connections){: external}.
-   {: beta}
+   You can select **Transit Gateway** to bind your direct link to transit gateways. You can bind your direct link to one or more local gateways, or one global gateway. Keep in mind that you must also initiate a Direct Link connection through the [{{site.data.keyword.cloud_notm}} Transit Gateway console](https://cloud.ibm.com/interconnectivity/transit){: external} from the same {{site.data.keyword.cloud_notm}} account. For instructions, see [Adding a connection](/docs/transit-gateway?topic=transit-gateway-adding-connections){: external}.
+   {: important}
 
 1. An order summary shows pricing estimates for your review. Read and agree to the [{{site.data.keyword.dl_short}} prerequisites](/docs/dl?topic=dl-ibm-cloud-dl-prerequisites) and review Cloud Services [Terms](https://www-03.ibm.com/software/sla/sladb.nsf/searchsaas/?searchview&searchorder=4&searchmax=0&query=(Direct+Link+Connect)). Then, click **Create** to complete your order.  
 
    If you want to add GB egress data to your estimate, click **Add to estimate** to calculate the cost. You can also click the **About** tab for links to {{site.data.keyword.dl_short}} pricing tables and other helpful resources.
-   {:tip}
+   {: tip}
 
 After you create your {{site.data.keyword.dl_short}} order, the {{site.data.keyword.dl_short}} dashboard indicates **Create in progress** order status. If you refresh the page after a few minutes, it shows **Provisioned** status.
 
@@ -167,38 +163,38 @@ To complete your connection, follow these steps:
 {: #connect-locations}
 
 The following table lists {{site.data.keyword.dl_short}} Connect providers and locations.
-{:shortdesc}
+{: shortdesc}
 
 | Provider | Locations |
 |----|----|
-| Ascenty | **Americas:** Sao Paulo 5 |
-| At Tokyo | **APAC:** Osaka 1, Tokyo 2 |
-| AT&T NetBond for Cloud | **Americas:** Dallas 3, Washington DC 2 |
-| BBIX | **APAC:** Tokyo 1, Tokyo 3 |
-| British Telecom | **Americas:** Washington DC 2<br />**EU:** Frankfurt 1, Frankfurt 3, London 3 |  
-| China Unicom | **APAC:** Hong Kong 3 |
-| CenturyLink Dynamic Connections | **Americas:** Dallas 3, San Jose 2, Toronto 2, Washington DC 2<br />**EU:** London 3, Paris 2 |  
-| Cologix | **Americas:** Chicago 1, Toronto 2, Washington DC 2 |  
-| Colt | **EU:** Frankfurt 1 |
-| DE-CIX | **EU:** Frankfurt 3, Frankfurt 4, Frankfurt 5 |
-| Epsilon | **Americas:** Washington DC 2<br />**EU:** Amsterdam 2, London 1 |
-| Equinix | **Americas:** Chicago 1, Dallas 3, San Jose 2, Sao Paulo 2, Toronto 2, Toronto 3, Washington DC 2<br />**APAC:** Osaka 1, Tokyo 3<br />**EU:** Frankfurt 3, London 3, Paris 3 |
-| IBM BlueFringe | **Americas:** Dallas 3, Washington DC 2<br />**EU:** Amsterdam 2, Frankfurt 3 |
-| IBM Global Network Peering Platform (NPP) | **Americas:** Dallas 3, Washington DC 2<br />**EU:** Amsterdam 2, Frankfurt 3, London 1, London 3, London 4 |
-| IBM Power Virtual Server | **Americas:** Dallas 12, Dallas 13, Toronto 1, Washington DC 4<br />**APAC:** Osaka 21, Sydney 4, Sydney 5, Tokyo 4<br />**EU:** Frankfurt 4, Frankfurt 5, London 4, London 6 |
-| Intercloud | **EU:** Frankfurt 3 |
-| IXReach | **Americas:** Washington DC 2 |
-| Megaport | **Americas:** Chicago 1, Dallas 4, San Jose 2, Toronto 2, Washington DC 2<br />**APAC:** Osaka 1, Sydney 2, Tokyo 2, Tokyo 3<br />**EU**: Amsterdam 2, Frankfurt 1, London 3, Paris 2 |
-| NextDC | **APAC:** Sydney 3 |
-| NTT | **APAC:** Tokyo 5 |
-| Neutrona | **Americas:** Dallas 3, Washington DC 2 |
-| PacketFabric | **Americas:** Dallas 4, Washington DC 2, San Jose 2 |
-| PCCW | **Americas:** Dallas 3 |
-| SoftBank | **APAC:** Tokyo 4 |
-| Tokai | **APAC:** Osaka 1, Tokyo 3 |
-| Verizon SCI | **Americas:** Washington DC 2 |
-| Vodafone | **EU:** Frankfurt 3, London 1 |
-| Zayo | **Americas:** Dallas 3, Toronto 2 |
+| Ascenty | Americas: Sao Paulo 5 |
+| At Tokyo | APAC: Osaka 1, Tokyo 2 |
+| AT&T NetBond for Cloud | Americas: Dallas 3, Washington DC 2 |
+| BBIX | APAC: Tokyo 1, Tokyo 3 |
+| British Telecom | Americas: Washington DC 2  \n EU: Frankfurt 1, Frankfurt 3, London 3 |  
+| China Unicom | APAC: Hong Kong 3 |
+| CenturyLink Dynamic Connections | Americas: Dallas 3, San Jose 2, Toronto 2, Washington DC 2  \n EU: London 3, Paris 2 |  
+| Cologix | Americas: Chicago 1, Toronto 2, Washington DC 2 |  
+| Colt | EU: Frankfurt 1 |
+| DE-CIX | EU: Frankfurt 3, Frankfurt 4, Frankfurt 5 |
+| Epsilon | Americas: Washington DC 2  \n EU: Amsterdam 2, London 1 |
+| Equinix | Americas: Chicago 1, Dallas 3, San Jose 2, Sao Paulo 2, Toronto 2, Toronto 3, Washington DC 2  \n APAC: Osaka 1, Tokyo 3  \n EU: Frankfurt 3, London 3, Paris 3 |
+| IBM BlueFringe | Americas: Dallas 3, Washington DC 2  \n EU: Amsterdam 2, Frankfurt 3 |
+| IBM Global Network Peering Platform (NPP) | Americas: Dallas 3, Washington DC 2  \n EU: Amsterdam 2, Frankfurt 3, London 1, London 3, London 4 |
+| IBM Power Virtual Server | Americas: Dallas 12, Dallas 13, Toronto 1, Washington DC 4  \n APAC: Osaka 21, Sydney 4, Sydney 5, Tokyo 4  \n EU: Frankfurt 4, Frankfurt 5, London 4, London 6 |
+| Intercloud | EU: Frankfurt 3 |
+| IXReach | Americas: Washington DC 2 |
+| Megaport | Americas: Chicago 1, Dallas 4, San Jose 2, Toronto 2, Washington DC 2  \n APAC: Osaka 1, Sydney 2, Tokyo 2, Tokyo 3  \n EU: Amsterdam 2, Frankfurt 1, London 3, Paris 2 |
+| NextDC | APAC: Sydney 3 |
+| NTT | APAC: Tokyo 5 |
+| Neutrona | Americas: Dallas 3, Washington DC 2 |
+| PacketFabric | Americas: Dallas 4, Washington DC 2, San Jose 2 |
+| PCCW | Americas: Dallas 3 |
+| SoftBank | APAC: Tokyo 4 |
+| Tokai | APAC: Osaka 1, Tokyo 3 |
+| Verizon SCI | Americas: Washington DC 2 |
+| Vodafone | EU: Frankfurt 3, London 1 |
+| Zayo | Americas: Dallas 3, Toronto 2 |
 {: class="simple-tab-table"}
 {: caption="Table 1. Direct Link Connect by Provider" caption-side="left"}
 {: #simpletabtable1}
@@ -207,26 +203,26 @@ The following table lists {{site.data.keyword.dl_short}} Connect providers and l
 
 | Location | Providers |
 |----|----|
-| Amsterdam 2 | Epsilon<br />IBM BlueFringe<br />IBM Global Network Peering Platform (NPP)<br />Megaport |
-| Chicago 1 | Cologix<br />Equinix<br />Megaport |
-| Dallas 3 |  AT&T NetBond for Cloud<br />CenturyLink Dynamic Connections<br />Equinix<br />IBM BlueFringe<br />IBM Global NPP<br />Neutrona<br />PCCW<br />Zayo |
-| Dallas 4 |  PacketFabric<br />Megaport |
+| Amsterdam 2 | Epsilon  \n IBM BlueFringe  \n IBM Global Network Peering Platform (NPP)  \n Megaport |
+| Chicago 1 | Cologix  \n Equinix  \n Megaport |
+| Dallas 3 |  AT&T NetBond for Cloud  \n CenturyLink Dynamic Connections  \n Equinix  \n IBM BlueFringe  \n IBM Global NPP  \n Neutrona  \n PCCW  \n Zayo |
+| Dallas 4 |  PacketFabric  \n Megaport |
 | Dallas 12 | IBM Power Virtual Server |
 | Dallas 13 | IBM Power Virtual Server |
-| Frankfurt 1 | British Telecom<br />Colt<br />Megaport |
-| Frankfurt 3 | British Telecom<br />DE-CIX<br />Equinix<br />IBM BlueFringe<br />IBM Global NPP<br />Intercloud<br />Vodafone |
-| Frankfurt 4 | DE-CIX<br />IBM Power Virtual Server |
-| Frankfurt 5 | DE-CIX<br />IBM Power Virtual Server |
+| Frankfurt 1 | British Telecom  \n Colt  \n Megaport |
+| Frankfurt 3 | British Telecom  \n DE-CIX  \n Equinix  \n IBM BlueFringe  \n IBM Global NPP  \n Intercloud  \n Vodafone |
+| Frankfurt 4 | DE-CIX  \n IBM Power Virtual Server |
+| Frankfurt 5 | DE-CIX  \n IBM Power Virtual Server |
 | Hong Kong 3 | China Unicom |
-| London 1 | Epsilon<br />IBM Global NPP<br />Vodafone |
-| London 3 | British Telecom<br />CenturyLink Dynamic Connections<br />Equinix<br />IBM Global NPP<br />Megaport|
-| London 4 | IBM Global NPP<br />IBM Power Virtual Server |
+| London 1 | Epsilon  \n IBM Global NPP  \n Vodafone |
+| London 3 | British Telecom  \n CenturyLink Dynamic Connections  \n Equinix  \n IBM Global NPP  \n Megaport|
+| London 4 | IBM Global NPP  \n IBM Power Virtual Server |
 | London 6 | IBM Power Virtual Server |
-| Osaka  1 | AT Tokyo<br />Equinix<br />Megaport<br />Tokai |
+| Osaka  1 | AT Tokyo  \n Equinix  \n Megaport  \n Tokai |
 | Osaka 21 |IBM Power Virtual Server |
-| Paris 2 | CenturyLink Dynamic Connections<br />Megaport |
+| Paris 2 | CenturyLink Dynamic Connections  \n Megaport |
 | Paris 3 | Equinix |
-| San Jose 2 | CenturyLink Dynamic Connections<br />Equinix<br />Megaport<br />PacketFabric |
+| San Jose 2 | CenturyLink Dynamic Connections  \n Equinix  \n Megaport  \n PacketFabric |
 | Sao Paulo 2 | Equinix |
 | Sao Paulo 5 | Ascenty |
 | Sydney 2 | Megaport |
@@ -234,14 +230,14 @@ The following table lists {{site.data.keyword.dl_short}} Connect providers and l
 | Sydney 4 | IBM Power Virtual Server |
 | Sydney 5 | IBM Power Virtual Server |
 | Tokyo 1 | BBIX |
-| Tokyo 2 | AT Tokyo<br />Megaport |
-| Tokyo 3 | BBIX<br />Equinix<br />Megaport<br />Tokai |
-| Tokyo 4 | IBM Power Virtual Server<br />Softbank |
+| Tokyo 2 | AT Tokyo  \n Megaport |
+| Tokyo 3 | BBIX  \n Equinix  \n Megaport  \n Tokai |
+| Tokyo 4 | IBM Power Virtual Server  \n Softbank |
 | Tokyo 5 | NTT |
 | Toronto 1 | IBM Power Virtual Server |
-| Toronto 2 | CenturyLink Dynamic Connections<br />Cologix<br />Equinix<br />Megaport<br />Zayo |
+| Toronto 2 | CenturyLink Dynamic Connections  \n Cologix  \n Equinix \n Megaport  \n Zayo |
 | Toronto 3 | Equinix |
-| Washington DC 2 | AT&T NetBond for Cloud<br />British Telecom<br />CenturyLink Dynamic Connections<br />Cologix<br />Epsilon<br />Equinix<br />IBM BlueFringe<br />IBM Global NPP<br />IXReach<br />Megaport<br />Neutrona<br />PacketFabric<br />Verizon SCI |
+| Washington DC 2 | AT&T NetBond for Cloud  \n British Telecom  \n CenturyLink Dynamic Connections  \n Cologix  \n Epsilon  \n Equinix  \n IBM BlueFringe  \n IBM Global NPP  \n IXReach  \n Megaport  \n Neutrona  \n PacketFabric  \n Verizon SCI |
 | Washington DC 4 | IBM Power Virtual Server |
 {: caption="Table 2. Direct Link Connect by Location" caption-side="left"}
 {: #simpletabtable2}

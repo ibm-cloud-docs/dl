@@ -40,10 +40,8 @@ Highlights include:
 * Support for connections to multiple {{site.data.keyword.cloud_notm}} accounts from a single direct link
 * Support for multiple VPCs (without classic access) from a single direct link within the same account
 * Bring Your Own IP (BYOIP) address to create native connectivity between your on-premises environment and {{site.data.keyword.cloud_notm}}
-* Direct Link connections to and from transit gateways.
-
-   Connecting to {{site.data.keyword.cloud_notm}} Transit Gateway is a Beta feature that requires special approval. The use of this functionality should not be for production workloads. If you are interested in participating in this Beta, you can either open a Sev 4 support case and request access or contact your IBM Sales representative.
-   {: beta}
+* Support for new connect speeds for high bandwidth through {{site.data.keyword.dl_short}} Connect (10, 25, 40, 50, and 100 Gbps).
+*  Direct Link connections to and from transit gateways.
 
 ## {{site.data.keyword.dl_short}} Dedicated
 {: #get-started-with-direct-link-dedicated}

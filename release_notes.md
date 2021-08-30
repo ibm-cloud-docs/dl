@@ -30,7 +30,7 @@ subcollection: dl
 {: #release-notes}
 
 Check back regularly to see what's new with {{site.data.keyword.cloud}} Direct Link.
-{:shortdesc}
+{: shortdesc}
 
 ## 30 August 2021
 {: #august-2021}
@@ -39,3 +39,8 @@ Check back regularly to see what's new with {{site.data.keyword.cloud}} Direct L
 
    The beta release for this feature has ended. If you participated in this beta, you can continue to use the gateways that you created during the beta period.
    {: note}
+
+## 24 June 2021
+{: #june-2021}
+
+**BGP Message Digest 5 authentication support** - Border Gateway Protocol (BGP) authentication enables routers to share information only if they can verify that they are talking to a trusted source, based on a key. TCP MD5 authentication adds an extra layer of security between BGP peers by verifying each transmitted message sent through a BGP session. You can store your keys in either Key Protect or Hyper Protect Crypto Services (HPCS).
