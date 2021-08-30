@@ -250,35 +250,3 @@ The following table lists {{site.data.keyword.dl_short}} Connect providers and l
 {: tab-title="By Location"}
 {: tab-group="connect-simple"}
 {: class="simple-tab-table"}
-
-## Migrating Direct Link Connect gateways
-{: #migration}
-
-If you participated in the beta release, you must migrate to a standard, paid plan to continue using instances that you created during the beta. Any instances that continue to use the beta plan for this service are subject to deletion.  
-{: preview}
-
-To migrate Direct Link Connect gateways to a standard, paid plan, follow these steps:
-
-1. Install {{site.data.keyword.cloud_notm}} CLI on your system, if you have not already done so. For more information, see [Getting started with the IBM Cloud CLI](/docs/cli?topic=cli-getting-started).
-1. Log in to the account that you used to create the Direct Link 2.0 Connect gateways.
-1. Enter the following command:
-
-   ```
-   ibmcloud resource service-instance-update NAME --service-plan-id SERVICE_PLAN_ID
-   ```
-   {: pre}
-
-   Where:
-
-   * `NAME` is the name of the gateway instance.
-   * `service-plan-id` indicates the type of plan.
-   * `SERVICE_PLAN_ID` is the ID of the service plan that you want to set. For Direct Link Connect, this ID is `3341e514-f13c-469b-800c-03c7e827fc7b`.
-
-   For example:
-
-   ```
-   ibmcloud resource service-instance-update nwk-stdplan --service-plan-id 3341e514-f13c-469b-800c-03c7e827fc7b
-   ```
-   Where `nwk-stdplan` is the name of the gateway that you created in the account.
-
-For information about opening an IBM Support case, or about support levels and ticket severities, see [Getting help and support](/docs/dl?topic=dl-getting-help-and-support).
