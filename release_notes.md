@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2021
-lastupdated: "2021-07-30"
+lastupdated: "2021-08-30"
 
 keywords:  
 
@@ -32,10 +32,10 @@ subcollection: dl
 Check back regularly to see what's new with {{site.data.keyword.cloud}} Direct Link.
 {:shortdesc}
 
-## 2 August 2021
+## 30 August 2021
 {: #august-2021}
 
-**Direct Link (2.0) connection support for transit gateways** (Beta) - Direct Link now supports Transit Gateway connections. A Direct Link connection allows an on-premises network to connect to other networks (for instance, VPC and classic infrastructure) that are connected to the same transit gateway.
+**Direct Link (2.0) connection support for transit gateways** - Direct Link now supports Transit Gateway connections. A Direct Link connection allows an on-premises network to connect to other networks (for instance, VPC and classic infrastructure) that are connected to the same transit gateway.
 
-   This is a Beta feature that requires special approval. The use of this functionality should not be for production workloads. If you are interested in participating in this Beta, you can either open a Sev 4 support case and request access or contact your IBM Sales representative.
-   {: beta}
+   The beta release for this feature has ended. If you participated in this beta, you can continue to use the gateways that you created during the beta period.
+   {: note}
