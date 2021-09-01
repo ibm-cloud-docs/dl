@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2021
-lastupdated: "2021-08-27"
+lastupdated: "2021-09-01"
 
 keywords:  
 
@@ -147,7 +147,7 @@ To order {{site.data.keyword.dl_full}} Dedicated, follow these steps.
       If you select **Transit Gateway** as the type of network connection, you must also initiate a Direct Link connection through the [{{site.data.keyword.cloud_notm}} Transit Gateway console](https://cloud.ibm.com/interconnectivity/transit){: external} from the same {{site.data.keyword.cloud_notm}} account. For instructions, see [Adding a connection](/docs/transit-gateway?topic=transit-gateway-adding-connections){: external}.
       {: important}  
 
-      ![Connection types](/images/dl-conn-connect.png)   
+      ![Connection types](/images/dl-conn-connect.png)
 
 1. An order summary shows pricing estimates for your review. Read and agree to the [**{{site.data.keyword.dl_short}} prerequisites**](/docs/dl?topic=dl-ibm-cloud-dl-prerequisites) and review Cloud Services [**Terms**](https://www.ibm.com/software/sla/sladb.nsf/sla/bm-8695-01). Then, click **Create** to complete your order.  
 
@@ -163,7 +163,7 @@ After you submit your {{site.data.keyword.dl_short}} order, the {{site.data.keyw
 
 Here's how the process works:
 
-1. IBM Cloud uploads a Letter of Authorization (LOA) containing a Connecting Facility Assignment (CFA). In turn, the connection status changes to **Waiting LOA review**. At this time, you can click the corresponding buttons to preview and accept the LOA.
+1. IBM Cloud uploads a Letter of Authorization (LOA) containing a Connecting Facility Assignment (CFA) within 24 hours. In turn, the connection status changes to **Waiting LOA review**. At this time, you can click the corresponding buttons to preview and accept the LOA.
 1. After accepting the LOA and downloading it, the connection status changes to **Waiting completion notice upload**. You must now take the LOA document to your carrier and get the completion notice. To do so, you can:
 
    * Supply the LOA/CFA to your colocation provider and have them order a cross connect and any required inter-campus connectivity.
