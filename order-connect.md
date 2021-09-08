@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2021
-lastupdated: "2021-08-26"
+lastupdated: "2021-09-08"
 
 keywords:  
 
@@ -181,7 +181,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect providers and l
 | China Unicom | APAC: Hong Kong 3 |
 | CenturyLink Dynamic Connections | Americas: Dallas 3, San Jose 2, Toronto 2, Washington DC 2  \n EU: London 3, Paris 2 |  
 | Cologix | Americas: Chicago 1, Toronto 2, Washington DC 2 |  
-| Colt | EU: Frankfurt 1 |
+| Colt | EU: Frankfurt 1, Frankfurt 3 |
 | DE-CIX | EU: Frankfurt 3, Frankfurt 4, Frankfurt 5 |
 | Epsilon | Americas: Washington DC 2  \n EU: Amsterdam 2, London 1 |
 | Equinix | Americas: Chicago 1, Dallas 3, San Jose 2, Sao Paulo 2, Toronto 2, Toronto 3, Washington DC 2  \n APAC: Osaka 1, Tokyo 3  \n EU: Frankfurt 3, London 3, Paris 3 |
@@ -216,7 +216,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect providers and l
 | Dallas 12 | IBM Power Virtual Server |
 | Dallas 13 | IBM Power Virtual Server |
 | Frankfurt 1 | British Telecom  \n Colt  \n Megaport |
-| Frankfurt 3 | British Telecom  \n DE-CIX  \n Equinix  \n IBM BlueFringe  \n Intercloud  \n nextGen GNPP  \n Vodafone |
+| Frankfurt 3 | British Telecom  \n Colt  \n DE-CIX  \n Equinix  \n IBM BlueFringe  \n Intercloud  \n nextGen GNPP  \n Vodafone |
 | Frankfurt 4 | DE-CIX  \n IBM Power Virtual Server |
 | Frankfurt 5 | DE-CIX  \n IBM Power Virtual Server |
 | Hong Kong 3 | China Unicom |
