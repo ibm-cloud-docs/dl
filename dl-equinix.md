@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2021
-lastupdated: "2021-06-24"
+lastupdated: "2021-08-25"
 
 keywords:
 
@@ -33,12 +33,12 @@ subcollection: dl
 # Equinix ordering considerations
 {: #equinix}
 
-After you create your Direct Link Connect order, follow these steps to create a connection for your Equinix service provider.
+You must use the Equinix Cloud Exchange (ECX) Fabric portal to create a connection for your Equinix service provider. Then, return to the Direct Link page in the [IBM Cloud console](https://cloud.ibm.com/interconnectivity/direct-link){: external} to review, accept, and finalize the creation of your direct link.
 
 For Exchange on Classic instructions, see [Steps to order Direct Link Exchange on Classic for Equinix](/docs/direct-link?topic=direct-link-how-to-order-ibm-cloud-direct-link-exchange#provisioning-ibm-cloud-direct-link-exchange-for-equinix).
 {: note}
 
-1. Log in to the Equinix Cloud Exchange (ECX) Fabric portal.
+1. Log in to the ECX Fabric portal.
    * Navigate to [https://ecxfabric.equinix.com](https://ecxfabric.equinix.com).
    * Enter your username and password.
    * Click **Sign In**.   
@@ -50,14 +50,29 @@ For Exchange on Classic instructions, see [Steps to order Direct Link Exchange o
 
    ![Select a Port, Location, and Destination](/images/equinix-port.png "Select a Port, Location, and Destination")   
 1. Select a **Location**, followed by a **Destination**. Then, click **Next**.
-1. On the Connection Details page, enter the connection information. For the IBM Service Key, enter the service key (for example, `aaa-bbbb-cccc`) that was generated when you provisioned your direct link. This key can be found on the Direct Link details page.
+1. On the Connection Details page, enter the connection information.
 
    ![Connection Details](/images/equinix-connection-details.png "Connection Details")      
 1. Select a **Connection Speed**, then click **Next**.   
 1. Review and click **Submit Your Order**.
+1. Return to the [Direct Link page](https://cloud.ibm.com/interconnectivity/direct-link){: external} in the IBM Cloud console. Notice that the connection status for your direct link connection states **Create Approval Pending**.
+1. Click the Direct Link name in the table to view its Details page. Then, go to the **Actions** section and click **Review** to finalize provisioning of the direct link.
 
-The IBM Special Network Services (SNS) team receives your request and is able approve the connection in the buyer-side portal. You can view your newly created virtual connection for Direct Link by going to **Connections**. The connection will be in a pending, provisioning state (**Pending Provider VLAN**).
+   ![Select to Review this request to finalize direct link provisioning](/images/equinix-review.png "Select to Review this request to finalize direct link provisioning")   
 
-Accept the connection request by navigating to the IBM Cloud Direct Link page and clicking **Accept** from the Actions menu. The virtual connection shows as **Provisioned** in the Equinix Fabric portal.
+1. In the Review configuration side panel, review your settings, then click **Accept**.
+
+   ![Select Accept to finalize creation of your direct link](/images/equinix-accept.png "Select Accept to finalize creation of your direct link")   
+
+1. After your direct link settings are accepted successfully, select a resource group, routing option, and billing type. Optionally, you can [enable MD5 authentication](/docs/dl?topic=dl-enable-disable-md5) to provide additional security for the BGP session, or [update your network connection type](/docs/dl?topic=dl-virtual-connection-types). 
+
+   Review your order summary, agree to the [Direct Link Connect prerequisites](/docs/dl?topic=dl-ibm-cloud-dl-prerequisites), and then click **Create** to complete this order.
+
+   ![Complete your direct link settings, then click Create.](/images/equinix-create.png "Complete your direct link settings, then click Create.")
+
+Your direct link is created:
+
+![Completion of your direct link.](/images/equinix-created.png "Completion of your direct link.")
 
 The timeline for approval is within 24 hours. If the 24-hour Service Level Agreement (SLA) is not acceptable, you can [create an IBM Support case](https://cloud.ibm.com/unifiedsupport/cases/form) and request that it be routed to the SNS team.
+ 
