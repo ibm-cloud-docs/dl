@@ -178,6 +178,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect providers and l
 | AT&T NetBond for Cloud | Americas: Dallas 3, Washington DC 2 |
 | BBIX | APAC: Tokyo 1, Tokyo 3 |
 | British Telecom | Americas: Washington DC 2  \n EU: Frankfurt 1, Frankfurt 3, London 3 |  
+| Chief Telecom | APAC: Taipei 1 |
 | China Unicom | APAC: Hong Kong 3 |
 | CenturyLink Dynamic Connections | Americas: Dallas 3, San Jose 2, Toronto 2, Washington DC 2  \n EU: London 3, Paris 2 |  
 | Cologix | Americas: Chicago 1, Toronto 2, Washington DC 2 |  
@@ -235,6 +236,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect providers and l
 | Sydney 3 | NextDC |
 | Sydney 4 | IBM Power Virtual Server |
 | Sydney 5 | IBM Power Virtual Server |
+| Taipei 1 | Chief Telecom |
 | Tokyo 1 | BBIX |
 | Tokyo 2 | AT Tokyo  \n Megaport |
 | Tokyo 3 | BBIX  \n Equinix  \n Megaport  \n Tokai |
