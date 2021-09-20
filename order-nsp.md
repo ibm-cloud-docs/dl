@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2021
-lastupdated: "2021-09-01"
+lastupdated: "2021-09-15"
 
 keywords:  
 
@@ -56,13 +56,12 @@ To order {{site.data.keyword.dl_full}} Dedicated, follow these steps.
 
 1. Log in to your [{{site.data.keyword.cloud_notm}}](https://{DomainName}/){: external} account.
 1. Click Menu ![Menu icon](images/menu_icon.png) on the upper left, then click **Interconnectivity**.
-1. Scroll to locate the Dedicated tile, then click **Order {{site.data.keyword.dl_short}}** to order.
+1. Scroll to locate the Dedicated tile, then click **Order {{site.data.keyword.dl_short}} Dedicated** to order.
 
-   ![Direct Link offering tiles](/images/dl_options.png)  
+   ![Direct Link offering tiles](/images/dl-dedicated-options.png)  
 
    Alternatively, you can click **Direct Link** in the left navigation pane to view the Direct Link page, which lists existing Direct Link instances. From this page, you can click **Order Direct Link** > **Direct Link Dedicated** tile.
    {: tip}
-
 1. In the Before you begin section, click **Open checklist** to review the ordering process (also described in [Completing the connection](/docs/dl?topic=dl-how-to-order-ibm-cloud-dl-dedicated#complete-connection)).
 
    ![Before you begin section](/images/dl-before-you-begin.png)  
@@ -81,11 +80,11 @@ To order {{site.data.keyword.dl_full}} Dedicated, follow these steps.
 
       Local and global routing options are supported. When you select a routing option, the location details with reachable sites are displayed.  
       {: note}
-
    * Choose a connection speed. The speeds supported for the {{site.data.keyword.dl_short}} Dedicated offering are 1 Gbps, 2 Gbps, 5 Gbps, and 10 Gbps.
 
-      Speeds above 1 Gbps require 10 Gbps service from the client's carrier and equipment. If you intend to upgrade the speed for this gateway, select 2 Gbps to start with; otherwise, you will not be able to upgrade to a higher speed on this gateway.
-      {: tip}
+      Speeds greater than 1 Gbps require 10 Gbps service from the client's carrier and equipment. If you intend to upgrade the speed for this gateway, select 2 Gbps to start with; otherwise, you will not be able to upgrade to a higher speed on this gateway.
+      {: tip}      
+    * Choose an IBM cross-connect router, if available.
 
       ![Gateway section](/images/dl-config-dedicated.png)   
 
@@ -100,41 +99,42 @@ To order {{site.data.keyword.dl_full}} Dedicated, follow these steps.
 
    * Select the IBM cross-connect router for the {{site.data.keyword.dl_short}} connection. The number of direct links associated with your account for each router is shown next to the router name.   
    * Select a BGP peering subnet for the {{site.data.keyword.dl_short}} connection. There are two choices for BGP subnets:
-
       * Select **Auto-select IP** for IBM to assign an IP address from IP range `169.254.0.0/16`.
       * Select **Manual-select IP** to specify two of your own IP addresses (in CIDR format) from the ranges `10.254.0.0/16`, `172.16.0.0/12`, `192.168.0.0/16`, `169.254.0.0/16`, or `Public` (a public IP address that you own). Manual-select is useful when trying to avoid conflicts with an existing subnet that is in use.
-
       Make sure that any self-provided BGP addresses do not conflict with blocks that are used by IBM, or by resources external to your {{site.data.keyword.dl_short}} deployment. Also, if you plan to use GRE or IPsec tunneling with your Direct Link gateway, you must select a BGP IP other than `169.254.0.0/16`.
       {: important}
-
    * For BGP ASN, use either the default value of `64999` or select an ASN from the specified allowed ranges.
-
       Allowed ASN ranges are:
-
       * For a 2-byte range, enter a value between `1-64495` or the default `64999`.
       * For a 2-byte or 4-byte range, enter a value between `131072-4199999999`.
       * For a 4-byte range, enter a value between `4201000000-4201064511`.
 
       Excluded ASNs: `64512`, `64513`, `65100`, `65201-65234`, `65402-65433`, `65500`, and `4201065000-4201065999`.
 
-   * Optionally, enable Message Digest 5 (MD5) authentication, an added security measure that secures the BGP session by allowing routing of messages only from routers using a shared authentication key. You can enable MD5 authentication when you create a direct link, or after your direct link is provisioned.
+      ![BGP section](/images/bgp-dedicated.png)        
+1. In the Additional BGP settings section, you can activate the following optional setting:
 
-      Supported keystores are Hyper Protect Crypto Services (HPCS) or Key Protect.
+   * **BGP Message Digest 5 (MD5) Authentication** - Add an extra layer of security between two BGP peers by verifying each transmitted message sent through the BGP session. When MD5 authentication is activated, BGP authenticates every segment sent over the TCP session from its peer and verifies the source of each routing update.
 
-      **Important**:
+      **Important**:  
 
       * You must configure the same BGP MD5 authentication key on both your Edge router and the IBM cross-connect router (XCR). The shared authentication key on the IBM device must be stored in your HPCS or Key Protect instance and shared with the Direct Link service. For more information, see [Setting up BGP Message Digest 5 (MD5) authentication keys](/docs/dl?topic=dl-dl-md5).
       * You can achieve hitless key refresh if the keys are updated on both your Edge router and on the IBM cross-connect router (XCR) within 90 seconds. As a pre-condition, you must configure the BGP hold time on your router to a minimum of 90 seconds. All Direct Link routers have a 90-second configuration by default. Either side can initiate the key refresh, but both sides must refresh within the configured BGP hold time to avoid traffic disruption.
 
-     **WARNING**: If a BGP peering session was established and you enable BGP MD5 authentication (or change the authentication key to a different value), BGP sessions are re-established, which will interrupt communication between the BGP peers.
+      **WARNING**: If a BGP peering session was established and you enable BGP MD5 authentication (or change the authentication key to a different value), BGP sessions are re-established, which causes BGP session downtime and network disruption until the BGP peer device is configured with the same change.
 
-      ![BGP section](/images/dl-bgp-connect.png)   
+      Complete the following information:
+      * For the keystore, select either **Hyper Protect Crypto Services** or **Key Protect**.
+      * Select an authentication keystore instance.
+      * Select an authentication key.
+
+      ![BGP section](/images/bgp-opt-settings.png)   
 
 1. In the Connections section, select the type of network connection that you want to bind to the {{site.data.keyword.dl_short}} gateway. You can select a connection type when you create a direct link, or after your direct link is provisioned.
 
    Select from the following connection types:
 
-   * Select **Direct resources** (default) to create a direct, private connection between your on-premises network and IBM Cloud deployment. Optionally, choose a connection and enter a connection name. To add multiple network connections to the {{site.data.keyword.dl_short}} gateway, click **Add connection +**. You can create one of the following connections:
+   * Select **Direct resources** (default) to create a direct, private connection between your on-premises network and IBM Cloud deployment. Optionally, choose a connection and enter a connection name. To add multiple network connections to the {{site.data.keyword.dl_short}} gateway, click **Add connection +**. You can create one of the following connections:   
 
       * **Classic infrastructure** networks allow you to connect to {{site.data.keyword.cloud_notm}} classic resources. Only one classic infrastructure connection is allowed per {{site.data.keyword.dl_short}} gateway.
       * **VPC** networks can contain either first or second generation compute resources, allowing you to connect to your account’s VPC resources.
@@ -147,7 +147,7 @@ To order {{site.data.keyword.dl_full}} Dedicated, follow these steps.
       If you select **Transit Gateway** as the type of network connection, you must also initiate a Direct Link connection through the [{{site.data.keyword.cloud_notm}} Transit Gateway console](https://cloud.ibm.com/interconnectivity/transit){: external} from the same {{site.data.keyword.cloud_notm}} account. For instructions, see [Adding a connection](/docs/transit-gateway?topic=transit-gateway-adding-connections){: external}.
       {: important}  
 
-      ![Connection types](/images/dl-conn-connect.png)
+      ![Connection types](/images/dl-connections.png)   
 
 1. An order summary shows pricing estimates for your review. Read and agree to the [**{{site.data.keyword.dl_short}} prerequisites**](/docs/dl?topic=dl-ibm-cloud-dl-prerequisites) and review Cloud Services [**Terms**](https://www.ibm.com/software/sla/sladb.nsf/sla/bm-8695-01). Then, click **Create** to complete your order.  
 

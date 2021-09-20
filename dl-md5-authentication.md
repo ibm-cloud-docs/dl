@@ -127,3 +127,8 @@ printf '%s' $KEY_VALUE | base64
 ```
 
 Output: `YWJjZGVmMDEyMzQ1Njc4OWFiY2RlZjAxMjM0NTY3ODlhYmNkZWYwMTIzNDU2Nzg5YWJjZGVmMDEyMzQ1Njc4OQ==`
+
+## Next step
+{: md5-next-step}
+
+[Activate BGP MD5 authentication](/docs/dl?topic=dl-enable-disable-md5#dl-enable-md5)

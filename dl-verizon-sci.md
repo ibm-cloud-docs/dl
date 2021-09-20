@@ -40,7 +40,7 @@ Follow these steps to create a Direct Link connection with Verizon SCI and Equin
    This block is usually a `/31` or `/30` IP block.
    {: note}
 
-1. Order an {{site.data.keyword.cloud}} Direct Link (2.0) Connect gateway through the [{{site.data.keyword.cloud_notm}} console](https://cloud.ibm.com){:external}. For instructions, see [Ordering IBM Cloud Direct Link Connect](/docs/dl?topic=dl-how-to-order-ibm-cloud-dl-connect).
+1. Order an {{site.data.keyword.cloud}} Direct Link (2.0) Connect gateway through the [{{site.data.keyword.cloud_notm}} console](https://cloud.ibm.com){: external}. For instructions, see [Ordering IBM Cloud Direct Link Connect](/docs/dl?topic=dl-how-to-order-ibm-cloud-dl-connect).
 
    During the ordering process (Step 7), you can specify your own IP address. Make sure to specify the Verizon SCI-supplied IP addresses instead of your actual client Edge IP addresses.
 
@@ -59,7 +59,8 @@ Follow these steps to create a Direct Link connection with Verizon SCI and Equin
 
 1. Send the connection name that you created and the generated service key to the Verizon SCI team. If you are granted permission by Verizon to order Direct Link Connect through the Equinix Fabric portal, complete your order using the Equinix Cloud Exchange (ECX) Fabric portal.
 
-### Completing your order using the Equinix Fabric portal
+## Completing your order using the Equinix Fabric portal
+{: #completing-equinix-fabric-portal-order}
 
 1. Log in to the Equinix Fabric portal.
    * Navigate to [https://ecxfabric.equinix.com](https://ecxfabric.equinix.com).
@@ -81,7 +82,6 @@ Follow these steps to create a Direct Link connection with Verizon SCI and Equin
 
 The IBM Special Network Services (SNS) team receives your request and is able approve the connection in the buyer-side portal. You can view your newly created virtual connection for Direct Link by going to **Connections**. The connection will be in a pending, provisioning state (**Pending Provider VLAN**).
 
-Accept the connection request by navigating to the IBM Cloud Direct Link page and clicking **Accept** from the Action menu. The Direct Link Gateway BGP Status shows as **Established** in the IBM Cloud Console, and **Provisioned** in the Equinix Fabric portal.
+Accept the connection request by navigating to the IBM Cloud Direct Link page and clicking **Accept** from the Actions menu. The Direct Link Gateway BGP Status shows as **Established** in the IBM Cloud Console, and **Provisioned** in the Equinix Fabric portal.
 
 The timeline for approval is within 24-48 hours. If the 48-hour Service Level Agreement (SLA) is not acceptable, you can create an [IBM Support case](https://cloud.ibm.com/unifiedsupport/cases/form) and request that it be routed to the SNS team.
-{: note}

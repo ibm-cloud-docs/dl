@@ -17,109 +17,109 @@ toc:
 #  List your getting started tutorial (getting-started.md) as the first item in the Get started nav group. See https://test.cloud.ibm.com/docs/writing?topic=writing-navigation for more details on the toc design.
   entries:
     - navgroup:
-      id: learn
-      topics:
-      - getting-started.md
-      - about.md
-      - dl-july-policy-change.md
-      - pricing.md
-      - topicgroup:
-        label: Deployment considerations
-        topics:
-        - diversity-models.md
-        - alternative-deployments.md
-        - layer-2-layer-3.md
-        - ecmp.md
-      - topicgroup:
-        label: Related links
-        topics:
-        - /direct-link/direct-link-get-started-with-ibm-cloud-direct-link
-        - /vpc/vpc-getting-started
-        - topic: video-hybrid-cloud.md
-          navtitle: "Video: Direct Link for hybrid cloud"
+       id: learn
+       topics:
+       - getting-started.md
+       - about.md
+       - dl-july-policy-change.md
+       - pricing.md
+       - topicgroup:
+           label: Deployment considerations
+           topics:
+           - diversity-models.md
+           - alternative-deployments.md
+           - layer-2-layer-3.md
+           - ecmp.md
+       - topicgroup:
+           label: Related links
+           topics:
+           - /direct-link/direct-link-get-started-with-ibm-cloud-direct-link
+           - /vpc/vpc-getting-started
+           - topic: video-hybrid-cloud.md
+             navtitle: "Video: Direct Link for hybrid cloud"
 
     - navgroup:
-      id: tutorial
-      topics:
-      - topicgroup:
-        label: Bring Your Own IP Address
+        id: tutorial
         topics:
-        - /solution-tutorials/solution-tutorials-byoip
-
-    - navgroup:
-      id: howto
-      topics:
-      - order-nsp.md
-      - topicgroup:
-        label: Ordering IBM Cloud Direct Link Connect
-        topics:
-        - order-connect.md
         - topicgroup:
-          label: Partner-specific instructions
-          topics:
-          - dl-netbond.md
-          - dl-netbond-essentials.md
-          - dl-equinix.md
-          - dl-megaport.md
-          - dl-verizon-sci.md
-          - dl-accepting-provider-enabled-connection.md
-      - topicgroup:
-        label: Managing direct links
+            label: Bring Your Own IP Address
+            topics:
+            - /solution-tutorials/solution-tutorials-byoip
+
+    - navgroup:
+        id: howto
         topics:
-        - attaching_connection.md
-        - dl-cross-account-connection.md
-        - dl-as-a-spoke.md
-        - editing_gateway.md
-        - deleting_gateway.md
-        - dl-disable-md5.md
-      - dl-md5-authentication.md
-      - ha-dr.md
-      - vpe-integration.md
-      - terraform.md
-      - topicgroup:
-        label: Enhancing security
-        topics:
-        - iam.md
-        - data-security.md
-        - at_events.md
-        - manage-scc.md
+        - order-nsp.md
+        - topicgroup:
+            label: Ordering IBM Cloud Direct Link Connect
+            topics:
+            - order-connect.md
+        - topicgroup:
+            label: Partner-specific instructions
+            topics:
+            - dl-netbond.md
+            - dl-netbond-essentials.md
+            - dl-equinix.md
+            - dl-megaport.md
+            - dl-verizon-sci.md
+            - dl-accepting-provider-enabled-connection.md
+        - topicgroup:
+            label: Managing direct links
+            topics:
+            - attaching_connection.md
+            - dl-cross-account-connection.md
+            - dl-as-a-spoke.md
+            - editing_gateway.md
+            - deleting_gateway.md
+            - dl-disable-md5.md
+            - dl-md5-authentication.md
+            - ha-dr.md
+            - vpe-integration.md
+            - terraform.md
+        - topicgroup:
+            label: Enhancing security
+            topics:
+            - iam.md
+            - data-security.md
+            - at_events.md
+            - manage-scc.md
 
 #  Links to your REST API docs should be included in the Reference navigation group. For details on publishing API docs, see https://test.cloud.ibm.com/docs/api-docs.
 #  Links to your command line reference docs should be included in the Reference navigation group.
     - navgroup:
-      id: reference
-      topics:
-      - topicgroup:
-        label: API reference
+        id: reference
         topics:
+        - topicgroup:
+            label: API reference
+            topics:
+            - link:
+               label: Direct Link API
+               href: https://{DomainName}/apidocs/direct_link
+            - link:
+               label: Direct Link Provider API
+               href: https://{DomainName}/apidocs/direct_link_provider_api
+        - /dl-cli-plugin/dl-cli-plugin-dl-cli
         - link:
-          label: Direct Link API
-          href: https://{DomainName}/apidocs/direct_link
-        - link:
-          label: Direct Link Provider API
-          href: https://{DomainName}/apidocs/direct_link_provider_api
-      - /dl-cli-plugin/dl-cli-plugin-dl-cli
-      - link:
-          label: Terraform reference
-          href: https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs/resources/dl_gateway
-      - understanding-latency.md
-      - vrf-on-ibm-cloud.md
-      - vrf-conversion-dl.md
-      - prerequisites.md
-      - responsibilities.md
-      - external-resources.md
+           label: Terraform reference
+           href: https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs/resources/dl_gateway
+        - understanding-latency.md
+        - vrf-on-ibm-cloud.md
+        - vrf-conversion-dl.md
+        - prerequisites.md
+        - responsibilities.md
+        - external-resources.md
 
     - navgroup:
-      id: help
-      topics:
-      - known-limitations.md
-      - release_notes.md
-      - getting-help.md
-      - faqs.md
-      - topicgroup:
-        label: Troubleshooting
+        id: help
         topics:
-        - maintenance.md
-        - dl-ts-key-configuration-md5.md
-        - dl-ts-not-in-provisioned-state.md
-        - dl-ts-routing-issues.md
+        - known-limitations.md
+        - release_notes.md
+        - getting-help.md
+        - faqs.md
+        - topicgroup:
+            label: Troubleshooting
+            topics:
+            - maintenance.md
+            - dl-ts-key-configuration-md5.md
+            - dl-ts-not-in-provisioned-state.md
+            - dl-ts-routing-issues.md

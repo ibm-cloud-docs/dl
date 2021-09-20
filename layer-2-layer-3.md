@@ -63,7 +63,7 @@ The following table summarizes the type of connections that each {{site.data.key
 
 | Partners | Interconnection type |  
 |-------|-------|
-| AT&T NetBond for Cloud | **Layer 3** |
+| AT&T NetBond for Cloud | **Layer 3** |
 | AT&T Cloud Gateway (formerly known as RedFringe)| **Layer 3** |
 | Bell Canada | **Layer 3** |
 | British Telecom | **Layer 3**  |

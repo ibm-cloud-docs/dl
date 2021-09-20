@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2021
-lastupdated: "2021-03-01"
+lastupdated: "2021-06-24"
 
 keywords:
 
@@ -61,7 +61,7 @@ Follow these steps to order an {{site.data.keyword.dl_full}} Connect gateway wit
 1. Specify these connection details:
 
    * **Name your connection** – Enter the {{site.data.keyword.dl_full_notm}} service key.
-   * **Invoice Reference** – Optionally, enter a reference description, such as a PO number or billing reference number.
+   * **Invoice Reference** - Optionally, enter a reference description, such as a PO number or billing reference number.
    * **Rate Limit** – Enter the speed of your connection in Mbps. Match the port speed created in the IBM Cloud console for the {{site.data.keyword.dl_short}} service.
    * **Preferred A-End VLAN** – Optionally, specify an unused VLAN ID for this connection. This must be a unique VLAN ID on this port and can range from `2` to `4093`. If you specify a VLAN ID that is already in use, the system displays the next available VLAN number. The VLAN ID must be unique to proceed with the order. If you don’t specify a value, Megaport assigns one.
 
@@ -87,4 +87,4 @@ Follow these steps to order an {{site.data.keyword.dl_full}} Connect gateway wit
 After IBM verifies and approves the inbound IBM VXC, the {{site.data.keyword.dl_full_notm}} Connect status changes to **Provisioned** and the Megaport VXC is active.
 
 The timeline for IBM approval is from 24 to 48 hours. If the 24 to 48 hour Service Level Agreement (SLA) is not acceptable, you can create an [IBM Support case](https://cloud.ibm.com/unifiedsupport/cases/form) and request that it be routed to the IBM Special Network Service (SNS) team. Include the service key in your case.
-{: note}
+ 

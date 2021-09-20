@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2021
-lastupdated: "2021-09-08"
+lastupdated: "2021-09-15"
 
 keywords:  
 
@@ -84,14 +84,15 @@ To order Direct Link Connect, follow these steps:
 
       ![Resource section](/images/dl-config-connect.png)   
 
-1. In the Gateway section, select a geography, followed by a market, type, site, and routing option. Then, select a provider and a connection speed.
+1. In the Gateway section, select a geography, followed by a market, type, site, and routing option. Then, select a provider, connection speed, and port.
 
    Available speeds are based on your provider's location. {{site.data.keyword.dl_short}} Connect supports the following speeds: 50 Mbps, 100 Mbps, 200 Mbps, 500 Mbps, 1 Gbps, 2 Gbps, 5 Gbps, 10 Gbps, 25 Gbps, 40 Gbps, 50 Gbps, and 100 Gbps.
    {: note}  
 
    ![Location section](/images/dl-location-connect.png)  
 
-   Local and global routing options are supported for {{site.data.keyword.dl_short}} Connect. The routing option that you select determines the reachability of the resources in the selected location. If you select the **Global** routing option along with your location selections, the **Region** menu list shows all the regions that are globally available in the specific account. After selecting a region, you can select any VPC from the **Available connections** menu. If you select **Local** routing, then only the region that corresponds to the selected location is available. When selected, VPCs available in the local region for your account are shown.  
+   The routing option that you select determines the reachability of the resources in the selected location. If you select the Global routing option along with your location selections, the Region menu list displays all the regions that are globally available in the specific account. After selecting a region, you can select any VPC from the Available connections menu. If you select Local routing, then only the region that corresponds to the selected location is available to select. When selected, the VPCs available in the local region for your account are shown.
+   {: note}
 
 1. In the Billing section, select **Metered** or **Unmetered**. Metered pricing is paying only for what you use; unmetered is unlimited access, for a predicable, monthly fee. Keep in mind that pricing is determined by the routing option and speed that you choose. See [Pricing for {{site.data.keyword.dl_full_notm}}](/docs/dl?topic=dl-pricing-for-ibm-cloud-dl) for details.
 
@@ -100,35 +101,40 @@ To order Direct Link Connect, follow these steps:
    Unmetered billing is only available for specific speeds.
    {: important}
 
-1. In the BGP section, complete the following information: {: #dl-connect-bgp}
+1. In the BGP section, complete the following information: {: #dl-dedicated-bgp}
 
-   * Depending on the speed that you selected, you might need to select a port for the {{site.data.keyword.dl_short}} gateway. The speed range attainable with available ports is shown.
-
+   * Select the IBM cross-connect router for the {{site.data.keyword.dl_short}} connection. The number of direct links associated with your account for each router is shown next to the router name.   
    * Select a BGP peering subnet for the {{site.data.keyword.dl_short}} connection. There are two choices for BGP subnets:
-      * Select **Auto-select IP** for IBM to assign an IP address from IP range, `169.254.0.0/16`.
-      * Select **Manual-select IP** to specify two of your own IP addresses (in CIDR format) from the ranges `10.254.0.0/16`, `172.16.0.0/12`, `192.168.0.0/16`, `169.254.0.0/16`, or `Public` (a public IP address that you own). Manual-select is useful when trying to avoid conflicts with an existing subnet in use.
-
+      * Select **Auto-select IP** for IBM to assign an IP address from IP range `169.254.0.0/16`.
+      * Select **Manual-select IP** to specify two of your own IP addresses (in CIDR format) from the ranges `10.254.0.0/16`, `172.16.0.0/12`, `192.168.0.0/16`, `169.254.0.0/16`, or `Public` (a public IP address that you own). Manual-select is useful when trying to avoid conflicts with an existing subnet that is in use.
       Make sure that any self-provided BGP addresses do not conflict with blocks that are used by IBM, or by resources external to your {{site.data.keyword.dl_short}} deployment. Also, if you plan to use GRE or IPsec tunneling with your Direct Link gateway, you must select a BGP IP other than `169.254.0.0/16`.
       {: important}
+   * For BGP ASN, use either the default value of `64999` or select an ASN from the specified allowed ranges.
+      Allowed ASN ranges are:
+      * For a 2-byte range, enter a value between `1-64495` or the default `64999`.
+      * For a 2-byte or 4-byte range, enter a value between `131072-4199999999`.
+      * For a 4-byte range, enter a value between `4201000000-4201064511`.
 
-   * Enter your BGP ASN.
+      Excluded ASNs: `64512`, `64513`, `65100`, `65201-65234`, `65402-65433`, `65500`, and `4201065000-4201065999`.
 
-      * Make sure that any self-provided BGP addresses do not conflict with blocks that are used by IBM, or by resources external to your {{site.data.keyword.dl_short}} deployment.
-      * **For Layer-3 providers only**: You must specify the carrier's ASN, not your own. For a list of carrier interconnection types, see [Comparing Layer-2 and Layer-3 connections for {{site.data.keyword.dl_short}}](/docs/dl?topic=dl-comparing-layer-2-layer-3).
-      * Excluded ASNs: `0`, `13884`, `36351`, `64512`, `64513`, `65100`, `65201-65234`, `65402-65433`, `65500`, and `420106500-4201065999`.
+      ![BGP section](/images/bgp-dedicated.png)        
+1. In the Additional BGP settings section, you can activate the following optional setting:
 
-   * Optionally, enable Message Digest 5 (MD5) authentication, an added security measure that secures the BGP session by allowing routing of messages only from routers using a shared authentication key. You can enable MD5 authentication when you create a direct link, or after your direct link is provisioned.
+   * **BGP Message Digest 5 (MD5) Authentication** - Add an extra layer of security between two BGP peers by verifying each transmitted message sent through the BGP session. When MD5 authentication is activated, BGP authenticates every segment sent over the TCP session from its peer and verifies the source of each routing update.
 
-      Supported keystores are Hyper Protect Crypto Services (HPCS) or Key Protect.
-
-      **Important**:
+      **Important**:  
 
       * You must configure the same BGP MD5 authentication key on both your Edge router and the IBM cross-connect router (XCR). The shared authentication key on the IBM device must be stored in your HPCS or Key Protect instance and shared with the Direct Link service. For more information, see [Setting up BGP Message Digest 5 (MD5) authentication keys](/docs/dl?topic=dl-dl-md5).
       * You can achieve hitless key refresh if the keys are updated on both your Edge router and on the IBM cross-connect router (XCR) within 90 seconds. As a pre-condition, you must configure the BGP hold time on your router to a minimum of 90 seconds. All Direct Link routers have a 90-second configuration by default. Either side can initiate the key refresh, but both sides must refresh within the configured BGP hold time to avoid traffic disruption.
 
-     **WARNING**: If a BGP peering session was established and you enable BGP MD5 authentication (or change the authentication key to a different value), BGP sessions are re-established, which will interrupt communication between the BGP peers.
+      **WARNING**: If a BGP peering session was established and you enable BGP MD5 authentication (or change the authentication key to a different value), BGP sessions are re-established, which causes BGP session downtime and network disruption until the BGP peer device is configured with the same change.
 
-      ![BGP section](/images/dl-bgp-connect.png)            
+      Complete the following information:
+      * For the keystore, select either **Hyper Protect Crypto Services** or **Key Protect**.
+      * Select an authentication keystore instance.
+      * Select an authentication key.
+
+      ![BGP section](/images/bgp-opt-settings.png)   
 
 1. In the Connections section, select the type of network connection that you want to bind to the {{site.data.keyword.dl_short}} gateway. You can select a connection type when you create a direct link, or after your direct link is provisioned.
 
@@ -147,7 +153,7 @@ To order Direct Link Connect, follow these steps:
       If you select **Transit Gateway** as the type of network connection, you must also initiate a Direct Link connection through the [{{site.data.keyword.cloud_notm}} Transit Gateway console](https://cloud.ibm.com/interconnectivity/transit){: external} from the same {{site.data.keyword.cloud_notm}} account. For instructions, see [Adding a connection](/docs/transit-gateway?topic=transit-gateway-adding-connections){: external}.
       {: important}  
 
-      ![Connection types](/images/dl-conn-connect.png)   
+      ![Connection types](/images/dl-connections.png)   
 
 1. An order summary shows pricing estimates for your review. Read and agree to the [{{site.data.keyword.dl_short}} prerequisites](/docs/dl?topic=dl-ibm-cloud-dl-prerequisites) and review Cloud Services [Terms](https://www-03.ibm.com/software/sla/sladb.nsf/searchsaas/?searchview&searchorder=4&searchmax=0&query=(Direct+Link+Connect)). Then, click **Create** to complete your order.  
 
