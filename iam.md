@@ -42,9 +42,9 @@ subcollection: dl
 
 | Role | Description of actions | Example actions |
 |---|---|---|
-| Administrator | Allows a user to assign {{site.data.keyword.dl_short}} IAM access policies to other users. | <ul><li>Create gateway</li><li>Delete gateway</li><li>Edit gateway</li><li>Add a virtual connection to a gateway&ast;</li> <li>Remove a virtual connection from a gateway&ast;</li><li>Edit a virtual connection (API only)</li><li>Update user access policies for the service</li></ul> |         
-| Editor | Performs all actions, including managing gateways and virtual connections. |<ul><li>Create gateway</li><li>Delete gateway</li><li>Edit gateway</li><li>Add a virtual connection to a gateway&ast;</li> <li>Remove a virtual connection from a gateway&ast;</li><li>Edit a virtual connection (API only)</li></ul> |   
-| Viewer/Operator | Performs actions that don't change the state of resources. |<ul><li>List gateways</li><li>Get gateways</li><li>List a gateway's virtual connections</li><li>View a gateway's virtual connections</li><li>Retrieve gateway-related information (completion notice/letter of authorization)</li><li>View incoming connection requests&ast;</li></ul> |
+| Administrator | Allows a user to assign {{site.data.keyword.dl_short}} IAM access policies to other users. | Create gateway  \n Delete gateway  \n Edit gateway  \n Add a virtual connection to a gateway&ast;<  \n Remove a virtual connection from a gateway&ast;  \n Edit a virtual connection (API only)  \n Update user access policies for the service |         
+| Editor | Performs all actions, including managing gateways and virtual connections. | Create gateway  \n Delete gateway  \n Edit gateway  \n Add a virtual connection to a gateway&ast;<  \n Remove a virtual connection from a gateway&ast;  \n Edit a virtual connection (API only) |   
+| Viewer/Operator | Performs actions that don't change the state of resources. |  \n List gateways  \n Get gateways  \n List a gateway's virtual connections  \n View a gateway's virtual connections  \n Retrieve gateway-related information (completion notice/letter of authorization)  \n View incoming connection requests&ast; |
 {: caption="Table 1. IAM platform-access user role and actions" caption-side="top"}
 
 &ast; To add or remove virtual connections to VPCs, or to accept or reject a connection request, the user must also have Editor or Administrator platform-access role permissions to the VPC. See [VPC: Getting started with IAM](/docs/vpc?topic=vpc-iam-getting-started) for more information.

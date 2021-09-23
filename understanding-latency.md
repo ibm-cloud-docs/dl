@@ -50,11 +50,11 @@ We express network latency in milliseconds (that’s 1,000 milliseconds per seco
 
 Given that our shared goal is to minimize latency, it makes sense to limit the number of potential variables that can affect the speed of the data’s movement. No provider can achieve complete control over how data travels across the internet, but there are some best practices to minimize network latency:
 
- * Distribute data around the world: Customers in different locations can pull data from a location that’s geographically close to them. Because the data is closer to the customers, it is handed off fewer times. When data has a shorter distance to travel, routing is less likely to cause a significant performance impact.
+* Distribute data around the world: Customers in different locations can pull data from a location that’s geographically close to them. Because the data is closer to the customers, it is handed off fewer times. When data has a shorter distance to travel, routing is less likely to cause a significant performance impact.
 
- * Provision servers with high-capacity network ports: Huge volumes of data can travel across a server every second. If packets are delayed due to fully saturated ports, milliseconds of time pass, pages load more slowly, download speeds drop, and users become unhappy.
+* Provision servers with high-capacity network ports: Huge volumes of data can travel across a server every second. If packets are delayed due to fully saturated ports, milliseconds of time pass, pages load more slowly, download speeds drop, and users become unhappy.
 
- * Understand how your providers route traffic: When you know more details about how your data is transferred to customers around the world, you can make better decisions about where you host your data.
+* Understand how your providers route traffic: When you know more details about how your data is transferred to customers around the world, you can make better decisions about where you host your data.
 
 ## How IBM Cloud minimizes network latency
 {: #how-ibm-cloud-minimizes-network-latency}
