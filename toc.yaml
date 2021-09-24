@@ -78,9 +78,7 @@ toc:
             - editing_gateway.md
             - deleting_gateway.md
             - dl-disable-md5.md
-            - dl-bfd-activation.md
         - dl-md5-authentication.md
-        - dl-bfd.md
         - ha-dr.md
         - vpe-integration.md
         - terraform.md
