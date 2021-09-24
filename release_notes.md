@@ -32,13 +32,6 @@ subcollection: dl
 Check back regularly to see what's new with {{site.data.keyword.cloud}} Direct Link.
 {: shortdesc}
 
-## 24 September 2021
-{: #september-2021}
-
-**Bidirectional Forwarding Detection (BFD)** - Activate BFD to quickly detect faults in a network between two routers or switches that are connected by a link. BFD provides a single, standardized method for detecting link failures at any protocol layer, over any media.
-
-**More flexibility in configuring BGP values** - Instead of being able to specify BGP values (ASN and IP addresses) only during initial configuration, you'll now be able to modify BGP values after direct link provisioning.
-
 ## 30 August 2021
 {: #august-2021}
 
