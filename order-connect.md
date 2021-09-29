@@ -109,20 +109,20 @@ To order Direct Link Connect, follow these steps:
       * Select **Manual-select IP** to specify two of your own IP addresses (in CIDR format) from the ranges `10.254.0.0/16`, `172.16.0.0/12`, `192.168.0.0/16`, `169.254.0.0/16`, or `Public` (a public IP address that you own). Manual-select is useful when trying to avoid conflicts with an existing subnet that is in use.
       Make sure that any self-provided BGP addresses do not conflict with blocks that are used by IBM, or by resources external to your {{site.data.keyword.dl_short}} deployment. Also, if you plan to use GRE or IPsec tunneling with your Direct Link gateway, you must select a BGP IP other than `169.254.0.0/16`.
       {: important}
-      
+
    * For BGP ASN, use either the default value of `64999` or select an ASN from the specified allowed ranges.
       Allowed ASN ranges are:
       * For a 2-byte range, enter a value between `1-64495` or the default `64999`.
       * For a 2-byte or 4-byte range, enter a value between `131072-4199999999`.
       * For a 4-byte range, enter a value between `4201000000-4201064511`.
-      
+
       Excluded ASNs: `64512`, `64513`, `65100`, `65201-65234`, `65402-65433`, `65500`, and `4201065000-4201065999`.
-      
+
       ![BGP section](/images/bgp-dedicated.png)        
 1. In the Additional BGP settings section, you can activate one or more of these optional settings.
 
    * **BGP Message Digest 5 (MD5) Authentication** - Add an extra layer of security between two BGP peers by verifying each transmitted message sent through the BGP session. When MD5 authentication is activated, BGP authenticates every segment sent over the TCP session from its peer and verifies the source of each routing update.
-   
+
       **Important**:  
 
       * You must configure the same BGP MD5 authentication key on both your Edge router and the IBM cross-connect router (XCR). The shared authentication key on the IBM device must be stored in your HPCS or Key Protect instance and shared with the Direct Link service. For more information, see [Setting up BGP Message Digest 5 (MD5) authentication keys](/docs/dl?topic=dl-dl-md5).
@@ -133,12 +133,12 @@ To order Direct Link Connect, follow these steps:
       * For the keystore, select either **Hyper Protect Crypto Services** or **Key Protect**.
       * Select an authentication keystore instance.
       * Select an authentication key.
-     
+
    * **Bidirectional Forwarding Detection (BFD)** - Activate BFD to quickly detect faults in a network between two routers or switches that are connected by a link. BFD provides a single, standardized method for detecting link failures at any protocol layer, over any media. For more information, see [Setting up bidirectional forwarding detection](/docs/dl?topic=dl-dl-bfd).
-     
+
       Activating and deactivating BFD after the BGP session is established causes BGP session downtime and network disruption until the BGP peer device is configured for the same change.
       {: important}
-   
+
       Complete the following information:
       * Interval – The interval is the minimum time (in milliseconds) expected to occur between when the local routing device sends BFD hello packets and the reply from its neighbor. This value can range from 300 to 255,000 milliseconds.
       * Multiplier – The multiplier is the number of times that a hello packet is missed before BFD declares the neighbor down. This value can range from 1 to 255. The default multiplier value is 3.
@@ -202,7 +202,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect providers and l
 | Epsilon | Americas: Washington DC 2  \n EU: Amsterdam 2, London 1 |
 | Equinix | Americas: Chicago 1, Dallas 3, San Jose 2, Sao Paulo 2, Toronto 2, Toronto 3, Washington DC 2  \n APAC: Osaka 1, Tokyo 3  \n EU: Frankfurt 3, London 3, Paris 3 |
 | IBM BlueFringe | Americas: Dallas 3, Washington DC 2  \n EU: Amsterdam 2, Frankfurt 3 |
-| IBM Power Virtual Server | Americas: Dallas 12, Dallas 13, Toronto 1, Washington DC 4  \n APAC: Osaka 21, Sydney 4, Sydney 5, Tokyo 4  \n EU: Frankfurt 4, Frankfurt 5, London 4, London 6 |
+| IBM Power Virtual Server | Americas: Dallas 12, Dallas 13, Sao Paulo 1, Toronto 1, Washington DC 4  \n APAC: Osaka 21, Sydney 4, Sydney 5, Tokyo 4  \n EU: Frankfurt 4, Frankfurt 5, London 4, London 6 |
 | Intercloud | EU: Frankfurt 3 |
 | IXReach | Americas: Washington DC 2 |
 | Megaport | Americas: Chicago 1, Dallas 4, San Jose 2, Toronto 2, Washington DC 2  \n APAC: Osaka 1, Sydney 2, Tokyo 2, Tokyo 3  \n EU: Amsterdam 2, Frankfurt 1, London 3, Paris 2 |
@@ -245,6 +245,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect providers and l
 | Paris 2 | CenturyLink Dynamic Connections  \n Megaport |
 | Paris 3 | Equinix |
 | San Jose 2 | CenturyLink Dynamic Connections  \n Equinix  \n Megaport  \n PacketFabric |
+| Sao Paulo 1 | IBM Power Virtual Server |
 | Sao Paulo 2 | Equinix |
 | Sao Paulo 5 | Ascenty |
 | Sydney 2 | Megaport |
