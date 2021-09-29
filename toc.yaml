@@ -61,14 +61,14 @@ toc:
             topics:
             - order-connect.md
             - topicgroup:
-               label: Partner-specific instructions
-               topics:
-               - dl-netbond.md
-               - dl-netbond-essentials.md
-               - dl-equinix.md
-               - dl-megaport.md
-               - dl-verizon-sci.md
-               - dl-accepting-provider-enabled-connection.md
+                label: Partner-specific instructions
+                topics:
+                - dl-netbond.md
+                - dl-netbond-essentials.md
+                - dl-equinix.md
+                - dl-megaport.md
+                - dl-verizon-sci.md
+                - dl-accepting-provider-enabled-connection.md
         - topicgroup:
             label: Managing direct links
             topics:
@@ -78,7 +78,9 @@ toc:
             - editing_gateway.md
             - deleting_gateway.md
             - dl-disable-md5.md
+            - dl-bfd-activation.md
         - dl-md5-authentication.md
+        - dl-bfd.md
         - ha-dr.md
         - vpe-integration.md
         - terraform.md
@@ -128,4 +130,3 @@ toc:
             - maintenance.md
             - dl-ts-key-configuration-md5.md
             - dl-ts-not-in-provisioned-state.md
-            - dl-ts-routing-issues.md
