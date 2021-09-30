@@ -33,14 +33,18 @@ toc:
        - topicgroup:
            label: Related links
            topics:
-           - /direct-link/direct-link-get-started-with-ibm-cloud-direct-link
-           - /vpc/vpc-getting-started
+           - link:
+              label: Getting started with Direct Link on Classic
+              href: /direct-link/direct-link-get-started-with-ibm-cloud-direct-link
+           - link:
+              label: Getting started with Virtual Private Cloud (VPC
+              href: /vpc/vpc-getting-started
            - link:
               label: Interconnecting your VPC using IBM Cloud offerings
-              href: https://cloud.ibm.com/docs/vpc?topic=vpc-interconnectivity
+              href: /vpc/vpc-interconnectivity
            - link:
               label: Accessing private API endpoints from an on-premises network using IBM Cloud Direct Link
-              href: https://cloud.ibm.com/docs/vpc?topic=vpc-end-to-end-private-connectivity
+              href: /vpc/vpc-end-to-end-private-connectivity
            - topic: video-hybrid-cloud.md
              navtitle: "Video: Direct Link for hybrid cloud"
 
