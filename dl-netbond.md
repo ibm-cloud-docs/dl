@@ -39,6 +39,7 @@ Follow these steps to request a VLAN assignment from AT&T NetBond for Cloud:
 
    NetBond is responsible for making sure that this VLAN is not in use with any NetBond connections within IBM.
    {: note}
+   
 1. Order an {{site.data.keyword.cloud}} Direct Link (2.0) Connect gateway by using the [{{site.data.keyword.cloud_notm}} console](https://cloud.ibm.com){: external}. For instructions, see [Ordering IBM Cloud Direct Link Connect](/docs/dl?topic=dl-how-to-order-ibm-cloud-dl-connect).
 
    * When defining the IP range to be used for BGP, select **Manual-select IP**.
@@ -62,4 +63,4 @@ Follow these steps to request a VLAN assignment from AT&T NetBond for Cloud:
 
 The SNS team receives the IBM Support case and initiates a series of steps to bring routers and the IBM portal database into synchronization.
 
-After completion, the IBM Support case is annotated and closed. The timeframe for this activity is five business days from receipt of the case in the SNS queue. 
+After completion, the IBM Support case is annotated and closed. The timeframe for this activity is five business days from receipt of the case in the SNS queue.
