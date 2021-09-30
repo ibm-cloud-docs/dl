@@ -34,17 +34,17 @@ toc:
            label: Related links
            topics:
            - link:
-              label: Getting started with Direct Link on Classic
-              href: /direct-link/direct-link-get-started-with-ibm-cloud-direct-link
+             label: Getting started with IBM Cloud Direct Link on Classic
+             href: https://{DomainName}/docs/direct-link
            - link:
-              label: Getting started with Virtual Private Cloud (VPC)
-              href: /vpc/vpc-getting-started
+             label: Getting started with Virtual Private Cloud (VPC)
+             href: https://{DomainName}/docs/vpc
            - link:
               label: Interconnecting your VPC using IBM Cloud offerings
-              href: /vpc/vpc-interconnectivity
+              href: https://{{DomainName}/docs/vpc/vpc-interconnectivity
            - link:
               label: Accessing private API endpoints from an on-premises network using IBM Cloud Direct Link
-              href: /vpc/vpc-end-to-end-private-connectivity
+              href: https://{DomainName}/docs/vpc/vpc-end-to-end-private-connectivity
            - topic: video-hybrid-cloud.md
              navtitle: "Video: Direct Link for hybrid cloud"
 
@@ -106,10 +106,10 @@ toc:
             topics:
             - link:
                label: Direct Link API
-               href: /apidocs/direct_link
+               href: https://{DomainName}/apidocs/direct_link
             - link:
                label: Direct Link Provider API
-               href: /apidocs/direct_link_provider_api
+               href: https://{DomainName}/apidocs/direct_link_provider_api
         - /dl-cli-plugin/dl-cli-plugin-dl-cli
         - link:
            label: Terraform reference
