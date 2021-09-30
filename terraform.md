@@ -65,21 +65,21 @@ Before you begin, make sure that you have the [required access](/docs/dl?topic=d
 
 1. Initialize the Terraform CLI.
 
-   ```
+   ```terraform      
    terraform init
    ```
    {: pre}
 
 1. Create a Terraform execution plan. The Terraform execution plan summarizes all the actions that need to be run to create the Direct Link instance in your account.
 
-   ```
+   ```terraform
    terraform plan
    ```
    {: pre}
 
 1. Create the Direct Link instance and IAM access policy in {{site.data.keyword.cloud_notm}}.
 
-   ```
+   ```terraform
    terraform apply
    ```
    {: pre}
