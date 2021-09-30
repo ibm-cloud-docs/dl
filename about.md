@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2021
-lastupdated: "2020-04-15"
+lastupdated: "2021-04-15"
 
 keywords: interconnectivity
 
@@ -52,6 +52,7 @@ Currrently, two types of connections are available:
 
 ## {{site.data.keyword.dl_short}} Dedicated use cases
 {: #use-cases-dedicated}
+
 These use cases are best for working with hybrid workloads, cross-provider workloads, large or frequent data transfers, private workloads, and environment administration. Use these use cases:
 
 * When you want dedicated connectivity for mission-critical workloads.
