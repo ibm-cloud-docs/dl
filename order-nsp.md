@@ -106,7 +106,7 @@ To order {{site.data.keyword.dl_full}} Dedicated, follow these steps.
       * Select **Manual-select IP** to specify two of your own IP addresses (in CIDR format) from the ranges `10.254.0.0/16`, `172.16.0.0/12`, `192.168.0.0/16`, `169.254.0.0/16`, or `Public` (a public IP address that you own). Manual-select is useful when trying to avoid conflicts with an existing subnet that is in use.
       Make sure that any self-provided BGP addresses do not conflict with blocks that are used by IBM, or by resources external to your {{site.data.keyword.dl_short}} deployment. Also, if you plan to use GRE or IPsec tunneling with your Direct Link gateway, you must select a BGP IP other than `169.254.0.0/16`.
       {: important}
-      
+
    * For BGP ASN, use either the default value of `64999` or select an ASN from the specified allowed ranges.
       Allowed ASN ranges are:
       * For a 2-byte range, enter a value between `1-64495` or the default `64999`.
@@ -256,4 +256,4 @@ The table gives details about the {{site.data.keyword.cloud_notm}} data centers 
 | London 5 | DC(AZ2) | Gyron |  | Maxted Cl, Hemel Hempstead  |
 | London 6 | DC(AZ3) | CyrusOne (Zenium) | LON1 | 12 Liverpool Rd, Trading Estate |
 | Milan 2 | PoP | Infracom Italia | Infracom 21 Via Caldera Way | Infracom Italia Spa, Building D, Caldera Business Park, Via Caldera, 21 |
-| Paris 3 | PoP | Equinix | PA3 | 114 Rue Ambroise Croizat, Saint Denis |
+| Paris 3 | PoP | Equinix | PA4 | 110 Bis avenue du Gènèral Leclerc, 93500 Pantin |
