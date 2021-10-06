@@ -34,11 +34,11 @@ toc:
            label: Related links
            topics:
            - link:
-             label: Getting started with IBM Cloud Direct Link on Classic
-             href: https://{DomainName}/docs/direct-link
+              label: Getting started with IBM Cloud Direct Link on Classic
+              href: https://{DomainName}/docs/direct-link
            - link:
-             label: Getting started with Virtual Private Cloud (VPC)
-             href: https://{DomainName}/docs/vpc
+              label: Getting started with Virtual Private Cloud (VPC)
+              href: https://{DomainName}/docs/vpc
            - link:
               label: Interconnecting your VPC using IBM Cloud offerings
               href: https://{{DomainName}/docs/vpc/vpc-interconnectivity
