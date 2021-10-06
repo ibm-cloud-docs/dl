@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2021
-lastupdated: "2021-09-15"
+lastupdated: "2021-10-06"
 
 keywords:  
 
@@ -194,7 +194,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect providers and l
 | BBIX | APAC: Tokyo 1, Tokyo 3 |
 | British Telecom | Americas: Washington DC 2  \n EU: Frankfurt 1, Frankfurt 3, London 3 |  
 | Chief Telecom | APAC: Taipei 1 |
-| China Unicom | APAC: Hong Kong 3 |
+| China Unicom | Americas: San Jose 1  \n APAC: Hong Kong 3 |
 | CenturyLink Dynamic Connections | Americas: Dallas 3, San Jose 2, Toronto 2, Washington DC 2  \n EU: London 3, Paris 2 |  
 | Cologix | Americas: Chicago 1, Toronto 2, Washington DC 2 |  
 | Colt | EU: Frankfurt 1, Frankfurt 3 |
@@ -244,7 +244,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect providers and l
 | Osaka 21 |IBM Power Virtual Server |
 | Paris 2 | CenturyLink Dynamic Connections  \n Megaport |
 | Paris 3 | Equinix |
-| San Jose 2 | CenturyLink Dynamic Connections  \n Equinix  \n Megaport  \n PacketFabric |
+| San Jose 2 | CenturyLink Dynamic Connections  \n China Unicom  \n Equinix  \n Megaport  \n PacketFabric |
 | Sao Paulo 1 | IBM Power Virtual Server |
 | Sao Paulo 2 | Equinix |
 | Sao Paulo 5 | Ascenty |
