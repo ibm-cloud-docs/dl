@@ -40,9 +40,6 @@ toc:
               label: Getting started with Virtual Private Cloud (VPC)
               href: https://{DomainName}/docs/vpc
            - link:
-              label: Interconnecting your VPC using IBM Cloud offerings
-              href: https://{{DomainName}/docs/vpc/vpc-interconnectivity
-           - link:
               label: Accessing private API endpoints from an on-premises network using IBM Cloud Direct Link
               href: https://{DomainName}/docs/vpc/vpc-end-to-end-private-connectivity
            - topic: video-hybrid-cloud.md
