@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2021
-lastupdated: "2021-08-25"
+lastupdated: "2021-10-07"
 
 keywords:
 
@@ -64,7 +64,7 @@ For Exchange on Classic instructions, see [Steps to order Direct Link Exchange o
 
    ![Select Accept to finalize creation of your direct link](/images/equinix-accept.png "Select Accept to finalize creation of your direct link")   
 
-1. After your direct link settings are accepted successfully, select a resource group, routing option, and billing type. Optionally, you can [enable MD5 authentication](/docs/dl?topic=dl-enable-disable-md5) to provide additional security for the BGP session, or [update your network connection type](/docs/dl?topic=dl-virtual-connection-types). 
+1. After your direct link settings are accepted successfully, select a resource group, routing option, and billing type. Optionally, you can [enable MD5 authentication](/docs/dl?topic=dl-enable-disable-md5) to provide additional security for the BGP session, or [update your network connection type](/docs/dl?topic=dl-virtual-connection-types).
 
    Review your order summary, agree to the [Direct Link Connect prerequisites](/docs/dl?topic=dl-ibm-cloud-dl-prerequisites), and then click **Create** to complete this order.
 
@@ -73,6 +73,3 @@ For Exchange on Classic instructions, see [Steps to order Direct Link Exchange o
 Your direct link is created:
 
 ![Completion of your direct link.](/images/equinix-created.png "Completion of your direct link.")
-
-The timeline for approval is within 24 hours. If the 24-hour Service Level Agreement (SLA) is not acceptable, you can [create an IBM Support case](https://cloud.ibm.com/unifiedsupport/cases/form) and request that it be routed to the SNS team.
- 
