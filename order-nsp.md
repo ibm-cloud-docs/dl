@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2021
-lastupdated: "2021-09-15"
+lastupdated: "2021-10-07"
 
 keywords:  
 
@@ -207,6 +207,7 @@ The table gives details about the {{site.data.keyword.cloud_notm}} data centers 
 | Dallas 10 | DC(AZ1) | QTS | IRV | 6431 Longhorn Drive |
 | Dallas 12 | DC(AZ2) | Digital Realty | DFW18 | 907 Security Row |
 | Dallas 13 | DC(AZ3) | CyrusOne | Carrollton - Frankford | 1649 W. Frankford Rd |
+| Montreal | DC | Colo-D | MON01 | 2525 Rue Canadien |
 | Miami 1 | PoP  | TERREMARK | MI1 | 50 NE 9th Street |
 | San Jose 2 | PoP | Equinix | SV1 | 11 Great Oaks Blvd |
 | Sao Paulo 1 | DC(AZ1) | Digital Realty (Ascenty) | SAO01 | Rua Presbitero Plinio Alves de Souza, 757 J. Ermida II,Jundiai |
