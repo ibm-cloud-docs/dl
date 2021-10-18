@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2021
-lastupdated: "2021-10-06"
+lastupdated: "2021-10-18"
 
 keywords:  
 
@@ -195,11 +195,11 @@ The following table lists {{site.data.keyword.dl_short}} Connect providers and l
 | British Telecom | Americas: Washington DC 2  \n EU: Frankfurt 1, Frankfurt 3, London 3 |  
 | Chief Telecom | APAC: Taipei 1 |
 | China Unicom | Americas: San Jose 1  \n APAC: Hong Kong 3 |
-| CenturyLink Dynamic Connections | Americas: Dallas 3, San Jose 2, Toronto 2, Washington DC 2  \n EU: London 3, Paris 2 |  
+| CenturyLink Dynamic Connections | Americas: Dallas 3, San Jose 2, Toronto 2, Washington DC 2  \n EU: Frankfurt 1, London 3, Paris 2 |  
 | Cologix | Americas: Chicago 1, Toronto 2, Washington DC 2 |  
 | Colt | EU: Frankfurt 1, Frankfurt 3 |
 | DE-CIX | EU: Frankfurt 3, Frankfurt 4, Frankfurt 5 |
-| Epsilon | Americas: Washington DC 2  \n EU: Amsterdam 2, London 1 |
+| Epsilon | Americas: Washington DC 2  \n EU: Amsterdam 2, Frankfurt 1, London 1 |
 | Equinix | Americas: Chicago 1, Dallas 3, San Jose 2, Sao Paulo 2, Toronto 2, Toronto 3, Washington DC 2  \n APAC: Osaka 1, Tokyo 3  \n EU: Frankfurt 3, London 3, Paris 3 |
 | IBM BlueFringe | Americas: Dallas 3, Washington DC 2  \n EU: Amsterdam 2, Frankfurt 3 |
 | IBM Power Virtual Server | Americas: Dallas 12, Dallas 13, Sao Paulo 1, Toronto 1, Washington DC 4  \n APAC: Osaka 21, Sydney 4, Sydney 5, Tokyo 4  \n EU: Frankfurt 4, Frankfurt 5, London 4, London 6 |
@@ -231,7 +231,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect providers and l
 | Dallas 4 |  PacketFabric  \n Megaport |
 | Dallas 12 | IBM Power Virtual Server |
 | Dallas 13 | IBM Power Virtual Server |
-| Frankfurt 1 | British Telecom  \n Colt  \n Megaport |
+| Frankfurt 1 | British Telecom  \n CenturyLink Dynamic Connections  \n Colt  \n Epsilon  \n Megaport |
 | Frankfurt 3 | British Telecom  \n Colt  \n DE-CIX  \n Equinix  \n IBM BlueFringe  \n Intercloud  \n nextGen GNPP  \n Vodafone |
 | Frankfurt 4 | DE-CIX  \n IBM Power Virtual Server |
 | Frankfurt 5 | DE-CIX  \n IBM Power Virtual Server |
