@@ -258,3 +258,4 @@ The table gives details about the {{site.data.keyword.cloud_notm}} data centers 
 | London 6 | DC(AZ3) | CyrusOne (Zenium) | LON1 | 12 Liverpool Rd, Trading Estate |
 | Milan 2 | PoP | Infracom Italia | Infracom 21 Via Caldera Way | Infracom Italia Spa, Building D, Caldera Business Park, Via Caldera, 21 |
 | Paris 3 | PoP | Equinix | PA4 | 110 Bis avenue du Gènèral Leclerc, 93500 Pantin |
+{: caption="Table 1. Direct Link Dedicated by Location" caption-side="left"}
