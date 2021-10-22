@@ -30,6 +30,8 @@ toc:
            - alternative-deployments.md
            - layer-2-layer-3.md
            - ecmp.md
+           - topic: video-hybrid-cloud.md
+             navtitle: "Video: Direct Link for hybrid cloud"
        - topicgroup:
            label: Related links
            topics:
@@ -39,12 +41,8 @@ toc:
             - link:
                 label: Getting started with Virtual Private Cloud (VPC)
                 href: /vpc/vpc-getting-started
-            - link:
-                label: Interconnecting your VPC using IBM Cloud offerings
-                href: /vpc/vpc-interconnectivity
-            - link:
-                label: Accessing private API endpoints from an on-premises network using IBM Cloud Direct Link
-                href: /vpc/vpc-end-to-end-private-connectivity
+            - /vpc/vpc-interconnectivity
+            - /vpc/vpc-end-to-end-private-connectivity
 
     - navgroup:
         id: tutorial
