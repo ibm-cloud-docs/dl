@@ -40,7 +40,7 @@ ECMP isn’t designed for creating redundant connections but for balancing the l
 
 ECMP for redundancy or load balancing can impact diversity at the IBM XCR. As a result, careful design is recommended for projects with Diversity or High Availability (HA) requirements.
 
-![ECMP Dedicated model](/images/ecmp-without-diversity.png "ECMP Dedicated model"){: caption="Figure 1: ECMP provisioning" caption-side="top"}
+![ECMP Dedicated model](/images/ecmp-without-diversity.png "ECMP Dedicated model"){: caption="Figure 1: ECMP provisioning" caption-side="bottom"}
 
 ## Use Case 2: ECMP with diversity
 {: #usecase-two}
@@ -49,4 +49,4 @@ ECMP is a feature of BGP. If you want to use ECMP and have redundancy, you must 
 
 For HA with ECMP, it is recommended that four {{site.data.keyword.dl_short}} circuits be established, with two of them at diverse XCRs to achieve diversity.
 
-![ECMP Dual XCR Model](/images/ecmp-with-diversity.png "ECMP Dual XCR Model"){: caption="Figure 2: ECMP with Dual XCRs" caption-side="top"}
+![ECMP Dual XCR Model](/images/ecmp-with-diversity.png "ECMP Dual XCR Model"){: caption="Figure 2: ECMP with Dual XCRs" caption-side="bottom"}

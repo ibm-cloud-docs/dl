@@ -218,7 +218,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect providers and l
 | Vodafone | EU: Frankfurt 3, London 1 |
 | Zayo | Americas: Dallas 3, Toronto 2 |
 {: class="simple-tab-table"}
-{: caption="Table 1. Direct Link Connect by Provider" caption-side="left"}
+{: caption="Table 1. Direct Link Connect by Provider" caption-side="bottom"}
 {: #simpletabtable1}
 {: tab-title="By Provider"}
 {: tab-group="connect-simple"}
@@ -263,7 +263,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect providers and l
 | Toronto 3 | Equinix |
 | Washington DC 2 | AT&T NetBond for Cloud  \n British Telecom  \n CenturyLink Dynamic Connections  \n Cologix  \n Epsilon  \n Equinix  \n IBM BlueFringe   \n IXReach  \n Megaport  \n Neutrona  \n nextGen GNPP  \n PacketFabric  \n Verizon SCI |
 | Washington DC 4 | IBM Power Virtual Server |
-{: caption="Table 2. Direct Link Connect by Location" caption-side="left"}
+{: caption="Table 2. Direct Link Connect by Location" caption-side="bottom"}
 {: #simpletabtable2}
 {: tab-title="By Location"}
 {: tab-group="connect-simple"}

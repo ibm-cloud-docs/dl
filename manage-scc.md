@@ -53,6 +53,6 @@ As a security or compliance focal, you can use the {{site.data.keyword.complianc
 | Resource kind | Property | Operator | Value | Description |
 |---------------|----------|---------------|-------|-------------|
 | *service* | *cross_account_connection_approved* | *is_false* | - | *Indicates whether an incoming cross account connection request was approved. |
-{: caption="Table 1. Rule properties for {{site.data.keyword.dl_full}}" caption-side="top"}
+{: caption="Table 1. Rule properties for {{site.data.keyword.dl_full}}" caption-side="bottom"}
 
 To learn more about config rules, see [What is a config rule?](/docs/security-compliance?topic=security-compliance-what-is-rule).

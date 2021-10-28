@@ -62,7 +62,7 @@ The following tables list the pricing for metered and unmetered port charges.
 |   2 Gbps | $10,000 | $13,300 | $16,000 |
 |   5 Gbps | $25,000 | $33,250 | $49,000 |
 |  10 Gbps (Direct Link Dedicated only) | $50,000 | $66,500 | $80,000 |
-{: caption="Table 1. {{site.data.keyword.dl_short}} unmetered port charges" caption-side="top"}
+{: caption="Table 1. {{site.data.keyword.dl_short}} unmetered port charges" caption-side="bottom"}
 
 ### Metered  
 {: #pricing-for-dl-port-charges-metered}
@@ -77,7 +77,7 @@ The following tables list the pricing for metered and unmetered port charges.
 |   2 Gbps |  $500 |
 |   5 Gbps |$1,200 |
 |  10 Gbps (Direct Link Dedicated only) |$1,800 |
-{: caption="Table 2. {{site.data.keyword.dl_short}} metered port charges" caption-side="top"}
+{: caption="Table 2. {{site.data.keyword.dl_short}} metered port charges" caption-side="bottom"}
 
 Metered port fee pricing is determined by the bandwidth speed of the port.
 {: note}
@@ -90,7 +90,7 @@ The following table lists the pricing for metered data transfer charges.
 | Tier | US, Canada & EU | Asia Pacific | Brazil & Mexico |
 |----|----|----|----|
 | Per GB | $0.025 | $0.050 | $0.140 |
-{: caption="Table 3. {{site.data.keyword.dl_short}} metered data transfer charges" caption-side="top"}
+{: caption="Table 3. {{site.data.keyword.dl_short}} metered data transfer charges" caption-side="bottom"}
 
 Data transfer is for egress only, and varies based on region. Inbound data transfer to IBM Cloud is free.
 {: note}

@@ -45,7 +45,7 @@ subcollection: dl
 | Administrator | Allows a user to assign {{site.data.keyword.dl_short}} IAM access policies to other users. | Create gateway  \n Delete gateway  \n Edit gateway  \n Add a virtual connection to a gateway&ast;<  \n Remove a virtual connection from a gateway&ast;  \n Edit a virtual connection (API only)  \n Update user access policies for the service |         
 | Editor | Performs all actions, including managing gateways and virtual connections. | Create gateway  \n Delete gateway  \n Edit gateway  \n Add a virtual connection to a gateway&ast;<  \n Remove a virtual connection from a gateway&ast;  \n Edit a virtual connection (API only) |   
 | Viewer/Operator | Performs actions that don't change the state of resources. |  \n List gateways  \n Get gateways  \n List a gateway's virtual connections  \n View a gateway's virtual connections  \n Retrieve gateway-related information (completion notice/letter of authorization)  \n View incoming connection requests&ast; |
-{: caption="Table 1. IAM platform-access user role and actions" caption-side="top"}
+{: caption="Table 1. IAM platform-access user role and actions" caption-side="bottom"}
 
 &ast; To add or remove virtual connections to VPCs, or to accept or reject a connection request, the user must also have Editor or Administrator platform-access role permissions to the VPC. See [VPC: Getting started with IAM](/docs/vpc?topic=vpc-iam-getting-started) for more information.
 
@@ -69,4 +69,4 @@ The following table shows the authorization changes for cross-account virtual co
 | Network account | View read-only gateways and virtual connections. | Service-level `directlink.dedicated.view` or `directlink.connect.view` |
 | Network account | Accept and reject pending connections. | Service-level `directlink.dedicated.view` or `directlink.connect.view`  \n Update authorization on the connected VPC. |
 | Network account | `DELETE` attached virtual connection. | Service-level `directlink.dedicated.view` or `directlink.connect.view`  \n  Update authorization on the connected VPC. |
-{: caption="Table 2. Authorization changes for cross-account virtual connections" caption-side="top"}
+{: caption="Table 2. Authorization changes for cross-account virtual connections" caption-side="bottom"}
