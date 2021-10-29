@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2021
-lastupdated: "2021-10-18"
+lastupdated: "2021-10-29"
 
 keywords:  
 
@@ -202,7 +202,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect providers and l
 | Epsilon | Americas: Washington DC 2  \n EU: Amsterdam 2, Frankfurt 1, London 1 |
 | Equinix | Americas: Chicago 1, Dallas 3, San Jose 2, Sao Paulo 2, Toronto 2, Toronto 3, Washington DC 2  \n APAC: Osaka 1, Tokyo 3  \n EU: Frankfurt 3, London 3, Paris 3 |
 | IBM BlueFringe | Americas: Dallas 3, Washington DC 2  \n EU: Amsterdam 2, Frankfurt 3 |
-| IBM Power Virtual Server | Americas: Dallas 12, Dallas 13, Sao Paulo 1, Toronto 1, Washington DC 4  \n APAC: Osaka 21, Sydney 4, Sydney 5, Tokyo 4  \n EU: Frankfurt 4, Frankfurt 5, London 4, London 6 |
+| IBM Power Virtual Server | Americas: Dallas 12, Dallas 13, Montreal 1, Sao Paulo 1, Toronto 1, Washington DC 4  \n APAC: Osaka 21, Sydney 4, Sydney 5, Tokyo 4  \n EU: Frankfurt 4, Frankfurt 5, London 4, London 6 |
 | Intercloud | EU: Frankfurt 3 |
 | IXReach | Americas: Washington DC 2 |
 | Megaport | Americas: Chicago 1, Dallas 4, San Jose 2, Toronto 2, Washington DC 2  \n APAC: Osaka 1, Sydney 2, Tokyo 2, Tokyo 3  \n EU: Amsterdam 2, Frankfurt 1, London 3, Paris 2 |
@@ -240,6 +240,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect providers and l
 | London 3 | British Telecom  \n CenturyLink Dynamic Connections  \n Equinix  \n Megaport  \n nextGen GNPP |
 | London 4 | IBM Power Virtual Server  \n nextGen GNPP  |
 | London 6 | IBM Power Virtual Server |
+| Montreal 1 | IBM Power Virtual Server |
 | Osaka  1 | AT Tokyo  \n Equinix  \n Megaport  \n Tokai |
 | Osaka 21 |IBM Power Virtual Server |
 | Paris 2 | CenturyLink Dynamic Connections  \n Megaport |
