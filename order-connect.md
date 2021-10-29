@@ -195,7 +195,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect providers and l
 | British Telecom | Americas: Washington DC 2  \n EU: Frankfurt 1, Frankfurt 3, London 3 |  
 | Chief Telecom | APAC: Taipei 1 |
 | China Unicom | Americas: San Jose 1  \n APAC: Hong Kong 3 |
-| CenturyLink Dynamic Connections | Americas: Dallas 3, San Jose 2, Toronto 2, Washington DC 2  \n EU: Frankfurt 1, London 3, Paris 2 |  
+| CenturyLink Dynamic Connections | Americas: Dallas 3, San Jose 2, Sao Paulo 2, Toronto 2, Washington DC 2  \n EU: Frankfurt 1, London 3, Paris 2 |  
 | Cologix | Americas: Chicago 1, Toronto 2, Washington DC 2 |  
 | Colt | EU: Frankfurt 1, Frankfurt 3 |
 | DE-CIX | EU: Frankfurt 3, Frankfurt 4, Frankfurt 5 |
@@ -247,7 +247,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect providers and l
 | Paris 3 | Equinix |
 | San Jose 2 | CenturyLink Dynamic Connections  \n China Unicom  \n Equinix  \n Megaport  \n PacketFabric |
 | Sao Paulo 1 | IBM Power Virtual Server |
-| Sao Paulo 2 | Equinix |
+| Sao Paulo 2 | CenturyLink Dynamic Connections  \n Equinix |
 | Sao Paulo 5 | Ascenty |
 | Sydney 2 | Megaport |
 | Sydney 3 | NextDC |
