@@ -29,7 +29,7 @@ subcollection: dl
 # Models for diversity and redundancy in {{site.data.keyword.dl_short}}
 {: #models-for-diversity-and-redundancy-in-direct-link}
 
-{{site.data.keyword.dl_full}} is not a redundant service at the cross-connect router (XCR), customers have the responsibility for creating redundancy through their border gateway protocol (BGP) schemas. This document presents possible configurations which can help you find a model for creating the most successful {{site.data.keyword.dl_short}} deployment to meet your needs. The configurations are arranged in increasing levels of complexity and also according to the {{site.data.keyword.dl_short}} offering.
+{{site.data.keyword.dl_full}} is not a redundant service at the cross-connect router (XCR); customers have the responsibility for creating redundancy through their border gateway protocol (BGP) schemas. This document presents possible configurations which can help you find a model for creating the most successful {{site.data.keyword.dl_short}} deployment to meet your needs. The configurations are arranged in increasing levels of complexity and also according to the {{site.data.keyword.dl_short}} offering.
 {: shortdesc}
 
 Key:

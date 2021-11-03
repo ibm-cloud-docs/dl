@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2021
-lastupdated: "2021-10-07"
+lastupdated: "2021-11-03"
 
 keywords:  
 
@@ -58,14 +58,14 @@ To order {{site.data.keyword.dl_full}} Dedicated, follow these steps.
 1. Click Menu ![Menu icon](images/menu_icon.png) on the upper left, then click **Interconnectivity**.
 1. Scroll to locate the Dedicated tile, then click **Order {{site.data.keyword.dl_short}} Dedicated** to order.
 
-   ![Direct Link offering tiles](/images/dl-dedicated-options.png)  
+   ![Direct Link offerings](/images/dl-dedicated-options.png){: caption="Direct Link offerings" caption-side="bottom"}    
 
    Alternatively, you can click **Direct Link** in the left navigation pane to view the Direct Link page, which lists existing Direct Link instances. From this page, you can click **Order Direct Link** > **Direct Link Dedicated** tile.
    {: tip}
 
 1. In the Before you begin section, click **Open checklist** to review the ordering process (also described in [Completing the connection](/docs/dl?topic=dl-how-to-order-ibm-cloud-dl-dedicated#complete-connection)).
 
-   ![Before you begin section](/images/dl-before-you-begin.png)  
+   ![Before you begin section](/images/dl-before-you-begin.png){: caption="Before you begin section" caption-side="bottom"}    
 
 1. In the Resource section, complete the following information:
 
@@ -73,7 +73,7 @@ To order {{site.data.keyword.dl_full}} Dedicated, follow these steps.
    * Choose a resource group to create the {{site.data.keyword.dl_short}} connection. Resource groups help manage and contain resources associated with an account. Select **Default** if you don't have other groups defined in the drop-down list. For more information about resource groups, see [Best practices for organizing resources in a resource group](/docs/account?topic=account-account_setup).    
    * Type your customer and carrier names.
 
-      ![Resource section](/images/dl-resource-dedicated.png)
+      ![Resource section](/images/dl-resource-dedicated.png){: caption="Resource section" caption-side="bottom"}  
 
 1. In the Gateway section, complete the following:
 
@@ -89,14 +89,14 @@ To order {{site.data.keyword.dl_full}} Dedicated, follow these steps.
 
    * Choose an IBM cross-connect router, if available.
 
-      ![Gateway section](/images/dl-config-dedicated.png)   
+      ![Gateway section](/images/dl-config-dedicated.png){: caption="Gateway section" caption-side="bottom"}     
 
    The routing option that you select determines the reachability of the resources in the selected location. If you select the **Global** routing option along with your location selections, the **Region** menu list displays all the regions that are globally available in the specific account. After selecting a region, you can select any VPC from the **Available connections** menu. If you select **Local** routing, then only the region that corresponds to the selected location is available to select. When selected, the VPCs available in the local region for your account are shown.
    {: note}
 
 1. In the Billing section, select **Metered** or **Unmetered**. Metered pricing is paying only for what you use. Unmetered is unlimited access, for a predicable, monthly fee. See [Pricing for {{site.data.keyword.dl_full_notm}}](/docs/dl?topic=dl-pricing-for-ibm-cloud-dl) for details.
 
-   ![Billing section](/images/dl-billing.png)  
+   ![Billing section](/images/dl-billing.png){: caption="Billing section" caption-side="bottom"}    
 
 1. In the BGP section, complete the following information: {: #dl-dedicated-bgp}
 
@@ -115,10 +115,11 @@ To order {{site.data.keyword.dl_full}} Dedicated, follow these steps.
 
       Excluded ASNs: `64512`, `64513`, `65100`, `65201-65234`, `65402-65433`, `65500`, and `4201065000-4201065999`.
 
-      ![BGP section](/images/bgp-dedicated.png)        
+      ![BGP section](/images/bgp-dedicated.png){: caption="BGP section" caption-side="bottom"}       
+
 1. In the Additional BGP settings section, you can activate one or more of these optional settings.
 
-   ![BGP section](/images/bgp-opt-settings.png)   
+   ![BGP section](/images/bgp-opt-settings.png){: caption="BGP section" caption-side="bottom"}         
 
    * **BGP Message Digest 5 (MD5) Authentication** - Add an extra layer of security between two BGP peers by verifying each transmitted message sent through the BGP session. When MD5 authentication is activated, BGP authenticates every segment sent over the TCP session from its peer and verifies the source of each routing update.
 
@@ -159,7 +160,7 @@ To order {{site.data.keyword.dl_full}} Dedicated, follow these steps.
       If you select **Transit Gateway** as the type of network connection, you must also initiate a Direct Link connection through the [{{site.data.keyword.cloud_notm}} Transit Gateway console](https://cloud.ibm.com/interconnectivity/transit){: external} from the same {{site.data.keyword.cloud_notm}} account. For instructions, see [Adding a connection](/docs/transit-gateway?topic=transit-gateway-adding-connections){: external}.
       {: important}  
 
-      ![Connection types](/images/dl-connections.png)   
+      ![Connection types](/images/dl-connections.png){: caption="Connection types" caption-side="bottom"}         
 
 1. An order summary shows pricing estimates for your review. Read and agree to the [**{{site.data.keyword.dl_short}} prerequisites**](/docs/dl?topic=dl-ibm-cloud-dl-prerequisites) and review Cloud Services [**Terms**](https://www.ibm.com/software/sla/sladb.nsf/sla/bm-8695-01). Then, click **Create** to complete your order.  
 
@@ -207,8 +208,8 @@ The table gives details about the {{site.data.keyword.cloud_notm}} data centers 
 | Dallas 10 | DC(AZ1) | QTS | IRV | 6431 Longhorn Drive |
 | Dallas 12 | DC(AZ2) | Digital Realty | DFW18 | 907 Security Row |
 | Dallas 13 | DC(AZ3) | CyrusOne | Carrollton - Frankford | 1649 W. Frankford Rd |
-| Montreal | DC | Colo-D | MON01 | 2525 Rue Canadien |
 | Miami 1 | PoP  | TERREMARK | MI1 | 50 NE 9th Street |
+| Montreal | DC | Colo-D | MON01 | 2525 Rue Canadien |
 | San Jose 2 | PoP | Equinix | SV1 | 11 Great Oaks Blvd |
 | Sao Paulo 1 | DC(AZ1) | Digital Realty (Ascenty) | SAO01 | Rua Presbitero Plinio Alves de Souza, 757 J. Ermida II,Jundiai |
 | Sao Paulo 2 | PoP | Equinix | SP4 | Avenida Ceci, 1900, Tambore, Barueri, SP, 06460 120 BR, Brazil |
@@ -256,6 +257,7 @@ The table gives details about the {{site.data.keyword.cloud_notm}} data centers 
 | London 4 | DC(AZ1) | ARK | A103 | A57 Cody Technology Park Old, Victor Way, Farnborough |
 | London 5 | DC(AZ2) | Gyron |  | Maxted Cl, Hemel Hempstead  |
 | London 6 | DC(AZ3) | CyrusOne (Zenium) | LON1 | 12 Liverpool Rd, Trading Estate |
+| Milan 1 | DC | Data 4 | | Via Monzoro 101-105, 20010 Cornaredo (MI) |
 | Milan 2 | PoP | Infracom Italia | Infracom 21 Via Caldera Way | Infracom Italia Spa, Building D, Caldera Business Park, Via Caldera, 21 |
 | Paris 3 | PoP | Equinix | PA4 | 110 Bis avenue du Gènèral Leclerc, 93500 Pantin |
 {: caption="Table 1. Direct Link Dedicated by Location" caption-side="left"}
