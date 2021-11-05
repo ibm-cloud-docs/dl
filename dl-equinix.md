@@ -48,11 +48,13 @@ For Exchange on Classic instructions, see [Steps to order Direct Link Exchange o
    ![Equinix ordering](/images/equinix-ibm-cloud-2.png "Equinix ordering"){: caption="Equinix ordering" caption-side="bottom"}
 1. In the Origin section, click **Port**.
 
-   ![Select a Port, Location, and Destination](/images/equinix-port.png "Select a Port, Location, and Destination")   
+   ![Select a Port, Location, and Destination](/images/equinix-port.png "Select a Port, Location, and Destination"){: caption="Select a Port, Location, and Destination" caption-side="bottom"}       
+
 1. Select a **Location**, followed by a **Destination**. Then, click **Next**.
 1. On the Connection Details page, enter the connection information.
 
    ![Connection Details](/images/equinix-connection-details.png "Connection Details"){: caption="Connection Details" caption-side="bottom"}     
+
 1. Select a **Connection Speed**, then click **Next**.   
 1. Review and click **Submit Your Order**.
 1. Return to the [Direct Link page](https://cloud.ibm.com/interconnectivity/direct-link){: external} in the IBM Cloud console using your IBM Cloud account. Notice that the connection status for your direct link connection states **Create Approval Pending**.

@@ -39,6 +39,6 @@ BFD support comes pre-enabled with your direct link. However, BFD doesn’t star
 * Multiplier – The multiplier is the number of times that a hello packet is missed before BFD declares the neighbor down. This value can range from 1 to 255. The default multiplier value is 3. 
 
 ## Related link
-{: bfd-related-link}
+{: #bfd-related-link}
 
 [Activating and deactivating Bidirectional Forwarding Detection (BFD)](/docs/dl?topic=dl-activate-deactivate-bfd)

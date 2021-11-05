@@ -29,7 +29,7 @@ subcollection: dl
 
 
 # Deleting a {{site.data.keyword.dl_short}} gateway and its attached connections
-{: delete-direct-link-gateway}
+{: #delete-direct-link-gateway}
 {: help}
 {: support}
 

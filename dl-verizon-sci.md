@@ -52,7 +52,7 @@ Follow these steps to create a Direct Link connection with Verizon SCI and Equin
       * For your IBM CIDR, enter the specific IP address from the remaining addresses in the Verizon-supplied subnet (for example, `10.254.0.25/30`).
       * For BGP ASN, enter the supplied local ASN (typically, the Verizon Public ASN `1684`) supplied by Verizon.
 
-      ![Direct Link Connect ordering](/images/public-range.png "Manual-select IP Public Range")
+      ![Direct Link Connect ordering](/images/public-range.png "Manual-select IP Public Range"){: caption="Manual-select IP Public Range" caption-side="bottom"}
 
    Write down and retain the connection name and the service key generated from the order.
    {: important}
@@ -69,14 +69,17 @@ Follow these steps to create a Direct Link connection with Verizon SCI and Equin
 1. In the Frequent Connections section, click the **IBM Cloud** tile.
 1. In the **IBM Cloud Direct Link 2** profile, click **Create Connection**.
 
-   ![Equinix ordering](/images/equinix-ibm-cloud-2.png "Equinix ordering")
+   ![Equinix ordering](/images/equinix-ibm-cloud-2.png "Equinix ordering"){: caption="Equinix ordering" caption-side="bottom"}
+
 1. In the Origin section, click **Port**.
 
-   ![Select a Port, Location, and Destination](/images/equinix-port.png "Select a Port, Location, and Destination")
+   ![Select a Port, Location, and Destination](/images/equinix-port.png "Select a Port, Location, and Destination"){: caption="Select a Port, Location, and Destination" caption-side="bottom"}
+
 1. Select a **Location**, followed by a **Destination**. Then, click **Next**.
 1. On the Connection Details page, enter the connection information. For the IBM Cloud Account ID, enter the service key (for example, `aaaa-bbbb-cccc`) that was generated when you provisioned your direct link. This key can be found on the Direct Link details page.
 
-   ![Connection Details](/images/equinix-connection-details.png "Connection Details")
+   ![Connection Details](/images/equinix-connection-details.png "Connection Details"){: caption="Connection Details" caption-side="bottom"}
+
 1. Select a **Connection Speed**, then click **Next**.
 1. Review and click **Submit Your Order**.
 
@@ -85,3 +88,6 @@ The IBM Special Network Services (SNS) team receives your request and is able ap
 Accept the connection request by navigating to the IBM Cloud Direct Link page and clicking **Accept** from the Actions menu. The Direct Link Gateway BGP Status shows as **Established** in the IBM Cloud Console, and **Provisioned** in the Equinix Fabric portal.
 
 The timeline for approval is within 24-48 hours. If the 48-hour Service Level Agreement (SLA) is not acceptable, you can create an [IBM Support case](https://cloud.ibm.com/unifiedsupport/cases/form) and request that it be routed to the SNS team.
+
+Optionally, you can enable BGP MD5 authentication to provide additional security for the BGP session. For more information, see [Accepting provider-created connections](/docs/dl?topic=dl-accepting-the-provider-created-connection).
+{: note}

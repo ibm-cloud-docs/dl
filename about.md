@@ -64,14 +64,14 @@ These use cases are best for working with hybrid workloads, cross-provider workl
 
 Use when deterministic latency is required.
 
-![Figure 1](/images/direct-link-dedicated.png)
+![Customer on-premises facility to IBM Cloud](/images/direct-link-dedicated.png){: caption="Figure 1. Customer on-premises facility to IBM Cloud" caption-side="bottom"}
 
 ### {{site.data.keyword.dl_short}} Dedicated use case 2: Customer colocation to {{site.data.keyword.cloud_notm}}
 {: #use-case-dedicated-2}
 
 Use when ultra-low latency is required.
 
-![Figure 2](/images/dedicated-model-colo.png)
+![Customer colocation to IBM Cloud(/images/dedicated-model-colo.png){: caption="Figure 2. Customer colocation to IBM Cloud" caption-side="bottom"}
 
 **Termination location** - {{site.data.keyword.cloud_notm}} point of presence (PoP) or Data Center (DC).
 
@@ -109,7 +109,7 @@ Some benefits include:
 * Latency tolerant
 * Lower cost entry to {{site.data.keyword.cloud_notm}}
 
-![Figure 3](/images/direct-link-connect.png)
+![Leveraging service provider networks to virtually reach IBM Cloud](/images/direct-link-connect.png){: caption="Figure 3. Leveraging service provider networks to virtually reach IBM Cloud" caption-side="bottom"}
 
 ### {{site.data.keyword.dl_short}} Connect use case 2: Other Cloud Service Providers (CSPs) or enterprises
 {: #connect-use-case}
@@ -120,7 +120,7 @@ Some benefits include:
 * Layer 2 and Layer 3 support
 * Lower cost of entry to IBM Cloud
 
-![Figure 4](/images/connect-use-case.png)
+![Other CSPs or enterprises](/images/connect-use-case.png){: caption="Figure 4. Other CSPs or enterprises" caption-side="bottom"}
 
 **Termination location:** {{site.data.keyword.cloud_notm}} point of presence (PoP).
 

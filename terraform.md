@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-09-30"
+lastupdated: "2021-08-06"
 
 subcollection: dl
 
@@ -65,7 +65,7 @@ Before you begin, make sure that you have the [required access](/docs/dl?topic=d
 
 1. Initialize the Terraform CLI.
 
-   ```terraform      
+   ```terraform
    terraform init
    ```
    {: pre}

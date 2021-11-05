@@ -50,7 +50,7 @@ Follow these steps to order an {{site.data.keyword.dl_full}} Connect gateway wit
 
     Alternatively, click **+Connection > Cloud > IBM Cloud**.
 
-   ![Add IBM Cloud connection](/images/megaport_add_connection.png "Add IBM Cloud connection")
+   ![Add IBM Cloud connection](/images/megaport_add_connection.png "Add IBM Cloud connection"){: caption="Add IBM Cloud connection" caption-side="bottom"}     
 
 1. Select the {{site.data.keyword.dl_full_notm}} location where the peer will be set up with {{site.data.keyword.cloud_notm}}, then click **Next**.  
 

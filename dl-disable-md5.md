@@ -54,18 +54,18 @@ To activate MD5 authentication on a provisioned gateway, follow these steps:
    * Select an authentication key.
 1. Click **Activate**.
 
-   ![MD5 activation window](/images/md5-side-panel.png)
+   ![MD5 activation window](/images/md5-side-panel.png){: caption="MD5 activation window" caption-side="bottom"}
   
    The information is added to the details page and the switch shows **Activated**.  
 
-   ![MD5 activated](/images/md5-activated.png)
+   ![MD5 activated](/images/md5-activated.png){: caption="MD5 activated" caption-side="bottom"}
 
 If you later want to edit BGP values, click **Edit** in the upper right of the BGP section. 
 {: note}
 
 For example:
 
-![BGP edit side panel](/images/bgp-edit.png)
+![BGP edit side panel](/images/bgp-edit.png){: caption="BGP edit side panel" caption-side="bottom"}
 
 ## Deactivating BGP MD5 authentication
 {: #dl-disable-md5}
@@ -76,8 +76,8 @@ To deactivate BGP MD5 authentication, follow these steps:
 1. In the BGP section, click the MD5 authentication **Activated** switch to show the Deactivate BGP MD5 authentication window. 
 1. Enter the name of the key to confirm, then click **Deactivate**. Your key is removed in the process.
 
-   ![Deactivate BGP MD5 authentication](/images/disable-bgp-md5.png)
+   ![Deactivate BGP MD5 authentication](/images/disable-bgp-md5.png){: caption="Deactivate BGP MD5 authentication" caption-side="bottom"}
    
    The Details page is updated with your change.   
    
-   ![Deactivated BGP MD5 authentication](/images/md5-deactivate.png)
+   ![Deactivated BGP MD5 authentication](/images/md5-deactivate.png){: caption="Deactivated BGP MD5 authentication" caption-side="bottom"}

@@ -46,16 +46,16 @@ To activate BFD on a provisioned gateway, follow these steps:
    * **Interval** – The interval is the minimum time (in milliseconds) expected to occur between when the local routing device sends BFD hello packets and the reply from its neighbor. This value can range from 300 to 255,000 milliseconds.
    * **Multiplier** – The multiplier is the number of times that a hello packet is missed before BFD declares the neighbor down. This value can range from 1 to 255. The default multiplier value is 3.
 
-      ![Activate BGP BFD](/images/activate-bfd.png)
+      ![Activate BGP BFD](/images/activate-bfd.png){: caption="Activate BGP BFD" caption-side="bottom"}
 1. Click **Activate**.
 
    The information is added to the details page and the switch shows **Activated**.  
 
-   ![BDF activated](/images/bdf-activated.png)
+   ![BDF activated](/images/bdf-activated.png){: caption="BDF activated" caption-side="bottom"}
    
 **Note**: If you later want to edit BGP values, click **Edit** in the upper right of the BGP section. Keep in mind that editing BGP ASN and BGP IPs on the IBM side after BGP session is established, also causes BGP session downtime until the BGP peer device is configured for the same change.
 
-![BGP edit side panel](/images/bgp-bfd-edit.png)  
+![BGP edit side panel](/images/bgp-bfd-edit.png){: caption="BGP edit side panel" caption-side="bottom"} 
 
 ## Deactivating BFD
 {: #dl-deactivate-bfd}
@@ -66,8 +66,8 @@ To deactivate BGP BFD follow these steps:
 1. In the BGP section, click the bidirectional forwarding detection (BFD) **Activated** switch to show the Deactivate BFD window.
 1. Type **Deactivate** to confirm your decision, then click **Deactivate**.
 
-   ![Deactivate BGP BFD](/images/deactivate-bfd.png)
+   ![Deactivate BGP BFD](/images/deactivate-bfd.png){: caption="Deactivate BGP BFD" caption-side="bottom"}
    
    The Details page is updated with your change.
 
-   ![Deactivated BGP BFD](/images/bgp-bfd-deactivated.png)
+   ![Deactivated BGP BFD](/images/bgp-bfd-deactivated.png){: caption="Deactivated BGP BFD" caption-side="bottom"}

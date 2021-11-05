@@ -44,11 +44,11 @@ Follow these steps to connect networks owned by different accounts:
 
    **Tip**: To get the CRN of a VPC, click Menu ![Menu icon](/images/menu_icon.png) > **Resource List** from the {{site.data.keyword.cloud_notm}} console. Expand **VPC infrastructure** to list your VPCs. Then, click the row of the VPC, copy the CRN to the clipboard, and paste it in the {{site.data.keyword.dl_short}} window.  For example:
 
-   ![Get CRN of a VPC](/images/crn.png)
+   ![Get CRN of a VPC](/images/crn.png){: caption="Get CRN of a VPC" caption-side="bottom"}
 
 4. Type the name of the network connection, then click **Add**.
 
-   ![Request connection to a network in another account](/images/dl-add-conn.png)
+   ![Request connection to a network in another account](/images/dl-add-conn.png){: caption="Request connection to a network in another account" caption-side="bottom"}
 
    The network connection shows in the gateway account with the **Pending approval** status.
 
@@ -56,17 +56,17 @@ Follow these steps to connect networks owned by different accounts:
 
 6. In the Virtual Connections section, see **Action required** to view the incoming request. Click **Accept** to accept the network connection request.
 
-   ![Accept connection request from the network owner's account](/images/dl-vc2.png)
+   ![Accept connection request from the network owner's account](/images/dl-vc2.png){: caption="Accept connection request from the network owner's account" caption-side="bottom"}
 
    Confirm by clicking **Accept**.
 
-   ![Are you sure? confirmation](/images/dl-vc3.png)
+   ![Are you sure? confirmation](/images/dl-vc3.png){: caption="Confirmation" caption-side="bottom"}
 
    The status of the network connection indicates **Attaching**.
 
 7. When you change back to the original account, the status of the virtual connection changes to **Ready**, indicating that the network request was accepted.
 
-   ![Virtual connection changes to Ready](/images/dl-vc5.png)
+   ![Virtual connection changes to Ready](/images/dl-vc5.png){: caption="Virtual connection changes to Ready" caption-side="bottom"}
 
 The gateway account owner (or the network account owner) can delete the virtual connection. If the network owner deletes the virtual connection, the gateway owner sees the connection status as **Detached**. The gateway owner can delete the detached virtual connection from the gateway.
 {: note}

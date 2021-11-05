@@ -95,3 +95,4 @@ The following table summarizes the type of connections that each {{site.data.key
 | Verizon SCI| **Layer 3** |
 | Vodafone| **Layer 3** |
 | Zayo Cloud Link | Layer 2 |
+{: caption="Table 1: Provider interconnections" caption-side="bottom"}   

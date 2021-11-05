@@ -37,10 +37,10 @@ As a security officer, auditor, or manager, you can use the Activity Tracker ser
 | `directlink.dedicated.gateway.create` | Dedicated gateway was created. |
 | `directlink.dedicated.gateway.delete` | Dedicated gateway was deleted. |
 | `directlink.dedicated.gateway.update` | Dedicated gateway was updated. |
-{: class="simple-tab-table"}
 {: caption="Table 1. List of {{site.data.keyword.dl_short}} Dedicated gateway events" caption-side="bottom"}
 {: tab-title="Dedicated Gateway Events"}
 {: tab-group="connect-simple-1"}
+{: class="simple-tab-table"}
 {: #simpletabtable1}
 
 | Action                      | Description |
@@ -62,20 +62,20 @@ As a security officer, auditor, or manager, you can use the Activity Tracker ser
 |-----------------------------|---------|
 | `directlink.dedicated.gateway.read` | Dedicated gateway was retrieved. |
 | `directlink.gateway.list` | Dedicated and Connect gateways were listed. |
-{: class="simple-tab-table"}
 {: caption="Table 3. List of {{site.data.keyword.dl_short}} Dedicated data events" caption-side="bottom"}
 {: tab-title="Dedicated Gateway Events"}
-{: tab-group="connect-simple-2"}  
+{: tab-group="connect-simple-2"}
+{: class="simple-tab-table"}
 {: #simpletabtable1}
 
 | Action                      | Description |
 |-----------------------------|---------|
 | `directlink.dedicated.virtual-connection.read` | Dedicated virtual connection was retrieved. |
 | `directlink.dedicated.completion-notice.read` | Dedicated completion notice was retrieved. |
-{: class="simple-tab-table"}
 {: caption="Table 4. List of {{site.data.keyword.dl_short}} Dedicated Data Events" caption-side="bottom"}
 {: tab-title="Dedicated Virtual Connection Events"}
-{: tab-group="connect-simple-2"}  
+{: tab-group="connect-simple-2"}
+{: class="simple-tab-table"}
 {: #simpletabtable2}
 
 ## Events for {{site.data.keyword.dl_short}} Connect
@@ -90,10 +90,10 @@ As a security officer, auditor, or manager, you can use the Activity Tracker ser
 | `directlink.connect.gateway.delete` | Connect gateway was deleted. |
 | `directlink.connect.gateway.update` | Connect gateway was updated. |
 | `directlink.connect.gateway.action` | Connect gateway action was applied. |
-{: class="simple-tab-table"}
 {: caption="Table 5. List of {{site.data.keyword.dl_short}} Connect Gateway Events" caption-side="bottom"}
 {: tab-title="Connect Gateway Events"}
 {: tab-group="connect-simple-3"}
+{: class="simple-tab-table"}
 {: #simpletabtable1}
 
 | Action                      | Description |
@@ -101,10 +101,10 @@ As a security officer, auditor, or manager, you can use the Activity Tracker ser
 | `directlink.connect.virtual-connection.create` | Connect virtual connection was created. |
 | `directlink.connect.virtual-connection.delete` | Connect virtual connection was deleted. |
 | `directlink.connect.virtual-connection.update` | Connect virtual connection was updated. |
-{: class="simple-tab-table"}
 {: caption="Table 6. List of {{site.data.keyword.dl_short}} Connect Virtual Connection Events" caption-side="bottom"}
 {: tab-title="Connect Virtual Connection Events"}
 {: tab-group="connect-simple-3"}
+{: class="simple-tab-table"}
 {: #simpletabtable2}
 
 
@@ -115,20 +115,20 @@ As a security officer, auditor, or manager, you can use the Activity Tracker ser
 |-----------------------------|---------|
 | `directlink.connect.gateway.read` | Connect gateway was retrieved. |
 | `directlink.gateway.list`  | Dedicated and Connect gateways were listed. |
-{: class="simple-tab-table"}
 {: caption="Table 7. List of {{site.data.keyword.dl_short}} Connect Gateway Events" caption-side="bottom"}
 {: tab-title="Connect Gateway Events"}
 {: tab-group="connect-simple-4"}
+{: class="simple-tab-table"}
 {: #simpletabtable1}
 
 | Action                      | Description |
 |-----------------------------|---------|
 | `directlink.connect.virtual-connection.list` | Connect virtual connections were listed. |
 | `directlink.connect.virtual-connection.read` | Connect virtual connection was retrieved. |
-{: class="simple-tab-table"}
 {: caption="Table 8. List of {{site.data.keyword.dl_short}} Connect Virtual Connection Events" caption-side="bottom"}
 {: tab-title="Connect Virtual Connection Events"}
 {: tab-group="connect-simple-4"}
+{: class="simple-tab-table"}
 {: #simpletabtable2}
 
 ## Viewing events
