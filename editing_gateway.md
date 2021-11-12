@@ -4,28 +4,12 @@ copyright:
   years: 2021
 lastupdated: "2021-11-03"
 
-keywords:  
+keywords: direct link
 
 subcollection: dl
 ---
 
-{:shortdesc: .shortdesc}
-{:new_window: target="_blank"}
-{:DomainName: data-hd-keyref="DomainName"}
-{:note: .note}
-{:important: .important}
-{:deprecated: .deprecated}
-{:external: target="_blank" .external}
-{:shortdesc: .shortdesc}
-{:codeblock: .codeblock}
-{:pre: .pre}
-{:screen: .screen}
-{:tip: .tip}
-{:term: .term}  
-{:generic: data-hd-programlang="generic"}
-{:download: .download}  
-{:help: data-hd-content-type='help'}
-{:support: data-reuse='support'}
+{{site.data.keyword.attribute-definition-list}}
 
 # Updating a {{site.data.keyword.dl_short}}
 {: #update-dl-gateway}

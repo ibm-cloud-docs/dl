@@ -4,29 +4,13 @@ copyright:
   years: 2020, 2021
 lastupdated: "2021-04-19"
 
-keywords:  
+keywords: direct link
 
 subcollection: dl
 
 ---
 
-{:shortdesc: .shortdesc}
-{:new_window: target="_blank"}
-{:faq: data-hd-content-type='faq'}
-{:support: data-reuse='support'}
-{:DomainName: data-hd-keyref="DomainName"}
-{:note: .note}
-{:important: .important}
-{:deprecated: .deprecated}
-{:external: target="_blank" .external}
-{:shortdesc: .shortdesc}
-{:codeblock: .codeblock}
-{:pre: .pre}
-{:screen: .screen}
-{:tip: .tip}
-{:term: .term}  
-{:generic: data-hd-programlang="generic"}
-{:download: .download}  
+{{site.data.keyword.attribute-definition-list}}
 
 # FAQs for {{site.data.keyword.dl_short}}
 {: #faqs}

@@ -10,26 +10,7 @@ subcollection: dl
 
 ---
 
-
-{:shortdesc: .shortdesc}
-{:new_window: target="_blank"}
-{:codeblock: .codeblock}
-{:pre: .pre}
-{:screen: .screen}
-{:term: .term}
-{:note: .note}
-{:tip: .tip}
-{:important: .important}
-{:external: target="_blank_" .external}
-{:generic: data-hd-programlang="generic"}
-{:download: .download}
-{:DomainName: data-hd-keyref="DomainName"}
-{:help: data-hd-content-type='help'}
-{:support: data-reuse='support'}
-{:ui: .ph data-hd-interface='ui'}
-{:cli: .ph data-hd-interface='cli'}
-{:api: .ph data-hd-interface='api'}
-{:terraform: .ph data-hd-interface='terraform'}
+{{site.data.keyword.attribute-definition-list}}
 
 # Integrating with Virtual Private Endpoint for VPC
 {: #vpe-for-ibm-cloud-direct-link}

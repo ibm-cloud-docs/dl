@@ -4,43 +4,28 @@ copyright:
   years: 2020, 2021
 lastupdated: "2021-07-30"
 
-keywords: multi-cloud, data transfer, interconnectivity, direct link
+keywords: direct link, direct link dedicated, direct link connect
 
 subcollection: dl
 
 ---
 
-{:shortdesc: .shortdesc}
-{:new_window: target="_blank"}
-{:DomainName: data-hd-keyref="DomainName"}
-{:note: .note}
-{:preview: .preview}
-{:beta: .beta}
-{:important: .important}
-{:deprecated: .deprecated}
-{:external: target="_blank" .external}
-{:shortdesc: .shortdesc}
-{:codeblock: .codeblock}
-{:pre: .pre}
-{:screen: .screen}
-{:tip: .tip}
-{:term: .term}  
-{:generic: data-hd-programlang="generic"}
-{:download: .download}  
+{{site.data.keyword.attribute-definition-list}}
 
-# Getting started with {{site.data.keyword.dl_full_notm}} (2.0)
+# Getting started with IBM Cloud {{site.data.keyword.dl_short}} (2.0)
 {: #get-started-with-ibm-cloud-dl}
 
-Use {{site.data.keyword.dl_full}} to seamlessly connect your on-premises resources to your cloud resources. The speed and reliability of {{site.data.keyword.dl_short}} extends your organization’s data center network and offers more consistent, higher-throughput connectivity, keeping traffic within the IBM Cloud network.
+Use {{site.data.keyword.dl_short}} to seamlessly connect your on-premises resources to your cloud resources. The speed and reliability of {{site.data.keyword.dl_short}} extends your organization’s data center network and offers more consistent, higher-throughput connectivity, keeping traffic within the IBM Cloud network.
 {: shortdesc}
 
-Highlights include:
+{{site.data.keyword.dl_short}} highlights include:
 
 * Metered billing, which lowers the barrier of entry to {{site.data.keyword.cloud_notm}}
 * Support for connections to multiple {{site.data.keyword.cloud_notm}} accounts from a single direct link
 * Support for multiple VPCs (without classic access) from a single direct link within the same account
 * Support for both local and global routing options
-* Bring Your Own IP (BYOIP) address to create native connectivity between your on-premises environment and {{site.data.keyword.cloud_notm}} 
+* Bring Your Own IP (BYOIP) address to create native connectivity between your on-premises environment and {{site.data.keyword.cloud_notm}}
+* Support for new connect speeds for high bandwidth through {{site.data.keyword.dl_short}} Connect (10, 25, 40, 50, and 100 Gbps).
 * Direct Link connections to and from transit gateways.
 * Support for BGP Message Digest 5 (MD5) Authentication and Bidirectional Forwarding Detection (BFD).
 

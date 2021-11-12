@@ -3,28 +3,13 @@ copyright:
   years: 2021
 lastupdated: "2021-08-30"
 
-keywords:  
+keywords: direct link release notes
 
 subcollection: dl
 
 ---
 
-{:shortdesc: .shortdesc}
-{:new_window: target="_blank"}
-{:DomainName: data-hd-keyref="DomainName"}
-{:note: .note}
-{:important: .important}
-{:deprecated: .deprecated}
-{:external: target="_blank" .external}
-{:shortdesc: .shortdesc}
-{:codeblock: .codeblock}
-{:pre: .pre}
-{:screen: .screen}
-{:beta: .beta}
-{:tip: .tip}
-{:term: .term}
-{:generic: data-hd-programlang="generic"}
-{:download: .download}
+{{site.data.keyword.attribute-definition-list}}
 
 # Release notes
 {: #release-notes}

@@ -6,27 +6,13 @@ copyright:
   years: 2020
 lastupdated: "2020-05-15"
 
-keywords: case, forum, Stack Overflow
+keywords: case, forum, direct link
 
 subcollection: dl
 
 ---
 
-{:shortdesc: .shortdesc}
-{:new_window: target="_blank"}
-{:DomainName: data-hd-keyref="DomainName"}
-{:note: .note}
-{:important: .important}
-{:deprecated: .deprecated}
-{:external: target="_blank" .external}
-{:shortdesc: .shortdesc}
-{:codeblock: .codeblock}
-{:pre: .pre}
-{:screen: .screen}
-{:tip: .tip}
-{:term: .term}  
-{:generic: data-hd-programlang="generic"}
-{:download: .download}  
+{{site.data.keyword.attribute-definition-list}}
 
 # Getting help and support
 {: #getting-help-and-support}

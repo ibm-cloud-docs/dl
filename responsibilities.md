@@ -4,23 +4,13 @@ copyright:
   years: 2020, 2021
 lastupdated: "2021-11-02"
 
-keywords: 
+keywords: direct link responsibilities
 
 subcollection: dl
 
 ---
 
-{:new_window: target="_blank_"}
-{:shortdesc: .shortdesc}
-{:screen: .screen}
-{:pre: .pre}
-{:codeblock: .codeblock}
-{:tip: .tip}
-{:note: .note}
-{:important: .important}
-{:deprecated: .deprecated}
-{:download: .download}
-{:preview: .preview}
+{{site.data.keyword.attribute-definition-list}}
 
 # Understanding your responsibilities when using {{site.data.keyword.dl_full_notm}}
 {: #dl-responsibilities}

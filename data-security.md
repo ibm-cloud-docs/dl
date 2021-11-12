@@ -4,26 +4,20 @@ copyright:
   years: 2020
 lastupdated: "2020-02-24"
 
-keywords:  
+keywords: direct link
 
 subcollection: dl
 
 ---
 
-{:external: target="_blank" .external}
-{:shortdesc: .shortdesc}
-{:screen: .screen}
-{:pre: .pre}
-{:table: .aria-labeledby="caption"}
-{:codeblock: .codeblock}
-{:tip: .tip}
+{{site.data.keyword.attribute-definition-list}}
 
 # Securing your data in {{site.data.keyword.dl_short}}
 {: #mng-data}
 
 {{site.data.keyword.dl_short}} does not store any customer data. Data transmitted through a transit gateway is not encrypted by IBM.
 
-Data about your specific {{site.data.keyword.dl_short}} configuration are encrypted in transit and at rest. {{site.data.keyword.dl_short}} configuration data is deleted upon your request through API or User Interface.
+Data about your specific {{site.data.keyword.dl_short}} configuration are encrypted in transit and at rest. Configuration data is deleted upon your request through API or User Interface.
 {: shortdesc}
 
 ## How your data is stored and encrypted in {{site.data.keyword.dl_short}}
@@ -66,4 +60,4 @@ The {{site.data.keyword.dl_short}} configuration is deleted on request through t
 ### Restoring deleted data for {{site.data.keyword.dl_short}}
 {: #data-restore}
 
-{{site.data.keyword.dl_short}} does not support the restoration of deleted data.
+Direct Link does not support the restoration of deleted data.

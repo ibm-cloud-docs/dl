@@ -4,22 +4,13 @@ copyright:
   years: 2021
 lastupdated: "2021-06-24"
 
-keywords:
+keywords: direct link
 
 subcollection: dl
 
 ---
 
-{:tsSymptoms: .tsSymptoms}
-{:tsCauses: .tsCauses}
-{:tsResolve: .tsResolve}
-{:shortdesc: .shortdesc}
-{:screen: .screen}
-{:support: data-reuse='support'}
-{:codeblock: .codeblock}
-{:pre: .pre}
-{:note:.deprecated}
-{:troubleshoot: data-hd-content-type='troubleshoot'}
+{{site.data.keyword.attribute-definition-list}}
 
 # Why isn't the BGP peering session established?  
 {: #troubleshoot-bgp-not-up}

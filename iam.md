@@ -4,27 +4,13 @@ copyright:
   years: 2020
 lastupdated: "2020-09-23"
 
-keywords: IAM, permissions, access
+keywords: IAM, permissions, access, direct link
 
 subcollection: dl
 
 ---
 
-{:shortdesc: .shortdesc}
-{:new_window: target="_blank"}
-{:DomainName: data-hd-keyref="DomainName"}
-{:note: .note}
-{:important: .important}
-{:deprecated: .deprecated}
-{:external: target="_blank" .external}
-{:shortdesc: .shortdesc}
-{:codeblock: .codeblock}
-{:pre: .pre}
-{:screen: .screen}
-{:tip: .tip}
-{:term: .term}
-{:generic: data-hd-programlang="generic"}
-{:download: .download}
+{{site.data.keyword.attribute-definition-list}}
 
 # Managing access for {{site.data.keyword.dl_full_notm}}
 {: #iam}

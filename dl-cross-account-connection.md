@@ -4,29 +4,13 @@ copyright:
   years: 2020, 2021
 lastupdated: "2021-02-01"
 
-keywords:
+keywords: direct link
 
 subcollection: dl
 
 ---
 
-{:shortdesc: .shortdesc}
-{:new_window: target="_blank"}
-{:DomainName: data-hd-keyref="DomainName"}
-{:note: .note}
-{:important: .important}
-{:deprecated: .deprecated}
-{:external: target="_blank" .external}
-{:shortdesc: .shortdesc}
-{:codeblock: .codeblock}
-{:pre: .pre}
-{:screen: .screen}
-{:tip: .tip}
-{:term: .term}
-{:generic: data-hd-programlang="generic"}
-{:download: .download}
-{:help: data-hd-content-type='help'}
-{:support: data-reuse='support'}
+{{site.data.keyword.attribute-definition-list}}
 
 # Adding a cross-account (VPC only) connection
 {: #cross-account-virtual-connection-vpc}

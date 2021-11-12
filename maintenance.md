@@ -4,22 +4,13 @@ copyright:
   years: 2021
 lastupdated: "2021-05-05"
 
-keywords: troubleshooting, problems, issues, known issues
+keywords: troubleshooting, direct link
 
 subcollection: dl
 
 ---
 
-{:tsSymptoms: .tsSymptoms}
-{:tsCauses: .tsCauses}
-{:tsResolve: .tsResolve}
-{:shortdesc: .shortdesc}
-{:screen: .screen}
-{:support: data-reuse='support'}
-{:codeblock: .codeblock}
-{:pre: .pre}
-{:note:.deprecated}
-{:troubleshoot: data-hd-content-type='troubleshoot'}
+{{site.data.keyword.attribute-definition-list}}
 
 # My connection is down after scheduled Direct Link maintenance. What should I do?
 {: #troubleshoot-connection-down-after-scheduled-maintenance}

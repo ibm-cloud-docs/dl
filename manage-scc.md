@@ -3,17 +3,13 @@ copyright:
   years: 2020, 2021
 lastupdated: "2021-03-26"
 
-keywords: security, compliance
+keywords: security, compliance, direct link
 
 subcollection: dl
 
 ---
 
-{:external: target="_blank" .external}
-{:note: .note}
-{:term: .term}
-{:shortdesc: .shortdesc}
-{:table: .aria-labeledby="caption"}
+{{site.data.keyword.attribute-definition-list}}
 
 # Managing security and compliance with IBM Cloud Direct Link
 {: #manage-security-compliance}

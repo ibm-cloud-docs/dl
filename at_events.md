@@ -4,19 +4,13 @@ copyright:
   years: 2020, 2021
 lastupdated: "2021-02-01"
 
-keywords:
+keywords: direct link
 
 subcollection: dl
 
 ---
 
-{:external: target="_blank" .external}
-{:shortdesc: .shortdesc}
-{:table: .aria-labeledby="caption"}
-{:codeblock: .codeblock}
-{:tip: .tip}
-{:important: .important}
-{:note: .note}
+{{site.data.keyword.attribute-definition-list}}
 
 # Auditing events for {{site.data.keyword.dl_full_notm}}
 {: #at_events}

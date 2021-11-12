@@ -4,23 +4,13 @@ copyright:
   years: 2020
 lastupdated: "2020-07-02"
 
-keywords:  
+keywords: direct link
 
 subcollection: dl
 
 ---
 
-{:shortdesc: .shortdesc}
-{:new_window: target="_blank"}
-{:codeblock: .codeblock}
-{:pre: .pre}
-{:screen: .screen}
-{:tip: .tip}
-{:note: .note}
-{:important: .important}
-{:download: .download}
-{:external: target="_blank" .external}
-{:term: .term}
+{{site.data.keyword.attribute-definition-list}}
 
 # High availability and disaster recovery for {{site.data.keyword.dl_short}}
 {: #ha-dr}

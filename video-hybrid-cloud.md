@@ -4,19 +4,13 @@ copyright:
   years: 2020
 lastupdated: "2020-11-03"
 
-subcollection: dl
+keywords: direct link
 
-keywords:
+subcollection: dl
 
 ---
 
-{:shortdesc: .shortdesc}
-{:codeblock: .codeblock}
-{:screen: .screen}
-{:external: target="_blank" .external}
-{:pre: .pre}
-{:table: .aria-labeledby="caption"}
-{:video: .video}
+{{site.data.keyword.attribute-definition-list}}
 
 # Video - IBM Cloud Direct Link for hybrid cloud
 {: #offering-video}

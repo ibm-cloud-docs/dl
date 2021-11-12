@@ -4,31 +4,13 @@ copyright:
   years: 2020, 2021
 lastupdated: "2021-06-24"
 
-keywords:
+keywords: direct link
 
 subcollection: dl
 
 ---
 
-{:shortdesc: .shortdesc}
-{:new_window: target="_blank"}
-{:DomainName: data-hd-keyref="DomainName"}
-{:preview: .preview}
-{:note: .note}
-{:beta: .beta}
-{:important: .important}
-{:deprecated: .deprecated}
-{:external: target="_blank" .external}
-{:shortdesc: .shortdesc}
-{:codeblock: .codeblock}
-{:pre: .pre}
-{:screen: .screen}
-{:tip: .tip}
-{:term: .term}
-{:generic: data-hd-programlang="generic"}
-{:download: .download}
-{:help: data-hd-content-type='help'}
-{:support: data-reuse='support'}
+{{site.data.keyword.attribute-definition-list}}
 
 # AT&T NetBond for Cloud ordering considerations
 {: #netbond}

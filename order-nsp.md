@@ -4,37 +4,20 @@ copyright:
   years: 2020, 2021
 lastupdated: "2021-11-03"
 
-keywords:  
+keywords: direct link, direct link dedicated
 
 subcollection: dl
 
 ---
 
-{:shortdesc: .shortdesc}
-{:new_window: target="_blank"}
-{:DomainName: data-hd-keyref="DomainName"}
-{:note: .note}
-{:important: .important}
-{:deprecated: .deprecated}
-{:external: target="_blank" .external}
-{:shortdesc: .shortdesc}
-{:codeblock: .codeblock}
-{:beta: .beta}
-{:pre: .pre}
-{:screen: .screen}
-{:tip: .tip}
-{:term: .term}  
-{:generic: data-hd-programlang="generic"}
-{:download: .download}  
-{:help: data-hd-content-type='help'}
-{:support: data-reuse='support'}
+{{site.data.keyword.attribute-definition-list}}
 
 # Ordering {{site.data.keyword.dl_full_notm}} Dedicated
 {: #how-to-order-ibm-cloud-dl-dedicated}
 {: help}
 {: support}
 
-To order {{site.data.keyword.dl_short}} Dedicated, you must determine the location connecting to IBM Cloud, complete the required configuration information, then click **Create** to submit your order.
+To order {{site.data.keyword.dl_short}} Dedicated, you must determine the location connecting to IBM Cloud, complete the required {{site.data.keyword.dl_short}} configuration information, then click **Create** to submit your order.
 {: shortdesc}
 
 ## Planning considerations
@@ -173,12 +156,12 @@ Complete your connection, using the following instructions.
 ## Completing the connection
 {: #complete-connection}
 
-After you submit your {{site.data.keyword.dl_short}} order, the {{site.data.keyword.dl_short}} table indicates an **LOA creation in progress** connection status. Click the name of the connection to open its details page. Then, view the Actions section to see if you have any actions pending.
+After you submit your {{site.data.keyword.dl_short}} order, the {{site.data.keyword.dl_short}} table indicates an **LOA creation in progress** connection status. Click the name of the connection to open its details page. Then, view the **Actions** section to see if you have any actions pending.
 
 Here's how the process works:
 
 1. IBM Cloud uploads a Letter of Authorization (LOA) containing a Connecting Facility Assignment (CFA) within 24 hours. In turn, the connection status changes to **Waiting LOA review**. At this time, you can click the corresponding buttons to preview and accept the LOA.
-1. After accepting the LOA and downloading it, the connection status changes to **Waiting completion notice upload**. You must now take the LOA document to your carrier and get the completion notice. To do so, you can:
+1. After accepting the LOA and downloading it, the connection status changes to **Waiting completion notice upload**. You must now take the LOA document to your carrier and get the completion notice ([Example](/docs/dl?topic=dl-completion-notice-example)). To do so, you can:
 
    * Supply the LOA/CFA to your colocation provider and have them order a cross connect and any required inter-campus connectivity.
    * Supply the LOA/CFA to your service provider and have them order a third-party cross connect, as well as the circuit between your on-premises and the appropriate Meet Me Room.
@@ -195,70 +178,8 @@ Here's how the process works:
    It can take up to 30 minutes for the link status to update.  
    {: note}
 
-## Locations
-{: #dedicated-locations}
+## Related links
+{: #related-links-dedicated}
 
-The table gives details about the {{site.data.keyword.cloud_notm}} data centers where {{site.data.keyword.dl_short}} Dedicated (2.0) is available:
-
-|**IBM Location Code** | **Location Type** | **Meet Me Room Operator**| **Operator Site Code** | **Operator Address** |
-|-----------------|-----------------|-----------------|--------------------|--------------------|
-| **Americas** |  |  |  |  |
-| Chicago 1 |  PoP | Equinix  | CH4 |  350 E. Cermak |
-| Dallas 3 | PoP 1 | Equinix | DA1 | 1950 N. Stemmons Freeway |
-| Dallas 4 | PoP 2 | Digital Realty | DFW14 | 2323 Bryan St |
-| Dallas 10 | DC(AZ1) | QTS | IRV | 6431 Longhorn Drive |
-| Dallas 12 | DC(AZ2) | Digital Realty | DFW18 | 907 Security Row |
-| Dallas 13 | DC(AZ3) | CyrusOne | Carrollton - Frankford | 1649 W. Frankford Rd |
-| Miami 1 | PoP  | TERREMARK | MI1 | 50 NE 9th Street |
-| Montreal | DC | Colo-D | MON01 | 2525 Rue Canadien |
-| San Jose 2 | PoP | Equinix | SV1 | 11 Great Oaks Blvd |
-| Sao Paulo 1 | DC(AZ1) | Digital Realty (Ascenty) | SAO01 | Rua Presbitero Plinio Alves de Souza, 757 J. Ermida II,Jundiai |
-| Sao Paulo 2 | PoP | Equinix | SP4 | Avenida Ceci, 1900, Tambore, Barueri, SP, 06460 120 BR, Brazil |
-| Sao Paulo 3 | PoP  | ODATA | SAO03 | 39,2, Estr. dos Romeiros |
-| Sao Paulo 4 | DC(AZ2) | ODATA | SAO04 | 943 - Votuparim, Estr. dos Romeiros |
-| Sao Paulo 5 | DC(AZ3) | ASCENTY | SAO05 | Avenida 2, n.º 50, Quadra G1 1B Parte A Gleba 1B |
-| Seattle 2 | PoP | Digital Realty (The Westin Building) | WBX | 2001 6th Avenue |
-| Toronto 1 | DC(AZ1)| Digital Realty | TOR01 | 371 Gough Rd Suite # 130 Markham, Ontario |
-| Toronto 2 | PoP | Cologix | TOR02 | 151 Front Street, Toronto |
-| Toronto 3 | PoP | Equinix| TOR03 | 45 Parliament Street, Toronto |
-| Toronto 4 | DC(AZ2) | Server Farm | TOR04 | 300 Bartor Road, North York |
-| Toronto 5 | DC(AZ3) | Digital Realty | TOR05 | 1 Century Place, Vaughan |
-| Washington DC 2 | PoP 1 | Equinix | DC2 | 21715 Filigree Ct |
-| Washington DC 4 | DC(AZ1) | Digital Realty | IAD38 | 44060 Digital Loudoun Plaza (Bldg K) |
-| Washington DC 5 | PoP 2 | Coresite | DC2 | 12098 Sunrise Valley Dr |
-| Washington DC 6 | DC(AZ2) | Raging Wire | VA2 | 44610 Guilford Drive |
-| Washington DC 7 | DC(AZ3) | Sabey | Sabey Intergate.Ashburn | 21741 Red Rum Dr |
-| **APAC** |  |  |  |  |
-| Hong Kong 3 |	PoP |	Equinix |	HKG2 |	17/F Kerry Warehouse |
-| Osaka 1 | PoP | Equinix | OS1 | Nishi-Shinsaibashi Bldg., 1-26-1 Shin-machi, Osaka  |
-| Osaka 21  | DC(AZ1)|  IDC Frontier (SoftBank) | OSA021 | 6-1 Saitoaokita Mino-shi |
-| Osaka 22  | DC(AZ2) | IDC Frontier (SoftBank) | OSA022 | 6-1 Saitoaokita Mino-shi |
-| Osaka 23  | DC(AZ3) | IDC Frontier (SoftBank) | OSA023 | 6-1 Saitoaokita Mino-shi |
-| Sydney 1 | DC(AZ1) | Global Switch | SYD01 | 400 Harris Street aka 273 Pyrmont St Ultimo |
-| Sydney 2 | PoP 1 | Equinix | SY3 | 47 Bourke Rd |
-| Sydney 3 | PoP 2 | NextDC | SYD03 | 4 Eden Park Drive, Marquarie Park |
-| Sydney 4 | DC(AZ2) | Digital Realty | SYD10 | 1-11 Templar Rd, Erskine Park |
-| Sydney 5 | DC(AZ3) | Equinix | SY4 | 200 Bourke Road |
-| Taipei 1 | PoP | Chief Telecom | TPE01 | Chief L.Y. Building 3rd floor, No. 250 Yuang Guang St Taipei, Taiwan, R.O.C. |
-| Tokyo 1 | Pop | Equinix | TY2  | 7th Floor, 3-8-21 Higashi-Shinagawa |
-| Tokyo 2 | DC(AZ1) | At Toyko | TOK02 | Shin-Toyosu Cube, 6-2-12 Toyosu, Koto-ku |
-| Tokyo 3 | PoP 2 | Equinix | TY4 | Chiyoda-ku |
-| Tokyo 4 | DC(AZ2) | Softbank | | Saitama |
-| Tokyo 5 | DC(AZ3) | NTT |  | Kawasaki Kangagawa |
-| **EMEA** |  |  |  |  |
-| Amsterdam 2 | PoP | Equinix | AM2 | Luttenbergweg 4, 1101 EC |
-| Frankfurt 1 | PoP 1 | Digital Realty (InterXion) | FRA6 | Hanauer Landstrasse 302 |
-| Frankfurt 2 | DC(AZ1) | CyrusOne (Zenium) | FRA1 | Leonhard - Heisswolf Str 4., Frankfurt am Main |
-| Frankfurt 3 | PoP 2 | Equinix | FR6 | Larchenstrasse 110, Frankfurt Griesheim |
-| Frankfurt 4 | DC(AZ2) | E-Shelter | Frankfurt 1 | Eschborner Landstrasse 100, Building H |
-| Frankfurt 5 | DC(AZ3) | Digital Realty (InterXion) | FRA11 | Weismüllerstraße 40 |
-| London 1 | PoP | Equinix (Telecity) | LD8 | 6/7 Harbour Exchange E14 9GE |
-| London 2 | DC | Digital Realty | LHR13 | Fountain Court, Cox Lane, Suites 210 and 230 |
-| London 3 | PoP 2 | Equinix | LD5 | 8 Buckingham Ave |
-| London 4 | DC(AZ1) | ARK | A103 | A57 Cody Technology Park Old, Victor Way, Farnborough |
-| London 5 | DC(AZ2) | Gyron |  | Maxted Cl, Hemel Hempstead  |
-| London 6 | DC(AZ3) | CyrusOne (Zenium) | LON1 | 12 Liverpool Rd, Trading Estate |
-| Milan 1 | DC | Data 4 | | Via Monzoro 101-105, 20010 Cornaredo (MI) |
-| Milan 2 | PoP | Infracom Italia | Infracom 21 Via Caldera Way | Infracom Italia Spa, Building D, Caldera Business Park, Via Caldera, 21 |
-| Paris 3 | PoP | Equinix | PA4 | 110 Bis avenue du Gènèral Leclerc, 93500 Pantin |
-{: caption="Table 1. Direct Link Dedicated by Location" caption-side="left"}
+* [Direct Link Dedicated locations](/docs/dl?topic=dl-locations#dedicated-locations)
+* [Pricing for IBM Cloud Direct Link](/docs/dl?topic=dl-pricing-for-ibm-cloud-dl)
