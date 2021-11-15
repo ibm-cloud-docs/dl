@@ -49,7 +49,7 @@ toc:
         id: tutorial
         topics:
         - topicgroup:
-            label: Bring Your Own IP Address
+            label: Interconnectivity
             topics:
             - /solution-tutorials/solution-tutorials-byoip
 
