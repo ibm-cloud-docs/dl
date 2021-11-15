@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2021
-lastupdated: "2021-11-10"
+lastupdated: "2021-11-15"
 
 keywords: direct link
 
@@ -19,7 +19,7 @@ View details about the {{site.data.keyword.cloud_notm}} data centers where {{sit
 ## Direct Link Dedicated locations
 {: #dedicated-locations}
 
-The following table provides details about the {{site.data.keyword.cloud_notm}} data centers where {{site.data.keyword.dl_short}} Dedicated (2.0) is available:
+The following table provides details about the {{site.data.keyword.cloud_notm}} data centers where {{site.data.keyword.dl_short}} Dedicated (2.0) is available. Choose a tab to see locations for Americas, APAC, and EMEA.
 
 |**IBM Location Code** | **Location Type** | **Meet Me Room Operator**| **Operator Site Code** | **Operator Address** |
 |-----------------|-----------------|-----------------|--------------------|--------------------| 
@@ -52,7 +52,7 @@ The following table provides details about the {{site.data.keyword.cloud_notm}} 
 {: caption="Table 1. Direct Link Dedicated - Americas" caption-side="bottom"}
 {: #simpletabtable1}
 {: tab-title="Americas"}
-{: tab-group="connect-simple"}
+{: tab-group="dedicated-simple"}
 
 |**IBM Location Code** | **Location Type** | **Meet Me Room Operator**| **Operator Site Code** | **Operator Address** |
 |-----------------|-----------------|-----------------|--------------------|--------------------|
@@ -75,7 +75,7 @@ The following table provides details about the {{site.data.keyword.cloud_notm}} 
 {: caption="Table 2. Direct Link Dedicated - APAC" caption-side="bottom"}
 {: #simpletabtable2}
 {: tab-title="APAC"}
-{: tab-group="connect-simple"}
+{: tab-group="dedicated-simple"}
 {: class="simple-tab-table"}
 
 |**IBM Location Code** | **Location Type** | **Meet Me Room Operator**| **Operator Site Code** | **Operator Address** |
@@ -98,7 +98,7 @@ The following table provides details about the {{site.data.keyword.cloud_notm}} 
 {: caption="Table 3. Direct Link Dedicated - EMEA" caption-side="bottom"}
 {: #simpletabtable3}
 {: tab-title="EMEA"}
-{: tab-group="connect-simple"}
+{: tab-group="dedicated-simple"}
 {: class="simple-tab-table"}
 
 ## Direct Link Connect providers and locations
