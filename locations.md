@@ -19,11 +19,10 @@ View details about the {{site.data.keyword.cloud_notm}} data centers where {{sit
 ## Direct Link Dedicated locations
 {: #dedicated-locations}
 
-Table 1 provides details about the {{site.data.keyword.cloud_notm}} data centers where {{site.data.keyword.dl_short}} Dedicated (2.0) is available:
+The following table provides details about the {{site.data.keyword.cloud_notm}} data centers where {{site.data.keyword.dl_short}} Dedicated (2.0) is available:
 
 |**IBM Location Code** | **Location Type** | **Meet Me Room Operator**| **Operator Site Code** | **Operator Address** |
-|-----------------|-----------------|-----------------|--------------------|--------------------|
-| **Americas** |  |  |  |  |
+|-----------------|-----------------|-----------------|--------------------|--------------------| 
 | Chicago 1 |  PoP | Equinix  | CH4 |  350 E. Cermak |
 | Dallas 3 | PoP 1 | Equinix | DA1 | 1950 N. Stemmons Freeway |
 | Dallas 4 | PoP 2 | Digital Realty | DFW14 | 2323 Bryan St |
@@ -49,7 +48,14 @@ Table 1 provides details about the {{site.data.keyword.cloud_notm}} data centers
 | Washington DC 5 | PoP 2 | Coresite | DC2 | 12098 Sunrise Valley Dr |
 | Washington DC 6 | DC(AZ2) | Raging Wire | VA2 | 44610 Guilford Drive |
 | Washington DC 7 | DC(AZ3) | Sabey | Sabey Intergate.Ashburn | 21741 Red Rum Dr |
-| **APAC** |  |  |  |  |
+{: class="simple-tab-table"}
+{: caption="Table 1. Direct Link Dedicated - Americas" caption-side="bottom"}
+{: #simpletabtable1}
+{: tab-title="Americas"}
+{: tab-group="connect-simple"}
+
+|**IBM Location Code** | **Location Type** | **Meet Me Room Operator**| **Operator Site Code** | **Operator Address** |
+|-----------------|-----------------|-----------------|--------------------|--------------------|
 | Hong Kong 3 |	PoP |	Equinix |	HKG2 |	17/F Kerry Warehouse |
 | Osaka 1 | PoP | Equinix | OS1 | Nishi-Shinsaibashi Bldg., 1-26-1 Shin-machi, Osaka  |
 | Osaka 21  | DC(AZ1)|  IDC Frontier (SoftBank) | OSA021 | 6-1 Saitoaokita Mino-shi |
@@ -66,7 +72,14 @@ Table 1 provides details about the {{site.data.keyword.cloud_notm}} data centers
 | Tokyo 3 | PoP 2 | Equinix | TY4 | Chiyoda-ku |
 | Tokyo 4 | DC(AZ2) | Softbank | | Saitama |
 | Tokyo 5 | DC(AZ3) | NTT |  | Kawasaki Kangagawa |
-| **EMEA** |  |  |  |  |
+{: caption="Table 2. Direct Link Dedicated - APAC" caption-side="bottom"}
+{: #simpletabtable2}
+{: tab-title="APAC"}
+{: tab-group="connect-simple"}
+{: class="simple-tab-table"}
+
+|**IBM Location Code** | **Location Type** | **Meet Me Room Operator**| **Operator Site Code** | **Operator Address** |
+|-----------------|-----------------|-----------------|--------------------|--------------------| 
 | Amsterdam 2 | PoP | Equinix | AM2 | Luttenbergweg 4, 1101 EC |
 | Frankfurt 1 | PoP 1 | Digital Realty (InterXion) | FRA6 | Hanauer Landstrasse 302 |
 | Frankfurt 2 | DC(AZ1) | CyrusOne (Zenium) | FRA1 | Leonhard - Heisswolf Str 4., Frankfurt am Main |
@@ -82,7 +95,11 @@ Table 1 provides details about the {{site.data.keyword.cloud_notm}} data centers
 | Milan 1 | DC | Data 4 | | Via Monzoro 101-105, 20010 Cornaredo (MI) |
 | Milan 2 | PoP | Infracom Italia | Infracom 21 Via Caldera Way | Infracom Italia Spa, Building D, Caldera Business Park, Via Caldera, 21 |
 | Paris 3 | PoP | Equinix | PA4 | 110 Bis avenue du Gènèral Leclerc, 93500 Pantin |
-{: caption="Table 1. Direct Link Dedicated by Location" caption-side="left"}
+{: caption="Table 3. Direct Link Dedicated - EMEA" caption-side="bottom"}
+{: #simpletabtable3}
+{: tab-title="EMEA"}
+{: tab-group="connect-simple"}
+{: class="simple-tab-table"}
 
 ## Direct Link Connect providers and locations
 {: #connect-locations}
@@ -122,8 +139,8 @@ The following table lists {{site.data.keyword.dl_short}} Connect providers and l
 | Vodafone | EU: Frankfurt 3, London 1 |
 | Zayo | Americas: Dallas 3, Toronto 2 |
 {: class="simple-tab-table"}
-{: caption="Table 2h. Direct Link Connect by Provider" caption-side="bottom"}
-{: #simpletabtable1}
+{: caption="Table 4. Direct Link Connect by Provider" caption-side="bottom"}
+{: #simpletabtable4}
 {: tab-title="By Provider"}
 {: tab-group="connect-simple"}
 
@@ -168,9 +185,8 @@ The following table lists {{site.data.keyword.dl_short}} Connect providers and l
 | Toronto 3 | Equinix |
 | Washington DC 2 | AT&T NetBond for Cloud  \n British Telecom  \n CenturyLink Dynamic Connections  \n Cologix  \n Epsilon  \n Equinix  \n IBM BlueFringe   \n IXReach  \n Megaport  \n Neutrona  \n nextGen GNPP  \n PacketFabric  \n Verizon SCI |
 | Washington DC 4 | IBM Power Virtual Server |
-{: caption="Table 3. Direct Link Connect by Location" caption-side="bottom"}
-{: #simpletabtable2}
+{: caption="Table 5. Direct Link Connect by Location" caption-side="bottom"}
+{: #simpletabtable5}
 {: tab-title="By Location"}
 {: tab-group="connect-simple"}
 {: class="simple-tab-table"}
-
