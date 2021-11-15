@@ -56,7 +56,7 @@ Use when deterministic latency is required.
 
 Use when ultra-low latency is required.
 
-![Customer colocation to IBM Cloud(/images/dedicated-model-colo.png){: caption="Figure 2. Customer colocation to IBM Cloud" caption-side="bottom"}
+![Customer colocation to IBM Cloud](/images/dedicated-model-colo.png){: caption="Figure 2. Customer colocation to IBM Cloud" caption-side="bottom"}
 
 **Termination location** - {{site.data.keyword.cloud_notm}} point of presence (PoP) or Data Center (DC).
 
