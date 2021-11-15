@@ -23,6 +23,7 @@ toc:
        - about.md
        - dl-july-policy-change.md
        - pricing.md
+       - locations.md
        - topicgroup:
            label: Deployment considerations
            topics:
