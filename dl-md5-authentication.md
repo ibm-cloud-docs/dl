@@ -115,4 +115,4 @@ Output: `YWJjZGVmMDEyMzQ1Njc4OWFiY2RlZjAxMjM0NTY3ODlhYmNkZWYwMTIzNDU2Nzg5YWJjZGV
 ## Next step
 {: #md5-next-step}
 
-[Activate BGP MD5 authentication](https://test.cloud.ibm.com/docs/dl?topic=dl-enable-disable-md5#dl-enable-md5)
+[Activate BGP MD5 authentication](/docs/dl?topic=dl-enable-disable-md5#dl-enable-md5)
