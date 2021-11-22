@@ -80,7 +80,8 @@ Security and regulation compliance includes tasks, such as security controls imp
 |---------------------------|------|-----|
 | Encryption | {{site.data.keyword.IBM_notm}} does not provide encryption capabilities.| The Customer is responsible for encryption of data on disk, in motion, and in backups. The Customer is also responsible for choosing and managing appropriate additional security features. If the Customer uses Key Protect (Bring Your Own Key), or another form of encryption, the Customer is responsible for managing the service authorization and keys. |
 | Security | {{site.data.keyword.IBM_notm}} is responsible for ensuring the security of data on disk and data in motion within its infrastructure. | The Customer is responsible for restricting user access to the appropriate resources and resource groups. |
-{: caption="Table 5. Responsibilities for security and regulation compliance" caption-side="bottom"} 	
+{: caption="Table 5. Responsibilities for security and regulation compliance" caption-side="bottom"} 
+	
 ## Disaster recovery
 {: #disaster-recovery-responsibilities}
 

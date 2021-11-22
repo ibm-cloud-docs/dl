@@ -21,9 +21,8 @@ toc:
        topics:
        - getting-started.md
        - about.md
-       - dl-july-policy-change.md
-       - pricing.md
        - locations.md
+       - pricing.md
        - topicgroup:
            label: Deployment considerations
            topics:
@@ -43,7 +42,7 @@ toc:
                 label: Getting started with Virtual Private Cloud (VPC)
                 href: /vpc/vpc-getting-started
             - /vpc/vpc-interconnectivity
-            - /vpc/vpc-end-to-end-private-connectivity
+            - /vpc/vpc-end-to-end-private-connectivity           
 
     - navgroup:
         id: tutorial
@@ -111,10 +110,14 @@ toc:
         - link:
            label: Terraform reference
            href: https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs/resources/dl_gateway
+        
+        - dl-comparison-classic.md
+        - dl-comparison-locations.md
         - understanding-latency.md
         - vrf-on-ibm-cloud.md
         - vrf-conversion-dl.md
         - prerequisites.md
+        - completion-notice.md 
         - responsibilities.md
         - external-resources.md
 

@@ -4,7 +4,7 @@ copyright:
   years: 2020, 2021
 lastupdated: "2021-08-26"
 
-keywords: pricing
+keywords: pricing, direct link
 
 subcollection: dl
 

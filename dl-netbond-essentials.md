@@ -4,7 +4,7 @@ copyright:
   years: 2020, 2021
 lastupdated: "2021-06-24"
 
-keywords:
+keywords: direct link
 
 subcollection: dl
 

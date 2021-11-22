@@ -30,7 +30,7 @@ The following table provides details about the {{site.data.keyword.cloud_notm}} 
 | Dallas 12 | DC(AZ2) | Digital Realty | DFW18 | 907 Security Row |
 | Dallas 13 | DC(AZ3) | CyrusOne | Carrollton - Frankford | 1649 W. Frankford Rd |
 | Miami 1 | PoP  | TERREMARK | MI1 | 50 NE 9th Street |
-| Montreal | DC | Colo-D | MON01 | 2525 Rue Canadien |
+| Montreal 1 | DC | Colo-D | MON01 | 2525 Rue Canadien |
 | San Jose 2 | PoP | Equinix | SV1 | 11 Great Oaks Blvd |
 | Sao Paulo 1 | DC(AZ1) | Digital Realty (Ascenty) | SAO01 | Rua Presbitero Plinio Alves de Souza, 757 J. Ermida II,Jundiai |
 | Sao Paulo 2 | PoP | Equinix | SP4 | Avenida Ceci, 1900, Tambore, Barueri, SP, 06460 120 BR, Brazil |

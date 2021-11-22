@@ -2,15 +2,15 @@
 
 copyright:
   years: 2020, 2021
-lastupdated: "2021-04-15"
+lastupdated: "2020-04-15"
 
-keywords: interconnectivity
+keywords: interconnectivity, direct link
 
 subcollection: dl
 
 ---
 
-{{site.data.keyword.attribute-definition-list}}
+{{site.data.keyword.attribute-definition-list}} 
 
 # About {{site.data.keyword.dl_full_notm}} (2.0)
 {: #dl-about}
@@ -28,12 +28,18 @@ For increased flexibility in creating this Layer-3 connectivity, {{site.data.key
 ## {{site.data.keyword.dl_short}} offerings
 {: #overview-of-direct-link-offerings}
 
-Currrently, two types of connections are available:
+Currrently, two types of connections are available: {{site.data.keyword.dl_short}} Dedicated and {{site.data.keyword.dl_short}} Connect.
 {: shortdesc}
 
-* **{{site.data.keyword.dl_short}} Dedicated** - Allows customers to terminate a single-tenant, fiber-based cross-connect into the {{site.data.keyword.cloud_notm}} network. This offering can be used by customers with colocation premises that are next to {{site.data.keyword.cloud_notm}} PoPs and data centers, as well as network service providers that deliver circuits to customer on-premises or other data centers.
+### {{site.data.keyword.dl_short}} Dedicated
+{: #ibm-cloud-dedicated}
 
-* **{{site.data.keyword.dl_short}} Connect** - Offers private access to your IBM Cloud infrastructure and to any other clouds linked to your service provider through your local IBM Cloud data center. This option is perfect for creating multi-cloud connectivity in a single environment. IBM connects customers to the IBM Cloud private network, using a shared bandwidth topology. As with all {{site.data.keyword.dl_short}} products, you can add global routing that enables private network traffic to all IBM Cloud locations.
+Allows customers to terminate a single-tenant, fiber-based cross-connect into the {{site.data.keyword.cloud_notm}} network. This offering can be used by customers with colocation premises that are next to {{site.data.keyword.cloud_notm}} PoPs and data centers, as well as network service providers that deliver circuits to customer on-premises or other data centers.
+
+### {{site.data.keyword.dl_short}} Connect
+{: #ibm-cloud-connect}
+
+Offers private access to your IBM Cloud infrastructure and to any other clouds linked to your service provider through your local IBM Cloud data center. This option is perfect for creating multi-cloud connectivity in a single environment. IBM connects customers to the IBM Cloud private network, using a shared bandwidth topology. As with all {{site.data.keyword.dl_short}} products, you can add global routing that enables private network traffic to all IBM Cloud locations.
 
 ## {{site.data.keyword.dl_short}} Dedicated use cases
 {: #use-cases-dedicated}
