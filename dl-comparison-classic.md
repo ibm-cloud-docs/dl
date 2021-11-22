@@ -12,10 +12,10 @@ subcollection: dl
 
 {{site.data.keyword.attribute-definition-list}}
 
-# Comparison of features between Direct Link on Classic (1.0) and Direct Link (2.0)
+# Feature comparison between Direct Link versions
 {: #dl-comparison-classic}
 
-Review feature support for Direct Link on Classic (1.0) versus Direct Link (2.0).
+Review feature support for Direct Link on Classic (1.0) offerings versus Direct Link (2.0).
 {: shortdesc}
 
 | **Feature** | **Direct Link on Classic** | **Direct Link** |

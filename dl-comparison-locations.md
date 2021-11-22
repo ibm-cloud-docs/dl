@@ -12,10 +12,10 @@ subcollection: dl
 
 {{site.data.keyword.attribute-definition-list}}
 
-# Comparison of locations between Direct Link on Classic (1.0) and Direct Link (2.0)
+# Location comparison between Direct Link versions
 {: #dl-comparison-locations}
 
-Review location support for Direct Link on Classic (1.0) versus Direct Link (2.0).
+Review location support for Direct Link on Classic (1.0) offerings versus Direct Link (2.0).
 {: shortdesc}
 
 |**Location** | **Dedicated on Classic** | **Dedicated (2.0)**| **Connect on Classic** | **Connect (2.0)** |
