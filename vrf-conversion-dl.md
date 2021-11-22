@@ -10,7 +10,7 @@ subcollection: dl
 
 ---
 
-{{{site.data.keyword.attribute-definition-list}}
+{{site.data.keyword.attribute-definition-list}}
 
 # Converting to virtual routing and forwarding
 {: #what-happens-during-the-account-conversion-process}
