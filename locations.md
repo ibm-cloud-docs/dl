@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2021
-lastupdated: "2021-11-15"
+lastupdated: "2021-12-01"
 
 keywords: direct link
 
@@ -11,7 +11,7 @@ subcollection: dl
 
 {{site.data.keyword.attribute-definition-list}}
 
-# Providers and locations 
+# Providers and locations
 {: #locations}
 
 View details about the {{site.data.keyword.cloud_notm}} data centers where {{site.data.keyword.dl_short}} Dedicated and Connect offering are available.
@@ -22,7 +22,7 @@ View details about the {{site.data.keyword.cloud_notm}} data centers where {{sit
 The following table provides details about the {{site.data.keyword.cloud_notm}} data centers where {{site.data.keyword.dl_short}} Dedicated (2.0) is available. Choose a tab to see locations for Americas, APAC, and EMEA.
 
 |**IBM Location Code** | **Location Type** | **Meet Me Room Operator**| **Operator Site Code** | **Operator Address** |
-|-----------------|-----------------|-----------------|--------------------|--------------------| 
+|-----------------|-----------------|-----------------|--------------------|--------------------|
 | Chicago 1 |  PoP | Equinix  | CH4 |  350 E. Cermak |
 | Dallas 3 | PoP 1 | Equinix | DA1 | 1950 N. Stemmons Freeway |
 | Dallas 4 | PoP 2 | Digital Realty | DFW14 | 2323 Bryan St |
@@ -80,7 +80,7 @@ The following table provides details about the {{site.data.keyword.cloud_notm}} 
 {: class="simple-tab-table"}
 
 |**IBM Location Code** | **Location Type** | **Meet Me Room Operator**| **Operator Site Code** | **Operator Address** |
-|-----------------|-----------------|-----------------|--------------------|--------------------| 
+|-----------------|-----------------|-----------------|--------------------|--------------------|
 | Amsterdam 2 | PoP | Equinix | AM2 | Luttenbergweg 4, 1101 EC |
 | Frankfurt 1 | PoP 1 | Digital Realty (InterXion) | FRA6 | Hanauer Landstrasse 302 |
 | Frankfurt 2 | DC(AZ1) | CyrusOne (Zenium) | FRA1 | Leonhard - Heisswolf Str 4., Frankfurt am Main |
@@ -124,7 +124,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect providers and l
 | Epsilon | Americas: Washington DC 2  \n EU: Amsterdam 2, Frankfurt 1, London 1 |
 | Equinix | Americas: Chicago 1, Dallas 3, San Jose 2, Sao Paulo 2, Toronto 2, Toronto 3, Washington DC 2  \n APAC: Osaka 1, Tokyo 3  \n EU: Frankfurt 3, London 3, Paris 3 |
 | IBM BlueFringe | Americas: Dallas 3, Washington DC 2  \n EU: Amsterdam 2, Frankfurt 3 |
-| IBM Power Virtual Server | Americas: Dallas 12, Dallas 13, Montreal 1, Sao Paulo 1, Toronto 1, Washington DC 4  \n APAC: Osaka 21, Sydney 4, Sydney 5, Tokyo 4  \n EU: Frankfurt 4, Frankfurt 5, London 4, London 6 |
+| IBM Power Virtual Server | Americas: Dallas 12, Dallas 13, Montreal 1, Sao Paulo 1, Toronto 1, Washington DC 4, Washington DC 6  \n APAC: Osaka 21, Sydney 4, Sydney 5, Tokyo 4  \n EU: Frankfurt 4, Frankfurt 5, London 4, London 6 |
 | Intercloud | EU: Frankfurt 3 |
 | IXReach | Americas: Washington DC 2 |
 | Megaport | Americas: Chicago 1, Dallas 4, San Jose 2, Toronto 2, Washington DC 2  \n APAC: Osaka 1, Sydney 2, Tokyo 2, Tokyo 3  \n EU: Amsterdam 2, Frankfurt 1, London 3, Paris 2 |
@@ -186,6 +186,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect providers and l
 | Toronto 3 | Equinix |
 | Washington DC 2 | AT&T NetBond for Cloud  \n British Telecom  \n CenturyLink Dynamic Connections  \n Cologix  \n Epsilon  \n Equinix  \n IBM BlueFringe   \n IXReach  \n Megaport  \n Neutrona  \n nextGen GNPP  \n PacketFabric  \n Verizon SCI |
 | Washington DC 4 | IBM Power Virtual Server |
+| Washington DC 6 | IBM Power Virtual Server |
 {: caption="Table 5. Direct Link Connect by Location" caption-side="bottom"}
 {: #simpletabtable5}
 {: tab-title="By Location"}
