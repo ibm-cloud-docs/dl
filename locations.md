@@ -29,6 +29,7 @@ The following table provides details about the {{site.data.keyword.cloud_notm}} 
 | Dallas 10 | DC(AZ1) | QTS | IRV | 6431 Longhorn Drive |
 | Dallas 12 | DC(AZ2) | Digital Realty | DFW18 | 907 Security Row |
 | Dallas 13 | DC(AZ3) | CyrusOne | Carrollton - Frankford | 1649 W. Frankford Rd |
+| Denver 1 | PoP | Coresite |	DE1 |910 15th Street |
 | Miami 1 | PoP  | TERREMARK | MI1 | 50 NE 9th Street |
 | Montreal 1 | DC | Colo-D | MON01 | 2525 Rue Canadien |
 | San Jose 2 | PoP | Equinix | SV1 | 11 Great Oaks Blvd |
