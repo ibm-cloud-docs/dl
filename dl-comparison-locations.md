@@ -65,16 +65,14 @@ Review location support for Direct Link on Classic (1.0) offerings versus Direct
 |**Location* | **Dedicated on Classic** | **Dedicated (2.0)**| **Connect on Classic** | **Connect (2.0)** |
 |-----------------|-----------------|-----------------|-----------------|---------------|
 | Chennai 1 | ![Checkmark icon](../icons/checkmark-icon.svg) |  | ![Checkmark icon](../icons/checkmark-icon.svg) |  |    
-| Hong Kong 1 | ![Checkmark icon](../icons/checkmark-icon.svg) |  | ![Checkmark icon](../icons/checkmark-icon.svg) |  |   
-| Hong Kong 2 | ![Checkmark icon](../icons/checkmark-icon.svg) |  |  |  |    
+| Hong Kong 1 | ![Checkmark icon](../icons/checkmark-icon.svg) |  | ![Checkmark icon](../icons/checkmark-icon.svg) |  |    
 | Hong Kong 3 | ![Checkmark icon](../icons/checkmark-icon.svg) | ![Checkmark icon](../icons/checkmark-icon.svg) | ![Checkmark icon](../icons/checkmark-icon.svg) | ![Checkmark icon](../icons/checkmark-icon.svg) |   
 | Melbourne 2 | ![Checkmark icon](../icons/checkmark-icon.svg) |  | ![Checkmark icon](../icons/checkmark-icon.svg) |  |    
 | Osaka 1 | ![Checkmark icon](../icons/checkmark-icon.svg) | ![Checkmark icon](../icons/checkmark-icon.svg) | ![Checkmark icon](../icons/checkmark-icon.svg) | ![Checkmark icon](../icons/checkmark-icon.svg) |    
 | Osaka 21  |  | ![Checkmark icon](../icons/checkmark-icon.svg) |  | ![Checkmark icon](../icons/checkmark-icon.svg) |  
 | Osaka 22  |  | ![Checkmark icon](../icons/checkmark-icon.svg) |  |  |   
 | Osaka 23  |  | ![Checkmark icon](../icons/checkmark-icon.svg) |  |  |
-| Perth 1 | ![Checkmark icon](../icons/checkmark-icon.svg) |  |  |  |
-| Seoul 1 | ![Checkmark icon](../icons/checkmark-icon.svg) |  |  |  |  
+| Perth 1 | ![Checkmark icon](../icons/checkmark-icon.svg) |  |  |  | 
 | Seoul 2 | ![Checkmark icon](../icons/checkmark-icon.svg) |  |  |  |
 | Singapore 1 | ![Checkmark icon](../icons/checkmark-icon.svg) |  |  |  |
 | Singapore 2 | ![Checkmark icon](../icons/checkmark-icon.svg) |  | ![Checkmark icon](../icons/checkmark-icon.svg) |  |      

@@ -57,7 +57,7 @@ The following table provides details about the {{site.data.keyword.cloud_notm}} 
 
 |**IBM Location Code** | **Location Type** | **Meet Me Room Operator**| **Operator Site Code** | **Operator Address** |
 |-----------------|-----------------|-----------------|--------------------|--------------------|
-| Hong Kong 3 |	PoP |	Equinix |	HKG2 |	17/F Kerry Warehouse |
+| Hong Kong 3 |	PoP |	Equinix |	HKG3 |	17/F Kerry Warehouse |
 | Osaka 1 | PoP | Equinix | OS1 | Nishi-Shinsaibashi Bldg., 1-26-1 Shin-machi, Osaka  |
 | Osaka 21  | DC(AZ1)|  IDC Frontier (SoftBank) | OSA021 | 6-1 Saitoaokita Mino-shi |
 | Osaka 22  | DC(AZ2) | IDC Frontier (SoftBank) | OSA022 | 6-1 Saitoaokita Mino-shi |
