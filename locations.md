@@ -119,7 +119,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect providers and l
 | China Unicom | Americas: San Jose 1  \n APAC: Hong Kong 3 |
 | CenturyLink Dynamic Connections | Americas: Dallas 3, San Jose 2, Sao Paulo 2, Toronto 2, Washington DC 2  \n EU: Frankfurt 1, London 3, Paris 2 |  
 | Cologix | Americas: Chicago 1, Toronto 2, Washington DC 2 |  
-| Colt | EU: Frankfurt 1, Frankfurt 3 |
+| Colt | EU: Amsterdam 2, Frankfurt 1, Frankfurt 3 |
 | DE-CIX | EU: Frankfurt 3, Frankfurt 4, Frankfurt 5 |
 | Epsilon | Americas: Washington DC 2  \n EU: Amsterdam 2, Frankfurt 1, London 1 |
 | Equinix | Americas: Chicago 1, Dallas 3, San Jose 2, Sao Paulo 2, Toronto 2, Toronto 3, Washington DC 2  \n APAC: Osaka 1, Tokyo 3  \n EU: Frankfurt 3, London 3, Paris 3 |
@@ -147,7 +147,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect providers and l
 
 | Location | Providers |
 |----|----|
-| Amsterdam 2 | Epsilon  \n IBM BlueFringe  \n  Megaport  \n nextGen GNPP |
+| Amsterdam 2 | Colt  \n Epsilon  \n IBM BlueFringe  \n  Megaport  \n nextGen GNPP |
 | Chicago 1 | Cologix  \n Equinix  \n Megaport |
 | Dallas 3 |  AT&T NetBond for Cloud  \n CenturyLink Dynamic Connections  \n Equinix  \n IBM BlueFringe  \n Neutrona  \n nextGen GNPP  \n PCCW  \n Zayo |
 | Dallas 4 |  PacketFabric  \n Megaport |
