@@ -110,7 +110,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect providers and l
 
 | Provider | Locations |
 |----|----|
-| Ascenty | Americas: Sao Paulo 5 |
+| Ascenty | Americas: Sao Paulo 1, Sao Paulo 5 |
 | At Tokyo | APAC: Osaka 1, Tokyo 2 |
 | AT&T NetBond for Cloud | Americas: Dallas 3, Washington DC 2 |
 | BBIX | APAC: Tokyo 1, Tokyo 3 |
@@ -168,7 +168,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect providers and l
 | Paris 2 | CenturyLink Dynamic Connections  \n Megaport |
 | Paris 3 | Equinix |
 | San Jose 2 | CenturyLink Dynamic Connections  \n China Unicom  \n Equinix  \n Megaport  \n PacketFabric |
-| Sao Paulo 1 | IBM Power Virtual Server |
+| Sao Paulo 1 | Ascenty, IBM Power Virtual Server |
 | Sao Paulo 2 | CenturyLink Dynamic Connections  \n Equinix |
 | Sao Paulo 5 | Ascenty |
 | Sydney 2 | Megaport |
