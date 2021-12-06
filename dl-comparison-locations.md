@@ -38,7 +38,7 @@ Review location support for Direct Link on Classic (1.0) offerings versus Direct
 | New York City 3 | ![Checkmark icon](../icons/checkmark-icon.svg) |   |  |  |
 | San Jose 2 | ![Checkmark icon](../icons/checkmark-icon.svg) | ![Checkmark icon](../icons/checkmark-icon.svg) | ![Checkmark icon](../icons/checkmark-icon.svg) | ![Checkmark icon](../icons/checkmark-icon.svg) |    
 | San Jose 3 | ![Checkmark icon](../icons/checkmark-icon.svg) |  |  |  |   
-| San Jose 4 | ![Checkmark icon](../icons/checkmark-icon.svg) |  |  |  |  
+| San Jose 4 | ![Checkmark icon](../icons/checkmark-icon.svg) | ![Checkmark icon](../icons/checkmark-icon.svg) |  |  |  
 | Sao Paulo 1 | ![Checkmark icon](../icons/checkmark-icon.svg) | ![Checkmark icon](../icons/checkmark-icon.svg) |  | ![Checkmark icon](../icons/checkmark-icon.svg) |   
 | Sao Paulo 2 | ![Checkmark icon](../icons/checkmark-icon.svg) | ![Checkmark icon](../icons/checkmark-icon.svg) | ![Checkmark icon](../icons/checkmark-icon.svg) | ![Checkmark icon](../icons/checkmark-icon.svg) |    
 | Sao Paulo 3 |  | ![Checkmark icon](../icons/checkmark-icon.svg) |  |  |    
