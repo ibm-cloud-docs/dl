@@ -42,7 +42,8 @@ toc:
                 label: Getting started with Virtual Private Cloud (VPC)
                 href: /vpc/vpc-getting-started
             - /vpc/vpc-interconnectivity
-            - /vpc/vpc-end-to-end-private-connectivity           
+            - /vpc/vpc-end-to-end-private-connectivity
+           - release_notes.md       
 
     - navgroup:
         id: tutorial
@@ -110,14 +111,14 @@ toc:
         - link:
            label: Terraform reference
            href: https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs/resources/dl_gateway
-        
+
         - dl-comparison-classic.md
         - dl-comparison-locations.md
         - understanding-latency.md
         - vrf-on-ibm-cloud.md
         - vrf-conversion-dl.md
         - prerequisites.md
-        - completion-notice.md 
+        - completion-notice.md
         - responsibilities.md
         - external-resources.md
 
@@ -125,7 +126,6 @@ toc:
         id: help
         topics:
         - known-limitations.md
-        - release_notes.md
         - getting-help.md
         - faqs.md
         - topicgroup:
