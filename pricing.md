@@ -53,6 +53,9 @@ The following tables list the pricing for metered and unmetered port charges.
 ### Metered  
 {: #pricing-for-dl-port-charges-metered}
 
+Provider speeds greater than 10 Gbps for Direct Link Connect incur metered billing only.
+{: important}
+
 | Speed | Global |
 |----|----|
 |  50 Mbps (Direct Link Connect only) |   $40 |
@@ -63,10 +66,15 @@ The following tables list the pricing for metered and unmetered port charges.
 |   2 Gbps |  $500 |
 |   5 Gbps |$1,200 |
 |  10 Gbps (Direct Link Dedicated only) |$1,800 |
+|  25 Gbps (Direct Link Connect only) |$2,999 |
+|  40 Gbps (Direct Link Connect only) |$6,999 |
+|  50 Gbps (Direct Link Connect only) |$7,999 |
+| 100 Gbps (Direct Link Connect only)|$12,999 |
 {: caption="Table 2. {{site.data.keyword.dl_short}} metered port charges" caption-side="bottom"}
 
 Metered port fee pricing is determined by the bandwidth speed of the port.
 {: note}
+
 
 ## Pricing for metered data transfer charges
 {: #metered-data-transfer-charge}
