@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020, 2021
-lastupdated: "2021-12-01"
+  years: 2020, 2022
+lastupdated: "2022-01-10"
 
 keywords: direct link
 
@@ -133,6 +133,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect providers and l
 | nextGen GNPP | Americas: Dallas 3, Washington DC 2  \n EU: Amsterdam 2, Frankfurt 3, London 1, London 3, London 4 |
 | NTT | APAC: Tokyo 5 |
 | Neutrona | Americas: Dallas 3, Washington DC 2 |
+| Orange Business Services | EU: Paris 2 |
 | PacketFabric | Americas: Dallas 4, Washington DC 2, San Jose 2 |
 | PCCW | Americas: Dallas 3 |
 | SoftBank | APAC: Tokyo 4 |
@@ -166,7 +167,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect providers and l
 | Montreal 1 | IBM Power Virtual Server |
 | Osaka  1 | AT Tokyo  \n Equinix  \n Megaport  \n Tokai |
 | Osaka 21 |IBM Power Virtual Server |
-| Paris 2 | CenturyLink Dynamic Connections  \n Megaport |
+| Paris 2 | CenturyLink Dynamic Connections  \n Megaport  \n Orange Business Services |
 | Paris 3 | Equinix |
 | San Jose 2 | CenturyLink Dynamic Connections  \n China Unicom  \n Equinix  \n Megaport  \n PacketFabric |
 | Sao Paulo 1 | Ascenty, IBM Power Virtual Server |
