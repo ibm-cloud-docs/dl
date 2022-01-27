@@ -1,7 +1,7 @@
 ---
 copyright:
-  years: 2021
-lastupdated: "2021-08-30"
+  years: 2022
+lastupdated: "2022-01-27"
 
 keywords: direct link release notes
 
@@ -16,6 +16,11 @@ subcollection: dl
 
 Check back regularly to see what's new with {{site.data.keyword.cloud}} Direct Link.
 {: shortdesc}
+
+## 27 January 2022
+{: #january-2022}
+
+**VLAN mapping** - A Provider can now specify their own VLAN value at the time of gateway creation, or update it later using the [Direct Link Provider API](/apidocs/direct_link_provider_api). Previously, the VLAN was selected for you. 
 
 ## 24 September 2021
 {: #september-2021}
