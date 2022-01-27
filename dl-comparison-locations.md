@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2021
-lastupdated: "2021-12-01"
+  years: 2021, 2022
+lastupdated: "2022-01-26"
 
 keywords: direct link
 
@@ -74,7 +74,7 @@ Review location support for Direct Link on Classic (1.0) offerings versus Direct
 | Osaka 23  |  | ![Checkmark icon](../icons/checkmark-icon.svg) |  |  |
 | Perth 1 | ![Checkmark icon](../icons/checkmark-icon.svg) |  |  |  | 
 | Seoul 2 | ![Checkmark icon](../icons/checkmark-icon.svg) |  |  |  |
-| Singapore 1 | ![Checkmark icon](../icons/checkmark-icon.svg) |  |  |  |
+| Singapore 1 | ![Checkmark icon](../icons/checkmark-icon.svg) | ![Checkmark icon](../icons/checkmark-icon.svg) |  |  |
 | Singapore 2 | ![Checkmark icon](../icons/checkmark-icon.svg) |  | ![Checkmark icon](../icons/checkmark-icon.svg) |  |      
 | Sydney 1 | ![Checkmark icon](../icons/checkmark-icon.svg) | ![Checkmark icon](../icons/checkmark-icon.svg) |  |  |    
 | Sydney 2 | ![Checkmark icon](../icons/checkmark-icon.svg) | ![Checkmark icon](../icons/checkmark-icon.svg) | ![Checkmark icon](../icons/checkmark-icon.svg) | ![Checkmark icon](../icons/checkmark-icon.svg) |    
