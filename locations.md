@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-01-26"
+lastupdated: "2022-01-31"
 
 keywords: direct link
 
@@ -58,6 +58,7 @@ The following table provides details about the {{site.data.keyword.cloud_notm}} 
 
 |**IBM Location Code** | **Location Type** | **Meet Me Room Operator**| **Operator Site Code** | **Operator Address** |
 |-----------------|-----------------|-----------------|--------------------|--------------------|
+| Chennai 1 | DC | Tata | PH-01 | 226, Red Hills Road, Kallikuppam, Ambattur |
 | Hong Kong 3 |	PoP |	Equinix |	HKG3 |	17/F Kerry Warehouse |
 | Osaka 1 | PoP | Equinix | OS1 | Nishi-Shinsaibashi Bldg., 1-26-1 Shin-machi, Osaka  |
 | Osaka 21  | DC(AZ1)|  IDC Frontier (SoftBank) | OSA021 | 6-1 Saitoaokita Mino-shi |
