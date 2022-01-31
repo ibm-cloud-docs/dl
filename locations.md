@@ -11,7 +11,7 @@ subcollection: dl
 
 {{site.data.keyword.attribute-definition-list}}
 
-# Providers and locations
+# Locations and providers
 {: #locations}
 
 View details about the {{site.data.keyword.cloud_notm}} data centers where {{site.data.keyword.dl_short}} Dedicated and Connect offering are available.
