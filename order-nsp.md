@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020, 2021
-lastupdated: "2021-11-03"
+  years: 2020, 2022
+lastupdated: "2022-02-01"
 
 keywords: direct link, direct link dedicated
 
@@ -173,10 +173,10 @@ Here's how the process works:
 
 1. The IBM Cloud team reviews the completion notice and accepts it. The IBM Cloud team then places an order to have the fiber installed between the patch panel/port mentioned in the LOA and the device port. This process can take 1-4 business days, depending on how quickly the site provider finishes the request. This completes the physical-layer portion of the direct link and the connection status changes to **Provisioned.**
 
-1. You must then configure the BGP parameters on your Edge router for BGP session establishment. After this completes, the **BGP status** indicates **Established** and **Link status** indicates **Up**.  
-
-   It can take up to 30 minutes for the link status to update.  
-   {: note}
+1. You must then configure the BGP parameters on your Edge router for BGP session establishment. After this completes, the **BGP status** indicates **Established** and **Link status** indicates **Up**. It can take up to 30 minutes for the link status to update.   
+   
+If you decide to cancel your direct link, remember to disconnect the cross-connect router with the site provider; otherwise, you will continue to be charged for the cross-connect.
+{: important}
 
 ## Related links
 {: #related-links-dedicated}
