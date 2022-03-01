@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-01-31"
+lastupdated: "2022-03-01"
 
 keywords: direct link
 
@@ -143,6 +143,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect providers and l
 | Verizon SCI | **Americas**: Washington DC 2 | |
 | Vodafone | **EU**: Frankfurt 3, London 1 | |
 | Zayo | **Americas**: Dallas 3, Toronto 2 | |
+| Zenlayer | **APAC**: Tokyo 1 | |
 {: class="simple-tab-table"}
 {: caption="Table 4. Direct Link Connect by Provider" caption-side="bottom"}
 {: #simpletabtable4}
@@ -180,9 +181,9 @@ The following table lists {{site.data.keyword.dl_short}} Connect providers and l
 | Sydney 4 | IBM Power Virtual Server |
 | Sydney 5 | IBM Power Virtual Server |
 | Taipei 1 | Chief Telecom |
-| Tokyo 1 | BBIX \n Colt |
+| Tokyo 1 | BBIX  \n Colt  \n Zenlayer |
 | Tokyo 2 | AT Tokyo  \n Megaport |
-| Tokyo 3 | BBIX \n Colt \n Equinix  \n Megaport  \n Tokai |
+| Tokyo 3 | BBIX  \n Colt  \n Equinix  \n Megaport  \n Tokai |
 | Tokyo 4 | IBM Power Virtual Server  \n Softbank |
 | Tokyo 5 | NTT |
 | Toronto 1 | IBM Power Virtual Server |
