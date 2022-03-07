@@ -71,6 +71,7 @@ Provider speeds greater than 10 Gbps for Direct Link Connect incur metered billi
 Metered port fee pricing is determined by the bandwidth speed of the port.
 {: note}
 
+
 ## Pricing for metered data transfer charges
 {: #metered-data-transfer-charge}
 

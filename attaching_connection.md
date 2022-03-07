@@ -25,7 +25,7 @@ Make sure that there are no IP address conflicts between on-premises subnets and
 
 To add a connection to a provisioned gateway, follow these steps:
 
-1. Highlight the row of the gateway in the {{site.data.keyword.dl_short}} table, then click **Add connection** from the Overflow ![Overflow menu](images/overflow.png) menu. Alternatively, you can click **Add connection +** on the gateway's details page.
+1. Highlight the row of the gateway in the {{site.data.keyword.dl_short}} table, then click **Add connection** from the Actions ![Actions menu](images/overflow.png) menu. Alternatively, you can click **Add connection +** on the gateway's details page.
 
    You can create a connection to the logged-in account, or request a connection to a network within another account.
 
