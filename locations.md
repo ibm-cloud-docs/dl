@@ -98,6 +98,7 @@ The following table provides details about the {{site.data.keyword.cloud_notm}} 
 | London 6 | DC(AZ3) | CyrusOne (Zenium) | LON1 | 12 Liverpool Rd, Trading Estate |
 | Milan 1 | DC | Data 4 | | Via Monzoro 101-105, 20010 Cornaredo (MI) |
 | Milan 2 | PoP | Infracom Italia | Infracom 21 Via Caldera Way | Infracom Italia Spa, Building D, Caldera Business Park, Via Caldera, 21 |
+| Paris 2 | PoP | Equinix | PA2 | 114 Rue Ambroise Croizat, St Denis | 
 | Paris 3 | PoP | Equinix | PA4 | 110 Bis avenue du Gènèral Leclerc, 93500 Pantin |
 {: caption="Table 3. Direct Link Dedicated - EMEA" caption-side="bottom"}
 {: #simpletabtable3}
