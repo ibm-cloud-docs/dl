@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-03-01"
+lastupdated: "2022-03-11"
 
 keywords: direct link
 
@@ -127,6 +127,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect providers and l
 | DE-CIX | **EU**: Frankfurt 3, Frankfurt 4, Frankfurt 5 | ![Checkmark icon](../icons/checkmark-icon.svg) |
 | Epsilon | **Americas**: Washington DC 2  \n **EU**: Amsterdam 2, Frankfurt 1, London 1 | |
 | Equinix | **Americas**: Chicago 1, Dallas 3, San Jose 2, Sao Paulo 2, Toronto 2, Toronto 3, Washington DC 2  \n **APAC**: Osaka 1, Tokyo 3  \n **EU**: Frankfurt 3, London 3, Paris 3 | ![Checkmark icon](../icons/checkmark-icon.svg) |
+| Fibernoire | **Americas**: Toronto 2 | |
 | IBM BlueFringe | **Americas**: Dallas 3, Washington DC 2  \n **EU**: Amsterdam 2, Frankfurt 3 | |
 | IBM Power Virtual Server | **Americas**: Dallas 12, Dallas 13, Montreal 1, Sao Paulo 1, Toronto 1, Washington DC 4, Washington DC 6  \n **APAC**: Osaka 21, Sydney 4, Sydney 5, Tokyo 4  \n **EU**: Frankfurt 4, Frankfurt 5, London 4, London 6 | |
 | Intercloud | **EU**: Frankfurt 3 | |
@@ -188,7 +189,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect providers and l
 | Tokyo 4 | IBM Power Virtual Server  \n Softbank |
 | Tokyo 5 | NTT |
 | Toronto 1 | IBM Power Virtual Server |
-| Toronto 2 | CenturyLink Dynamic Connections  \n Cologix  \n Equinix \n Megaport  \n Zayo |
+| Toronto 2 | CenturyLink Dynamic Connections  \n Cologix  \n Equinix  \n Fibernoire  \n Megaport  \n Zayo |
 | Toronto 3 | Equinix |
 | Washington DC 2 | AT&T NetBond for Cloud  \n British Telecom  \n CenturyLink Dynamic Connections  \n Cologix  \n Epsilon  \n Equinix  \n IBM BlueFringe   \n IXReach  \n Megaport  \n Neutrona  \n nextGen GNPP  \n PacketFabric  \n Verizon SCI |
 | Washington DC 4 | IBM Power Virtual Server |
