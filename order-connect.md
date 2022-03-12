@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020, 2021
-lastupdated: "2021-10-29"
+  years: 2020, 2022
+lastupdated: "2022-03-10"
 
 keywords: direct link, direct link connect
 
@@ -36,6 +36,7 @@ Make sure that you review the following considerations before ordering Direct Li
 
 * [AT&T NetBond for Cloud](/docs/dl?topic=dl-netbond)
 * [AT&T NetBond Essentials via Equinix Fabric](/docs/dl?topic=dl-att-netbond-essentials)
+* [DE-CIX](/docs/dl?topic=dl-de-cix)
 * [Equinix](/docs/dl?topic=dl-equinix)
 * [Megaport](/docs/dl?topic=dl-megaport)
 * [Verizon SCI via Equinix Fabric](/docs/dl?topic=dl-verizon-sci)

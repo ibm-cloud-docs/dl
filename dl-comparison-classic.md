@@ -19,7 +19,7 @@ Review feature support for Direct Link on Classic (1.0) offerings versus Direct 
 {: shortdesc}
 
 | **Feature** | **Direct Link on Classic** | **Direct Link** |
-|----|-----|-----|
+|-----|-----|-----|
 | Locations | All IBM Cloud data centers and PoP locations have Direct Link on Classic support. | All MZRs have Direct Link (2.0) offering support. SZR support is being rolled out on a location-by-location basis. |
 | MACsec | No MACsec support. | MACsec support is available in CHI01 and WDC02. Compatible with Cisco switches. |
 | 100G NNI | No 100G NNI support. | Business case justification required. In roadmap for MZR’s and associated POP’s pending business/finance approval. | 
