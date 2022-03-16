@@ -5,6 +5,7 @@
 toc:
   properties:
     subcollection: dl
+    service-name: directlink 
     version: 2
     category: network_interconnectivity
     audience: service
