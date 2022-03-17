@@ -15,7 +15,7 @@ subcollection: dl
 # Managing access for {{site.data.keyword.dl_full_notm}}
 {: #iam}
 
-{{site.data.keyword.dl_full}} enables connectivity between customer on-premises resources to {{site.data.keyword.cloud_notm}} resources that are hosted in classic and Virtual Private Cloud (VPC) infrastructures, including second-generation compute resources.
+{{site.data.keyword.dl_full}} enables connectivity between customer on-premises resources to {{site.data.keyword.cloud_notm}} resources that are hosted in classic and Virtual Private Cloud (VPC) infrastructures.
 {: shortdesc}
 
 {{site.data.keyword.dl_full_notm}} uses {{site.data.keyword.cloud_notm}} Identity and Access Management (IAM) platform access roles to manage access to the service's resources. IAM access roles allow account administrators to assign different levels of permission for calling the service's APIs and accessing the UI. The following table provides example actions that you can take against the {{site.data.keyword.dl_short}} service and its resources, depending on the user's assigned roles.
