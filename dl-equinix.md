@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020, 2021
-lastupdated: "2021-10-07"
+  years: 2020, 2022
+lastupdated: "2022-03-23"
 
 keywords: direct link
 
@@ -34,6 +34,9 @@ For Exchange on Classic instructions, see [Steps to order Direct Link Exchange o
 
 1. Select a **Location**, followed by a **Destination**. Then, click **Next**.
 1. On the Connection Details page, enter the connection information.
+
+   Your IBM Cloud Account ID is located in the Account section on the [Account settings](https://cloud.ibm.com/account/settings){: external} page.
+   {: note}
 
    ![Connection Details](/images/equinix-connection-details.png "Connection Details"){: caption="Connection Details" caption-side="bottom"}     
 
