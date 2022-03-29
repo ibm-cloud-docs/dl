@@ -7,6 +7,8 @@ keywords: direct link release notes
 
 subcollection: dl
 
+content-type: release-note
+
 ---
 
 {{site.data.keyword.attribute-definition-list}}
