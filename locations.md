@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-03-11"
+lastupdated: "2022-03-31"
 
 keywords: direct link
 
@@ -85,6 +85,7 @@ The following table provides details about the {{site.data.keyword.cloud_notm}} 
 |**IBM Location Code** | **Location Type** | **Meet Me Room Operator**| **Operator Site Code** | **Operator Address** |
 |-----------------|-----------------|-----------------|--------------------|--------------------|
 | Amsterdam 2 | PoP | Equinix | AM2 | Luttenbergweg 4, 1101 EC |
+| Amsterdam 3 | DC | KPN | Amsterdam 3 | Rondebeltweg 62 |
 | Frankfurt 1 | PoP 1 | Digital Realty (InterXion) | FRA6 | Hanauer Landstrasse 302 |
 | Frankfurt 2 | DC(AZ1) | CyrusOne (Zenium) | FRA1 | Leonhard - Heisswolf Str 4., Frankfurt am Main |
 | Frankfurt 3 | PoP 2 | Equinix | FR6 | Larchenstrasse 110, Frankfurt Griesheim |
@@ -98,7 +99,7 @@ The following table provides details about the {{site.data.keyword.cloud_notm}} 
 | London 6 | DC(AZ3) | CyrusOne (Zenium) | LON1 | 12 Liverpool Rd, Trading Estate |
 | Milan 1 | DC | Data 4 | | Via Monzoro 101-105, 20010 Cornaredo (MI) |
 | Milan 2 | PoP | Infracom Italia | Infracom 21 Via Caldera Way | Infracom Italia Spa, Building D, Caldera Business Park, Via Caldera, 21 |
-| Paris 2 | PoP | Equinix | PA2 | 114 Rue Ambroise Croizat, St Denis | 
+| Paris 2 | PoP | Equinix | PA2 | 114 Rue Ambroise Croizat, St Denis |
 | Paris 3 | PoP | Equinix | PA4 | 110 Bis avenue du Gènèral Leclerc, 93500 Pantin |
 {: caption="Table 3. Direct Link Dedicated - EMEA" caption-side="bottom"}
 {: #simpletabtable3}
@@ -169,7 +170,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect providers and l
 | London 3 | British Telecom  \n CenturyLink Dynamic Connections  \n Colt \n Equinix  \n Megaport  \n nextGen GNPP |
 | London 4 | IBM Power Virtual Server  \n nextGen GNPP  |
 | London 6 | IBM Power Virtual Server |
-| Montreal 1 | IBM Power Virtual Server |
+| Montreal 1 | IBM Power Virtual Server | 
 | Osaka  1 | AT Tokyo  \n Equinix  \n Megaport  \n Tokai |
 | Osaka 21 |IBM Power Virtual Server |
 | Paris 2 | CenturyLink Dynamic Connections  \n Megaport  \n Orange Business Services |
