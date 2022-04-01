@@ -72,7 +72,6 @@ Review location support for Direct Link on Classic (1.0) offerings versus Direct
 | Osaka 22  | ![Checkmark icon](../icons/checkmark-icon.svg) | ![Checkmark icon](../icons/checkmark-icon.svg) |  |  |   
 | Osaka 23  | ![Checkmark icon](../icons/checkmark-icon.svg) | ![Checkmark icon](../icons/checkmark-icon.svg) |  |  |
 | Perth 1 | ![Checkmark icon](../icons/checkmark-icon.svg) |  |  |  | 
-| Seoul 2 | ![Checkmark icon](../icons/checkmark-icon.svg) |  |  |  |
 | Singapore 1 | ![Checkmark icon](../icons/checkmark-icon.svg) | ![Checkmark icon](../icons/checkmark-icon.svg) |  |  |
 | Singapore 2 | ![Checkmark icon](../icons/checkmark-icon.svg) |  | ![Checkmark icon](../icons/checkmark-icon.svg) |  |      
 | Sydney 1 | ![Checkmark icon](../icons/checkmark-icon.svg) | ![Checkmark icon](../icons/checkmark-icon.svg) |  |  |    
