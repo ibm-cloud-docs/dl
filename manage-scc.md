@@ -1,7 +1,7 @@
 ---
 copyright:
-  years: 2020, 2021
-lastupdated: "2021-03-26"
+  years: 2020, 2022
+lastupdated: "2022-03-21"
 
 keywords: security, compliance, direct link
 
@@ -35,8 +35,8 @@ To start monitoring your resources, check out [Getting started with {{site.data.
 ### Available goals for {{site.data.keyword.dl_full_notm}}
 {: #available-goals}
 
-* *Ensure at the account-level that no cross-account connection approvals can be done via {{site.data.keyword.dl_full}}*
-* *Ensure at the account-level that no cross-account connection requests can be made via {{site.data.keyword.dl_full}}*
+* Check whether Direct Link (2.0) allows no cross account connection requests at the account level
+* Check whether Direct Link (2.0) allows no cross account connection approvals at the account level
 
 ## Governing {{site.data.keyword.dl_full_notm}} resource configuration
 {: #govern-directlink}
@@ -47,7 +47,7 @@ As a security or compliance focal, you can use the {{site.data.keyword.complianc
 
 | Resource kind | Property | Operator | Value | Description |
 |---------------|----------|---------------|-------|-------------|
-| *service* | *cross_account_connection_approved* | *is_false* | - | *Indicates whether an incoming cross account connection request was approved. |
+| *service* | *cross_account_connection_approved* | *is_false* | - | Indicates whether an incoming cross account connection request was approved. |
 {: caption="Table 1. Rule properties for {{site.data.keyword.dl_full}}" caption-side="bottom"}
 
-To learn more about config rules, see [What is a config rule?](/docs/security-compliance?topic=security-compliance-what-is-rule).
+To learn more about config rules, check out [What is a config rule?](/docs/security-compliance?topic=security-compliance-what-is-governance)
