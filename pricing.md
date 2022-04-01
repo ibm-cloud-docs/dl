@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020, 2021
-lastupdated: "2021-08-26"
+  years: 2020, 2022
+lastupdated: "2022-04-01"
 
 keywords: pricing, direct link
 
@@ -38,17 +38,35 @@ The following tables list the pricing for metered and unmetered port charges.
 ### Unmetered
 {: #pricing-for-dl-port-charges-unmetered}
 
-| Speed | US, Canada & EU | Asia Pacific | Brazil & Mexico |
-|----|----|----|----|
-|  50 Mbps (Direct Link Connect only) |    $250 |    $333 |    $400 |
-| 100 Mbps (Direct Link Connect only) |    $500 |    $665 |    $800 |
-| 200 Mbps (Direct Link Connect only) |  $1,000 |  $1,330 |  $1,600 |
-| 500 Mbps (Direct Link Connect only) |  $2,500 |  $3,335 |  $4,000 |
-|   1 Gbps |  $5,000 |  $6,650 |  $8,000 |
-|   2 Gbps | $10,000 | $13,300 | $16,000 |
-|   5 Gbps | $25,000 | $33,250 | $49,000 |
-|  10 Gbps (Direct Link Dedicated only) | $50,000 | $66,500 | $80,000 |
-{: caption="Table 1. {{site.data.keyword.dl_short}} unmetered port charges" caption-side="bottom"}
+Select a tab in the table to view pricing for Direct Link offerings:
+
+| Region | 50 Mbps | 100 Mbps | 200 Mbps | 500 Mbps | 1 Gbps | 2 Gbps | 5 Gbps |
+|----|----|----|----|----|----|----|----|
+| US | $100 | $150 | $300 | $650 | $1,199 | $1,999 | $3,750 |
+| Canada / Amsterdam | $103 | $155 | $309 | $670 | $1,235 | $2,059 | $3,863 |
+| Mexico / London / Norway | $107 | $161 | $321 | $696 | $1,283 | $2,139 | $4,013 |
+| Paris / Frankfurt / Milan / Korea | $110 | $165 | $330 | $715 | $1,319 | $2,199 | $4,125 |
+| Japan / Singapore / Hong Kong | $113 | $170 | $339 | $735 | $1,355 | $2,259 | $4,238 |
+| Australia / Brazil / India | $120 | $180 | $360 | $780 | $1,439 | $2,399 | $4,500|
+{: class="simple-tab-table"}
+{: caption="Table 1. Direct Link Connect" caption-side="bottom"}  
+{: #simpletabtable1}
+{: tab-title="Connect"}
+{: tab-group="IAM-simple"}
+
+| Region | 1 Gbps | 2 Gbps | 5 Gbps | 10 Gbps |
+|----|----|----|----|----|
+| US | $1,199 | $1,999 | $3,750 | $4,999 |
+| Canada/Amsterdam | $1,235 | $2,059 | $3,863 | $5,149 |
+| Mexico / London / Norway| $1,283 | $2,139 | $4,013 | $5,349 |
+| Paris / Frankfurt / Milan / Korea | $1,319 | $2,199 | $4,125 | $5,499 |
+| Japan / Singapore / Hong Kong | $1,355 | $2,259 | $4,238 | $5,649 |
+| Australia / Brazil / India | $1,439 | $2,399 | $4,500| $5,999 |
+{: #simpletabtable2}
+{: caption="Table 2. Direct Link Dedicated" caption-side="bottom"}  
+{: tab-title="Dedicated"}
+{: tab-group="IAM-simple"}
+{: class="simple-tab-table"} 
 
 ### Metered  
 {: #pricing-for-dl-port-charges-metered}
@@ -70,7 +88,6 @@ Provider speeds greater than 10 Gbps for Direct Link Connect incur metered billi
 
 Metered port fee pricing is determined by the bandwidth speed of the port.
 {: note}
-
 
 ## Pricing for metered data transfer charges
 {: #metered-data-transfer-charge}
