@@ -25,6 +25,8 @@ For increased flexibility in creating this Layer-3 connectivity, {{site.data.key
 * Dual IP for remote hosts
 * Tunneling for BYOIP
 
+You can also bind a direct link to transit gateways so that there is a secure connection to on-prem networks and IBM Cloud resources connected through the transit gateways.
+
 ## {{site.data.keyword.dl_short}} offerings
 {: #overview-of-direct-link-offerings}
 
