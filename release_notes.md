@@ -1,7 +1,8 @@
 ---
+
 copyright:
   years: 2022
-lastupdated: "2022-01-27"
+lastupdated: "2022-04-01"
 
 keywords: direct link release notes
 
@@ -19,12 +20,19 @@ content-type: release-note
 Check back regularly to see what's new with {{site.data.keyword.cloud}} Direct Link.
 {: shortdesc}
 
+
+## 01 April 2022
+{: #dl-apr0122}
+
+Reduced unmetered plan pricing
+:    IBM is pleased to announce a price reduction for IBM Cloud Direct Link Connect — _now offering the lowest unmetered pricing of our leading competitors_. For more information, see [Pricing for IBM Cloud Direct Link](/docs/dl?topic=dl-pricing-for-ibm-cloud-dl).
+
 ## 27 January 2022
 {: #dl-jan2722}
 {: release-note}
 
 VLAN mapping
-:    A Provider can now specify their own VLAN value at the time of gateway creation, or update it later using the [Direct Link Provider API](/apidocs/direct_link_provider_api). Previously, the VLAN was selected for you. 
+:    A Provider can now specify their own VLAN value at the time of gateway creation, or update it later using the [Direct Link Provider API](/apidocs/direct_link_provider_api). Previously, the VLAN was selected for you.
 
 ## 24 September 2021
 {: #dl-sep2422}
@@ -43,7 +51,7 @@ More flexibility in configuring BGP values
 Direct Link (2.0) connection support for transit gateways
 :    Direct Link now supports Transit Gateway connections. A Direct Link connection allows an on-premises network to connect to other networks (for instance, VPC and classic infrastructure) that are connected to the same transit gateway.
 
-:    The beta release for this feature has ended. If you participated in this beta, you can continue to use the gateways that you created during the beta period. 
+:    The beta release for this feature has ended. If you participated in this beta, you can continue to use the gateways that you created during the beta period.
 
 ## 24 June 2021
 {: #dl-jun2421}
