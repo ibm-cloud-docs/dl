@@ -24,7 +24,7 @@ Check back regularly to see what's new with {{site.data.keyword.cloud}} Direct L
 ## 01 April 2022
 {: #dl-apr0122}
 
-Reduced unmetered plan pricing
+Reduced unmetered plan pricing for Direct Link Connect
 :    IBM is pleased to announce a price reduction for IBM Cloud Direct Link Connect — _now offering the lowest unmetered pricing of our leading competitors_. For more information, see [Pricing for IBM Cloud Direct Link](/docs/dl?topic=dl-pricing-for-ibm-cloud-dl).
 
 ## 27 January 2022

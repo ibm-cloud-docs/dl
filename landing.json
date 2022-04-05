@@ -1,6 +1,6 @@
 {
     "title": "Direct Link (2.0) docs",
-    "lastupdated": "2021-06-24",
+    "lastupdated": "2022-04-01",
     "introduction": "The IBM Cloud Direct Link (2.0) solution is designed to seamlessly connect your on-premises resources to your cloud resources. Leverage the docs, CLI, and API reference to plan for, provision, and manage your direct links.",
     "section_devtools": {
       "api": "/apidocs/direct_link",
@@ -35,18 +35,12 @@
     "section_updates": {
       "view_more": "https://www.ibm.com/cloud/direct-link",
       "tiles": [
-          
-         }
-
-## 27 January 2022
-{: #january-2022}
-
-          {
-            "date": "27 January 2022",
-            "title": "VLAN mapping",
-            "description": "A Provider can now specify their own VLAN value at the time of gateway creation, or update it later using the [Direct Link Provider API](/apidocs/direct_link_provider_api). Previously, the VLAN was selected for you."
-          },             
-          {
+        {
+          "date": "01 April 2022",
+          "title": "Reduced unmetered pricing plan for Direct Link Connect",
+          "description": "IBM is pleased to announce a price reduction for IBM Cloud Direct Link Connect — now offering the lowest unmetered pricing of our leading competitors_."
+        },  
+        {
             "date": "24 September 2021",
             "title": "Bidirectional Forwarding Detection (BFD)",
             "description": "Activate BFD to quickly detect faults in a network between two routers or switches that are connected by a link. BFD provides a single, standardized method for detecting link failures at any protocol layer, over any media. Also, instead of being able to specify BGP values (ASN and IP addresses) only during initial configuration, you can now modify BGP values after direct link provisioning."
