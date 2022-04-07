@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020, 2021
-lastupdated: "2021-09-15"
+  years: 2020, 2022
+lastupdated: "2022-04-07"
 
 keywords: direct link
 
@@ -18,7 +18,7 @@ subcollection: dl
 You can activate BGP MD5 authentication when you create a {{site.data.keyword.dl_short}} gateway, or after the gateway is provisioned. You can deactivate MD5 authentication at any time.
 {: shortdesc}
 
-## Authentication requirements
+## Authentication requirements and considerations
 {: #md5-important-notices}
 
 Make sure to review the following BGP MD5 authentication requirements and considerations:
