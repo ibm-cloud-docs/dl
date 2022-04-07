@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-03-31"
+lastupdated: "2022-04-07"
 
 keywords: direct link
 
@@ -121,7 +121,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect providers and l
 | BBIX | **APAC**: Tokyo 1, Tokyo 3 | |
 | British Telecom | **Americas**: Washington DC 2  \n **EU**: Frankfurt 1, Frankfurt 3, London 3 |  |
 | Chief Telecom | **APAC**: Taipei 1 | |
-| China Unicom | **Americas**: San Jose 1  \n **APAC**: Hong Kong 3 | |
+| China Unicom | **Americas**: San Jose 1  \n **APAC**: Hong Kong 3  \n  **EU**: Frankfurt 3 | |
 | CenturyLink Dynamic Connections | **Americas**: Dallas 3, San Jose 2, Sao Paulo 2, Toronto 2, Washington DC 2  \n **EU**: Frankfurt 1, London 3, Paris 2 | ![Checkmark icon](../icons/checkmark-icon.svg) |
 | Cologix | **Americas**: Chicago 1, Toronto 2, Washington DC 2 |  ![Checkmark icon](../icons/checkmark-icon.svg) |
 | Colt | **APAC**: Tokyo 1, Tokyo 3  \n **EU**: Amsterdam 2, Frankfurt 1, Frankfurt 3, London 1, London 3| |
@@ -162,7 +162,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect providers and l
 | Dallas 12 | IBM Power Virtual Server |
 | Dallas 13 | IBM Power Virtual Server |
 | Frankfurt 1 | British Telecom  \n CenturyLink Dynamic Connections  \n Colt  \n Epsilon  \n Megaport |
-| Frankfurt 3 | British Telecom  \n Colt  \n DE-CIX  \n Equinix  \n IBM BlueFringe  \n Intercloud  \n nextGen GNPP  \n Vodafone |
+| Frankfurt 3 | British Telecom  \n China Unicom  \n Colt  \n DE-CIX  \n Equinix  \n IBM BlueFringe  \n Intercloud  \n nextGen GNPP  \n Vodafone |
 | Frankfurt 4 | DE-CIX  \n IBM Power Virtual Server |
 | Frankfurt 5 | DE-CIX  \n IBM Power Virtual Server |
 | Hong Kong 3 | China Unicom |
@@ -170,7 +170,10 @@ The following table lists {{site.data.keyword.dl_short}} Connect providers and l
 | London 3 | British Telecom  \n CenturyLink Dynamic Connections  \n Colt \n Equinix  \n Megaport  \n nextGen GNPP |
 | London 4 | IBM Power Virtual Server  \n nextGen GNPP  |
 | London 6 | IBM Power Virtual Server |
-| Montreal 1 | IBM Power Virtual Server | 
+| Montreal 1 | IBM Power Virtual Server |
+| New York City 1 <sup>&#9734;</sup> | ? |
+| New York City 2 <sup>&#9734;</sup> | ? |
+| New York City 3 <sup>&#9734;</sup> | ? |
 | Osaka  1 | AT Tokyo  \n Equinix  \n Megaport  \n Tokai |
 | Osaka 21 |IBM Power Virtual Server |
 | Paris 2 | CenturyLink Dynamic Connections  \n Megaport  \n Orange Business Services |
@@ -190,7 +193,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect providers and l
 | Tokyo 4 | IBM Power Virtual Server  \n Softbank |
 | Tokyo 5 | NTT |
 | Toronto 1 | IBM Power Virtual Server |
-| Toronto 2 | CenturyLink Dynamic Connections  \n Cologix  \n Equinix  \n Fibernoire  \n Megaport  \n Zayo |
+| Toronto 2 | CenturyLink Dynamic Connections  \n Cologix  \n Equinix \n Fibernoire  \n Megaport  \n Zayo |
 | Toronto 3 | Equinix |
 | Washington DC 2 | AT&T NetBond for Cloud  \n British Telecom  \n CenturyLink Dynamic Connections  \n Cologix  \n Epsilon  \n Equinix  \n IBM BlueFringe   \n IXReach  \n Megaport  \n Neutrona  \n nextGen GNPP  \n PacketFabric  \n Verizon SCI |
 | Washington DC 4 | IBM Power Virtual Server |
@@ -200,3 +203,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect providers and l
 {: tab-title="By Location"}
 {: tab-group="connect-simple"}
 {: class="simple-tab-table"}
+
+<sup>&#9734;</sup> NYC02 and NYC03 connect to the IBM Cloud backbone through NYC01. The primary reason for these POPs is to extend connectivity to different site providers from our NYC01 site. When planning your diversity strategy, keep in mind that traffic for NYC02 and NYC03 have a single, shared path to the IBM network.
+
+![Connect with diversity in the same PoP](/images/new-york.png "Traffic for NYV02 and NYV03 have a single, shared path to the IBM network"){: caption="Figure 1: Traffic for NYC02 and NYC03 have a single, shared path to the IBM network" caption-side="bottom"}
