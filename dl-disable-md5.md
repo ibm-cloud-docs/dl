@@ -18,7 +18,10 @@ subcollection: dl
 You can activate BGP MD5 authentication when you create a {{site.data.keyword.dl_short}} gateway, or after the gateway is provisioned. You can deactivate MD5 authentication at any time.
 {: shortdesc}
 
-**Important**:
+## Authentication requirements
+{: #md5-important-notices}
+
+Make sure to review the following BGP MD5 authentication requirements and considerations:
 
 * You must configure the same BGP MD5 authentication key on both your Edge router and the IBM cross-connect router (XCR). The shared authentication key on the IBM device must be stored in your HPCS or Key Protect instance and shared with the Direct Link service. For more information, see [Setting up BGP Message Digest 5 (MD5) authentication keys](/docs/dl?topic=dl-dl-md5).
 * You can achieve hitless key refresh if the keys are updated on both your Edge router and on the XCR within 90 seconds. As a pre-condition, you must configure the BGP hold time on your router to a minimum of 90 seconds. All Direct Link routers have a 90-second configuration by default. Either side can initiate the key refresh, but both sides must refresh within the configured BGP hold time to avoid traffic disruption.   
