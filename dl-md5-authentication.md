@@ -25,7 +25,7 @@ Make sure to adhere to the following BGP MD5 authentication requirements:
 
  * BGP MD5 keys must be created as an imported, **type-standard key** (not a root key). The key material that you provide must be base64-encoded and the original string cannot exceed a maximum of 126 ASCII characters in length. For more information, see [Creating base64-encoded encryption keys](/docs/dl?topic=dl-dl-md5#create-encryption-keys).
 
-   The key material must be base-64-encoded and can be up to 7,500 bytes. The key material is different from the key name, which is a unique, human-readable name for easy identification of your key.
+   The key material must be base-64-encoded and can be up to 7,500 bytes. The key name (different from the key material) is a unique, human-readable name for easy identification of your key.
    {: note}
 
  * During an authenticated BGP session, BGP peers must be configured with the same key to establish a BGP neighbor relationship. Routers that are configured with a different key cannot maintain a BGP neighbor relationship.
