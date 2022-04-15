@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-02-01"
+lastupdated: "2022-04-14"
 
 keywords: direct link, direct link dedicated
 
@@ -97,7 +97,7 @@ To order {{site.data.keyword.dl_full}} Dedicated, follow these steps.
       * For a 2-byte or 4-byte range, enter a value between `131072-4199999999`.
       * For a 4-byte range, enter a value between `4201000000-4201064511`.
 
-      Excluded ASNs: `64512`, `64513`, `65100`, `65201-65234`, `65402-65433`, `65500`, and `4201065000-4201065999`.
+      Excluded ASNs: `0`, `13884`, `36351`, `64512`, `64513`, `65100`, `65201‍`–‍`65234`, `65402‍–‍65433`, `65500`, and `4201065000‍`–‍`4201065999`.
 
       ![BGP section](/images/bgp-dedicated.png){: caption="BGP section" caption-side="bottom"}       
 
