@@ -94,6 +94,8 @@ toc:
             - data-security.md
             - at_events.md
             - manage-scc.md
+            - topic: vpe.md
+              navtitle: Using virtual private endpoints for VPC
 
 #  Links to your REST API docs should be included in the Reference navigation group. For details on publishing API docs, see https://test.cloud.ibm.com/docs/api-docs.
 #  Links to your command line reference docs should be included in the Reference navigation group.
