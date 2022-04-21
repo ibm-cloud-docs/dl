@@ -121,7 +121,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect providers and l
 | BBIX | **APAC**: Tokyo 1, Tokyo 3 | |
 | British Telecom | **Americas**: Washington DC 2  \n **EU**: Frankfurt 1, Frankfurt 3, London 3 | ![Checkmark icon](../icons/checkmark-icon.svg) |
 | Chief Telecom | **APAC**: Taipei 1 | |
-| China Unicom | **Americas**: San Jose 1  \n **APAC**: Hong Kong 3  \n  **EU**: Frankfurt 3 | |
+| China Unicom | **Americas**: San Jose 2  \n **APAC**: Hong Kong 3  \n  **EU**: Frankfurt 3 | |
 | CenturyLink Dynamic Connections | **Americas**: Dallas 3, San Jose 2, Sao Paulo 2, Toronto 2, Washington DC 2  \n **EU**: Frankfurt 1, London 3, Paris 2 | ![Checkmark icon](../icons/checkmark-icon.svg) |
 | Cologix | **Americas**: Chicago 1, Toronto 2, Washington DC 2 |  ![Checkmark icon](../icons/checkmark-icon.svg) |
 | Colt | **APAC**: Tokyo 1, Tokyo 3  \n **EU**: Amsterdam 2, Frankfurt 1, Frankfurt 3, London 1, London 3| |
