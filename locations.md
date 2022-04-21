@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-04-07"
+lastupdated: "2022-04-21"
 
 keywords: direct link
 
@@ -119,7 +119,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect providers and l
 | At Tokyo | **APAC**: Osaka 1, Tokyo 2 | |
 | AT&T NetBond for Cloud | **Americas**: Dallas 3, Washington DC 2 | |
 | BBIX | **APAC**: Tokyo 1, Tokyo 3 | |
-| British Telecom | **Americas**: Washington DC 2  \n **EU**: Frankfurt 1, Frankfurt 3, London 3 |  |
+| British Telecom | **Americas**: Washington DC 2  \n **EU**: Frankfurt 1, Frankfurt 3, London 3 | ![Checkmark icon](../icons/checkmark-icon.svg) |
 | Chief Telecom | **APAC**: Taipei 1 | |
 | China Unicom | **Americas**: San Jose 1  \n **APAC**: Hong Kong 3  \n  **EU**: Frankfurt 3 | |
 | CenturyLink Dynamic Connections | **Americas**: Dallas 3, San Jose 2, Sao Paulo 2, Toronto 2, Washington DC 2  \n **EU**: Frankfurt 1, London 3, Paris 2 | ![Checkmark icon](../icons/checkmark-icon.svg) |
