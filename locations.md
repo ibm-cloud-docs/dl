@@ -171,9 +171,6 @@ The following table lists {{site.data.keyword.dl_short}} Connect providers and l
 | London 4 | IBM Power Virtual Server  \n nextGen GNPP  |
 | London 6 | IBM Power Virtual Server |
 | Montreal 1 | IBM Power Virtual Server |
-| New York City 1 <sup>&#9734;</sup> | ? |
-| New York City 2 <sup>&#9734;</sup> | ? |
-| New York City 3 <sup>&#9734;</sup> | ? |
 | Osaka  1 | AT Tokyo  \n Equinix  \n Megaport  \n Tokai |
 | Osaka 21 |IBM Power Virtual Server |
 | Paris 2 | CenturyLink Dynamic Connections  \n Megaport  \n Orange Business Services |
@@ -203,7 +200,3 @@ The following table lists {{site.data.keyword.dl_short}} Connect providers and l
 {: tab-title="By Location"}
 {: tab-group="connect-simple"}
 {: class="simple-tab-table"}
-
-<sup>&#9734;</sup> NYC02 and NYC03 connect to the IBM Cloud backbone through NYC01. The primary reason for these POPs is to extend connectivity to different site providers from our NYC01 site. When planning your diversity strategy, keep in mind that traffic for NYC02 and NYC03 have a single, shared path to the IBM network.
-
-![Connect with diversity in the same PoP](/images/new-york.png "Traffic for NYV02 and NYV03 have a single, shared path to the IBM network"){: caption="Figure 1: Traffic for NYC02 and NYC03 have a single, shared path to the IBM network" caption-side="bottom"}
