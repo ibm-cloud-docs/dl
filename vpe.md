@@ -111,7 +111,7 @@ private.directlink.cloud.ibm.com
 ```
 {: pre}
 
-For examples of setting the service's FQDN for the specific SDK language, see [SDK API examples](https://{DomainName}/apidocs/direct_link?code=go#authentication).
+For examples of setting the service's FQDN for the specific SDK language, see [SDK API examples](/apidocs/direct_link?code=go#authentication).
 
 ### Using the VPE with Terraform
 {: #vpe-terraform}
