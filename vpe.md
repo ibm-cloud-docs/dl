@@ -27,7 +27,7 @@ Before you target a virtual private endpoint for {{site.data.keyword.cloud}}, yo
 
 * Ensure that a [Virtual Private Cloud is created](/docs/vpc?topic=vpc-getting-started).
 * Make a plan for your [virtual private endpoints](/docs/vpc?topic=vpc-planning-considerations).
-* Ensure that [correct access controls](/docs/vpc?topic=vpc-vpe-configuring-acls) are set for your virtual private endpoint.
+* Ensure that [correct access controls](/docs/vpc?topic=vpc-configure-acls-sgs-endpoint-gateways) are set for your virtual private endpoint.
 * Understand the [limitations](/docs/vpc?topic=vpc-limitations-vpe) of having a virtual private endpoint.
 * Understand how to [view details](/docs/vpc?topic=vpc-vpe-viewing-details-of-an-endpoint-gateway) about a virtual private endpoint.
 
