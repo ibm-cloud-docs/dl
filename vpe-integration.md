@@ -62,7 +62,7 @@ After creating an endpoint gateway for {{site.data.keyword.dl_full_notm}}, you m
 ```sh
 private.directlink.cloud.ibm.com
 ```
-For examples of setting the service's FQDN for the specific SDK language, see [SDK API examples](https://{DomainName}/apidocs/direct_link?code=go#authentication).
+For examples of setting the service's FQDN for the specific SDK language, see [SDK API examples](/apidocs/direct_link?code=go#authentication).
 
 ### Using Terraform
 {: #using-terraform}
