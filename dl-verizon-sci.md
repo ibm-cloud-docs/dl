@@ -50,7 +50,7 @@ For Exchange on Classic instructions, see [Steps to order Direct Link Exchange o
 {: note}
 
 1. Log in to the ECX Fabric portal.
-   * Navigate to [https://ecxfabric.equinix.com](https://ecxfabric.equinix.com).
+   * Navigate to [https://ecxfabric.equinix.com](https://ecxfabric.equinix.com){: external}.
    * Enter your username and password.
    * Click **Sign In**.   
 1. In the Frequent Connections section, click the **IBM Cloud** tile.
