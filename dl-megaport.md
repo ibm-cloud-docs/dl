@@ -22,7 +22,7 @@ Follow these steps to order an {{site.data.keyword.dl_full}} Connect gateway wit
 
 1. Using your IBM Cloud account, order a {{site.data.keyword.dl_short}} (2.0) Connect gateway by using the {{site.data.keyword.cloud_notm}} console. For instructions, see [Ordering IBM Cloud Direct Link Connect](/docs/dl?topic=dl-how-to-order-ibm-cloud-dl-connect).
 
-1. After the {{site.data.keyword.dl_short}} is created, copy the **Service key** assigned in Step 1, and enter this this information in the [Megaport Portal](https://portal.megaport.com/login){: external} to provision a Virtual Cross Connect (VXC) to the {{site.data.keyword.dl_full_notm}} Connect peering location.
+1. After the {{site.data.keyword.dl_short}} is created, copy the **Service key** assigned in Step 1, and enter this information in the [Megaport Portal](https://portal.megaport.com/login){: external} to provision a Virtual Cross Connect (VXC) to the {{site.data.keyword.dl_full_notm}} Connect peering location.
 
    ![Provisioning a VXC to Direct Link Connect in the Megaport Portal](/images/megaport_portal.png "Provisioning a VXC to Direct Link Connect in the Megaport Portal"){: caption="Provisioning a VXC to Direct Link Connect in the Megaport Portal" caption-side="bottom"}   
 
