@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-04-01"
+lastupdated: "2022-04-28"
 
 keywords: pricing, direct link
 
@@ -44,7 +44,7 @@ Select a tab in the table to view pricing for Direct Link offerings:
 |----|----|----|----|----|----|----|----|
 | US | $100 | $150 | $300 | $650 | $1,199 | $1,999 | $3,750 |
 | Canada / Amsterdam | $103 | $155 | $309 | $670 | $1,235 | $2,059 | $3,863 |
-| Mexico / London / Norway | $107 | $161 | $321 | $696 | $1,283 | $2,139 | $4,013 |
+| London / Norway | $107 | $161 | $321 | $696 | $1,283 | $2,139 | $4,013 |
 | Paris / Frankfurt / Milan / Korea | $110 | $165 | $330 | $715 | $1,319 | $2,199 | $4,125 |
 | Japan / Singapore / Hong Kong | $113 | $170 | $339 | $735 | $1,355 | $2,259 | $4,238 |
 | Australia / Brazil / India | $120 | $180 | $360 | $780 | $1,439 | $2,399 | $4,500|
@@ -58,7 +58,7 @@ Select a tab in the table to view pricing for Direct Link offerings:
 |----|----|----|----|----|
 | US | $1,199 | $1,999 | $3,750 | $4,999 |
 | Canada/Amsterdam | $1,235 | $2,059 | $3,863 | $5,149 |
-| Mexico / London / Norway| $1,283 | $2,139 | $4,013 | $5,349 |
+| London / Norway| $1,283 | $2,139 | $4,013 | $5,349 |
 | Paris / Frankfurt / Milan / Korea | $1,319 | $2,199 | $4,125 | $5,499 |
 | Japan / Singapore / Hong Kong | $1,355 | $2,259 | $4,238 | $5,649 |
 | Australia / Brazil / India | $1,439 | $2,399 | $4,500| $5,999 |
@@ -94,7 +94,7 @@ Metered port fee pricing is determined by the bandwidth speed of the port.
 
 The following table lists the pricing for metered data transfer charges.
 
-| Tier | US, Canada & EU | Asia Pacific | Brazil & Mexico |
+| Tier | US, Canada & EU | Asia Pacific | Brazil |
 |----|----|----|----|
 | Per GB | $0.025 | $0.050 | $0.140 |
 {: caption="Table 3. {{site.data.keyword.dl_short}} metered data transfer charges" caption-side="bottom"}
