@@ -44,7 +44,7 @@ The marketplace has evolved since {{site.data.keyword.dl_short}} Exchange was es
 
 Initial rollout plans are for the Multi-Zone Regions (MZRs) to be prioritized. Other PoPs across the portfolio will support the new {{site.data.keyword.dl_short}} access model, enabling access to the classic infrastructure and VPC expansions as they occur.
 
-## If {{site.data.keyword.dl_short}} is not available for Single-Zone Regions (SZRs), how do financial services clients handle the data that they need to keep in their regions?
+## If {{site.data.keyword.dl_short}} is not available for single-campus multizone regions, how do financial services clients handle the data that they need to keep in their regions?
 {: #roadmap-szrs}
 {: faq}
 
