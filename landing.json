@@ -33,7 +33,7 @@
       "community": "https://community.ibm.com/community/user/publiccloud/search?executeSearch=true&SearchTerm=direct%20link&rf=%5EMulti04%3Adirect%5E"
     },
     "section_updates": {
-      "view_more": "https://www.ibm.com/cloud/direct-link",
+      "view_more": "/docs/dl?topic=dl-direct-link-release-notes",
       "tiles": [
         {
           "date": "01 April 2022",
