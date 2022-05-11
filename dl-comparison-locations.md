@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021, 2022
-lastupdated: "2022-05-03"
+lastupdated: "2022-05-10"
 
 keywords: direct link
 
@@ -32,8 +32,8 @@ Review location support for Direct Link on Classic (1.0) offerings versus Direct
 | Miami 1 | ![Checkmark icon](../icons/checkmark-icon.svg) | ![Checkmark icon](../icons/checkmark-icon.svg) | ![Checkmark icon](../icons/checkmark-icon.svg) |  |    
 | Montreal 1 | ![Checkmark icon](../icons/checkmark-icon.svg) | ![Checkmark icon](../icons/checkmark-icon.svg) | ![Checkmark icon](../icons/checkmark-icon.svg) | ![Checkmark icon](../icons/checkmark-icon.svg) |  
 | Montreal 2 | ![Checkmark icon](../icons/checkmark-icon.svg) |   | ![Checkmark icon](../icons/checkmark-icon.svg) |  |    
-| New York City 2 | ![Checkmark icon](../icons/checkmark-icon.svg) |   |  | ![Checkmark icon](../icons/checkmark-icon.svg) |  
-| New York City 3 | ![Checkmark icon](../icons/checkmark-icon.svg) |   |  | ![Checkmark icon](../icons/checkmark-icon.svg) |
+| New York City 2 | ![Checkmark icon](../icons/checkmark-icon.svg) | ![Checkmark icon](../icons/checkmark-icon.svg)  |  | ![Checkmark icon](../icons/checkmark-icon.svg) |  
+| New York City 3 | ![Checkmark icon](../icons/checkmark-icon.svg) | ![Checkmark icon](../icons/checkmark-icon.svg)  |  | ![Checkmark icon](../icons/checkmark-icon.svg) |
 | San Jose 2 | ![Checkmark icon](../icons/checkmark-icon.svg) | ![Checkmark icon](../icons/checkmark-icon.svg) | ![Checkmark icon](../icons/checkmark-icon.svg) | ![Checkmark icon](../icons/checkmark-icon.svg) |    
 | San Jose 3 | ![Checkmark icon](../icons/checkmark-icon.svg) |  |  |  |   
 | San Jose 4 | ![Checkmark icon](../icons/checkmark-icon.svg) | ![Checkmark icon](../icons/checkmark-icon.svg) |  |  |  

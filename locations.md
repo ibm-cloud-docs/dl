@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-04-28"
+lastupdated: "2022-05-11"
 
 keywords: direct link
 
@@ -32,6 +32,8 @@ The following table provides details about the {{site.data.keyword.cloud_notm}} 
 | Denver 1 | PoP | Coresite |	DE1 |910 15th Street |
 | Miami 1 | PoP  | TERREMARK | MI1 | 50 NE 9th Street |
 | Montreal 1 | DC | Colo-D | MON01 | 2525 Rue Canadien |
+| New York City 2  | PoP | Equinix | NY4 | 755 Secaucus Rd, Secaucus, NJ |
+| New York City 3  | PoP | Equinix | NY4 | 755 Secaucus Rd, Secaucus, NJ |
 | San Jose 2 | PoP | Equinix | SV1 | 11 Great Oaks Blvd |
 | San Jose 4 | DC | Infomart | SJC1 | 2001 Fortune Drive |
 | Sao Paulo 1 | DC(AZ1) | Digital Realty (Ascenty) | SAO01 | Rua Presbitero Plinio Alves de Souza, 757 J. Ermida II,Jundiai |
@@ -55,6 +57,8 @@ The following table provides details about the {{site.data.keyword.cloud_notm}} 
 {: #simpletabtable1}
 {: tab-title="Americas"}
 {: tab-group="dedicated-simple"}
+
+\* New York City 2 and 3 connect to the IBM Cloud backbone through New York City 1. The primary reason for these PoPs is to extend connectivity to different site providers from our New York City 1 site. When planning your diversity strategy, keep in mind that traffic for New York City 2 and 3 have a single, shared path to the IBM network.
 
 |**IBM Location Code** | **Location Type** | **Meet Me Room Operator**| **Operator Site Code** | **Operator Address** |
 |-----------------|-----------------|-----------------|--------------------|--------------------|
