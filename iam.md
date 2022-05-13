@@ -28,8 +28,8 @@ subcollection: dl
 
 | Role | Description of actions | Example actions |
 |---|---|---|
-| Administrator | Allows a user to assign {{site.data.keyword.dl_short}} IAM access policies to other users. | Create gateway  \n Delete gateway  \n Edit gateway  \n Add a virtual connection to a gateway&ast;<  \n Remove a virtual connection from a gateway&ast;  \n Edit a virtual connection (API only)  \n Update user access policies for the service |         
-| Editor | Performs all actions, including managing gateways and virtual connections. | Create gateway  \n Delete gateway  \n Edit gateway  \n Add a virtual connection to a gateway&ast;<  \n Remove a virtual connection from a gateway&ast;  \n Edit a virtual connection (API only) |   
+| Administrator | Allows a user to assign {{site.data.keyword.dl_short}} IAM access policies to other users. | Create gateway  \n Delete gateway  \n Edit gateway  \n Add a virtual connection to a gateway&ast;  \n Remove a virtual connection from a gateway&ast;  \n Edit a virtual connection (API only)  \n Update user access policies for the service |         
+| Editor | Performs all actions, including managing gateways and virtual connections. | Create gateway  \n Delete gateway  \n Edit gateway  \n Add a virtual connection to a gateway&ast;  \n Remove a virtual connection from a gateway&ast;  \n Edit a virtual connection (API only) |   
 | Viewer/Operator | Performs actions that don't change the state of resources. |  \n List gateways  \n Get gateways  \n List a gateway's virtual connections  \n View a gateway's virtual connections  \n Retrieve gateway-related information (completion notice/letter of authorization)  \n View incoming connection requests&ast; |
 {: caption="Table 1. IAM platform-access user role and actions" caption-side="bottom"}
 
