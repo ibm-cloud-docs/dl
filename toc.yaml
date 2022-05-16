@@ -136,6 +136,7 @@ toc:
             label: Troubleshooting
             topics:
             - maintenance.md
+            - dl-ts-level-1.md
             - dl-ts-key-configuration-md5.md
             - dl-ts-not-in-provisioned-state.md
             
