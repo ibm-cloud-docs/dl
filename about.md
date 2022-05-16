@@ -30,7 +30,7 @@ You can also bind a direct link to transit gateways so that there is a secure co
 ## {{site.data.keyword.dl_short}} offerings
 {: #overview-of-direct-link-offerings}
 
-Currrently, two types of connections are available: {{site.data.keyword.dl_short}} Dedicated and {{site.data.keyword.dl_short}} Connect.
+Currently, two types of connections are available: {{site.data.keyword.dl_short}} Dedicated and {{site.data.keyword.dl_short}} Connect.
 {: shortdesc}
 
 ### {{site.data.keyword.dl_short}} Dedicated
@@ -43,15 +43,6 @@ Allows customers to terminate a single-tenant, fiber-based cross-connect into th
 
 Offers private access to your IBM Cloud infrastructure and to any other clouds linked to your service provider through your local IBM Cloud data center. This option is perfect for creating multi-cloud connectivity in a single environment. IBM connects customers to the IBM Cloud private network, using a shared bandwidth topology. As with all {{site.data.keyword.dl_short}} products, you can add global routing that enables private network traffic to all IBM Cloud locations.
 
-## Use case: Filtering routes using Transit Gateway prefix filtering
-{: #prefix-filtering}
-
-If you use IBM Cloud Transit Gateway with IBM Cloud Direct Link, you can filter direct link routes using the Transit Gateway prefix filtering capability. For example, if you have a direct link gateway connected to a transit gateway, place the filters on the transit gateway/direct link connection as shown. This allows you to control what prefixes are learned by the transit gateway and is advantageous if you have dozens of on-prem prefixes, but only want the VPC connection to be able to talk to one prefix, or a select few. 
-
-The prefix filter will only filter prefixes into the transit gateway. There is no prefix filter to block prefixes learned by the transit gateway out to networks that are connected to it. This means that the direct link sees all the prefixes from all the networks participating in the transit gateway.
- 
-![Filtering routes using Transit Gateway prefix filtering](/images/prefix-filter-transit-gateway.png){: caption="Figure 4. Filtering routes using Transit Gateway prefix filtering" caption-side="bottom"}
-
 ## {{site.data.keyword.dl_short}} Dedicated use cases
 {: #use-cases-dedicated}
 
@@ -61,14 +52,14 @@ These use cases are best for working with hybrid workloads, cross-provider workl
 * When you need dedicated, single-tenant connections between a client and IBM.
 * When diverse ports in a point of presence (PoP) are available, or when you require link aggregation group (LAG) support for 10 GB or greater speeds.
 
-### {{site.data.keyword.dl_short}} Dedicated use case: Customer on-premises facility to {{site.data.keyword.cloud_notm}}
+### {{site.data.keyword.dl_short}} Dedicated use case 1: Customer on-premises facility to {{site.data.keyword.cloud_notm}}
 {: #use-cases-dedicated-1}
 
 Use when deterministic latency is required.
 
 ![Customer on-premises facility to IBM Cloud](/images/direct-link-dedicated.png){: caption="Figure 1. Customer on-premises facility to IBM Cloud" caption-side="bottom"}
 
-### {{site.data.keyword.dl_short}} Dedicated use case: Customer colocation to {{site.data.keyword.cloud_notm}}
+### {{site.data.keyword.dl_short}} Dedicated use case 2: Customer colocation to {{site.data.keyword.cloud_notm}}
 {: #use-case-dedicated-2}
 
 Use when ultra-low latency is required.
@@ -100,7 +91,7 @@ These use cases are best for working with hybrid workloads, cross-provider workl
 * When you need connections between a client network and IBM Cloud at speeds of 10 Gbps or less.
 * When diverse ports in a point of presence (PoP) are available.
 
-### {{site.data.keyword.dl_short}} Connect use case: Leveraging service provider networks to virtually reach IBM Cloud
+### {{site.data.keyword.dl_short}} Connect use case 3: Leveraging service provider networks to virtually reach IBM Cloud
 {: #use-case-connect}
 
 The {{site.data.keyword.dl_short}} Connect solution enables you to use a service provider to deliver connectivity to {{site.data.keyword.cloud_notm}} locations. This offering typically provides connectivity at a reduced cost because the physical connectivity from {{site.data.keyword.cloud_notm}} to the service provider is already in place, which is shared among other customers.
@@ -113,7 +104,7 @@ Some benefits include:
 
 ![Leveraging service provider networks to virtually reach IBM Cloud](/images/direct-link-connect.png){: caption="Figure 3. Leveraging service provider networks to virtually reach IBM Cloud" caption-side="bottom"}
 
-### {{site.data.keyword.dl_short}} Connect use case: Other Cloud Service Providers (CSPs) or enterprises
+### {{site.data.keyword.dl_short}} Connect use case 4: Other Cloud Service Providers (CSPs) or enterprises
 {: #connect-use-case}
 
 * Multicloud use through a single Connect port
@@ -122,7 +113,7 @@ Some benefits include:
 * Layer 2 and Layer 3 support
 * Lower cost of entry to IBM Cloud
 
-![Other CSPs or enterprises](/images/connect-use-case.png){: caption="Figure 5. Other CSPs or enterprises" caption-side="bottom"}
+![Other CSPs or enterprises](/images/connect-use-case.png){: caption="Figure 4. Other CSPs or enterprises" caption-side="bottom"}
 
 **Termination location:** {{site.data.keyword.cloud_notm}} point of presence (PoP).
 
