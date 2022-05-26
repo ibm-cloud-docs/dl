@@ -72,7 +72,7 @@ Use when ultra-low latency is required.
 
 **Cross-connect details** - {{site.data.keyword.cloud_notm}} provides a Letter of Authorization (LOA) that you can use to order fiber Ethernet (single-mode fiber only, either 1Gig-LX or 10Gig-LR optics). This Ethernet runs from a customer cage or provider cage to the {{site.data.keyword.cloud_notm}} Connecting Facility Assignment (CFA) termination point, which is tied down to the cross-connect router (XCR) infrastructure. The media must be a 1310 nm wavelength optic.
 
-**Port speed options** - Select 1 Gbps, 2 Gbps, 5 Gbps, or 10 Gbps.
+**Port speed options** - Select 1 Gbps, 2 Gbps, or 5 Gbps.
 
 **Approximate latency** - Latency is approximately 1.5 ms within the local area (data centers with the same three-letter prefix, such as DAL, AMS, MEL). See [Looking Glass](http://lg.softlayer.com/){: external} for live PoP-to-PoP (P2P) location latency measurements.
 
