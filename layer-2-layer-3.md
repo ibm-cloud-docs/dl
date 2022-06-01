@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2018, 2019
-lastupdated: "2019-04-30"
+  years: 2018, 2022
+lastupdated: "2022-06-01"
 
 keywords: direct link
 
@@ -53,8 +53,6 @@ The following table summarizes the type of connections that each {{site.data.key
 | AT&T Cloud Gateway (formerly known as RedFringe)| **Layer 3** |
 | Bell Canada | **Layer 3** |
 | British Telecom | **Layer 3**  |
-| CenturyLink IP VPN | **Layer 3** |
-| CenturyLink Dynamic Connections | Layer 2 |
 | Chief Telecomm | Layer 2 |
 | China Unicom | **Layer 3** |
 | Colt | Layer 2  |

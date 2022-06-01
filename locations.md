@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-05-11"
+lastupdated: "2022-06-01"
 
 keywords: direct link
 
@@ -126,7 +126,6 @@ The following table lists {{site.data.keyword.dl_short}} Connect providers and l
 | British Telecom | **Americas**: Washington DC 2  \n **EU**: Frankfurt 1, Frankfurt 3, London 3 | ![Checkmark icon](../icons/checkmark-icon.svg) |
 | Chief Telecom | **APAC**: Taipei 1 | |
 | China Unicom | **Americas**: San Jose 2  \n **APAC**: Hong Kong 3  \n  **EU**: Frankfurt 3 | |
-| CenturyLink Dynamic Connections | **Americas**: Dallas 3, San Jose 2, Sao Paulo 2, Toronto 2, Washington DC 2  \n **EU**: Frankfurt 1, London 3, Paris 2 | ![Checkmark icon](../icons/checkmark-icon.svg) |
 | Cologix | **Americas**: Chicago 1, Toronto 2, Washington DC 2 |  ![Checkmark icon](../icons/checkmark-icon.svg) |
 | Colt | **APAC**: Tokyo 1, Tokyo 3  \n **EU**: Amsterdam 2, Frankfurt 1, Frankfurt 3, London 1, London 3| |
 | DE-CIX | **EU**: Frankfurt 3, Frankfurt 4, Frankfurt 5 | ![Checkmark icon](../icons/checkmark-icon.svg) |
@@ -162,27 +161,27 @@ The following table lists {{site.data.keyword.dl_short}} Connect providers and l
 |----|----|
 | Amsterdam 2 | Colt  \n Epsilon  \n IBM BlueFringe  \n  Megaport  \n nextGen GNPP |
 | Chicago 1 | Cologix  \n Equinix  \n Megaport |
-| Dallas 3 |  AT&T NetBond for Cloud  \n CenturyLink Dynamic Connections  \n Equinix  \n IBM BlueFringe  \n Neutrona  \n nextGen GNPP  \n PCCW  \n Zayo |
+| Dallas 3 |  AT&T NetBond for Cloud  \n Equinix  \n IBM BlueFringe  \n Neutrona  \n nextGen GNPP  \n PCCW  \n Zayo |
 | Dallas 4 |  PacketFabric  \n Megaport |
 | Dallas 12 | IBM Power Virtual Server |
 | Dallas 13 | IBM Power Virtual Server |
-| Frankfurt 1 | British Telecom  \n CenturyLink Dynamic Connections  \n Colt  \n Epsilon  \n EU Networks  \n Intercloud  \n Megaport |
+| Frankfurt 1 | British Telecom  \n Colt  \n Epsilon  \n EU Networks  \n Intercloud  \n Megaport |
 | Frankfurt 3 | British Telecom  \n China Unicom  \n Colt  \n DE-CIX  \n Equinix  \n IBM BlueFringe  \n Intercloud  \n nextGen GNPP  \n Vodafone |
 | Frankfurt 4 | DE-CIX  \n IBM Power Virtual Server |
 | Frankfurt 5 | DE-CIX  \n IBM Power Virtual Server |
 | Hong Kong 3 | China Unicom |
 | London 1 | Colt \n Epsilon  \n nextGen GNPP  \n Vodafone |
-| London 3 | British Telecom  \n CenturyLink Dynamic Connections  \n Colt \n Equinix  \n Megaport  \n nextGen GNPP |
+| London 3 | British Telecom  \n Colt \n Equinix  \n Megaport  \n nextGen GNPP |
 | London 4 | IBM Power Virtual Server  \n nextGen GNPP  |
 | London 6 | IBM Power Virtual Server |
 | Montreal 1 | IBM Power Virtual Server | 
 | Osaka  1 | AT Tokyo  \n Equinix  \n Megaport  \n Tokai |
 | Osaka 21 |IBM Power Virtual Server |
-| Paris 2 | CenturyLink Dynamic Connections  \n Megaport  \n Orange Business Services |
+| Paris 2 | Megaport  \n Orange Business Services |
 | Paris 3 | Equinix |
-| San Jose 2 | CenturyLink Dynamic Connections  \n China Unicom  \n Equinix  \n Megaport  \n PacketFabric |
+| San Jose 2 | China Unicom  \n Equinix  \n Megaport  \n PacketFabric |
 | Sao Paulo 1 | Ascenty, IBM Power Virtual Server |
-| Sao Paulo 2 | CenturyLink Dynamic Connections  \n Equinix |
+| Sao Paulo 2 | Equinix |
 | Sao Paulo 5 | Ascenty |
 | Sydney 2 | Megaport |
 | Sydney 3 | NextDC |
@@ -195,9 +194,9 @@ The following table lists {{site.data.keyword.dl_short}} Connect providers and l
 | Tokyo 4 | IBM Power Virtual Server  \n Softbank |
 | Tokyo 5 | NTT |
 | Toronto 1 | IBM Power Virtual Server |
-| Toronto 2 | CenturyLink Dynamic Connections  \n Cologix  \n Equinix \n Fibernoire  \n Megaport  \n Zayo |
+| Toronto 2 | Cologix  \n Equinix \n Fibernoire  \n Megaport  \n Zayo |
 | Toronto 3 | Equinix |
-| Washington DC 2 | AT&T NetBond for Cloud  \n British Telecom  \n CenturyLink Dynamic Connections  \n Cologix  \n Epsilon  \n Equinix  \n IBM BlueFringe   \n IXReach  \n Megaport  \n Neutrona  \n nextGen GNPP  \n PacketFabric  \n Verizon SCI |
+| Washington DC 2 | AT&T NetBond for Cloud  \n British Telecom  \n Cologix  \n Epsilon  \n Equinix  \n IBM BlueFringe   \n IXReach  \n Megaport  \n Neutrona  \n nextGen GNPP  \n PacketFabric  \n Verizon SCI |
 | Washington DC 4 | IBM Power Virtual Server |
 | Washington DC 6 | IBM Power Virtual Server |
 {: caption="Table 5. Direct Link Connect by Location" caption-side="bottom"}
