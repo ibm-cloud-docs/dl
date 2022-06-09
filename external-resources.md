@@ -47,9 +47,8 @@ These resources are created by {{site.data.keyword.cloud}} and by some IBM Busin
 
     **Abstract** - Krystallize Technologies set up three different "real world" configurations that use the architecture that is described in this paper to design a dedicated, low-latency, private connection between cloud services and customer-provided network equipment, storage, and compute infrastructure that is durable and affordable.
 
-    This paper presents test results that show how a well-designed, well-executed, hybrid cloud architecture performs versus one that uses standard facilities, using connections and an architecture that is not optimized for application performance.
-
-     * {{site.data.keyword.dl_short}} Dedicated Hosting solution features and benefits
+    This paper presents test results that show how a well-designed, well-executed, hybrid cloud architecture performs versus one that uses standard facilities, using connections and an architecture that is not optimized for application performance. 
+    
      * Reference solution for implementing NetApp private storage for {{site.data.keyword.cloud_notm}}, colocated in a Digital Realty data center
      * Results of performance tests conducted by Krystallize Technologies
 
