@@ -51,7 +51,7 @@ To order Direct Link Connect, follow these steps:
 
 1. Log in to your [{{site.data.keyword.cloud_notm}}](https://{DomainName}/){: external} account.
 1. Click Menu ![Menu icon](images/menu_icon.png) on the upper left of the page, then click **Interconnectivity**.
-1. Scroll to locate the Connect tile, then click **Order {{site.data.keyword.dl_short}}**.
+1. Scroll to locate the Connect tile, then click **Order {{site.data.keyword.dl_short}} Connect**.
 
    ![Ordering options](/images/dl_options.png){: caption="Ordering options" caption-side="bottom"}  
 
