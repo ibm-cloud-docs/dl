@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-03-23"
+lastupdated: "2022-06-30"
 
 keywords: direct link
 
@@ -15,12 +15,12 @@ subcollection: dl
 # Equinix ordering considerations
 {: #equinix}
 
-You must use the Equinix Cloud Exchange (ECX) Fabric portal to create a connection for your Equinix service provider. Then, using your IBM Cloud account, return to the Direct Link page in the [IBM Cloud console](https://cloud.ibm.com/interconnectivity/direct-link){: external} to review, accept, and finalize the creation of your direct link.
+You must use the Equinix Fabric portal to create a connection for your Equinix service provider. Then, using your IBM Cloud account, return to the Direct Link page in the [IBM Cloud console](https://cloud.ibm.com/interconnectivity/direct-link){: external} to review, accept, and finalize the creation of your direct link.
 
 For Exchange on Classic instructions, see [Steps to order Direct Link Exchange on Classic for Equinix](/docs/direct-link?topic=direct-link-how-to-order-ibm-cloud-direct-link-exchange#provisioning-ibm-cloud-direct-link-exchange-for-equinix).
 {: note}
 
-1. Log in to the ECX Fabric portal.
+1. Log in to the Equinix Fabric portal.
    * Navigate to [https://ecxfabric.equinix.com](https://ecxfabric.equinix.com){: external}.
    * Enter your username and password.
    * Click **Sign In**.   
@@ -29,6 +29,15 @@ For Exchange on Classic instructions, see [Steps to order Direct Link Exchange o
 
    ![Equinix ordering](/images/equinix-ibm-cloud-2.png "Equinix ordering"){: caption="Equinix ordering" caption-side="bottom"}
 1. In the Origin section, click **Port**.
+
+    **For diversity in the same locations:**
+    
+    * To have two or more diversity direct links between Equinix and IBM, a minimum of two Origin ports must be available from the customer side with a port priority set as primary and secondary.
+    * All direct links ordered from a customer Origin port with a priority set to primary are provisioned on an IBM destination primary port.
+    * All direct links ordered from a customer Origin port with a priority set to secondary are provisioned on an IBM destination secondary port.
+    * No Destination port selection is required; only the IBM location is selected. The Equinix port mapping is auto-mapped to match the same Origin port priority and Destination port priority.
+
+    If you have any questions or require assistance for setting or changing the Origin port priority, contact Equinix support. For more information, see [Change the Priority of an Equinix Fabric Port](https://docs.equinix.com/en-us/Content/Interconnection/Fabric/ports/Fabric-change-port-priority.htm){: external}.
 
    ![Select a Port, Location, and Destination](/images/equinix-port.png "Select a Port, Location, and Destination"){: caption="Select a Port, Location, and Destination" caption-side="bottom"}       
 
