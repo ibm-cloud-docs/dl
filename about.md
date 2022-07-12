@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-05-16"
+lastupdated: "2022-06-23"
 
 keywords: interconnectivity, direct link
 
@@ -33,54 +33,15 @@ You can also bind a direct link to transit gateways so that there is a secure co
 Currently, two types of connections are available: {{site.data.keyword.dl_short}} Dedicated and {{site.data.keyword.dl_short}} Connect.
 {: shortdesc}
 
-### {{site.data.keyword.dl_short}} Dedicated
-{: #ibm-cloud-dedicated}
-
-Allows customers to terminate a single-tenant, fiber-based cross-connect into the {{site.data.keyword.cloud_notm}} network. This offering can be used by customers with colocation premises that are next to {{site.data.keyword.cloud_notm}} PoPs and data centers, as well as network service providers that deliver circuits to customer on-premises or other data centers.
-
 ### {{site.data.keyword.dl_short}} Connect
 {: #ibm-cloud-connect}
 
 Offers private access to your IBM Cloud infrastructure and to any other clouds linked to your service provider through your local IBM Cloud data center. This option is perfect for creating multi-cloud connectivity in a single environment. IBM connects customers to the IBM Cloud private network, using a shared bandwidth topology. As with all {{site.data.keyword.dl_short}} products, you can add global routing that enables private network traffic to all IBM Cloud locations.
 
-## {{site.data.keyword.dl_short}} Dedicated use cases
-{: #use-cases-dedicated}
+### {{site.data.keyword.dl_short}} Dedicated
+{: #ibm-cloud-dedicated}
 
-These use cases are best for working with hybrid workloads, cross-provider workloads, large or frequent data transfers, private workloads, and environment administration. Use these use cases:
-
-* When you want dedicated connectivity for mission-critical workloads.
-* When you need dedicated, single-tenant connections between a client and IBM.
-* When diverse ports in a point of presence (PoP) are available, or when you require link aggregation group (LAG) support for 10 GB or greater speeds.
-
-### {{site.data.keyword.dl_short}} Dedicated use case 1: Customer on-premises facility to {{site.data.keyword.cloud_notm}}
-{: #use-cases-dedicated-1}
-
-Use when deterministic latency is required.
-
-![Customer on-premises facility to IBM Cloud](/images/direct-link-dedicated.png){: caption="Figure 1. Customer on-premises facility to IBM Cloud" caption-side="bottom"}
-
-### {{site.data.keyword.dl_short}} Dedicated use case 2: Customer colocation to {{site.data.keyword.cloud_notm}}
-{: #use-case-dedicated-2}
-
-Use when ultra-low latency is required.
-
-![Customer colocation to IBM Cloud](/images/dedicated-model-colo.png){: caption="Figure 2. Customer colocation to IBM Cloud" caption-side="bottom"}
-
-**Termination location** - {{site.data.keyword.cloud_notm}} point of presence (PoP) or Data Center (DC).
-
-**Typical deployment time** - Averages 10-15 business days after the new circuit reaches the PoP. Deployment time can be 30 - 60 days overall, depending on your location and the requirements when you order a circuit from a service provider or carrier.
-
-**Cross-connect details** - {{site.data.keyword.cloud_notm}} provides a Letter of Authorization (LOA) that you can use to order fiber Ethernet (single-mode fiber only, either 1Gig-LX or 10Gig-LR optics). This Ethernet runs from a customer cage or provider cage to the {{site.data.keyword.cloud_notm}} Connecting Facility Assignment (CFA) termination point, which is tied down to the cross-connect router (XCR) infrastructure. The media must be a 1310 nm wavelength optic.
-
-**Port speed options** - Select 1 Gbps, 2 Gbps, or 5 Gbps.
-
-**Approximate latency** - Latency is approximately 1.5 ms within the local area (data centers with the same three-letter prefix, such as DAL, AMS, MEL). See [Looking Glass](http://lg.softlayer.com/){: external} for live PoP-to-PoP (P2P) location latency measurements.
-
-**IBM colocation services** - None.
-
-**Redundancy** - {{site.data.keyword.cloud_notm}} doesn't provide redundancy as part of the product. To establish redundant connectivity, customer must acquire two connections on diverse cross connect routers (XCRs) and configure BGP on each {{site.data.keyword.dl_short}} connection as they prefer. Examples include: _prefer Lowest MED_, _prefer highest local-preference_, or _prefer shorter AS paths_.
-
-**Local and global routing options** - The local routing option is the default routing option. It provides access to data centers within the same market as the {{site.data.keyword.dl_short}} PoP (denoted, for example, as DAL, AMS, or MEL). The global routing option is required as an add-on to connect your {{site.data.keyword.cloud_notm}} resources to other {{site.data.keyword.cloud_notm}} resources in data centers outside the local market. It provides a way to share workloads between {{site.data.keyword.cloud_notm}} resources (for example, Dallas to Ashburn, or Dallas to Frankfurt).
+Allows customers to terminate a single-tenant, fiber-based cross-connect into the {{site.data.keyword.cloud_notm}} network. This offering can be used by customers with colocation premises that are next to {{site.data.keyword.cloud_notm}} PoPs and data centers, as well as network service providers that deliver circuits to customer on-premises or other data centers.
 
 ## Direct Link Connect use cases
 {: #connect-use-cases}
@@ -91,8 +52,8 @@ These use cases are best for working with hybrid workloads, cross-provider workl
 * When you need connections between a client network and IBM Cloud at speeds of 5 Gbps or less.
 * When diverse ports in a point of presence (PoP) are available.
 
-### {{site.data.keyword.dl_short}} Connect use case 3: Leveraging service provider networks to virtually reach IBM Cloud
-{: #use-case-connect}
+### {{site.data.keyword.dl_short}} Connect use case 1: Leveraging service provider networks to virtually reach IBM Cloud
+{: #use-case-connect-1}
 
 The {{site.data.keyword.dl_short}} Connect solution enables you to use a service provider to deliver connectivity to {{site.data.keyword.cloud_notm}} locations. This offering typically provides connectivity at a reduced cost because the physical connectivity from {{site.data.keyword.cloud_notm}} to the service provider is already in place, which is shared among other customers.
 
@@ -102,10 +63,10 @@ Some benefits include:
 * Latency tolerant
 * Lower cost entry to {{site.data.keyword.cloud_notm}}
 
-![Leveraging service provider networks to virtually reach IBM Cloud](/images/direct-link-connect.png){: caption="Figure 3. Leveraging service provider networks to virtually reach IBM Cloud" caption-side="bottom"}
+![Leveraging service provider networks to virtually reach IBM Cloud](/images/direct-link-connect.png){: caption="Figure 1. Leveraging service provider networks to virtually reach IBM Cloud" caption-side="bottom"}
 
-### {{site.data.keyword.dl_short}} Connect use case 4: Other Cloud Service Providers (CSPs) or enterprises
-{: #connect-use-case}
+### {{site.data.keyword.dl_short}} Connect use case 2: Other Cloud Service Providers (CSPs) or enterprises
+{: #connect-use-case-2}
 
 * Multicloud use through a single Connect port
 * Latency tolerant
@@ -113,7 +74,7 @@ Some benefits include:
 * Layer 2 and Layer 3 support
 * Lower cost of entry to IBM Cloud
 
-![Other CSPs or enterprises](/images/connect-use-case.png){: caption="Figure 4. Other CSPs or enterprises" caption-side="bottom"}
+![Other CSPs or enterprises](/images/connect-use-case.png){: caption="Figure 2. Other CSPs or enterprises" caption-side="bottom"}
 
 **Termination location:** {{site.data.keyword.cloud_notm}} point of presence (PoP).
 
@@ -130,3 +91,49 @@ Some benefits include:
 **Redundancy**: {{site.data.keyword.cloud_notm}} does not provide redundancy as part of the product. To establish redundant connectivity, you must acquire two connections on diverse cross connect routers (XCRs) and configure BGP on each {{site.data.keyword.dlc_full_notm}} connection as they prefer. Examples include: _prefer Lowest MED_, _prefer highest local-preference_, or _prefer shorter AS paths_.
 
 **Local and global routing options:** The default routing option is Local routing. It provides access to data centers within the same market as the {{site.data.keyword.dl_short}} PoP (denoted, for example, as DAL, AMS, or MEL). The global routing option is required as an add-on to connect your IBM Cloud resources to other IBM Cloud resources in data centers outside the local market. It is used to share workloads between IBM Cloud resources (for example, Dallas to Ashburn, or Dallas to Frankfurt).
+
+### {{site.data.keyword.dl_short}} Connect use case 3: Location connectivity using Power Systems Virtual Servers and Transit Gateway
+{: #connect-use-case-3}
+
+Direct Link is a hybrid cloud connectivity service providing secure, private, high-bandwidth connectivity between customer on-premises and IBM Cloud resources. Paired with Power Systems Virtual Servers and IBM Cloud Transit Gateway, Direct Link offers options for high-bandwidth customer demand.
+
+For deployment topologies using Direct Link and Power Systems Virtual Servers, see [Network architecture diagrams](/docs/power-iaas?topic=power-iaas-network-architecture-diagrams). 
+
+## {{site.data.keyword.dl_short}} Dedicated use cases
+{: #use-cases-dedicated}
+
+These use cases are best for working with hybrid workloads, cross-provider workloads, large or frequent data transfers, private workloads, and environment administration. Use these use cases:
+
+* When you want dedicated connectivity for mission-critical workloads.
+* When you need dedicated, single-tenant connections between a client and IBM.
+* When diverse ports in a point of presence (PoP) are available, or when you require link aggregation group (LAG) support for 10 GB or greater speeds.
+
+### {{site.data.keyword.dl_short}} Dedicated use case 1: Customer on-premises facility to {{site.data.keyword.cloud_notm}}
+{: #use-cases-dedicated-1}
+
+Use when deterministic latency is required.
+
+![Customer on-premises facility to IBM Cloud](/images/direct-link-dedicated.png){: caption="Figure 3. Customer on-premises facility to IBM Cloud" caption-side="bottom"}
+
+### {{site.data.keyword.dl_short}} Dedicated use case 2: Customer colocation to {{site.data.keyword.cloud_notm}}
+{: #use-case-dedicated-2}
+
+Use when ultra-low latency is required.
+
+![Customer colocation to IBM Cloud](/images/dedicated-model-colo.png){: caption="Figure 4. Customer colocation to IBM Cloud" caption-side="bottom"}
+
+**Termination location** - {{site.data.keyword.cloud_notm}} point of presence (PoP) or Data Center (DC).
+
+**Typical deployment time** - Averages 10-15 business days after the new circuit reaches the PoP. Deployment time can be 30 - 60 days overall, depending on your location and the requirements when you order a circuit from a service provider or carrier.
+
+**Cross-connect details** - {{site.data.keyword.cloud_notm}} provides a Letter of Authorization (LOA) that you can use to order fiber Ethernet (single-mode fiber only, either 1Gig-LX or 10Gig-LR optics). This Ethernet runs from a customer cage or provider cage to the {{site.data.keyword.cloud_notm}} Connecting Facility Assignment (CFA) termination point, which is tied down to the cross-connect router (XCR) infrastructure. The media must be a 1310 nm wavelength optic.
+
+**Port speed options** - Select 1 Gbps, 2 Gbps, or 5 Gbps.
+
+**Approximate latency** - Latency is approximately 1.5 ms within the local area (data centers with the same three-letter prefix, such as DAL, AMS, MEL). See [Looking Glass](http://lg.softlayer.com/){: external} for live PoP-to-PoP (P2P) location latency measurements.
+
+**IBM colocation services** - None.
+
+**Redundancy** - {{site.data.keyword.cloud_notm}} doesn't provide redundancy as part of the product. To establish redundant connectivity, customer must acquire two connections on diverse cross connect routers (XCRs) and configure BGP on each {{site.data.keyword.dl_short}} connection as they prefer. Examples include: _prefer Lowest MED_, _prefer highest local-preference_, or _prefer shorter AS paths_.
+
+**Local and global routing options** - The local routing option is the default routing option. It provides access to data centers within the same market as the {{site.data.keyword.dl_short}} PoP (denoted, for example, as DAL, AMS, or MEL). The global routing option is required as an add-on to connect your {{site.data.keyword.cloud_notm}} resources to other {{site.data.keyword.cloud_notm}} resources in data centers outside the local market. It provides a way to share workloads between {{site.data.keyword.cloud_notm}} resources (for example, Dallas to Ashburn, or Dallas to Frankfurt).
