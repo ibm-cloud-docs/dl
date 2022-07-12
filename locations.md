@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-06-01"
+lastupdated: "2022-07-11"
 
 keywords: direct link
 
@@ -36,11 +36,11 @@ The following table provides details about the {{site.data.keyword.cloud_notm}} 
 | New York City 3  | PoP | Equinix | NY4 | 755 Secaucus Rd, Secaucus, NJ |
 | San Jose 2 | PoP | Equinix | SV1 | 11 Great Oaks Blvd |
 | San Jose 4 | DC | Infomart | SJC1 | 2001 Fortune Drive |
-| Sao Paulo 1 | DC(AZ1) | Digital Realty (Ascenty) | SAO01 | Rua Presbitero Plinio Alves de Souza, 757 J. Ermida II,Jundiai |
-| Sao Paulo 2 | PoP | Equinix | SP4 | Avenida Ceci, 1900, Tambore, Barueri, SP, 06460 120 BR, Brazil |
-| Sao Paulo 3 | PoP  | ODATA | SAO03 | 39,2, Estr. dos Romeiros |
-| Sao Paulo 4 | DC(AZ2) | ODATA | SAO04 | 943 - Votuparim, Estr. dos Romeiros |
-| Sao Paulo 5 | DC(AZ3) | ASCENTY | SAO05 | Avenida 2, n.º 50, Quadra G1 1B Parte A Gleba 1B |
+| São Paulo 1 | DC(AZ1) | Digital Realty (Ascenty) | SAO01 | Rua Presbitero Plinio Alves de Souza, 757 J. Ermida II,Jundiai |
+| São Paulo 2 | PoP | Equinix | SP4 | Avenida Ceci, 1900, Tambore, Barueri, SP, 06460 120 BR, Brazil |
+| São Paulo 3 | PoP  | ODATA | SAO03 | 39,2, Estr. dos Romeiros |
+| São Paulo 4 | DC(AZ2) | ODATA | SAO04 | 943 - Votuparim, Estr. dos Romeiros |
+| São Paulo 5 | DC(AZ3) | ASCENTY | SAO05 | Avenida 2, n.º 50, Quadra G1 1B Parte A Gleba 1B |
 | Seattle 2 | PoP | Digital Realty (The Westin Building) | WBX | 2001 6th Avenue |
 | Toronto 1 | DC(AZ1)| Digital Realty | TOR01 | 371 Gough Rd Suite # 130 Markham, Ontario |
 | Toronto 2 | PoP | Cologix | TOR02 | 151 Front Street, Toronto |
@@ -119,7 +119,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect providers and l
 
 | Provider | Locations | API integration |
 |----|----|----|
-| Ascenty | **Americas**: Sao Paulo 1, Sao Paulo 5 | |
+| Ascenty | **Americas**: São Paulo 1, São Paulo 5 | |
 | At Tokyo | **APAC**: Osaka 1, Tokyo 2 | |
 | AT&T NetBond for Cloud | **Americas**: Dallas 3, Washington DC 2 | |
 | BBIX | **APAC**: Tokyo 1, Tokyo 3 | |
@@ -130,11 +130,11 @@ The following table lists {{site.data.keyword.dl_short}} Connect providers and l
 | Colt | **APAC**: Tokyo 1, Tokyo 3  \n **EU**: Amsterdam 2, Frankfurt 1, Frankfurt 3, London 1, London 3| |
 | DE-CIX | **EU**: Frankfurt 3, Frankfurt 4, Frankfurt 5 | ![Checkmark icon](../icons/checkmark-icon.svg) |
 | Epsilon | **Americas**: Washington DC 2  \n **EU**: Amsterdam 2, Frankfurt 1, London 1 | |
-| Equinix | **Americas**: Chicago 1, Dallas 3, San Jose 2, Sao Paulo 2, Toronto 2, Toronto 3, Washington DC 2  \n **APAC**: Osaka 1, Tokyo 3  \n **EU**: Frankfurt 3, London 3, Paris 3 | ![Checkmark icon](../icons/checkmark-icon.svg) |
+| Equinix | **Americas**: Chicago 1, Dallas 3, San Jose 2, São Paulo 2, Toronto 2, Toronto 3, Washington DC 2  \n **APAC**: Osaka 1, Tokyo 3  \n **EU**: Frankfurt 3, London 3, Paris 3 | ![Checkmark icon](../icons/checkmark-icon.svg) |
 | EU Networks | **EU**: Frankfurt 1 | |
 | Fibernoire | **Americas**: Toronto 2 | |
 | IBM BlueFringe | **Americas**: Dallas 3, Washington DC 2  \n **EU**: Amsterdam 2, Frankfurt 3 | |
-| IBM Power Virtual Server | **Americas**: Dallas 12, Dallas 13, Montreal 1, Sao Paulo 1, Toronto 1, Washington DC 4, Washington DC 6  \n **APAC**: Osaka 21, Sydney 4, Sydney 5, Tokyo 4  \n **EU**: Frankfurt 4, Frankfurt 5, London 4, London 6 | |
+| IBM Power Virtual Server | **Americas**: Dallas 12, Dallas 13, Montreal 1, São Paulo 1, Toronto 1, Washington DC 4, Washington DC 6  \n **APAC**: Osaka 21, Sydney 4, Sydney 5, Tokyo 4  \n **EU**: Frankfurt 4, Frankfurt 5, London 4, London 6 | |
 | Intercloud | **EU**: Frankfurt 1, Frankfurt 3 | |
 | IXReach | **Americas**: Washington DC 2 | |
 | Megaport | **Americas**: Chicago 1, Dallas 4, San Jose 2, Toronto 2, Washington DC 2  \n **APAC**: Osaka 1, Sydney 2, Tokyo 2, Tokyo 3  \n **EU**: Amsterdam 2, Frankfurt 1, London 3, Paris 2 | |
@@ -142,7 +142,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect providers and l
 | nextGen GNPP | **Americas**: Dallas 3, Washington DC 2  \n **EU**: Amsterdam 2, Frankfurt 3, London 1, London 3, London 4 | |
 | NTT | **APAC**: Tokyo 5 | |
 | Neutrona | **Americas**: Dallas 3, Washington DC 2 | |
-| Orange Business Services | **EU**: Paris 2 | |
+| Orange Business Services | **EU**: London 3, Paris 2 | |
 | PacketFabric | **Americas**: Dallas 4, Washington DC 2, San Jose 2 | |
 | PCCW | **Americas**: Dallas 3 | |
 | SoftBank | **APAC**: Tokyo 4 | |
@@ -171,7 +171,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect providers and l
 | Frankfurt 5 | DE-CIX  \n IBM Power Virtual Server |
 | Hong Kong 3 | China Unicom |
 | London 1 | Colt \n Epsilon  \n nextGen GNPP  \n Vodafone |
-| London 3 | British Telecom  \n Colt \n Equinix  \n Megaport  \n nextGen GNPP |
+| London 3 | British Telecom  \n Colt  \n Equinix  \n Megaport  \n nextGen GNPP  \n Orange Business Services |
 | London 4 | IBM Power Virtual Server  \n nextGen GNPP  |
 | London 6 | IBM Power Virtual Server |
 | Montreal 1 | IBM Power Virtual Server | 
@@ -180,9 +180,9 @@ The following table lists {{site.data.keyword.dl_short}} Connect providers and l
 | Paris 2 | Megaport  \n Orange Business Services |
 | Paris 3 | Equinix |
 | San Jose 2 | China Unicom  \n Equinix  \n Megaport  \n PacketFabric |
-| Sao Paulo 1 | Ascenty, IBM Power Virtual Server |
-| Sao Paulo 2 | Equinix |
-| Sao Paulo 5 | Ascenty |
+| São Paulo 1 | Ascenty, IBM Power Virtual Server |
+| São Paulo 2 | Equinix |
+| São Paulo 5 | Ascenty |
 | Sydney 2 | Megaport |
 | Sydney 3 | NextDC |
 | Sydney 4 | IBM Power Virtual Server |
