@@ -42,7 +42,7 @@ Follow these steps to create a Direct Link connection with Verizon SCI and Equin
 1. Send the connection name that you created and the generated service key to the Verizon SCI team. If you are granted permission by Verizon to order Direct Link Connect through the Equinix Fabric portal, complete your order using the Equinix Cloud Exchange (ECX) Fabric portal.
 
 ## Completing your order using the Equinix Cloud Exchange Fabric portal
-{: #equinix}
+{: #verizon-equinix}
 
 You must use the Equinix Cloud Exchange (ECX) Fabric portal to create a connection for your Equinix service provider. Then, using your IBM Cloud account, return to the Direct Link page in the [IBM Cloud console](https://cloud.ibm.com/interconnectivity/direct-link){: external} to review, accept, and finalize the creation of your direct link.
 
