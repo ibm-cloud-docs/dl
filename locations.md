@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-07-11"
+lastupdated: "2022-07-26"
 
 keywords: direct link
 
@@ -35,6 +35,7 @@ The following table provides details about the {{site.data.keyword.cloud_notm}} 
 | New York City 2  | PoP | Equinix | NY4 | 755 Secaucus Rd, Secaucus, NJ |
 | New York City 3  | PoP | Equinix | NY4 | 755 Secaucus Rd, Secaucus, NJ |
 | San Jose 2 | PoP | Equinix | SV1 | 11 Great Oaks Blvd |
+| San Jose 3| DC | Digital Realty | SJC31| 1100 Space Park Drive |
 | San Jose 4 | DC | Infomart | SJC1 | 2001 Fortune Drive |
 | São Paulo 1 | DC(AZ1) | Digital Realty (Ascenty) | SAO01 | Rua Presbitero Plinio Alves de Souza, 757 J. Ermida II,Jundiai |
 | São Paulo 2 | PoP | Equinix | SP4 | Avenida Ceci, 1900, Tambore, Barueri, SP, 06460 120 BR, Brazil |
