@@ -81,7 +81,7 @@ When routing on-premises subnets from the direct link through a VPC, you must cr
 {: faq}
 {: support}
 
-Yes, they are listed in Virtual Private Cloud [Quotas](/docs/vpc-on-classic?topic=vpc-on-classic-quotas) documentation.
+Yes, they are listed in the Virtual Private Cloud [Quotas](/docs/vpc?topic=vpc-quotas) documentation.
 
 ## How do I move from  {{site.data.keyword.dlc_full_notm}} to the new  {{site.data.keyword.dl_short}}?
 {: #move-classic-to-new}
