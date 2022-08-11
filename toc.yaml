@@ -112,6 +112,7 @@ toc:
             - link:
                label: Direct Link Provider API
                href: https://{DomainName}/apidocs/direct_link_provider_api
+            - set-up-environment.md
         - /dl-cli-plugin/dl-cli-plugin-dl-cli
         - link:
            label: Terraform reference
