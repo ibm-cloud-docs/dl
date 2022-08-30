@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-06-23"
+lastupdated: "2022-08-30"
 
 keywords: interconnectivity, direct link
 
@@ -105,8 +105,7 @@ For deployment topologies using Direct Link and Power Systems Virtual Servers, s
 These use cases are best for working with hybrid workloads, cross-provider workloads, large or frequent data transfers, private workloads, and environment administration. Use these use cases:
 
 * When you want dedicated connectivity for mission-critical workloads.
-* When you need dedicated, single-tenant connections between a client and IBM.
-* When diverse ports in a point of presence (PoP) are available, or when you require link aggregation group (LAG) support for 10 GB or greater speeds.
+* When you need dedicated, single-tenant connections between a client and IBM. 
 
 ### {{site.data.keyword.dl_short}} Dedicated use case 1: Customer on-premises facility to {{site.data.keyword.cloud_notm}}
 {: #use-cases-dedicated-1}

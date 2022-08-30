@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-04-14"
+lastupdated: "2022-08-30"
 
 keywords: direct link, direct link connect
 
@@ -26,7 +26,10 @@ To order {{site.data.keyword.dl_short}} Connect, you must determine the location
 Make sure that you review the following considerations before ordering Direct Link Connect:
 
 * {{site.data.keyword.cloud_notm}} highly recommends that a second, diverse direct link be established to prevent outages, whether unplanned, or planned due to maintenance. For more information, see [Models for diversity and redundancy](/docs/dl?topic=dl-models-for-diversity-and-redundancy-in-direct-link).
-* All subnets of the VPC or classic network will be connected to the direct link. When creating VPCs, make sure to create the VPCs with non-overlapping prefixes and unique subnets. To ensure successful connectivity with the classic infrastructure, do not use IP addresses for your VPCs in the `10.0.0.0/14`, `10.200.0.0/14`, `10.198.0.0/15`, and `10.254.0.0/16` blocks.
+* All subnets of the VPC or classic network will be connected to the direct link. When creating VPCs, make sure to create the VPCs with non-overlapping prefixes and unique subnets. 
+
+   To ensure successful connectivity with the Classic infrastructure, do not use IP addresses for your VPCs in the `10.0.0.0/14`, `10.200.0.0/14`, `10.198.0.0/15`, and `10.254.0.0/16` blocks. These ranges are owned by IBM teams and if you Otherwise, you might not be able to use existing or future services over the back-end network. Also, IBM might change routing of prefixes that fall within these ranges. These changes can result in IBM-used address spaces to fall inside the overlapping customer addresses. These changes can happen at any time, without notification, and can result in a network, service, or provisioning disruption. 
+
 * A Generic Routing Encapsulation (GRE)/IPsec tunneling requirement between your Edge router and a customer virtual router in {{site.data.keyword.cloud_notm}} requires a non-conflicting subnet when ordering. Default addresses for Direct Link are non-routable and do not support tunneling.
 * {{site.data.keyword.cloud_notm}} VPC permits the use of RFC-1918 and IANA-registered IPv4 address space, privately within your VPC, with some exceptions in the IANA Special-Purpose ranges, and select ranges assigned to {{site.data.keyword.cloud_notm}} services.  When using IANA-registered ranges within your enterprise, and within VPCs in conjunction with {{site.data.keyword.cloud_notm}} Direct Link, custom routes must be installed in each zone. For more information, see [Routing considerations for IANA-registered IP assignments](/docs/vpc?topic=vpc-interconnectivity#routing-considerations-iana).
 * If you plan to connect your direct link to a transit gateway, keep in mind that a single direct link gateway instance accepts a maximum of 120 on-premises address prefixes when connected to a transit gateway. Consider aggregating prefixes to keep within this limit. (A direct link can accept a maximum of 200 prefixes when not connected to a transit gateway.)
@@ -53,7 +56,7 @@ To order Direct Link Connect, follow these steps:
 1. Click Menu ![Menu icon](images/menu_icon.png) on the upper left of the page, then click **Interconnectivity**.
 1. Scroll to locate the Connect tile, then click **Order {{site.data.keyword.dl_short}} Connect**.
 
-   ![Ordering options](/images/dl_options.png){: caption="Ordering options" caption-side="bottom"}  
+   ![Ordering options](/images/dl-options.png){: caption="Ordering options" caption-side="bottom"}  
 
    Alternatively, you can click **Direct Link** on the left navigation pane to view the Direct Link page, which lists existing Direct Link instances. From this page, you can click **Order Direct Link** > **Direct Link Connect**.
    {: tip}
@@ -89,7 +92,7 @@ To order Direct Link Connect, follow these steps:
 
    * Select the IBM cross-connect router for the {{site.data.keyword.dl_short}} connection. The number of direct links associated with your account for each router is shown next to the router name.   
    * Select a BGP peering subnet for the {{site.data.keyword.dl_short}} connection. There are two choices for BGP subnets:
-      * Select **Manual-select IP** to specify two of your own IP addresses (in CIDR format) from the ranges `10.254.0.0/16`, `172.16.0.0/12`, `192.168.0.0/16`, `169.254.0.0/16`, or `Public` (a public IP address that you own). Manual-select is useful when trying to avoid conflicts with an existing subnet that is in use.      
+      * Select **Manual-select IP** to specify two of your own IP addresses (in CIDR format) from the ranges `10.254.0.0/16`, `172.16.0.0/12`, `192.168.0.0/16`, `169.254.0.0/16`, or `Public` (a public IP address that you own). Manual-select is useful when trying to avoid conflicts with an existing subnet that is in use. 
       * Select **Auto-select IP** for IBM to assign an IP address from IP range `169.254.0.0/16`.
 
       Make sure that any self-provided BGP addresses do not conflict with blocks that are used by IBM, or by resources external to your {{site.data.keyword.dl_short}} deployment. Also, if you plan to use GRE or IPsec tunneling with your Direct Link gateway, you must select a BGP IP other than `169.254.0.0/16`.
@@ -103,12 +106,11 @@ To order Direct Link Connect, follow these steps:
 
       Excluded ASNs: `0`, `13884`, `36351`, `64512`, `64513`, `65100`, `65201‍`–‍`65234`, `65402‍–‍65433`, `65500`, and `4201065000‍`–‍`4201065999`.
 
-
       ![BGP section](/images/bgp-dedicated.png){: caption="BGP section" caption-side="bottom"}     
 
 1. In the Additional BGP settings section, you can activate one or more of these optional settings.
 
-   * **BGP Message Digest 5 (MD5) Authentication** - Add an extra layer of security between two BGP peers by verifying each transmitted message sent through the BGP session. When MD5 authentication is activated, BGP authenticates every segment sent over the TCP session from its peer and verifies the source of each routing update.
+   * **Verify data integrity with Message Digest 5 (MD5)** - Add an extra layer of security between two BGP peers by verifying each transmitted message sent through the BGP session. When MD5 authentication is activated, BGP authenticates every segment sent over the TCP session from its peer and verifies the source of each routing update.
 
       **Important**:  
 
@@ -121,7 +123,9 @@ To order Direct Link Connect, follow these steps:
       * Select an authentication keystore instance.
       * Select an authentication key.
 
-   * **Bidirectional Forwarding Detection (BFD)** - Activate BFD to quickly detect faults in a network between two routers or switches that are connected by a link. BFD provides a single, standardized method for detecting link failures at any protocol layer, over any media. For more information, see [Setting up bidirectional forwarding detection](/docs/dl?topic=dl-dl-bfd).
+      ![Message Digest (MD5) authentication section](/images/bgp-md5-option.png){: caption="Message Digest (MD5) authentication section" caption-side="bottom"} 
+
+   * **Detect network failures with Bidirectional Forwarding Detection (BFD)** - Activate BFD to quickly detect faults in a network between two routers or switches that are connected by a link. BFD provides a single, standardized method for detecting link failures at any protocol layer, over any media. For more information, see [Setting up bidirectional forwarding detection](/docs/dl?topic=dl-dl-bfd).
 
       Activating and deactivating BFD after the BGP session is established causes BGP session downtime and network disruption until the BGP peer device is configured for the same change.
       {: important}
@@ -130,8 +134,8 @@ To order Direct Link Connect, follow these steps:
       * Interval – The interval is the minimum time (in milliseconds) expected to occur between when the local routing device sends BFD hello packets and the reply from its neighbor. This value can range from 300 to 255,000 milliseconds.
       * Multiplier – The multiplier is the number of times that a hello packet is missed before BFD declares the neighbor down. This value can range from 1 to 255. The default multiplier value is 3.
 
-      ![BGP section](/images/bgp-opt-settings.png){: caption="BGP section" caption-side="bottom"}    
-
+      ![Bidirectional Forwarding Detection (BFD) section](/images/bgp-opt-settings.png){: caption="Bidirectional Forwarding Detection (BFD) section" caption-side="bottom"}    
+      
 1. In the Connections section, select the type of network connection that you want to bind to the {{site.data.keyword.dl_short}} gateway. You can select a connection type when you create a direct link, or after your direct link is provisioned.
 
    Select from the following connection types:
