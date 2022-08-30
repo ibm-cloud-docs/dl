@@ -106,6 +106,7 @@ These use cases are best for working with hybrid workloads, cross-provider workl
 
 * When you want dedicated connectivity for mission-critical workloads.
 * When you need dedicated, single-tenant connections between a client and IBM. 
+* When diverse ports in a point of presence (PoP) are available.
 
 ### {{site.data.keyword.dl_short}} Dedicated use case 1: Customer on-premises facility to {{site.data.keyword.cloud_notm}}
 {: #use-cases-dedicated-1}
