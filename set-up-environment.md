@@ -46,7 +46,7 @@ apikey="<YOUR_API_KEY>"
 Run the following command to get and parse an IAM token by using the JSON processing utility [jq](https://stedolan.github.io/jq/){: external}. You can modify the command to use another parsing tool, or you can remove the last part of the command if you prefer to manually parse the token.
 
 ```sh
-iam_token=`curl -k -X POST \
+IAM_TOKEN=`curl -k -X POST \
   --header "Content-Type: application/x-www-form-urlencoded" \
   --header "Accept: application/json" \
   --data-urlencode "grant_type=urn:ibm:params:oauth:grant-type:apikey" \
@@ -61,7 +61,7 @@ Bearer <your_token>
 ```
 {: screen}
 
-The Authorization header expects the token to begin with `Bearer`. If the result doesn't include `Bearer`, update the `iam_token` variable to include it. These examples assume that `Bearer` is included in the `iam_token`.
+The Authorization header expects the token to begin with `Bearer`. If the result doesn't include `Bearer`, update the `iam_token` variable to include it. These examples assume that `Bearer` is included in the `IAM_TOKEN`.
 
 Because the IAM token expires, you must repeat the preceding step to refresh your token every hour.
 {: important}
@@ -108,11 +108,11 @@ If you run into unexpected results, add the `--verbose` (debug) flag after the `
    {: note}
 
     ```sh
-    curl -X GET "$directlink_api_endpoint/v1/offering_types/dedicated/locations?version=$api_version"   -H "Authorization: Bearer $IAM_TOKEN"
+    curl -X GET "$directlink_api_endpoint/v1/offering_types/dedicated/locations?version=$api_version"   -H "Authorization: $IAM_TOKEN"
     ```
 
 * Call the [List gateways](/apidocs/direct_link#list-gateways) API to see any direct links that you already created under your account, in JSON format.
 
     ```sh
-    curl -X GET "$directlink_api_endpoint/v1/gateways?version=$api_version"   -H "Authorization: Bearer $IAM_TOKEN"
+    curl -X GET "$directlink_api_endpoint/v1/gateways?version=$api_version"   -H "Authorization: $IAM_TOKEN"
     ```
