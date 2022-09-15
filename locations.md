@@ -197,7 +197,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect providers and l
 | Toronto 1 | IBM Power Virtual Server |
 | Toronto 2 | Cologix  \n Equinix \n Fibernoire  \n Megaport  \n Zayo |
 | Toronto 3 | Equinix |
-| Washington DC 2 | AT&T NetBond for Cloud  \n British Telecom  \n Cologix  \n Epsilon  \n Equinix  \n IBM BlueFringe   \n IXReach  \n Megaport  \n Neutrona  \n nextGen GNPP  \n PacketFabric  \n Verizon SCI  \n Zayo|
+| Washington DC 2 | AT&T NetBond for Cloud  \n British Telecom  \n Cologix  \n Epsilon  \n Equinix  \n IBM BlueFringe   \n IXReach  \n Megaport  \n Neutrona  \n nextGen GNPP  \n PacketFabric  \n Verizon SCI  \n Zayo |
 | Washington DC 4 | IBM Power Virtual Server |
 | Washington DC 6 | IBM Power Virtual Server |
 {: caption="Table 5. Direct Link Connect by Location" caption-side="bottom"}

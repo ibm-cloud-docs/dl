@@ -5,7 +5,7 @@
 toc:
   properties:
     subcollection: dl
-    service-name: directlink 
+    service-name: directlink
     version: 2
     category: network_interconnectivity
     audience: service
@@ -83,10 +83,10 @@ toc:
             - deleting_gateway.md
             - dl-disable-md5.md
             - dl-bfd-activation.md
+            - dl-upgrade-bandwidth.md
         - dl-md5-authentication.md
         - dl-bfd.md
         - ha-dr.md
-        - vpe-integration.md
         - terraform.md
         - topicgroup:
             label: Enhancing security
@@ -112,8 +112,13 @@ toc:
             - link:
                label: Direct Link Provider API
                href: https://{DomainName}/apidocs/direct_link_provider_api
+            - api-change-log.md
             - set-up-environment.md
-        - /dl-cli-plugin/dl-cli-plugin-dl-cli
+        - topicgroup:
+            label: CLI reference
+            topics:
+            - /dl-cli-plugin/dl-cli-plugin-dl-cli
+            - cli-change-log.md
         - link:
            label: Terraform reference
            href: https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs/resources/dl_gateway
@@ -141,4 +146,3 @@ toc:
             - dl-ts-level-1.md
             - dl-ts-key-configuration-md5.md
             - dl-ts-not-in-provisioned-state.md
-            
