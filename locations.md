@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-07-26"
+lastupdated: "2022-09-15"
 
 keywords: direct link
 
@@ -150,7 +150,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect providers and l
 | Tokai | **APAC**: Osaka 1, Tokyo 3 | |
 | Verizon SCI | **Americas**: Washington DC 2 | |
 | Vodafone | **EU**: Frankfurt 3, London 1 | |
-| Zayo | **Americas**: Dallas 3, Toronto 2 | |
+| Zayo | **Americas**: Dallas 3, Toronto 2, Washington DC 2| |
 | Zenlayer | **APAC**: Tokyo 1 | |
 {: class="simple-tab-table"}
 {: caption="Table 4. Direct Link Connect by Provider" caption-side="bottom"}
@@ -197,7 +197,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect providers and l
 | Toronto 1 | IBM Power Virtual Server |
 | Toronto 2 | Cologix  \n Equinix \n Fibernoire  \n Megaport  \n Zayo |
 | Toronto 3 | Equinix |
-| Washington DC 2 | AT&T NetBond for Cloud  \n British Telecom  \n Cologix  \n Epsilon  \n Equinix  \n IBM BlueFringe   \n IXReach  \n Megaport  \n Neutrona  \n nextGen GNPP  \n PacketFabric  \n Verizon SCI |
+| Washington DC 2 | AT&T NetBond for Cloud  \n British Telecom  \n Cologix  \n Epsilon  \n Equinix  \n IBM BlueFringe   \n IXReach  \n Megaport  \n Neutrona  \n nextGen GNPP  \n PacketFabric  \n Verizon SCI  \n Zayo|
 | Washington DC 4 | IBM Power Virtual Server |
 | Washington DC 6 | IBM Power Virtual Server |
 {: caption="Table 5. Direct Link Connect by Location" caption-side="bottom"}
