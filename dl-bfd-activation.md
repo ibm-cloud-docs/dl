@@ -24,7 +24,7 @@ You can activate bidirectional forwarding detection (BFD) when you create a {{si
 {: #dl-activate-bfd}
 
 To activate BFD on a provisioned gateway, follow these steps:
-1. Log in to the [Direct Link console](https://cloud.ibm.com/interconnectivity/direct-link){: external}, then click the Direct Link name in the table to show its details.
+1. Log in to the [Direct Link console](/interconnectivity/direct-link){: external}, then click the Direct Link name in the table to show its details.
 1. In the BGP section, click the bidirectional forwarding detection (BFD) **Deactivated** switch to open the Activate BGP window.  
 1. Complete the following information:
    * **Interval** – The interval is the minimum time (in milliseconds) expected to occur between when the local routing device sends BFD hello packets and the reply from its neighbor. This value can range from 300 to 255,000 milliseconds.
@@ -46,7 +46,7 @@ To activate BFD on a provisioned gateway, follow these steps:
 
 To deactivate BGP BFD follow these steps:
 
-1. Log in to the [Direct Link console](https://cloud.ibm.com/interconnectivity/direct-link){: external}, then click the Direct Link name in the table to show its details.
+1. Log in to the [Direct Link console](/interconnectivity/direct-link){: external}, then click the Direct Link name in the table to show its details.
 1. In the BGP section, click the bidirectional forwarding detection (BFD) **Activated** switch to show the Deactivate BFD window.
 1. Type **Deactivate** to confirm your decision, then click **Deactivate**.
 

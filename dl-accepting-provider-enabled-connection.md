@@ -43,7 +43,7 @@ This topic shows you how to accept provider-created connections (create, edit, d
 ## Accepting a Direct Link edit request
 {: #accept-edit-request}
 
-1. Log in to the IBM Cloud [Direct Link console](https://cloud.ibm.com/interconnectivity/direct-link){: external}, then click the Direct Link name in the table to show its details.
+1. Log in to the IBM Cloud [Direct Link console](/interconnectivity/direct-link){: external}, then click the Direct Link name in the table to show its details.
 1. In the Actions section, click **Review** to review the direct link configuration.
 
    ![Actions menu](/images/actions-review-edit.png){: caption="Actions menu" caption-side="bottom"}
@@ -71,7 +71,6 @@ To enable MD5 authentication after submitting your order, follow these steps:
 
    ![Actions menu](/images/actions-review.png){: caption="Actions menu" caption-side="bottom"}
 
-
    The Review configuration panel displays.
 
    ![Review configuration side panel](/images/review-configuration.png){: caption="Review configuration side panel" caption-side="bottom"}
@@ -81,7 +80,6 @@ To enable MD5 authentication after submitting your order, follow these steps:
    The Finalize creation panel displays.
 
    ![Finalize creation panel](/images/finalize-creation.png){: caption="Finalize direct link creation" caption-side="bottom"}
-
 
 1. Click the MD5 authentication toggle button to enable it, then complete the following:
 

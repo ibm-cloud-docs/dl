@@ -22,7 +22,7 @@ Follow these steps to create a Direct Link connection with Verizon SCI and Equin
    This block is usually a `/31` or `/30` IP block.
    {: note}
 
-1. Order an {{site.data.keyword.cloud}} Direct Link (2.0) Connect gateway through the [{{site.data.keyword.cloud_notm}} console](https://cloud.ibm.com){: external}. For instructions, see [Ordering IBM Cloud Direct Link Connect](/docs/dl?topic=dl-how-to-order-ibm-cloud-dl-connect).
+1. Order an {{site.data.keyword.cloud}} Direct Link (2.0) Connect gateway through the [{{site.data.keyword.cloud_notm}} console](/login){: external}. For instructions, see [Ordering IBM Cloud Direct Link Connect](/docs/dl?topic=dl-how-to-order-ibm-cloud-dl-connect).
 
    During the ordering process (Step 7), you can specify your own IP address. Make sure to specify the Verizon SCI-supplied IP addresses instead of your actual client Edge IP addresses.
 
@@ -44,7 +44,7 @@ Follow these steps to create a Direct Link connection with Verizon SCI and Equin
 ## Completing your order using the Equinix Cloud Exchange Fabric portal
 {: #verizon-equinix}
 
-You must use the Equinix Cloud Exchange (ECX) Fabric portal to create a connection for your Equinix service provider. Then, using your IBM Cloud account, return to the Direct Link page in the [IBM Cloud console](https://cloud.ibm.com/interconnectivity/direct-link){: external} to review, accept, and finalize the creation of your direct link.
+You must use the Equinix Cloud Exchange (ECX) Fabric portal to create a connection for your Equinix service provider. Then, using your IBM Cloud account, return to the Direct Link page in the [IBM Cloud console](/interconnectivity/direct-link){: external} to review, accept, and finalize the creation of your direct link.
 
 For Exchange on Classic instructions, see [Steps to order Direct Link Exchange on Classic for Equinix](/docs/direct-link?topic=direct-link-how-to-order-ibm-cloud-direct-link-exchange#provisioning-ibm-cloud-direct-link-exchange-for-equinix).
 {: note}
@@ -68,7 +68,7 @@ For Exchange on Classic instructions, see [Steps to order Direct Link Exchange o
 
 1. Select a **Connection Speed**, then click **Next**.   
 1. Review and click **Submit Your Order**.
-1. Return to the [Direct Link page](https://cloud.ibm.com/interconnectivity/direct-link){: external} in the IBM Cloud console using your IBM Cloud account. Notice that the connection status for your direct link connection states **Create Approval Pending**.
+1. Return to the [Direct Link page](/interconnectivity/direct-link){: external} in the IBM Cloud console using your IBM Cloud account. Notice that the connection status for your direct link connection states **Create Approval Pending**.
 1. Click the Direct Link name in the table to view its Details page. Then, go to the **Actions** section and click **Review** to finalize provisioning of the direct link.
 
    ![Select to Review this request to finalize direct link provisioning](/images/equinix-review.png "Select to Review this request to finalize direct link provisioning"){: caption="Select to Review this request to finalize direct link provisioning" caption-side="bottom"}

@@ -190,7 +190,7 @@ We are unable to support any QoS guarantees. QoS requires MPLS mapping between e
 {: #does-dl-support-jumbo-frames}
 {: faq}
 
-Jumbo frames (up to 9214 bytes) are supported on Dedicated and Dedicated Hosting.
+Jumbo frames (up to 9214 bytes) are supported on Direct Link Dedicated.
 
 ## How easy is it to upgrade the bandwidth of my {{site.data.keyword.dl_short}} connection, for example 1 - 5 GB?
 {: #how-easy-is-it-to-upgrade-the-bandwidth-of-my-dl-connection}

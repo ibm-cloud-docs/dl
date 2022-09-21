@@ -26,5 +26,5 @@ My gateway still shows `Pending` status.
 It can take up to 30 minutes for provisioning of your Direct Link gateway to be completed.  
 {: tsCauses}
 
-If the gateway is not showing `Provisioned` status 30 minutes after ordering, open a [support case](https://cloud.ibm.com/unifiedsupport/cases/form){: external} in the IBM console to further troubleshoot.
+If the gateway is not showing `Provisioned` status 30 minutes after ordering, open a [support case](/unifiedsupport/cases/form){: external} in the IBM console to further troubleshoot.
 {: tsResolve}

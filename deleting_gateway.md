@@ -11,12 +11,12 @@ subcollection: dl
 
 {{site.data.keyword.attribute-definition-list}}
 
-# Deleting a {{site.data.keyword.dl_short}} gateway and its attached connections
+# Deleting a direct link and its attached connections
 {: #delete-direct-link-gateway}
 {: help}
 {: support}
 
-You can delete a gateway either before or after the gateway moves to the **Provisioned** state. However, you cannot delete a gateway during the **In review** and some **in progress** states.
+You can delete a direct link either before or after the gateway moves to the **Provisioned** state. However, you cannot delete a gateway during the **In review** and some **in progress** states.
 {: shortdesc}
 
 To delete a gateway from the {{site.data.keyword.dl_short}} table, highlight the row of the gateway that you want to delete, then click **Delete** from the Actions ![Actions menu](images/overflow.png) menu. Alternatively, you can click **Actions > Delete** on a gateway's details page. Click **Delete** again to confirm the deletion.

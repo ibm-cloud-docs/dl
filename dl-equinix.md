@@ -15,7 +15,7 @@ subcollection: dl
 # Equinix ordering considerations
 {: #equinix}
 
-You must use the Equinix Fabric portal to create a connection for your Equinix service provider. Then, using your IBM Cloud account, return to the Direct Link page in the [IBM Cloud console](https://cloud.ibm.com/interconnectivity/direct-link){: external} to review, accept, and finalize the creation of your direct link.
+You must use the Equinix Fabric portal to create a connection for your Equinix service provider. Then, using your IBM Cloud account, return to the Direct Link page in the [IBM Cloud console](/interconnectivity/direct-link){: external} to review, accept, and finalize the creation of your direct link.
 
 For Exchange on Classic instructions, see [Steps to order Direct Link Exchange on Classic for Equinix](/docs/direct-link?topic=direct-link-how-to-order-ibm-cloud-direct-link-exchange#provisioning-ibm-cloud-direct-link-exchange-for-equinix).
 {: note}
@@ -44,14 +44,14 @@ For Exchange on Classic instructions, see [Steps to order Direct Link Exchange o
 1. Select a **Location**, followed by a **Destination**. Then, click **Next**.
 1. On the Connection Details page, enter the connection information.
 
-   Your IBM Cloud Account ID is the 32-character ID located in the Account section on the [Account settings](https://cloud.ibm.com/account/settings){: external} page.
+   Your IBM Cloud Account ID is the 32-character ID located in the Account section on the [Account settings](/account/settings){: external} page.
    {: note}
 
    ![Connection Details](/images/equinix-connection-details.png "Connection Details"){: caption="Connection Details" caption-side="bottom"}     
 
 1. Select a **Connection Speed**, then click **Next**.   
 1. Review and click **Submit Your Order**.
-1. Return to the [Direct Link page](https://cloud.ibm.com/interconnectivity/direct-link){: external} in the IBM Cloud console using your IBM Cloud account. Notice that the connection status for your direct link connection states **Create Approval Pending**.
+1. Return to the [Direct Link page](/interconnectivity/direct-link){: external} in the IBM Cloud console using your IBM Cloud account. Notice that the connection status for your direct link connection states **Create Approval Pending**.
 1. Click the Direct Link name in the table to view its Details page. Then, go to the **Actions** section and click **Review** to finalize provisioning of the direct link.
 
    ![Select to Review this request to finalize direct link provisioning](/images/equinix-review.png "Select to Review this request to finalize direct link provisioning"){: caption="Select to Review this request to finalize direct link provisioning" caption-side="bottom"}

@@ -22,7 +22,7 @@ Follow these steps to create a Direct Link connection for your AT&T NetBond Esse
    This block is `/29` broken down into two `/30` subnets. You require the `/30` subnet for ordering in the {{site.data.keyword.cloud}} console.
    {: note}
 
-1. Using your IBM Cloud account, order an {{site.data.keyword.cloud_notm}} Direct Link (2.0) Connect gateway through the [{{site.data.keyword.cloud_notm}} console](https://cloud.ibm.com){: external}. For instructions, see [Ordering IBM Cloud Direct Link Connect](/docs/dl?topic=dl-how-to-order-ibm-cloud-dl-connect).
+1. Using your IBM Cloud account, order an {{site.data.keyword.cloud_notm}} Direct Link (2.0) Connect gateway through the [{{site.data.keyword.cloud_notm}} console](/login){: external}. For instructions, see [Ordering IBM Cloud Direct Link Connect](/docs/dl?topic=dl-how-to-order-ibm-cloud-dl-connect).
 
    During the ordering process (Step 7), Make sure to specify the AT&T-supplied IP addresses instead of your actual client Edge IP addresses.  
 
@@ -59,4 +59,7 @@ After the order is completed, AT&T will need to notify you that the Equinix orde
 
 The IBM Special Network Services (SNS) team receives the Equinix request (submitted by AT&T on your behalf) and is able approve the connection in the buyer-side portal. You can view your newly created virtual connection for Direct Link by going to **Connections**. The connection will be in a pending, provisioning state (**Pending Provider VLAN**).
 
-The timeline for approval is within 24-48 hours. If the 48-hour Service Level Agreement (SLA) is not acceptable, you can create an [IBM Support case](https://cloud.ibm.com/unifiedsupport/cases/form) and request that it be routed to the SNS team.
+The timeline for approval is within 24-48 hours. If the 48-hour Service Level Agreement (SLA) is not acceptable, you can create an [IBM Support case](/unifiedsupport/cases/form) and request that it be routed to the SNS team.
+
+Optionally, you can enable BGP MD5 authentication to provide additional security for the BGP session. For more information, see [Accepting provider-created connections](/docs/dl?topic=dl-accepting-the-provider-created-connection).
+{: note}

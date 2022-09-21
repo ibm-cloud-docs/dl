@@ -69,4 +69,7 @@ Follow these steps to order an {{site.data.keyword.dl_full}} Connect gateway wit
 
 After IBM verifies and approves the inbound IBM VXC, the {{site.data.keyword.dl_full_notm}} Connect status changes to **Provisioned** and the Megaport VXC is active.
 
-The timeline for IBM approval is from 24 to 48 hours. If the 24 to 48 hour Service Level Agreement (SLA) is not acceptable, you can create an [IBM Support case](https://cloud.ibm.com/unifiedsupport/cases/form) and request that it be routed to the IBM Special Network Service (SNS) team. Include the service key in your case.
+The timeline for IBM approval is from 24 to 48 hours. If the 24 to 48 hour Service Level Agreement (SLA) is not acceptable, you can create an [IBM Support case](/unifiedsupport/cases/form) and request that it be routed to the IBM Special Network Service (SNS) team. Include the service key in your case.
+
+Optionally, you can enable BGP MD5 authentication to provide additional security for the BGP session. For more information, see [Accepting provider-created connections](/docs/dl?topic=dl-accepting-the-provider-created-connection).
+{: note}
