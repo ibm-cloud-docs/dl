@@ -21,7 +21,7 @@ By default, your direct link is configured to create a direct, private connectio
 
 To change the network connection type of a direct link, follow these steps:
 
-1. Log in to your [{{site.data.keyword.cloud_notm}}](https://{DomainName}/){: external} account.
+1. Log in to your [{{site.data.keyword.cloud_notm}}](/login){: external} account.
 1. Click Menu ![Menu icon](images/menu_icon.png) on the upper left of the page, then click **Interconnectivity**.
 1. Click **Direct Link** in the navigation pane.
 1. Click the name of the direct link that you want to change the connection type for.
