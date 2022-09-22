@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-04-14"
+lastupdated: "2022-09-21"
 
 keywords: direct link, direct link dedicated
 
@@ -23,7 +23,7 @@ To order {{site.data.keyword.dl_short}} Dedicated, you must determine the locati
 ## Planning considerations
 {: #before-you-begin-dedicated}
 
-Make sure that you review the following considerations before ordering Direct Link Dedicated:
+Make sure that you review the following information before ordering Direct Link Dedicated:
 
 * Before you begin, determine the location connection to IBM Cloud by verifying your colocation provider's or service provider's capabilities to reach the Meet Me Room and cross-connect into IBM Cloud.
 * All subnets of the VPC or classic network will be connected to the direct link. When creating VPCs, make sure to create the VPCs with non-overlapping prefixes and unique subnets. 
@@ -33,6 +33,7 @@ Make sure that you review the following considerations before ordering Direct Li
 * A Generic Routing Encapsulation (GRE)/IPsec tunneling requirement between your Edge router and a virtual router in {{site.data.keyword.cloud_notm}} requires a non-conflicting subnet when ordering. Default addresses for Direct Link are non-routable and do not support tunneling.
 * {{site.data.keyword.cloud_notm}} VPC permits the use of RFC-1918 and IANA-registered IPv4 address space, privately within your VPC, with some exceptions in the IANA Special-Purpose ranges, and select ranges assigned to {{site.data.keyword.cloud_notm}} services. When using IANA-registered ranges within your enterprise, and within VPCs in conjunction with {{site.data.keyword.cloud_notm}} Direct Link, custom routes must be installed in each zone. For more information, see [Routing considerations for IANA-registered IP assignments](/docs/vpc?topic=vpc-interconnectivity#routing-considerations-iana).
 * If you plan to connect your direct link to a transit gateway, keep in mind that a single direct link gateway instance accepts a maximum of 120 on-premises address prefixes when connected to a transit gateway. Consider aggregating prefixes to keep within this limit. (A direct link can accept a maximum of 200 prefixes when not connected to a transit gateway.)
+* For known limitations and restrictions, see [Known limitations](/docs/dl?topic=dl-known-limitations).
 
 ## Ordering instructions
 {: #instructions-dedicated}
@@ -40,11 +41,11 @@ Make sure that you review the following considerations before ordering Direct Li
 To order {{site.data.keyword.dl_full}} Dedicated, follow these steps.
 {: shortdesc}
 
-1. Log in to your [{{site.data.keyword.cloud_notm}}](/login){: external} account.
+1. Log in to your [IBM Cloud account](/login){: external} account.
 1. Click Menu ![Menu icon](images/menu_icon.png) on the upper left, then click **Interconnectivity**.
 1. Scroll to locate the Dedicated tile, then click **Order {{site.data.keyword.dl_short}} Dedicated** to order.
 
-   ![Direct Link offerings](/images/dl-dedicated-options.png){: caption="Direct Link offerings" caption-side="bottom"}    
+   ![Direct Link offerings](/images/dl-dedicated-options.png){: caption="Direct Link Dedicated tile" caption-side="bottom"}    
 
    Alternatively, you can click **Direct Link** in the left navigation pane to view the Direct Link page, which lists existing Direct Link instances. From this page, you can click **Order Direct Link** > **Direct Link Dedicated** tile.
    {: tip}
@@ -106,9 +107,7 @@ To order {{site.data.keyword.dl_full}} Dedicated, follow these steps.
 
 1. In the Additional BGP settings section, you can activate one or more of these optional settings.
 
-   ![BGP section](/images/bgp-opt-settings.png){: caption="BGP section" caption-side="bottom"}         
-
-   * **BGP Message Digest 5 (MD5) Authentication** - Add an extra layer of security between two BGP peers by verifying each transmitted message sent through the BGP session. When MD5 authentication is activated, BGP authenticates every segment sent over the TCP session from its peer and verifies the source of each routing update.
+   * **Verify data integrity with Message Digest 5 (MD5)** - Add an extra layer of security between two BGP peers by verifying each transmitted message sent through the BGP session. When MD5 authentication is activated, BGP authenticates every segment sent over the TCP session from its peer and verifies the source of each routing update.
 
       **Important**:  
 
@@ -121,7 +120,9 @@ To order {{site.data.keyword.dl_full}} Dedicated, follow these steps.
       * Select an authentication keystore instance.
       * Select an authentication key.
 
-   * **Bidirectional Forwarding Detection (BFD)** - Activate BFD to quickly detect faults in a network between two routers or switches that are connected by a link. BFD provides a single, standardized method for detecting link failures at any protocol layer, over any media. For more information, see [Setting up bidirectional forwarding detection](/docs/dl?topic=dl-dl-bfd).
+      ![Message Digest (MD5) authentication section](/images/bgp-md5-option.png){: caption="Message Digest (MD5) authentication section" caption-side="bottom"} 
+
+   * **Detect network failures with Bidirectional Forwarding Detection (BFD)** - Activate BFD to quickly detect faults in a network between two routers or switches that are connected by a link. BFD provides a single, standardized method for detecting link failures at any protocol layer, over any media. For more information, see [Setting up bidirectional forwarding detection](/docs/dl?topic=dl-dl-bfd).
 
       Activating and deactivating BFD after the BGP session is established causes BGP session downtime and network disruption until the BGP peer device is configured for the same change.
       {: important}
@@ -129,6 +130,12 @@ To order {{site.data.keyword.dl_full}} Dedicated, follow these steps.
       Complete the following information:
       * Interval – The interval is the minimum time (in milliseconds) expected to occur between when the local routing device sends BFD hello packets and the reply from its neighbor. This value can range from 300 to 255,000 milliseconds.
       * Multiplier – The multiplier is the number of times that a hello packet is missed before BFD declares the neighbor down. This value can range from 1 to 255. The default multiplier value is 3.
+
+      ![Bidirectional Forwarding Detection (BFD) section](/images/bgp-opt-settings.png){: caption="Bidirectional Forwarding Detection (BFD) section" caption-side="bottom"}    
+      
+   * **Manipulate how traffic is routed using AS prepends** - Adjust route preference by lengthening AS paths with multiples of the BGP Autonomous System Number (ASN). When the prefix is matched, the longer AS path becomes a lower priority for the BGP router. For more information, see [Prepending an AS path to influence route priority](/docs/dl?topic=dl-prepend-as-paths).
+
+      ![AS prepends section](/images/as-prepends-option.png){: caption="AS prepends section" caption-side="bottom"}  
 
 1. In the Connections section, select the type of network connection that you want to bind to the {{site.data.keyword.dl_short}} gateway. You can select a connection type when you create a direct link, or after your direct link is provisioned.
 
@@ -144,7 +151,7 @@ To order {{site.data.keyword.dl_full}} Dedicated, follow these steps.
 
    * Select **Transit Gateway** to bind your direct link to transit gateways. You can bind your direct link to one or more local gateways, or one global gateway.
 
-      If you select **Transit Gateway** as the type of network connection, you must also initiate a Direct Link connection through the [{{site.data.keyword.cloud_notm}} Transit Gateway console](https://cloud.ibm.com/interconnectivity/transit){: external} from the same {{site.data.keyword.cloud_notm}} account. For instructions, see [Adding a connection](/docs/transit-gateway?topic=transit-gateway-adding-connections){: external}.
+      If you select **Transit Gateway** as the type of network connection, you must also initiate a Direct Link connection through the [{{site.data.keyword.cloud_notm}} Transit Gateway console](/interconnectivity/transit){: external} from the same {{site.data.keyword.cloud_notm}} account. For instructions, see [Adding a connection](/docs/transit-gateway?topic=transit-gateway-adding-connections){: external}.
       {: important}  
 
       ![Connection types](/images/dl-connections.png){: caption="Connection types" caption-side="bottom"}         

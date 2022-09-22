@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-05-09"
+lastupdated: "2022-09-20"
 
 keywords: direct link 
 
@@ -17,6 +17,8 @@ subcollection: dl
 
 Known limitations are as follows:
 
+* You can add AS prepends to newly created direct links by using the UI, CLI, and API. However, adding or editing AS prepends on existing direct links is currently available only through the UI. AS prepends `update` functionality via CLI, API, and Terraform will be made available by 2022 December 1.
+* VPC networking doesn't consider the AS path length when selecting the best route for network traffic and therefore, AS prepends configured on direct links have no effect when VPCs are directly connected. However, you can use a transit gateway between the direct link and VPC in some topologies to achieve the desired effect. For more information, see [Planning considerations when using AS prepends with VPC connections](/docs/dl?topic=dl-as-prepends-routes).
 * Each {{site.data.keyword.dl_full_notm}} connection requires a unique order. If you require multiple connections, open an {{site.data.keyword.dl_full_notm}} order for each connection.
 * {{site.data.keyword.dl_full_notm}} requires BGP to establish the routes to a customer's remote network.
 * Each {{site.data.keyword.dl_full_notm}} service is not redundant. Diversity can be supplied by IBM for multiple direct links. However, customers must build redundancy in their own BGP schemes.

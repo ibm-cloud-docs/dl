@@ -2,7 +2,7 @@
 
 copyright:
   years: 2022
-lastupdated: "2022-04-01"
+lastupdated: "2022-09-21"
 
 keywords: direct link release notes
 
@@ -14,15 +14,25 @@ content-type: release-note
 
 {{site.data.keyword.attribute-definition-list}}
 
-# Release notes for Direct Link
+# Release notes for Direct Link (2.0)
 {: #direct-link-release-notes}
 
 Check back regularly to see what's new with {{site.data.keyword.cloud}} Direct Link.
 {: shortdesc}
 
+## 21 September 2022
+{: #dl-september2122}
+{: release-note}
+
+Generate a route report for a specific direct link
+:   Request a route report to verify expected routes and figure out which routes are associated with attached virtual connections. This assists in diagnosing and troubleshooting routing and connectivity issues. For more information, see [Generating a direct link route report](/docs/dl?topic=dl-generate-route-reports&interface=ui).
+
+BGP AS prepending support
+:   Prepend one or more autonomous system numbers (ASNs) at the beginning of an AS path. Prepending an AS path makes a shorter AS path look longer and therefore less preferable to BGP. For more information, see [Using AS prepends to influence route preference](/docs/dl?topic=dl-dl-about#use-case-1).
 
 ## 01 April 2022
 {: #dl-apr0122}
+{: release-note}
 
 Reduced unmetered plan pricing for Direct Link Connect
 :   IBM is pleased to announce _a significant reduction in unmetered pricing_ for IBM Cloud Direct Link Connect and Direct Link Dedicated. Note that Direct Link also offers a metered pricing plan, allowing you to switch between metered and unmetered pricing plans to suit your bandwidth usage needs. For more information, see [Pricing for IBM Cloud Direct Link](/docs/dl?topic=dl-pricing-for-ibm-cloud-dl).

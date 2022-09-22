@@ -2,7 +2,7 @@
 
 copyright:
   years: 2022
-lastupdated: "2022-04-01"
+lastupdated: "2022-09-21"
 
 keywords: direct link api change log
 
@@ -20,6 +20,22 @@ content-type: release-note
 Check back regularly to see what's new with {{site.data.keyword.cloud}} Direct Link 2.0 API.
 {: shortdesc}
 
+## 21 September 2022
+{: #dl-september2122}
+
+Route report support
+:   New commands
+
+   * List route reports - `GET /gateways/{gateway_id}/route_reports`
+   * Create a route report - `POST /gateways/{gateway_id}/route_reports`
+   * Delete route report - `DELETE /gateways/{gateway_id}/route_reports/{id}`
+   * Get a route report - `GET /gateways/{gateway_id}/route_reports/{id}`
+   
+BGP AS prepend support
+:   Changed commands
+
+   * Add AS prepend support during create gateway - `POST /gateways`
+   * Add AS prepend support during create gateway approve - `POST gateways/{id}/actions`
 
 ## 01 April 2022
 {: #dl-apr0122}

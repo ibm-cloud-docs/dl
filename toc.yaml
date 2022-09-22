@@ -28,6 +28,7 @@ toc:
            label: Deployment considerations
            topics:
            - diversity-models.md
+           - deployment-transit-gateway.md
            - alternative-deployments.md
            - prefix-filtering.md
            - layer-2-layer-3.md
@@ -82,6 +83,8 @@ toc:
             - deleting_gateway.md
             - dl-disable-md5.md
             - dl-bfd-activation.md
+            - dl-route-report.md
+            - dl-prepend.md            
             - dl-upgrade-bandwidth.md
         - dl-md5-authentication.md
         - dl-bfd.md

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-08-30"
+lastupdated: "2022-09-21"
 
 keywords: direct link, direct link connect
 
@@ -23,7 +23,7 @@ To order {{site.data.keyword.dl_short}} Connect, you must determine the location
 ## Planning considerations
 {: #before-you-begin-connect}
 
-Make sure that you review the following considerations before ordering Direct Link Connect:
+Make sure to review the following information before ordering Direct Link Connect:
 
 * {{site.data.keyword.cloud_notm}} highly recommends that a second, diverse direct link be established to prevent outages, whether unplanned, or planned due to maintenance. For more information, see [Models for diversity and redundancy](/docs/dl?topic=dl-models-for-diversity-and-redundancy-in-direct-link).
 * All subnets of the VPC or classic network will be connected to the direct link. When creating VPCs, make sure to create the VPCs with non-overlapping prefixes and unique subnets. 
@@ -33,6 +33,7 @@ Make sure that you review the following considerations before ordering Direct Li
 * A Generic Routing Encapsulation (GRE)/IPsec tunneling requirement between your Edge router and a customer virtual router in {{site.data.keyword.cloud_notm}} requires a non-conflicting subnet when ordering. Default addresses for Direct Link are non-routable and do not support tunneling.
 * {{site.data.keyword.cloud_notm}} VPC permits the use of RFC-1918 and IANA-registered IPv4 address space, privately within your VPC, with some exceptions in the IANA Special-Purpose ranges, and select ranges assigned to {{site.data.keyword.cloud_notm}} services.  When using IANA-registered ranges within your enterprise, and within VPCs in conjunction with {{site.data.keyword.cloud_notm}} Direct Link, custom routes must be installed in each zone. For more information, see [Routing considerations for IANA-registered IP assignments](/docs/vpc?topic=vpc-interconnectivity#routing-considerations-iana).
 * If you plan to connect your direct link to a transit gateway, keep in mind that a single direct link gateway instance accepts a maximum of 120 on-premises address prefixes when connected to a transit gateway. Consider aggregating prefixes to keep within this limit. (A direct link can accept a maximum of 200 prefixes when not connected to a transit gateway.)
+* For known limitations and restrictions, see [Known limitations](/docs/dl?topic=dl-known-limitations).
 
 ## Partner-specific instructions
 {: #instructions-partner}
@@ -52,11 +53,11 @@ To order Direct Link Connect, you must determine the location that connects to {
 
 To order Direct Link Connect, follow these steps:
 
-1. Log in to your [{{site.data.keyword.cloud_notm}}](/login){: external} account.
+1. Log in to your [IBM Cloud account](/login){: external} account.
 1. Click Menu ![Menu icon](images/menu_icon.png) on the upper left of the page, then click **Interconnectivity**.
 1. Scroll to locate the Connect tile, then click **Order {{site.data.keyword.dl_short}} Connect**.
 
-   ![Ordering options](/images/dl-options.png){: caption="Ordering options" caption-side="bottom"}  
+   ![Direct Link Connect tile](/images/dl-options.png){: caption="Direct Link Connect tile" caption-side="bottom"}  
 
    Alternatively, you can click **Direct Link** on the left navigation pane to view the Direct Link page, which lists existing Direct Link instances. From this page, you can click **Order Direct Link** > **Direct Link Connect**.
    {: tip}
@@ -136,6 +137,10 @@ To order Direct Link Connect, follow these steps:
 
       ![Bidirectional Forwarding Detection (BFD) section](/images/bgp-opt-settings.png){: caption="Bidirectional Forwarding Detection (BFD) section" caption-side="bottom"}    
       
+   * **Manipulate how traffic is routed using AS prepends** - Adjust route preference by lengthening AS paths with multiples of the BGP Autonomous System Number (ASN). When the prefix is matched, the longer AS path becomes a lower priority for the BGP router. For more information, see [Prepending an AS path to influence route priority](/docs/dl?topic=dl-prepend-as-paths).
+
+      ![AS prepends section](/images/as-prepends-option.png){: caption="AS prepends section" caption-side="bottom"}  
+
 1. In the Connections section, select the type of network connection that you want to bind to the {{site.data.keyword.dl_short}} gateway. You can select a connection type when you create a direct link, or after your direct link is provisioned.
 
    Select from the following connection types:
@@ -155,7 +160,7 @@ To order Direct Link Connect, follow these steps:
 
       ![Connection types](/images/dl-connections.png){: caption="Connection types" caption-side="bottom"}  
 
-1. An order summary shows pricing estimates for your review. Read and agree to the [{{site.data.keyword.dl_short}} prerequisites](/docs/dl?topic=dl-ibm-cloud-dl-prerequisites) and review Cloud Services [Terms](https://www-03.ibm.com/software/sla/sladb.nsf/searchsaas/?searchview&searchorder=4&searchmax=0&query=(Direct+Link+Connect)){: external}. Then, click **Create** to complete your order.  
+1. An order summary shows pricing estimates for your review. Read and agree to the [{{site.data.keyword.dl_short}} prerequisites](/docs/dl?topic=dl-ibm-cloud-dl-prerequisites) and review Cloud Services [Terms](https://www-03.ibm.com/software/sla/sladb.nsf/searchsaas/?searchview&searchorder=4&searchmax=0&query=(Direct+Link+Connect)). Then, click **Create** to complete your order.  
 
    If you want to add GB egress data to your estimate, click **Add to estimate** to calculate the cost. You can also click the **About** tab for links to {{site.data.keyword.dl_short}} pricing tables and other helpful resources.
    {: tip}

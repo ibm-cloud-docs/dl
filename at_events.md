@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020, 2021
-lastupdated: "2021-02-01"
+  years: 2020, 2022
+lastupdated: "2022-09-21"
 
 keywords: direct link
 
@@ -31,6 +31,9 @@ As a security officer, auditor, or manager, you can use the Activity Tracker ser
 | `directlink.dedicated.gateway.create` | Dedicated gateway was created. |
 | `directlink.dedicated.gateway.delete` | Dedicated gateway was deleted. |
 | `directlink.dedicated.gateway.update` | Dedicated gateway was updated. |
+| `directlink.dedicated.completion-notice.create` | Dedicated completion notice was created. |
+| `directlink.gateway.route-report.create` | Route report was created. |
+| `directlink.gateway.route-report.delete` | Route report was deleted. |
 {: caption="Table 1. List of {{site.data.keyword.dl_short}} Dedicated gateway events" caption-side="bottom"}
 {: tab-title="Dedicated Gateway Events"}
 {: tab-group="connect-simple-1"}
@@ -42,7 +45,6 @@ As a security officer, auditor, or manager, you can use the Activity Tracker ser
 | `directlink.dedicated.virtual-connection.create` | Dedicated virtual connection was created. |
 | `directlink.dedicated.virtual-connection.delete` | Dedicated virtual connection was deleted. |
 | `directlink.dedicated.virtual-connection.update` | Dedicated virtual connection was updated. |
-| `directlink.dedicated.completion-notice.create` | Dedicated completion notice was created. |
 {: caption="Table 2. List of {{site.data.keyword.dl_short}} Dedicated virtual connection events" caption-side="bottom"}
 {: tab-title="Dedicated Virtual Connection Events"}
 {: tab-group="connect-simple-1"}
@@ -56,6 +58,8 @@ As a security officer, auditor, or manager, you can use the Activity Tracker ser
 |-----------------------------|---------|
 | `directlink.dedicated.gateway.read` | Dedicated gateway was retrieved. |
 | `directlink.gateway.list` | Dedicated and Connect gateways were listed. |
+| `directlink.gateway.route-report.read` | Route report was retrieved. |
+| `directlink.gateway.route-report.list` | Route reports were listed. |
 {: caption="Table 3. List of {{site.data.keyword.dl_short}} Dedicated data events" caption-side="bottom"}
 {: tab-title="Dedicated Gateway Events"}
 {: tab-group="connect-simple-2"}
@@ -84,6 +88,8 @@ As a security officer, auditor, or manager, you can use the Activity Tracker ser
 | `directlink.connect.gateway.delete` | Connect gateway was deleted. |
 | `directlink.connect.gateway.update` | Connect gateway was updated. |
 | `directlink.connect.gateway.action` | Connect gateway action was applied. |
+| `directlink.gateway.route-report.create` | Route report was created. |
+| `directlink.gateway.route-report.delete` | Route report was deleted. |
 {: caption="Table 5. List of {{site.data.keyword.dl_short}} Connect Gateway Events" caption-side="bottom"}
 {: tab-title="Connect Gateway Events"}
 {: tab-group="connect-simple-3"}
@@ -109,6 +115,8 @@ As a security officer, auditor, or manager, you can use the Activity Tracker ser
 |-----------------------------|---------|
 | `directlink.connect.gateway.read` | Connect gateway was retrieved. |
 | `directlink.gateway.list`  | Dedicated and Connect gateways were listed. |
+| `directlink.gateway.route-report.read` | Route report was retrieved. |
+| `directlink.gateway.route-report.list` | Route reports were listed. |
 {: caption="Table 7. List of {{site.data.keyword.dl_short}} Connect Gateway Events" caption-side="bottom"}
 {: tab-title="Connect Gateway Events"}
 {: tab-group="connect-simple-4"}

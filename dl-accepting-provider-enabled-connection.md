@@ -37,7 +37,7 @@ This topic shows you how to accept provider-created connections (create, edit, d
 
 1. Select a resource group, routing type, and billing type. Then, select the checkbox indicating that you agree to the Direct Link prerequisites and click **Create**.    
 
-   Optionally, you can enable MD5 authentication.  For instructions, see [Enabling MD5 authentication for BGP peers](/docs/dl?topic=dl-accepting-the-provider-created-connection#dl-enable-md5-provider).
+   Optionally, you can enable MD5 authentication. For instructions, see [Enabling MD5 authentication for BGP peers](/docs/dl?topic=dl-accepting-the-provider-created-connection#dl-enable-md5-provider).
    {: note}
 
 ## Accepting a Direct Link edit request

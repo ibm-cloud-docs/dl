@@ -1,6 +1,6 @@
 {
     "title": "Direct Link (2.0) docs",
-    "lastupdated": "2022-04-01",
+    "lastupdated": "2022-09-21",
     "introduction": "The IBM Cloud Direct Link (2.0) solution is designed to seamlessly connect your on-premises resources to your cloud resources. Leverage the docs, CLI, and API reference to plan for, provision, and manage your direct links.",
     "section_devtools": {
       "api": "/apidocs/direct_link",
@@ -36,24 +36,14 @@
       "view_more": "/docs/dl?topic=dl-direct-link-release-notes",
       "tiles": [
         {
-          "date": "01 April 2022",
-          "title": "Reduced unmetered pricing plan for Direct Link Connect",
-          "description": "IBM is pleased to announce  a significant reduction in unmetered pricing for IBM Cloud Direct Link Connect and Direct Link Dedicated. Note that Direct Link also offers a metered pricing plan, allowing you to switch between metered and unmetered pricing plans to suit your bandwidth usage needs."
+          "date": "21` September 2022",
+          "title": "BGP AS prepending support",
+          "description": "Prepend one or more autonomous system numbers (ASNs) at the beginning of an AS path. Prepending an AS path makes a shorter AS path look longer and therefore less preferable to the BGP router."
         },  
         {
-            "date": "24 September 2021",
-            "title": "Bidirectional Forwarding Detection (BFD)",
-            "description": "Activate BFD to quickly detect faults in a network between two routers or switches that are connected by a link. BFD provides a single, standardized method for detecting link failures at any protocol layer, over any media. Also, instead of being able to specify BGP values (ASN and IP addresses) only during initial configuration, you can now modify BGP values after direct link provisioning."
-          },          
-          {
-            "date": "30 August 2021",
-            "title": "Direct Link (2.0) connection support for transit gateways",
-            "description": "Direct Link now supports Transit Gateway connections. A Direct Link connection allows an on-premises network to connect to other networks that are connected to the same transit gateway. If you participated in the beta for this release, you can continue to use the gateways that you created during the beta."
-          },
-        {
-          "date": "30 June 2021",
-          "title": "Message Digest 5 support",
-          "description": "BGP authentication enables routers to share information only if they can verify that they are talking to a trusted source, based on a key. You can store keys in either Key Protect or Hyper Protect Crypto Services."
+          "date": "21 September 2022",
+          "title": "Generate a route report for a specific direct link",
+          "description":"Request a route report to verify expected routes and figure out which routes are associated with attached virtual connections. This assists in diagnosing and troubleshooting routing and connectivity issues."
         }
       ]
     }
