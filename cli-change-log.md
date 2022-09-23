@@ -23,25 +23,6 @@ Learn about the latest changes, improvements, and updates for the IBM Cloud Dire
 To learn about general updates and improvements to Direct Link offerings, see [Release notes for Direct Link](/docs/dl?topic=dl-direct-link-release-notes).
 {: note}
 
-## 21 September 2022
-{: #dl-sep1222}
-{: release-note}
-
-BGP AS prepend support
-:    Support AS prepend information as part of the `--file` option.
-
-   * [Create a Connect gateway](/docs/dl?topic=dl-cli-plugin-dl-cli#create-connect-gateway) - `connect-gateway-create`, `conn-gwc`   
-   * [Create a Dedicated gateway](/docs/dl?topic=dl-cli-plugin-dl-cli#create-dedicated-gateway) - `dedicated-gateway-create`, `ded-gwc` 
-   * [Approve a gateway change request](/docs/dl?topic=dl-cli-plugin-dl-cli#gateway-change-approve-cmd) - `gateway-change-approve`, `gwca`    
-
-Route report support
-:    New commands:
-
-   * [View details of a route report](/docs/dl?topic=dl-cli-plugin-dl-cli#route-report-view) - `route-report`, `rr` 
-   * [Create a route report](/docs/dl?topic=dl-cli-plugin-dl-cli#route-report-create-view) - `route-report-create`, `rrc`      
-   * [Delete a route report](/docs/dl?topic=dl-cli-plugin-dl-cli#route-report-delete-view) - `route-report-delete`, `rrd`  
-   * [List all route reports](/docs/dl?topic=dl-cli-plugin-dl-cli#route-report-list-view) - `route-reports`, `rrs`
-
 ## 24 September 2021
 {: #dl-sep2422}
 {: release-note}
