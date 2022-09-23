@@ -55,7 +55,7 @@ Assuming all other criteria is equal, the prefix of the AS prepend matches with 
 
 ![Influencing route priority using AS prepends](/images/as-prepends.png){: caption="Figure 1. Influencing route priority using AS prepends" caption-side="bottom"}
 
-For more information, see [Influencing route preference using AS prepends](/docs/dl?topic=dl-models-for-diversity-and-redundancy-in-direct-link#dl-bgp-path-selection).
+For more information, see [Influencing route preference using AS prepends](/docs/dl?topic=dl-models-for-diversity-and-redundancy-in-direct-link#dl-bgp-path-selection) and [Planning considerations when using AS prepends with VPC connections](/docs/dl?topic=dl-as-prepends-routes).
 
 ## Direct Link Connect use cases
 {: #connect-use-cases}
