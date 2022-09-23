@@ -36,7 +36,7 @@
       "view_more": "/docs/dl?topic=dl-direct-link-release-notes",
       "tiles": [
         {
-          "date": "21` September 2022",
+          "date": "21 September 2022",
           "title": "BGP AS prepending support",
           "description": "Prepend one or more autonomous system numbers (ASNs) at the beginning of an AS path. Prepending an AS path makes a shorter AS path look longer and therefore less preferable to the BGP router."
         },  
