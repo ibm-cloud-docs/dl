@@ -22,7 +22,7 @@ These resources are created by {{site.data.keyword.cloud}} and by some IBM Busin
 ## Blogs on the IBM website
 {: #blogs}
 
-* [Demystifying Direct Link Offerings](https://www.ibm.com/cloud/blog/demystifying-direct-link-offerings){: external), by Bepsy Paul
+* [Demystifying Direct Link Offerings](https://www.ibm.com/cloud/blog/demystifying-direct-link-offerings){: external}, by Bepsy Paul
 
 * [Megaport and IBM Empower Enterprise Cloud](https://www.ibm.com/cloud/blog/megaport-and-ibm-empower-enterprise-cloud){: external}, by Matt Simpson and Jill Tempelmeyer
 
