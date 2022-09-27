@@ -64,7 +64,7 @@ For the most up-to-date information, see [{{site.data.keyword.dl_short}} Dedicat
 
 You can connect the classic infrastructure and VPC with classic peering as described in [Setting up access to your Classic Infrastructure from VPC](/docs/vpc?topic=vpc-setting-up-access-to-classic-infrastructure).
 
-Classic access features of VPC are an option at VPC setup and can only be enabled at the initial VPC creation. For more information, see [Creating and managing network resources in VPC](/docs/vpc-on-classic?topic=vpc-on-classic-creating-and-managing-network-resources-in-vpc).
+Classic access features of VPC are an option at VPC setup and can only be enabled at the initial VPC creation. 
 
 ## Is there a way to connect {{site.data.keyword.dl_short}} to VPC without using the classic infrastructure?
 {: #connect-wo-using-classic}
