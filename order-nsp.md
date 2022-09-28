@@ -41,7 +41,7 @@ Make sure that you review the following information before ordering Direct Link 
 To order {{site.data.keyword.dl_full}} Dedicated, follow these steps.
 {: shortdesc}
 
-1. Log in to your [IBM Cloud account](/login){: external} account.
+1. Log in to your [IBM Cloud account](/login){: external}.
 1. Click Menu ![Menu icon](images/menu_icon.png) on the upper left, then click **Interconnectivity**.
 1. Scroll to locate the Dedicated tile, then click **Order {{site.data.keyword.dl_short}} Dedicated** to order.
 
