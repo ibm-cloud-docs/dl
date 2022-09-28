@@ -20,8 +20,7 @@ Review feature support for Direct Link on Classic (1.0) offerings versus Direct 
 
 | **Feature** | **Direct Link on Classic** | **Direct Link** |
 |-----|-----|-----|
-| Locations | All IBM Cloud data centers and PoP locations have Direct Link on Classic support. | All MZRs have Direct Link (2.0) offering support. Single-campus multizone region support is being rolled out on a location-by-location basis. |
-| MACsec | No MACsec support. | MACsec support is available in CHI01 and WDC02. Compatible with Cisco switches. |
+| Locations | All IBM Cloud data centers and PoP locations have Direct Link on Classic support. | All MZRs have Direct Link (2.0) offering support. Single-campus multizone region support is being rolled out on a location-by-location basis. | 
 | 100G NNI | No 100G NNI support. | Business case justification required. In roadmap for MZR’s and associated POP’s pending business/finance approval. | 
 | Account in VRF | VRF migration is required. | If the account is used for VPC connectivity only, there is no need to migrate to VRF. If SoftLayer classic network connectivity is required, then the account needs a VRF migration. |
 | BGP authentication. | You can open an IBM Support ticket to enable this feature for all Direct Link on Classic offerings. | Supported for Dedicated and Connect offerings through automation. Need to store the MD5 secret in Key Protect or an HPCS instance in the customer account. |
