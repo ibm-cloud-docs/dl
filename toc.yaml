@@ -30,7 +30,6 @@ toc:
            - diversity-models.md
            - deployment-transit-gateway.md
            - alternative-deployments.md
-           - prefix-filtering.md
            - layer-2-layer-3.md
            - topic: video-hybrid-cloud.md
              navtitle: "Video: Direct Link for hybrid cloud"
