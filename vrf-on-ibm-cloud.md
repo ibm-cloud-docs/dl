@@ -85,5 +85,5 @@ Many {{site.data.keyword.cloud_notm}} customers currently operate with a shared 
 For specific information about how to initiate a VRF conversion for your account, see the conversion instructions for your {{site.data.keyword.cloud_notm}} offering.
 
 * [{{site.data.keyword.dl_short}} conversion instructions](/docs/dl?topic=dl-what-happens-during-the-account-conversion-process)
-* [VPC conversion instructions](/docs/vpc?topic=vpc-setting-up-access-to-classic-infrastructure)
+* [VPC conversion instructions](/docs/vpc?topic=vpc-setting-up-access-to-classic-infrastructure&interface=ui#how-you-can-initiate-the-conversion)
 * [{{site.data.keyword.cloud_notm}} service endpoints conversion instructions](/docs/account?topic=account-vrf-service-endpoint)
