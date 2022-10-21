@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021, 2022
-lastupdated: "2022-05-11"
+lastupdated: "2022-10-21"
 
 keywords: direct link
 
@@ -51,6 +51,7 @@ Follow these steps to troubleshoot Layer 1 (physical) issues:
 
 1. Check the light levels from the Meet Me Room (MMR) to make sure that you're sending light to IBM and receiving light from IBM.
 1. Try rolling the fiber by flipping TX/RX strands. Roll only one end, not both.
+1. Make sure that the edge device port is set to auto-negotiate. If auto-negotiate does not work, then remove auto-negotiation by forcing the speed duplex settings.
 1. Shut/no shut or disable/enable the interface if the port does not come up.
 
 If these steps do not resolve the Direct Link Dedicated physical issue, contact the Advanced Customer Support (ACS) networking team and provide the gateway ID that is experiencing issues.
