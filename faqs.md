@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020, 2021
-lastupdated: "2021-04-19"
+  years: 2020, 2022
+lastupdated: "2022-12-01"
 
 keywords: direct link
 
@@ -120,7 +120,7 @@ Yes, you can change the routing option any time after creating the gateway. To d
 
 The fees for {{site.data.keyword.dl_short}} cover the cost of service termination on the {{site.data.keyword.cloud_notm}} infrastructure.
 
-Infrastructure services are billed in advance and begin upon acceptance of a client’s order. However, due to the nature of {{site.data.keyword.dl_full_notm}}, the {{site.data.keyword.dl_short}} service billing begins when a BGP session is established with {{site.data.keyword.cloud_notm}}, or 30 days after the service key is provided to the client.
+Infrastructure services are billed in advance and begin upon acceptance of a client’s order. However, due to the nature of {{site.data.keyword.dl_full_notm}}, the {{site.data.keyword.dl_short}} service billing begins when a BGP session is established with {{site.data.keyword.cloud_notm}}, or 30 days after the order is submitted.
 
 Billing stops after (1) you request a circuit to be deleted, and (2) the provider has de-provisioned the circuit.
 
