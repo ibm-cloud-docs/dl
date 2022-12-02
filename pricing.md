@@ -115,6 +115,6 @@ Local routing is the default routing option. It provides access to data centers 
 ### Global routing charges
 {: #pricing-global-routing-charges}
 
-Global routing expands access to include all {{site.data.keyword.cloud_notm}} data centers globally. There's no charge for global routing on Direct Link 2.0. However, Direct Link on Classic will still carry the global routing charge.  
+Global routing expands access to include all {{site.data.keyword.cloud_notm}} data centers globally. There's no charge for global routing on Direct Link. However, Direct Link on Classic will still carry the global routing charge.  
 
 Details on the markets and other considerations can be found in our [FAQs](/docs/dl?topic=dl-faqs).
