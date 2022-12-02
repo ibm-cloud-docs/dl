@@ -15,10 +15,10 @@ subcollection: dl
 # Location comparison between Direct Link versions
 {: #dl-comparison-locations}
 
-Review location support for Direct Link on Classic (1.0) offerings versus Direct Link (2.0).
+Review location support for Direct Link on Classic (1.0) offerings versus Direct Link.
 {: shortdesc}
 
-|**Location** | **Dedicated on Classic** | **Dedicated (2.0)**| **Connect on Classic** | **Connect (2.0)** |
+|**Location** | **Dedicated on Classic** | **Dedicated**| **Connect on Classic** | **Connect** |
 |-----------------|:-----------------:|:-----------------:|:-----------------:|:---------------:|
 | Atlanta 1 | ![Checkmark icon](../icons/checkmark-icon.svg) |  |  |  |  
 | Chicago 1 | ![Checkmark icon](../icons/checkmark-icon.svg) | ![Checkmark icon](../icons/checkmark-icon.svg) | ![Checkmark icon](../icons/checkmark-icon.svg) | ![Checkmark icon](../icons/checkmark-icon.svg) |  
@@ -60,7 +60,7 @@ Review location support for Direct Link on Classic (1.0) offerings versus Direct
 {: tab-group="dedicated-simple"}
 
 
-|**Location* | **Dedicated on Classic** | **Dedicated (2.0)**| **Connect on Classic** | **Connect (2.0)** |
+|**Location* | **Dedicated on Classic** | **Dedicated**| **Connect on Classic** | **Connect** |
 |-----------------|-----------------|-----------------|-----------------|---------------|
 | Chennai 1 | ![Checkmark icon](../icons/checkmark-icon.svg) | ![Checkmark icon](../icons/checkmark-icon.svg) | ![Checkmark icon](../icons/checkmark-icon.svg) |  |    
 | Hong Kong 1 | ![Checkmark icon](../icons/checkmark-icon.svg) |  | ![Checkmark icon](../icons/checkmark-icon.svg) |  |    
@@ -90,7 +90,7 @@ Review location support for Direct Link on Classic (1.0) offerings versus Direct
 {: class="simple-tab-table"}
 
 
-|**Location* | **Dedicated on Classic** | **Dedicated (2.0)**| **Connect on Classic** | **Connect (2.0)** |
+|**Location* | **Dedicated on Classic** | **Dedicated**| **Connect on Classic** | **Connect** |
 |-----------------|-----------------|-----------------|-----------------|---------------|
 | Amsterdam 2 | ![Checkmark icon](../icons/checkmark-icon.svg) | ![Checkmark icon](../icons/checkmark-icon.svg) | ![Checkmark icon](../icons/checkmark-icon.svg) | ![Checkmark icon](../icons/checkmark-icon.svg) |   
 | Amsterdam 3 | ![Checkmark icon](../icons/checkmark-icon.svg) |  |  |  |  

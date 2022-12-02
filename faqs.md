@@ -15,7 +15,7 @@ subcollection: dl
 # FAQs for {{site.data.keyword.dl_short}}
 {: #faqs}
 
-You can review answers to some frequently asked questions about {{site.data.keyword.dl_full}} (2.0).
+You can review answers to some frequently asked questions about {{site.data.keyword.dl_full}}.
 {: shortdesc}
 
 ## How does the new {{site.data.keyword.dl_short}} differ from {{site.data.keyword.dlc_short}}?
@@ -48,7 +48,7 @@ Initial rollout plans are for the Multi-Zone Regions (MZRs) to be prioritized. O
 {: #roadmap-szrs}
 {: faq}
 
-Any existing customers on classic IaaS can remain in classic IaaS and continue to access classic IaaS data centers using {{site.data.keyword.dl_short}} or {{site.data.keyword.dlc_full_notm}}. VPC connectivity is fully supported ONLY on {{site.data.keyword.dl_short}} (2.0).
+Any existing customers on classic IaaS can remain in classic IaaS and continue to access classic IaaS data centers using {{site.data.keyword.dl_short}} or {{site.data.keyword.dlc_full_notm}}. VPC connectivity is fully supported ONLY on {{site.data.keyword.dl_short}}.
 
 ## Where are the  {{site.data.keyword.dl_short}} offerings enabled?
 {: #offerings-enabled}
@@ -71,7 +71,7 @@ Classic access features of VPC are an option at VPC setup and can only be enable
 {: faq}
 {: support}
 
-Yes, this is possible on {{site.data.keyword.dl_short}} (2.0). The VRF created is local to the XCR versus global on the classic infrastructure. Route targeting to VPC then enables {{site.data.keyword.dl_short}} to be used with VPC natively using the UI (without touching the classic infrastructure).
+Yes, this is possible on {{site.data.keyword.dl_short}}. The VRF created is local to the XCR versus global on the classic infrastructure. Route targeting to VPC then enables {{site.data.keyword.dl_short}} to be used with VPC natively using the UI (without touching the classic infrastructure).
 
 When routing on-premises subnets from the direct link through a VPC, you must create a route in the VPC routing table. For more information, see [Creating a route](/docs/vpc?topic=vpc-create-vpc-route).
 {: note}
@@ -99,7 +99,7 @@ The new {{site.data.keyword.dl_short}} performs better as it's not required to e
 {: #cost}
 {: faq}
 
-There are two pricing plans: metered and unmetered. Metered has a port fee and bill per GB egressed across the {{site.data.keyword.dl_short}} (2.0).
+There are two pricing plans: metered and unmetered. Metered has a port fee and bill per GB egressed across the {{site.data.keyword.dl_short}}.
 Unmetered billing has a higher port fee and no usage charges, which are ideal for customers who consistently egress traffic across their direct link.
 
 ## What are the tools for monitoring the consumption of resources associated with the service, as well as the costs and the quality of the service?

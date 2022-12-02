@@ -12,7 +12,7 @@ subcollection: dl
 
 {{site.data.keyword.attribute-definition-list}}
 
-# Getting started with IBM Cloud {{site.data.keyword.dl_short}} (2.0)
+# Getting started with IBM Cloud {{site.data.keyword.dl_short}}
 {: #get-started-with-ibm-cloud-dl}
 
 Use {{site.data.keyword.dl_short}} to seamlessly connect your on-premises resources to your cloud resources. The speed and reliability of {{site.data.keyword.dl_short}} extends your organization’s data center network and offers more consistent, higher-throughput connectivity, keeping traffic within the IBM Cloud network.
@@ -45,11 +45,11 @@ To get started using {{site.data.keyword.dl_full_notm}} Connect, follow these [i
 ## Learn more
 {: #learn-more}
 
-* IBM Cloud highly recommends that you establish a second, diverse direct link to prevent outages, whether unplanned, or planned due to maintenance. For more information, see [Models for diversity and redundancy in Direct Link (2.0)](/docs/dl?topic=dl-models-for-diversity-and-redundancy-in-direct-link).
+* IBM Cloud highly recommends that you establish a second, diverse direct link to prevent outages, whether unplanned, or planned due to maintenance. For more information, see [Models for diversity and redundancy in Direct Link](/docs/dl?topic=dl-models-for-diversity-and-redundancy-in-direct-link).
 
 * If you require a diverse, redundant, or multi-cloud deployment for Direct Link Connect, see [Alternatives for your Direct Link Connect deployment](/docs/dl?topic=dl-alternatives-for-your-ibm-cloud-direct-link-deployment).
 
 * For more information about {{site.data.keyword.dl_short}} offerings, see our [FAQs](/docs/dl?topic=dl-faqs).
 
-Currently, there isn't a migration path from {{site.data.keyword.dlc_short}} offerings to {{site.data.keyword.dl_short}} (2.0). You must order a new {{site.data.keyword.dl_short}} Dedicated or {{site.data.keyword.dl_short}} Connect connection.
+Currently, there isn't a migration path from {{site.data.keyword.dlc_short}} offerings to {{site.data.keyword.dl_short}}. You must order a new {{site.data.keyword.dl_short}} Dedicated or {{site.data.keyword.dl_short}} Connect connection.
 {: note}

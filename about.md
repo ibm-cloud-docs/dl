@@ -12,7 +12,7 @@ subcollection: dl
 
 {{site.data.keyword.attribute-definition-list}} 
 
-# About {{site.data.keyword.dl_full_notm}} (2.0)
+# About {{site.data.keyword.dl_full_notm}}
 {: #dl-about}
 
 {{site.data.keyword.dl_full}} offerings provide connectivity from an external source into a customer's {{site.data.keyword.cloud_notm}} private network. {{site.data.keyword.dl_short}} can be viewed as an alternative to a traditional site-to-site VPN solution, which is designed for customers that need more consistent, higher-throughput connectivity between a remote network and their {{site.data.keyword.cloud_notm}} environments.

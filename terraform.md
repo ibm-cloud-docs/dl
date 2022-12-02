@@ -21,7 +21,7 @@ Terraform on {{site.data.keyword.cloud}} enables predictable and consistent prov
 Looking for a managed Terraform on {{site.data.keyword.cloud}} solution? Try out [{{site.data.keyword.bplong}}](/docs/schematics?topic=schematics-getting-started). With {{site.data.keyword.bpshort}}, you can use the Terraform scripting language that you are familiar with, but you don't have to worry about setting up and maintaining the Terraform command line and the {{site.data.keyword.cloud}} Provider plug-in. {{site.data.keyword.bpshort}} also provides pre-defined Terraform templates that you can easily install from the {{site.data.keyword.cloud}} catalog.
 {: tip}
 
-## Installing Terraform and configuring resources for Direct Link (2.0)
+## Installing Terraform and configuring resources for Direct Link
 {: #install-terraform}
 
 Before you begin, make sure that you have the [required access](/docs/dl?topic=dl-iam) to create and work with Direct Link resources.

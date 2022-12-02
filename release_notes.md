@@ -14,7 +14,7 @@ content-type: release-note
 
 {{site.data.keyword.attribute-definition-list}}
 
-# Release notes for Direct Link (2.0)
+# Release notes for Direct Link
 {: #direct-link-release-notes}
 
 Check back regularly to see what's new with {{site.data.keyword.cloud}} Direct Link.
