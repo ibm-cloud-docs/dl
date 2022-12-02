@@ -17,7 +17,7 @@ content-type: release-note
 # Direct Link API change log
 {: #direct-link-api-changelog}
 
-Check back regularly to see what's new with {{site.data.keyword.cloud}} Direct Link 2.0 API.
+Check back regularly to see what's new with {{site.data.keyword.cloud}} Direct Link API.
 {: shortdesc}
 
 ## 21 September 2022

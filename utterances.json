@@ -5,9 +5,9 @@
     "direct link on classic different from (2.0)",
     "direct link on classic different from direct link dedicated",
 	  "differences between classic and dedicated direct link",
-	  "how does direct link 2.0 differ from classic",
+	  "how does direct link differ from classic",
 	  "differences between the new Direct Link offering and the classic version",
-	  "differences between the Direct Link 2.0 and classic version",
+	  "differences between the Direct Link and classic version",
     "differences between direct link classic and dedicated"
     ],
    "exchange-eom": [
@@ -20,9 +20,9 @@
 	   "Direct Link Exchange still available"   
    ],
    "dl-mzr": [
-   	"use direct link 2.0 only in MZRs",
-	   "use direct link 2.0 in multi-zone regions",
-	   "direct link 2.0 used in non-MZRs",
+   	"use direct link only in MZRs",
+	   "use direct link in multi-zone regions",
+	   "direct link used in non-MZRs",
 	   "what multi zone regions available for direct link",
 	   "different regions for direct link",
 	   "only MZRs for direct link",
@@ -38,8 +38,8 @@
 	   "onboarding other regions for direct link"	   
    ],
    "roadmap-szrs": [
-     "use direct link 2.0 in single-zone regions",
-	   "direct link 2.0 used in one region",
+     "use direct link in single-zone regions",
+	   "direct link used in one region",
 	   "use one region for direct link",
 	   "single regions for direct link",
 	   "use SZRs for direct link",
@@ -49,15 +49,15 @@
    "dc": [
    	 "Direct Link available in all IBM Cloud data centers",
 	   "use direct link in all data centers",
-	   "Direct Link 2.0 available in all IBM Cloud DCs",
+	   "Direct Link available in all IBM Cloud DCs",
 	   "available regions for direct link 2.0",
 	   "available data centers for direct link 2.0",
 	   "available DCs for direct link",
 	   "which data centers can I use for direct link"
    ],
    "classic-enabled-versus-dl": [
-     "where are the Direct Link 2.0 offerings enabled",
-	   "which location is direct link 2.0 available",
+     "where are the Direct Link offerings enabled",
+	   "which location is direct link available",
 	   "avaiable locations for direct link",
 	   "avaiable locations for direct link 2.0",
 	   "location to provision direct link in"
@@ -71,7 +71,7 @@
 	   "interconnect direct link with VPC and classic infrastructure"
    ],
 	  "connect-wo-using-classic":[ 
-	    "connect Direct Link 2.0 directly to VPC",
+	    "connect Direct Link directly to VPC",
 		  "connect Direct Link to VPC without using classic infrastructure",
 		  "connect direct link directly to VPC",
       "connecting direct link direct to VPC",
@@ -91,14 +91,14 @@
 	 	 "move from Direct Link on Classic to the new Direct Link 2.0",
 		 "migrate from direct link classic to 2.0",
      "move from Direct Link on Classic to 2.0",
-		 "move to direct link 2.0 from classic",
+		 "move to direct link from classic",
 		 "migrate to direct link 2.0",
 		 "upgrading to direct link 2.0"
 	 ], 
 	  "move-classic-to-new-performance": [
 	  	"performance impacts affected by moving from Direct Link on Classic",
 		  "performance issues if I move to direct link 2.0",
-		  "direct link 2.0 offer better performance than classic",
+		  "direct link offer better performance than classic",
 		  "performance better with direct link 2.0",
       "better perfance with direct link 2.0",
 		  "better performance with direct link 2.0"
@@ -118,7 +118,7 @@
      "how do i use direct link",
 	   "how does Direct Link work",  
      "hows direct link work",
-	   "direct link 2.0 work",  
+	   "direct link work",  
      "whats direct link"
     ],
    "when-does-billing-begin-with-dl": [  
@@ -217,7 +217,7 @@
      "Direct Link support any type of QoS",
 	   "Direct Link support any type of Quality of Service",
      "what QOS does direct link support","what QOS does direct link support",
-	   "what QOS does direct link 2.0 support",
+	   "what QOS does direct link support",
      "able to support any QoS guarantees",
      "Cloud Service providers support QoS",
 	   "Cloud Service providers support Quality of Service",
@@ -235,7 +235,7 @@
     "how-easy-is-it-to-upgrade-the-bandwidth-of-my-dl-connection": [   
       "upgrade the bandwidth of my Direct Link connection",
       "change my direct link bandwidth",
-		  "changing my direct link 2.0 bandwidth",
+		  "changing my direct link bandwidth",
       "upgrading my bandwidth for direct link",
 		  "upgrade the bandwidth for direct link 2.0",
       "bandwidth upgrade for direct link",
@@ -259,7 +259,7 @@
 	   "SLAs for Direct Link",
 	   "SLAs for Direct Link 2.0",
      "direct link's service level agreement",
-	   "direct link 2.0 service level agreement",
+	   "direct link service level agreement",
      "direct link and it's SLA"
     ]
 }  

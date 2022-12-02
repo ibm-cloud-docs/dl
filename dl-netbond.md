@@ -37,11 +37,11 @@ Follow these steps to request a VLAN assignment from AT&T NetBond for Cloud:
    * Select the **Direct Link Connect** tile.
    * In the IBM Support case, add the following information:
 
-      * **Subject**: DL 2.0 Connect manual implementation AT&T NetBond
+      * **Subject**: DL Connect manual implementation AT&T NetBond
       * **Description**:
-      * Route this ticket directly to the Special Network Services (SNS) queue for Direct Link 2.0 Connect implementation with AT&T NetBond.
+      * Route this ticket directly to the Special Network Services (SNS) queue for Direct Link Connect implementation with AT&T NetBond.
       * Include the NetBond connection service key that was assigned by NetBond (as provided in Step 1).
-      * Include the Direct Link gateway name or service key from the Direct Link 2.0 page. For example, `0xx43ex3-b8f0-4d52-8b84-x91af2x02yy3`.
+      * Include the Direct Link gateway name or service key from the Direct Link page. For example, `0xx43ex3-b8f0-4d52-8b84-x91af2x02yy3`.
 
 The SNS team receives the IBM Support case and initiates a series of steps to bring routers and the IBM portal database into synchronization.
 
