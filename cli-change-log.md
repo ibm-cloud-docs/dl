@@ -14,7 +14,7 @@ content-type: release-note
 
 {{site.data.keyword.attribute-definition-list}}
 
-# Direct Link (2.0) CLI change log
+# Direct Link CLI change log
 {: #direct-link-cli-change-log}
 
 Learn about the latest changes, improvements, and updates for the IBM Cloud Direct Link CLI plug-in (`ibmcloud dl`). Changes to existing CLI versions are designed to be compatible with existing client applications.
@@ -56,7 +56,7 @@ More flexibility in configuring BGP values
 {: #dl-aug3021}
 {: release-note}
 
-Direct Link (2.0) connection support for transit gateways
+Direct Link connection support for transit gateways
 :    Added the **--connection** flag to [dedicated-gateway-create](/docs/dl?topic=dl-cli-plugin-dl-cli#create-dedicated-gateway) and [connect-gateway-create](/docs/dl?topic=dl-cli-plugin-dl-cli#create-connect-gateway) commands.
 
 ## 24 June 2021

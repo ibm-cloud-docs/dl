@@ -15,7 +15,7 @@ subcollection: dl
 # Pricing for {{site.data.keyword.dl_full_notm}}
 {: #pricing-for-ibm-cloud-dl}
 
-Pricing for {{site.data.keyword.dl_full}} (2.0) offerings is consistent for equivalent regions and bandwidth, as shown in the following monthly pricing table.
+Pricing for {{site.data.keyword.dl_full}} offerings is consistent for equivalent regions and bandwidth, as shown in the following monthly pricing table.
 {: shortdesc}
 
 {{site.data.keyword.dl_short}} pricing does NOT include any additional charges by service providers to enable connectivity to {{site.data.keyword.cloud_notm}}.  

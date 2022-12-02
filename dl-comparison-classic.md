@@ -20,7 +20,7 @@ Review feature support for Direct Link on Classic (1.0) offerings versus Direct 
 
 | **Feature** | **Direct Link on Classic** | **Direct Link** |
 |-----|-----|-----|
-| Locations | All IBM Cloud data centers and PoP locations have Direct Link on Classic support. | All MZRs have Direct Link (2.0) offering support. Single-campus multizone region support is being rolled out on a location-by-location basis. | 
+| Locations | All IBM Cloud data centers and PoP locations have Direct Link on Classic support. | All MZRs have Direct Link offering support. Single-campus multizone region support is being rolled out on a location-by-location basis. | 
 | 100G NNI | No 100G NNI support. | Business case justification required. In roadmap for MZR’s and associated POP’s pending business/finance approval. | 
 | Account in VRF | VRF migration is required. | If the account is used for VPC connectivity only, there is no need to migrate to VRF. If SoftLayer classic network connectivity is required, then the account needs a VRF migration. |
 | BGP authentication. | You can open an IBM Support ticket to enable this feature for all Direct Link on Classic offerings. | Supported for Dedicated and Connect offerings through automation. Need to store the MD5 secret in Key Protect or an HPCS instance in the customer account. |
@@ -33,7 +33,7 @@ Review feature support for Direct Link on Classic (1.0) offerings versus Direct 
 | Bring Your Own IP (BYIOP) | No BYOIP support. | Supports BYOIP for non-overlapping RFC-1918 IP ranges between VPC networks and on-premise networks (see [Routing considerations for IANA-registered IP assignments](/docs/vpc?topic=vpc-interconnectivity) for details). | 
 | Pricing | Global routing has a monthly flat rate charge. | Free global routing. |
 | Automation | Full automation for Equinix Exchange and Colt Connect offerings. The rest of the ordering process is partially automated and requires manual configuration. | Automation for Dedicated and Connect offerings. Fully automated single-click ordering experience with the providers Equinix, Packet Fabric, Cologix, British Telecom  and DE-CIX. For automation information, see [Partner-specific instructions](/docs/dl?topic=dl-how-to-order-ibm-cloud-dl-connect#instructions-partner). |
-| Connectivity between Direct Link and Transit Gateway | Not supported. | All MZRs have Direct Link (2.0) offering support. |
-| Bi-directional Forwarding Detection (BFD) | You can open an IBM Support case to enable this feature for all Direct Link on Classic offerings. | All MZRs have Direct Link (2.0) offering support. |
-| Update BGP ASN and IP | You can open an IBM Support ticket to enable this feature for all Direct Link on Classic offerings. | All MZRs have Direct Link (2.0) offering support. |
+| Connectivity between Direct Link and Transit Gateway | Not supported. | All MZRs have Direct Link offering support. |
+| Bi-directional Forwarding Detection (BFD) | You can open an IBM Support case to enable this feature for all Direct Link on Classic offerings. | All MZRs have Direct Link offering support. |
+| Update BGP ASN and IP | You can open an IBM Support ticket to enable this feature for all Direct Link on Classic offerings. | All MZRs have Direct Link offering support. |
 {: caption="Table 1: Feature comparison between Direct Link versions" caption-side="bottom"}

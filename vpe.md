@@ -37,7 +37,7 @@ Before you target a virtual private endpoint for {{site.data.keyword.cloud}}, yo
 When you create a VPE gateway by using the CLI or API, you must specify the [Cloud Resource Name (CRN)](/docs/account?topic=account-crn) of the region in which you want connect to {{site.data.keyword.dl_short}}. Review the following table for the available regions and CRNs to use to create your VPE gateway.
  
 
-Direct Link (2.0) supports VPEs in all the VPC regions as shown.
+Direct Link supports VPEs in all the VPC regions as shown.
 
 | Location | Region | Cloud Resource Name (CRN) |
 |---------|-------|----------------|

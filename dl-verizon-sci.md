@@ -22,7 +22,7 @@ Follow these steps to create a Direct Link connection with Verizon SCI and Equin
    This block is usually a `/31` or `/30` IP block.
    {: note}
 
-1. Order an {{site.data.keyword.cloud}} Direct Link (2.0) Connect gateway through the [{{site.data.keyword.cloud_notm}} console](/login){: external}. For instructions, see [Ordering IBM Cloud Direct Link Connect](/docs/dl?topic=dl-how-to-order-ibm-cloud-dl-connect).
+1. Order an {{site.data.keyword.cloud}} Direct Link Connect gateway through the [{{site.data.keyword.cloud_notm}} console](/login){: external}. For instructions, see [Ordering IBM Cloud Direct Link Connect](/docs/dl?topic=dl-how-to-order-ibm-cloud-dl-connect).
 
    During the ordering process (Step 7), you can specify your own IP address. Make sure to specify the Verizon SCI-supplied IP addresses instead of your actual client Edge IP addresses.
 

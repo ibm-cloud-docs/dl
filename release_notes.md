@@ -58,7 +58,7 @@ More flexibility in configuring BGP values
 {: #dl-aug3021}
 {: release-note}
 
-Direct Link (2.0) connection support for transit gateways
+Direct Link connection support for transit gateways
 :    Direct Link now supports Transit Gateway connections. A Direct Link connection allows an on-premises network to connect to other networks (for instance, VPC and classic infrastructure) that are connected to the same transit gateway.
 
 :    The beta release for this feature has ended. If you participated in this beta, you can continue to use the gateways that you created during the beta period.

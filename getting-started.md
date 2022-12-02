@@ -47,9 +47,9 @@ To get started using {{site.data.keyword.dl_full_notm}} Connect, follow these [i
 
 * IBM Cloud highly recommends that you establish a second, diverse direct link to prevent outages, whether unplanned, or planned due to maintenance. For more information, see [Models for diversity and redundancy in Direct Link (2.0)](/docs/dl?topic=dl-models-for-diversity-and-redundancy-in-direct-link).
 
-* If you require a diverse, redundant, or multi-cloud deployment for Direct Link Connect, see [Alternatives for your Direct Link Connect (2.0) deployment](/docs/dl?topic=dl-alternatives-for-your-ibm-cloud-direct-link-deployment).
+* If you require a diverse, redundant, or multi-cloud deployment for Direct Link Connect, see [Alternatives for your Direct Link Connect deployment](/docs/dl?topic=dl-alternatives-for-your-ibm-cloud-direct-link-deployment).
 
-* For more information about {{site.data.keyword.dl_short}} (2.0) offerings, see our [FAQs](/docs/dl?topic=dl-faqs).
+* For more information about {{site.data.keyword.dl_short}} offerings, see our [FAQs](/docs/dl?topic=dl-faqs).
 
-Currently, there isn't a migration path from {{site.data.keyword.dlc_short}} offerings to {{site.data.keyword.dl_short}} (2.0). You must order a new {{site.data.keyword.dl_short}} (2.0) Dedicated or {{site.data.keyword.dl_short}} (2.0) Connect connection.
+Currently, there isn't a migration path from {{site.data.keyword.dlc_short}} offerings to {{site.data.keyword.dl_short}} (2.0). You must order a new {{site.data.keyword.dl_short}} Dedicated or {{site.data.keyword.dl_short}} Connect connection.
 {: note}

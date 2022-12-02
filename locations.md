@@ -19,7 +19,7 @@ View details about the {{site.data.keyword.cloud_notm}} data centers where {{sit
 ## Direct Link Dedicated locations
 {: #dedicated-locations}
 
-The following table provides details about the {{site.data.keyword.cloud_notm}} data centers where {{site.data.keyword.dl_short}} Dedicated (2.0) is available. Choose a tab to see locations for Americas, APAC, and EMEA.
+The following table provides details about the {{site.data.keyword.cloud_notm}} data centers where {{site.data.keyword.dl_short}} Dedicated is available. Choose a tab to see locations for Americas, APAC, and EMEA.
 
 |**IBM Location Code** | **Location Type** | **Meet Me Room Operator**| **Operator Site Code** | **Operator Address** |
 |-----------------|-----------------|-----------------|--------------------|--------------------|

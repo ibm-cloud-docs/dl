@@ -14,7 +14,7 @@ content-type: release-note
 
 {{site.data.keyword.attribute-definition-list}}
 
-# Direct Link (2.0) API change log
+# Direct Link API change log
 {: #direct-link-api-changelog}
 
 Check back regularly to see what's new with {{site.data.keyword.cloud}} Direct Link 2.0 API.

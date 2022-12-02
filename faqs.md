@@ -25,9 +25,9 @@ You can review answers to some frequently asked questions about {{site.data.keyw
 
 The new {{site.data.keyword.dl_short}} offering differs from the {{site.data.keyword.dl_short}} classic infrastructure in that {{site.data.keyword.dl_short}} is decoupled from classic IaaS, and exists only in the local cross-connect router (XCR). This design enables native connectivity to VPC and future capabilities without being forced into the classic IaaS network.
 
-The (2.0) offering allows connectivity to both classic IaaS as well as VPCs, whereas {{site.data.keyword.dlc_full_notm}} always connects to the IaaS network and a global VRF first. {{site.data.keyword.dlc_full_notm}} can only reach the VPC on a limited basis using a feature named Classic Access and by adding global routing to the direct link. See [Setting up access to your Classic Infrastructure from VPC](/docs/vpc?topic=vpc-setting-up-access-to-classic-infrastructure) for more information.
+The offering allows connectivity to both classic IaaS as well as VPCs, whereas {{site.data.keyword.dlc_full_notm}} always connects to the IaaS network and a global VRF first. {{site.data.keyword.dlc_full_notm}} can only reach the VPC on a limited basis using a feature named Classic Access and by adding global routing to the direct link. See [Setting up access to your Classic Infrastructure from VPC](/docs/vpc?topic=vpc-setting-up-access-to-classic-infrastructure) for more information.
 
-For more information about the differences between the new {{site.data.keyword.dl_short}} (2.0) offering and the classic version, see [How do I know which {{site.data.keyword.dl_short}} solution to order?](/docs/direct-link?topic=direct-link-get-started-with-ibm-cloud-direct-link#get-started-solution-to-order).
+For more information about the differences between the new {{site.data.keyword.dl_short}} offering and the classic version, see [How do I know which {{site.data.keyword.dl_short}} solution to order?](/docs/direct-link?topic=direct-link-get-started-with-ibm-cloud-direct-link#get-started-solution-to-order).
 {: tip}
 
 ## What is planned for Direct Link on Classic Exchange?
@@ -37,7 +37,7 @@ For more information about the differences between the new {{site.data.keyword.d
 
 The marketplace has evolved since {{site.data.keyword.dl_short}} Exchange was established. With data center operators now blurring the lines as network service providers, IBM will be combining the Exchange offering with Connect on the new "next generation" platform to reflect both this change and simplify the {{site.data.keyword.dl_short}} portfolio. {{site.data.keyword.dl_short}} Exchange will service only the {{site.data.keyword.dl_short}} classic infrastructure. After migrations of the partner inter-connections to the XCRs are complete, Exchange will be moved to End of Marketing (EoM).
 
-## Will {{site.data.keyword.dl_short}} (2.0) be available in non-MZRs, or is it only a solution for MZRs?  
+## Will {{site.data.keyword.dl_short}} be available in non-MZRs, or is it only a solution for MZRs?  
 {: #dl-mzr}
 {: faq}
 {: support}
@@ -48,7 +48,7 @@ Initial rollout plans are for the Multi-Zone Regions (MZRs) to be prioritized. O
 {: #roadmap-szrs}
 {: faq}
 
-Any existing customers on classic IaaS can remain in classic IaaS and continue to access classic IaaS data centers using {{site.data.keyword.dl_short}} (2.0) or {{site.data.keyword.dlc_full_notm}}. VPC connectivity is fully supported ONLY on {{site.data.keyword.dl_short}} (2.0).
+Any existing customers on classic IaaS can remain in classic IaaS and continue to access classic IaaS data centers using {{site.data.keyword.dl_short}} or {{site.data.keyword.dlc_full_notm}}. VPC connectivity is fully supported ONLY on {{site.data.keyword.dl_short}} (2.0).
 
 ## Where are the  {{site.data.keyword.dl_short}} offerings enabled?
 {: #offerings-enabled}
@@ -71,7 +71,7 @@ Classic access features of VPC are an option at VPC setup and can only be enable
 {: faq}
 {: support}
 
-Yes, this is possible on {{site.data.keyword.dl_short}} (2.0). The VRF created is local to the XCR versus global on the classic infrastructure. Route targeting to VPC then enables {{site.data.keyword.dl_short}} (2.0) to be used with VPC natively using the UI (without touching the classic infrastructure).
+Yes, this is possible on {{site.data.keyword.dl_short}} (2.0). The VRF created is local to the XCR versus global on the classic infrastructure. Route targeting to VPC then enables {{site.data.keyword.dl_short}} to be used with VPC natively using the UI (without touching the classic infrastructure).
 
 When routing on-premises subnets from the direct link through a VPC, you must create a route in the VPC routing table. For more information, see [Creating a route](/docs/vpc?topic=vpc-create-vpc-route).
 {: note}
@@ -87,7 +87,7 @@ Yes, they are listed in the Virtual Private Cloud [Quotas](/docs/vpc?topic=vpc-q
 {: #move-classic-to-new}
 {: faq}
 
-{{site.data.keyword.dl_short}} has a new user interface and records system, requiring you to place a brand new {{site.data.keyword.dl_short}} (2.0) order.
+{{site.data.keyword.dl_short}} has a new user interface and records system, requiring you to place a brand new {{site.data.keyword.dl_short}} order.
 
 ## Are there any performance impacts affected by moving from {{site.data.keyword.dlc_full_notm}}?
 {: #move-classic-to-new-performance}

@@ -22,7 +22,7 @@ Follow these steps to create a Direct Link connection for your AT&T NetBond Esse
    This block is `/29` broken down into two `/30` subnets. You require the `/30` subnet for ordering in the {{site.data.keyword.cloud}} console.
    {: note}
 
-1. Using your IBM Cloud account, order an {{site.data.keyword.cloud_notm}} Direct Link (2.0) Connect gateway through the [{{site.data.keyword.cloud_notm}} console](/login){: external}. For instructions, see [Ordering IBM Cloud Direct Link Connect](/docs/dl?topic=dl-how-to-order-ibm-cloud-dl-connect).
+1. Using your IBM Cloud account, order an {{site.data.keyword.cloud_notm}} Direct Link Connect gateway through the [{{site.data.keyword.cloud_notm}} console](/login){: external}. For instructions, see [Ordering IBM Cloud Direct Link Connect](/docs/dl?topic=dl-how-to-order-ibm-cloud-dl-connect).
 
    During the ordering process (Step 7), Make sure to specify the AT&T-supplied IP addresses instead of your actual client Edge IP addresses.  
 

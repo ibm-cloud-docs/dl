@@ -35,8 +35,8 @@ To start monitoring your resources, check out [Getting started with {{site.data.
 ### Available goals for {{site.data.keyword.dl_full_notm}}
 {: #available-goals}
 
-* Check whether Direct Link (2.0) allows no cross account connection requests at the account level
-* Check whether Direct Link (2.0) allows no cross account connection approvals at the account level
+* Check whether Direct Link allows no cross account connection requests at the account level
+* Check whether Direct Link allows no cross account connection approvals at the account level
 
 ## Governing {{site.data.keyword.dl_full_notm}} resource configuration
 {: #govern-directlink}

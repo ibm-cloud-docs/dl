@@ -15,7 +15,7 @@ subcollection: dl
 # Setting up your API environment
 {: #set-up-environment}
 
-Before you can use the Direct Link (2.0) API, you must set up your environment.
+Before you can use the Direct Link API, you must set up your environment.
 {: shortdesc}
 
 ## General prerequisites

@@ -20,7 +20,7 @@ Follow these steps to order an {{site.data.keyword.dl_full}} Connect gateway wit
    For instructions on creating Megaport Cloud Router (MCR) connections, see [MCR Connections to IBM Cloud Direct Link 2.0](https://docs.megaport.com/cloud/mcr/ibm-2.0/).
    {: note}
 
-1. Using your IBM Cloud account, order a {{site.data.keyword.dl_short}} (2.0) Connect gateway by using the {{site.data.keyword.cloud_notm}} console. For instructions, see [Ordering IBM Cloud Direct Link Connect](/docs/dl?topic=dl-how-to-order-ibm-cloud-dl-connect).
+1. Using your IBM Cloud account, order a {{site.data.keyword.dl_short}} Connect gateway by using the {{site.data.keyword.cloud_notm}} console. For instructions, see [Ordering IBM Cloud Direct Link Connect](/docs/dl?topic=dl-how-to-order-ibm-cloud-dl-connect).
 
 1. After the {{site.data.keyword.dl_short}} is created, copy the **Service key** assigned in Step 1, and enter this information in the [Megaport Portal](https://portal.megaport.com/login){: external} to provision a Virtual Cross Connect (VXC) to the {{site.data.keyword.dl_full_notm}} Connect peering location.
 
