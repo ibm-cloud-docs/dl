@@ -64,7 +64,7 @@ For the most up-to-date information, see [{{site.data.keyword.dl_short}} Dedicat
 
 You can connect the classic infrastructure and VPC with classic peering as described in [Setting up access to your Classic Infrastructure from VPC](/docs/vpc?topic=vpc-setting-up-access-to-classic-infrastructure).
 
-Classic access features of VPC are an option at VPC setup and can only be enabled at the initial VPC creation. 
+Classic access features of VPC are an option at VPC setup and can only be enabled at the initial VPC creation.
 
 ## Is there a way to connect {{site.data.keyword.dl_short}} to VPC without using the classic infrastructure?
 {: #connect-wo-using-classic}
@@ -101,6 +101,12 @@ The new {{site.data.keyword.dl_short}} performs better as it's not required to e
 
 There are two pricing plans: metered and unmetered. Metered has a port fee and bill per GB egressed across the {{site.data.keyword.dl_short}} (2.0).
 Unmetered billing has a higher port fee and no usage charges, which are ideal for customers who consistently egress traffic across their direct link.
+
+## What are the tools for monitoring the consumption of resources associated with the service, as well as the costs and the quality of the service?
+{: #view-egress-usage}
+{: faq}
+
+IBM Cloud Direct Link is integrated into the [IBM Cloud usage dashboard](/docs/billing-usage?topic=billing-usage-viewingusage), which provides a summary of estimated charges for all services and resources that are used per month in your organizations. This includes the number of connections and the amount of traffic flowing across your direct links. IBM Cloud Direct Link usage is billed and reported as part of the [IBM Cloud invoice process](/docs/billing-usage?topic=billing-usage-managing-invoices).
 
 ## How does {{site.data.keyword.dl_full_notm}} work?
 {: #how-does-ibm-cloud-dl-work}
