@@ -64,4 +64,4 @@ Direct Link connection support for transit gateways
 {: release-note}
 
 BGP Message Digest 5 authentication support
-:    Added the **--file** option to create a Direct Link gateway with MD5 authentication key. See the [template](/apidocs/direct_link#create-gateway) to provide the MD5 authentication key.
+:    Added the **--file** option to create a direct link with MD5 authentication key. See the [template](/apidocs/direct_link#create-gateway) to provide the MD5 authentication key.

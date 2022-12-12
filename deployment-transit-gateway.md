@@ -18,7 +18,7 @@ subcollection: dl
 Currently, VPC networking doesn't consider the AS path length when selecting the best route for network traffic. However, you can use a transit gateway between the direct link and VPC in certain topologies to achieve the same outcome. Also, if prefix values are repeated across different AS prepends (of the same policy), the first instance of the prefix value sets the prefix length; the rest are ignored.
 {: shortdesc}
 
-Keep in mind that AS prepends currently have no effect on the routing between VPCs and Direct Link gateways.
+Keep in mind that AS prepends currently have no effect on the routing between VPCs and direct links.
 {: important}
  
 ## Examples
@@ -28,7 +28,7 @@ The following deployment topologies illustrate various AS Prepend scenarios when
 
 1. VPC chooses a route regardless of the AS path length.
 
-   ![AS prepends have no effect on the routing between VPCs and Direct Link gateways](/images/asprepends_2.png){: caption="Figure 1. AS prepends have no effect on the routing between VPCs and Direct Link gateways." caption-side="bottom"}
+   ![AS prepends have no effect on the routing between VPCs and direct links](/images/asprepends_2.png){: caption="Figure 1. AS prepends have no effect on the routing between VPCs and direct links." caption-side="bottom"}
    
 1. VPC routes to the transit gateway and the transit gateway considers the AS path length when choosing the route to on-premises.
 

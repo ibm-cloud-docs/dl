@@ -104,7 +104,7 @@ curl https://private.directlink.cloud.ibm.com/v1/direct_links?version='2020-03-3
 {: #vpe-sdk}
 {: api}
 
-After creating an endpoint gateway for {{site.data.keyword.dl_short}}, you must use the private endpoint's FQDN when setting the service's FQDN during construction of the Direct Link gateway service object.
+After creating an endpoint gateway for {{site.data.keyword.dl_short}}, you must use the private endpoint's FQDN when setting the service's FQDN during construction of the direct link service object.
 
 ```sh
 private.directlink.cloud.ibm.com

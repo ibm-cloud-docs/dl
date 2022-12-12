@@ -29,7 +29,7 @@ To edit a direct link, follow these steps:
    If your Direct Link connection was ordered through a third-party Connect provider (as described in [{{site.data.keyword.cloud_notm}} Getting started with IBM Cloud Direct Link](/docs/dl?topic=dl-get-started-with-ibm-cloud-dl), you might not be able to edit your BGP configuration as described here. The direct link's details page will display a note stating, "This direct link is read-only. Link-specific actions must be initiated through the provider portal." To edit your BGP configuration, contact your provider either directly, or through the provider's portal.
 {: important}
 
-   ![Edit direct link gateway](/images/dl-edit.png){: caption="Edit direct link gateway" caption-side="bottom"}
+   ![Edit direct link](/images/dl-edit.png){: caption="Edit direct link" caption-side="bottom"}
 
 1. Click **Edit** link in the upper right of the Details or BGP section. A page with the current configuration shows. For example, you can update the BGP Autonomous System Number (ASN), or enable a BGP feature.  
 

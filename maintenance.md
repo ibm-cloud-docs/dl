@@ -17,7 +17,7 @@ subcollection: dl
 {: troubleshoot}
 {: support}
 
-There is no connectivity after scheduled maintenance on my direct link gateway.
+There is no connectivity after scheduled maintenance on my direct link.
 {: shortdesc}
 
 My connection is down.

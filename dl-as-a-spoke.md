@@ -15,7 +15,7 @@ subcollection: dl
 {: #virtual-connection-types}
 
 By default, your direct link is configured to create a direct, private connection between your on-premises network and IBM Cloud deployment. Optionally, you can choose to create
-one or more network connections, either a classic infrastructure or VPC connection. You can also choose to connect your direct link gateway to a transit gateway.
+one or more network connections, either a classic infrastructure or VPC connection. You can also choose to connect your direct link to a transit gateway.
 
    You can choose the network connection type when creating a direct link, or after your direct link is provisioned.
    {: note}
