@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-11-08"
+lastupdated: "2022-12-08"
 
 keywords: direct link
 
@@ -59,12 +59,12 @@ The following table provides details about the {{site.data.keyword.cloud_notm}} 
 {: tab-title="Americas"}
 {: tab-group="dedicated-simple"}
 
-\* New York City 2 and 3 connect to the IBM Cloud backbone through New York City 1. The primary reason for these PoPs is to extend connectivity to different site providers from our New York City 1 site. When planning your diversity strategy, keep in mind that traffic for New York City 2 and 3 have a single, shared path to the IBM network.
-
 |**IBM Location Code** | **Location Type** | **Meet Me Room Operator**| **Operator Site Code** | **Operator Address** |
 |-----------------|-----------------|-----------------|--------------------|--------------------|
 | Chennai 1 | DC | Tata | PH-01 | 226, Red Hills Road, Kallikuppam, Ambattur |
 | Hong Kong 3 |	PoP |	Equinix |	HKG3 |	17/F Kerry Warehouse |
+| Melbourne 2 | PoP | NextDC | M1 | 820 Lorimer Street, Port Melbourne |
+| Mumbai 1 | PoP | GPX (Equinix) | Mumbai 1 | Plot-37, Unit A-001, Boomerang, Chandivali, Andheri |
 | Osaka 1 | PoP | Equinix | OS1 | Nishi-Shinsaibashi Bldg., 1-26-1 Shin-machi, Osaka  |
 | Osaka 21  | DC(AZ1)|  IDC Frontier (SoftBank) | OSA021 | 6-1 Saitoaokita Mino-shi |
 | Osaka 22  | DC(AZ2) | IDC Frontier (SoftBank) | OSA022 | 6-1 Saitoaokita Mino-shi |
@@ -111,6 +111,8 @@ The following table provides details about the {{site.data.keyword.cloud_notm}} 
 {: tab-title="EMEA"}
 {: tab-group="dedicated-simple"}
 {: class="simple-tab-table"}
+
+\* New York City 2 and 3 connect to the IBM Cloud backbone through New York City 1. The primary reason for these PoPs is to extend connectivity to different site providers from our New York City 1 site. When planning your diversity strategy, keep in mind that traffic for New York City 2 and 3 have a single, shared path to the IBM network.
 
 ## Direct Link Connect providers and locations
 {: #connect-locations}
