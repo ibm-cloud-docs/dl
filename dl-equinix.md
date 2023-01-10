@@ -51,7 +51,10 @@ For Exchange on Classic instructions, see [Steps to order Direct Link Exchange o
 
 1. Select a **Connection Speed**, then click **Next**.   
 1. Review and click **Submit Your Order**.
-1. Return to the [Direct Link page](/interconnectivity/direct-link){: external} in the IBM Cloud console using your IBM Cloud account. Notice that the connection status for your direct link connection states **Create Approval Pending**.
+1. Return to the [Direct Link page](/interconnectivity/direct-link){: external} in the IBM Cloud console using your IBM Cloud account. Notice that the connection status for your direct link connection states **Create in Progress**.
+
+   ![Create in progress](/images/equinix-create-in-progress.png "Create in progress"){: caption="Create in progress" caption-side="bottom"}     
+
 1. Click the Direct Link name in the table to view its Details page. Then, go to the **Actions** section and click **Review** to finalize provisioning of the direct link.
 
    ![Select to Review this request to finalize direct link provisioning](/images/equinix-review.png "Select to Review this request to finalize direct link provisioning"){: caption="Select to Review this request to finalize direct link provisioning" caption-side="bottom"}
