@@ -15,7 +15,7 @@ subcollection: dl
 # Location comparison between Direct Link versions
 {: #dl-comparison-locations}
 
-Review location support for Direct Link on Classic (1.0) offerings versus Direct Link.
+Review location support for Direct Link on Classic offerings versus Direct Link.
 {: shortdesc}
 
 |**Location** | **Dedicated on Classic** | **Dedicated**| **Connect on Classic** | **Connect** |

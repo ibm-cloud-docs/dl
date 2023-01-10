@@ -21,7 +21,7 @@ Check back regularly to see what's new with {{site.data.keyword.cloud}} Direct L
 {: shortdesc}
 
 ## 21 September 2022
-{: #dl-september2122}
+{: #dl-sept2122}
 
 Route report support
 :   New commands
@@ -38,7 +38,7 @@ BGP AS prepend support
    * Add AS prepend support during create gateway approve - `POST gateways/{id}/actions`
 
 ## 01 April 2022
-{: #dl-apr0122}
+{: #dl-april0122}
 {: release-note}
 
 Reduced unmetered plan pricing for Direct Link Connect

@@ -34,7 +34,7 @@ To activate MD5 authentication on a provisioned gateway, follow these steps:
 
 1. [Set up BGP Message Digest 5 (MD5) authentication keys](/docs/dl?topic=dl-dl-md5).
 1. Log in to the [Direct Link console](/interconnectivity/direct-link){: external}, then click the Direct Link name in the table to show its details.
-1. In the BGP section, click the MD5 authentication **Deactivated** switch to open the MD5 authentication window.  
+1. Click the BGP tab, then click the MD5 authentication **Deactivated** switch to open the MD5 authentication window.  
 1. Complete the following information:
    * For the keystore, select either **Hyper Protect Crypto Services** or **Key Protect**.
    * Select an authentication keystore instance.
@@ -60,7 +60,7 @@ For example:
 To deactivate BGP MD5 authentication, follow these steps:
 
 1. Log in to the [Direct Link console](/interconnectivity/direct-link){: external}, then click the Direct Link name in the table to show its details.
-1. In the BGP section, click the MD5 authentication **Activated** switch to show the Deactivate BGP MD5 authentication window. 
+1. On the BGP tab, click the MD5 authentication **Activated** switch to show the Deactivate BGP MD5 authentication window. 
 1. Enter the name of the key to confirm, then click **Deactivate**. Your key is removed in the process.
 
    ![Deactivate BGP MD5 authentication](/images/disable-bgp-md5.png){: caption="Deactivate BGP MD5 authentication" caption-side="bottom"}

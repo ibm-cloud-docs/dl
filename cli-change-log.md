@@ -43,7 +43,7 @@ Route report support
    * [List all route reports](/docs/dl?topic=dl-cli-plugin-dl-cli#route-report-list-view) - `route-reports`, `rrs`
 
 ## 24 September 2021
-{: #dl-sep2422}
+{: #dl-sept2422}
 {: release-note}
 
 Bidirectional Forwarding Detection (BFD)
@@ -53,14 +53,14 @@ More flexibility in configuring BGP values
 :    Added the fields **--bgp-asn**, **--bgp-cer-cidr**, and **--bgp-ibm-cidr** in [gateway-update](/docs/dl?topic=dl-cli-plugin-dl-cli#update-gateway) to update BGP values (ASN and IP addresses).
 
 ## 30 August 2021
-{: #dl-aug3021}
+{: #dl-august3021}
 {: release-note}
 
 Direct Link connection support for transit gateways
 :    Added the **--connection** flag to [dedicated-gateway-create](/docs/dl?topic=dl-cli-plugin-dl-cli#create-dedicated-gateway) and [connect-gateway-create](/docs/dl?topic=dl-cli-plugin-dl-cli#create-connect-gateway) commands.
 
 ## 24 June 2021
-{: #dl-jun2421}
+{: #dl-june2421}
 {: release-note}
 
 BGP Message Digest 5 authentication support

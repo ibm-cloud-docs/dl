@@ -43,6 +43,8 @@ You can store your keys in either Key Protect or Hyper Protect Crypto Services (
 1. After you create encryption keys for Direct Link, use IBM Cloud Identity and Access Management (IAM) to grant authorization between your instance and the Direct Link service. You can grant access at the instance level, which grants the Direct Link service access to all the keys inside that instance. You can also grant access on a key-by-key basis. For instructions, see [Using authorizations to grant access between services](/docs/account?topic=account-serviceauth).
 
    You should grant access to all keys in the instance; otherwise, you must grant a new service-to-service authorization each time that you want to use a different key for Direct Link. As long as a key is in use by your gateway, you should never delete it, nor should you revoke the service-to-service authorization.
+   
+1. If the Key Protect or HPCS instance has a context-based restrictions (CBR) rule, a Direct Link Service Reference must be added to the network zone of that rule. For instructions, see [How Direct Link integrates with context-based restrictions](/docs/dl?topic=dl-cbr&interface=cli#cbr-overview). 
 
 ## Creating base64-encoded encryption keys
 {: #create-encryption-keys}

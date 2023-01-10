@@ -26,7 +26,7 @@ To change the network connection type of a direct link, follow these steps:
 1. Click Menu ![Menu icon](images/menu_icon.png) on the upper left of the page, then click **Interconnectivity**.
 1. Click **Direct Link** in the navigation pane.
 1. Click the name of the direct link that you want to change the connection type for.
-1. Expand the **Actions** menu in the upper right of the page, then click **Edit**.
+1. Expand the **Actions** menu in the upper right of the page, then click **Edit gateway**.
 1. In the Edit configuration pane, scroll to the Connections section and update the connection type.
 
    To switch the type of virtual connection, you must first remove all virtual connections.

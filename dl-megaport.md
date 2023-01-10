@@ -17,7 +17,7 @@ subcollection: dl
 
 Follow these steps to order an {{site.data.keyword.dl_full}} Connect gateway with Megaport:
 
-   For instructions on creating Megaport Cloud Router (MCR) connections, see [MCR Connections to IBM Cloud Direct Link 2.0](https://docs.megaport.com/cloud/mcr/ibm-2.0/).
+   For instructions on creating Megaport Cloud Router (MCR) connections, see [MCR Connections to IBM Cloud Direct Link](https://docs.megaport.com/cloud/mcr/ibm-2.0/).
    {: note}
 
 1. Using your IBM Cloud account, order a {{site.data.keyword.dl_short}} Connect gateway by using the {{site.data.keyword.cloud_notm}} console. For instructions, see [Ordering IBM Cloud Direct Link Connect](/docs/dl?topic=dl-how-to-order-ibm-cloud-dl-connect).
