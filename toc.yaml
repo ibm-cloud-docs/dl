@@ -78,12 +78,12 @@ toc:
             - dl-cross-account-connection.md
             - dl-as-a-spoke.md
             - editing_gateway.md
-            - deleting_gateway.md
             - dl-disable-md5.md
             - dl-bfd-activation.md
             - dl-route-report.md
             - dl-prepend.md            
-            - dl-upgrade-bandwidth.md
+            - dl-upgrade-bandwidth.md            
+            - deleting_gateway.md
         - dl-md5-authentication.md
         - dl-bfd.md
         - ha-dr.md
