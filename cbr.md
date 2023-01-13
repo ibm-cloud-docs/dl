@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years:  2022
-lastupdated: "2022-10-27"
+  years:  2023
+lastupdated: "2023-01-13"
 
 keywords: 
 
@@ -18,8 +18,7 @@ subcollection: dl
 Context-based restrictions give account owners and administrators the ability to define and enforce access restrictions for {{site.data.keyword.cloud}} resources based on the context of access requests. Access to Direct Link resources can be controlled with context-based restrictions and identity and access management policies.
 {: shortdesc}
 
-The preview of this functionality is available only to authorized accounts. 
-{: preview}
+The preview of this functionality is available only to authorized accounts. {: preview}
 
 These restrictions work with traditional IAM policies, which are based on identity, to provide an extra layer of protection. Unlike IAM policies, context-based restrictions don't assign access. Context-based restrictions check that an access request comes from an allowed context that you configure. Since both IAM access and context-based restrictions enforce access, context-based restrictions offer protection even in the face of compromised or mismanaged credentials. For more information, see [What are context-based restrictions](/docs/account?topic=account-context-restrictions-whatis).
 
@@ -29,6 +28,20 @@ A user must have the Administrator role on the Direct Link service to create, up
 Any {{site.data.keyword.cloudaccesstraillong_notm}} or audit log events generated will come from the context-based restrictions service, and not Direct Link. For more information, see [Monitoring context-based restrictions](/docs/account?topic=account-cbr-monitor).
 
 To get started protecting your Direct Link with context-based restrictions, see the tutorial for [Leveraging context-based restrictions to secure your resources](/docs/account?topic=account-context-restrictions-tutorial). 
+
+## Limitations
+{: #cbr-limitations}
+
+Context-based restrictions protect only the actions associated with the [Direct Link API](/apidocs/direct_link). Actions associated with the following platform APIs are not protected by context-based restrictions. Reference the API docs for the specific action IDs.
+
+- [Resource Instance APIs](/apidocs/resource-controller/resource-controller#list-resource-instances)
+- [Resource Keys APIs](/apidocs/resource-controller/resource-controller#list-resource-keys)
+- [Resource Bindings APIs](/apidocs/resource-controller/resource-controller#list-resource-bindings)
+- [Resource Aliases APIs](/apidocs/resource-controller/resource-controller#list-resource-aliases)
+- [IAM Policy APIs](/apidocs/iam-policy-management#list-policies)
+- [Global Search APIs](/apidocs/search)
+- Global Tagging [Attach](/apidocs/tagging#attach-tag) and [Detach](/apidocs/tagging#detach-tag) APIs
+- [Context-based Restriction Rule APIs](/apidocs/context-based-restrictions#create-rule)
 
 ## Creating rules
 {: #dl-creating-rules}
