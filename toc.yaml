@@ -118,12 +118,11 @@ toc:
         - topicgroup:
             label: CLI reference
             topics:
-            - /dl-cli-plugin/dl-cli-plugin-dl-cli
+            - include: ../dl-cli-plugin/direct-link-cli.md
             - cli-change-log.md
         - link:
            label: Terraform reference
            href: https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs/resources/dl_gateway
-
         - dl-comparison-classic.md
         - dl-comparison-locations.md
         - understanding-latency.md
