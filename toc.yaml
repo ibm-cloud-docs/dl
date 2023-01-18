@@ -32,17 +32,18 @@ toc:
            - alternative-deployments.md
            - layer-2-layer-3.md
            - topic: video-hybrid-cloud.md
-             navtitle: "Video: Direct Link for hybrid cloud"
+             navtitle: "Video: Direct Link for hybrid cloud" 
        - topicgroup:
            label: Related links
            topics:
             - link:
-                label: Getting started with IBM Cloud Direct Link on Classic
-                href: /direct-link/direct-link-get-started-with-ibm-cloud-direct-link
+                label: Direct Link on Classic Docs
+                href: https://{DomainName}/docs/direct-link/direct-link-get-started-with-ibm-cloud-direct-link
             - link:
-                label: Getting started with Virtual Private Cloud (VPC)
-                href: /vpc/vpc-getting-started
-            - /vpc/vpc-interconnectivity
+                label: Virtual Private Cloud (VPC) Docs
+                href: https://{DomainName}/docs/vpc/vpc-getting-started
+            - include: ../vpc/private-connectivity-vpe.md
+            - include: ../vpc/interconnectivity.md
        - release_notes.md
 
     - navgroup:
@@ -51,7 +52,7 @@ toc:
         - topicgroup:
             label: Interconnectivity
             topics:
-            - /solution-tutorials/solution-tutorials-byoip
+            - include: ../solution-tutorials/byoip.md
 
     - navgroup:
         id: howto
