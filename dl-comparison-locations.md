@@ -107,12 +107,9 @@ Review location support for Direct Link on Classic offerings versus Direct Link.
 | London 6 | ![Checkmark icon](../icons/checkmark-icon.svg) | ![Checkmark icon](../icons/checkmark-icon.svg) | ![Checkmark icon](../icons/checkmark-icon.svg) | ![Checkmark icon](../icons/checkmark-icon.svg) |    
 | Milan 1 | ![Checkmark icon](../icons/checkmark-icon.svg) | ![Checkmark icon](../icons/checkmark-icon.svg) |  |  |    
 | Milan 2 | ![Checkmark icon](../icons/checkmark-icon.svg) | ![Checkmark icon](../icons/checkmark-icon.svg) |  |  |   
-| Oslo 1 | ![Checkmark icon](../icons/checkmark-icon.svg) |  |  |  |   
-| Oslo 2 | ![Checkmark icon](../icons/checkmark-icon.svg) |  |  |  |
 | Paris 1 | ![Checkmark icon](../icons/checkmark-icon.svg) |  | ![Checkmark icon](../icons/checkmark-icon.svg) |  |  
 | Paris 2 | ![Checkmark icon](../icons/checkmark-icon.svg) | ![Checkmark icon](../icons/checkmark-icon.svg) | ![Checkmark icon](../icons/checkmark-icon.svg) | ![Checkmark icon](../icons/checkmark-icon.svg) |   
 | Paris 3 |  | ![Checkmark icon](../icons/checkmark-icon.svg) | ![Checkmark icon](../icons/checkmark-icon.svg) | ![Checkmark icon](../icons/checkmark-icon.svg) |
-| Stockholm 1 | ![Checkmark icon](../icons/checkmark-icon.svg) |  | ![Checkmark icon](../icons/checkmark-icon.svg) |  |   
 {: caption="Table 3. Direct Link location comparison - EMEA" caption-side="bottom"}
 {: #simpletabtable3}
 {: tab-title="EMEA"}
