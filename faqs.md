@@ -23,11 +23,11 @@ You can review answers to some frequently asked questions about {{site.data.keyw
 {: faq}
 {: support}
 
-The new {{site.data.keyword.dl_short}} offering differs from the {{site.data.keyword.dl_short}} classic infrastructure in that {{site.data.keyword.dl_short}} is decoupled from classic IaaS, and exists only in the local cross-connect router (XCR). This design enables native connectivity to VPC and future capabilities without being forced into the classic IaaS network.
+The {{site.data.keyword.dl_short}} offering differs from {{site.data.keyword.dl_short}} on Classic in that {{site.data.keyword.dl_short}} is decoupled from classic IaaS, and exists only in the local cross-connect router (XCR). This design enables native connectivity to VPC and future capabilities without being forced into the classic IaaS network.
 
-The offering allows connectivity to both classic IaaS as well as VPCs, whereas {{site.data.keyword.dlc_full_notm}} always connects to the IaaS network and a global VRF first. {{site.data.keyword.dlc_full_notm}} can only reach the VPC on a limited basis using a feature named Classic Access and by adding global routing to the direct link. See [Setting up access to your Classic Infrastructure from VPC](/docs/vpc?topic=vpc-setting-up-access-to-classic-infrastructure) for more information.
+Direct Link allows connectivity to both classic IaaS as well as VPCs, whereas {{site.data.keyword.dlc_full_notm}} always connects to the IaaS network and a global VRF first. {{site.data.keyword.dlc_full_notm}} can only reach the VPC on a limited basis using a feature named Classic Access and by adding global routing to the direct link. See [Setting up access to your Classic Infrastructure from VPC](/docs/vpc?topic=vpc-setting-up-access-to-classic-infrastructure) for more information.
 
-For more information about the differences between the new {{site.data.keyword.dl_short}} offering and the classic version, see [How do I know which {{site.data.keyword.dl_short}} solution to order?](/docs/direct-link?topic=direct-link-get-started-with-ibm-cloud-direct-link#get-started-solution-to-order).
+For more information about the differences between the new {{site.data.keyword.dl_short}} offering and the classic version (Direct Link on Classic), see [How do I know which {{site.data.keyword.dl_short}} solution to order?](/docs/direct-link?topic=direct-link-get-started-with-ibm-cloud-direct-link#get-started-solution-to-order).
 {: tip}
 
 ## What is planned for Direct Link on Classic Exchange?
@@ -36,6 +36,13 @@ For more information about the differences between the new {{site.data.keyword.d
 {: support}
 
 The marketplace has evolved since {{site.data.keyword.dl_short}} Exchange was established. With data center operators now blurring the lines as network service providers, IBM will be combining the Exchange offering with Connect on the new "next generation" platform to reflect both this change and simplify the {{site.data.keyword.dl_short}} portfolio. {{site.data.keyword.dl_short}} Exchange will service only the {{site.data.keyword.dl_short}} classic infrastructure. After migrations of the partner inter-connections to the XCRs are complete, Exchange will be moved to End of Marketing (EoM).
+
+## Can I change billing options after my direct link is provisioned?
+{: #switch-billing-options}
+{: faq}
+{: support}
+
+Yes, you can change billing options after a direct link is provisioned, regardless of whether you chose global or local routing. For example, to change from metered to unmetered billing, navigate to the Details page of the direct link and click **Edit**. In the side panel, select **Unmetered** in the Billing section, review the updated information, then agree to the prerequisites and click **Submit**.
 
 ## Will {{site.data.keyword.dl_short}} be available in non-MZRs, or is it only a solution for MZRs?  
 {: #dl-mzr}
@@ -198,7 +205,7 @@ We are unable to support any QoS guarantees. QoS requires MPLS mapping between e
 
 Jumbo frames (up to 9214 bytes) are supported on Direct Link Dedicated.
 
-## How easy is it to upgrade the bandwidth of my {{site.data.keyword.dl_short}} connection, for example 1 - 5 GB?
+## How easy is it to upgrade the bandwidth of my {{site.data.keyword.dl_short}} Dedicated connection, for example 1 - 5 GB?
 {: #how-easy-is-it-to-upgrade-the-bandwidth-of-my-dl-connection}
 {: faq}
 
