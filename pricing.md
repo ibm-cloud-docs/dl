@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020, 2022
-lastupdated: "2022-04-28"
+  years: 2020, 2023
+lastupdated: "2023-02-02"
 
 keywords: pricing, direct link
 
@@ -117,4 +117,5 @@ Local routing is the default routing option. It provides access to data centers 
 
 Global routing expands access to include all {{site.data.keyword.cloud_notm}} data centers globally. There's no charge for global routing on Direct Link. However, Direct Link on Classic will still carry the global routing charge.  
 
-Details on the markets and other considerations can be found in our [FAQs](/docs/dl?topic=dl-faqs).
+Details on the markets, changing billing options, and other considerations can be found in our [FAQs](/docs/dl?topic=dl-faqs).
+{: note}
