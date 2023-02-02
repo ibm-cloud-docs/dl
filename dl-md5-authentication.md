@@ -42,7 +42,7 @@ You can store your keys in either Key Protect or Hyper Protect Crypto Services (
 
 1. After you create encryption keys for Direct Link, use IBM Cloud Identity and Access Management (IAM) to grant authorization between your instance and the Direct Link service. You can grant access at the instance level, which grants the Direct Link service access to all the keys inside that instance. You can also grant access on a key-by-key basis. For instructions, see [Using authorizations to grant access between services](/docs/account?topic=account-serviceauth).
    
-   If you use Key Protect, make sure to select **Resources based on selected attributes**** after you select **Direct Link** for your source service. Then, select either **Resource type > Direct Link Connect** or  **Resource type > Direct Link Dedicated** before you can select **Key Protect** for the Target service.
+   If you use Key Protect, make sure to select **Resources based on selected attributes** after you select **Direct Link** for your source service. Then, select either **Resource type > Direct Link Connect** or  **Resource type > Direct Link Dedicated** before you can select **Key Protect** for the Target service.
    {: important}
 
    You should grant access to all keys in the instance; otherwise, you must grant a new service-to-service authorization each time that you want to use a different key for Direct Link. As long as a key is in use by your gateway, you should never delete it, nor should you revoke the service-to-service authorization.
