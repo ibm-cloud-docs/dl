@@ -24,7 +24,7 @@ These resources are created by {{site.data.keyword.cloud}} and by some IBM Busin
 
 * [Demystifying Direct Link Offerings](https://www.ibm.com/cloud/blog/demystifying-direct-link-offerings){: external}, by Bepsy Paul
 
- [Introducing {{site.data.keyword.dl_full_notm}} 2.0](https://www.ibm.com/cloud/blog/announcements/introducing-ibm-cloud-direct-link-2-0){: external}, by Nicholas Woodyard
+* [Introducing {{site.data.keyword.dl_full_notm}} 2.0](https://www.ibm.com/cloud/blog/announcements/introducing-ibm-cloud-direct-link-2-0){: external}, by Nicholas Woodyard
 
 * [New Border Gateway Protocol (BGP) Features for Direct Link Offering](https://www.ibm.com/cloud/blog/announcements/exciting-new-features-in-ibm-cloud-direct-link){: external}, by Gilberto Tellez and Vaishali Pandya
 
