@@ -85,7 +85,6 @@ toc:
             - dl-prepend.md            
             - dl-upgrade-bandwidth.md            
             - deleting_gateway.md
-            - test.md
         - dl-md5-authentication.md
         - dl-bfd.md
         - ha-dr.md
