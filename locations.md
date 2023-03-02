@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-02-08"
+lastupdated: "2023-03-02"
 
 keywords: direct link
 
@@ -104,6 +104,7 @@ The following table provides details about the {{site.data.keyword.cloud_notm}} 
 | London 6 | DC(AZ3) | CyrusOne (Zenium) | LON1 |
 | Milan 1 | DC | Data 4 | |
 | Milan 2 | PoP | Infracom Italia | Infracom 21 Via Caldera Way |
+| Paris 1 | DC  | Global Switch Limited | PAR01 |
 | Paris 2 | PoP | Equinix | PA2 |
 | Paris 3 | PoP | Equinix | PA4 |
 {: caption="Table 3. Direct Link Dedicated - EMEA" caption-side="bottom"}
