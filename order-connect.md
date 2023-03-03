@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020, 2022
-lastupdated: "2022-09-21"
+  years: 2020, 2023
+lastupdated: "2023-02-12"
 
 keywords: direct link, direct link connect
 
@@ -48,48 +48,32 @@ Make sure to review the following information before ordering Direct Link Connec
 ## Ordering instructions
 {: #instructions-connect}
 
-To order Direct Link Connect, you must determine the location that connects to {{site.data.keyword.cloud_notm}}, complete the required configuration information, then click **Create** to submit your order for processing.
-{: shortdesc}
-
 To order Direct Link Connect, follow these steps:
 
 1. Log in to your [IBM Cloud account](/login){: external}.
 1. Click Menu ![Menu icon](images/menu_icon.png) on the upper left of the page, then click **Interconnectivity**.
-1. Scroll to locate the Connect tile, then click **Order {{site.data.keyword.dl_short}} Connect**.
-
-   ![Direct Link Connect tile](/images/dl-options.png){: caption="Direct Link Connect tile" caption-side="bottom"}  
+1. Scroll to locate the Connect tile, then click **Order {{site.data.keyword.dl_short}} Connect**. 
 
    Alternatively, you can click **Direct Link** on the left navigation pane to view the Direct Link page, which lists existing Direct Link instances. From this page, you can click **Order Direct Link** > **Direct Link Connect**.
    {: tip}
 
-1. In the Before you begin section, click **Open checklist** to review the ordering process (also described in [Completing the connection](/docs/dl?topic=dl-how-to-order-ibm-cloud-dl-connect#complete-connection-connect)).
-
-   ![Before you begin section](/images/dl-before-you-begin.png){: caption="Before you begin section" caption-side="bottom"}  
-
+1. In the Before you begin section, click **Open checklist** to review the ordering process (also described in [Completing the connection](/docs/dl?topic=dl-how-to-order-ibm-cloud-dl-connect#complete-connection-connect)). 
 1. In the Resource section, complete the following information:
    * Type a name for your {{site.data.keyword.dl_short}} connection.
-   * Choose a resource group to create the {{site.data.keyword.dl_short}} connection. Resource groups help manage and contain resources associated with an account. Select **default** if you don't have any other groups defined in the drop-down list. For more information about resource groups, see [Best practices for organizing resources in a resource group](/docs/account?topic=account-account_setup).
-
-      ![Resource section](/images/dl-config-connect.png){: caption="Resource section" caption-side="bottom"}     
-
+   * Choose a resource group to create the {{site.data.keyword.dl_short}} connection. Resource groups help manage and contain resources associated with an account. Select **default** if you don't have any other groups defined in the drop-down list. For more information about resource groups, see [Best practices for organizing resources in a resource group](/docs/account?topic=account-account_setup). 
 1. In the Gateway section, select a geography, followed by a market, type, site, and routing option. Then, select a provider, connection speed, and port.
 
    Available speeds are based on your provider's location. {{site.data.keyword.dl_short}} Connect supports the following speeds: 50 Mbps, 100 Mbps, 200 Mbps, 500 Mbps, 1 Gbps, 2 Gbps, 5 Gbps, and 10 Gbps. (Speeds of 25 Gbps, 40 Gbps, 50 Gbps, and 100 Gbps are available on 100G NNIs only.)
    {: note}  
-
-   ![Location section](/images/dl-location-connect.png){: caption="Location section" caption-side="bottom"}    
-
+ 
    The routing option that you select determines the reachability of the resources in the selected location. If you select the Global routing option along with your location selections, the Region menu list displays all the regions that are globally available in the specific account. After selecting a region, you can select any VPC from the Available connections menu. If you select Local routing, then only the region that corresponds to the selected location is available to select. When selected, the VPCs available in the local region for your account are shown.
-   {: note}
 
 1. In the Billing section, select **Metered** or **Unmetered**. Metered pricing is paying only for what you use; unmetered is unlimited access, for a predicable, monthly fee. Keep in mind that pricing is determined by the routing option and speed that you choose. See [Pricing for {{site.data.keyword.dl_full_notm}}](/docs/dl?topic=dl-pricing-for-ibm-cloud-dl) for details.
-
-   ![Billing section](/images/dl-billing.png){: caption="Billing section" caption-side="bottom"}    
-
-   Unmetered billing is only available for specific speeds.
+ 
+   Unmetered billing is only available for specific speeds. {: #dl-connect-bgp}
    {: important}
 
-1. In the BGP section, complete the following information: {: #dl-dedicated-bgp}
+1. In the BGP section, complete the following information:
 
    * Select the IBM cross-connect router for the {{site.data.keyword.dl_short}} connection. The number of direct links associated with your account for each router is shown next to the router name.   
    * Select a BGP peering subnet for the {{site.data.keyword.dl_short}} connection. There are two choices for BGP subnets:
@@ -105,11 +89,8 @@ To order Direct Link Connect, follow these steps:
       * For a 2-byte or 4-byte range, enter a value between `131072-4199999999`.
       * For a 4-byte range, enter a value between `4201000000-4201064511`.
 
-      Excluded ASNs: `0`, `13884`, `36351`, `64512`, `64513`, `65100`, `65201‍`–‍`65234`, `65402‍–‍65433`, `65500`, and `4201065000‍`–‍`4201065999`.
-
-      ![BGP section](/images/bgp-dedicated.png){: caption="BGP section" caption-side="bottom"}     
-
-1. In the Additional BGP settings section, you can activate one or more of these optional settings.
+      Excluded ASNs: `0`, `13884`, `36351`, `64512`, `64513`, `65100`, `65201‍`–‍`65234`, `65402‍–‍65433`, `65500`, and `4201065000‍`–‍`4201065999`. 
+1. In the Additional BGP settings section, you can activate one or more of these optional settings. Make sure to enable the switch for each section before configuring the settings. 
 
    * **Verify data integrity with Message Digest 5 (MD5)** - Add an extra layer of security between two BGP peers by verifying each transmitted message sent through the BGP session. When MD5 authentication is activated, BGP authenticates every segment sent over the TCP session from its peer and verifies the source of each routing update.
 
@@ -122,10 +103,8 @@ To order Direct Link Connect, follow these steps:
       Complete the following information:
       * For the keystore, select either **Hyper Protect Crypto Services** or **Key Protect**.
       * Select an authentication keystore instance.
-      * Select an authentication key.
-
-      ![Message Digest (MD5) authentication section](/images/bgp-md5-option.png){: caption="Message Digest (MD5) authentication section" caption-side="bottom"} 
-
+      * Select an authentication key. 
+      
    * **Detect network failures with Bidirectional Forwarding Detection (BFD)** - Activate BFD to quickly detect faults in a network between two routers or switches that are connected by a link. BFD provides a single, standardized method for detecting link failures at any protocol layer, over any media. For more information, see [Setting up bidirectional forwarding detection](/docs/dl?topic=dl-dl-bfd).
 
       Activating and deactivating BFD after the BGP session is established causes BGP session downtime and network disruption until the BGP peer device is configured for the same change.
@@ -133,14 +112,10 @@ To order Direct Link Connect, follow these steps:
 
       Complete the following information:
       * Interval – The interval is the minimum time (in milliseconds) expected to occur between when the local routing device sends BFD hello packets and the reply from its neighbor. This value can range from 300 to 255,000 milliseconds.
-      * Multiplier – The multiplier is the number of times that a hello packet is missed before BFD declares the neighbor down. This value can range from 1 to 255. The default multiplier value is 3.
-
-      ![Bidirectional Forwarding Detection (BFD) section](/images/bgp-opt-settings.png){: caption="Bidirectional Forwarding Detection (BFD) section" caption-side="bottom"}    
+      * Multiplier – The multiplier is the number of times that a hello packet is missed before BFD declares the neighbor down. This value can range from 1 to 255. The default multiplier value is 3. 
       
-   * **Manipulate how traffic is routed using AS prepends** - Adjust route preference by lengthening AS paths with multiples of the BGP Autonomous System Number (ASN). When the prefix is matched, the longer AS path becomes a lower priority for the BGP router. For more information, see [Prepending an AS path to influence route priority](/docs/dl?topic=dl-prepend-as-paths).
-
-      ![AS prepends section](/images/as-prepends-option.png){: caption="AS prepends section" caption-side="bottom"}  
-
+   * **Prioritize direct links with AS prepends** - Adjust route preference by lengthening AS paths with multiples of the BGP Autonomous System Number (ASN). When the prefix is matched, the longer AS path becomes a lower priority for the BGP router. For more information, see [Prepending an AS path to influence route priority](/docs/dl?topic=dl-prepend-as-paths). 
+   
 1. In the Connections section, select the type of network connection that you want to bind to the {{site.data.keyword.dl_short}} gateway. You can select a connection type when you create a direct link, or after your direct link is provisioned.
 
    Select from the following connection types:
@@ -157,15 +132,15 @@ To order Direct Link Connect, follow these steps:
 
       If you select **Transit Gateway** as the type of network connection, you must also initiate a Direct Link connection through the [{{site.data.keyword.cloud_notm}} Transit Gateway console](/interconnectivity/transit){: external} from the same {{site.data.keyword.cloud_notm}} account. For instructions, see [Adding a connection](/docs/transit-gateway?topic=transit-gateway-adding-connections){: external}.
       {: important}  
-
-      ![Connection types](/images/dl-connections.png){: caption="Connection types" caption-side="bottom"}  
-
+  
 1. An order summary shows pricing estimates for your review. Read and agree to the [{{site.data.keyword.dl_short}} prerequisites](/docs/dl?topic=dl-ibm-cloud-dl-prerequisites) and review Cloud Services [Terms](https://www.ibm.com/software/sla/sladb.nsf/searchsaas/?searchview&searchorder=4&searchmax=0&query=(Direct+Link+Connect)){: external}. Then, click **Create** to complete your order.  
 
    If you want to add GB egress data to your estimate, click **Add to estimate** to calculate the cost. You can also click the **About** tab for links to {{site.data.keyword.dl_short}} pricing tables and other helpful resources.
    {: tip}
 
-After you create your {{site.data.keyword.dl_short}} order, the {{site.data.keyword.dl_short}} dashboard indicates **Create in progress** order status. If you refresh the page after a few minutes, it shows **Provisioned** status.
+After you create your {{site.data.keyword.dl_short}} order, the {{site.data.keyword.dl_short}} dashboard indicates **Create in progress** order status.
+
+If you refresh the page after a few minutes, it shows **Provisioned** status.
 
 ## Completing the connection
 {: #complete-connection-connect}
