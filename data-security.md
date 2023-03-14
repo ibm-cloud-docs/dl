@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020
-lastupdated: "2020-02-24"
+  years: 2020, 2023
+lastupdated: "2023-03-14"
 
 keywords: direct link
 
@@ -15,7 +15,7 @@ subcollection: dl
 # Securing your data in {{site.data.keyword.dl_short}}
 {: #mng-data}
 
-{{site.data.keyword.dl_short}} does not store any customer data. Data transmitted through a transit gateway is not encrypted by IBM.
+{{site.data.keyword.dl_short}} does not store any customer data. Data transmitted through a direct link gateway is not encrypted by IBM.
 
 Data about your specific {{site.data.keyword.dl_short}} configuration are encrypted in transit and at rest. Configuration data is deleted upon your request through API or User Interface.
 {: shortdesc}
