@@ -25,7 +25,7 @@ Data about your specific {{site.data.keyword.dl_short}} configuration are encryp
 
 All interaction with {{site.data.keyword.dl_short}} from clients is encrypted. For example, when a client uses an API or interacts with the service via User Interface to configure gateways and connections, all such interactions are fully end-to-end encrypted. Likewise, data elements related to the clients' configuration are encrypted in transit and at rest. No personal or sensitive data is stored, processed, or transmitted. Data at rest is stored in an encrypted database.
 
-However, the result of using {{site.data.keyword.dl_short}} is to join customer networks together. Once networks are joined together, for example from one VPC to another, the encryption of data that clients choose to transmit across the network is the client's responsibility.
+However, the result of using {{site.data.keyword.dl_short}} is to join customer networks together. After networks are joined together, for example from on-premises networks to a VPC, the encryption of data that clients choose to transmit across the network is the client's responsibility.
 
 ## Protecting your sensitive data in {{site.data.keyword.dl_short}}
 {: #data-encryption}
