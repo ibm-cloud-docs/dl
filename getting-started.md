@@ -38,7 +38,7 @@ To get started using {{site.data.keyword.dl_full_notm}} Dedicated, follow these 
 ## {{site.data.keyword.dl_short}} Connect
 {: #get-started-with-direct-link-connect}
 
-Use a service provider to quickly establish and deliver connectivity to IBM Cloud locations. These Connect providers are already connected to the IBM Cloud network that uses multi-tenant, high capacity links (also known as network-to-network interfaces, or NNI).  
+Use a service provider to quickly establish and deliver connectivity to IBM Cloud locations. These service providers are already connected to the IBM Cloud network that uses multi-tenant, high capacity links (also known as network-to-network interfaces, or NNI).  
 
 To get started using {{site.data.keyword.dl_full_notm}} Connect, follow these [instructions](/docs/dl?topic=dl-how-to-order-ibm-cloud-dl-connect) for ordering the service.
 

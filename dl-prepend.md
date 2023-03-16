@@ -39,7 +39,6 @@ To prepend an AS path by using the UI, follow these steps:
    Alternatively, you can use the **AS prepends** shortcut on the Overview tab.
    {: tip}
 
-   ![AS prepends](images/prepends-details.png "AS prepends"){: caption="AS prepends" caption-side="bottom"}       
 1. From the AS prepends page, click **Create** to create an AS prepend, or use the Actions ![Actions menu](images/overflow.png) menu to **Edit** or **Delete** an existing AS prepend.
 
    1. Select **Prepend to all prefixes** if you want the specified prepend added to all prefixes.
@@ -50,8 +49,6 @@ To prepend an AS path by using the UI, follow these steps:
       * Export - Use to apply to routes _to_ an on-prem network.
    1. Specify how many times that you want to repeat the AS number added to the beginning of the path.  
    1. Click **Add to list**.
-
-   ![Creating an AS prepend](images/prepends-create2.png "Creating an AS prepend"){: caption="Creating an AS prepend" caption-side="bottom"}
 
 1. When you are done adding AS prepends, click **Save**.
 

@@ -27,14 +27,10 @@ To edit a direct link, follow these steps:
 
 1. Click the Direct Link name in the table to show its details. Alternatively, you can click the **Actions** icon at the end of the table row of a provisioned direct link to edit gateway features.sc
    
-   If your Direct Link connection was ordered through a third-party Connect provider (as described in [{{site.data.keyword.cloud_notm}} Getting started with IBM Cloud Direct Link](/docs/dl?topic=dl-get-started-with-ibm-cloud-dl), you might not be able to edit your BGP configuration as described here. The direct link's details page will display a note stating, "This direct link is read-only. Link-specific actions must be initiated through the provider portal." To edit your BGP configuration, contact your provider either directly, or through the provider's portal.
+   If your Direct Link connection was ordered through a third-party service provider (as described in [{{site.data.keyword.cloud_notm}} Getting started with IBM Cloud Direct Link](/docs/dl?topic=dl-get-started-with-ibm-cloud-dl)), you might not be able to edit your BGP configuration as described here. The direct link's details page will display a note stating, "This direct link is read-only. Link-specific actions must be initiated through the provider portal." To edit your BGP configuration, contact your provider either directly, or through the provider's portal.
    {: important}
 
-   ![Edit a direct link](/images/dl-edit.png){: caption="Edit a direct link" caption-side="bottom"}
-
 1. Click **Edit** link in the upper right of the Details or BGP section. A page with the current configuration shows. For example, you can update the BGP Autonomous System Number (ASN), or enable a BGP feature.  
-
-   ![Edit BGP content](/images/dl-bgp-edit.png){: caption="Edit BGP content" caption-side="bottom"}
 
    **Important**: Keep in mind that the following tasks result in downtime where traffic is interrupted:
 
@@ -79,7 +75,7 @@ curl -X PATCH https://$DL_ENDPOINT/v1/gateways/$GATEWAY_ID?version=2019-12-13 -H
 
 Python example:
 
-```sh
+```python
 Import json
 From ibm_cloud_networking_services importDirectLinkV1
 fromibm_cloud_networking_services.direct_link_v1 import(

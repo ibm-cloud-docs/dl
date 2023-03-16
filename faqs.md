@@ -83,12 +83,12 @@ Yes, this is possible on {{site.data.keyword.dl_short}}. The VRF created is loca
 When routing on-premises subnets from the direct link through a VPC, you must create a route in the VPC routing table. For more information, see [Creating a route](/docs/vpc?topic=vpc-create-vpc-route).
 {: note}
 
-## Are there documented limitations on {{site.data.keyword.dl_short}}?
+## Are there documented limitations for {{site.data.keyword.dl_short}}?
 {: #direct-link-vpc-limitations}
 {: faq}
 {: support}
 
-Yes, they are listed in the Virtual Private Cloud [Quotas](/docs/vpc?topic=vpc-quotas) documentation.
+Yes, they are listed in [Known limitations](/docs/dl?topic=dl-known-limitations&interface=ui).
 
 ## How do I move from  {{site.data.keyword.dlc_full_notm}} to the new  {{site.data.keyword.dl_short}}?
 {: #move-classic-to-new}
@@ -147,7 +147,7 @@ You might have extra charges from your provider. See to your carrier or service 
 {: #how-can-i-achieve-redundancy-with-ibm-cloud-dl}
 {: faq}
 
-{{site.data.keyword.dl_short}} does not provide an inherently redundant service. {{site.data.keyword.dl_short}} can provide diverse connections that enable you to create redundancy using BGP. You can achieve diversity with {{site.data.keyword.dl_short}} by connecting to more than one {{site.data.keyword.dl_full_notm}} Dedicated provider for {{site.data.keyword.cloud_notm}}.
+{{site.data.keyword.dl_short}} does not provide an inherently redundant service. {{site.data.keyword.dl_short}} can provide diverse connections that enable you to create redundancy using BGP. You can achieve diversity with {{site.data.keyword.dl_short}} by connecting to more than one {{site.data.keyword.dl_full_notm}} Dedicated service provider for {{site.data.keyword.cloud_notm}}.
 
 ## What's the difference between the default local routing and global routing for {{site.data.keyword.dl_short}}?
 {: #what-is-the-difference-between-the-default-local-routing-and-the-global-routing-add-on-for-dl}

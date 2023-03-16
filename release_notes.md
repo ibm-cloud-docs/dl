@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2022
-lastupdated: "2022-09-21"
+  years: 2022, 2023
+lastupdated: "2023-03-20"
 
 keywords: direct link release notes
 
@@ -19,6 +19,13 @@ content-type: release-note
 
 Check back regularly to see what's new with {{site.data.keyword.cloud}} Direct Link.
 {: shortdesc}
+
+## 20 March 2023
+{: #dl-march2023}
+{: release-note}
+
+BGP route filtering support
+:   Configure route filters to control the inbound routes learned by your direct link and outbound routes advertised by your direct link. BGP route filtering can help reduce resource usage, influence network traffic, and add security. For more information, see [About route filtering](/docs/dl?topic=dl-filter-routes).
 
 ## 21 September 2022
 {: #dl-september2122}

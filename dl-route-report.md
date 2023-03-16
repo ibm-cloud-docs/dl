@@ -40,13 +40,12 @@ To generate a route report by using the UI, follow these steps:
 1. From your browser, open the [{{site.data.keyword.cloud_notm}} console](/login){: external} and log in to your account.
 1. Select the Menu icon ![Menu icon](../../icons/icon_hamburger.svg) from the upper left, then click **Interconnectivity > Direct Link**.
 1. In the Direct Link table, click the Direct Link name that you want to generate the report for. 
-1. On the Details page, click the **BGP** tab. Then, select **Generate report** from the Actions ![Actions menu](images/overflow.png) menu (or click the **Generate report** link). 
+1. On the Details page, click the **BGP** tab. Then, select **Generate report** from the Actions ![Actions menu](images/overflow.png) menu (or click the **Generate report** link).
 
-   ![Generating a route report](images/route-report-generate.png "Generating a route report"){: caption="Generating a route report" caption-side="bottom"}
+   Alternatively, you can use the **Route report** shortcut on the Overview tab.
+   {: tip}
    
    The route report begins building, and might take a few minutes to generate depending on the complexity of the direct link. Keep in mind that you cannot generate another report until the report is finished processing, or unless you click **Cancel report**.
-   
-   ![Processing a route report](images/route-report-processing.png "Processing a route report"){: caption="Processing a route report" caption-side="bottom"}
 
 After the report generates, the following columns are displayed in the route report table.
 

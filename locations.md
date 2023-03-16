@@ -115,10 +115,10 @@ The following table provides details about the {{site.data.keyword.cloud_notm}} 
 
 \* New York City 2 and 3 connect to the IBM Cloud backbone through New York City 1. The primary reason for these PoPs is to extend connectivity to different site providers from our New York City 1 site. When planning your diversity strategy, keep in mind that traffic for New York City 2 and 3 have a single, shared path to the IBM network.
 
-## Direct Link Connect providers and locations
+## Direct Link Connect service providers and locations
 {: #connect-locations}
 
-The following table lists {{site.data.keyword.dl_short}} Connect providers and locations.
+The following table lists {{site.data.keyword.dl_short}} Connect service providers and their locations.
 {: shortdesc}
 
 | Provider | Locations | API integration |

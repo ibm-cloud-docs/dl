@@ -32,13 +32,9 @@ To change the network connection type of a direct link, follow these steps:
    To switch the type of virtual connection, you must first remove all virtual connections.
    {: important}
 
-   ![Edit configuration](/images/dl-edit-config.png){: caption="Edit configuration" caption-side="bottom"}
-
 1. Click **Submit** for your changes to take effect.
 
 If you selected **Transit Gateway** as your network connection type, you must use the same account to create a network connection to your direct link via the [{{site.data.keyword.cloud_notm}} Transit Gateway console](/interconnectivity/transit){: external}. 
 {: important}
 
 The **Virtual connection type** is shown on the direct link's details page.
-
-![Network connection type](/images/dl-details-tgw.png){: caption="Network connection type" caption-side="bottom"}
