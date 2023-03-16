@@ -36,14 +36,9 @@
       "view_more": "/docs/dl?topic=dl-direct-link-release-notes",
       "tiles": [
         {
-          "date": "21 September 2022",
-          "title": "BGP AS prepending support",
-          "description": "Prepend one or more autonomous system numbers (ASNs) at the beginning of an AS path. Prepending an AS path makes a shorter AS path look longer and therefore less preferable to the BGP router."
-        },  
-        {
-          "date": "21 September 2022",
-          "title": "Generate a route report for a specific direct link",
-          "description":"Request a route report to verify expected routes and figure out which routes are associated with attached virtual connections. This assists in diagnosing and troubleshooting routing and connectivity issues."
+          "date": "16 March 2023",
+          "title": "BGP Route Filtering support",
+          "description": "Route filtering is a method for selectively identifying routes that are advertised or received from neighbor routes. Use route filtering to manipulate traffic flows, reduce memory usage, and improve security."
         }
       ]
     }
