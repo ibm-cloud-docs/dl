@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2022
-lastupdated: "2022-09-21"
+  years: 2022, 2023
+lastupdated: "2023-03-16"
 
 keywords: direct link cli change log
 
@@ -22,6 +22,31 @@ Learn about the latest changes, improvements, and updates for the IBM Cloud Dire
 
 To learn about general updates and improvements to Direct Link offerings, see [Release notes for Direct Link](/docs/dl?topic=dl-direct-link-release-notes).
 {: note}
+
+## 16 March 2023
+{: #dl-mar1623
+{: release-note}
+
+BGP route filtering support
+:    New commands:
+
+     Export route filters
+
+   * [View details of an export route filter by ID](/docs/dl?topic=dl-dl-cli#export-route-filter) - `export-route-filter`, `erf`
+   * [List all export route filters](/docs/dl?topic=dl-dl-cli#export-route-filters) - `export-route-filters`, `erfs`
+   * [Create an export route filter](/docs/dl?topic=dl-dl-cli#export-route-filter-create) - `export-route-filter-create`, `erfc`
+   * [Delete an export route filter](/docs/dl?topic=dl-dl-cli#export-route-filter-delete) - `export-route-filter-delete`, `erfd`
+   * [Replace all export route filters](/docs/dl?topic=dl-dl-cli#export-route-filter-replace) - `export-route-filter-replace`, `erfr`
+   * [Update an export route filter](/docs/dl?topic=dl-dl-cli#export-route-filter-update) - `export-route-filter-update`, `erfu`
+    
+    Import route filters
+
+   * [View details of an import route filter by ID](/docs/dl?topic=dl-dl-cli#import-route-filter) - `import-route-filter`, `irf`
+   * [List all export route filters](/docs/dl?topic=dl-dl-cli#import-route-filters) - `import-route-filters`, `irfs`
+   * [Create an export route filter](/docs/dl?topic=dl-dl-cli#import-route-filter-create) - `import-route-filter-create`, `irfc`
+   * [Delete an export route filter](/docs/dl?topic=dl-dl-cli#import-route-filter-delete) - `import-route-filter-delete`, `irfd`
+   * [Replace all export route filters](/docs/dl?topic=dl-dl-cli#import-route-filter-replace) - `import-route-filter-replace`, `irfr`
+   * [Update an export route filter](/docs/dl?topic=dl-dl-cli#import-route-filter-update) - `import-route-filter-update`, `irfu`
 
 ## 21 September 2022
 {: #dl-sep1222}
