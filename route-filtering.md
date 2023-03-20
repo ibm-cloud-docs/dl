@@ -27,3 +27,10 @@ Route filter configurations do not act as a firewall. Route filters affect only 
 {: note}
 
 Route filters include a prefix (an address and mask length), an optional minimum matching length (GE, greater than or equal to), and a maximum matching length (LE, less than or equal to). Combined, these values comprise the prefix match specifications of the route filter and determine if the filter will apply to a given route.
+
+## Related links
+{: #route-filtering-related-links}
+
+* [Configuring route filters](/docs/dl?topic=dl-configure-route-filters)
+* [Route filtering examples](/docs/dl?topic=dl-route-filtering-examples)
+* [Filtering routes using Transit Gateway prefix filtering](/docs/dl?topic=dl-prefix-filtering)
