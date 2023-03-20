@@ -24,7 +24,7 @@ To learn about general updates and improvements to Direct Link offerings, see [R
 {: note}
 
 ## 16 March 2023
-{: #dl-mar1623
+{: #dl-mar1623}
 {: release-note}
 
 BGP route filtering support
