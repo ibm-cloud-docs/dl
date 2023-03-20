@@ -72,8 +72,8 @@ To order {{site.data.keyword.dl_full}} Dedicated, follow these steps.
    The routing option that you select determines the reachability of the resources in the selected location. If you select the **Global** routing option along with your location selections, the **Region** menu list displays all the regions that are globally available in the specific account. After selecting a region, you can select any VPC from the **Available connections** menu. If you select **Local** routing, then only the region that corresponds to the selected location is available to select. When selected, the VPCs available in the local region for your account are shown.
    {: note}
 
-1. In the Billing section, select **Metered** or **Unmetered**. Metered pricing is paying only for what you use. Unmetered is unlimited access, for a predicable, monthly fee. See [Pricing for {{site.data.keyword.dl_full_notm}}](/docs/dl?topic=dl-pricing-for-ibm-cloud-dl) for details. {: #dl-dedicated-bgp}
-1. In the BGP section, complete the following information: {: #dl-dedicated-bgp} 
+1. In the Billing section, select **Metered** or **Unmetered**. Metered pricing is paying only for what you use. Unmetered is unlimited access, for a predicable, monthly fee.{: #dl-dedicated-bgp}
+1. In the BGP section, complete the following information:
    * Select the IBM cross-connect router for the {{site.data.keyword.dl_short}} connection. The number of direct links associated with your account for each router is shown next to the router name.   
    * Select a BGP peering subnet for the {{site.data.keyword.dl_short}} connection. There are two choices for BGP subnets:
       * Select **Manual-select IP** to specify two of your own IP addresses (in CIDR format) from the ranges `10.254.0.0/16`, `172.16.0.0/12`, `192.168.0.0/16`, `169.254.0.0/16`, or `Public` (a public IP address that you own). Manual-select is useful when trying to avoid conflicts with an existing subnet that is in use. 
@@ -169,8 +169,7 @@ Here's how the process works:
 If you decide to cancel your direct link, remember to disconnect the cross-connect router with the site provider; otherwise, you will continue to be charged for the cross-connect.
 {: important}
 
-## Related links
+## Related link
 {: #related-links-dedicated}
 
-* [Direct Link Dedicated locations](/docs/dl?topic=dl-locations#dedicated-locations)
-* [Pricing for IBM Cloud Direct Link](/docs/dl?topic=dl-pricing-for-ibm-cloud-dl)
+[Direct Link Dedicated locations](/docs/dl?topic=dl-locations#dedicated-locations)

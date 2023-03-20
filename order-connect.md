@@ -70,7 +70,7 @@ To order Direct Link Connect, follow these steps:
  
    The routing option that you select determines the reachability of the resources in the selected location. If you select the Global routing option along with your location selections, the Region menu list displays all the regions that are globally available in the specific account. After selecting a region, you can select any VPC from the Available connections menu. If you select Local routing, then only the region that corresponds to the selected location is available to select. When selected, the VPCs available in the local region for your account are shown.
 
-1. In the Billing section, select **Metered** or **Unmetered**. Metered pricing is paying only for what you use; unmetered is unlimited access, for a predicable, monthly fee. Keep in mind that pricing is determined by the routing option and speed that you choose. See [Pricing for {{site.data.keyword.dl_full_notm}}](/docs/dl?topic=dl-pricing-for-ibm-cloud-dl) for details.
+1. In the Billing section, select **Metered** or **Unmetered**. Metered pricing is paying only for what you use; unmetered is unlimited access, for a predicable, monthly fee. Keep in mind that pricing is determined by the routing option and speed that you choose.
  
    Unmetered billing is only available for specific speeds. {: #dl-connect-bgp}
    {: important}
@@ -157,8 +157,7 @@ To complete your connection, follow these steps:
 1. Create a request on the provider portal to order a virtual circuit. Reference the case ID of the {{site.data.keyword.dl_short}} Connect request as your Request ID or Authorization ID.      
 1. Configure the BGP parameters on your Edge router for BGP session establishment. After this completes, the BGP status indicates `Established`.
 
-## Related links
+## Related link
 {: #related-links-connect}
 
-* [Direct Link Connect service providers and locations](/docs/dl?topic=dl-locations#connect-locations)
-* [Pricing for IBM Cloud Direct Link](/docs/dl?topic=dl-pricing-for-ibm-cloud-dl)
+[Direct Link Connect service providers and locations](/docs/dl?topic=dl-locations#connect-locations)
