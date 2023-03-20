@@ -2,7 +2,7 @@
 
 copyright:
   years: 2022, 2023
-lastupdated: "2022-09-21"
+lastupdated: "2023-03-16"
 
 keywords: direct link api change log
 
@@ -24,9 +24,7 @@ Check back regularly to see what's new with {{site.data.keyword.cloud}} Direct L
 {: #dl-mar1623}
 
 BGP route filtering support
-:   New commands
-
-    Gateway export route filters
+:   New commands: Gateway export route filters
 
    * List export route filters - `GET /gateways/{gateway_id}/export_route_filters`
    * Create an export route filter - `POST /gateways/{gateway_id}/export_route_filters`
@@ -35,7 +33,7 @@ BGP route filtering support
    * Retrieves the specified Direct Link export route filter - `GET /gateways/{gateway_id}/export_route_filters/{id}`
    * Updates the specified Direct Link export route filter - `PATCH /gateways/{gateway_id}/export_route_filters/{id}`
 
-    Gateway import route filters
+:   New commands: Gateway import route filters
 
    * List import route filters - `GET /gateways/{gateway_id}/import_route_filters`
    * Create an import route filter - `POST /gateways/{gateway_id}/import_route_filters`
