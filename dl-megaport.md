@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020, 2021
-lastupdated: "2021-06-24"
+  years: 2020, 2023
+lastupdated: "2023-03-22"
 
 keywords: direct link
 
@@ -69,4 +69,7 @@ Follow these steps to order an {{site.data.keyword.dl_full}} Connect gateway wit
 
 After IBM verifies and approves the inbound IBM VXC, the {{site.data.keyword.dl_full_notm}} Connect status changes to **Provisioned** and the Megaport VXC is active.
 
-The timeline for IBM approval is from 24 to 48 hours. If the 24 to 48 hour Service Level Agreement (SLA) is not acceptable, you can create an [IBM Support case](/unifiedsupport/cases/form) and request that it be routed to the IBM Special Network Service (SNS) team. Include the service key in your case.
+The timeline for IBM approval is from 24 to 48 hours and requires both an IBM Direct Link order in the IBM Cloud console and in the Megaport portal for provisioning. If the 24 to 48 hour Service Level Agreement (SLA) is not acceptable, you can create an [IBM Support case](/unifiedsupport/cases/form) and request that it be routed to the IBM Special Network Service (SNS) team. 
+
+Include the service key in your case.
+{: note}
