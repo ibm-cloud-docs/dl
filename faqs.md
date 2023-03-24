@@ -106,8 +106,7 @@ The new {{site.data.keyword.dl_short}} performs better as it's not required to e
 {: #cost}
 {: faq}
 
-There are two pricing plans: metered and unmetered. Metered has a port fee and bill per GB egressed across the {{site.data.keyword.dl_short}}.
-Unmetered billing has a higher port fee and no usage charges, which are ideal for customers who consistently egress traffic across their direct link.
+There are two pricing plans: metered and unmetered. Metered has a port fee and bill per GB egressed across the {{site.data.keyword.dl_short}}. Unmetered billing has a higher port fee and no usage charges, which are ideal for customers who consistently egress traffic across their direct link.
 
 ## What are the tools for monitoring the consumption of resources associated with the service, as well as the costs and the quality of the service?
 {: #view-egress-usage}
@@ -167,7 +166,7 @@ Global routing prevents you from experiencing unexpected data costs when travers
 {: #if-i-am-connected-to-a-dl}
 {: faq}
 
-Yes, you are able to gain access to areas outside of your local market if you choose global routing. If this option is not selected, your {{site.data.keyword.dl_short}} traffic is limited to the local market for the PoP or data center location you selected. See [Pricing for {{site.data.keyword.dl_full_notm}}](/docs/dl?topic=dl-pricing-for-ibm-cloud-dl) for details.
+Yes, you are able to gain access to areas outside of your local market if you choose global routing. If this option is not selected, your {{site.data.keyword.dl_short}} traffic is limited to the local market for the PoP or data center location you selected.
 
 ## Can I connect to any available region from a given {{site.data.keyword.dl_short}} location?
 {: #can-i-connect-to-any-available-region-from-a-given-dl-location}
