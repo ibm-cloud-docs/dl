@@ -163,7 +163,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect service provide
 |----|----|
 | Amsterdam 2 | Colt  \n Epsilon  \n IBM BlueFringe  \n  Megaport  \n nextGen GNPP |
 | Chicago 1 | Cologix  \n Equinix  \n Megaport |
-| Dallas 3 |  AT&T NetBond for Cloud  \n Equinix  \n IBM BlueFringe  \n Neutrona  \n nextGen GNPP  \n Console Connect  \n Zayo |
+| Dallas 3 |  AT&T NetBond for Cloud  \n Console Connect  \n Equinix  \n IBM BlueFringe  \n Neutrona  \n nextGen GNPP  \n Zayo |
 | Dallas 4 |  PacketFabric  \n Megaport |
 | Dallas 12 | IBM Power Virtual Server |
 | Dallas 13 | IBM Power Virtual Server |
