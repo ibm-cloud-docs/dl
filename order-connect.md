@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-02-12"
+lastupdated: "2023-03-22"
 
 keywords: direct link, direct link connect
 
@@ -42,6 +42,7 @@ IBM Cloud over partner interconnects (also known as network-to-network interface
 
 * [AT&T NetBond for Cloud](/docs/dl?topic=dl-netbond)
 * [AT&T NetBond Essentials via Equinix Fabric](/docs/dl?topic=dl-att-netbond-essentials)
+* [Cologix](/docs/dl?topic=dl-cologix-instructions)
 * [DE-CIX](/docs/dl?topic=dl-de-cix)
 * [Equinix](/docs/dl?topic=dl-equinix)
 * [Megaport](/docs/dl?topic=dl-megaport)
