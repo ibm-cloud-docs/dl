@@ -30,6 +30,46 @@ Direct Link allows connectivity to both classic IaaS as well as VPCs, whereas {{
 For more information about the differences between the new {{site.data.keyword.dl_short}} offering and the classic version (Direct Link on Classic), see [How do I know which {{site.data.keyword.dl_short}} solution to order?](/docs/direct-link?topic=direct-link-get-started-with-ibm-cloud-direct-link#get-started-solution-to-order).
 {: tip}
 
+## Where can I find Direct Link pricing and what do I pay for? 
+{: #pricing-billing}
+{: faq}
+
+### Where do I find cost estimates for Direct Link offerings?
+{: #pricing}
+{: faq}
+
+You can estimate the cost of a service using the cost estimator on the provisioning pages for Direct Link offerings. For example, log in to the [IBM Cloud Direct Link console](/interconnectivity/direct-link) and click **Order Direct Link**. Then, you can choose to order **Direct Link Connect** or **Direct Link Dedicated**. As you complete the ordering form, cost estimates appear in the Summary side panel.
+
+### In terms of cost, what do I pay for?
+{: #cost}
+{: faq}
+
+There are two pricing plans: metered and unmetered. Metered has a port fee and bill per GB egressed across the {{site.data.keyword.dl_short}}.
+Unmetered billing has a higher port fee and no usage charges, which are ideal for customers who consistently egress traffic across their direct link.
+
+### Can I change billing options after my direct link is provisioned?
+{: #switch-billing-options}
+{: faq}
+{: support}
+
+Yes, you can change billing options after a direct link is provisioned, regardless of whether you chose global or local routing. For example, to change from metered to unmetered billing, navigate to the Details page of the direct link and click **Edit**. In the side panel, select **Unmetered** in the Billing section, review the updated information, then agree to the prerequisites and click **Submit**.
+
+### When does billing begin with {{site.data.keyword.dl_short}}?
+{: #when-does-billing-begin-with-dl}
+{: faq}
+
+The fees for {{site.data.keyword.dl_short}} cover the cost of service termination on the {{site.data.keyword.cloud_notm}} infrastructure.
+
+Infrastructure services are billed in advance and begin upon acceptance of a client’s order. However, due to the nature of {{site.data.keyword.dl_full_notm}}, the {{site.data.keyword.dl_short}} service billing begins when a BGP session is established with {{site.data.keyword.cloud_notm}}, or 30 days after the order is submitted.
+
+Billing stops after (1) you request a circuit to be deleted, and (2) the provider has de-provisioned the circuit.
+
+### What extra charges will I incur from other parties with {{site.data.keyword.dl_short}}?
+{: #what-additional-charges-will-i-incur-from-other-parties-with-dl}
+{: faq}
+
+You might have extra charges from your provider. See to your carrier or service provider for their fee information.
+
 ## What is planned for Direct Link on Classic Exchange?
 {: #exchange-eom}
 {: faq}
@@ -95,45 +135,6 @@ Yes, they are listed in [Known limitations](/docs/dl?topic=dl-known-limitations&
 
 The new {{site.data.keyword.dl_short}} performs better as it's not required to exist inside your global VRF for classic IaaS. It is a true access platform to all of {{site.data.keyword.cloud_notm}}.
 
-## Where can I find Direct Link pricing and what do I pay for? 
-{: #pricing-billing}
-{: faq}
-
-### Where do I find cost estimates for Direct Link offerings?
-{: #pricing}
-{: faq}
-
-You can estimate the cost of a service using the cost estimator on the provisioning pages for Direct Link offerings. For example, [log in to the IBM Cloud console](/interconnectivity/direct-link) and click **Order Direct Link**. Then, choose to order Direct Link Connect or Direct Link Dedicated. As you complete the ordering form, cost estimates appear in the Summary side panel.
-
-### In terms of cost, what do I pay for?
-{: #cost}
-{: faq}
-
-There are two pricing plans: metered and unmetered. Metered has a port fee and bill per GB egressed across the {{site.data.keyword.dl_short}}.
-Unmetered billing has a higher port fee and no usage charges, which are ideal for customers who consistently egress traffic across their direct link.
-
-### Can I change billing options after my direct link is provisioned?
-{: #switch-billing-options}
-{: faq}
-{: support}
-
-Yes, you can change billing options after a direct link is provisioned, regardless of whether you chose global or local routing. For example, to change from metered to unmetered billing, navigate to the Details page of the direct link and click **Edit**. In the side panel, select **Unmetered** in the Billing section, review the updated information, then agree to the prerequisites and click **Submit**.
-
-### When does billing begin with {{site.data.keyword.dl_short}}?
-{: #when-does-billing-begin-with-dl}
-{: faq}
-
-The fees for {{site.data.keyword.dl_short}} cover the cost of service termination on the {{site.data.keyword.cloud_notm}} infrastructure.
-
-Infrastructure services are billed in advance and begin upon acceptance of a client’s order. However, due to the nature of {{site.data.keyword.dl_full_notm}}, the {{site.data.keyword.dl_short}} service billing begins when a BGP session is established with {{site.data.keyword.cloud_notm}}, or 30 days after the order is submitted.
-
-Billing stops after (1) you request a circuit to be deleted, and (2) the provider has de-provisioned the circuit.
-
-### What extra charges will I incur from other parties with {{site.data.keyword.dl_short}}?
-{: #what-additional-charges-will-i-incur-from-other-parties-with-dl}
-{: faq}
-
-You might have extra charges from your provider. See to your carrier or service provider for their fee information.
 
 ## What are the tools for monitoring the consumption of resources associated with the service, as well as the costs and the quality of the service?
 {: #view-egress-usage}
