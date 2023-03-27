@@ -130,6 +130,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect service provide
 | China Unicom | **Americas**: San Jose 2  \n **APAC**: Hong Kong 3  \n  **EU**: Frankfurt 3 | |
 | Cologix | **Americas**: Chicago 1, Toronto 2, Washington DC 2 |  ![Checkmark icon](../icons/checkmark-icon.svg) |
 | Colt | **APAC**: Tokyo 1, Tokyo 3  \n **EU**: Amsterdam 2, Frankfurt 1, Frankfurt 3, London 1, London 3| |
+| Console Connect | **Americas**: Dallas 3 | |
 | DE-CIX | **EU**: Frankfurt 3, Frankfurt 4, Frankfurt 5 | ![Checkmark icon](../icons/checkmark-icon.svg) |
 | Epsilon | **Americas**: Washington DC 2  \n **EU**: Amsterdam 2, Frankfurt 1, London 1 | |
 | Equinix | **Americas**: Chicago 1, Dallas 3, Montreal 1, San Jose 2, São Paulo 2, Toronto 2, Toronto 3, Washington DC 2  \n **APAC**: Osaka 1, Tokyo 3  \n **EU**: Frankfurt 3, London 1, London 3, Milan 2, Paris 3 | ![Checkmark icon](../icons/checkmark-icon.svg) |
@@ -146,7 +147,6 @@ The following table lists {{site.data.keyword.dl_short}} Connect service provide
 | Neutrona | **Americas**: Dallas 3, Washington DC 2 | |
 | Orange Business Services | **EU**: London 3, Paris 2 | |
 | PacketFabric | **Americas**: Dallas 4, Washington DC 2, San Jose 2 | |
-| PCCW | **Americas**: Dallas 3 | |
 | SoftBank | **APAC**: Tokyo 4 | |
 | Tokai | **APAC**: Osaka 1, Tokyo 3 | |
 | Verizon SCI | **Americas**: Washington DC 2 | |
@@ -163,7 +163,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect service provide
 |----|----|
 | Amsterdam 2 | Colt  \n Epsilon  \n IBM BlueFringe  \n  Megaport  \n nextGen GNPP |
 | Chicago 1 | Cologix  \n Equinix  \n Megaport |
-| Dallas 3 |  AT&T NetBond for Cloud  \n Equinix  \n IBM BlueFringe  \n Neutrona  \n nextGen GNPP  \n PCCW  \n Zayo |
+| Dallas 3 |  AT&T NetBond for Cloud  \n Equinix  \n IBM BlueFringe  \n Neutrona  \n nextGen GNPP  \n Console Connect  \n Zayo |
 | Dallas 4 |  PacketFabric  \n Megaport |
 | Dallas 12 | IBM Power Virtual Server |
 | Dallas 13 | IBM Power Virtual Server |
