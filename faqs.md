@@ -38,7 +38,7 @@ For more information about the differences between the new {{site.data.keyword.d
 {: #pricing}
 {: faq}
 
-You can estimate the cost of a service using the cost estimator on the provisioning pages for Direct Link offerings. For example, log in to the [IBM Cloud Direct Link console](/interconnectivity/direct-link) and click **Order Direct Link**. Then, you can choose to order **Direct Link Connect** or **Direct Link Dedicated**. As you complete the ordering form, cost estimates appear in the Summary side panel.
+You can estimate the cost of a service using the cost estimator on the provisioning pages for Direct Link offerings. For example, log in to the [IBM Cloud Direct Link console](/interconnectivity/direct-link) and click **Order Direct Link**. Then, choose to order **Direct Link Connect** or **Direct Link Dedicated**. As you complete the ordering form, cost estimates appear in the Summary side panel.
 
 ### In terms of cost, what do I pay for?
 {: #cost}
