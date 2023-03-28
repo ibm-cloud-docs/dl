@@ -19,6 +19,7 @@ toc:
        - getting-started.md
        - about.md
        - locations.md
+       - pricing.md
        - topicgroup:
            label: Deployment considerations
            topics:
