@@ -34,6 +34,8 @@ For more information about the differences between the new {{site.data.keyword.d
 {: #pricing-billing}
 {: faq}
 
+See the following FAQs for details.
+
 ### Where do I find cost estimates for Direct Link offerings?
 {: #pricing}
 {: faq}
