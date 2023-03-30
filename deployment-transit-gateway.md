@@ -28,11 +28,11 @@ The following deployment topologies illustrate various AS Prepend scenarios when
 
 1. VPC chooses a route regardless of the AS path length.
 
-   ![AS prepends have no effect on the routing between VPCs and direct links](/images/asprepends_1.png){: caption="Figure 1. AS prepends have no effect on the routing between VPCs and direct links." caption-side="bottom"}
+   ![AS prepends have no effect on the routing between VPCs and direct links](/images/asprepends_2.png){: caption="Figure 1. AS prepends have no effect on the routing between VPCs and direct links." caption-side="bottom"}
    
 1. VPC routes to the transit gateway and the transit gateway considers the AS path length when choosing the route to on-premises.
 
-   ![AS prepends are considered during route determination](/images/asprepends_2.png){: caption="Figure 2. AS prepends are considered during route determination." caption-side="bottom"}
+   ![AS prepends are considered during route determination](/images/asprepends_1.png){: caption="Figure 2. AS prepends are considered during route determination." caption-side="bottom"}
 
 1. The local transit gateway is preferred over the global transit gateway.
 
