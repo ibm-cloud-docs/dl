@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-03-02"
+lastupdated: "2023-04-04"
 
 keywords: direct link
 
@@ -91,9 +91,11 @@ The following table provides details about the {{site.data.keyword.cloud_notm}} 
 |-----------------|-----------------|-----------------|--------------------|
 | Amsterdam 2 | PoP | Equinix | AM2 |
 | Amsterdam 3 | DC | KPN | Amsterdam 3 | 
+| Frankfurt 1 | PoP 1 | Digital Realty | FRA6 |
 | Frankfurt 2 | DC(AZ1) | CyrusOne (Zenium) | FRA1 | 
 | Frankfurt 3 | PoP 2 | Equinix | FR6 |
 | Frankfurt 4 | DC(AZ2) | E-Shelter | Frankfurt 1 | 
+| Frankfurt 5 | DC(AZ3) | Digital Realty | FRA11 
 | London 1 | PoP | Equinix (Telecity) | LD8 |
 | London 2 | DC | Digital Realty | LHR13 |
 | London 3 | PoP 2 | Equinix | LD5 |
