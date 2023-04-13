@@ -22,7 +22,7 @@ Follow these steps to order Direct Link Connect from Cologix:
    ![Choose port for Direct Link connection](/images/cologix1.png "Choose port for Direct Link connection"){: caption="Choose port for Direct Link connection" caption-side="bottom"} 
 1. To add a new connection, select **Cloud Connection**.
 
-   ![Add new connection](/images/cologix2.png "Cologix 1"){: caption="Cologix 2" caption-side="bottom"}
+   ![Add new connection](/images/cologix2.png "Add new connection"){: caption="Add new connection" caption-side="bottom"}
 1. Select **{{site.data.keyword.cloud_notm}}**. 
 1. When prompted, select to either add a **Single Connection** or **Redundant Connections**. Your initial source XC is already chosen. Select a redundant port (if applicable), then click **Next**.
 
