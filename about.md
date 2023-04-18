@@ -94,7 +94,7 @@ Some benefits include:
 
 **Typical deployment time:** 5 - 10 days after the circuit reaches the exchange. Deployment time can be 30 - 60 days overall, depending on your location and the requirements when you order a circuit from a service provider or carrier.
 
-**Cross-connect details:** Physical cross-connects for the secure {{site.data.keyword.dl_short}} Connect interconnect are maintained between {{site.data.keyword.cloud_notm}} and the service provider. You must request a "Virtual Circuit" from the service provider, which establishes logical connectivity to {{site.data.keyword.cloud_notm}}, after you are connected to the provider.
+**Cross-connect details:** Physical cross-connects for the secure {{site.data.keyword.dl_short}} Connect interconnect are maintained between {{site.data.keyword.cloud_notm}} and the service provider. You must request a "Virtual Circuit" from the service provider, which establishes logical connectivity to {{site.data.keyword.cloud_notm}}, after you are connected to the service provider.
 
 **Port speed options:** Select 50 Mbps, 100 Mbps, 200 Mbps, 500 Mbps, 1 Gbps, 2 Gbps, or 5 Gbps.
 

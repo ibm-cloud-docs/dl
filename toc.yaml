@@ -25,6 +25,7 @@ toc:
            - diversity-models.md
            - deployment-transit-gateway.md
            - alternative-deployments.md
+           - prefix-filtering.md
            - layer-2-layer-3.md
            - topic: video-hybrid-cloud.md
              navtitle: "Video: Direct Link for hybrid cloud"
@@ -126,7 +127,8 @@ toc:
             - cli-change-log.md
         - link:
            label: Terraform reference
-           href: https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs/resources/dl_gatewayb
+           href: https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs/resources/dl_gateway
+
         - dl-comparison-classic.md
         - dl-comparison-locations.md
         - understanding-latency.md

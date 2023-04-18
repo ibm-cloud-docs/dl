@@ -17,7 +17,7 @@ subcollection: dl
 {: help}
 {: support}
 
-You can add a virtual connection when you create a direct link, or after the direct link is provisioned.
+You can add a virtual connection when you create a direct link, or after the gateway is provisioned.
 {: shortdesc}
 
 Make sure that there are no IP address conflicts between on-premises subnets and subnets on IBM Cloud for both VPC and classic infrastructure connections.
@@ -25,8 +25,8 @@ Make sure that there are no IP address conflicts between on-premises subnets and
 
 To add a connection to a provisioned gateway, follow these steps:
 
-1. Highlight the row of the gateway in the {{site.data.keyword.dl_short}} table, then click **Add connection** from the Actions ![Actions menu](images/overflow.png) menu. Alternatively, you can click **Add connection +** on the gateway's details page.
-
+1. In the table row of the gateway where you want to add a connection, click **Add connection** from the Actions ![Actions menu](images/overflow.png) menu. Alternatively, you can click **Add connection +** on the gateway's details page.
+ 
    You can create a connection to the logged-in account, or request a connection to a network within another account.
 
 2. Choose the type of network connection and enter a name for the connection.

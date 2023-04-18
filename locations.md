@@ -93,7 +93,7 @@ The following table provides details about the {{site.data.keyword.cloud_notm}} 
 | Amsterdam 3 | DC | KPN | Amsterdam 3 | 
 | Frankfurt 2 | DC(AZ1) | CyrusOne (Zenium) | FRA1 | 
 | Frankfurt 3 | PoP 2 | Equinix | FR6 |
-| Frankfurt 4 | DC(AZ2) | E-Shelter | Frankfurt 1 |
+| Frankfurt 4 | DC(AZ2) | E-Shelter | Frankfurt 1 | 
 | London 1 | PoP | Equinix (Telecity) | LD8 |
 | London 2 | DC | Digital Realty | LHR13 |
 | London 3 | PoP 2 | Equinix | LD5 |
@@ -123,7 +123,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect service provide
 |----|----|----|
 | Ascenty | **Americas**: São Paulo 1, São Paulo 5 | |
 | At Tokyo | **APAC**: Osaka 1, Tokyo 2 | |
-| AT&T NetBond for Cloud | **Americas**: Dallas 3, Washington DC 2 | |
+| AT&T NetBond for Cloud | **Americas**: Dallas 3, San Jose 2 (no diversity: on same XCR), Washington DC 2  \n **EU**: Frankfurt 1, London 1 | |
 | BBIX | **APAC**: Tokyo 1, Tokyo 3 | |
 | British Telecom | **Americas**: Washington DC 2  \n **EU**: Frankfurt 1, Frankfurt 3, London 3 | ![Checkmark icon](../icons/checkmark-icon.svg) |
 | Chief Telecom | **APAC**: Taipei 1 | |
@@ -167,12 +167,12 @@ The following table lists {{site.data.keyword.dl_short}} Connect service provide
 | Dallas 4 |  PacketFabric  \n Megaport |
 | Dallas 12 | IBM Power Virtual Server |
 | Dallas 13 | IBM Power Virtual Server |
-| Frankfurt 1 | British Telecom  \n Colt  \n Epsilon  \n EU Networks  \n Intercloud  \n Megaport |
+| Frankfurt 1 | AT&T NetBond for Cloud  \n British Telecom  \n Colt  \n Epsilon  \n EU Networks  \n Intercloud  \n Megaport |
 | Frankfurt 3 | British Telecom  \n China Unicom  \n Colt  \n DE-CIX  \n Equinix  \n IBM BlueFringe  \n Intercloud  \n nextGen GNPP  \n Vodafone |
 | Frankfurt 4 | DE-CIX  \n IBM Power Virtual Server |
 | Frankfurt 5 | DE-CIX  \n IBM Power Virtual Server |
 | Hong Kong 3 | China Unicom |
-| London 1 | Colt \n Epsilon  \n Equinix  \n nextGen GNPP  \n Vodafone |
+| London 1 | AT&T NetBond for Cloud  \n Colt \n Epsilon  \n Equinix  \n nextGen GNPP  \n Vodafone |
 | London 3 | British Telecom  \n Colt  \n Equinix  \n Megaport  \n nextGen GNPP  \n Orange Business Services |
 | London 4 | IBM Power Virtual Server  \n nextGen GNPP  |
 | London 6 | IBM Power Virtual Server |
@@ -182,7 +182,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect service provide
 | Osaka 21 |IBM Power Virtual Server |
 | Paris 2 | Megaport  \n Orange Business Services |
 | Paris 3 | Equinix |
-| San Jose 2 | China Unicom  \n Equinix  \n Megaport  \n PacketFabric |
+| San Jose 2 | AT&T NetBond for Cloud (no diversity, on same XCR) \n China Unicom  \n Equinix  \n Megaport  \n PacketFabric |
 | São Paulo 1 | Ascenty, IBM Power Virtual Server |
 | São Paulo 2 | Equinix |
 | São Paulo 5 | Ascenty |

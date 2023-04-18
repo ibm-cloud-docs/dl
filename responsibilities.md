@@ -95,3 +95,4 @@ Disaster recovery includes tasks, such as providing dependencies on disaster rec
 | Backup user configuration data | {{site.data.keyword.IBM_notm}} is not responsible for backup of user configuration data. | The Customer is responsible for backup of configuration data, as needed. |
 | Backup and recovery of workload | {{site.data.keyword.IBM_notm}} is not responsible for backup or recovery of user configuration data. |  The Customer is responsible for backup and recovery of their workloads, as needed. |
 {: caption="Table 6. Responsibilities for disaster recovery" caption-side="bottom"}
+

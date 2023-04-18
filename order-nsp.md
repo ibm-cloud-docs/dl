@@ -72,7 +72,7 @@ To order {{site.data.keyword.dl_full}} Dedicated, follow these steps.
    The routing option that you select determines the reachability of the resources in the selected location. If you select the **Global** routing option along with your location selections, the **Region** menu list displays all the regions that are globally available in the specific account. After selecting a region, you can select any VPC from the **Available connections** menu. If you select **Local** routing, then only the region that corresponds to the selected location is available to select. When selected, the VPCs available in the local region for your account are shown.
    {: note}
 
-1. In the Billing section, select **Metered** or **Unmetered**. Metered pricing is paying only for what you use. Unmetered is unlimited access, for a predicable, monthly fee.{: #dl-dedicated-bgp}
+1. In the Billing section, select **Metered** or **Unmetered**. Metered pricing is paying only for what you use. Unmetered is unlimited access, for a predicable, monthly fee. {: #dl-dedicated-bgp}
 1. In the BGP section, complete the following information:
    * Select the IBM cross-connect router for the {{site.data.keyword.dl_short}} connection. The number of direct links associated with your account for each router is shown next to the router name.   
    * Select a BGP peering subnet for the {{site.data.keyword.dl_short}} connection. There are two choices for BGP subnets:
