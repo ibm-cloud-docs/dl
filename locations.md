@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-04-04"
+lastupdated: "2023-04-26"
 
 keywords: direct link
 
@@ -90,10 +90,10 @@ The following table provides details about the {{site.data.keyword.cloud_notm}} 
 |**IBM Location Code** | **Location Type** | **Meet Me Room Operator**| **Operator Site Code** |
 |-----------------|-----------------|-----------------|--------------------|
 | Amsterdam 2 | PoP | Equinix | AM2 |
-| Amsterdam 3 | DC | KPN | Amsterdam 3 | 
-| Frankfurt 2 | DC(AZ1) | CyrusOne (Zenium) | FRA1 | 
+| Amsterdam 3 | DC | KPN | Amsterdam 3 |
+| Frankfurt 2 | DC(AZ1) | CyrusOne (Zenium) | FRA1 |
 | Frankfurt 3 | PoP 2 | Equinix | FR6 |
-| Frankfurt 4 | DC(AZ2) | E-Shelter | Frankfurt 1 | 
+| Frankfurt 4 | DC(AZ2) | E-Shelter | Frankfurt 1 |
 | London 1 | PoP | Equinix (Telecity) | LD8 |
 | London 2 | DC | Digital Realty | LHR13 |
 | London 3 | PoP 2 | Equinix | LD5 |
@@ -130,7 +130,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect service provide
 | China Unicom | **Americas**: San Jose 2  \n **APAC**: Hong Kong 3  \n  **EU**: Frankfurt 3 | |
 | Cologix | **Americas**: Chicago 1, Toronto 2, Washington DC 2 |  ![Checkmark icon](../icons/checkmark-icon.svg) |
 | Colt | **APAC**: Tokyo 1, Tokyo 3  \n **EU**: Amsterdam 2, Frankfurt 1, Frankfurt 3, London 1, London 3| |
-| Console Connect | **Americas**: Dallas 3 | |
+| Console Connect | **Americas**: Chicago 1, Dallas 3, Miami 1, San Jose 2  \n **APAC**: Osaka 1, Sydney 3, Sydney 5  \n **EU**: Frankfurt 3, Frankfurt 5, London 1 | ![Checkmark icon](../icons/checkmark-icon.svg) |
 | DE-CIX | **EU**: Frankfurt 3, Frankfurt 4, Frankfurt 5 | ![Checkmark icon](../icons/checkmark-icon.svg) |
 | Epsilon | **Americas**: Washington DC 2  \n **EU**: Amsterdam 2, Frankfurt 1, London 1 | |
 | Equinix | **Americas**: Chicago 1, Dallas 3, Montreal 1, San Jose 2, São Paulo 2, Toronto 2, Toronto 3, Washington DC 2  \n **APAC**: Osaka 1, Tokyo 3  \n **EU**: Frankfurt 3, London 1, London 3, Milan 2, Paris 3 | ![Checkmark icon](../icons/checkmark-icon.svg) |
@@ -162,34 +162,35 @@ The following table lists {{site.data.keyword.dl_short}} Connect service provide
 | Location | Providers |
 |----|----|
 | Amsterdam 2 | Colt  \n Epsilon  \n IBM BlueFringe  \n  Megaport  \n nextGen GNPP |
-| Chicago 1 | Cologix  \n Equinix  \n Megaport |
+| Chicago 1 | Cologix  \n Console Connect  \n Equinix  \n Megaport |
 | Dallas 3 |  AT&T NetBond for Cloud  \n Console Connect  \n Equinix  \n IBM BlueFringe  \n Neutrona  \n nextGen GNPP  \n Zayo |
 | Dallas 4 |  PacketFabric  \n Megaport |
 | Dallas 12 | IBM Power Virtual Server |
 | Dallas 13 | IBM Power Virtual Server |
 | Frankfurt 1 | AT&T NetBond for Cloud  \n British Telecom  \n Colt  \n Epsilon  \n EU Networks  \n Intercloud  \n Megaport |
-| Frankfurt 3 | British Telecom  \n China Unicom  \n Colt  \n DE-CIX  \n Equinix  \n IBM BlueFringe  \n Intercloud  \n nextGen GNPP  \n Vodafone |
+| Frankfurt 3 | British Telecom  \n China Unicom  \n Colt  \n Console Connect  \n DE-CIX  \n Equinix  \n IBM BlueFringe  \n Intercloud  \n nextGen GNPP  \n Vodafone |
 | Frankfurt 4 | DE-CIX  \n IBM Power Virtual Server |
-| Frankfurt 5 | DE-CIX  \n IBM Power Virtual Server |
+| Frankfurt 5 | Console Connect  \n DE-CIX  \n IBM Power Virtual Server |
 | Hong Kong 3 | China Unicom |
-| London 1 | AT&T NetBond for Cloud  \n Colt \n Epsilon  \n Equinix  \n nextGen GNPP  \n Vodafone |
+| London 1 | AT&T NetBond for Cloud  \n Colt \n Console Connect  \n Epsilon  \n Equinix  \n nextGen GNPP  \n Vodafone |
 | London 3 | British Telecom  \n Colt  \n Equinix  \n Megaport  \n nextGen GNPP  \n Orange Business Services |
 | London 4 | IBM Power Virtual Server  \n nextGen GNPP  |
 | London 6 | IBM Power Virtual Server |
+| Miami 1 | Console Connect |
 | Milan 2 | Equinix |
-| Montreal 1 | Equinix  \n IBM Power Virtual Server | 
-| Osaka  1 | AT Tokyo  \n Equinix  \n Megaport  \n Tokai |
+| Montreal 1 | Equinix  \n IBM Power Virtual Server |
+| Osaka  1 | AT Tokyo  \n Console Connect  \n Equinix  \n Megaport  \n Tokai |
 | Osaka 21 |IBM Power Virtual Server |
 | Paris 2 | Megaport  \n Orange Business Services |
 | Paris 3 | Equinix |
-| San Jose 2 | AT&T NetBond for Cloud (no diversity, on same XCR) \n China Unicom  \n Equinix  \n Megaport  \n PacketFabric |
+| San Jose 2 | AT&T NetBond for Cloud (no diversity, on same XCR) \n China Unicom  \n Console Connect  \n Equinix  \n Megaport  \n PacketFabric |
 | São Paulo 1 | Ascenty, IBM Power Virtual Server |
 | São Paulo 2 | Equinix |
 | São Paulo 5 | Ascenty |
 | Sydney 2 | Megaport |
-| Sydney 3 | NextDC |
+| Sydney 3 | Console Connect  \n NextDC |
 | Sydney 4 | IBM Power Virtual Server |
-| Sydney 5 | IBM Power Virtual Server |
+| Sydney 5 | Console Connect  \n IBM Power Virtual Server |
 | Taipei 1 | Chief Telecom |
 | Tokyo 1 | BBIX  \n Colt  \n Zenlayer |
 | Tokyo 2 | AT Tokyo  \n Megaport |
