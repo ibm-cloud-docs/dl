@@ -128,6 +128,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect service provide
 | British Telecom | **Americas**: Washington DC 2  \n **EU**: Frankfurt 1, Frankfurt 3, London 3 | ![Checkmark icon](../icons/checkmark-icon.svg) |
 | Chief Telecom | **APAC**: Taipei 1 | |
 | China Unicom | **Americas**: San Jose 2  \n **APAC**: Hong Kong 3  \n  **EU**: Frankfurt 3 | |
+| Cloudflare | **Americas**: Los Angeles | |
 | Cologix | **Americas**: Chicago 1, Toronto 2, Washington DC 2 |  ![Checkmark icon](../icons/checkmark-icon.svg) |
 | Colt | **APAC**: Tokyo 1, Tokyo 3  \n **EU**: Amsterdam 2, Frankfurt 1, Frankfurt 3, London 1, London 3| |
 | Console Connect | **Americas**: Chicago 1, Dallas 3, Miami 1, San Jose 2  \n **APAC**: Osaka 1, Sydney 3, Sydney 5  \n **EU**: Frankfurt 3, Frankfurt 5, London 1 | ![Checkmark icon](../icons/checkmark-icon.svg) |
@@ -176,6 +177,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect service provide
 | London 3 | British Telecom  \n Colt  \n Equinix  \n Megaport  \n nextGen GNPP  \n Orange Business Services |
 | London 4 | IBM Power Virtual Server  \n nextGen GNPP  |
 | London 6 | IBM Power Virtual Server |
+| Los Angeles 1 | Cloudflare |
 | Miami 1 | Console Connect |
 | Milan 2 | Equinix |
 | Montreal 1 | Equinix  \n IBM Power Virtual Server |
