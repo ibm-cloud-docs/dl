@@ -31,7 +31,7 @@ The following table provides details about the {{site.data.keyword.cloud_notm}} 
 | Dallas 13 | DC(AZ3) | CyrusOne | Carrollton - Frankford |
 | Denver 1 | PoP | Coresite |	DE1 |
 | Miami 1 | PoP  | TERREMARK | MI1 |
-| Montreal 1 | DC | Colo-D | MON01 |
+| Montreal 1 | DC | Colo-D | MON03 |
 | New York City 2  | PoP | Equinix | NY4 |
 | New York City 3  | PoP | Equinix | NY4 |
 | San Jose 2 | PoP | Equinix | SV1 |
