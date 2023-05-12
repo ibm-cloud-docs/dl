@@ -36,7 +36,7 @@ toc:
                 label: Getting started with Direct Link on Classic
                 href: /direct-link/direct-link-get-started-with-ibm-cloud-direct-link
             - link:
-                label: Getting started with Virtual Private Cloud (VPC) 
+                label: Getting started with Virtual Private Cloud (VPC)
                 href: /vpc/vpc-getting-started
             - include: ../vpc/private-connectivity-vpe.md
             - include: ../vpc/interconnectivity.md
@@ -101,8 +101,7 @@ toc:
             - at_events.md
             - manage-scc.md
             - cbr.md
-            - topic: vpe.md
-              navtitle: Using virtual private endpoints for VPC
+            - vpe.md
 
 #  Links to your REST API docs should be included in the Reference navigation group. For details on publishing API docs, see https://test.cloud.ibm.com/docs/api-docs.
 #  Links to your command line reference docs should be included in the Reference navigation group.
