@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-04-26"
+lastupdated: "2023-05-19"
 
 keywords: direct link
 
@@ -31,7 +31,7 @@ The following table provides details about the {{site.data.keyword.cloud_notm}} 
 | Dallas 13 | DC(AZ3) | CyrusOne | Carrollton - Frankford |
 | Denver 1 | PoP | Coresite |	DE1 |
 | Miami 1 | PoP  | TERREMARK | MI1 |
-| Montreal 1 | DC | Colo-D | MON03 |
+| Montreal 3 | DC | Colo-D | MON03 |
 | New York City 2  | PoP | Equinix | NY4 |
 | New York City 3  | PoP | Equinix | NY4 |
 | San Jose 2 | PoP | Equinix | SV1 |
@@ -132,6 +132,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect service provide
 | Cologix | **Americas**: Chicago 1, Toronto 2, Washington DC 2 |  ![Checkmark icon](../icons/checkmark-icon.svg) |
 | Colt | **APAC**: Tokyo 1, Tokyo 3  \n **EU**: Amsterdam 2, Frankfurt 1, Frankfurt 3, London 1, London 3| |
 | Console Connect | **Americas**: Chicago 1, Dallas 3, Miami 1, San Jose 2  \n **APAC**: Osaka 1, Sydney 3, Sydney 5  \n **EU**: Frankfurt 3, Frankfurt 5, London 1 | ![Checkmark icon](../icons/checkmark-icon.svg) |
+| Coresite | **Americas**: Denver 1, Los Angeles 1, Washington DC 5 | |
 | DE-CIX | **EU**: Frankfurt 3, Frankfurt 4, Frankfurt 5 | ![Checkmark icon](../icons/checkmark-icon.svg) |
 | Epsilon | **Americas**: Washington DC 2  \n **EU**: Amsterdam 2, Frankfurt 1, London 1 | |
 | Equinix | **Americas**: Chicago 1, Dallas 3, Montreal 1, San Jose 2, São Paulo 2, Toronto 2, Toronto 3, Washington DC 2  \n **APAC**: Osaka 1, Tokyo 3  \n **EU**: Frankfurt 3, London 1, London 3, Milan 2, Paris 3 | ![Checkmark icon](../icons/checkmark-icon.svg) |
@@ -168,6 +169,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect service provide
 | Dallas 4 |  PacketFabric  \n Megaport |
 | Dallas 12 | IBM Power Virtual Server |
 | Dallas 13 | IBM Power Virtual Server |
+| Denver 1 | Coresite |
 | Frankfurt 1 | AT&T NetBond for Cloud  \n British Telecom  \n Colt  \n Epsilon  \n EU Networks  \n Intercloud  \n Megaport |
 | Frankfurt 3 | British Telecom  \n China Unicom  \n Colt  \n Console Connect  \n DE-CIX  \n Equinix  \n IBM BlueFringe  \n Intercloud  \n nextGen GNPP  \n Vodafone |
 | Frankfurt 4 | DE-CIX  \n IBM Power Virtual Server |
@@ -177,7 +179,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect service provide
 | London 3 | British Telecom  \n Colt  \n Equinix  \n Megaport  \n nextGen GNPP  \n Orange Business Services |
 | London 4 | IBM Power Virtual Server  \n nextGen GNPP  |
 | London 6 | IBM Power Virtual Server |
-| Los Angeles 1 | Cloudflare |
+| Los Angeles 1 | Cloudflare  \n Coresite |
 | Miami 1 | Console Connect |
 | Milan 2 | Equinix |
 | Montreal 1 | Equinix  \n IBM Power Virtual Server |
@@ -204,6 +206,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect service provide
 | Toronto 3 | Equinix |
 | Washington DC 2 | AT&T NetBond for Cloud  \n British Telecom  \n Cologix  \n Epsilon  \n Equinix  \n IBM BlueFringe   \n IXReach  \n Megaport  \n Neutrona  \n nextGen GNPP  \n PacketFabric  \n Verizon SCI  \n Zayo |
 | Washington DC 4 | IBM Power Virtual Server |
+| Washington DC 5 | Coresite |
 | Washington DC 6 | IBM Power Virtual Server |
 {: caption="Table 5. Direct Link Connect by Location" caption-side="bottom"}
 {: #simpletabtable5}
