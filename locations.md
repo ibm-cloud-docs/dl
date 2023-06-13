@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-05-19"
+lastupdated: "2023-06-13"
 
 keywords: direct link
 
@@ -142,7 +142,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect service provide
 | IBM Power Virtual Server | **Americas**: Dallas 12, Dallas 13, Montreal 1, São Paulo 1, Toronto 1, Washington DC 4, Washington DC 6  \n **APAC**: Osaka 21, Sydney 4, Sydney 5, Tokyo 4  \n **EU**: Frankfurt 4, Frankfurt 5, London 4, London 6 | |
 | Intercloud | **EU**: Frankfurt 1, Frankfurt 3 | |
 | IXReach | **Americas**: Washington DC 2 | |
-| Megaport | **Americas**: Chicago 1, Dallas 4, San Jose 2, Toronto 2, Washington DC 2  \n **APAC**: Osaka 1, Sydney 2, Tokyo 2, Tokyo 3  \n **EU**: Amsterdam 2, Frankfurt 1, London 3, Paris 2 | |
+| Megaport | **Americas**: Chicago 1, Dallas 4, Montreal 2, San Jose 2, Toronto 2, Washington DC 2  \n **APAC**: Osaka 1, Sydney 2, Tokyo 2, Tokyo 3  \n **EU**: Amsterdam 2, Frankfurt 1, London 3, Paris 2 | |
 | NextDC | **APAC**: Sydney 3 | |
 | nextGen GNPP | **Americas**: Dallas 3, Washington DC 2  \n **EU**: Amsterdam 2, Frankfurt 3, London 1, London 3, London 4 | |
 | NTT | **APAC**: Tokyo 5 | |
@@ -183,6 +183,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect service provide
 | Miami 1 | Console Connect |
 | Milan 2 | Equinix |
 | Montreal 1 | Equinix  \n IBM Power Virtual Server |
+| Montreal 2 | Megaport |
 | Osaka  1 | AT Tokyo  \n Console Connect  \n Equinix  \n Megaport  \n Tokai |
 | Osaka 21 |IBM Power Virtual Server |
 | Paris 2 | Megaport  \n Orange Business Services |

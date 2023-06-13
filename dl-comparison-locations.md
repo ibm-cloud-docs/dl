@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021, 2023
-lastupdated: "2023-05-19"
+lastupdated: "2023-06-13"
 
 keywords: direct link
 
@@ -32,7 +32,7 @@ Review location support for Direct Link on Classic offerings versus Direct Link.
 | Los Angeles |  |  |  | ![Checkmark icon](../icons/checkmark-icon.svg) |
 | Miami 1 | ![Checkmark icon](../icons/checkmark-icon.svg) | ![Checkmark icon](../icons/checkmark-icon.svg) | ![Checkmark icon](../icons/checkmark-icon.svg) |  | ![Checkmark icon](../icons/checkmark-icon.svg) |
 | Montreal 1 | ![Checkmark icon](../icons/checkmark-icon.svg) | ![Checkmark icon](../icons/checkmark-icon.svg) | ![Checkmark icon](../icons/checkmark-icon.svg) | ![Checkmark icon](../icons/checkmark-icon.svg) |
-| Montreal 2 | ![Checkmark icon](../icons/checkmark-icon.svg) |   | ![Checkmark icon](../icons/checkmark-icon.svg) |  |
+| Montreal 2 | ![Checkmark icon](../icons/checkmark-icon.svg) |   | ![Checkmark icon](../icons/checkmark-icon.svg) | ![Checkmark icon](../icons/checkmark-icon.svg) |
 | New York City 2 | ![Checkmark icon](../icons/checkmark-icon.svg) | ![Checkmark icon](../icons/checkmark-icon.svg)  |  | ![Checkmark icon](../icons/checkmark-icon.svg) |
 | New York City 3 | ![Checkmark icon](../icons/checkmark-icon.svg) | ![Checkmark icon](../icons/checkmark-icon.svg)  |  | ![Checkmark icon](../icons/checkmark-icon.svg) |
 | San Jose 2 | ![Checkmark icon](../icons/checkmark-icon.svg) | ![Checkmark icon](../icons/checkmark-icon.svg) | ![Checkmark icon](../icons/checkmark-icon.svg) | ![Checkmark icon](../icons/checkmark-icon.svg) |
@@ -89,7 +89,6 @@ Review location support for Direct Link on Classic offerings versus Direct Link.
 {: tab-title="APAC"}
 {: tab-group="dedicated-simple"}
 {: class="simple-tab-table"}
-
 
 |**Location* | **Dedicated on Classic** | **Dedicated**| **Connect on Classic** | **Connect** |
 |-----------------|-----------------|-----------------|-----------------|---------------|
