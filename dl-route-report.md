@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2022
-lastupdated: "2022-09-30"
+  years: 2023
+lastupdated: "2023-06-08"
 
 keywords: direct link
 
@@ -14,9 +14,7 @@ subcollection: dl
 # Generating a direct link route report
 {: #generate-route-reports}
 
-You can generate a report of all routes known to a direct link and its connections. This report allows you to verify 
-the expected routes, view what virtual connections are contributing which routes to your direct link, and see next-hop address details of the routes received. 
-If using the cross-account VPC linking feature, you can also see which prefixes or subnets are being routed through your cross-connect router.
+You can generate a report of all routes known to a direct link and its connections. This report allows you to verify the expected routes, view what virtual connections are contributing which routes to your direct link, and see next-hop address details of the routes received. If using the cross-account VPC linking feature, you can also see which prefixes or subnets are being routed through your cross-connect router.
   
 You can retrieve a route report by using the UI, CLI, or API. 
 
@@ -40,7 +38,7 @@ To generate a route report by using the UI, follow these steps:
 1. From your browser, open the [{{site.data.keyword.cloud_notm}} console](/login){: external} and log in to your account.
 1. Select the Menu icon ![Menu icon](../../icons/icon_hamburger.svg) from the upper left, then click **Interconnectivity > Direct Link**.
 1. In the Direct Link table, click the Direct Link name that you want to generate the report for. 
-1. On the Details page, click the **BGP** tab. Then, select **Generate report** from the Actions ![Actions menu](images/overflow.png) menu (or click the **Generate report** link).
+1. On the Details page, click the **BGP** tab and scroll down to the **Routes** tabbed view. Then, click the **Generate report** link.
 
    Alternatively, you can use the **Route report** shortcut on the Overview tab.
    {: tip}
@@ -49,14 +47,17 @@ To generate a route report by using the UI, follow these steps:
 
 After the report generates, the following columns are displayed in the route report table.
 
-* Route - Specifies the route address (for example, `169.254.0.40/29`).
-* Next hop - Indicates the next IP address a route package goes through.
+* Route - Specifies the route address (for example, `169.254.0.40/29`). 
 * Type - Specifies the route type:
-   * Connection - Configured on the networks attached to the gateway.
+   * Connection - Specifies the name (or ID) of the specific connection that the route originated from.
    * Gateway - Set up on the IBM router to establish BGP.
    * On prem - Originates from your on-premises data center.
-* Conflict - Specifies whether or not there is a route conflict.
-* Connection - Specifies the name (or ID) of the specific connection that the route originated from.
+
+   You can expand the On-prem row to view the AS path, next hop, and any conflicts. For Connection types, expand the row to show the AS path, local pref, source, and any conflicts. 
+   {: note}
+   
+* Advertised - Specifies whether the route is advertised, learned, or not advertised.
+* Conflict - Specifies whether or not there is a route conflict. 
 
 Select the Settings icon ![Settings icon](../../icons/settings.svg) to change the table's row height or edit column settings.
 {: tip}
@@ -94,7 +95,7 @@ ibmcloud dl route-report-create a771366f-2c8c-49f6-a23b-9d49fad035a3
 ```
 {: codeblock}
 
-For more information, see [ibmcloud dl route-report](/docs/dl?topic=dl-cli-plugin-dl-cli&interface=cli#route-report-view) commands.
+For more information, see [ibmcloud dl route-report](/docs/dl?topic=dl-dl-cli&interface=cli#route-report-view) commands.
 
 ## Generating and viewing a route report by using the API
 {: #generate-route-report-api}
