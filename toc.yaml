@@ -152,3 +152,4 @@ toc:
             - dl-ts-key-configuration-md5.md
             - dl-ts-not-in-provisioned-state.md
             - dl-ts-suspended.md
+            - dl-ts-unable-connect-vsi.md
