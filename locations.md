@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-06-13"
+lastupdated: "2023-06-22"
 
 keywords: direct link
 
@@ -100,6 +100,11 @@ The following table provides details about the {{site.data.keyword.cloud_notm}} 
 | London 4 | DC(AZ1) | ARK | A103 |
 | London 5 | DC(AZ2) | Gyron |  |
 | London 6 | DC(AZ3) | CyrusOne (Zenium) | LON1 |
+| Madrid 1 | PoP | Equinix | MAD01 |
+| Madrid 2 | DC (AZ1) | DATA4 Madrid Campus | MAD02 |
+| Madrid 3 | PoP | Digital Realty |  MAD03 |
+| Madrid 4 | DC (AZ2) | NTT Data Center | MAD04 |
+| Madrid 5 | DC (AZ3) | Digital Realty | MAD05 |
 | Milan 1 | DC | Data 4 | |
 | Milan 2 | PoP | Infracom Italia | Infracom 21 Via Caldera Way |
 | Paris 1 | DC  | Global Switch Limited | PAR01 |
@@ -134,8 +139,9 @@ The following table lists {{site.data.keyword.dl_short}} Connect service provide
 | Console Connect | **Americas**: Chicago 1, Dallas 3, Miami 1, San Jose 2  \n **APAC**: Osaka 1, Sydney 3, Sydney 5  \n **EU**: Frankfurt 3, Frankfurt 5, London 1 | ![Checkmark icon](../icons/checkmark-icon.svg) |
 | Coresite | **Americas**: Denver 1, Los Angeles 1, Washington DC 5 | |
 | DE-CIX | **EU**: Frankfurt 3, Frankfurt 4, Frankfurt 5 | ![Checkmark icon](../icons/checkmark-icon.svg) |
+| Digital Realty | **EU**: Madrid 3 | |
 | Epsilon | **Americas**: Washington DC 2  \n **EU**: Amsterdam 2, Frankfurt 1, London 1 | |
-| Equinix | **Americas**: Chicago 1, Dallas 3, Montreal 1, San Jose 2, São Paulo 2, Toronto 2, Toronto 3, Washington DC 2  \n **APAC**: Osaka 1, Tokyo 3  \n **EU**: Frankfurt 3, London 1, London 3, Milan 2, Paris 3 | ![Checkmark icon](../icons/checkmark-icon.svg) |
+| Equinix | **Americas**: Chicago 1, Dallas 3, Montreal 1, San Jose 2, São Paulo 2, Toronto 2, Toronto 3, Washington DC 2  \n **APAC**: Osaka 1, Tokyo 3  \n **EU**: Frankfurt 3, London 1, London 3, Madrid 1, Milan 2, Paris 3 | ![Checkmark icon](../icons/checkmark-icon.svg) |
 | EU Networks | **EU**: Frankfurt 1 | |
 | Fibernoire | **Americas**: Toronto 2 | |
 | IBM BlueFringe | **Americas**: Dallas 3, Washington DC 2  \n **EU**: Amsterdam 2, Frankfurt 3 | |
@@ -180,6 +186,8 @@ The following table lists {{site.data.keyword.dl_short}} Connect service provide
 | London 4 | IBM Power Virtual Server  \n nextGen GNPP  |
 | London 6 | IBM Power Virtual Server |
 | Los Angeles 1 | Cloudflare  \n Coresite |
+| Madrid 1 | Equinix |
+| Madrid 3| Digital Realty |
 | Miami 1 | Console Connect |
 | Milan 2 | Equinix |
 | Montreal 1 | Equinix  \n IBM Power Virtual Server |
