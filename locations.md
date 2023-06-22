@@ -141,7 +141,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect service provide
 | DE-CIX | **EU**: Frankfurt 3, Frankfurt 4, Frankfurt 5 | ![Checkmark icon](../icons/checkmark-icon.svg) |
 | Digital Realty | **EU**: Frankfurt 1, Madrid 3 | |
 | Epsilon | **Americas**: Washington DC 2  \n **EU**: Amsterdam 2, Frankfurt 1, London 1 | |
-| Equinix | **Americas**: Chicago 1, Dallas 3, Montreal 1, San Jose 2, São Paulo 2, Toronto 2, Toronto 3, Washington DC 2  \n **APAC**: Osaka 1, Tokyo 3  \n **EU**: Frankfurt 3, London 1, London 3, Madrid 1, Milan 2, Paris 3 | ![Checkmark icon](../icons/checkmark-icon.svg) |
+| Equinix | **Americas**: Chicago 1, Dallas 3, Montreal 1, San Jose 2, São Paulo 2, Toronto 2, Toronto 3, Washington DC 2  \n **APAC**: Osaka 1, Tokyo 3  \n **EU**: Amsterdam 2, Frankfurt 3, London 1, London 3, Madrid 1, Milan 2, Paris 3 | ![Checkmark icon](../icons/checkmark-icon.svg) |
 | EU Networks | **EU**: Frankfurt 1 | |
 | Fibernoire | **Americas**: Toronto 2 | |
 | IBM BlueFringe | **Americas**: Dallas 3, Washington DC 2  \n **APAC**: Chennai 1  \n **EU**: Amsterdam 2, Frankfurt 3 | |
@@ -169,7 +169,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect service provide
 
 | Location | Providers |
 |----|----|
-| Amsterdam 2 | Colt  \n Epsilon  \n IBM BlueFringe  \n  Megaport  \n nextGen GNPP |
+| Amsterdam 2 | Colt  \n Epsilon  \n Equinix  \n IBM BlueFringe  \n  Megaport  \n nextGen GNPP |
 | Chennai 1 | IBM BlueFringe |
 | Chicago 1 | Cologix  \n Console Connect  \n Equinix  \n Megaport |
 | Dallas 3 |  AT&T NetBond for Cloud  \n Cloudflare  \n Console Connect  \n Equinix  \n IBM BlueFringe  \n Neutrona  \n nextGen GNPP  \n Zayo |
