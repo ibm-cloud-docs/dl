@@ -148,7 +148,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect service provide
 | IBM Power Virtual Server | **Americas**: Dallas 12, Dallas 13, Montreal 1, São Paulo 1, Toronto 1, Washington DC 4, Washington DC 6  \n **APAC**: Osaka 21, Sydney 4, Sydney 5, Tokyo 4  \n **EU**: Frankfurt 4, Frankfurt 5, London 4, London 6 | |
 | Intercloud | **EU**: Frankfurt 1, Frankfurt 3 | |
 | IXReach | **Americas**: Washington DC 2 | |
-| Megaport | **Americas**: Chicago 1, Dallas 4, Montreal 2, San Jose 2, Toronto 2, Washington DC 2  \n **APAC**: Osaka 1, Sydney 2, Tokyo 2, Tokyo 3  \n **EU**: Amsterdam 2, Frankfurt 1, London 3, Paris 2 | |
+| Megaport | **Americas**: Chicago 1, Dallas 4, Montreal 2, San Jose 2, Toronto 2, Washington DC 2  \n **APAC**: Hong Kong 3, Osaka 1, Sydney 2, Tokyo 2, Tokyo 3  \n **EU**: Amsterdam 2, Frankfurt 1, London 3, Paris 2 | |
 | NextDC | **APAC**: Sydney 3 | |
 | nextGen GNPP | **Americas**: Dallas 3, Washington DC 2  \n **EU**: Amsterdam 2, Frankfurt 3, London 1, London 3, London 4 | |
 | NTT | **APAC**: Tokyo 5 | |
@@ -181,7 +181,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect service provide
 | Frankfurt 3 | British Telecom  \n China Unicom  \n Colt  \n Console Connect  \n DE-CIX  \n Equinix  \n IBM BlueFringe  \n Intercloud  \n nextGen GNPP  \n Vodafone |
 | Frankfurt 4 | DE-CIX  \n IBM Power Virtual Server |
 | Frankfurt 5 | Console Connect  \n DE-CIX  \n IBM Power Virtual Server |
-| Hong Kong 3 | China Unicom |
+| Hong Kong 3 | China Unicom  \n Megaport |
 | London 1 | AT&T NetBond for Cloud  \n Colt \n Console Connect  \n Epsilon  \n Equinix  \n nextGen GNPP  \n Vodafone |
 | London 3 | British Telecom  \n Colt  \n Equinix  \n Megaport  \n nextGen GNPP  \n Orange Business Services |
 | London 4 | IBM Power Virtual Server  \n nextGen GNPP  |
