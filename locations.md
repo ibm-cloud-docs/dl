@@ -133,7 +133,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect service provide
 | British Telecom | **Americas**: Washington DC 2  \n **EU**: Frankfurt 1, Frankfurt 3, London 3 | ![Checkmark icon](../icons/checkmark-icon.svg) |
 | Chief Telecom | **APAC**: Taipei 1 | |
 | China Unicom | **Americas**: San Jose 2  \n **APAC**: Hong Kong 3  \n  **EU**: Frankfurt 3 | |
-| Cloudflare | **Americas**: Los Angeles | |
+| Cloudflare | **Americas**: Dallas 3, Los Angeles 1, San Jose 2, Washington DC 2| |
 | Cologix | **Americas**: Chicago 1, Toronto 2, Washington DC 2 |  ![Checkmark icon](../icons/checkmark-icon.svg) |
 | Colt | **APAC**: Tokyo 1, Tokyo 3  \n **EU**: Amsterdam 2, Frankfurt 1, Frankfurt 3, London 1, London 3| |
 | Console Connect | **Americas**: Chicago 1, Dallas 3, Miami 1, San Jose 2  \n **APAC**: Osaka 1, Sydney 3, Sydney 5  \n **EU**: Frankfurt 3, Frankfurt 5, London 1 | ![Checkmark icon](../icons/checkmark-icon.svg) |
@@ -172,7 +172,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect service provide
 | Amsterdam 2 | Colt  \n Epsilon  \n IBM BlueFringe  \n  Megaport  \n nextGen GNPP |
 | Chennai 1 | IBM BlueFringe |
 | Chicago 1 | Cologix  \n Console Connect  \n Equinix  \n Megaport |
-| Dallas 3 |  AT&T NetBond for Cloud  \n Console Connect  \n Equinix  \n IBM BlueFringe  \n Neutrona  \n nextGen GNPP  \n Zayo |
+| Dallas 3 |  AT&T NetBond for Cloud  \n Cloudflare  \n Console Connect  \n Equinix  \n IBM BlueFringe  \n Neutrona  \n nextGen GNPP  \n Zayo |
 | Dallas 4 |  PacketFabric  \n Megaport |
 | Dallas 12 | IBM Power Virtual Server |
 | Dallas 13 | IBM Power Virtual Server |
@@ -197,7 +197,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect service provide
 | Osaka 21 |IBM Power Virtual Server |
 | Paris 2 | Megaport  \n Orange Business Services |
 | Paris 3 | Equinix |
-| San Jose 2 | AT&T NetBond for Cloud (no diversity, on same XCR) \n China Unicom  \n Console Connect  \n Equinix  \n Megaport  \n PacketFabric |
+| San Jose 2 | AT&T NetBond for Cloud (no diversity, on same XCR) \n China Unicom  \n Cloudflare  \n Console Connect  \n Equinix  \n Megaport  \n PacketFabric |
 | São Paulo 1 | Ascenty, IBM Power Virtual Server |
 | São Paulo 2 | Equinix |
 | São Paulo 5 | Ascenty |
@@ -214,7 +214,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect service provide
 | Toronto 1 | IBM Power Virtual Server |
 | Toronto 2 | Cologix  \n Equinix \n Fibernoire  \n Megaport  \n Zayo |
 | Toronto 3 | Equinix |
-| Washington DC 2 | AT&T NetBond for Cloud  \n British Telecom  \n Cologix  \n Epsilon  \n Equinix  \n IBM BlueFringe   \n IXReach  \n Megaport  \n Neutrona  \n nextGen GNPP  \n PacketFabric  \n Verizon SCI  \n Zayo |
+| Washington DC 2 | AT&T NetBond for Cloud  \n British Telecom  \n Cloudflare  \n Cologix  \n Epsilon  \n Equinix  \n IBM BlueFringe   \n IXReach  \n Megaport  \n Neutrona  \n nextGen GNPP  \n PacketFabric  \n Verizon SCI  \n Zayo |
 | Washington DC 4 | IBM Power Virtual Server |
 | Washington DC 5 | Coresite |
 | Washington DC 6 | IBM Power Virtual Server |
