@@ -2,7 +2,7 @@
 
 copyright:
   years: 2022, 2023
-lastupdated: "2023-03-16"
+lastupdated: "2023-07-06"
 
 keywords: direct link api change log
 
@@ -19,6 +19,22 @@ content-type: release-note
 
 Check back regularly to see what's new with {{site.data.keyword.cloud}} Direct Link API.
 {: shortdesc}
+
+## 06 July 2023
+{: #dl-jul0623}
+
+Route report enhancements
+  
+: Added advertised routes to verify route filters and AS prepends applied to the Direct Link gateway.
+
+: “AS path” information added to on-prem routes to verify AS prepends.
+
+: Changed commands
+
+   * List route reports - `GET /gateways/{gateway_id}/route_reports`
+   * Create a route report - `POST /gateways/{gateway_id}/route_reports`
+   * Delete route report - `DELETE /gateways/{gateway_id}/route_reports/{id}`
+   * Get a route report - `GET /gateways/{gateway_id}/route_reports/{id}`
 
 ## 16 March 2023
 {: #dl-mar1623}

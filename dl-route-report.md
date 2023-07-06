@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023
-lastupdated: "2023-06-08"
+lastupdated: "2023-07-06"
 
 keywords: direct link
 
@@ -57,6 +57,10 @@ After the report generates, the following columns are displayed in the route rep
    {: note}
    
 * Advertised - Specifies whether the route is advertised, learned, or not advertised.
+
+   The route is advertised only when BGP is established.
+   {: note}
+   
 * Conflict - Specifies whether or not there is a route conflict. 
 
 Select the Settings icon ![Settings icon](../../icons/settings.svg) to change the table's row height or edit column settings.

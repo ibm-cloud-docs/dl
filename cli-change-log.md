@@ -2,7 +2,7 @@
 
 copyright:
   years: 2022, 2023
-lastupdated: "2023-03-16"
+lastupdated: "2023-07-06"
 
 keywords: direct link cli change log
 
@@ -22,6 +22,13 @@ Learn about the latest changes, improvements, and updates for the IBM Cloud Dire
 
 To learn about general updates and improvements to Direct Link offerings, see [Release notes for Direct Link](/docs/dl?topic=dl-direct-link-release-notes).
 {: note}
+
+## 06 July 2023
+{: #dl-jul0623}
+{: release-note}
+
+Route report enhancements
+:    Shows new route report fields for advertised routes and AS path. 
 
 ## 16 March 2023
 {: #dl-mar1623}

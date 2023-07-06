@@ -2,7 +2,7 @@
 
 copyright:
   years: 2022, 2023
-lastupdated: "2023-03-20"
+lastupdated: "2023-07-06"
 
 keywords: direct link release notes
 
@@ -19,6 +19,20 @@ content-type: release-note
 
 Check back regularly to see what's new with {{site.data.keyword.cloud}} Direct Link.
 {: shortdesc}
+
+## 06 July 2023
+{: #dl-july0623}
+{: release-note}
+
+Route report enhancements
+:   Added advertised routes to verify route filters and AS prepends applied to the Direct Link gateway.
+
+:   Added “AS path” information to on-prem routes to verify AS prepends.
+
+    For more information, see [Generating a direct link route report](/docs/dl?topic=dl-generate-route-reports&interface=ui).
+    {: note}
+
+Support for Madrid multi-zone region (MZR)
 
 ## 20 March 2023
 {: #dl-march2023}
