@@ -134,8 +134,8 @@ The following table lists {{site.data.keyword.dl_short}} Connect service provide
 | AT&T NetBond for Cloud | **Americas**: Dallas 3, Dallas 8, San Jose 2 (no diversity: on same XCR), Washington DC 2, Washington DC 3  \n **EU**: Frankfurt 1, London 1 | |
 | Axtel | **Americas**: Dallas 3 | |
 | BBIX | **APAC**: Tokyo 1, Tokyo 3 | |
-| BlueFringe | **Americas**: Dallas 3, Washington DC 2  \n **APAC**: Chennai 1  \n **EU**: Amsterdam 2, Frankfurt 3 | |
-| British Telecom | **Americas**: São Paulo 1, Washington DC 2  \n **EU**: Frankfurt 1, Frankfurt 3, London 1, London 3 | ![Checkmark icon](../icons/checkmark-icon.svg) |
+| BlueFringe | **Americas**: Dallas 3, Washington DC 2  \n **EU**: Amsterdam 2, Frankfurt 3 | |
+| British Telecom | **Americas**: São Paulo 1  \n **EU**: Frankfurt 1, Frankfurt 3, London 3 | ![Checkmark icon](../icons/checkmark-icon.svg) |
 | Chief Telecom | **APAC**: Hong Kong 1, Taipei 1 | |
 | China Unicom | **Americas**: San Jose 2  \n **APAC**: Hong Kong 3  \n  **EU**: Frankfurt 3 | |
 | Cloudflare | **Americas**: Dallas 3, Los Angeles 1, Washington DC 2| |
@@ -184,7 +184,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect service provide
 | Location | Providers |
 |----|----|
 | Amsterdam 2 | BlueFringe  \n  Colt  \n Epsilon  \n Equinix  \n Intercloud  \n Megaport  \n nextGen GNPP  \n Verizon SCI |
-| Chennai 1 | BlueFringe  \n TATA |
+| Chennai 1 | TATA |
 | Chicago 1 | Cologix  \n Console Connect  \n Equinix  \n Megaport |
 | Dallas 3 |  AT&T NetBond for Cloud  \n Axtel  \n BlueFringe  \n Cloudflare  \n Console Connect  \n Equinix  \n Level3  \n Lumen  \n Neutrona  \n nextGen GNPP  \n Orange Business Systems  \n Telia  \n Zayo |
 | Dallas 4 |  PacketFabric  \n Megaport |
@@ -199,7 +199,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect service provide
 | Frankfurt 5 | Console Connect  \n DE-CIX  \n IBM Power Virtual Server |
 | Hong Kong 1 | Console Connect  \n Chief Telecom  \n Epsilon  \n TATA |
 | Hong Kong 3 | China Unicom  \n Colt  \n Megaport  \n Zenlayer |
-| London 1 | AT&T NetBond for Cloud  \n British Telecom  \n Colt \n Console Connect  \n Epsilon  \n Equinix  \n IX Reach  \n nextGen GNPP  \n Vodafone |
+| London 1 | AT&T NetBond for Cloud  \n Colt \n Console Connect  \n Epsilon  \n Equinix  \n IX Reach  \n nextGen GNPP  \n Vodafone |
 | London 3 | British Telecom  \n Colt  \n Equinix  \n IX Reach  \n Lumen  \n Megaport  \n nextGen GNPP  \n Orange Business Services  \n Vodafone |
 | London 4 | IBM Power Virtual Server  \n nextGen GNPP  |
 | London 6 | IBM Power Virtual Server |
