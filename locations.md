@@ -167,6 +167,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect service provide
 | SoftBank | **APAC**: Tokyo 4 | |
 | Telia | **Americas**: Dallas 3, Washington DC 2 | | |
 | Tokai | **APAC**: Osaka 1, Tokyo 3 | |
+| Verizon SCI | **Americas**: Dallas 3, San Jose 2, Washington DC 2  \n **EU**: Frankfurt 1 | | |
 | Vodafone | **EU**: Frankfurt 1, Frankfurt 3, London 1, London 3 | |
 | Zayo | **Americas**: Dallas 3, Toronto 2, Washington DC 2| |
 | Zenlayer | **APAC**: Hong Kong 3, Tokyo 1 | |
@@ -180,14 +181,14 @@ The following table lists {{site.data.keyword.dl_short}} Connect service provide
 |----|----|
 | Amsterdam 2 | BlueFringe  \n  Colt  \n Equinix  \n Megaport  \n nextGen GNPP |
 | Chicago 1 | Cologix  \n Console Connect  \n Equinix  \n Megaport |
-| Dallas 3 |  AT&T NetBond for Cloud  \n Axtel  \n BlueFringe  \n Cloudflare  \n Console Connect  \n Equinix  \n Lumen  \n Neutrona  \n nextGen GNPP  \n Orange Business Systems  \n Telia  \n Zayo |
+| Dallas 3 |  AT&T NetBond for Cloud  \n Axtel  \n BlueFringe  \n Cloudflare  \n Console Connect  \n Equinix  \n Lumen  \n Neutrona  \n nextGen GNPP  \n Orange Business Systems  \n Telia  \n Verizon SCI  \n Zayo |
 | Dallas 4 |  PacketFabric  \n Megaport |
 | Dallas 8 | AT&T NetBond for Cloud |
 | Dallas 10 | DE-CIX  \n IBM Power Virtual Server |
 | Dallas 12 | IBM Power Virtual Server  \n POWERIAASLITE-STAGING |
 | Dallas 13 | CyrusOne  \n IBM Power Virtual Server |
 | Denver 1 | Coresite |
-| Frankfurt 1 | AT&T NetBond for Cloud  \n British Telecom  \n Colt  \n  Digital Realty  \n EU Networks  \n Intercloud  \n Megaport  \n Vodaphone |
+| Frankfurt 1 | AT&T NetBond for Cloud  \n British Telecom  \n Colt  \n  Digital Realty  \n EU Networks  \n Intercloud  \n Megaport  \n Verizon SCI  \n Vodaphone |
 | Frankfurt 3 | BlueFringe  \n British Telecom  \n China Unicom  \n Colt  \n Console Connect  \n DE-CIX \n Equinix  \n Intercloud  \n nextGen GNPP  \n Vodafone |
 | Frankfurt 4 | DE-CIX  \n IBM Power Virtual Server |
 | Frankfurt 5 | Console Connect  \n DE-CIX  \n IBM Power Virtual Server |
@@ -209,7 +210,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect service provide
 | Osaka 21 |IBM Power Virtual Server |
 | Paris 2 | Colt  \n Equinix  \n Lumen  \n Megaport  \n Orange Business Services |
 | Paris 3 | Colt  \n Equinix |
-| San Jose 2 | AT&T NetBond for Cloud (no diversity, on same XCR) \n China Unicom  \n Cloudflare  \n Colt  \n Equinix  \n Lumen  \n Megaport  \n PacketFabric |
+| San Jose 2 | AT&T NetBond for Cloud (no diversity, on same XCR) \n China Unicom  \n Cloudflare  \n Colt  \n Equinix  \n Lumen  \n Megaport  \n PacketFabric  \n Verizon SCI|
 | São Paulo 1 | Ascenty  \n British Telecom  \n IBM Power Virtual Server |
 | São Paulo 2 | Ascenty  \n  Equinix  \n Lumen |
 | São Paulo 5 | Ascenty |
@@ -226,7 +227,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect service provide
 | Toronto 1 | IBM Power Virtual Server |
 | Toronto 2 | Cologix  \n Equinix \n Fibernoire  \n Lumen  \n Megaport  \n Zayo |
 | Toronto 3 | Equinix |
-| Washington DC 2 |  AT&T NetBond for Cloud  \n BlueFringe  \n British Telecom  \n Cloudflare  \n Cologix  \n Colt  \n Epsilon  \n Equinix  \n IXReach  \n Megaport  \n Neutrona  \n nextGen GNPP  \n SES Networks  \n Telia  \n Zayo |
+| Washington DC 2 |  AT&T NetBond for Cloud  \n BlueFringe  \n British Telecom  \n Cloudflare  \n Cologix  \n Colt  \n Epsilon  \n Equinix  \n IXReach  \n Megaport  \n Neutrona  \n nextGen GNPP  \n SES Networks  \n Telia  \n Verizon SCI  \n Zayo |
 | Washington DC 3 | AT&T NetBond for Cloud |
 | Washington DC 4 | Anthem  \n IBM Power Virtual Server |
 | Washington DC 5 | Coresite |
