@@ -131,8 +131,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect service provide
 | Anthem | **Americas**: Washington DC 4 | |
 | Ascenty | **Americas**: São Paulo 1, São Paulo 5 | |
 | At Tokyo | **APAC**: Osaka 1, Tokyo 2 | |
-| AT&T Cloud Gateway | **Americas**: Dallas 3 | |
-| AT&T NetBond for Cloud | **Americas**: Dallas 3, Dallas 8, San Jose 2 (no diversity: on same XCR), Washington DC 2, Washington DC 3  \n **APAC**: Singapore 2  \n **EU**: Frankfurt 1, London 1 | |
+| AT&T NetBond for Cloud | **Americas**: Dallas 3, Dallas 8, San Jose 2 (no diversity: on same XCR), Washington DC 2, Washington DC 3  \n **EU**: Frankfurt 1, London 1 | |
 | Axtel | **Americas**: Dallas 3 | |
 | BBIX | **APAC**: Tokyo 1, Tokyo 3 | |
 | BlueFringe | **Americas**: Dallas 3, Washington DC 2  \n **APAC**: Chennai 1  \n **EU**: Amsterdam 2, Frankfurt 3 | |
@@ -187,7 +186,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect service provide
 | Amsterdam 2 | BlueFringe  \n  Colt  \n Epsilon  \n Equinix  \n Intercloud  \n Megaport  \n nextGen GNPP  \n Verizon SCI |
 | Chennai 1 | BlueFringe  \n TATA |
 | Chicago 1 | Cologix  \n Console Connect  \n Equinix  \n Megaport |
-| Dallas 3 |  AT&T Cloud Gateway  \n AT&T NetBond for Cloud  \n Axtel  \n BlueFringe  \n Cloudflare  \n Console Connect  \n Equinix  \n Level3  \n Lumen  \n Neutrona  \n nextGen GNPP  \n Orange Business Systems  \n Telia  \n Zayo |
+| Dallas 3 |  AT&T NetBond for Cloud  \n Axtel  \n BlueFringe  \n Cloudflare  \n Console Connect  \n Equinix  \n Level3  \n Lumen  \n Neutrona  \n nextGen GNPP  \n Orange Business Systems  \n Telia  \n Zayo |
 | Dallas 4 |  PacketFabric  \n Megaport |
 | Dallas 8 | AT&T NetBond for Cloud |
 | Dallas 10 | DE-CIX  \n IBM Power Virtual Server |
@@ -224,7 +223,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect service provide
 | São Paulo 2 | Ascenty  \n  Equinix  \n Level3  \n Lumen  \n Neutrona |
 | São Paulo 5 | Ascenty |
 | Seoul 2 | KINX |
-| Singapore 2 | AT&T NetBond for Cloud  \n  Colt  \n Console Connect  \n  Equinix  \n Megaport  \n Orange Business Systems |
+| Singapore 2 | Colt  \n Console Connect  \n  Equinix  \n Megaport  \n Orange Business Systems |
 | Stockholm 2 | Telia |
 | Sydney 2 | Equinix  \n Megaport  \n Telstra |
 | Sydney 3 | Console Connect  \n NextDC |
