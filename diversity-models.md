@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2018, 2022
-lastupdated: "2022-09-21"
+  years: 2018, 2023
+lastupdated: "2023-07-27"
 
 keywords: direct link
 
@@ -30,10 +30,10 @@ Key:
 If the same route prefixes are being advertised to and from IBM Cloud through the BGP session for Direct Link, BGP determines the best path. If the local preference of both paths are equal, such as in the case for Direct Link, the BGP path follows the shortest AS path. Using AS prepends, you can control which path is longest, reducing the priority. The local Autonomous System Number (ASN) on the BGP session is prepended three or more times to the matched route's AS-PATH, artificially increasing that path's length.
 {: shortdesc}
 
-The greater the repetition value, the greater the preference is affected. Using three or more AS prepends to your prefixes ensures a significant difference. 
+The greater the repetition value, the greater the preference is affected. Using three or more AS prepends to your prefixes ensures a significant difference.
 {: important}
 
-You can configure AS prepends when [ordering Direct Link Connect](/docs/dl?topic=dl-how-to-order-ibm-cloud-dl-connect), [ordering Direct Link Dedicated](/docs/dl?topic=dl-how-to-order-ibm-cloud-dl-dedicated), or [after your direct link is provisioned](/docs/dl?topic=dl-prepend-as-paths). A prepend rule is set up with a policy to determine whether the rule will target _exported routes_ (virtual connection routes advertised to on-premises network) or _imported routes_ (on-premises routes being advertised into the IBM Cloud infrastructure), and a repetition value, which determines how many times the local BGP session ASN is applied to routes. The longer the repetition, the less priority the routes have. Optionally, rules have one or more prefixes used to match routes. If provided, only routes matching the prefixes are prepended. Without a prefix, all routes are affected by the prepend rule. 
+You can configure AS prepends when [ordering Direct Link Connect](/docs/dl?topic=dl-how-to-order-ibm-cloud-dl-connect), [ordering Direct Link Dedicated](/docs/dl?topic=dl-how-to-order-ibm-cloud-dl-dedicated), or [after your direct link is provisioned](/docs/dl?topic=dl-prepend-as-paths). A prepend rule is set up with a policy to determine whether the rule will target _exported routes_ (virtual connection routes advertised to on-premises network) or _imported routes_ (on-premises routes being advertised into the IBM Cloud infrastructure), and a repetition value, which determines how many times the local BGP session ASN is applied to routes. The longer the repetition, the less priority the routes have. Optionally, rules have one or more prefixes used to match routes. If provided, only routes matching the prefixes are prepended. Without a prefix, all routes are affected by the prepend rule.
 
 Currently, IBM Cloud Direct Link only supports influencing route preference with AS prepends. Direct Link does not support influencing the route preference with the following BGP route attributes:
 
@@ -42,11 +42,11 @@ Currently, IBM Cloud Direct Link only supports influencing route preference with
 * Multiple Exit Discriminator (MED)
 
 For more information about prepending route prefixes, see [Using AS prepends to manage route priorities](/docs/dl?topic=dl-dl-about#use-case-1) and [Planning considerations when using AS prepends with VPC connections](/docs/dl?topic=dl-as-prepends-routes).
- 
+
 Similar rules apply on the route prefixes that IBM Cloud advertises. The IBM Cloud routers advertise all prefixes that are associated with all applicable Direct Link connections equally (through BGP) with no additional BGP attributes to indicate path preference. You can implement import policies of your choice to prevent asymmetric routing scenarios that align with any existing export policies.
 {: note}
 
-## Simple configurations that achieve diversity
+## Sample network topologies to achieve diversity
 {: #section-1-diversity-models}
 
 The configurations that are shown in this group assume that all of the assets are located in the same PoP and in the same global market.
