@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-03-22"
+lastupdated: "2023-08-03"
 
 keywords: direct link
 
@@ -17,59 +17,69 @@ subcollection: dl
 
 Follow these steps to order an {{site.data.keyword.dl_full}} Connect gateway with Megaport:
 
-   For instructions on creating Megaport Cloud Router (MCR) connections, see [MCR Connections to IBM Cloud Direct Link](https://docs.megaport.com/cloud/mcr/ibm-2.0/).
-   {: note}
+1. In the [Megaport Portal](https://portal.megaport.com/login){: external}, go to the Services page and select the Port you want to use.
+1. Add an IBM Cloud connection for the Port.
 
-1. Using your IBM Cloud account, order a {{site.data.keyword.dl_short}} Connect gateway by using the {{site.data.keyword.cloud_notm}} console. For instructions, see [Ordering IBM Cloud Direct Link Connect](/docs/dl?topic=dl-how-to-order-ibm-cloud-dl-connect).
+   If this is the first connection for the Port, click the IBM Cloud tile. The tile is a shortcut to the configuration page. Alternatively, click **+Connection** > **Cloud** > **IBM Cloud**.
 
-1. After the {{site.data.keyword.dl_short}} is created, copy the **Service key** assigned in Step 1, and enter this information in the [Megaport Portal](https://portal.megaport.com/login){: external} to provision a Virtual Cross Connect (VXC) to the {{site.data.keyword.dl_full_notm}} Connect peering location.
+   ![Add connection to IBM Cloud](/images/megaport1.png "Add connection to IBM Cloud"){: caption="Add connection to IBM Cloud" caption-side="bottom"}
 
-   ![Provisioning a VXC to Direct Link Connect in the Megaport Portal](/images/megaport_portal.png "Provisioning a VXC to Direct Link Connect in the Megaport Portal"){: caption="Provisioning a VXC to Direct Link Connect in the Megaport Portal" caption-side="bottom"}   
+1. Select the IBM Direct Link location where the peer will be set up with IBM Cloud and click **Next**.
 
-1. In the [Megaport Portal](https://portal.megaport.com/login){: external}, go to the Services page and select the port that you want to use. If you haven't already created a port, see [Creating a Port](https://docs.megaport.com/connections/creating-port/){: external} in the Megaport documentation.
+   This destination should match the peer location selected in the IBM Cloud.
 
-1. Add an {{site.data.keyword.cloud_notm}} connection to the port. If this is the first connection for the port, click the {{site.data.keyword.cloud_notm}} tile.
-
-    Alternatively, click **+Connection > Cloud > IBM Cloud**.
-
-   ![Add IBM Cloud connection](/images/megaport_add_connection.png "Add IBM Cloud connection"){: caption="Add IBM Cloud connection" caption-side="bottom"}     
-
-1. Select the {{site.data.keyword.dl_full_notm}} location where the peer will be set up with {{site.data.keyword.cloud_notm}}, then click **Next**.  
-
-   This destination should match the peer location selected in the {{site.data.keyword.cloud_notm}}.
-
-   ![Select the IBM Cloud Direct Link location where the peer will be set up](/images/megaport_location.png "Select the IBM Direct Link location where the peer will be set up"){: caption="Select the IBM Cloud Direct Link location where the peer will be set up" caption-side="bottom"}   
+   ![Select IBM Direct Link location](/images/megaport2.png "Select IBM Direct Link location"){: caption="Select IBM Direct Link location" caption-side="bottom"}
 
 1. Specify these connection details:
 
-   * **Name your connection** – Enter the {{site.data.keyword.dl_full_notm}} service key.
-   * **Invoice Reference** - Optionally, enter a reference description, such as a PO number or billing reference number.
-   * **Rate Limit** – Enter the speed of your connection in Mbps. Match the port speed created in the IBM Cloud console for the {{site.data.keyword.dl_short}} service.
-   * **Preferred A-End VLAN** – Optionally, specify an unused VLAN ID for this connection. This must be a unique VLAN ID on this port and can range from `2` to `4093`. If you specify a VLAN ID that is already in use, the system displays the next available VLAN number. The VLAN ID must be unique to proceed with the order. If you don’t specify a value, Megaport assigns one.
+   * **Connection Name** – The name of your VXC to be shown in the Megaport Portal.
+   * **Service Level Reference** (optional) – Specify a unique identifying number for the Direct Link Connect gateway to be used for billing purposes, such as a cost center number or a unique customer ID. The service level reference number appears for each service under the Product section of the invoice. You can also edit this field for an existing service.
 
-   Alternatively, you can click **Untag** to remove the VLAN tagging for this connection. The untagged option limits you to only one VXC deployed on this port.
+      Partner managed accounts can apply a Partner Deal to a service. For details, see [Associating a Deal With a Service](https://partner-docs.megaport.com/services/deal-ids/){: external}.
+      {: note}
 
-   ![Connection Details page](/images/megaport_connection_details.png "Connection Details page"){: caption="Connection Details page" caption-side="bottom"}   
+   * **Rate Limit** – This is the speed of your connection in Mbps. The speed tiers available are dependent on the selected location, and match the speeds available in IBM. Select the port speed from the drop-down list to match the selected speed in the IBM Cloud console for the Direct Link service.
 
-1. Click **Next**. A Summary page appears that includes the monthly cost.
+   * **Preferred A-End VLAN** (optional) – Specify an unused VLAN ID for this connection.
 
-   ![Summary page](/images/megaport_summary.png "Summary page"){: caption="Summary page" caption-side="bottom"}   
+      This must be a unique VLAN ID on this Port and can range from `2` to `4093`. If you specify a VLAN ID that is already in use, the system displays the next available VLAN number. The VLAN ID must be unique to proceed with the order. If you don’t specify a value, Megaport assigns one.
 
-1. Click **Back** to make changes, or click **Add VXC**.
+      Alternatively, you can click **Untag** to remove the VLAN tagging for this connection. The untagged option limits you to only one direct link deployed on this Port.
 
-   After you have completed this configuration, you can configure additional VXCs, or proceed through the ordering process.
+      ![Connection Details](/images/megaport3.png "Connection Details"){: caption="Connection Details" caption-side="bottom"}
+
+1. Click **Next**. The Cloud Details page appears.
+1. Specify these IBM Cloud details:
+
+   * **IBM Account ID** – Your IBM account ID. You can get your account ID from the IBM account setting in the IBM Cloud console.
+
+      This is used to link the Megaport Portal and IBM Cloud console. Confirmation for this new connection is sent to the specified account ID in the IBM Cloud console.
+
+   * **Customer ASN** – Your network’s Autonomous System Number. This can be a public or private ASN and the supported ranges are `1` - `64495`, `131072` - `4199999999`, or `4201000000` - `4201064511` (default is `64999`).
+
+   * **Customer IP Address** (optional) – The IP address space (in CIDR format) you will use on your network for peering. For private connections, this field is optional and if left blank, Megaport assigns a private `/30` address. For public connections, this field is required and needs public IPs (`/30`) allocated by you for BGP connectivity. You must own the public IPs.
+
+   * **Provider IP Address** (optional) – The IP address space in CIDR format assigned in the IBM network for peering. This field is optional and if left blank, Megaport automatically assigns a private `/30` address.
+
+   ![Connection details for IBM Cloud Service](/images/megaport4.png "Connection details for IBM Cloud Service"){: caption="Connection details for IBM Cloud Service" caption-side="bottom"}
+
+1. Click **Next**. A summary page appears that includes a drop-down of the IBM cloud details and the monthly cost.
+
+   ![Summary page](/images/megaport5.png "Summary page"){: caption="Summary page" caption-side="bottom"}
+
+1. Click **Back** to make changes or click **Add VXC**.
+
+   After you have finished this configuration, you can configure additional VXCs or proceed through the ordering process.
 
 1. Review the details and click **Order**.
 
-   ![Configured Services page](/images/megaport_configured_services.png "Configured Services page"){: caption="Configured Services page" caption-side="bottom"}   
-
 1. Click **Order Now** to complete the ordering process.
 
-   ![Order Services page](/images/megaport_order_services.png "Order Services page"){: caption="Order Services page" caption-side="bottom"}   
+   The IBM Portal Connection prompt displays. This is a reminder that you need to approve or reject the request in the IBM Cloud console, and provides a link to the IBM Cloud console.
 
-After IBM verifies and approves the inbound IBM VXC, the {{site.data.keyword.dl_full_notm}} Connect status changes to **Provisioned** and the Megaport VXC is active.
+After the direct link is created and ordered in the Megaport Portal, the change is available immediately in the IBM Cloud console. After you verify and approve the inbound IBM Direct Link Connect gateway in the IBM Cloud console, the IBM Direct Link Connect status changes to `Provisioned` and the direct link is active.
 
-The timeline for IBM approval is from 24 to 48 hours and requires both an IBM Direct Link order in the IBM Cloud console and in the Megaport portal for provisioning. If the 24 to 48 hour Service Level Agreement (SLA) is not acceptable, you can create an [IBM Support case](/unifiedsupport/cases/form) and request that it be routed to the IBM Special Network Service (SNS) team. 
+**Notes**:
 
-Include the service key in your case.
-{: note}
+* When editing a direct link in the Megaport Portal, a prompt listing the changes appears first, then the IBM Portal Connection prompt. If editing an older VXC to IBM Cloud Direct Link, a prompt appears stating that Megaport has updated API integrations, and advises you to cancel and reorder the VXC. In this situation, we recommend that you cancel and then reorder the VXC using the latest API integration.
+* When terminating a direct link in the Megaport Portal, confirm the termination in the prompt that appears. The IBM Portal Connection prompt appears to remind you to cancel the service in the IBM Cloud console also. The direct link is terminated on the Megaport side, but you must do the same in the IBM Cloud console to fully terminate the service.
