@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-07-26"
+lastupdated: "2023-09-26"
 
 keywords: direct link
 
@@ -32,8 +32,8 @@ The following table provides details about the {{site.data.keyword.cloud_notm}} 
 | Denver 1 | PoP | Coresite |	DE1 |
 | Miami 1 | PoP  | TERREMARK | MI1 |
 | Montreal 3 | DC | Colo-D | MON03 |
-| New York City 2  | PoP | Equinix | NY4 |
-| New York City 3  | PoP | Equinix | NY4 |
+| New York City 2[^newyork2]  | PoP | Equinix | NY4 |
+| New York City 3[^newyork3]  | PoP | Equinix | NY4 |
 | San Jose 2 | PoP | Equinix | SV1 |
 | San Jose 3| DC | Digital Realty | SJC31|
 | San Jose 4 | DC | Infomart | SJC1 |
@@ -118,7 +118,9 @@ The following table provides details about the {{site.data.keyword.cloud_notm}} 
 {: tab-group="dedicated-simple"}
 {: class="simple-tab-table"}
 
-\* New York City 2 and 3 connect to the IBM Cloud backbone through New York City 1. The primary reason for these PoPs is to extend connectivity to different site providers from our New York City 1 site. When planning your diversity strategy, keep in mind that traffic for New York City 2 and 3 have a single, shared path to the IBM network.
+[^newyork2]: New York City 2 and 3 connect to the IBM Cloud backbone through New York City 1. The primary reason for these PoPs is to extend connectivity to different site providers from our New York City 1 site. When planning your diversity strategy, keep in mind that traffic for New York City 2 and 3 have a single, shared path to the IBM network.
+
+[^newyork3]: New York City 2 and 3 connect to the IBM Cloud backbone through New York City 1. The primary reason for these PoPs is to extend connectivity to different site providers from our New York City 1 site. When planning your diversity strategy, keep in mind that traffic for New York City 2 and 3 have a single, shared path to the IBM network.
 
 ## Direct Link Connect service providers and locations
 {: #connect-locations}
@@ -131,43 +133,48 @@ The following table lists {{site.data.keyword.dl_short}} Connect service provide
 | Anthem | **Americas**: Washington DC 4 | |
 | Ascenty | **Americas**: São Paulo 1, São Paulo 5 | |
 | At Tokyo | **APAC**: Osaka 1, Tokyo 2 | |
-| AT&T NetBond for Cloud | **Americas**: Dallas 3, Dallas 8, San Jose 2 (no diversity: on same XCR), Washington DC 2, Washington DC 3  \n **EU**: Frankfurt 1, London 1 | |
+| AT&T Cloud Gateway | **Americas**: Dallas 3 | |
+| AT&T NetBond for Cloud | **Americas**: Dallas 3, Dallas 8, San Jose 2 (no diversity: on same XCR), Washington DC 2, Washington DC 3  \n **APAC**: Singapore 2  \n **EU**: Frankfurt 1, London 1 | |
 | Axtel | **Americas**: Dallas 3 | |
 | BBIX | **APAC**: Tokyo 1, Tokyo 3 | |
-| BlueFringe | **Americas**: Dallas 3, Washington DC 2  \n **EU**: Amsterdam 2, Frankfurt 3 | |
-| British Telecom | **Americas**: São Paulo 1  \n **EU**: Frankfurt 1, Frankfurt 3, London 3 | ![Checkmark icon](../icons/checkmark-icon.svg) |
-| Chief Telecom | **APAC**: Taipei 1 | |
+| BlueFringe | **Americas**: Dallas 3, Washington DC 2  \n **APAC**: Chennai 1  \n **EU**: Amsterdam 2, Frankfurt 3 | |
+| British Telecom | **Americas**: São Paulo 1, Washington DC 2  \n **EU**: Frankfurt 1, Frankfurt 3, London 1, London 3 | ![Checkmark icon](../icons/checkmark-icon.svg) |
+| Chief Telecom | **APAC**: Hong Kong 1, Taipei 1 | |
 | China Unicom | **Americas**: San Jose 2  \n **APAC**: Hong Kong 3  \n  **EU**: Frankfurt 3 | |
 | Cloudflare | **Americas**: Dallas 3, Los Angeles 1, Washington DC 2| |
-| Cologix | **Americas**: Chicago 1, Toronto 2, Washington DC 2 |  ![Checkmark icon](../icons/checkmark-icon.svg) |
-| Colt | **Americas**: San Jose 2, Washington DC 2  \n **APAC**: Hong Kong 3, Tokyo 1, Tokyo 3  \n **EU**: Amsterdam 2, Frankfurt 1, Frankfurt 3, London 1, London 3, Paris 2, Paris 3 | |
-| Console Connect | **Americas**: Chicago 1, Dallas 3, Miami 1  \n **APAC**: Osaka 1, Sydney 3, Sydney 5  \n **EU**: Frankfurt 3, Frankfurt 5 | ![Checkmark icon](../icons/checkmark-icon.svg) |
+| Cologix | **Americas**: Chicago 1, Montreal 2, Toronto 2, Washington DC 2 |  ![Checkmark icon](../icons/checkmark-icon.svg) |
+| Colt | **Americas**: San Jose 2, Washington DC 2  \n **APAC**: Hong Kong 3, Singapore 2, Tokyo 1, Tokyo 3  \n **EU**: Amsterdam 2, Frankfurt 1, Frankfurt 3, London 1, London 3, Paris 2, Paris 3 | |
+| Console Connect | **Americas**: Chicago 1, Dallas 3, Miami 1, San Jose 2  \n **APAC**: Hong Kong 1, Osaka 1, Singapore 2, Tokyo 1, Sydney 3, Sydney 5  \n **EU**: Frankfurt 3, Frankfurt 5, London 1 | ![Checkmark icon](../icons/checkmark-icon.svg) |
 | Coresite | **Americas**: Denver 1, Los Angeles 1, Washington DC 5 | |
 | CyrusOne | **Americas**: Dallas 13 | |
-| DE-CIX | **Americas**: Dallas 10  \n **EU**: Frankfurt 3, Frankfurt 4, Frankfurt 5 | ![Checkmark icon](../icons/checkmark-icon.svg) |
+| DE-CIX | **Americas**: Dallas 10  \n **EU**: Frankfurt 1, Frankfurt 3, Frankfurt 4, Frankfurt 5 | ![Checkmark icon](../icons/checkmark-icon.svg) |
 | Digital Realty | **EU**: Frankfurt 1, Madrid 3 | |
-| Epsilon | **Americas**: Washington DC 2  \n **EU**: London 1 | |
-| Equinix | **Americas**: Chicago 1, Dallas 3, Montreal 1, New York 2, New York 3, San Jose 2, São Paulo 2, Toronto 2, Toronto 3, Washington DC 2  \n **APAC**: Osaka 1, Tokyo 1, Tokyo 3  \n **EU**: Amsterdam 2, Frankfurt 3, London 1, London 3, Madrid 1, Milan 2, Paris 2, Paris 3 | ![Checkmark icon](../icons/checkmark-icon.svg) |
+| Epsilon | **Americas**: Washington DC 2  \n  **APAC**: Hong Kong 1  \n **EU**: Amsterdam 2, Frankfurt 1, London 1 | |
+| Equinix | **Americas**: Chicago 1, Dallas 3, Montreal 1, New York 2, New York 3, San Jose 2, São Paulo 2, Toronto 2, Toronto 3, Washington DC 2  \n **APAC**: Osaka 1, Singapore 2, Tokyo 1, Tokyo 3  \n **EU**: Amsterdam 2, Frankfurt 3, London 1, London 3, Madrid 1, Milan 2, Paris 2, Paris 3, Sydney 2 | ![Checkmark icon](../icons/checkmark-icon.svg) |
 | EU Networks | **EU**: Frankfurt 1 | |
 | Fibernoire | **Americas**: Toronto 2 | |
 | IBM Power Virtual Server | **Americas**: Dallas 10, Dallas 12, Dallas 13, São Paulo 1, Toronto 1, Washington DC 4, Washington DC 7  \n **APAC**: Osaka 21, Sydney 4, Sydney 5, Tokyo 4  \n **EU**: Frankfurt 4, Frankfurt 5, London 4, London 6 | |
-| Intercloud | **EU**: Frankfurt 1, Frankfurt 3 | |
+| Intercloud | **EU**: Amsterdam 2, Frankfurt 1, Frankfurt 3 | |
 | IX Reach | **Americas**: Washington DC 2  \n **EU**: London 1, London 3 | |
-| Level3 | **Americas**: Miami 1 | |
-| Lumen | **Americas**: Dallas 3, San Jose 2, São Paulo 2, Toronto 2  \n  **EU**: London 3, Paris 2 | |
-| Megaport | **Americas**: Chicago 1, Dallas 4, Montreal 2, San Jose 2, Toronto 2, Washington DC 2  \n **APAC**: Hong Kong 3, Osaka 1, Sydney 2, Tokyo 2, Tokyo 3 \n **EU**: Amsterdam 2, Frankfurt 1, London 3, Paris 2 | |
-| NextDC | **APAC**: Sydney 3 | |
+| KINX | **APAC**: Seoul 2 | |
+| Level3 | **Americas**: Dallas 3, Miami 1, São Paulo 2 | |
+| Lumen | **Americas**: Dallas 3, San Jose 2, São Paulo 2, Toronto 2, Washington DC 2  \n  **EU**: Frankfurt 1, London 3, Paris 2 | |
+| Marcatel |  Americas: Mexico 1 | |
+| Megaport | **Americas**: Chicago 1, Dallas 4, Montreal 2, San Jose 2, Toronto 2, Washington DC 2  \n **APAC**: Hong Kong 3, Osaka 1, Singapore 1[^singapore1], Singapore 2, Sydney 2, Tokyo 2, Tokyo 3 \n **EU**: Amsterdam 2, Frankfurt 1, London 3, Melbourne 2, Paris 2 | |
+| NextDC | **APAC**: Melbourne 2, Sydney 3 | |
 | nextGen GNPP | **Americas**: Dallas 3, Washington DC 2  \n **EU**: Amsterdam 2, Frankfurt 3, London 1, London 3, London 4 | |
 | NTT | **APAC**: Tokyo 5 | |
-| Neutrona | **Americas**: Dallas 3, Washington DC 2 | |
-| Orange Business Services | **Americas**: Dallas 3  \n **EU**: London 3, Paris 2 | |
-| PacketFabric | **Americas**: Dallas 4, San Jose 2 | |
+| Neutrona | **Americas**: Dallas 3, São Paulo 2, Washington DC 2 | |
+| Orange Business Services | **Americas**: Dallas 3  \n **APAC**: Singapore 2  \n **EU**: London 3, Paris 2 | |
+| PacketFabric | **Americas**: Dallas 4, Washington DC 2, San Jose 2 | |
 | POWERIAASLITE-STAGING | **Americas**: Dallas 12 | | |
 | SES Networks | **Americas**: Washington DC 2 | | |
 | SoftBank | **APAC**: Tokyo 4 | |
-| Telia | **Americas**: Dallas 3, Washington DC 2 | | |
+| TATA | **APAC**: Chennai 1, Hong Kong 1 | | |
+| Telia | **Americas**: Dallas 3, Washington DC 2  \n **EU**: Stockholm 2 | | |
+| Telstra | **APAC**: Melbourne 2, Sydney 2 | | |
 | Tokai | **APAC**: Osaka 1, Tokyo 3 | |
-| Verizon SCI | **Americas**: Dallas 3, San Jose 2, Washington DC 2  \n **EU**: Frankfurt 1 | | |
+| Verizon SCI | **Americas**: San Jose 2, Washington DC 2  \n **EU**: Amsterdam 2, Frankfurt 1 | |
 | Vodafone | **EU**: Frankfurt 1, Frankfurt 3, London 1, London 3 | |
 | Zayo | **Americas**: Dallas 3, Toronto 2, Washington DC 2| |
 | Zenlayer | **APAC**: Hong Kong 3, Tokyo 1 | |
@@ -179,47 +186,55 @@ The following table lists {{site.data.keyword.dl_short}} Connect service provide
 
 | Location | Providers |
 |----|----|
-| Amsterdam 2 | BlueFringe  \n  Colt  \n Equinix  \n Megaport  \n nextGen GNPP |
+| Amsterdam 2 | BlueFringe  \n  Colt  \n Epsilon  \n Equinix  \n Intercloud  \n Megaport  \n nextGen GNPP  \n Verizon SCI |
+| Chennai 1 | BlueFringe  \n TATA |
 | Chicago 1 | Cologix  \n Console Connect  \n Equinix  \n Megaport |
-| Dallas 3 |  AT&T NetBond for Cloud  \n Axtel  \n BlueFringe  \n Cloudflare  \n Console Connect  \n Equinix  \n Lumen  \n Neutrona  \n nextGen GNPP  \n Orange Business Systems  \n Telia  \n Verizon SCI  \n Zayo |
+| Dallas 3 |  AT&T Cloud Gateway  \n AT&T NetBond for Cloud  \n Axtel  \n BlueFringe  \n Cloudflare  \n Console Connect  \n Equinix  \n Level3  \n Lumen  \n Neutrona  \n nextGen GNPP  \n Orange Business Systems  \n Telia  \n Zayo |
 | Dallas 4 |  PacketFabric  \n Megaport |
 | Dallas 8 | AT&T NetBond for Cloud |
 | Dallas 10 | DE-CIX  \n IBM Power Virtual Server |
 | Dallas 12 | IBM Power Virtual Server  \n POWERIAASLITE-STAGING |
 | Dallas 13 | CyrusOne  \n IBM Power Virtual Server |
 | Denver 1 | Coresite |
-| Frankfurt 1 | AT&T NetBond for Cloud  \n British Telecom  \n Colt  \n  Digital Realty  \n EU Networks  \n Intercloud  \n Megaport  \n Verizon SCI  \n Vodaphone |
+| Frankfurt 1 | AT&T NetBond for Cloud  \n British Telecom  \n Colt  \n DE-CIX  \n  Digital Realty  \n Epsilon  \n EU Networks  \n Intercloud  \n Lumen  \n Megaport  \n Verizon SCI  \n Vodaphone |
 | Frankfurt 3 | BlueFringe  \n British Telecom  \n China Unicom  \n Colt  \n Console Connect  \n DE-CIX \n Equinix  \n Intercloud  \n nextGen GNPP  \n Vodafone |
 | Frankfurt 4 | DE-CIX  \n IBM Power Virtual Server |
 | Frankfurt 5 | Console Connect  \n DE-CIX  \n IBM Power Virtual Server |
+| Hong Kong 1 | Console Connect  \n Chief Telecom  \n Epsilon  \n TATA |
 | Hong Kong 3 | China Unicom  \n Colt  \n Megaport  \n Zenlayer |
-| London 1 | AT&T NetBond for Cloud  \n Colt \n Epsilon  \n Equinix  \n IX Reach  \n nextGen GNPP  \n Vodafone |
+| London 1 | AT&T NetBond for Cloud  \n British Telecom  \n Colt \n Console Connect  \n Epsilon  \n Equinix  \n IX Reach  \n nextGen GNPP  \n Vodafone |
 | London 3 | British Telecom  \n Colt  \n Equinix  \n IX Reach  \n Lumen  \n Megaport  \n nextGen GNPP  \n Orange Business Services  \n Vodafone |
 | London 4 | IBM Power Virtual Server  \n nextGen GNPP  |
 | London 6 | IBM Power Virtual Server |
 | Los Angeles 1 | Cloudflare  \n Coresite |
 | Madrid 1 | Equinix |
 | Madrid 3| Digital Realty |
+| Melbourne 2 | Megaport  \n NextDC  \n Telstra |
+| Mexico 1 | Marcatel |
 | Miami 1 | Console Connect  \n Level3 |
 | Milan 2 | Equinix |
 | Montreal 1 | Equinix |
-| Montreal 2 | Megaport |
+| Montreal 2 | Cologix  \n Megaport |
 | New York 2 | Equinix |
 | New York 3 | Equinix |
 | Osaka 1 | AT Tokyo  \n Console Connect  \n Equinix  \n Megaport  \n Tokai |
 | Osaka 21 |IBM Power Virtual Server |
 | Paris 2 | Colt  \n Equinix  \n Lumen  \n Megaport  \n Orange Business Services |
 | Paris 3 | Colt  \n Equinix |
-| San Jose 2 | AT&T NetBond for Cloud (no diversity, on same XCR) \n China Unicom  \n Cloudflare  \n Colt  \n Equinix  \n Lumen  \n Megaport  \n PacketFabric  \n Verizon SCI|
+| San Jose 2 | AT&T NetBond for Cloud (no diversity, on same XCR) \n China Unicom  \n Cloudflare  \n Colt  \n Console Connect  \n Equinix  \n Lumen  \n Megaport  \n PacketFabric  \n Verizon SCI |
 | São Paulo 1 | Ascenty  \n British Telecom  \n IBM Power Virtual Server |
-| São Paulo 2 | Ascenty  \n  Equinix  \n Lumen |
+| São Paulo 2 | Ascenty  \n  Equinix  \n Level3  \n Lumen  \n Neutrona |
 | São Paulo 5 | Ascenty |
-| Sydney 2 | Megaport |
+| Seoul 2 | KINX |
+| Singapore 1 | Megaport[^singapore2] |
+| Singapore 2 | AT&T NetBond for Cloud  \n  Colt  \n Console Connect  \n  Equinix  \n Megaport  \n Orange Business Systems |
+| Stockholm 2 | Telia |
+| Sydney 2 | Equinix  \n Megaport  \n Telstra |
 | Sydney 3 | Console Connect  \n NextDC |
 | Sydney 4 | IBM Power Virtual Server |
 | Sydney 5 | Console Connect  \n IBM Power Virtual Server |
 | Taipei 1 | Chief Telecom |
-| Tokyo 1 | BBIX  \n Colt  \n Equinix  \n Zenlayer |
+| Tokyo 1 | BBIX  \n Colt  \n Console Connect  \n Equinix  \n Zenlayer |
 | Tokyo 2 | AT Tokyo  \n Megaport |
 | Tokyo 3 | BBIX  \n Colt  \n Equinix  \n Megaport  \n Tokai |
 | Tokyo 4 | IBM Power Virtual Server  \n Softbank |
@@ -227,7 +242,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect service provide
 | Toronto 1 | IBM Power Virtual Server |
 | Toronto 2 | Cologix  \n Equinix \n Fibernoire  \n Lumen  \n Megaport  \n Zayo |
 | Toronto 3 | Equinix |
-| Washington DC 2 |  AT&T NetBond for Cloud  \n BlueFringe  \n British Telecom  \n Cloudflare  \n Cologix  \n Colt  \n Epsilon  \n Equinix  \n IXReach  \n Megaport  \n Neutrona  \n nextGen GNPP  \n SES Networks  \n Telia  \n Verizon SCI  \n Zayo |
+| Washington DC 2 |  AT&T NetBond for Cloud  \n BlueFringe  \n British Telecom  \n Cloudflare  \n Cologix  \n Colt  \n Epsilon  \n Equinix  \n IXReach  \n Lumen  \n Megaport  \n Neutrona  \n nextGen GNPP  \n PacketFabric  \n SES Networks  \n Telia  \n Verizon SCI  \n Zayo |
 | Washington DC 3 | AT&T NetBond for Cloud |
 | Washington DC 4 | Anthem  \n IBM Power Virtual Server |
 | Washington DC 5 | Coresite |
@@ -237,3 +252,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect service provide
 {: tab-title="By Location"}
 {: tab-group="connect-simple"}
 {: class="simple-tab-table"}
+
+[^singapore1]: If you require diversity, you must place a second (backup) connection with Megaport in Hong Kong 3 (HKG03).
+
+[^singapore2]: If you require diversity, you must place a second (backup) connection with Megaport in Hong Kong 3 (HKG03).
