@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-03-24"
+lastupdated: "2023-10-04"
 
 keywords: direct link
 
@@ -30,7 +30,7 @@ Direct Link allows connectivity to both classic IaaS as well as VPCs, whereas {{
 For more information about the differences between the new {{site.data.keyword.dl_short}} offering and the classic version (Direct Link on Classic), see [How do I know which {{site.data.keyword.dl_short}} solution to order?](/docs/direct-link?topic=direct-link-get-started-with-ibm-cloud-direct-link#get-started-solution-to-order).
 {: tip}
 
-## Where can I find Direct Link pricing and what do I pay for? 
+## Where can I find Direct Link pricing and what do I pay for?
 {: #pricing-billing}
 {: faq}
 
@@ -79,7 +79,7 @@ You might have extra charges from your provider. See to your carrier or service 
 
 The marketplace has evolved since {{site.data.keyword.dl_short}} Exchange was established. With data center operators now blurring the lines as network service providers, IBM will be combining the Exchange offering with Connect on the new "next generation" platform to reflect both this change and simplify the {{site.data.keyword.dl_short}} portfolio. {{site.data.keyword.dl_short}} Exchange will service only the {{site.data.keyword.dl_short}} classic infrastructure. After migrations of the partner inter-connections to the XCRs are complete, Exchange will be moved to End of Marketing (EoM).
 
-## Will {{site.data.keyword.dl_short}} be available in non-MZRs, or is it only a solution for MZRs?  
+## Will {{site.data.keyword.dl_short}} be available in non-MZRs, or is it only a solution for MZRs?
 {: #dl-mzr}
 {: faq}
 {: support}
@@ -166,7 +166,7 @@ Yes, you can change the routing option any time after creating the gateway. To d
 {: #what-is-the-difference-between-the-default-local-routing-and-the-global-routing-add-on-for-dl}
 {: faq}
 
-The local routing option is the default routing option. If your {{site.data.keyword.dl_short}} is connected at the local PoP, it provides access to all data centers within that same market. In some markets, local routing is applicable for stand-alone PoP locations and direct links that are terminated at the data center.  
+The local routing option is the default routing option. If your {{site.data.keyword.dl_short}} is connected at the local PoP, it provides access to all data centers within that same market. In some markets, local routing is applicable for stand-alone PoP locations and direct links that are terminated at the data center.
 
 With our standard {{site.data.keyword.dl_short}} offering, you can send traffic between the data centers in your selected region. If you need access to other data centers outside the specified region, you must use global routing. For example, you might use global routing to share workloads between dispersed {{site.data.keyword.cloud_notm}} resources, such Dallas to Ashburn, or Dallas to Frankfurt.
 
@@ -233,12 +233,6 @@ ECMP isn’t for redundant connections, but for balancing the load over the two 
 ECMP is a feature of BGP. If you are looking for redundancy, you should get two {{site.data.keyword.dl_short}} connections, one going into each XCR. If you want to use ECMP and have redundancy, you need two {{site.data.keyword.dl_short}} connections on each XCR so that you can have 2 ECMP sessions running simultaneously.
 
 Alternatively, some customers set up two links into a different XCR in the same data center (for example, WDC02) and then failover as needed by using BGP configurations. This configuration is less redundant (less safe) than having {{site.data.keyword.dl_short}} connections into two separate data centers, such as WDC02 and WDC05.
-
-## Is there a Service Level Agreement (SLA) on the {{site.data.keyword.dl_short}} XCR connections up to the account’s BCR connection?
-{: #is-there-an-sla-on-the-diret-link-xr-connections}
-{: faq}
-
-There is no SLA on {{site.data.keyword.dl_short}} today. You can achieve 99.99% effectively with two or more direct links that are properly configured for failover by using BGP, but IBM cannot control that or provide an SLA on it.
 
 ## For Direct Link offerings, does IBM set a BGP password?
 {: #on-direct-link-exchange-does-ibm-set-a-bgp-password}

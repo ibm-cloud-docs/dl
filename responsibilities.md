@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020, 2021
-lastupdated: "2021-11-02"
+  years: 2020, 2023
+lastupdated: "2023-10-04"
 
 keywords: direct link responsibilities
 
@@ -31,7 +31,7 @@ Incident and operations management includes tasks, such as monitoring, event man
 | Management | {{site.data.keyword.IBM_notm}} provisions and manages the {{site.data.keyword.dl_short}} gateway. | The Customer is responsible for:  \n Following instructions in the {{site.data.keyword.dl_full_notm}} user documentation to make any necessary configurations, such as BGP.  \n Setting up routing, adding virtual connections to resources, and adjusting networking configurations to meet the needs of their workloads.  \n Making sure that any self-provided BGP addresses do not conflict with blocks that are used by IBM, or by resources external to your deployment.  \n Ensuring that there are no IP address conflicts between on-premises subnets, and subnets on IBM Cloud for both VPC and classic infrastructure connections. |
 | Fulfillment| {{site.data.keyword.IBM_notm}} fulfills requests for {{site.data.keyword.dl_short}} connections and additional capacity based on use. | The Customer is responsible for monitoring service notifications for communications regarding maintenance operations. The Customer is also responsible for uploading the Completion notice from their service provider when Cross Connect is completed by the chosen service provider. |
 | Partnership | {{site.data.keyword.IBM_notm}} provides partner relationships with physical locations for {{site.data.keyword.dl_short}} interconnects. | The Customer is responsible for ordering connectivity services from appropriate partner.|
-| Performance | {{site.data.keyword.IBM_notm}} does not have a Service Level Agreement (SLA) today. A Customer can achieve 99.99% effectively with two or more direct links that are properly configured for failover by using BGP, but IBM cannot control that, or provide an SLA on it. | The Customer is responsible for opening tickets in the event of an outage to track performance. |
+| Performance | A Customer can achieve 99.99% effectively with two or more direct links that are properly configured for failover by using BGP, but IBM cannot control that. | The Customer is responsible for opening tickets in the event of an outage to track performance. |
 | IP addressing | {{site.data.keyword.IBM_notm}} assigns the subnets to VPCs specified by the Customer. | The Customer is responsible for ensuring no IP  overlap on their on-premises subnet. |
 {: caption="Table 1. Responsibilities for incident and operations" caption-side="bottom"}
 
@@ -80,8 +80,8 @@ Security and regulation compliance includes tasks, such as security controls imp
 |---------------------------|------|-----|
 | Encryption | {{site.data.keyword.IBM_notm}} does not provide encryption capabilities.| The Customer is responsible for encryption of data on disk, in motion, and in backups. The Customer is also responsible for choosing and managing appropriate additional security features. If the Customer uses Key Protect (Bring Your Own Key), or another form of encryption, the Customer is responsible for managing the service authorization and keys. |
 | Security | {{site.data.keyword.IBM_notm}} is responsible for ensuring the security of data on disk and data in motion within its infrastructure. | The Customer is responsible for restricting user access to the appropriate resources and resource groups. |
-{: caption="Table 5. Responsibilities for security and regulation compliance" caption-side="bottom"} 
-	
+{: caption="Table 5. Responsibilities for security and regulation compliance" caption-side="bottom"}
+
 ## Disaster recovery
 {: #disaster-recovery-responsibilities}
 
@@ -95,4 +95,3 @@ Disaster recovery includes tasks, such as providing dependencies on disaster rec
 | Backup user configuration data | {{site.data.keyword.IBM_notm}} is not responsible for backup of user configuration data. | The Customer is responsible for backup of configuration data, as needed. |
 | Backup and recovery of workload | {{site.data.keyword.IBM_notm}} is not responsible for backup or recovery of user configuration data. |  The Customer is responsible for backup and recovery of their workloads, as needed. |
 {: caption="Table 6. Responsibilities for disaster recovery" caption-side="bottom"}
-
