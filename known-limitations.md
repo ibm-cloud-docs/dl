@@ -4,7 +4,7 @@ copyright:
   years: 2020, 2022
 lastupdated: "2022-11-21"
 
-keywords: direct link 
+keywords: direct link
 
 subcollection: dl
 
@@ -17,7 +17,7 @@ subcollection: dl
 
 Known limitations are as follows:
 
-* VPC networking doesn't consider the AS path length when selecting the best route for network traffic and therefore, AS prepends configured on direct links have no effect when VPCs are directly connected. However, you can use a transit gateway between the direct link and VPC in some topologies to achieve the desired effect. For more information, see [Planning considerations when using AS prepends with VPC connections](/docs/dl?topic=dl-as-prepends-routes).
+* VPC networking doesn't consider the AS path length when selecting the best route for network traffic and therefore, AS prepends configured on direct links have no effect when VPCs are directly connected. However, you can use a transit gateway between the direct link and VPC in some topologies to achieve the desired effect. For planning considerations, see [Using AS prepends with VPN connections](/docs/dl?topic=dl-dl-planning-considerations&interface=ui#as-prepends-routes).
 * Each {{site.data.keyword.dl_full_notm}} connection requires a unique order. If you require multiple connections, open an {{site.data.keyword.dl_full_notm}} order for each connection.
 * {{site.data.keyword.dl_full_notm}} requires BGP to establish the routes to a customer's remote network.
 * Each {{site.data.keyword.dl_full_notm}} service is not redundant. Diversity can be supplied by IBM for multiple direct links. However, customers must build redundancy in their own BGP schemes.

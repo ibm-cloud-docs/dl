@@ -10,7 +10,7 @@ subcollection: dl
 
 ---
 
-{{site.data.keyword.attribute-definition-list}} 
+{{site.data.keyword.attribute-definition-list}}
 
 # About {{site.data.keyword.dl_full_notm}}
 {: #dl-about}
@@ -43,19 +43,19 @@ Offers private access to your IBM Cloud infrastructure and to any other clouds l
 
 Allows customers to terminate a single-tenant, fiber-based cross-connect into the {{site.data.keyword.cloud_notm}} network. This offering can be used by customers with colocation premises that are next to {{site.data.keyword.cloud_notm}} PoPs and data centers, as well as network service providers that deliver circuits to customer on-premises or other data centers.
 
-## Using AS prepends to influence route preference 
+## Using AS prepends to influence route preference
 {: #use-case-1}
 
 This use case pertains to both Direct Link Connect and Direct Link Dedicated offerings.
 {: note}
- 
-Adding one or more autonomous system (AS) numbers at the beginning of an AS path is called _AS prepending_. You can use this technique to make a route less preferable to the BGP router by increasing the length of the AS path. For example, you might want route redundancy, but don't want traffic going through both routes at the same time. 
+
+Adding one or more autonomous system (AS) numbers at the beginning of an AS path is called _AS prepending_. You can use this technique to make a route less preferable to the BGP router by increasing the length of the AS path. For example, you might want route redundancy, but don't want traffic going through both routes at the same time.
 
 Assuming all other criteria is equal, the prefix of the AS prepend matches with routes and lengthens the AS path to the destination. This results in a lower priority route compared to one without AS prepends to the same destination. Take the following use case, for example. Suppose that you want your East site to prefer Path A through IBM PoP East when sending traffic to `10.80.0.0/28`. To de-prioritize Path B, the BGP Autonomous System Number (ASN) of `12345` is prepended to the route (`12345 12345 12345 4040 286 I`).
 
 ![Influencing route priority using AS prepends](/images/as-prepends.png){: caption="Figure 1. Influencing route priority using AS prepends" caption-side="bottom"}
 
-For more information, see [Influencing route preference using AS prepends](/docs/dl?topic=dl-models-for-diversity-and-redundancy-in-direct-link#dl-bgp-path-selection) and [Planning considerations when using AS prepends with VPC connections](/docs/dl?topic=dl-as-prepends-routes).
+For more information, see [Influencing route preference using AS prepends](/docs/dl?topic=dl-models-for-diversity-and-redundancy-in-direct-link#dl-bgp-path-selection) and [Using AS prepends with VPN connections](/docs/dl?topic=dl-dl-planning-considerations&interface=ui#as-prepends-routes).
 
 ## Direct Link Connect use cases
 {: #connect-use-cases}
@@ -111,7 +111,7 @@ Some benefits include:
 
 Direct Link is a hybrid cloud connectivity service providing secure, private, high-bandwidth connectivity between customer on-premises and IBM Cloud resources. Paired with Power Systems Virtual Servers and IBM Cloud Transit Gateway, Direct Link offers options for high-bandwidth customer demand.
 
-For deployment topologies using Direct Link and Power Systems Virtual Servers, see [Network architecture diagrams](/docs/power-iaas?topic=power-iaas-network-architecture-diagrams). 
+For deployment topologies using Direct Link and Power Systems Virtual Servers, see [Network architecture diagrams](/docs/power-iaas?topic=power-iaas-network-architecture-diagrams).
 
 ## {{site.data.keyword.dl_short}} Dedicated use cases
 {: #use-cases-dedicated}

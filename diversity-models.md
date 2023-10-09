@@ -41,7 +41,7 @@ Currently, IBM Cloud Direct Link only supports influencing route preference with
 * Local preference
 * Multiple Exit Discriminator (MED)
 
-For more information about prepending route prefixes, see [Using AS prepends to manage route priorities](/docs/dl?topic=dl-dl-about#use-case-1) and [Planning considerations when using AS prepends with VPC connections](/docs/dl?topic=dl-as-prepends-routes).
+For more information about prepending route prefixes, see [Using AS prepends to manage route priorities](/docs/dl?topic=dl-dl-about#use-case-1) and [Using AS prepends with VPN connections](/docs/dl?topic=dl-dl-planning-considerations&interface=ui#as-prepends-routes).
 
 Similar rules apply on the route prefixes that IBM Cloud advertises. The IBM Cloud routers advertise all prefixes that are associated with all applicable Direct Link connections equally (through BGP) with no additional BGP attributes to indicate path preference. You can implement import policies of your choice to prevent asymmetric routing scenarios that align with any existing export policies.
 {: note}
