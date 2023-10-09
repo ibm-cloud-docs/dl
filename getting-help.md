@@ -12,16 +12,6 @@ subcollection: dl
 
 ---
 
-{{site.data.keyword.attribute-definition-list}}
-
-# Getting help and support
-{: #getting-help-and-support}
-
-
-{{site.data.keyword.attribute-definition-list}}
-
-<!-- Use your product short name in the title to help search results, and use a nav title in the toc.yaml to shorten it to Getting help and support in the left nav-->
-
 # Getting help and support for Direct Link
 {: #help-and-support}
 
