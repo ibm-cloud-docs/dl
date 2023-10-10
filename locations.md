@@ -160,7 +160,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect service provide
 | Level3 | **Americas**: Dallas 3, Miami 1, São Paulo 2 | |
 | Lumen | **Americas**: Dallas 3, San Jose 2, São Paulo 2, Toronto 2, Washington DC 2  \n  **EU**: Frankfurt 1, London 3, Paris 2 | |
 | Marcatel |  Americas: Mexico 1 | |
-| Megaport | **Americas**: Chicago 1, Dallas 4, Montreal 2, San Jose 2, Toronto 2, Washington DC 2  \n **APAC**: Hong Kong 3, Osaka 1, Singapore 1[^singapore1], Singapore 2, Sydney 2, Tokyo 2, Tokyo 3 \n **EU**: Amsterdam 2, Frankfurt 1, London 3, Melbourne 2, Paris 2 | |
+| Megaport | **Americas**: Chicago 1, Dallas 4, Montreal 2, San Jose 2, Toronto 2, Washington DC 2  \n **APAC**: Hong Kong 3, Osaka 1, Singapore 1[^singapore1], Singapore 2, Sydney 2, Tokyo 2, Tokyo 3 \n **EU**: Amsterdam 2, Frankfurt 1, London 3, Melbourne 2, Paris 2 | ![Checkmark icon](../icons/checkmark-icon.svg) |
 | NextDC | **APAC**: Melbourne 2, Sydney 3 | |
 | nextGen GNPP | **Americas**: Dallas 3, Washington DC 2  \n **EU**: Amsterdam 2, Frankfurt 3, London 1, London 3, London 4 | |
 | NTT | **APAC**: Tokyo 5 | |
