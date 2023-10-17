@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-09-26"
+lastupdated: "2023-10-17"
 
 keywords: direct link
 
@@ -148,7 +148,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect service provide
 | Coresite | **Americas**: Denver 1, Los Angeles 1, Washington DC 5 | |
 | CyrusOne | **Americas**: Dallas 13 | |
 | DE-CIX | **Americas**: Dallas 10  \n **EU**: Frankfurt 1, Frankfurt 3, Frankfurt 4, Frankfurt 5 | ![Checkmark icon](../icons/checkmark-icon.svg) |
-| Digital Realty | **EU**: Frankfurt 1, Madrid 3 | |
+| Digital Realty | **APAC**: Singapore 1  \n **EU**: Frankfurt 1, Madrid 3 | |
 | Epsilon | **Americas**: Washington DC 2  \n  **APAC**: Hong Kong 1  \n **EU**: Amsterdam 2, Frankfurt 1, London 1 | |
 | Equinix | **Americas**: Chicago 1, Dallas 3, Montreal 1, New York 2, New York 3, San Jose 2, São Paulo 2, Toronto 2, Toronto 3, Washington DC 2  \n **APAC**: Osaka 1, Singapore 2, Tokyo 1, Tokyo 3  \n **EU**: Amsterdam 2, Frankfurt 3, London 1, London 3, Madrid 1, Milan 2, Paris 2, Paris 3, Sydney 2 | ![Checkmark icon](../icons/checkmark-icon.svg) |
 | EU Networks | **EU**: Frankfurt 1 | |
@@ -226,7 +226,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect service provide
 | São Paulo 2 | Ascenty  \n  Equinix  \n Level3  \n Lumen  \n Neutrona |
 | São Paulo 5 | Ascenty |
 | Seoul 2 | KINX |
-| Singapore 1 | Megaport[^singapore2] |
+| Singapore 1 | Digital Realty  \n Megaport[^singapore2] |
 | Singapore 2 | AT&T NetBond for Cloud  \n  Colt  \n Console Connect  \n  Equinix  \n Megaport  \n Orange Business Systems |
 | Stockholm 2 | Telia |
 | Sydney 2 | Equinix  \n Megaport  \n Telstra |
