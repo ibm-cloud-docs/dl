@@ -148,7 +148,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect service provide
 | Coresite | **Americas**: Denver 1, Los Angeles 1, Washington DC 5 | |
 | CyrusOne | **Americas**: Dallas 13 | |
 | DE-CIX | **Americas**: Dallas 10  \n **EU**: Frankfurt 1, Frankfurt 3, Frankfurt 4, Frankfurt 5 | ![Checkmark icon](../icons/checkmark-icon.svg) |
-| Digital Realty | **APAC**: Singapore 1  \n **EU**: Frankfurt 1, Madrid 3 | |
+| Digital Realty | **Americas**: Dallas 12  \n **APAC**: Singapore 1  \n **EU**: Frankfurt 1, Madrid 3 | |
 | Epsilon | **Americas**: Washington DC 2  \n  **APAC**: Hong Kong 1  \n **EU**: Amsterdam 2, Frankfurt 1, London 1 | |
 | Equinix | **Americas**: Chicago 1, Dallas 3, Montreal 1, New York 2, New York 3, San Jose 2, São Paulo 2, Toronto 2, Toronto 3, Washington DC 2  \n **APAC**: Osaka 1, Singapore 2, Tokyo 1, Tokyo 3  \n **EU**: Amsterdam 2, Frankfurt 3, London 1, London 3, Madrid 1, Milan 2, Paris 2, Paris 3, Sydney 2 | ![Checkmark icon](../icons/checkmark-icon.svg) |
 | EU Networks | **EU**: Frankfurt 1 | |
@@ -193,7 +193,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect service provide
 | Dallas 4 |  PacketFabric  \n Megaport |
 | Dallas 8 | AT&T NetBond for Cloud |
 | Dallas 10 | DE-CIX  \n IBM Power Virtual Server |
-| Dallas 12 | IBM Power Virtual Server  \n POWERIAASLITE-STAGING |
+| Dallas 12 | Digital Realty  \n IBM Power Virtual Server  \n POWERIAASLITE-STAGING |
 | Dallas 13 | CyrusOne  \n IBM Power Virtual Server |
 | Denver 1 | Coresite |
 | Frankfurt 1 | AT&T NetBond for Cloud  \n British Telecom  \n Colt  \n DE-CIX  \n  Digital Realty  \n Epsilon  \n EU Networks  \n Intercloud  \n Lumen  \n Megaport  \n Verizon SCI  \n Vodaphone |
