@@ -152,7 +152,6 @@ The following table lists {{site.data.keyword.dl_short}} Connect service provide
 | Epsilon | **Americas**: Washington DC 2  \n  **APAC**: Hong Kong 1  \n **EU**: Amsterdam 2, Frankfurt 1, London 1 | |
 | Equinix | **Americas**: Chicago 1, Dallas 3, Montreal 1, New York 2, New York 3, San Jose 2, São Paulo 2, Toronto 2, Toronto 3, Washington DC 2  \n **APAC**: Osaka 1, Singapore 2, Tokyo 1, Tokyo 3  \n **EU**: Amsterdam 2, Frankfurt 3, London 1, London 3, Madrid 1, Milan 2, Paris 2, Paris 3, Sydney 2 | ![Checkmark icon](../icons/checkmark-icon.svg) |
 | EU Networks | **EU**: Frankfurt 1 | |
-| Fibernoire | **Americas**: Toronto 2 | |
 | IBM Power Virtual Server | **Americas**: Dallas 10, Dallas 12, Dallas 13, São Paulo 1, Toronto 1, Washington DC 4, Washington DC 7  \n **APAC**: Osaka 21, Sydney 4, Sydney 5, Tokyo 4  \n **EU**: Frankfurt 4, Frankfurt 5, London 4, London 6 | |
 | Intercloud | **EU**: Amsterdam 2, Frankfurt 1, Frankfurt 3 | |
 | IX Reach | **Americas**: Washington DC 2  \n **EU**: London 1, London 3 | |
@@ -240,7 +239,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect service provide
 | Tokyo 4 | IBM Power Virtual Server  \n Softbank |
 | Tokyo 5 | NTT |
 | Toronto 1 | IBM Power Virtual Server |
-| Toronto 2 | Cologix  \n Equinix \n Fibernoire  \n Lumen  \n Megaport  \n Zayo |
+| Toronto 2 | Cologix  \n Equinix  \n Lumen  \n Megaport  \n Zayo |
 | Toronto 3 | Equinix |
 | Washington DC 2 |  AT&T NetBond for Cloud  \n BlueFringe  \n British Telecom  \n Cloudflare  \n Cologix  \n Colt  \n Epsilon  \n Equinix  \n IXReach  \n Lumen  \n Megaport  \n Neutrona  \n nextGen GNPP  \n PacketFabric  \n SES Networks  \n Telia  \n Verizon SCI  \n Zayo |
 | Washington DC 3 | AT&T NetBond for Cloud |
