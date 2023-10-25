@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023
-lastupdated: "2023-10-20"
+lastupdated: "2023-10-25"
 
 keywords: direct link
 
@@ -24,7 +24,7 @@ Follow these steps to order Direct Link Connect from Digital Realty:
    * **Name** - Enter a unique name for the link to IBM Cloud.
    * **Description** - Enter an optional description of the service.
    * **Port** - Select the port to create the IBM Cloud Direct Link.
-   * **A-Side** - Set an optional VLAN tag to the link. Alternatively, you can select the **Automatic VLAN Assignment** and a VLAN will be selected automatically.
+   * **A-Side** - Set an optional VLAN tag to the link. Alternatively, you can select the *Automatic VLAN Assignment** and a VLAN will be selected automatically.
    * **Attachment Type** - Select IBM Cloud as provider.
    * **Account ID** - Enter your IBM Cloud account ID.
 
@@ -52,4 +52,7 @@ Follow these steps to order Direct Link Connect from Digital Realty:
    ![Complete direct link configuration](/images/servicefabric3.jpg "Complete direct link configuration"){: caption="Finalize direct link configuration" caption-side="bottom"}
 
 1. Finalize the direct link configuration process, then click **Create**.
+
+   ![Finalize direct link configuration](/images/servicefabric4.jpg "Finalize direct link configuration"){: caption="Finalize direct link configuration" caption-side="bottom"}
+
 1. Navigate back to the ServiceFabric portal. The service appears as **Active**.
