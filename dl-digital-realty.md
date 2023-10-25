@@ -24,7 +24,7 @@ Follow these steps to order Direct Link Connect from Digital Realty:
    * **Name** - Enter a unique name for the link to IBM Cloud.
    * **Description** - Enter an optional description of the service.
    * **Port** - Select the port to create the IBM Cloud Direct Link.
-   * **A-Side** - Set an optional VLAN tag to the link. Alternatively, you can select the *Automatic VLAN Assignment** and a VLAN will be selected automatically.
+   * **A-Side** - Set an optional VLAN tag to the link. Alternatively, you can select the **Automatic VLAN Assignment** and a VLAN will be selected automatically.
    * **Attachment Type** - Select IBM Cloud as provider.
    * **Account ID** - Enter your IBM Cloud account ID.
 
