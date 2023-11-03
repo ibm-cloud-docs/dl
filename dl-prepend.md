@@ -55,6 +55,6 @@ To prepend an AS path by using the UI, follow these steps:
 ## Related links
 {: #prepending-related-links}
 
-* [Using AS prepends with VPN connections](/docs/dl?topic=dl-dl-planning-considerations&interface=ui#as-prepends-routes)
+* [Using AS prepends with VPC connections](/docs/dl?topic=dl-dl-planning-considerations&interface=ui#as-prepends-routes)
 * [Influencing route preference using AS prepends](/docs/dl?topic=dl-models-for-diversity-and-redundancy-in-direct-link&interface=ui#dl-bgp-path-selection)
 * [Using AS prepends to manage route priorities](/docs/dl?topic=dl-dl-about&interface=ui#use-case-1)
