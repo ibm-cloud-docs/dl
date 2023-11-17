@@ -12,7 +12,7 @@ subcollection: dl
 
 {{site.data.keyword.attribute-definition-list}}
 
-# Managing access for {{site.data.keyword.dl_full_notm}}
+# Managing IAM access for {{site.data.keyword.dl_full_notm}}
 {: #iam}
 
 Access to the {{site.data.keyword.dl_short}} service instance for users in your account is controlled by {{site.data.keyword.cloud}} Identity and Access Management (IAM). Every user that accesses the {{site.data.keyword.dl_short}} service in your account must be assigned an access policy with an IAM role. Review the following roles, actions, and more to help determine the best way to assign access to {{site.data.keyword.dl_short}}.
@@ -25,11 +25,11 @@ The access policy that you assign users in your account determines what actions 
 
 If a specific role and its actions don't fit the use case that you're looking to address, you can [create a custom role](/docs/account?topic=account-custom-roles#custom-access-roles) and pick the actions to include.
 {: tip}
- 
-IAM access policies enable access to be granted at different levels. Some of the options include the following: 
+
+IAM access policies enable access to be granted at different levels. Some of the options include the following:
 
 * Access across the instance of the Direct Link service in your account
-* Access to an individual service instance in your account  
+* Access to an individual service instance in your account
 * Access to a specific resource within an instance
 
 Review the following table that outlines what types of tasks each role allows for when you're working with the {{site.data.keyword.dl_short}} service. Platform management roles enable users to perform tasks on service resources at the platform level, for example, assign user access to the service, and create or delete instances.
@@ -43,7 +43,7 @@ Review the following table that outlines what types of tasks each role allows fo
 | Editor | Performs all actions, including managing gateways and virtual connections. | Create gateway  \n Delete gateway  \n Edit gateway  \n Add a virtual connection to a gateway&ast;  \n Remove a virtual connection from a gateway&ast;  \n Edit a virtual connection (API only) |
 | Viewer/Operator | Performs actions that don't change the state of resources. | List gateways  \n Get gateways  \n List a gateway's virtual connections  \n View a gateway's virtual connections  \n Retrieve gateway-related information (completion notice/letter of authorization)  \n View incoming connection requests&ast; |
 {: caption="Table 1. IAM platform-access user role and actions" caption-side="bottom"}
- 
+
 &ast; To add or remove virtual connections to VPCs, or to accept or reject a connection request, the user must also have Editor or Administrator platform-access role permissions to the VPC. See [VPC: Getting started with IAM](/docs/vpc?topic=vpc-iam-getting-started) for more information.
 
 **Notes**:
@@ -97,23 +97,23 @@ ibmcloud iam user-policy-create USER@EXAMPLE.COM --service-name directlink --rol
 
 For step-by-step instructions for assigning, removing, and reviewing access, see [Assigning access to resources by using the API](/docs/account?topic=account-assign-access-resources&interface=api) or the [Create a policy API docs](/apidocs/iam-policy-management#create-policy). Role cloud resource names (CRN) in the following table are used to assign access with the API.
 
-| Role name | Role CRN | 
+| Role name | Role CRN |
 |---------------|-----------------|
 | Viewer                 | `crn:v1:bluemix:public:directlink::::serviceRole:Viewer`        |
-| Operator               | `crn:v1:bluemix:public:directlink::::serviceRole:Operator`      | 
-| Editor                 | `crn:v1:bluemix:public:directlink::::serviceRole:Editor`        | 
-| Administrator          | `crn:v1:bluemix:public:directlink::::serviceRole:Administrator` | 
+| Operator               | `crn:v1:bluemix:public:directlink::::serviceRole:Operator`      |
+| Editor                 | `crn:v1:bluemix:public:directlink::::serviceRole:Editor`        |
+| Administrator          | `crn:v1:bluemix:public:directlink::::serviceRole:Administrator` |
 | Reader         | `crn:v1:bluemix:public:directlink::::serviceRole:Reader`        |
-| Writer         | `crn:v1:bluemix:public:directlink::::serviceRole:Writer`        | 
+| Writer         | `crn:v1:bluemix:public:directlink::::serviceRole:Writer`        |
 | Manager        | `crn:v1:bluemix:public:directlink::::serviceRole:Manager`       |
 {: caption="Table 3. Role ID values for API use" caption-side="bottom"}
 
 Use `directlink` for the service name, and refer to the Role ID values table to ensure that you're using the correct value for the CRN.
-{: tip} 
+{: tip}
 
 The following policy assigns a user Writer role to all `serviceName=directlink` resources in the account.
 
-```curl 
+```curl
 curl -X POST 'https://iam.cloud.ibm.com/v1/policies' -H 'Authorization: Bearer $TOKEN' -H 'Content-Type: application/json' -d '{
   "type": "access",
   "description": "Writer role for Direct Link",
@@ -186,8 +186,8 @@ Policy policy = response.getResult();
 System.out.println(policy);
 ```
 {: java}
-{: codeblock}   
- 
+{: codeblock}
+
 ```python
 policy_subjects = PolicySubject(
   attributes=[SubjectAttribute(name='iam_id', value='IBMid-123453user')])
@@ -212,7 +212,7 @@ print(json.dumps(policy, indent=2))
 ```
 {: python}
 {: codeblock}
-   
+
 ```go
 subjectAttribute := &iampolicymanagementv1.SubjectAttribute{
   Name:  core.StringPtr("iam_id"),
@@ -311,7 +311,7 @@ iamPolicyManagementService.createPolicy(params)
 
 The following policy assigns a user Writer role to all `serviceName=directlink` resources of type `dedicated` in the account.
 
-```curl 
+```curl
 curl -X POST 'https://iam.cloud.ibm.com/v1/policies' -H 'Authorization: Bearer $TOKEN' -H 'Content-Type: application/json' -d '{
   "type": "access",
   "description": "Writer role for Direct Link Dedicated",
@@ -351,7 +351,7 @@ curl -X POST 'https://iam.cloud.ibm.com/v1/policies' -H 'Authorization: Bearer $
 The following example is for assigning the `Editor` role for `directlink`:
 
 Use `directlink` for the service name.
-{: tip} 
+{: tip}
 
 ```terraform
 resource "ibm_iam_user_policy" "policy" {
