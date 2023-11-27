@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-10-04"
+lastupdated: "2023-11-27"
 
 keywords: direct link
 
@@ -98,6 +98,13 @@ Any existing customers on classic IaaS can remain in classic IaaS and continue t
 {: support}
 
 For the most up-to-date information, see [{{site.data.keyword.dl_short}} Dedicated](/docs/dl?topic=dl-how-to-order-ibm-cloud-dl-dedicated#dedicated-locations) and [{{site.data.keyword.dl_short}} Connect](/docs/dl?topic=dl-how-to-order-ibm-cloud-dl-connect#connect-locations) locations.
+
+## Can I request to change a VLAN ID on IBM Cloud for a provisioned Direct Link Connect gateway with an VLAN that is already allocated?
+{: #change-vlan-id}
+{: faq}
+{: support}
+
+For a direct link that was provisioned via the IBM console, a VLAN ID update is not supported. For a direct link provisioned via Provider API, you can request a VLAN update using the Provider portal/APIs, or request a VLAN update by opening an [IBM Support case](/docs/get-support?topic=get-support-open-case).
 
 ## How do I interconnect the classic infrastructure and VPC?
 {: #interconnect}
