@@ -22,23 +22,23 @@ These resources are created by {{site.data.keyword.cloud}} and by some IBM Busin
 ## Blogs on the IBM website
 {: #blogs}
 
-* [Demystifying Direct Link Offerings](https://www.ibm.com/cloud/blog/demystifying-direct-link-offerings){: external}, by Bepsy Paul
+* [Demystifying Direct Link Offerings](https://www.ibm.com/blog/demystifying-direct-link-offerings/){: external}, by Bepsy Paul
 
-* [Introducing {{site.data.keyword.dl_full_notm}} 2.0](https://www.ibm.com/cloud/blog/announcements/introducing-ibm-cloud-direct-link-2-0){: external}, by Nicholas Woodyard
+* [Introducing {{site.data.keyword.dl_full_notm}} 2.0](https://www.ibm.com/blog/announcement/introducing-ibm-cloud-direct-link-2-0/){: external}, by Nicholas Woodyard
 
-* [New Border Gateway Protocol (BGP) Features for Direct Link Offering](https://www.ibm.com/cloud/blog/announcements/exciting-new-features-in-ibm-cloud-direct-link){: external}, by Gilberto Tellez and Vaishali Pandya
+* [New Border Gateway Protocol (BGP) Features for Direct Link Offering]( https://www.ibm.com/blog/announcement/exciting-new-features-in-ibm-cloud-direct-link/){: external}, by Gilberto Tellez and Vaishali Pandya
 
 * [Megaport and IBM Empower Enterprise Cloud](https://www.ibm.com/cloud/blog/megaport-and-ibm-empower-enterprise-cloud){: external}, by Matt Simpson and Jill Tempelmeyer
 
 * [Supporting the next generation cloud applications with {{site.data.keyword.dl_full_notm}}](https://www.ibm.com/blogs/cloud-computing/2018/06/26/next-generation-cloud-apps-ibm-cloud-direct-link/){: external}, by Gabriel Montanti
 
-* [IBM and Colt - Enabling Enterprise Digital Transformation](https://www.ibm.com/cloud/blog/announcements/ibm-colt-enterprise-digital-transformation){: external}, by Paul Hertzfeldt
+* [IBM and Colt - Enabling Enterprise Digital Transformation](https://www.ibm.com/blog/announcement/ibm-colt-enterprise-digital-transformation/){: external}, by Paul Hertzfeldt
 
 * [Digital Realty and {{site.data.keyword.dl_full_notm}} - Built for Enterprise Cloud](https://www.ibm.com/cloud/blog/announcements/digital-realty-ibm-cloud-dl-expand-network){: external}, by Paul Hertzfeldt
 
-* [PacketFabric and {{site.data.keyword.cloud_notm}} Enable Secure Enterprise Connections](https://www.ibm.com/cloud/blog/announcements/packetfabric-ibm-enable-secure-enterprise-connections){: external}, by Paul Hertzfeldt
+* [PacketFabric and {{site.data.keyword.cloud_notm}} Enable Secure Enterprise Connections](https://www.ibm.com/blog/announcement/packetfabric-ibm-enable-secure-enterprise-connections/){: external}, by Paul Hertzfeldt
 
-* [AT TOKYO Connects to {{site.data.keyword.cloud_notm}} to Support Mission-Critical Applications](https://www.ibm.com/cloud/blog/announcements/tokyo-connects-ibm-cloud-support-mission-critical-applications){: external}, by Paul Hertzfeldt
+* [AT TOKYO Connects to {{site.data.keyword.cloud_notm}} to Support Mission-Critical Applications](https://www.ibm.com/blog/announcement/tokyo-connects-ibm-cloud-support-mission-critical-applications/){: external}, by Paul Hertzfeldt
 
 * [Improve Digital Experiences with SES Networks and IBM](https://www.ibm.com/cloud/blog/improve-digital-experiences-with-ses-networks-and-ibm){: external}, by Paul Hertzfeldt
 
@@ -54,8 +54,7 @@ These resources are created by {{site.data.keyword.cloud}} and by some IBM Busin
      * Reference solution for implementing NetApp private storage for {{site.data.keyword.cloud_notm}}, colocated in a Digital Realty data center
      * Results of performance tests conducted by Krystallize Technologies
 
-
-* [**Case Study for {{site.data.keyword.dl_short}} and {{site.data.keyword.cloud_notm}}**](https://www.digitalrealty.com/case-studies/ibm-cloud){: external}
+* [**Case Study for {{site.data.keyword.dl_short}} and {{site.data.keyword.cloud_notm}}**](https://www.digitalrealty.com/resources?type=case+studies){: external}
 
     **Abstract** - As {{site.data.keyword.cloud_notm}} needed to expand its global data center footprint to meet burgeoning demand for its Infrastructure-as-a-Service offering, it needed the right data center partner to achieve the best available combination of power, space, and price.
 
