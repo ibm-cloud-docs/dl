@@ -21,10 +21,10 @@ Check back regularly to see what's new with {{site.data.keyword.cloud}} Direct L
 {: shortdesc}
 
 ## 06 July 2023
-{: #dl-jul0623}
+{: #dl-ju0623}
 
 Route report enhancements
-  
+
 : Added advertised routes to verify route filters and AS prepends applied to the Direct Link gateway.
 
 : “AS path” information added to on-prem routes to verify AS prepends.
@@ -37,7 +37,7 @@ Route report enhancements
    * Get a route report - `GET /gateways/{gateway_id}/route_reports/{id}`
 
 ## 16 March 2023
-{: #dl-mar1623}
+{: #dl-march1623}
 
 BGP route filtering support
 :   New commands: Gateway export route filters
@@ -67,7 +67,7 @@ BGP route filtering support
    * Add BGP route filtering support during `list_gateways` - List gateways - `GET /gateways`
 
 ## 21 September 2022
-{: #dl-sept2122}
+{: #dl-septem2122}
 
 Route report support
 :   New commands
@@ -76,7 +76,7 @@ Route report support
    * Create a route report - `POST /gateways/{gateway_id}/route_reports`
    * Delete route report - `DELETE /gateways/{gateway_id}/route_reports/{id}`
    * Get a route report - `GET /gateways/{gateway_id}/route_reports/{id}`
-   
+
 BGP AS prepend support
 :   Changed commands
 
@@ -89,4 +89,3 @@ BGP AS prepend support
 
 Reduced unmetered plan pricing for Direct Link Connect
 :   IBM is pleased to announce _a significant reduction in unmetered pricing_ for IBM Cloud Direct Link Connect and Direct Link Dedicated. Note that Direct Link also offers a metered pricing plan, allowing you to switch between metered and unmetered pricing plans to suit your bandwidth usage needs. For more information, see [Pricing for IBM Cloud Direct Link](/docs/dl?topic=dl-pricing-for-ibm-cloud-dl).
-

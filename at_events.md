@@ -64,7 +64,7 @@ As a security officer, auditor, or manager, you can use the Activity Tracker ser
 {: tab-title="Dedicated Gateway Events"}
 {: tab-group="connect-simple-2"}
 {: class="simple-tab-table"}
-{: #simpletabtable1}
+{: #simpletabtable3}
 
 | Action                      | Description |
 |-----------------------------|---------|
@@ -74,7 +74,7 @@ As a security officer, auditor, or manager, you can use the Activity Tracker ser
 {: tab-title="Dedicated Virtual Connection Events"}
 {: tab-group="connect-simple-2"}
 {: class="simple-tab-table"}
-{: #simpletabtable2}
+{: #simpletabtable4}
 
 ## Events for {{site.data.keyword.dl_short}} Connect
 {: #at_actions_connect}
@@ -94,7 +94,7 @@ As a security officer, auditor, or manager, you can use the Activity Tracker ser
 {: tab-title="Connect Gateway Events"}
 {: tab-group="connect-simple-3"}
 {: class="simple-tab-table"}
-{: #simpletabtable1}
+{: #simpletabtable5}
 
 | Action                      | Description |
 |-----------------------------|---------|
@@ -105,8 +105,7 @@ As a security officer, auditor, or manager, you can use the Activity Tracker ser
 {: tab-title="Connect Virtual Connection Events"}
 {: tab-group="connect-simple-3"}
 {: class="simple-tab-table"}
-{: #simpletabtable2}
-
+{: #simpletabtable6}
 
 ### List of data events
 {: #at_data_events_connect}
@@ -121,7 +120,7 @@ As a security officer, auditor, or manager, you can use the Activity Tracker ser
 {: tab-title="Connect Gateway Events"}
 {: tab-group="connect-simple-4"}
 {: class="simple-tab-table"}
-{: #simpletabtable1}
+{: #simpletabtable7}
 
 | Action                      | Description |
 |-----------------------------|---------|
@@ -131,7 +130,7 @@ As a security officer, auditor, or manager, you can use the Activity Tracker ser
 {: tab-title="Connect Virtual Connection Events"}
 {: tab-group="connect-simple-4"}
 {: class="simple-tab-table"}
-{: #simpletabtable2}
+{: #simpletabtable8}
 
 ## Viewing events
 {: #at_ui}
@@ -146,7 +145,7 @@ To view these events, you must [provision an instance](/docs/activity-tracker?to
 Refer to the following information when analyzing events:
 
 - Use the search bar to search for `action:directlink.connect.virtual-connection` to get the list of events related to Direct Link Connect, or `action:directlink.dedicated.virtual-connection`  to get events that are related to Direct Link Dedicated.
-- The target field identifies the direct link associated with an event. When the gateway exists in a different account or there is no gateway associated with the request, the target is set as `crn:v1:bluemix:public:directlink:global:a/<your account ID>:::`.  Events that don't correspond to a gateway will not have resource group information. For more information about cross-account gateway connections, see [Cross-account (VPC only) network connectivity with Direct Link](/docs/dl?topic=dl-add-virtual-connection#cross-account-virtual-connection-vpc).
+- The target field identifies the direct link associated with an event. When the gateway exists in a different account or there is no gateway associated with the request, the target is set as `crn:v1:bluemix:public:directlink:global:a/<your account ID>:::`.  Events that don't correspond to a gateway will not have resource group information. For more information about cross-account gateway connections, see [Adding a cross-account (VPC only) connection](/docs/dl?topic=dl-cross-account-virtual-connection-vpc).
 - Events that report update actions do not include information about the delta of the change.
 - The event's initiator field contains information about who initiated each request. In authorized cross-account scenarios `IBM` is identified as the initiator.
 - The name of the service in {{site.data.keyword.cloud_notm}} is `directlink.connect`; therefore, all AT events have an action formatted as `<svcname>.<object>.<action>`, where `svcname` can be `directlink.connect` or `directlink.dedicated`.

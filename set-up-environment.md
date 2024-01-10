@@ -34,7 +34,7 @@ The following examples use the `directlink.cloud.ibm.com` global endpoint.
 ### Step 1: Store your API key as a variable
 {: #store-api-key-variable}
 
-Run the following command to store the API key for your account in an environment variable. If you don't have an API key, see [Creating an API key](/docs/account?topic=account-userapikey#create_user_key){: external}.
+Run the following command to store the API key for your account in an environment variable. If you don't have an API key, see [Creating an API key](/docs/account?topic=account-userapikey&interface=ui#create_user_key){: external}.
 
 ```sh
 apikey="<YOUR_API_KEY>"
@@ -69,7 +69,7 @@ Because the IAM token expires, you must repeat the preceding step to refresh you
 ### Step 3: Store the API endpoint as a variable
 {: #store-api-endpoint-variable}
 
-Run the following command to store the API endpoint in a variable so that it can be reused later in your session.  
+Run the following command to store the API endpoint in a variable so that it can be reused later in your session.
 
 Public endpoint:
 
@@ -102,8 +102,8 @@ To verify that this variable was saved, run ``echo $api_version`` and make sure 
 If you run into unexpected results, add the `--verbose` (debug) flag after the `curl` command to obtain detailed logging information.
 {: tip}
 
-* Call the [List Available Locations API](/apidocs/direct_link#list-offering-type-locations) to see the locations available for your direct link, in JSON format. At least one object should return. 
-   
+* Call the [List Available Locations API](/apidocs/direct_link#list-offering-type-locations) to see the locations available for your direct link, in JSON format. At least one object should return.
+
    This example lists the locations available for a Direct Link Dedicated gateway. For Direct Link Connect, simply substitute `connect` for `dedicated`.
    {: note}
 

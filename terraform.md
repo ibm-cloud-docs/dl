@@ -80,4 +80,4 @@ Before you begin, make sure that you have the [required access](/docs/dl?topic=d
 
 1. From the [{{site.data.keyword.cloud_notm}} resource list](/resources){: external}, select the Direct Link instance that you created and note the instance ID.
 
-1. Verify that the access policy is successfully assigned. For more information, see [Reviewing assigned access in the console](/docs/account?topic=account-assign-access-resources#review-your-access-console).
+1. Verify that the access policy is successfully assigned. For more information, see [Reviewing assigned access in the console](/docs/account?topic=account-assign-access-resources&interface=ui#review-your-access-console).

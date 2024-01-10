@@ -23,7 +23,7 @@ Access to the {{site.data.keyword.dl_short}} service instance for users in your 
 
 The access policy that you assign users in your account determines what actions a user can perform within the context of the service or specific instance that you select. The allowable actions are customized and defined by the direct link as operations that are allowed to be performed on the service. Each action is mapped to an IAM platform or service role that you can assign to a user.
 
-If a specific role and its actions don't fit the use case that you're looking to address, you can [create a custom role](/docs/account?topic=account-custom-roles#custom-access-roles) and pick the actions to include.
+If a specific role and its actions don't fit the use case that you're looking to address, you can [create a custom role](/docs/account?topic=account-custom-roles&interface=ui#custom-access-roles) and pick the actions to include.
 {: tip}
 
 IAM access policies enable access to be granted at different levels. Some of the options include the following:
@@ -34,7 +34,7 @@ IAM access policies enable access to be granted at different levels. Some of the
 
 Review the following table that outlines what types of tasks each role allows for when you're working with the {{site.data.keyword.dl_short}} service. Platform management roles enable users to perform tasks on service resources at the platform level, for example, assign user access to the service, and create or delete instances.
 
-{{site.data.keyword.dl_short}} does not have service-access roles, which enable users access to Direct Link and the ability to call the Direct Link API. For information about the exact actions that are mapped to each role, see [{{site.data.keyword.dl_short}}](/docs/account?topic=account-iam-service-roles-actions#direct-link).
+{{site.data.keyword.dl_short}} does not have service-access roles, which enable users access to Direct Link and the ability to call the Direct Link API. For information about the exact actions that are mapped to each role, see [{{site.data.keyword.dl_short}}](/docs/account?topic=account-iam-service-roles-actions#directlink-roles).
 {: note}
 
 | Platform role | Description of actions | Example actions |

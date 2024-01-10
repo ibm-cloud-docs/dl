@@ -23,18 +23,18 @@ This topic shows you how to accept provider-created connections (create, edit, d
 1. Log in to the IBM Cloud [Direct Link console](/interconnectivity/direct-link){: external}, then click the Direct Link name in the table to show its details.
 1. In the Actions section, click **Review** to review the direct link configuration. The Review configuration panel displays.
 1. Review your settings and click **Accept**. The Finalize creation panel displays.
-1. Select a resource group, routing type, and billing type. Then, select the checkbox indicating that you agree to the Direct Link prerequisites and click **Create**.    
-   Optionally, you can enable MD5 authentication. For instructions, see [Enabling MD5 authentication for BGP peers](/docs/dl?topic=dl-accepting-the-provider-created-connection#dl-enable-md5-provider).
+1. Select a resource group, routing type, and billing type. Then, select the checkbox indicating that you agree to the Direct Link prerequisites and click **Create**.
+   Optionally, you can enable MD5 authentication. For instructions, see [Enabling MD5 authentication for BGP peers](/docs/dl?topic=dl-accepting-provider-created-connection#dl-enable-md5-provider).
    {: note}
 
 ## Accepting a Direct Link edit request
 {: #accept-edit-request}
 
 1. Log in to the IBM Cloud [Direct Link console](/interconnectivity/direct-link){: external}, then click the Direct Link name in the table to show its details.
-1. In the Actions section, click **Review** to review the direct link configuration. 
+1. In the Actions section, click **Review** to review the direct link configuration.
 
    The Review configuration panel displays.
-   
+
 1. Review your settings, select the checkbox indicating that you agree to the Direct Link prerequisites, and click **Accept**.
 
 ## Enabling MD5 authentication for BGP peers
@@ -49,8 +49,8 @@ To enable MD5 authentication after submitting your order, follow these steps:
 
 1. [Set up BGP Message Digest 5 (MD5) authentication keys](/docs/dl?topic=dl-dl-md5).
 1. Log in to the IBM Cloud [Direct Link console](/interconnectivity/direct-link){: external}, then click the Direct Link name in the table to show its details.
-1. In the Actions section, click **Review** to review the direct link configuration. The Review configuration panel displays. 
-1. Review your settings and click **Accept**. The Finalize creation panel displays. 
+1. In the Actions section, click **Review** to review the direct link configuration. The Review configuration panel displays.
+1. Review your settings and click **Accept**. The Finalize creation panel displays.
 1. Click the MD5 authentication switch to enable it, then complete the following:
 
    * For the keystore, select **Hyper Protect Crypto Services** or **Key Protect**.

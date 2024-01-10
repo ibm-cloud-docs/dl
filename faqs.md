@@ -92,12 +92,12 @@ Initial rollout plans are for the Multi-Zone Regions (MZRs) to be prioritized. O
 
 Any existing customers on classic IaaS can remain in classic IaaS and continue to access classic IaaS data centers using {{site.data.keyword.dl_short}} or {{site.data.keyword.dlc_full_notm}}. VPC connectivity is fully supported ONLY on {{site.data.keyword.dl_short}}.
 
-## Where are the  {{site.data.keyword.dl_short}} offerings enabled?
+## Where are the {{site.data.keyword.dl_short}} offerings enabled?
 {: #offerings-enabled}
 {: faq}
 {: support}
 
-For the most up-to-date information, see [{{site.data.keyword.dl_short}} Dedicated](/docs/dl?topic=dl-how-to-order-ibm-cloud-dl-dedicated#dedicated-locations) and [{{site.data.keyword.dl_short}} Connect](/docs/dl?topic=dl-how-to-order-ibm-cloud-dl-connect#connect-locations) locations.
+For the most up-to-date information, see [{{site.data.keyword.dl_short}} Dedicated](/docs/dl?topic=dl-locations&interface=ui#dedicated-locationss) and [{{site.data.keyword.dl_short}} Connect](/docs/dl?topic=dl-locations&interface=ui#connect-locations) locations.
 
 ## Can I request to change a VLAN ID on IBM Cloud for a provisioned Direct Link Connect gateway with an VLAN that is already allocated?
 {: #change-vlan-id}

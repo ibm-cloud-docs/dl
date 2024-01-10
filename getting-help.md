@@ -12,6 +12,8 @@ subcollection: dl
 
 ---
 
+{{site.data.keyword.attribute-definition-list}}
+
 # Getting help and support for Direct Link
 {: #help-and-support}
 

@@ -66,11 +66,6 @@ These resources are created by {{site.data.keyword.cloud}} and by some IBM Busin
 ## Featured announcements
 {: #featured-announcements}
 
-* [InterCloud Offers Dedicated Connectivity to {{site.data.keyword.cloud_notm}}](https://info.intercloud.com/intercloud-offers-dedicated-connectivity-to-ibm-cloud){: external}
+[{{site.data.keyword.cloud_notm}} Solves Last Mile Challenges with Satellite](https://www.satellitetoday.com/mobility/2018/10/25/ibm-cloud-solves-last-mile-challenges-with-satellite/){: external}, by Adrienne Harebottle
 
-    Discover how {{site.data.keyword.cloud_notm}} and InterCloud are helping to enable a national railway company migrate business-critical applications to the cloud over a secure, dedicated connection.
-
-* [{{site.data.keyword.cloud_notm}} Solves Last Mile Challenges with Satellite](https://www.satellitetoday.com/mobility/2018/10/25/ibm-cloud-solves-last-mile-challenges-with-satellite/){: external}, by Adrienne Harebottle
-
-    Learn how SES Network's decision to partner with {{site.data.keyword.cloud_notm}} to help customers overcome key connectivity challenges by harnessing the power of satellites.
-
+Learn how SES Network's decision to partner with {{site.data.keyword.cloud_notm}} to help customers overcome key connectivity challenges by harnessing the power of satellites.

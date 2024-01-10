@@ -28,13 +28,14 @@ To learn about general updates and improvements to Direct Link offerings, see [R
 {: release-note}
 
 Route report enhancements
-:    Shows new route report fields for advertised routes and AS path. 
+:    Shows new route report fields for advertised routes and AS path.
 
 ## 16 March 2023
 {: #dl-mar1623}
 {: release-note}
 
 BGP route filtering support
+
 :    New commands:
 
      Export route filters
@@ -45,7 +46,7 @@ BGP route filtering support
    * [Delete an export route filter](/docs/dl?topic=dl-dl-cli#export-route-filter-delete) - `export-route-filter-delete`, `erfd`
    * [Replace all export route filters](/docs/dl?topic=dl-dl-cli#export-route-filter-replace) - `export-route-filter-replace`, `erfr`
    * [Update an export route filter](/docs/dl?topic=dl-dl-cli#export-route-filter-update) - `export-route-filter-update`, `erfu`
-    
+
     Import route filters
 
    * [View details of an import route filter by ID](/docs/dl?topic=dl-dl-cli#import-route-filter) - `import-route-filter`, `irf`
@@ -62,34 +63,34 @@ BGP route filtering support
 BGP AS prepend support
 :    Support AS prepend information as part of the `--file` option.
 
-   * [Create a Connect gateway](/docs/dl?topic=dl-cli-plugin-dl-cli#create-connect-gateway) - `connect-gateway-create`, `conn-gwc`   
-   * [Create a Dedicated gateway](/docs/dl?topic=dl-cli-plugin-dl-cli#create-dedicated-gateway) - `dedicated-gateway-create`, `ded-gwc` 
-   * [Approve a gateway change request](/docs/dl?topic=dl-cli-plugin-dl-cli#gateway-change-approve-cmd) - `gateway-change-approve`, `gwca`    
+   * [Create a Connect gateway](/docs/dl?topic=dl-dl-cli#create-connect-gateway) - `connect-gateway-create`, `conn-gwc`
+   * [Create a Dedicated gateway](/docs/dl?topic=dl-dl-cli#create-dedicated-gateway) - `dedicated-gateway-create`, `ded-gwc`
+   * [Approve a gateway change request](/docs/dl?topic=dl-dl-cli#gateway-change-approve-cmd) - `gateway-change-approve`, `gwca`
 
 Route report support
 :    New commands:
 
-   * [View details of a route report](/docs/dl?topic=dl-cli-plugin-dl-cli#route-report-view) - `route-report`, `rr` 
-   * [Create a route report](/docs/dl?topic=dl-cli-plugin-dl-cli#route-report-create-view) - `route-report-create`, `rrc`      
-   * [Delete a route report](/docs/dl?topic=dl-cli-plugin-dl-cli#route-report-delete-view) - `route-report-delete`, `rrd`  
-   * [List all route reports](/docs/dl?topic=dl-cli-plugin-dl-cli#route-report-list-view) - `route-reports`, `rrs`
+   * [View details of a route report](/docs/dl?topic=dl-dl-cli#route-report-view) - `route-report`, `rr`
+   * [Create a route report](/docs/dl?topic=dl-dl-cli#route-report-create-view) - `route-report-create`, `rrc`
+   * [Delete a route report](/docs/dl?topic=dl-dl-cli#route-report-delete-view) - `route-report-delete`, `rrd`
+   * [List all route reports](/docs/dl?topic=dl-dl-cli#route-report-list-view) - `route-reports`, `rrs`
 
 ## 24 September 2021
 {: #dl-sept2422}
 {: release-note}
 
 Bidirectional Forwarding Detection (BFD)
-:    Added the parameters **--bfd-interval** and **--bfd-multiplier** in [dedicated-gateway-create](/docs/dl?topic=dl-cli-plugin-dl-cli#create-dedicated-gateway), [connect-gateway-create](/docs/dl?topic=dl-cli-plugin-dl-cli#create-connect-gateway), and [gateway-update](/docs/dl?topic=dl-cli-plugin-dl-cli#update-gateway) commands.
+:    Added the parameters **--bfd-interval** and **--bfd-multiplier** in [dedicated-gateway-create](/docs/dl?topic=dl-dl-cli#create-dedicated-gateway), [connect-gateway-create](/docs/dl?topic=dl-dl-cli#create-connect-gateway), and [gateway-update](/docs/dl?topic=dl-dl-cli#update-gateway) commands.
 
 More flexibility in configuring BGP values
-:    Added the fields **--bgp-asn**, **--bgp-cer-cidr**, and **--bgp-ibm-cidr** in [gateway-update](/docs/dl?topic=dl-cli-plugin-dl-cli#update-gateway) to update BGP values (ASN and IP addresses).
+:    Added the fields **--bgp-asn**, **--bgp-cer-cidr**, and **--bgp-ibm-cidr** in [gateway-update](/docs/dl?topic=dl-dl-cli#update-gateway) to update BGP values (ASN and IP addresses).
 
 ## 30 August 2021
 {: #dl-august3021}
 {: release-note}
 
 Direct Link connection support for transit gateways
-:    Added the **--connection** flag to [dedicated-gateway-create](/docs/dl?topic=dl-cli-plugin-dl-cli#create-dedicated-gateway) and [connect-gateway-create](/docs/dl?topic=dl-cli-plugin-dl-cli#create-connect-gateway) commands.
+:    Added the **--connection** flag to [dedicated-gateway-create](/docs/dl?topic=dl-dl-cli#create-dedicated-gateway) and [connect-gateway-create](/docs/dl?topic=dl-dl-cli#create-connect-gateway) commands.
 
 ## 24 June 2021
 {: #dl-june2421}
