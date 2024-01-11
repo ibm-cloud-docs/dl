@@ -98,7 +98,6 @@ toc:
             - iam.md
             - data-security.md
             - at_events.md
-            - manage-scc.md
             - cbr.md
             - vpe.md
     - navgroup:
