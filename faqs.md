@@ -97,7 +97,7 @@ Any existing customers on classic IaaS can remain in classic IaaS and continue t
 {: faq}
 {: support}
 
-For the most up-to-date information, see [{{site.data.keyword.dl_short}} Dedicated](/docs/dl?topic=dl-locations&interface=ui#dedicated-locationss) and [{{site.data.keyword.dl_short}} Connect](/docs/dl?topic=dl-locations&interface=ui#connect-locations) locations.
+For the most up-to-date information, see [{{site.data.keyword.dl_short}} Dedicated](/docs/dl?topic=dl-locations&interface=ui#dedicated-locations) and [{{site.data.keyword.dl_short}} Connect](/docs/dl?topic=dl-locations&interface=ui#connect-locations) locations.
 
 ## Can I request to change a VLAN ID on IBM Cloud for a provisioned Direct Link Connect gateway with an VLAN that is already allocated?
 {: #change-vlan-id}
