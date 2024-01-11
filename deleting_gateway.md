@@ -16,7 +16,7 @@ subcollection: dl
 {: help}
 {: support}
 
-You can delete a direct link either before or after the gateway moves to the **Provisioned** state. However, you cannot delete a gateway during the **In review** and some **in progress** states.
+You can delete a direct link either before or after the gateway moves to the `Provisioned` state. However, you cannot delete a gateway during the `In review` and some `In progress` states.
 {: shortdesc}
 
 ## Deleting a direct link in the UI
@@ -32,7 +32,7 @@ If any virtual connections are attached to the gateway, you must detach them bef
 {: #deleting-direct-link-cli}
 {: cli}
 
-You can delete an existing direct link with the CLI using the [`ibmcloud dl gateway-delete`](/docs/dl?topic=dl-dl-cli#delete-gateway) command. For example, this command shows how to delete a direct link without confirmation.
+You can delete an existing direct link with the CLI by using the [`ibmcloud dl gateway-delete`](/docs/dl?topic=dl-dl-cli#delete-gateway) command. For example, this command shows how to delete a direct link without confirmation.
 
 ```sh
 ibmcloud dl gateway-delete e281b18b-0dba-49ee-9c64-aea588b7f1fd

@@ -15,14 +15,14 @@ subcollection: dl
 # Completion notice example
 {: #completion-notice-example}
 
-The following is an example completion notice from a {{site.data.keyword.dl_short}} provider.
+This topic provides an example completion notice from a {{site.data.keyword.dl_short}} provider.
 {: shortdesc}
 
 ---
 
-Please do not reply directly to this email. This was sent from a notification-only address that cannot accept incoming email.
+Do not reply directly to this email. This was sent from a notification-only address that cannot accept incoming email.
 
-We are pleased to inform you that your order (#xxxxx) has been completed by our IBX team.
+We are pleased to inform you that your order (#xxxxx) was completed by the IBX team.
 
 ORDER DETAILS
 
@@ -34,7 +34,7 @@ IBX: DA2
 
 PRODUCT DETAILS
 
-Details show the Serial# and the Z-side demarcs, proving that the cross connects were installed into the correct patch panel/ports.
+Details show the Serial# and the Z-side demarcs, proving that the cross-connects were installed into the correct patch panel/ports.
 
 ![Product details](/images/product-details.png){: caption="Product details" caption-side="bottom"}
 
