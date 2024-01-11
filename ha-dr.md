@@ -23,7 +23,7 @@ You are responsible for understanding your connection configuration, customizati
 ## High availability within the service
 {: #high-availability}
 
-{{site.data.keyword.cloud_notm}} service supports high availability with no single point of failure. The service achieves high availability automatically and transparently by means of the Multi-Zone Region ([MZR](/docs/overview?topic=overview-locations#mzr-table)) feature provided by {{site.data.keyword.cloud_notm}}.
+{{site.data.keyword.cloud_notm}} service supports high availability with no single point of failure. The service achieves high availability automatically and transparently by means of the Multi-Zone Region ([MZR](/docs/overview?topic=overview-locations#table-mzr)) feature provided by {{site.data.keyword.cloud_notm}}.
 
 ## High availability for customer {{site.data.keyword.dl_short}} connections
 {: #high-availability-customer}
