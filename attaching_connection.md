@@ -20,7 +20,7 @@ subcollection: dl
 You can add a virtual connection when you create a direct link, or after the gateway is provisioned.
 {: shortdesc}
 
-Make sure that there are no IP address conflicts between on-premises subnets and subnets on IBM Cloud for both VPC and classic infrastructure connections.
+Make sure that no IP address conflicts between on-premises subnets and subnets on IBM Cloud for both VPC and classic infrastructure connections.
 {: important}
 
 To add a connection to a provisioned gateway, follow these steps:

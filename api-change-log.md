@@ -27,7 +27,7 @@ Route report enhancements
 
 : Added advertised routes to verify route filters and AS prepends applied to the Direct Link gateway.
 
-: “AS path” information added to on-prem routes to verify AS prepends.
+: “AS path” information added to on-premises routes to verify AS prepends.
 
 : Changed commands
 
@@ -88,4 +88,4 @@ BGP AS prepend support
 {: release-note}
 
 Reduced unmetered plan pricing for Direct Link Connect
-:   IBM is pleased to announce _a significant reduction in unmetered pricing_ for IBM Cloud Direct Link Connect and Direct Link Dedicated. Note that Direct Link also offers a metered pricing plan, allowing you to switch between metered and unmetered pricing plans to suit your bandwidth usage needs.
+:   IBM is pleased to announce a significant reduction in unmetered pricing for IBM Cloud Direct Link Connect and Direct Link Dedicated. Direct Link also offers a metered pricing plan, which allows you to switch between metered and unmetered pricing plans to suit your bandwidth usage needs.
