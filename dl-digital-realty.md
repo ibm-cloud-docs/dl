@@ -17,7 +17,7 @@ subcollection: dl
 
 Follow these steps to order Direct Link Connect from Digital Realty:
 
-1. Log in to the Digital Realty [ServiceFabric portal](https://servicefabric.digital.realty.com){: external} using your credentials.
+1. Log in to the Digital Realty [ServiceFabric portal](https://servicefabric.digitalrealty.com/){: external} using your credentials.
 1. On the ServiceFabric dashboard, click **Create Link** in the **OTHER RESOURCES** section.
 1. In the Create Link side panel, complete the following information:
 
