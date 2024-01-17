@@ -20,7 +20,7 @@ You must use the Equinix Fabric portal to create a connection for your Equinix s
 For Exchange on Classic instructions, see [Steps to order Direct Link Exchange on Classic for Equinix](/docs/direct-link?topic=direct-link-how-to-order-ibm-cloud-direct-link-exchange#provisioning-ibm-cloud-direct-link-exchange-for-equinix).
 {: note}
 
-1. [Log in](https://www.equinix.com/){: external} to the Equinix Fabric Portal.
+1. [Sign in](http://ecxfabric.equinix.com){: external} to the Equinix Fabric Portal.
    * Enter your username and password.
    * Click **Sign In**.
 1. In the Frequent Connections section, click the **IBM Cloud** tile.
