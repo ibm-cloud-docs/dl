@@ -45,7 +45,7 @@ The following table provides details about the {{site.data.keyword.cloud_notm}} 
 | Seattle 2 | PoP | Digital Realty (The Westin Building) | WBX |
 | Toronto 1 | DC| Digital Realty | TOR01 |
 | Toronto 2 | PoP | Cologix | TOR02 |
-| Toronto 3 | PoP | Equinix| TOR03 |
+| Toronto 3 | PoP | Equinix| TR2 |
 | Toronto 4 | DC | Server Farm | TOR04 |
 | Toronto 5 | DC | Digital Realty | TOR05 |
 | Washington DC 2 | PoP 1 | Equinix | DC2 |
