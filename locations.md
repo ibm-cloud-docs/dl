@@ -26,9 +26,9 @@ The following table provides details about the {{site.data.keyword.cloud_notm}} 
 | Chicago 1 | PoP | Equinix  | CH4 |
 | Dallas 3 | PoP 1 | Equinix | DA1 |
 | Dallas 4 | PoP 2 | Digital Realty | DFW14 |
-| Dallas 10 | DC(AZ1) | QTS | IRV |
-| Dallas 12 | DC(AZ2) | Digital Realty | DFW18 |
-| Dallas 13 | DC(AZ3) | CyrusOne | Carrollton - Frankford |
+| Dallas 10 | DC | QTS | IRV |
+| Dallas 12 | DC | Digital Realty | DFW18 |
+| Dallas 13 | DC | CyrusOne | Carrollton - Frankford |
 | Denver 1 | PoP | Coresite |	DE1 |
 | Miami 1 | PoP  | TERREMARK | MI1 |
 | Montreal 3 | DC | Colo-D | MON03 |
@@ -37,22 +37,22 @@ The following table provides details about the {{site.data.keyword.cloud_notm}} 
 | San Jose 2 | PoP | Equinix | SV1 |
 | San Jose 3| DC | Digital Realty | SJC31|
 | San Jose 4 | DC | Infomart | SJC1 |
-| São Paulo 1 | DC(AZ1) | Digital Realty (Ascenty) | SAO01 |
+| São Paulo 1 | DC | Digital Realty (Ascenty) | SAO01 |
 | São Paulo 2 | PoP | Equinix | SP4 |
 | São Paulo 3 | PoP  | ODATA | SAO03 |
-| São Paulo 4 | DC(AZ2) | ODATA | SAO04 |
-| São Paulo 5 | DC(AZ3) | ASCENTY | SAO05 |
+| São Paulo 4 | DC | ODATA | SAO04 |
+| São Paulo 5 | DC | ASCENTY | SAO05 |
 | Seattle 2 | PoP | Digital Realty (The Westin Building) | WBX |
-| Toronto 1 | DC(AZ1)| Digital Realty | TOR01 |
+| Toronto 1 | DC| Digital Realty | TOR01 |
 | Toronto 2 | PoP | Cologix | TOR02 |
 | Toronto 3 | PoP | Equinix| TOR03 |
-| Toronto 4 | DC(AZ2) | Server Farm | TOR04 |
-| Toronto 5 | DC(AZ3) | Digital Realty | TOR05 |
+| Toronto 4 | DC | Server Farm | TOR04 |
+| Toronto 5 | DC | Digital Realty | TOR05 |
 | Washington DC 2 | PoP 1 | Equinix | DC2 |
-| Washington DC 4 | DC(AZ1) | Digital Realty | IAD38 |
+| Washington DC 4 | DC | Digital Realty | IAD38 |
 | Washington DC 5 | PoP 2 | Coresite | DC2 |
-| Washington DC 6 | DC(AZ2) | Raging Wire | VA2 |
-| Washington DC 7 | DC(AZ3) | Sabey | Sabey Intergate.Ashburn |
+| Washington DC 6 | DC | Raging Wire | VA2 |
+| Washington DC 7 | DC | Sabey | Sabey Intergate.Ashburn |
 {: class="simple-tab-table"}
 {: caption="Table 1. Direct Link Dedicated - Americas" caption-side="bottom"}
 {: #simpletabtable1}
@@ -66,21 +66,21 @@ The following table provides details about the {{site.data.keyword.cloud_notm}} 
 | Melbourne 2 | PoP | NextDC | M1 |
 | Mumbai 1 | PoP | GPX (Equinix) | Mumbai 1 |
 | Osaka 1 | PoP | Equinix | OS1 |
-| Osaka 21  | DC(AZ1)|  IDC Frontier (SoftBank) | OSA021 |
-| Osaka 22  | DC(AZ2) | IDC Frontier (SoftBank) | OSA022 |
-| Osaka 23  | DC(AZ3) | IDC Frontier (SoftBank) | OSA023 |
+| Osaka 21  | DC|  IDC Frontier (SoftBank) | OSA021 |
+| Osaka 22  | DC | IDC Frontier (SoftBank) | OSA022 |
+| Osaka 23  | DC | IDC Frontier (SoftBank) | OSA023 |
 | Singapore 1 |	DC  | Digital Realty | SIN10 |
-| Sydney 1 | DC(AZ1) | Global Switch | SYD01 |
+| Sydney 1 | DC | Global Switch | SYD01 |
 | Sydney 2 | PoP 1 | Equinix | SY3 |
 | Sydney 3 | PoP 2 | NextDC | SYD03 |
-| Sydney 4 | DC(AZ2) | Digital Realty | SYD10 |
-| Sydney 5 | DC(AZ3) | Equinix | SY4 |
+| Sydney 4 | DC | Digital Realty | SYD10 |
+| Sydney 5 | DC | Equinix | SY4 |
 | Taipei 1 | PoP | Chief Telecom | TPE01 |
 | Tokyo 1 | Pop | Equinix | TY2  |
-| Tokyo 2 | DC(AZ1) | At Toyko | TOK02 |
+| Tokyo 2 | DC | At Toyko | TOK02 |
 | Tokyo 3 | PoP 2 | Equinix | TY4 |
-| Tokyo 4 | DC(AZ2) | Softbank | |
-| Tokyo 5 | DC(AZ3) | NTT |  |
+| Tokyo 4 | DC | Softbank | |
+| Tokyo 5 | DC | NTT |  |
 {: caption="Table 2. Direct Link Dedicated - APAC" caption-side="bottom"}
 {: #simpletabtable2}
 {: tab-title="APAC"}
@@ -92,21 +92,21 @@ The following table provides details about the {{site.data.keyword.cloud_notm}} 
 | Amsterdam 2 | PoP | Equinix | AM2 |
 | Amsterdam 3 | DC | KPN | Amsterdam 3 |
 | Frankfurt 1 | PoP 1 | Digital Realty | FRA6 |
-| Frankfurt 2 | DC(AZ1) | CyrusOne (Zenium) | FRA1 |
+| Frankfurt 2 | DC | CyrusOne (Zenium) | FRA1 |
 | Frankfurt 3 | PoP 2 | Equinix | FR6 |
-| Frankfurt 4 | DC (AZ2) | NTT | Frankfurt 1 |
-| Frankfurt 5 | DC (AZ3) | Digital Realty | FRA11 |
+| Frankfurt 4 | DC  | NTT | Frankfurt 1 |
+| Frankfurt 5 | DC  | Digital Realty | FRA11 |
 | London 1 | PoP | Equinix (Telecity) | LD8 |
 | London 2 | DC | Digital Realty | LHR13 |
 | London 3 | PoP 2 | Equinix | LD5 |
-| London 4 | DC(AZ1) | ARK | A103 |
-| London 5 | DC(AZ2) | Gyron |  |
-| London 6 | DC(AZ3) | CyrusOne (Zenium) | LON1 |
+| London 4 | DC | ARK | A103 |
+| London 5 | DC | Gyron |  |
+| London 6 | DC | CyrusOne (Zenium) | LON1 |
 | Madrid 1 | PoP | Equinix | MAD01 |
-| Madrid 2 | DC (AZ1) | DATA4 Madrid Campus | MAD02 |
+| Madrid 2 | DC  | DATA4 Madrid Campus | MAD02 |
 | Madrid 3 | PoP | Digital Realty |  MAD03 |
-| Madrid 4 | DC (AZ2) | NTT Data Center | MAD04 |
-| Madrid 5 | DC (AZ3) | Digital Realty | MAD05 |
+| Madrid 4 | DC  | NTT Data Center | MAD04 |
+| Madrid 5 | DC  | Digital Realty | MAD05 |
 | Milan 1 | DC | Data 4 | |
 | Milan 2 | PoP | Infracom Italia | Infracom 21 Via Caldera Way |
 | Paris 1 | DC  | Global Switch Limited | PAR01 |

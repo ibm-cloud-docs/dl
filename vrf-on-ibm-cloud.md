@@ -69,7 +69,7 @@ When routing on-premises subnets from the direct link through a VPC, you must cr
 
 Moving to VRF includes the following primary benefits:
 
-* Industry-proven and widely accepted _multiple isolation separation technologies_. Many cloud customers find the Level-3 VPN approach more palatable than ACLs to their auditors and compliance officers.   
+* Industry-proven and widely accepted _multiple isolation separation technologies_. Many cloud customers find the Level-3 VPN approach more palatable than ACLs to their auditors and compliance officers.
 * {{site.data.keyword.cloud_notm}} customers can extend or migrate the reach of their network significantly, due to addition of new sites or applications throughout the IBM network.
 * Tenant-specific routing tables narrow the aperture for IP address overlap, without the risk of overlap with other tenants' subnets or other parts of the network that are not applicable.
 
@@ -80,7 +80,7 @@ Compared to the older ACL model, there are a few minor tradeoffs to take into ac
 * VLAN spanning is a feature of the shared tenancy model and is not available in a VRF; this will be disabled upon conversion to the Customer VRF.
 * IPsec VPN managed service on {{site.data.keyword.cloud_notm}} classic infrastructure remote access is not available.
 
-Many {{site.data.keyword.cloud_notm}} customers currently operate with a shared tenancy model on the {{site.data.keyword.cloud_notm}} network. During conversion, your shared tenancy is converted to use a _customer VRF_, most commonly with a new {{site.data.keyword.dl_short}} subscription.  
+Many {{site.data.keyword.cloud_notm}} customers currently operate with a shared tenancy model on the {{site.data.keyword.cloud_notm}} network. During conversion, your shared tenancy is converted to use a _customer VRF_, most commonly with a new {{site.data.keyword.dl_short}} subscription.
 
 For specific information about how to initiate a VRF conversion for your account, see the conversion instructions for your {{site.data.keyword.cloud_notm}} offering.
 
