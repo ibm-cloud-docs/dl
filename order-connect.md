@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020, 2023
-lastupdated: "2023-10-20"
+  years: 2020, 2024
+lastupdated: "2024-02-20"
 
 keywords: direct link, direct link connect
 
@@ -41,13 +41,14 @@ IBM Cloud over partner interconnects (also known as network-to-network interface
 {: #instructions-partner}
 
 * [AT&T NetBond for Cloud](/docs/dl?topic=dl-netbond)
-* [AT&T NetBond Essentials via Equinix Fabric](/docs/dl?topic=dl-att-netbond-essentials)
+* [AT&T NetBond Essentials using Equinix Fabric](/docs/dl?topic=dl-att-netbond-essentials)
 * [Cologix](/docs/dl?topic=dl-cologix-instructions)
 * [DE-CIX](/docs/dl?topic=dl-de-cix)
 * [Digital Realty](/docs/dl?topic=dl-digital-realty)
 * [Equinix](/docs/dl?topic=dl-equinix)
 * [Megaport](/docs/dl?topic=dl-megaport)
-* [Verizon SCI via Equinix Fabric](/docs/dl?topic=dl-verizon-sci)
+* [Verizon SCI](/docs/dl?topic=dl-verizon-sci)
+* [Verizon SCI using Equinix Fabric](/docs/dl?topic=dl-verizon-sci-equinix)
 
 ## Ordering instructions
 {: #instructions-connect}
