@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2024
-lastupdated: "2024-01-11"
+lastupdated: "2024-02-21"
 
 keywords: direct link
 
@@ -173,7 +173,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect service provide
 | Telia | **Americas**: Dallas 3, Washington DC 2  \n **EU**: Stockholm 2 | | |
 | Telstra | **APAC**: Melbourne 2, Sydney 2 | | |
 | Tokai | **APAC**: Osaka 1, Tokyo 3 | |
-| Verizon SCI | **Americas**: San Jose 2, Washington DC 2  \n **EU**: Amsterdam 2, Frankfurt 1 | |
+| Verizon SCI | **Americas**: Dallas 3, San Jose 2, Washington DC 2  \n **EU**: Amsterdam 2, Frankfurt 1 | |
 | Vodafone | **EU**: Frankfurt 1, Frankfurt 3, London 1, London 3 | |
 | Zayo | **Americas**: Dallas 3, Toronto 2, Washington DC 2| |
 | Zenlayer | **APAC**: Hong Kong 3, Tokyo 1 | |
@@ -188,7 +188,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect service provide
 | Amsterdam 2 | BlueFringe  \n  Colt  \n Epsilon  \n Equinix  \n Intercloud  \n Megaport  \n nextGen GNPP  \n Verizon SCI |
 | Chennai 1 | BlueFringe  \n TATA |
 | Chicago 1 | Cologix  \n Console Connect  \n Equinix  \n Megaport |
-| Dallas 3 |  AT&T Cloud Gateway  \n AT&T NetBond for Cloud  \n Axtel  \n BlueFringe  \n Cloudflare  \n Console Connect  \n Equinix  \n Level3  \n Lumen  \n Neutrona  \n nextGen GNPP  \n Orange Business Systems  \n Telia  \n Zayo |
+| Dallas 3 |  AT&T Cloud Gateway  \n AT&T NetBond for Cloud  \n Axtel  \n BlueFringe  \n Cloudflare  \n Console Connect  \n Equinix  \n Level3  \n Lumen  \n Neutrona  \n nextGen GNPP  \n Orange Business Systems  \n Telia  \n  Verizon SCI  \n Zayo |
 | Dallas 4 |  PacketFabric  \n Megaport |
 | Dallas 8 | AT&T NetBond for Cloud |
 | Dallas 10 | DE-CIX  \n IBM Power Virtual Server |
