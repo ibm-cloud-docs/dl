@@ -13,7 +13,7 @@ subcollection: dl
 {{site.data.keyword.attribute-definition-list}}
 
 # Verizon SCI using Equinix Fabric ordering considerations
-{: #verizon-sci}
+{: #verizon-sci-equinix}
 
 Follow these steps to create a Direct Link connection with Verizon SCI and Equinix Fabric.
 

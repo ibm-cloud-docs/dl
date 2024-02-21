@@ -13,7 +13,7 @@ subcollection: dl
 {{site.data.keyword.attribute-definition-list}}
 
 # Verizon SCI ordering considerations
-{: #verizon-sci-equinix}
+{: #verizon-sci}
 
 Follow these steps to create a Direct Link connection with Verizon SCI.
 
