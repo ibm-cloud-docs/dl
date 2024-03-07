@@ -1,10 +1,10 @@
 ---
 
 copyright:
-  years: 2020, 2023
-lastupdated: "2023-11-27"
+  years: 2020, 2024
+lastupdated: "2024-03-06"
 
-keywords: direct link
+keywords: faqs
 
 subcollection: dl
 
@@ -72,12 +72,11 @@ Billing stops after (1) you request a circuit to be deleted, and (2) the provide
 
 You might have extra charges from your provider. See to your carrier or service provider for their fee information.
 
-## What is planned for Direct Link on Classic Exchange?
-{: #exchange-eom}
+### Where can you find metric or usage data?
+{: #where-can-I-find-my-usage-data}
 {: faq}
-{: support}
 
-The marketplace has evolved since {{site.data.keyword.dl_short}} Exchange was established. With data center operators now blurring the lines as network service providers, IBM will be combining the Exchange offering with Connect on the new "next generation" platform to reflect both this change and simplify the {{site.data.keyword.dl_short}} portfolio. {{site.data.keyword.dl_short}} Exchange will service only the {{site.data.keyword.dl_short}} classic infrastructure. After migrations of the partner inter-connections to the XCRs are complete, Exchange will be moved to End of Marketing (EoM).
+The Direct Link offerings do not provide reporting metrics or usage data. If you need to collect metrics for a Dedicated direct link, you can collect this data from your equipment. To collect metrics from a Connect direct link, reach out to the provider for metrics if you are not able to collect data from your equipment.
 
 ## Will {{site.data.keyword.dl_short}} be available in non-MZRs, or is it only a solution for MZRs?
 {: #dl-mzr}
