@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2022, 2023
-lastupdated: "2023-07-06"
+  years: 2022, 2024
+lastupdated: "2024-03-07"
 
 keywords: direct link release notes
 
@@ -19,6 +19,13 @@ content-type: release-note
 
 Check back regularly to see what's new with {{site.data.keyword.cloud}} Direct Link.
 {: shortdesc}
+
+## 07 March 2024
+{: #dl-march1524}
+{: release-note}
+
+VLAN tagging support for Direct Link Dedicated
+:   VLAN's keep traffic from different networks separated when traversing shared links and devices within a topology. This process, also known as _VLAN tagging_, limits broadcast network traffic and secures network segments. Previously, dedicated gateway traffic could not be tagged with a VLAN. Now, a customer can optionally specify their own VLAN value either at the time of gateway creation, or update or remove it later. For more information, see [Activating, deactivating, and updating VLAN tagging](/docs/dl?topic=dl-activate-vlan-tagging#dl-update-vlan-tag).
 
 ## 06 July 2023
 {: #dl-july0623}

@@ -76,6 +76,7 @@ toc:
             - dl-cross-account-connection.md
             - dl-as-a-spoke.md
             - editing_gateway.md
+            - dl-vlan-tagging.md
             - dl-disable-md5.md
             - dl-bfd-activation.md
             - dl-route-report.md
