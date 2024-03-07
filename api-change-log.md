@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2022, 2023
-lastupdated: "2023-07-06"
+  years: 2022, 2024
+lastupdated: "2024-03-07"
 
 keywords: direct link api change log
 
@@ -20,6 +20,16 @@ content-type: release-note
 Check back regularly to see what's new with {{site.data.keyword.cloud}} Direct Link API.
 {: shortdesc}
 
+## 07 March 2024
+{: #dl-marc0724}
+
+VLAN tagging support for Direct Link Dedicated
+
+: Updated commands
+
+   * Create a dedicated gateway - `POST /gateways`
+   * Update a gateway change request - `PATCH /gateways/{id}`
+
 ## 06 July 2023
 {: #dl-ju0623}
 
@@ -27,7 +37,7 @@ Route report enhancements
 
 : Added advertised routes to verify route filters and AS prepends applied to the Direct Link gateway.
 
-: “AS path” information added to on-premises routes to verify AS prepends.
+: “AS path” information added to on-prem routes to verify AS prepends.
 
 : Changed commands
 
@@ -88,4 +98,4 @@ BGP AS prepend support
 {: release-note}
 
 Reduced unmetered plan pricing for Direct Link Connect
-:   IBM is pleased to announce a significant reduction in unmetered pricing for IBM Cloud Direct Link Connect and Direct Link Dedicated. Direct Link also offers a metered pricing plan, which allows you to switch between metered and unmetered pricing plans to suit your bandwidth usage needs.
+:   IBM is pleased to announce _a significant reduction in unmetered pricing_ for IBM Cloud Direct Link Connect and Direct Link Dedicated. Note that Direct Link also offers a metered pricing plan, allowing you to switch between metered and unmetered pricing plans to suit your bandwidth usage needs.
