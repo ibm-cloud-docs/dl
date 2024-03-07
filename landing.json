@@ -1,6 +1,6 @@
 {
     "title": "Direct Link docs",
-    "lastupdated": "2023-03-16",
+    "lastupdated": "2024-03-07",
     "introduction": "The IBM Cloud Direct Link solution is designed to seamlessly connect your on-premises resources to your cloud resources. Leverage the docs, CLI, and API reference to plan for, provision, and manage your direct links.",
     "section_devtools": {
       "api": "/apidocs/direct_link",
@@ -36,9 +36,14 @@
       "view_more": "/docs/dl?topic=dl-direct-link-release-notes",
       "tiles": [
         {
-          "date": "16 March 2023",
-          "title": "BGP Route Filtering support",
-          "description": "Route filtering is a method for selectively identifying routes that are advertised or received from neighbor routes. Use route filtering to manipulate traffic flows, reduce memory usage, and improve security."
+          "date": "07 March 2024",
+          "title": "VLAN tagging support for Direct Link Dedicated",
+          "description": "VLAN's keep traffic from different networks separated when traversing shared links and devices within a topology. This process, also known as VLAN tagging, limits broadcast network traffic and secures network segments."
+        },
+        {
+          "date": "06 July 2023",
+          "title": "Route report enhancements",
+          "description":"Added advertised routes to verify route filters and AS prepends applied to the Direct Link gateway."
         }
       ]
     }
