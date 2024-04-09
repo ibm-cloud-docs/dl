@@ -171,7 +171,6 @@ The following table lists {{site.data.keyword.dl_short}} Connect service provide
 | SoftBank | **APAC**: Tokyo 4 | |
 | TATA | **APAC**: Chennai 1, Hong Kong 1 | | |
 | Telia | **Americas**: Dallas 3, Washington DC 2  \n **EU**: Stockholm 2 | | |
-| Telstra | **APAC**: Melbourne 2, Sydney 2 | | |
 | Tokai | **APAC**: Osaka 1, Tokyo 3 | |
 | Verizon SCI | **Americas**: Dallas 3, San Jose 2, Washington DC 2  \n **EU**: Amsterdam 2, Frankfurt 1 | |
 | Vodafone | **EU**: Frankfurt 1, Frankfurt 3, London 1, London 3 | |
@@ -208,7 +207,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect service provide
 | Los Angeles 1 | Cloudflare  \n Coresite |
 | Madrid 1 | Equinix |
 | Madrid 3| Digital Realty |
-| Melbourne 2 | Megaport  \n NextDC  \n Telstra |
+| Melbourne 2 | Megaport  \n NextDC |
 | Mexico 1 | Marcatel |
 | Miami 1 | Console Connect  \n Level3 |
 | Milan 2 | Equinix |
@@ -227,7 +226,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect service provide
 | Seoul 2 | KINX |
 | Singapore 1 | Digital Realty  \n Megaport[^singapore2] |
 | Stockholm 2 | Telia |
-| Sydney 2 | Equinix  \n Megaport  \n Telstra |
+| Sydney 2 | Equinix  \n Megaport |
 | Sydney 3 | Console Connect  \n NextDC |
 | Sydney 4 | IBM Power Virtual Server |
 | Sydney 5 | Console Connect  \n IBM Power Virtual Server |

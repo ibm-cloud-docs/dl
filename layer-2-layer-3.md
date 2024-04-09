@@ -47,7 +47,7 @@ When you order {{site.data.keyword.dl_short}} Connect via the IBM Cloud console,
 
 The following table summarizes the type of connections that each {{site.data.keyword.cloud_notm}} partner provides.
 
-| Partners | Interconnection type |  
+| Partners | Interconnection type |
 |-------|-------|
 | AT&T NetBond for Cloud | **Layer 3** |
 | AT&T Cloud Gateway (formerly known as RedFringe)| **Layer 3** |
@@ -74,9 +74,8 @@ The following table summarizes the type of connections that each {{site.data.key
 | SES Networks | Layer 2  |
 | Tata IZO™ Private Connect  | **Layer 3** |
 | Arelion | **Layer 3** |
-| Telstra | **Layer 3** |
 | Tokai | Layer 2 |
 | Verizon SCI| **Layer 3** |
 | Vodafone| **Layer 3** |
 | Zayo Cloud Link | Layer 2 |
-{: caption="Table 1: Provider interconnections" caption-side="bottom"}   
+{: caption="Table 1: Provider interconnections" caption-side="bottom"}
