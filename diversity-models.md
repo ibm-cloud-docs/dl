@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2018, 2023
-lastupdated: "2023-07-27"
+  years: 2018, 2024
+lastupdated: "2024-04-17"
 
 keywords: direct link
 
@@ -15,7 +15,12 @@ subcollection: dl
 # Models for diversity in {{site.data.keyword.dl_short}}
 {: #models-for-diversity-and-redundancy-in-direct-link}
 
-Customers have the responsibility for creating diversity through their border gateway protocol (BGP) schemas; {{site.data.keyword.dl_full}} is not a redundant service at the cross-connect router (XCR). This document presents possible configurations which can help you find a model for creating the most successful {{site.data.keyword.dl_short}} deployment to meet your needs. The configurations are arranged in increasing levels of complexity and also according to the {{site.data.keyword.dl_short}} offering.
+This document presents common redundant {{site.data.keyword.dl_short}} configurations which can help you find the model that most closely matches your needs to create the most successful {{site.data.keyword.dl_full}} deployment.
+{: shortdesc}
+
+Since customers have the responsibility for creating diversity through their border gateway protocol (BGP) schemas to generate a fully redundant configuration the customer must provision the amount of direct links as per the desired SLA and diversity they require; It is importnat that the provisioned Direct links must be configured using separate, cross-connect routers (XCR) to avoid single points of failure.
+
+The configurations are arranged in increasing levels of complexity and also according to the {{site.data.keyword.dl_short}} offering.
 {: shortdesc}
 
 Key:
