@@ -79,8 +79,8 @@ toc:
             - dl-vlan-tagging.md
             - dl-disable-md5.md
             - dl-bfd-activation.md
-            - dl-route-report.md
             - dl-prepend.md
+            - dl-route-report.md
             - dl-upgrade-bandwidth.md
             - deleting_gateway.md
         - topicgroup:
@@ -102,6 +102,10 @@ toc:
             - at_events.md
             - cbr.md
             - vpe.md
+        - topicgroup:
+            label: Direct Link hazardous change remediation
+            topics:
+            - hcr-enable-service-network-routes.md
     - navgroup:
         id: reference
         topics:
