@@ -100,7 +100,6 @@ The following table provides details about the {{site.data.keyword.cloud_notm}} 
 | London 2 | DC | Digital Realty | LHR13 |
 | London 3 | PoP 2 | Equinix | LD5 |
 | London 4 | DC | ARK | A103 |
-| London 5 | DC | Gyron |  |
 | London 6 | DC | CyrusOne (Zenium) | LON1 |
 | Madrid 1 | PoP | Equinix | MAD01 |
 | Madrid 2 | DC  | DATA4 Madrid Campus | MAD02 |
