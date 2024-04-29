@@ -68,7 +68,13 @@ toc:
                 - dl-megaport.md
                 - dl-verizon-sci.md
                 - dl-verizon-sci-equinix.md
-                - dl-accepting-provider-enabled-connection.md
+                - dl-accepting-provider-enabled-connection
+        - topicgroup:
+            label: Direct Link Dedicated Hosting (redirect to Classic docs)
+            topics:
+            - link:
+               label: Ordering Direct Link Dedicated Hosting on Classic
+               href: /direct-link/direct-link-how-to-order-ibm-cloud-direct-link-dedicated-hosting
         - topicgroup:
             label: Managing direct links
             topics:
