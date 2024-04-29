@@ -1,14 +1,12 @@
 ---
 
 copyright:
-  years: 2022, 2024
+  years: 2020, 2024
 lastupdated: "2024-03-07"
 
 keywords: direct link release notes
 
 subcollection: dl
-
-content-type: release-note
 
 ---
 

@@ -25,8 +25,7 @@ To order {{site.data.keyword.dl_short}} Connect, you must determine the location
 
 Make sure to review the following information before ordering Direct Link Connect:
 
-* Before you begin, contact your service provider to determine the location to IBM Cloud by verifying your provider's capabilities to reach
-IBM Cloud over partner interconnects (also known as network-to-network interfaces, or NNIs).
+* Before you begin, contact your service provider to determine the location to IBM Cloud by verifying your provider's capabilities to reach IBM Cloud over partner interconnects (also known as network-to-network interfaces, or NNIs).
 * {{site.data.keyword.cloud_notm}} highly recommends that a second, diverse direct link be established to prevent outages, whether unplanned, or planned due to maintenance. For more information, see [Models for diversity and redundancy](/docs/dl?topic=dl-models-for-diversity-and-redundancy-in-direct-link).
 * All subnets of the VPC or classic network will be connected to the direct link. When creating VPCs, make sure to create the VPCs with non-overlapping prefixes and unique subnets.
    * To avoid IP address conflicts for classic connections to a direct link, don't use IP address ranges in the `10.0.0.0/14`, `10.200.0.0/14`, `10.198.0.0/15`, and `10.254.0.0/16` blocks for on-prem networks. On-prem routes that overlap are dropped.
