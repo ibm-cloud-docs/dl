@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2021
-lastupdated: "2021-06-16"
+  years: 2021, 2024
+lastupdated: "2024-05-01"
 
 keywords: direct link
 
@@ -18,7 +18,7 @@ By default, your direct link is configured to create a direct, private connectio
 one or more network connections, either a classic infrastructure or VPC connection. You can also choose to connect your direct link to a transit gateway.
 
    You can choose the network connection type when creating a direct link, or after your direct link is provisioned.
-   {: note}
+
 
 To change the network connection type of a direct link, follow these steps:
 
@@ -34,7 +34,7 @@ To change the network connection type of a direct link, follow these steps:
 
 1. Click **Submit** for your changes to take effect.
 
-If you selected **Transit Gateway** as your network connection type, you must use the same account to create a network connection to your direct link via the [{{site.data.keyword.cloud_notm}} Transit Gateway console](/interconnectivity/transit){: external}. 
+If you selected **Transit Gateway** as your network connection type, you must use the same account to create a network connection to your direct link by using the [{{site.data.keyword.cloud_notm}} Transit Gateway console](/interconnectivity/transit){: external}. Keep in mind that classic routes are not blocked. For more information, see [Preparing for Direct Link changes to advertised service network routes](/docs/dl?topic=dl-notification-dl-tgw).
 {: important}
 
 The **Virtual connection type** is shown on the direct link's details page.

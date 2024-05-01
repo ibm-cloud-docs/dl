@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2024
-lastupdated: "2024-03-07"
+lastupdated: "2024-05-01"
 
 keywords: direct link release notes
 
@@ -18,8 +18,14 @@ subcollection: dl
 Check back regularly to see what's new with {{site.data.keyword.cloud}} Direct Link.
 {: shortdesc}
 
+## 1 May 2024
+{: #dl-may0124}
+
+Behavior change: Enable service network routes from Direct Link to non-Classic connections
+:    When a direct link is connected to a transit gateway, the direct link advertises all service network routes. Before this change, when a direct link was connected to a transit gateway, the direct link would not advertise any service network routes. For more information, see [Preparing for Direct Link changes to advertised service network routes](/docs/dl?topic=dl-notification-dl-tgw).
+
 ## 07 March 2024
-{: #dl-march1524}
+{: #dl-march0724}
 {: release-note}
 
 VLAN tagging support for Direct Link Dedicated
