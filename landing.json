@@ -1,6 +1,6 @@
 {
     "title": "Direct Link docs",
-    "lastupdated": "2024-03-07",
+    "lastupdated": "2024-05-01",
     "introduction": "The IBM Cloud Direct Link solution is designed to seamlessly connect your on-premises resources to your cloud resources. Leverage the docs, CLI, and API reference to plan for, provision, and manage your direct links.",
     "section_devtools": {
       "api": "/apidocs/direct_link",
@@ -36,14 +36,14 @@
       "view_more": "/docs/dl?topic=dl-direct-link-release-notes",
       "tiles": [
         {
-          "date": "07 March 2024",
-          "title": "VLAN tagging support for Direct Link Dedicated",
-          "description": "VLAN's keep traffic from different networks separated when traversing shared links and devices within a topology. This process, also known as VLAN tagging, limits broadcast network traffic and secures network segments."
+          "date": "01 May 2024",
+          "title": "Behavior change: Enable service network routes from Direct Link to non-Classic connections",
+          "description": "When a direct link is connected to a transit gateway, the direct link advertises all service network routes."
         },
         {
-          "date": "06 July 2023",
-          "title": "Route report enhancements",
-          "description":"Added advertised routes to verify route filters and AS prepends applied to the Direct Link gateway."
+          "date": "07 March 2024",
+          "title": "VLAN tagging support for Direct Link Dedicated",
+          "description":"VLAN's keep traffic from different networks separated when traversing shared links and devices within a topology. This process, also known as VLAN tagging, limits broadcast network traffic and secures network segments."
         }
       ]
     }
