@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2024
-lastupdated: "2024-02-20"
+lastupdated: "2024-05-08"
 
 keywords: direct link, direct link connect
 
@@ -42,6 +42,7 @@ Make sure to review the following information before ordering Direct Link Connec
 * [AT&T NetBond for Cloud](/docs/dl?topic=dl-netbond)
 * [AT&T NetBond Essentials using Equinix Fabric](/docs/dl?topic=dl-att-netbond-essentials)
 * [Cologix](/docs/dl?topic=dl-cologix-instructions)
+* [Console Connect](/docs/dl?topic=dl-console-connect-ordering)
 * [DE-CIX](/docs/dl?topic=dl-de-cix)
 * [Digital Realty](/docs/dl?topic=dl-digital-realty)
 * [Equinix](/docs/dl?topic=dl-equinix)
