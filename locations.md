@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2024
-lastupdated: "2024-03-01"
+lastupdated: "2024-06-10"
 
 keywords: direct link
 
@@ -31,6 +31,7 @@ The following table provides details about the {{site.data.keyword.cloud_notm}} 
 | Dallas 13 | DC | CyrusOne | Carrollton - Frankford |
 | Denver 1 | PoP | Coresite |	DE1 |
 | Miami 1 | PoP  | TERREMARK | MI1 |
+| Montreal 1 | DC | Colo-D | MON01 |
 | Montreal 3 | DC | Colo-D | MON03 |
 | New York City 2[^newyork2]  | PoP | Equinix | NY4 |
 | New York City 3[^newyork3]  | PoP | Equinix | NY4 |
