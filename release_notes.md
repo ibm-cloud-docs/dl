@@ -8,9 +8,12 @@ keywords: direct link release notes
 
 subcollection: dl
 
+content-type: release-note
+
 ---
 
 {{site.data.keyword.attribute-definition-list}}
+{:release-note: data-hd-content-type='release-note'}
 
 # Release notes for Direct Link
 {: #direct-link-release-notes}

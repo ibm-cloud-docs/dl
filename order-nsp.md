@@ -90,7 +90,18 @@ To order {{site.data.keyword.dl_full}} Dedicated, follow these steps.
 
       Excluded ASNs: `0`, `13884`, `36351`, `64512`, `64513`, `65100`, `65201‍`–‍`65234`, `65402‍–‍65433`, `65500`, and `4201065000‍`–‍`4201065999`.
 
-1. In the Additional BGP settings section, you can activate one or more of these optional settings.
+1. In the Additional gateway settings section, you can activate one or more of these optional settings.
+
+   * **Configure Virtual Local Area Network (VLAN) tagging** - Specify the VLAN that is configured on your router to establish connectivity to IBM on the VLAN of your choice. For more information, see [Activating, deactivating, and updating VLAN tagging](/docs/dl?topic=dl-activate-vlan-tagging).
+
+      Activating, deactivating, or updating a VLAN after the BGP session is established causes BGP session downtime and network disruption until the BGP peer device is configured for the same change.
+      {: important}
+
+      Complete the following information:
+      * VLAN – Enter a VLAN ID. You must enter a value in the range from `2` to `3967`.
+
+      The VLAN must comply with the IEEE 802.1Q (Dot1Q) standard.
+      {: note}
 
    * **Verify data integrity with Message Digest 5 (MD5)** - Add an extra layer of security between two BGP peers by verifying each transmitted message sent through the BGP session. When MD5 authentication is activated, BGP authenticates every segment sent over the TCP session from its peer and verifies the source of each routing update.
 

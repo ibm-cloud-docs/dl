@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020, 2022
-lastupdated: "2022-09-21"
+  years: 2020, 2024
+lastupdated: "2024-02-21"
 
 keywords: direct link
 
@@ -32,6 +32,7 @@ As a security officer, auditor, or manager, you can use the Activity Tracker ser
 | `directlink.dedicated.gateway.delete` | A Dedicated gateway was deleted. |
 | `directlink.dedicated.gateway.update` | A Dedicated gateway was updated. |
 | `directlink.dedicated.completion-notice.create` | A Dedicated completion notice was created. |
+| `directlink.dedicated.completion-notice.read` | A Dedicated completion notice was retrieved. |
 | `directlink.gateway.route-report.create` | A route report was created. |
 | `directlink.gateway.route-report.delete` | A route report was deleted. |
 {: caption="Table 1. List of {{site.data.keyword.dl_short}} Dedicated gateway events" caption-side="bottom"}
@@ -69,7 +70,7 @@ As a security officer, auditor, or manager, you can use the Activity Tracker ser
 | Action                      | Description |
 |-----------------------------|---------|
 | `directlink.dedicated.virtual-connection.read` | A Dedicated virtual connection was retrieved. |
-| `directlink.dedicated.completion-notice.read` | A Dedicated completion notice was retrieved. |
+| `directlink.dedicated.virtual-connection.list` | A Dedicated gateway's virtual connections were listed. |
 {: caption="Table 4. List of {{site.data.keyword.dl_short}} Dedicated Data Events" caption-side="bottom"}
 {: tab-title="Dedicated Virtual Connection Events"}
 {: tab-group="connect-simple-2"}

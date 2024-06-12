@@ -2,7 +2,7 @@
 
 copyright:
   years: 2024
-lastupdated: "2024-03-15"
+lastupdated: "2024-05-01"
 keywords:
 
 subcollection: dl
@@ -17,10 +17,7 @@ subcollection: dl
 ## What changed?
 {: #what-changed}
 
-
-Starting 1 May 2024, IBM Cloud Direct Link (2.0) Connect and Dedicated offerings will enable a new feature.
-
-`10.0.0.0/14`, `10.198.0.0/15`, and `10.200.0.0/14` routes will be announced from a direct link over IBM Cloud Transit Gateway. Additionally, Transit Gateway will begin preventing these routes from making it into classic connections. Only non-classic connections on a transit gateway can use these routes from an on-prem network.
+Starting 1 May 2024, IBM Cloud Direct Link Connect and Dedicated offerings enabled a new feature. `10.0.0.0/14`, `10.198.0.0/15`, and `10.200.0.0/14` routes are now announced from a direct link over IBM Cloud Transit Gateway. Additionally, Transit Gateway prevents these routes from making it into classic connections. Only non-classic connections on a transit gateway can use these routes from an on-prem network.
 
 ## Why did we make this change?
 {: #why-make-this-change}
