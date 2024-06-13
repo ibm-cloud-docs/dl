@@ -1,4 +1,3 @@
-
 toc:
   properties:
     subcollection: dl
@@ -17,6 +16,7 @@ toc:
        - getting-started.md
        - about.md
        - locations.md
+       - pricing.md
        - topicgroup:
            label: Deployment considerations
            topics:
@@ -39,7 +39,6 @@ toc:
             - include: ../vpc/private-connectivity-vpe.md
             - include: ../vpc/interconnectivity.md
        - release_notes.md
-
     - navgroup:
         id: tutorial
         topics:
@@ -47,7 +46,6 @@ toc:
             label: Interconnectivity
             topics:
             - include: ../solution-tutorials/byoip.md
-
     - navgroup:
         id: howto
         topics:
@@ -67,15 +65,17 @@ toc:
                 - dl-digital-realty.md
                 - dl-equinix.md
                 - dl-megaport.md
+                - dl-console-connect.md
                 - dl-verizon-sci.md
                 - dl-verizon-sci-equinix.md
-                - dl-accepting-provider-enabled-connection
+                - dl-accepting-provider-enabled-connection.md
         - topicgroup:
             label: Direct Link Dedicated Hosting (redirect to Classic docs)
             topics:
             - link:
                label: Ordering Direct Link Dedicated Hosting on Classic
                href: /direct-link/direct-link-how-to-order-ibm-cloud-direct-link-dedicated-hosting
+        - iam.md
         - topicgroup:
             label: Managing direct links
             topics:
@@ -104,11 +104,19 @@ toc:
         - topicgroup:
             label: Enhancing security
             topics:
-            - iam.md
+            - architecture-workload-isolation.md
+            - topicgroup:
+                 label: Privately connecting to Direct Link
+                 topics:
+                 - vpe.md
+                 - service-endpoints.md
             - data-security.md
-            - at_events.md
             - cbr.md
-            - vpe.md
+        - topicgroup:
+            label: Logging and monitoring
+            topics:
+            - at_events.md
+            - monitoring.md
         - topicgroup:
             label: Direct Link hazardous change remediation
             topics:
@@ -135,7 +143,6 @@ toc:
         - link:
            label: Terraform reference
            href: https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs/resources/dl_gateway
-
         - dl-comparison-classic.md
         - dl-comparison-locations.md
         - understanding-latency.md
@@ -145,7 +152,6 @@ toc:
         - completion-notice.md
         - responsibilities.md
         - external-resources.md
-
     - navgroup:
         id: help
         topics:
