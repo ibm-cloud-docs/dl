@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020, 2021
-lastupdated: "2021-06-24"
+  years: 2020, 2024
+lastupdated: "2024-06-19"
 
 keywords: direct link
 
@@ -24,12 +24,12 @@ Follow these steps to create a Direct Link connection for your AT&T NetBond Esse
 
 1. Using your IBM Cloud account, order an {{site.data.keyword.cloud_notm}} Direct Link Connect gateway through the [{{site.data.keyword.cloud_notm}} console](/login){: external}. For instructions, see [Ordering IBM Cloud Direct Link Connect](/docs/dl?topic=dl-how-to-order-ibm-cloud-dl-connect).
 
-   During the ordering process (Step 7), Make sure to specify the AT&T-supplied IP addresses instead of your actual client Edge IP addresses.  
+   During the ordering process (Step 7), Make sure to specify the AT&T-supplied IP addresses instead of your actual client Edge IP addresses.
 
    To add your own IP address, follow these steps:
 
       * Choose **Manual-select IP**.
-      * For Range, select **Public**.   
+      * For Range, select **Public**.
       * For Your CIDR, enter the specific IP address from the AT&T-supplied subnet (for example, `10.254.0.26/30`).
       * For IBM CIDR, enter the specific IP address from remaining addresses in the AT&T-supplied subnet (for example, `10.254.0.25/30`).
       * for the BGP ASN, enter the supplied local ASN (AT&T Public ASN) supplied by AT&T.

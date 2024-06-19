@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2021, 2023
-lastupdated: "2023-01-24"
+  years: 2021, 2024
+lastupdated: "2024-06-19"
 
 keywords: direct link
 
@@ -26,11 +26,11 @@ You can update a direct link either before or after the gateway moves to the **P
 To edit a direct link, follow these steps:
 
 1. Click the Direct Link name in the table to show its details. Alternatively, you can click the **Actions** icon at the end of the table row of a provisioned direct link to edit gateway features.sc
-   
+
    If your Direct Link connection was ordered through a third-party service provider (as described in [{{site.data.keyword.cloud_notm}} Getting started with IBM Cloud Direct Link](/docs/dl?topic=dl-get-started-with-ibm-cloud-dl)), you might not be able to edit your BGP configuration as described here. The direct link's details page will display a note stating, "This direct link is read-only. Link-specific actions must be initiated through the provider portal." To edit your BGP configuration, contact your provider either directly, or through the provider's portal.
    {: important}
 
-1. Click **Edit** link in the upper right of the Details or BGP section. A page with the current configuration shows. For example, you can update the BGP Autonomous System Number (ASN), or enable a BGP feature.  
+1. Click **Edit** link in the upper right of the Details or BGP section. A page with the current configuration shows. For example, you can update the BGP Autonomous System Number (ASN), or enable a BGP feature.
 
    **Important**: Keep in mind that the following tasks result in downtime where traffic is interrupted:
 
@@ -40,7 +40,7 @@ To edit a direct link, follow these steps:
 
 1. Update the content as needed.
 
-   If you modify the speed or routing option, the pricing changes. Any updated charges take effect during the next billing cycle.  
+   If you modify the speed or routing option, the pricing changes. Any updated charges take effect during the next billing cycle.
    {: note}
 
 1. Read and agree to the [{{site.data.keyword.dl_short}} prerequisites](/docs/dl?topic=dl-ibm-cloud-dl-prerequisites).
@@ -82,7 +82,7 @@ fromibm_cloud_networking_services.direct_link_v1 import(
      GatewayMacsecConfigPatchTemplate)
 fromibm_cloud_networking_services.direct_link_v1 import(
      GatewayMacsecConfigPatchTemplateFallbackCak)
-     
+
 # Initializing {direct_link} refer Authenticationfallback_cak_template = GatewayMacsecConfigPatchTemplateFallbackCak(crn=${macsecCak})
 macsec_patch_template = GatewayMacsecConfigPatchTemplate(fallback_cak=fallback_cak_template)
 gateway = direct_link.update_gateway(id=${gatewayId}, macsec_config=macsec_patch_template).get_result()

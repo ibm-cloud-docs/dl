@@ -2,7 +2,7 @@
 
 copyright:
   years: 2024
-lastupdated: "2024-05-08"
+lastupdated: "2024-06-19"
 
 keywords: direct link
 
@@ -58,7 +58,7 @@ Follow these steps to create a Direct Link connection with Console Connect by PC
 
 This might take a few minutes to complete.
 
-* In the Console Connect dashboard, IBM Direct Link connection changes to **Accept on Cloud** and provisioning continues. 
+* In the Console Connect dashboard, IBM Direct Link connection changes to **Accept on Cloud** and provisioning continues.
    ![Accept on Cloud](/images/pccw-accept-on-cloud.png "Accept on Cloud"){: caption="Accept on Cloud" caption-side="bottom"}
 
 * In the IBM Cloud console, the direct link connection changes to `Provisioned` state.

@@ -18,7 +18,7 @@ subcollection: dl
 {{site.data.keyword.dl_full}} offerings provide connectivity from an external source into a customer's {{site.data.keyword.cloud_notm}} private network. {{site.data.keyword.dl_short}} can be viewed as an alternative to a traditional site-to-site VPN solution, which is designed for customers that need more consistent, higher-throughput connectivity between a remote network and their {{site.data.keyword.cloud_notm}} environments.
 {: shortdesc}
 
-The {{site.data.keyword.dl_full_notm}} service is a routed, OSI Layer-3 service. It offers a direct connection to the {{site.data.keyword.cloud_notm}} private network backbone, with low latency and speeds up to 5 Gbps.
+The {{site.data.keyword.dl_full_notm}} service is a routed, OSI Layer-3 service. It offers a direct connection to the {{site.data.keyword.cloud_notm}} private network backbone, with low latency and speeds up to 10 Gbps.
 
 For increased flexibility in creating this Layer-3 connectivity, {{site.data.keyword.dl_full_notm}} enables customers to use:
 
@@ -63,7 +63,7 @@ For more information, see [Influencing route preference using AS prepends](/docs
 These use cases are best for working with hybrid workloads, cross-provider workloads, large or frequent data transfers, private workloads, and environment administration. Use these use cases:
 
 * When you want quicker connectivity for mission-critical workloads
-* When you need connections between a client network and IBM Cloud at speeds of 5 Gbps or less
+* When you need connections between a client network and IBM Cloud at speeds of 100 Gbps or less
 * When diverse ports in a point of presence (PoP) are available
 
 ### {{site.data.keyword.dl_short}} Connect use case 1: Using service provider networks to virtually reach IBM Cloud
@@ -96,7 +96,7 @@ Some benefits include:
 
 **Cross-connect details:** Physical cross-connects for the secure {{site.data.keyword.dl_short}} Connect interconnect are maintained between {{site.data.keyword.cloud_notm}} and the service provider. Request a "Virtual Circuit" from the service provider, which establishes logical connectivity to {{site.data.keyword.cloud_notm}}, after you are connected to the service provider.
 
-**Port speed options:** Select 50 Mbps, 100 Mbps, 200 Mbps, 500 Mbps, 1 Gbps, 2 Gbps, or 5 Gbps.
+**Port speed options:** Select 50 Mbps, 100 Mbps, 200 Mbps, 500 Mbps, 1 Gbps, 2 Gbps, 5 Gbps, 10 Gbps, 25 Gbps, 40 Gbps, 50 Gbps, or 100 Gbps.
 
 **Approximate latency:** Latency is approximately 1.5 ms within the local area (data centers with the same three-letter prefix, such as DAL, AMS, MEL). See [Looking Glass](http://lg.softlayer.com/){: external} for live PoP-to-PoP (P2P) location latency measurements.
 

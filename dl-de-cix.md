@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020, 2022
-lastupdated: "2022-03-10"
+  years: 2020, 2024
+lastupdated: "2024-06-19"
 
 keywords: direct link
 
@@ -29,7 +29,7 @@ Follow these steps to order Direct Link Connect from DE-CIX:
 
 1. Complete required values, then click **Next**.
 
-   * **Cloud On-Ramp Location**: IBM Cloud on-ramp location where you want to get connected 
+   * **Cloud On-Ramp Location**: IBM Cloud on-ramp location where you want to get connected
    * **Metro Area of your Access**: Location of your DE-CIX access port
    * **External reference**: _Optional_
    * **Purchase order**: _Optional_
@@ -48,7 +48,7 @@ Follow these steps to order Direct Link Connect from DE-CIX:
 
    ![Provisioning page](/images/decix-provisioning.png "Provisioning page"){: caption="Provisioning page" caption-side="bottom"}
 
-1. Select a VLAN ID for the service, then click **Next**.  
+1. Select a VLAN ID for the service, then click **Next**.
 
    If you have any questions regarding the options on this page, contact the DE-CIX support team.
    {: note}
@@ -56,10 +56,10 @@ Follow these steps to order Direct Link Connect from DE-CIX:
    ![Configure VLANs page](/images/decix-configure-vlans.png "Configure VLANs page"){: caption="Configure VLANs page" caption-side="bottom"}
 
 1. Click **Accept IBM connection** to be forwarded to the IBM Cloud console.
-   
+
    ![Accept IBM connection](/images/decix-accept-connection.png "Accept IBM connection"){: caption="Accept IBM connection" caption-side="bottom"}
 
-1. Click **Review** to finalize the provisioning process. 
+1. Click **Review** to finalize the provisioning process.
 
    ![Details page](/images/decix-review.png "Details page"){: caption="Details page"}
 
@@ -72,11 +72,11 @@ Follow these steps to order Direct Link Connect from DE-CIX:
 1. Review your order summary, agree to the Direct Link Connect prerequisites, and then click **Create** to complete this order.
 
    ![Finalize creation](/images/decix-finalize-creation.png "Finalize creation"){: caption="Finalize creation" caption-side="bottom"}
-  
+
    Your direct link is created:
-   
+
    ![Direct Link created](/images/decix-direct-link.png "Direct Link created"){: caption="Direct Link created" caption-side="bottom"}
 
-   If you switch back to the DE-CIX portal, you should see the following page after some time. The status on this page shows you that your direct link was created successfully. 
+   If you switch back to the DE-CIX portal, you should see the following page after some time. The status on this page shows you that your direct link was created successfully.
 
-   ![Cloud order completed](/images/decix-order-completed.png "Cloud order completed"){: caption="Cloud order completed" caption-side="bottom"} 
+   ![Cloud order completed](/images/decix-order-completed.png "Cloud order completed"){: caption="Cloud order completed" caption-side="bottom"}

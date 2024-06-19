@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020, 2021
-lastupdated: "2021-07-30"
+  years: 2020, 2024
+lastupdated: "2024-06-19"
 
 keywords: direct link, direct link dedicated, direct link connect
 
@@ -24,7 +24,8 @@ Use {{site.data.keyword.dl_short}} to seamlessly connect your on-premises resour
 * Support for connections to multiple {{site.data.keyword.cloud_notm}} accounts from a single direct link
 * Support for multiple VPCs (without classic access) from a single direct link within the same account
 * Support for both local and global routing options
-* Bring Your Own IP (BYOIP) address to create native connectivity between your on-premises environment and {{site.data.keyword.cloud_notm}} 
+* Bring Your Own IP (BYOIP) address to create native connectivity between your on-premises environment and {{site.data.keyword.cloud_notm}}
+* Support for new connect speeds for high bandwidth through {{site.data.keyword.dl_short}} Connect (10, 25, 40, 50, and 100 Gbps).
 * Direct Link connections to and from transit gateways.
 * Support for BGP Message Digest 5 (MD5) Authentication and Bidirectional Forwarding Detection (BFD).
 
@@ -38,7 +39,7 @@ To get started using {{site.data.keyword.dl_full_notm}} Dedicated, follow these 
 ## {{site.data.keyword.dl_short}} Connect
 {: #get-started-with-direct-link-connect}
 
-Use a service provider to quickly establish and deliver connectivity to IBM Cloud locations. These service providers are already connected to the IBM Cloud network that uses multi-tenant, high capacity links (also known as network-to-network interfaces, or NNI).  
+Use a service provider to quickly establish and deliver connectivity to IBM Cloud locations. These service providers are already connected to the IBM Cloud network that uses multi-tenant, high capacity links (also known as network-to-network interfaces, or NNI).
 
 To get started using {{site.data.keyword.dl_full_notm}} Connect, follow these [instructions](/docs/dl?topic=dl-how-to-order-ibm-cloud-dl-connect) for ordering the service.
 

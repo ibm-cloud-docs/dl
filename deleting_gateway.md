@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020, 2023
-lastupdated: "2023-01-24"
+  years: 2020, 2024
+lastupdated: "2024-06-19"
 
 keywords: direct link
 
@@ -61,4 +61,4 @@ direct_link.delete_gateway(id=${gatewayId})
 {: pre}
 
 For more information, including Java, Node, and Go examples, see "Delete gateway" in the [Direct Link API reference](/apidocs/direct_link?code=python#delete-gateway).
-{: note} 
+{: note}

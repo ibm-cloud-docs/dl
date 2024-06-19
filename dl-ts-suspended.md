@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2023
-lastupdated: "2023-03-16"
+  years: 2023, 2024
+lastupdated: "2024-06-19"
 
 keywords: direct link
 
@@ -23,7 +23,7 @@ My Direct Link instance has been suspended.
 The status of my direct link indicates a `Suspended` status.
 {: tsSymptoms}
 
-This might be due to an issue with your billing, such as a missed payment. 
+This might be due to an issue with your billing, such as a missed payment.
 {: tsCauses}
 
 If this is the case, contact IBM Support to assist you in getting your instance up and running.

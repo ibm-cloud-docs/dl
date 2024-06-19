@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2021
-lastupdated: "2021-06-24"
+  years: 2021, 2024
+lastupdated: "2024-06-19"
 
 keywords: direct link
 
@@ -23,7 +23,7 @@ After you order a direct link, it can take up to 30 minutes to complete the conf
 My gateway still shows `Pending` status.
 {: tsSymptoms}
 
-It can take up to 30 minutes for provisioning of your direct link to be completed.  
+It can take up to 30 minutes for provisioning of your direct link to be completed.
 {: tsCauses}
 
 If the gateway is not showing `Provisioned` status 30 minutes after ordering, open a [support case](/unifiedsupport/cases/form){: external} in the IBM console to further troubleshoot.

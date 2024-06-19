@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2024
-lastupdated: "2024-05-08"
+lastupdated: "2024-06-19"
 
 keywords: direct link, direct link connect
 
@@ -94,7 +94,7 @@ To order Direct Link Connect, follow these steps:
       * For a 2-byte or 4-byte range, enter a value between `131072-4199999999`.
       * For a 4-byte range, enter a value between `4201000000-4201064511`.
 
-      Excluded ASNs: `0`, `13884`, `36351`, `64512`, `64513`, `65100`, `65201‍`–‍`65234`, `65402‍–‍65433`, `65500`, and `4201065000‍`–‍`4201065999`.
+      Excluded ASNs: `0`, `13884`, `36351`, `64512`, `64513`, `65100`, `65201 – 65234`, `65402 – 65433`, `65500`, `65516`, `65519`, `65521`, `65531`, and `4201065000 – 4201065999`
 1. In the Additional BGP settings section, you can activate one or more of these optional settings. Make sure to enable the switch for each section before configuring the settings.
 
    * **Verify data integrity with Message Digest 5 (MD5)** - Add an extra layer of security between two BGP peers by verifying each transmitted message sent through the BGP session. When MD5 authentication is activated, BGP authenticates every segment sent over the TCP session from its peer and verifies the source of each routing update.

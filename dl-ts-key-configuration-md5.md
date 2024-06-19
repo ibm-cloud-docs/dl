@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2021
-lastupdated: "2021-06-24"
+  years: 2021, 2024
+lastupdated: "2024-06-19"
 
 keywords: direct link
 
@@ -12,7 +12,7 @@ subcollection: dl
 
 {{site.data.keyword.attribute-definition-list}}
 
-# Why isn't the BGP peering session established?  
+# Why isn't the BGP peering session established?
 {: #troubleshoot-bgp-not-up}
 {: troubleshoot}
 {: support}
