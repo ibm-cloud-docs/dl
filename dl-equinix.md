@@ -1,10 +1,10 @@
 ---
 
 copyright:
-  years: 2020, 2022
-lastupdated: "2022-06-30"
+  years: 2020, 2024
+lastupdated: "2024-06-19"
 
-keywords: direct link
+keywords: direct link, equinix
 
 subcollection: dl
 
