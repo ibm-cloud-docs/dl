@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2023
-lastupdated: "2023-03-06"
+  years: 2023, 2024
+lastupdated: "2024-06-19"
 
 keywords: direct link
 
@@ -83,9 +83,9 @@ Only Route 1 - `10.10.0.0/16` and Route 3 - `10.10.0.0/19` would be learned by t
 * Route 5 matches rule 2 (`deny 10.10.0.0/16 ge 18 le 30`), therefore route 5 is denied. Moving the prefix into the subnet of `18` expands the address of `10.10.128.0/18`.
 
 ### Exporting routes
-{: #exporting-routes-example} 
+{: #exporting-routes-example}
 
-For this example, direct link routes learned from any virtual connection would pass through the `export_route_filters` to determine whether the direct link advertises them to the customer's on-premises network. 
+For this example, direct link routes learned from any virtual connection would pass through the `export_route_filters` to determine whether the direct link advertises them to the customer's on-premises network.
 
 Let's first understand the route filters.
 
@@ -110,7 +110,7 @@ Only Route 1 - `10.10.0.0/18` would be advertised to the customer's on-premises 
     * Filter 1's action is set to `permit`, so route 1 will be advertised.
 * Route 2 - `10.10.0.0/19` does not match with any export filter.
     * The default export filter determines how this route is handled, which is `deny`.
-    * In fact, besides route 1, any other route will be not advertised. No other route will match a filter in the `export` list. 
+    * In fact, besides route 1, any other route will be not advertised. No other route will match a filter in the `export` list.
 
 ## Advanced matching examples
 {: #examples-matching-examples}
@@ -174,7 +174,7 @@ The route filter with prefix `192.168.0.0/16` and LE `19` will match the followi
 * `192.168.0.0/18`
 * `192.168.64.0/18`
 * `192.168.128.0/18`
-* `192.168.192.0/18` 
+* `192.168.192.0/18`
 * `192.168.32.0/19`
 * `192.168.64.0/19`
 * `192.168.96.0/19`

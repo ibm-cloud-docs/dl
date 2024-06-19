@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020, 2021
-lastupdated: "2021-06-24"
+  years: 2020, 2024
+lastupdated: "2024-06-19"
 
 keywords: direct link
 
@@ -21,7 +21,7 @@ Follow these steps to request a VLAN assignment from AT&T NetBond for Cloud:
 
    NetBond is responsible for making sure that this VLAN is not in use with any NetBond connections within IBM.
    {: note}
-   
+
 1. Using your IBM Cloud account, order an {{site.data.keyword.cloud}} Direct Link Connect gateway by using the [{{site.data.keyword.cloud_notm}} console](/login){: external}. For instructions, see [Ordering IBM Cloud Direct Link Connect](/docs/dl?topic=dl-how-to-order-ibm-cloud-dl-connect).
 
    * When defining the IP range to be used for BGP, select **Manual-select IP**.

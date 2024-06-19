@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2021
-lastupdated: "2021-05-05"
+  years: 2021, 2024
+lastupdated: "2024-06-19"
 
 keywords: troubleshooting, direct link
 
@@ -39,4 +39,3 @@ Resolution:
 1. Open a ticket to troubleshoot BGP sessions.
 
    The new router is running a newer version of firmware that supports more BGP capabilities. If BGP was established before the move, but does not establish after the move, IBM opens a ticket on your account to troubleshoot the problem after the maintenance is completed.
-

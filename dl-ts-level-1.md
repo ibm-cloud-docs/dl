@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2021, 2022
-lastupdated: "2022-10-21"
+  years: 2021, 2024
+lastupdated: "2024-06-19"
 
 keywords: direct link
 
@@ -12,7 +12,7 @@ subcollection: dl
 
 {{site.data.keyword.attribute-definition-list}}
 
-# How do I troubleshoot a Direct Link Dedicated connection during activation?  
+# How do I troubleshoot a Direct Link Dedicated connection during activation?
 {: #troubleshoot-level-1}
 {: troubleshoot}
 {: support}

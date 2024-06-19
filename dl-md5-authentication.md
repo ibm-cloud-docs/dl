@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2021, 2023
-lastupdated: "2023-02-02"
+  years: 2021, 2024
+lastupdated: "2024-06-19"
 
 keywords: direct link
 
@@ -37,17 +37,17 @@ You can store your keys in either Key Protect or Hyper Protect Crypto Services (
 
 1. Set up a keystore instance with keys. For instructions, see [Key Protect: Getting started with encryption keys](/docs/key-protect?topic=key-protect-getting-started-tutorial) or [HPCS: Creating and importing encryption keys](/docs/hs-crypto?topic=hs-crypto-tutorial-import-keys).
 
-   If you use HPCS, it is important to note that the `"extractable": <key_type>` value is set to `true` for standard keys. 
+   If you use HPCS, it is important to note that the `"extractable": <key_type>` value is set to `true` for standard keys.
    {: note}
 
 1. After you create encryption keys for Direct Link, use IBM Cloud Identity and Access Management (IAM) to grant authorization between your instance and the Direct Link service. You can grant access at the instance level, which grants the Direct Link service access to all the keys inside that instance. You can also grant access on a key-by-key basis. For instructions, see [Using authorizations to grant access between services](/docs/account?topic=account-serviceauth).
-   
+
    If you use Key Protect, select **Resources based on selected attributes** after you select **Direct Link** as the Source service. Then, select either **Resource type > Direct Link Connect** or **Resource type > Direct Link Dedicated** before selecting **Key Protect** as the Target service.
    {: important}
 
    You should grant access to all keys in the instance; otherwise, you must grant a new service-to-service authorization each time that you want to use a different key for Direct Link. As long as a key is in use by your gateway, you should never delete it, nor should you revoke the service-to-service authorization.
-   
-1. If the Key Protect or HPCS instance has a context-based restriction (CBR) rule, a Direct Link Service Reference must be added to the network zone of that rule. For instructions, see [How Direct Link integrates with context-based restrictions](/docs/dl?topic=dl-cbr&interface=cli#cbr-overview). 
+
+1. If the Key Protect or HPCS instance has a context-based restriction (CBR) rule, a Direct Link Service Reference must be added to the network zone of that rule. For instructions, see [How Direct Link integrates with context-based restrictions](/docs/dl?topic=dl-cbr&interface=cli#cbr-overview).
 
 ## Creating base64-encoded encryption keys
 {: #create-encryption-keys}
