@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2024
-lastupdated: "2024-06-19"
+lastupdated: "2024-06-20"
 
 keywords: direct link
 
@@ -26,7 +26,7 @@ Follow these steps to connect networks owned by different accounts:
 1. On the Add connection page select **Request connection to a network in another account**.
 1. Type the VPC CRN of the cross-account network.
 
-   To get the CRN of a VPC, click Menu ![Menu icon](/images/menu_icon.png) > **Resource List** from the {{site.data.keyword.cloud_notm}} console. Expand **VPC infrastructure** to list your VPCs. Then, click the row of the VPC, copy the CRN to the clipboard, and paste it in the {{site.data.keyword.dl_short}} window.
+   To get the CRN of a VPC, click Menu ![Menu icon](images/menu_icon.png) > **Resource List** from the {{site.data.keyword.cloud_notm}} console. Expand **VPC infrastructure** to list your VPCs. Then, click the row of the VPC, copy the CRN to the clipboard, and paste it in the {{site.data.keyword.dl_short}} window.
    {: note}
 
 1. Type the name of the network connection, then click **Add**. The network connection shows in the gateway account with the **Pending approval** status.

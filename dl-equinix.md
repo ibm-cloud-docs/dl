@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2024
-lastupdated: "2024-06-19"
+lastupdated: "2024-06-20"
 
 keywords: direct link, equinix
 
@@ -26,7 +26,7 @@ For Exchange on Classic instructions, see [Steps to order Direct Link Exchange o
 1. In the Frequent Connections section, click the **IBM Cloud** tile.
 1. In the **IBM Cloud Direct Link 2** profile, click **Create Connection**.
 
-   ![Equinix ordering](/images/equinix-ibm-cloud-2.png "Equinix ordering"){: caption="Equinix ordering" caption-side="bottom"}
+   ![Equinix ordering](images/equinix-ibm-cloud-2.png "Equinix ordering"){: caption="Equinix ordering" caption-side="bottom"}
 1. In the Origin section, click **Port**.
 
     **For diversity in the same locations:**
@@ -38,7 +38,7 @@ For Exchange on Classic instructions, see [Steps to order Direct Link Exchange o
 
     If you have any questions or require assistance for setting or changing the Origin port priority, contact Equinix support. For more information, see [Change the Priority of an Equinix Fabric Port](https://docs.equinix.com/en-us/Content/Interconnection/Fabric/ports/Fabric-change-port-priority.htm){: external}.
 
-   ![Select a Port, Location, and Destination](/images/equinix-port.png "Select a Port, Location, and Destination"){: caption="Select a Port, Location, and Destination" caption-side="bottom"}
+   ![Select a Port, Location, and Destination](images/equinix-port.png "Select a Port, Location, and Destination"){: caption="Select a Port, Location, and Destination" caption-side="bottom"}
 
 1. Select a **Location**, followed by a **Destination**. Then, click **Next**.
 1. On the Connection Details page, enter the connection information.
@@ -46,28 +46,28 @@ For Exchange on Classic instructions, see [Steps to order Direct Link Exchange o
    Your IBM Cloud Account ID is the 32-character ID located in the Account section on the [Account settings](/account/settings){: external} page.
    {: note}
 
-   ![Connection Details](/images/equinix-connection-details.png "Connection Details"){: caption="Connection Details" caption-side="bottom"}
+   ![Connection Details](images/equinix-connection-details.png "Connection Details"){: caption="Connection Details" caption-side="bottom"}
 
 1. Select a **Connection Speed**, then click **Next**.
 1. Review and click **Submit Your Order**.
 1. Return to the [Direct Link page](/interconnectivity/direct-link){: external} in the IBM Cloud console using your IBM Cloud account. Notice that the connection status for your direct link connection states **Create in Progress**.
 
-   ![Create in progress](/images/equinix-create-in-progress.png "Create in progress"){: caption="Create in progress" caption-side="bottom"}
+   ![Create in progress](images/equinix-create-in-progress.png "Create in progress"){: caption="Create in progress" caption-side="bottom"}
 
 1. Click the Direct Link name in the table to view its Details page. Then, go to the **Actions** section and click **Review** to finalize provisioning of the direct link.
 
-   ![Select to Review this request to finalize direct link provisioning](/images/equinix-review.png "Select to Review this request to finalize direct link provisioning"){: caption="Select to Review this request to finalize direct link provisioning" caption-side="bottom"}
+   ![Select to Review this request to finalize direct link provisioning](images/equinix-review.png "Select to Review this request to finalize direct link provisioning"){: caption="Select to Review this request to finalize direct link provisioning" caption-side="bottom"}
 
 1. In the Review configuration side panel, review your settings, then click **Accept**.
 
-   ![Select Accept to finalize creation of your direct link](/images/equinix-accept.png "Select Accept to finalize creation of your direct link"){: caption="Select Accept to finalize creation of your direct link" caption-side="bottom"}
+   ![Select Accept to finalize creation of your direct link](images/equinix-accept.png "Select Accept to finalize creation of your direct link"){: caption="Select Accept to finalize creation of your direct link" caption-side="bottom"}
 
 1. After your direct link settings are accepted successfully, select a resource group, routing option, and billing type. Optionally, you can [enable MD5 authentication](/docs/dl?topic=dl-enable-disable-md5) to provide additional security for the BGP session, or [update your network connection type](/docs/dl?topic=dl-virtual-connection-types).
 
    Review your order summary, agree to the [Direct Link Connect prerequisites](/docs/dl?topic=dl-ibm-cloud-dl-prerequisites), and then click **Create** to complete this order.
 
-   ![Complete your direct link settings, then click Create.](/images/equinix-create.png "Complete your direct link settings, then click Create."){: caption="Complete your direct link settings, then click Create" caption-side="bottom"}
+   ![Complete your direct link settings, then click Create.](images/equinix-create.png "Complete your direct link settings, then click Create."){: caption="Complete your direct link settings, then click Create" caption-side="bottom"}
 
 Your direct link is created:
 
-![Completion of your direct link.](/images/equinix-created.png "Completion of your direct link."){: caption="Completion of your direct link" caption-side="bottom"}
+![Completion of your direct link.](images/equinix-created.png "Completion of your direct link."){: caption="Completion of your direct link" caption-side="bottom"}

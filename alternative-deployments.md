@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2018, 2020
-lastupdated: "2020-07-16"
+  years: 2018, 2024
+lastupdated: "2024-06-20"
 
 keywords: direct link
 
@@ -24,11 +24,11 @@ Many customers choose to create redundant deployments by setting up an extra Dir
 
 IBM Cloud Direct Link also allows you to establish diverse Connect deployments, as shown in Figure 1.
 
-![Diverse Connect](/images/connect_alt_2.png "Diverse Connect"){: caption="Figure 1. A diverse IBM Cloud Direct Link Connect deployment to enable redundancy via Customer BGP schema" caption-side="bottom"}
+![Diverse Connect](images/connect_alt_2.png "Diverse Connect"){: caption="Figure 1. A diverse IBM Cloud Direct Link Connect deployment to enable redundancy via Customer BGP schema" caption-side="bottom"}
 
 ## Using Connect along with other clouds
 {: #using-exchange-and-connect-in-conjunction-with-other-clouds}
 
 Some customers want to use Direct Link Connect along with other cloud providers, such as AWS, Azure, or Google Cloud. The following schematic shows an overview of how to establish this type of connection with a telco (service provider).
 
-![Other Clouds Connect](/images/connect_alt_3.png "Other Clouds Connect"){: caption="Figure 2. Using Direct Link Connect in conjunction with other clouds" caption-side="bottom"}
+![Other Clouds Connect](images/connect_alt_3.png "Other Clouds Connect"){: caption="Figure 2. Using Direct Link Connect in conjunction with other clouds" caption-side="bottom"}
