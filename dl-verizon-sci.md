@@ -2,7 +2,7 @@
 
 copyright:
   years: 2024
-lastupdated: "2024-02-20"
+lastupdated: "2024-06-20"
 
 keywords: direct link
 
@@ -40,7 +40,7 @@ Follow these steps to create a Direct Link connection with Verizon SCI.
       * For your IBM CIDR, enter the specific IP address from the remaining addresses in the Verizon-supplied subnet (for example, `10.254.0.25/30`).
       * For BGP ASN, enter the supplied local ASN (typically, the Verizon Public ASN `1684`) supplied by Verizon.
 
-      ![Direct Link Connect ordering](/images/public-range.png "Manual-select IP Public Range"){: caption="Manual-select IP Public Range" caption-side="bottom"}
+      ![Direct Link Connect ordering](images/public-range.png "Manual-select IP Public Range"){: caption="Manual-select IP Public Range" caption-side="bottom"}
 
    Write down and retain the connection name and the service key generated from the order.
    {: important}

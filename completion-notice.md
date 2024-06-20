@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021, 2024
-lastupdated: "2024-06-19"
+lastupdated: "2024-06-20"
 
 keywords:
 
@@ -30,14 +30,14 @@ xxxxxxxxxxxxxxx
 
 IBX: DA2
 
-![Order details](/images/order-details.png){: caption="Order details" caption-side="bottom"}
+![Order details](images/order-details.png){: caption="Order details" caption-side="bottom"}
 
 PRODUCT DETAILS
 
 Details show the Serial# and the Z-side demarcs, proving that the cross-connects were installed into the correct patch panel/ports.
 
-![Product details](/images/product-details.png){: caption="Product details" caption-side="bottom"}
+![Product details](images/product-details.png){: caption="Product details" caption-side="bottom"}
 
 TECHNICAL CONTACT
 
-![Technical contact](/images/technical-contact.png){: caption="Technical contact" caption-side="bottom"}
+![Technical contact](images/technical-contact.png){: caption="Technical contact" caption-side="bottom"}

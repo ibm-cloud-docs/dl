@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2024
-lastupdated: "2024-06-19"
+lastupdated: "2024-06-20"
 
 keywords: direct link
 
@@ -34,7 +34,7 @@ Follow these steps to create a Direct Link connection for your AT&T NetBond Esse
       * For IBM CIDR, enter the specific IP address from remaining addresses in the AT&T-supplied subnet (for example, `10.254.0.25/30`).
       * for the BGP ASN, enter the supplied local ASN (AT&T Public ASN) supplied by AT&T.
 
-         ![Direct Link Connect ordering](/images/public-range.png "Manual-select IP Public Range"){: caption="Manual-select IP Public Range" caption-side="bottom"}
+         ![Direct Link Connect ordering](images/public-range.png "Manual-select IP Public Range"){: caption="Manual-select IP Public Range" caption-side="bottom"}
 
    Write down and retain the connection name and the service key that was generated from the order.
    {: important}
@@ -46,11 +46,11 @@ Follow these steps to create a Direct Link connection for your AT&T NetBond Esse
 
 1. In the **IBM Cloud Direct Link 2** profile, click **Create Connection**.
 
-   ![Equinix ordering](/images/equinix-ibm-cloud-2.png "Equinix ordering"){: caption="Equinix ordering" caption-side="bottom"}
+   ![Equinix ordering](images/equinix-ibm-cloud-2.png "Equinix ordering"){: caption="Equinix ordering" caption-side="bottom"}
 
 1. **Very Important** - On the Connection Details page, for the **IBM Cloud Account ID**, AT&T must enter the service key (for example, `aaa-bbbb-cccc`) that was generated when you provisioned your direct link. You can find this key on the Direct Link details page.
 
-   ![Connection Details](/images/equinix-connection-details.png "Connection Details"){: caption="Connection Details" caption-side="bottom"}
+   ![Connection Details](images/equinix-connection-details.png "Connection Details"){: caption="Connection Details" caption-side="bottom"}
 
 ## AT&T TAO / NetBond Essentials submits your Equinix order using the Equinix Fabric portal
 {: #att-tao-netbond-submits-order}

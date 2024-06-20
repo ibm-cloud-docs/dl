@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020, 2023
-lastupdated: "2023-08-03"
+  years: 2020, 2024
+lastupdated: "2024-06-20"
 
 keywords: direct link
 
@@ -22,13 +22,13 @@ Follow these steps to order an {{site.data.keyword.dl_full}} Connect gateway wit
 
    If this is the first connection for the Port, click the IBM Cloud tile. The tile is a shortcut to the configuration page. Alternatively, click **+Connection** > **Cloud** > **IBM Cloud**.
 
-   ![Add connection to IBM Cloud](/images/megaport1.png "Add connection to IBM Cloud"){: caption="Add connection to IBM Cloud" caption-side="bottom"}
+   ![Add connection to IBM Cloud](images/megaport1.png "Add connection to IBM Cloud"){: caption="Add connection to IBM Cloud" caption-side="bottom"}
 
 1. Select the IBM Direct Link location where the peer will be set up with IBM Cloud and click **Next**.
 
    This destination should match the peer location selected in the IBM Cloud.
 
-   ![Select IBM Direct Link location](/images/megaport2.png "Select IBM Direct Link location"){: caption="Select IBM Direct Link location" caption-side="bottom"}
+   ![Select IBM Direct Link location](images/megaport2.png "Select IBM Direct Link location"){: caption="Select IBM Direct Link location" caption-side="bottom"}
 
 1. Specify these connection details:
 
@@ -46,7 +46,7 @@ Follow these steps to order an {{site.data.keyword.dl_full}} Connect gateway wit
 
       Alternatively, you can click **Untag** to remove the VLAN tagging for this connection. The untagged option limits you to only one direct link deployed on this Port.
 
-      ![Connection Details](/images/megaport3.png "Connection Details"){: caption="Connection Details" caption-side="bottom"}
+      ![Connection Details](images/megaport3.png "Connection Details"){: caption="Connection Details" caption-side="bottom"}
 
 1. Click **Next**. The Cloud Details page appears.
 1. Specify these IBM Cloud details:
@@ -61,11 +61,11 @@ Follow these steps to order an {{site.data.keyword.dl_full}} Connect gateway wit
 
    * **Provider IP Address** (optional) – The IP address space in CIDR format assigned in the IBM network for peering. This field is optional and if left blank, Megaport automatically assigns a private `/30` address.
 
-   ![Connection details for IBM Cloud Service](/images/megaport4.png "Connection details for IBM Cloud Service"){: caption="Connection details for IBM Cloud Service" caption-side="bottom"}
+   ![Connection details for IBM Cloud Service](images/megaport4.png "Connection details for IBM Cloud Service"){: caption="Connection details for IBM Cloud Service" caption-side="bottom"}
 
 1. Click **Next**. A summary page appears that includes a drop-down of the IBM cloud details and the monthly cost.
 
-   ![Summary page](/images/megaport5.png "Summary page"){: caption="Summary page" caption-side="bottom"}
+   ![Summary page](images/megaport5.png "Summary page"){: caption="Summary page" caption-side="bottom"}
 
 1. Click **Back** to make changes or click **Add VXC**.
 

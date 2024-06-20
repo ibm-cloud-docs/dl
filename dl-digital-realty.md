@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2023
-lastupdated: "2023-10-25"
+  years: 2023, 2024
+lastupdated: "2024-06-20"
 
 keywords: direct link
 
@@ -37,22 +37,22 @@ Follow these steps to order Direct Link Connect from Digital Realty:
    * **IBM IP Address** - Enter the IP Address of the IBM Cloud router.
    * **Speed** - Select the link speed to IBM Cloud.
 
-   ![Create Link side panel properties](/images/servicefabric1.jpg "Create Link side panel properties"){: caption="Create Link side panel properties" caption-side="bottom"}
+   ![Create Link side panel properties](images/servicefabric1.jpg "Create Link side panel properties"){: caption="Create Link side panel properties" caption-side="bottom"}
 
    On the ServiceFabric dashboard, the Active Services window shows the new service status as **Creating**.
 
-1. Log in to your [IBM Cloud account](/login){: external}. Click Menu ![Menu icon](/images/menu_icon.png) on the upper left of the page, then click **Interconnectivity**.
+1. Log in to your [IBM Cloud account](/login){: external}. Click Menu ![Menu icon](images/menu_icon.png) on the upper left of the page, then click **Interconnectivity**.
 1. Scroll to locate the Connect tile, then click **Order {{site.data.keyword.dl_short}} Connect**.
 1. In the Direct Link table, click the new service name, then select **Review** in the Actions section.
 
-   ![Review creation request from your service provider](/images/servicefabric2.jpg "Review creation request from your service provider"){: caption="Review creation request from your service provider" caption-side="bottom"}
+   ![Review creation request from your service provider](images/servicefabric2.jpg "Review creation request from your service provider"){: caption="Review creation request from your service provider" caption-side="bottom"}
 
 1. Select a resource group, routing type, and router configurations for the direct link, then click **Next**.
 
-   ![Complete direct link configuration](/images/servicefabric3.jpg "Complete direct link configuration"){: caption="Finalize direct link configuration" caption-side="bottom"}
+   ![Complete direct link configuration](images/servicefabric3.jpg "Complete direct link configuration"){: caption="Finalize direct link configuration" caption-side="bottom"}
 
 1. Finalize the direct link configuration process, then click **Create**.
 
-   ![Finalize direct link configuration](/images/servicefabric4.jpg "Finalize direct link configuration"){: caption="Finalize direct link configuration" caption-side="bottom"}
+   ![Finalize direct link configuration](images/servicefabric4.jpg "Finalize direct link configuration"){: caption="Finalize direct link configuration" caption-side="bottom"}
 
 1. Navigate back to the ServiceFabric portal. The service appears as **Active**.
