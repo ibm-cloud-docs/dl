@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2024
-lastupdated: "2024-06-10"
+lastupdated: "2024-06-25"
 
 keywords: direct link
 
@@ -65,7 +65,7 @@ The following table provides details about the {{site.data.keyword.cloud_notm}} 
 | Chennai 1 | DC | Tata | PH-01 |
 | Hong Kong 3 |	PoP |	Equinix |	HKG3 |
 | Melbourne 2 | PoP | NextDC | M1 |
-| Mumbai 1 | PoP | GPX (Equinix) | Mumbai 1 |
+| Mumbai 1 | PoP | Equinix | Mumbai 1 |
 | Osaka 1 | PoP | Equinix | OS1 |
 | Osaka 21  | DC|  IDC Frontier (SoftBank) | OSA021 |
 | Osaka 22  | DC | IDC Frontier (SoftBank) | OSA022 |
@@ -150,7 +150,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect service provide
 | DE-CIX | **Americas**: Dallas 10  \n **EU**: Frankfurt 1, Frankfurt 3, Frankfurt 4, Frankfurt 5 | ![Checkmark icon](../icons/checkmark-icon.svg) |
 | Digital Realty | **Americas**: Dallas 12, Washington DC 4  \n **APAC**: Singapore 1  \n **EU**: Frankfurt 1, Madrid 3 | |
 | Epsilon | **Americas**: Washington DC 2  \n  **APAC**: Hong Kong 1  \n **EU**: Amsterdam 2, Frankfurt 1, London 1 | |
-| Equinix | **Americas**: Chicago 1, Dallas 3, Montreal 1, New York 2, New York 3, San Jose 2, São Paulo 2, Toronto 2, Toronto 3, Washington DC 2  \n **APAC**: Osaka 1, Tokyo 1, Tokyo 3  \n **EU**: Amsterdam 2, Frankfurt 3, London 1, London 3, Madrid 1, Milan 2, Paris 2, Paris 3, Sydney 2 | ![Checkmark icon](../icons/checkmark-icon.svg) |
+| Equinix | **Americas**: Chicago 1, Dallas 3, Montreal 1, New York 2, New York 3, San Jose 2, São Paulo 2, Toronto 2, Toronto 3, Washington DC 2  \n **APAC**: Mumbai 1, Osaka 1, Tokyo 1, Tokyo 3  \n **EU**: Amsterdam 2, Frankfurt 3, London 1, London 3, Madrid 1, Milan 2, Paris 2, Paris 3, Sydney 2 | ![Checkmark icon](../icons/checkmark-icon.svg) |
 | EU Networks | **EU**: Frankfurt 1 | |
 | IBM Power Virtual Server | **Americas**: Dallas 10, Dallas 12, Dallas 13, São Paulo 1, Toronto 1, Washington DC 4, Washington DC 7  \n **APAC**: Osaka 21, Sydney 4, Sydney 5, Tokyo 4  \n **EU**: Frankfurt 4, Frankfurt 5, London 4, London 6 | |
 | Intercloud | **EU**: Amsterdam 2, Frankfurt 1, Frankfurt 3 | |
@@ -213,6 +213,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect service provide
 | Milan 2 | Equinix |
 | Montreal 1 | Equinix |
 | Montreal 2 | Cologix  \n Megaport |
+| Mumbai 1 | Equinix |
 | New York 2 | Equinix |
 | New York 3 | Equinix |
 | Osaka 1 | AT Tokyo  \n Console Connect  \n Equinix  \n Megaport  \n Tokai |
