@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021, 2024
-lastupdated: "2024-06-19"
+lastupdated: "2024-07-01"
 
 keywords: direct link
 
@@ -51,7 +51,8 @@ Follow these steps to troubleshoot Layer 1 (physical) issues:
 
 1. Check the light levels from the Meet Me Room (MMR) to make sure that you're sending light to IBM and receiving light from IBM.
 1. Try rolling the fiber by flipping TX/RX strands. Roll only one end, not both.
-1. Make sure that the edge device port is set to auto-negotiate. If auto-negotiate does not work, then remove auto-negotiation by forcing the speed duplex settings.
+1. To simplify interface turnup, IBM Cloud is transitioning away from auto-negotiate for speed and duplex on direct links. Some IBM Cloud Direct Link interfaces still support auto-negotiate for speed and duplex; however, that might change with Direct Link hardware refresh work.
+If you want to have the IBM switch interface set to forced speed and duplex please open a case with our support team. 
 1. Shut/no shut or disable/enable the interface if the port does not come up.
 
 If these steps do not resolve the Direct Link Dedicated physical issue, contact the Advanced Customer Support (ACS) networking team and provide the gateway ID that is experiencing issues.
