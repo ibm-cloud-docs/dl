@@ -113,10 +113,9 @@ toc:
             - data-security.md
             - cbr.md
         - topicgroup:
-            label: Logging and monitoring
+            label: Observability
             topics:
             - at_events.md
-            - monitoring.md
         - topicgroup:
             label: Direct Link hazardous change remediation
             topics:
