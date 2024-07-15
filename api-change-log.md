@@ -2,7 +2,7 @@
 
 copyright:
   years: 2022, 2024
-lastupdated: "2024-03-07"
+lastupdated: "2024-07-15"
 
 keywords: direct link api change log
 
@@ -37,7 +37,7 @@ Route report enhancements
 
 : Added advertised routes to verify route filters and AS prepends applied to the Direct Link gateway.
 
-: “AS path” information added to on-prem routes to verify AS prepends.
+: “AS path” information added to on-premises routes to verify AS prepends.
 
 : Changed commands
 
@@ -49,7 +49,7 @@ Route report enhancements
 ## 16 March 2023
 {: #dl-march1623}
 
-BGP route filtering support
+BGP route filter support
 :   New commands: Gateway export route filters
 
    * List export route filters - `GET /gateways/{gateway_id}/export_route_filters`
@@ -70,11 +70,11 @@ BGP route filtering support
 
 :   Changed commands
 
-   * Add BGP route filtering support during `create_gateway` - Create gateway - `POST /gateways`
-   * Add BGP route filtering support during `create_gateway_action` - Approve or reject change requests - `POST /gateways/{id}/actions`
-   * Add BGP route filtering support during `get_gateway` - Get gateway - `GET /gateways/{id}`
-   * Add BGP route filtering support during `update_gateway` - Update gateway - `PATCH /gateways/{id}`
-   * Add BGP route filtering support during `list_gateways` - List gateways - `GET /gateways`
+   * Add BGP route filter support during `create_gateway` - Create gateway - `POST /gateways`
+   * Add BGP route filter support during `create_gateway_action` - Approve or reject change requests - `POST /gateways/{id}/actions`
+   * Add BGP route filter support during `get_gateway` - Get gateway - `GET /gateways/{id}`
+   * Add BGP route filter support during `update_gateway` - Update gateway - `PATCH /gateways/{id}`
+   * Add BGP route filter support during `list_gateways` - List gateways - `GET /gateways`
 
 ## 21 September 2022
 {: #dl-septem2122}
@@ -87,7 +87,7 @@ Route report support
    * Delete route report - `DELETE /gateways/{gateway_id}/route_reports/{id}`
    * Get a route report - `GET /gateways/{gateway_id}/route_reports/{id}`
 
-BGP AS prepend support
+BGP AS prepends support
 :   Changed commands
 
    * Add AS prepend support during create gateway - `POST /gateways`
@@ -98,4 +98,4 @@ BGP AS prepend support
 {: release-note}
 
 Reduced unmetered plan pricing for Direct Link Connect
-:   IBM is pleased to announce _a significant reduction in unmetered pricing_ for IBM Cloud Direct Link Connect and Direct Link Dedicated. Note that Direct Link also offers a metered pricing plan, allowing you to switch between metered and unmetered pricing plans to suit your bandwidth usage needs.
+:   IBM is pleased to announce a significant reduction in unmetered pricing for IBM Cloud Direct Link Connect and Direct Link Dedicated. Direct Link also offers a metered pricing plan, which allows you to switch between metered and unmetered pricing plans to suit your bandwidth usage needs.

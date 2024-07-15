@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2024
-lastupdated: "2024-06-20"
+lastupdated: "2024-07-15"
 
 keywords: direct link
 
@@ -22,7 +22,7 @@ The default deployments of Direct Link Connect do not include redundant configur
 
 Many customers choose to create redundant deployments by setting up an extra Direct Link connection. The following diagrams illustrate some schematic representations of alternative Direct Link deployments
 
-IBM Cloud Direct Link also allows you to establish diverse Connect deployments, as shown in Figure 1.
+You can also establish diverse Connect deployments with IBM Cloud Direct Link, as shown in Figure 1.
 
 ![Diverse Connect](images/connect_alt_2.png "Diverse Connect"){: caption="Figure 1. A diverse IBM Cloud Direct Link Connect deployment to enable redundancy via Customer BGP schema" caption-side="bottom"}
 

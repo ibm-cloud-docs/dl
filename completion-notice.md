@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021, 2024
-lastupdated: "2024-06-20"
+lastupdated: "2024-07-15"
 
 keywords:
 
@@ -15,7 +15,7 @@ subcollection: dl
 # Completion notice example
 {: #completion-notice-example}
 
-This topic provides an example completion notice from a {{site.data.keyword.dl_short}} provider.
+Here is an example completion notice from a {{site.data.keyword.dl_short}} provider.
 {: shortdesc}
 
 ---

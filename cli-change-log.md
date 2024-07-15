@@ -2,7 +2,7 @@
 
 copyright:
   years: 2022, 2024
-lastupdated: "2024-03-07"
+lastupdated: "2024-07-15"
 
 keywords: direct link cli change log
 
@@ -17,10 +17,10 @@ content-type: release-note
 # Direct Link CLI change log
 {: #direct-link-cli-change-log}
 
-Learn about the latest changes, improvements, and updates for the IBM Cloud Direct Link CLI plug-in (`ibmcloud dl`). Changes to existing CLI versions are designed to be compatible with existing client applications.
+Learn about the latest changes, improvements, and updates for the IBM Cloud Direct Link CLI plug-in (`ibmcloud dl`). Changes to existing CLI versions are compatible with existing client applications.
 {: shortdesc}
 
-To learn about general updates and improvements to Direct Link offerings, see [Release notes for Direct Link](/docs/dl?topic=dl-direct-link-release-notes).
+To learn about general updates and improvements to Direct Link offerings, see the [Release notes for Direct Link](/docs/dl?topic=dl-direct-link-release-notes).
 {: note}
 
 ## 07 March 2024
@@ -45,7 +45,7 @@ Route report enhancements
 {: #dl-mar1623}
 {: release-note}
 
-BGP route filtering support
+BGP route filter support
 
 :    New commands:
 
@@ -91,21 +91,21 @@ Route report support
 {: release-note}
 
 Bidirectional Forwarding Detection (BFD)
-:    Added the parameters **--bfd-interval** and **--bfd-multiplier** in [dedicated-gateway-create](/docs/dl?topic=dl-dl-cli#create-dedicated-gateway), [connect-gateway-create](/docs/dl?topic=dl-dl-cli#create-connect-gateway), and [gateway-update](/docs/dl?topic=dl-dl-cli#update-gateway) commands.
+:    Added the parameters **bfd-interval** and **bfd-multiplier** in [dedicated-gateway-create](/docs/dl?topic=dl-dl-cli#create-dedicated-gateway), [connect-gateway-create](/docs/dl?topic=dl-dl-cli#create-connect-gateway), and [gateway-update](/docs/dl?topic=dl-dl-cli#update-gateway) commands.
 
 More flexibility in configuring BGP values
-:    Added the fields **--bgp-asn**, **--bgp-cer-cidr**, and **--bgp-ibm-cidr** in [gateway-update](/docs/dl?topic=dl-dl-cli#update-gateway) to update BGP values (ASN and IP addresses).
+:    Added the fields **bgp-asn**, **bgp-cer-cidr**, and **bgp-ibm-cidr** in [gateway-update](/docs/dl?topic=dl-dl-cli#update-gateway) to update BGP values (ASN and IP addresses).
 
 ## 30 August 2021
 {: #dl-august3021}
 {: release-note}
 
 Direct Link connection support for transit gateways
-:    Added the **--connection** flag to [dedicated-gateway-create](/docs/dl?topic=dl-dl-cli#create-dedicated-gateway) and [connect-gateway-create](/docs/dl?topic=dl-dl-cli#create-connect-gateway) commands.
+:    Added the **connection** flag to the [dedicated-gateway-create](/docs/dl?topic=dl-dl-cli#create-dedicated-gateway) and [connect-gateway-create](/docs/dl?topic=dl-dl-cli#create-connect-gateway) commands.
 
 ## 24 June 2021
 {: #dl-june2421}
 {: release-note}
 
 BGP Message Digest 5 authentication support
-:    Added the **--file** option to create a direct link with MD5 authentication key. See the [template](/apidocs/direct_link#create-gateway) to provide the MD5 authentication key.
+:    Added the **file** option to create a direct link with MD5 authentication key. See the [template](/apidocs/direct_link#create-gateway) to provide the MD5 authentication key.
