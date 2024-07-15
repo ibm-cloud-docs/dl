@@ -2,7 +2,7 @@
 
 copyright:
   years: 2024
-lastupdated: "2024-06-20"
+lastupdated: "2024-07-15"
 
 keywords: direct link
 
@@ -68,7 +68,7 @@ This might take a few minutes to complete.
    ![Connection is Up](images/pccw-up.png "Connection is Up"){: caption="Connection is Up" caption-side="bottom"}
 
 ## Next step
-{: #pccw-next-step}
+{: #pccw-next-step-1}
 
 Configure BGP configurations on your equipment. Optionally, you can enable MD5 authentication to secure the BGP session by allowing routing of messages only from routers using a shared authentication key. For more information, see [Enabling MD5 authentication for BGP peers](/docs/dl?topic=dl-accepting-provider-created-connection#dl-enable-md5-provider).
 
