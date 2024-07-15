@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years:  2023
-lastupdated: "2023-01-27"
+  years:  2023, 2024
+lastupdated: "2024-07-15"
 
 keywords:
 
@@ -23,14 +23,14 @@ These restrictions work with traditional IAM policies, which are based on identi
 A user must have the Administrator role on the Direct Link service to create, update, or delete rules. And a user must have either the Editor or Administrator role on the Context-based restrictions service to create, update, or delete network zones.
 {: note}
 
-Any {{site.data.keyword.cloudaccesstraillong_notm}} or audit log events generated will come from the context-based restrictions service, and not Direct Link. For more information, see [Monitoring context-based restrictions](/docs/account?topic=account-cbr-monitor).
+Any {{site.data.keyword.cloudaccesstraillong_notm}} or audit log events that are generated come from the context-based restrictions service, and not Direct Link. For more information, see [Monitoring context-based restrictions](/docs/account?topic=account-cbr-monitor).
 
-To get started protecting your Direct Link with context-based restrictions, see the tutorial for [Leveraging context-based restrictions to secure your resources](/docs/account?topic=account-context-restrictions-tutorial).
+To protect your Direct Link with context-based restrictions, see the tutorial for [Leveraging context-based restrictions to secure your resources](/docs/account?topic=account-context-restrictions-tutorial).
 
 ## How Direct Link integrates with context-based restrictions
 {: #cbr-overview}
 
-Direct Link may call Key Protect and HPCS for key management support. These calls will perform authority checks against the Direct Link service making the call. If a CBR Rule is ever created against Key Protect or HPCS, a Direct Link Service Reference must be added to the network zone of the rule.
+Direct Link may call Key Protect and HPCS for key management support. These calls perform authority checks against the Direct Link service making the call. If a CBR Rule is ever created against Key Protect or HPCS, a Direct Link Service Reference must be added to the network zone of the rule.
 
 _If context-based restrictions don't apply holistically to all components of your service's resources, provide a paragraph that categorizes the scope of what’s enforced or impacted and what isn't. Also, consider the following use cases to determine what you need to document for your service:_
 

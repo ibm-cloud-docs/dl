@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2024
-lastupdated: "2024-02-21"
+lastupdated: "2024-07-15"
 
 keywords: direct link
 
@@ -143,10 +143,10 @@ To view these events, you must [provision an instance](/docs/activity-tracker?to
 ## Analyzing events
 {: #at_events_iam_analyze}
 
-Refer to the following information when analyzing events:
+Refer to the following information when you analyze events:
 
 - Use the search bar to search for `action:directlink.connect.virtual-connection` to get the list of events related to Direct Link Connect, or `action:directlink.dedicated.virtual-connection`  to get events that are related to Direct Link Dedicated.
 - The target field identifies the direct link that is associated with an event. When the gateway exists in a different account or there is no gateway that is associated with the request, the target is set as `crn:v1:bluemix:public:directlink:global:a/<your account ID>:::`.  Events that do not correspond to a gateway don't have resource group information. For more information about cross-account gateway connections, see [Adding a cross-account (VPC only) connection](/docs/dl?topic=dl-cross-account-virtual-connection-vpc).
 - Events that report update actions do not include information about the delta of the change.
 - The event's initiator field contains information about who initiated each request. In authorized cross-account scenarios, `IBM` is identified as the initiator.
-- The name of the service in {{site.data.keyword.cloud_notm}} is `directlink.connect`; therefore, all AT events have an action formatted as `<svcname>.<object>.<action>`, where `svcname` can be `directlink.connect` or `directlink.dedicated`.
+- The name of the service in {{site.data.keyword.cloud_notm}} is `directlink.connect`; therefore, all AT events have an action that is formatted as `<svcname>.<object>.<action>`, where `svcname` can be `directlink.connect` or `directlink.dedicated`.
