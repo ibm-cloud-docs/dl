@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2022
-lastupdated: "2022-08-11"
+  years: 2022, 2024
+lastupdated: "2024-07-16"
 keywords: api
 
 subcollection: dl
@@ -26,7 +26,7 @@ Set up your account to access the direct link. Make sure that your account is [u
 ## API prerequisites
 {: #api-prerequisites-setup}
 
-Before you can use the API to interact with a direct link, you must get an IAM token, store the endpoint as a variable, and verify that you have access to the IBM Cloud Direct Link API service.
+Before you can use the API to interact with a direct link, you must get an IAM token and store the endpoint as a variable. Also verify that you have access to the IBM Cloud Direct Link API service.
 
 The following examples use the `directlink.cloud.ibm.com` global endpoint.
 {: note}
@@ -54,7 +54,7 @@ IAM_TOKEN=`curl -k -X POST \
   "https://iam.cloud.ibm.com/identity/token"  |jq -r '(.token_type + " " + .access_token)'`
 ```
 
-To view the IAM token, run ``echo $IAM_TOKEN``. The result should look like this:
+To view the IAM token, run ``echo $IAM_TOKEN``. The result looks like this:
 
 ```text
 Bearer <your_token>
@@ -83,12 +83,12 @@ Virtual private endpoint:
 directlink_api_endpoint="https://private.directlink.cloud.ibm.com"
 ```
 
-To verify that the variable was saved, run `echo $directlink_api_endpoint` and ensure that the response is not empty.
+To verify that the variable was saved, run `echo $directlink_api_endpoint` and make sure that the response is not empty.
 
 ### Step 4: Store the API version as a variable
 {: #store-api-version-variable}
 
-Every API request must include the `version` parameter, in the format `YYYY-MM-DD`. Run the following command to store the version date in a variable so that it can be reused in your session. For more information about setting the `version` parameter, see **Versioning** in the [Direct Link API](/apidocs/direct_link#versioning).
+Every API request must include the `version` parameter in the format `YYYY-MM-DD`. Run the following command to store the version date in a variable so that it can be reused in your session. For more information about setting the `version` parameter, see **Versioning** in the [Direct Link API](/apidocs/direct_link#versioning).
 
 ```sh
 api_version="2020-03-31"
@@ -102,9 +102,9 @@ To verify that this variable was saved, run ``echo $api_version`` and make sure 
 If you run into unexpected results, add the `--verbose` (debug) flag after the `curl` command to obtain detailed logging information.
 {: tip}
 
-* Call the [List Available Locations API](/apidocs/direct_link#list-offering-type-locations) to see the locations available for your direct link, in JSON format. At least one object should return.
+* Call the [List Available Locations API](/apidocs/direct_link#list-offering-type-locations) to see the locations available for your direct link, in JSON format. At least one object returns.
 
-   This example lists the locations available for a Direct Link Dedicated gateway. For Direct Link Connect, simply substitute `connect` for `dedicated`.
+   This example lists the locations available for a Direct Link Dedicated gateway. For Direct Link Connect, substitute `connect` for `dedicated`.
    {: note}
 
     ```sh

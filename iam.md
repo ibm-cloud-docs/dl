@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020, 2022
-lastupdated: "2022-08-09"
+  years: 2020
+lastupdated: "2024-07-16"
 
 keywords: IAM access for Direct Link, permissions for Direct Link, identity and access management for Direct Link, roles for Direct Link, actions for  Direct Link, assigning access for Direct Link
 
@@ -15,7 +15,7 @@ subcollection: dl
 # Managing IAM access for {{site.data.keyword.dl_full_notm}}
 {: #iam}
 
-Access to the {{site.data.keyword.dl_short}} service instance for users in your account is controlled by {{site.data.keyword.cloud}} Identity and Access Management (IAM). Every user that accesses the {{site.data.keyword.dl_short}} service in your account must be assigned an access policy with an IAM role. Review the following roles, actions, and more to help determine the best way to assign access to {{site.data.keyword.dl_short}}.
+Access to Direct Link gateways for users in your account is controlled by {{site.data.keyword.cloud}} Identity and Access Management (IAM). Every user that accesses the {{site.data.keyword.dl_short}} service in your account must be assigned an access policy with an IAM role. Review the following roles, actions, and more to help determine the best way to assign access to {{site.data.keyword.dl_short}}.
 {: shortdesc}
 
 {{site.data.keyword.dl_full}} enables connectivity between customer on-premises resources to {{site.data.keyword.cloud_notm}} resources that are hosted in classic and Virtual Private Cloud (VPC) infrastructures.
