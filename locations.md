@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2024
-lastupdated: "2024-06-25"
+lastupdated: "2024-07-17"
 
 keywords: direct link
 
@@ -34,7 +34,6 @@ The following table provides details about the {{site.data.keyword.cloud_notm}} 
 | Montreal 1 | DC | Colo-D | MON01 |
 | Montreal 3 | DC | Colo-D | MON03 |
 | New York City 2[^newyork2]  | PoP | Equinix | NY4 |
-| New York City 3[^newyork3]  | PoP | Equinix | NY4 |
 | San Jose 2 | PoP | Equinix | SV1 |
 | San Jose 3| DC | Digital Realty | SJC31|
 | San Jose 4 | DC | Infomart | SJC1 |
@@ -118,9 +117,7 @@ The following table provides details about the {{site.data.keyword.cloud_notm}} 
 {: tab-group="dedicated-simple"}
 {: class="simple-tab-table"}
 
-[^newyork2]: New York City 2 and 3 connect to the IBM Cloud backbone through New York City 1. The primary reason for these PoPs is to extend connectivity to different site providers from our New York City 1 site. When planning your diversity strategy, keep in mind that traffic for New York City 2 and 3 have a single, shared path to the IBM network.
-
-[^newyork3]: New York City 2 and 3 connect to the IBM Cloud backbone through New York City 1. The primary reason for these PoPs is to extend connectivity to different site providers from our New York City 1 site. When planning your diversity strategy, keep in mind that traffic for New York City 2 and 3 have a single, shared path to the IBM network.
+[^newyork2]: New York City 2 connects to the IBM Cloud backbone through New York City 1. The primary reason for this PoP is to extend connectivity to different site providers from our New York City 1 site. When planning your diversity strategy, keep in mind that traffic for New York City 2 has a single, shared path to the IBM network.
 
 ## Direct Link Connect service providers and locations
 {: #connect-locations}
@@ -150,7 +147,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect service provide
 | DE-CIX | **Americas**: Dallas 10  \n **EU**: Frankfurt 1, Frankfurt 3, Frankfurt 4, Frankfurt 5 | ![Checkmark icon](../icons/checkmark-icon.svg) |
 | Digital Realty | **Americas**: Dallas 12, Washington DC 4  \n **APAC**: Singapore 1  \n **EU**: Frankfurt 1, Madrid 3 | |
 | Epsilon | **Americas**: Washington DC 2  \n  **APAC**: Hong Kong 1  \n **EU**: Amsterdam 2, Frankfurt 1, London 1 | |
-| Equinix | **Americas**: Chicago 1, Dallas 3, Montreal 1, New York 2, New York 3, San Jose 2, São Paulo 2, Toronto 2, Toronto 3, Washington DC 2  \n **APAC**: Mumbai 1, Osaka 1, Tokyo 1, Tokyo 3  \n **EU**: Amsterdam 2, Frankfurt 3, London 1, London 3, Madrid 1, Milan 2, Paris 2, Paris 3, Sydney 2 | ![Checkmark icon](../icons/checkmark-icon.svg) |
+| Equinix | **Americas**: Chicago 1, Dallas 3, Montreal 1, New York 2, San Jose 2, São Paulo 2, Toronto 2, Toronto 3, Washington DC 2  \n **APAC**: Mumbai 1, Osaka 1, Tokyo 1, Tokyo 3  \n **EU**: Amsterdam 2, Frankfurt 3, London 1, London 3, Madrid 1, Milan 2, Paris 2, Paris 3, Sydney 2 | ![Checkmark icon](../icons/checkmark-icon.svg) |
 | EU Networks | **EU**: Frankfurt 1 | |
 | IBM Power Virtual Server | **Americas**: Dallas 10, Dallas 12, Dallas 13, São Paulo 1, Toronto 1, Washington DC 4, Washington DC 7  \n **APAC**: Osaka 21, Sydney 4, Sydney 5, Tokyo 4  \n **EU**: Frankfurt 4, Frankfurt 5, London 4, London 6 | |
 | Intercloud | **EU**: Amsterdam 2, Frankfurt 1, Frankfurt 3 | |
@@ -215,7 +212,6 @@ The following table lists {{site.data.keyword.dl_short}} Connect service provide
 | Montreal 2 | Cologix  \n Megaport |
 | Mumbai 1 | Equinix |
 | New York 2 | Equinix |
-| New York 3 | Equinix |
 | Osaka 1 | AT Tokyo  \n Console Connect  \n Equinix  \n Megaport  \n Tokai |
 | Osaka 21 |IBM Power Virtual Server |
 | Paris 2 | Colt  \n Equinix  \n Lumen  \n Megaport  \n Orange Business Services |

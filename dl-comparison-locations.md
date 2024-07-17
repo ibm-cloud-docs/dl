@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2021, 2023
-lastupdated: "2023-09-26"
+  years: 2021, 2024
+lastupdated: "2024-07-17"
 
 keywords: direct link
 
@@ -34,7 +34,6 @@ Review location support for Direct Link on Classic offerings versus Direct Link.
 | Montreal 1 | ![Checkmark icon](../icons/checkmark-icon.svg) | ![Checkmark icon](../icons/checkmark-icon.svg) | ![Checkmark icon](../icons/checkmark-icon.svg) | ![Checkmark icon](../icons/checkmark-icon.svg) |
 | Montreal 2 | ![Checkmark icon](../icons/checkmark-icon.svg) |   | ![Checkmark icon](../icons/checkmark-icon.svg) | ![Checkmark icon](../icons/checkmark-icon.svg) |
 | New York City 2 | ![Checkmark icon](../icons/checkmark-icon.svg) | ![Checkmark icon](../icons/checkmark-icon.svg)  |  | ![Checkmark icon](../icons/checkmark-icon.svg)[^newyork2] |
-| New York City 3 | ![Checkmark icon](../icons/checkmark-icon.svg) | ![Checkmark icon](../icons/checkmark-icon.svg)  |  | ![Checkmark icon](../icons/checkmark-icon.svg)[^newyork3] |
 | San Jose 2 | ![Checkmark icon](../icons/checkmark-icon.svg) | ![Checkmark icon](../icons/checkmark-icon.svg) | ![Checkmark icon](../icons/checkmark-icon.svg) | ![Checkmark icon](../icons/checkmark-icon.svg) |
 | San Jose 3 | ![Checkmark icon](../icons/checkmark-icon.svg) |  |  |  |
 | San Jose 4 | ![Checkmark icon](../icons/checkmark-icon.svg) | ![Checkmark icon](../icons/checkmark-icon.svg) |  |  |
@@ -60,9 +59,7 @@ Review location support for Direct Link on Classic offerings versus Direct Link.
 {: tab-title="Americas"}
 {: tab-group="dedicated-simple"}
 
-[^newyork2]: New York City 2 and 3 connect to the IBM Cloud backbone through New York City 1. The primary reason for these PoPs is to extend connectivity to different site providers from our New York City 1 site. When planning your diversity strategy, keep in mind that traffic for New York City 2 and 3 have a single, shared path to the IBM network.
-
-[^newyork3]: New York City 2 and 3 connect to the IBM Cloud backbone through New York City 1. The primary reason for these PoPs is to extend connectivity to different site providers from our New York City 1 site. When planning your diversity strategy, keep in mind that traffic for New York City 2 and 3 have a single, shared path to the IBM network.
+[^newyork2]: New York City 2 connects to the IBM Cloud backbone through New York City 1. The primary reason for this PoP is to extend connectivity to different site providers from our New York City 1 site. When planning your diversity strategy, keep in mind that traffic for New York City 2 has a single, shared path to the IBM network.
 
 
 |**Location** | **Dedicated on Classic** | **Dedicated**| **Connect on Classic** | **Connect** |
@@ -95,7 +92,6 @@ Review location support for Direct Link on Classic offerings versus Direct Link.
 {: class="simple-tab-table"}
 
 [^singapore3]: If you require diversity, you must place a second (backup) connection with Megaport in Hong Kong 3 (HKG03).
-
 
 
 |**Location** | **Dedicated on Classic** | **Dedicated**| **Connect on Classic** | **Connect** |
