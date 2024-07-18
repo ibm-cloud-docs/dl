@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2024
-lastupdated: "2024-05-01"
+lastupdated: "2024-07-18"
 
 keywords: direct link release notes
 
@@ -24,15 +24,15 @@ Check back regularly to see what's new with {{site.data.keyword.cloud}} Direct L
 ## 1 May 2024
 {: #dl-may0124}
 
-Behavior change: Enable service network routes from Direct Link to non-Classic connections
-:    When a direct link is connected to a transit gateway, the direct link advertises all service network routes. Before this change, when a direct link was connected to a transit gateway, the direct link would not advertise any service network routes. For more information, see [Preparing for Direct Link changes to advertised service network routes](/docs/dl?topic=dl-notification-dl-tgw).
+Enable service network routes from Direct Link to non-Classic connections (Behavior Change)
+:    When a direct link is connected to a transit gateway, the direct link advertises all service network routes. Before this change, when a direct link was connected to a transit gateway, the direct link did not advertise any service network routes. For more information, see [Preparing for Direct Link changes to advertised service network routes](/docs/dl?topic=dl-notification-dl-tgw).
 
 ## 07 March 2024
 {: #dl-march0724}
 {: release-note}
 
 VLAN tagging support for Direct Link Dedicated
-:   VLAN's keep traffic from different networks separated when traversing shared links and devices within a topology. This process, also known as _VLAN tagging_, limits broadcast network traffic and secures network segments. Previously, dedicated gateway traffic could not be tagged with a VLAN. Now, a customer can optionally specify their own VLAN value either at the time of gateway creation, or update or remove it later. For more information, see [Activating, deactivating, and updating VLAN tagging](/docs/dl?topic=dl-activate-vlan-tagging#dl-update-vlan-tag).
+:   A VLAN keeps traffic from different networks separated when traversing shared links and devices within a topology. This process, also known as _VLAN tagging_, limits broadcast network traffic and secures network segments. Previously, dedicated gateway traffic could not be tagged with a VLAN. Now, a customer can optionally specify their own VLAN value either at the time of gateway creation, or update or remove it later. For more information, see [Activating, deactivating, and updating VLAN tagging](/docs/dl?topic=dl-activate-vlan-tagging#dl-update-vlan-tag).
 
 ## 06 July 2023
 {: #dl-july0623}
@@ -53,14 +53,14 @@ Support for Madrid multi-zone region (MZR)
 {: release-note}
 
 BGP route filtering support
-:   Configure route filters to control the inbound routes learned by your direct link and outbound routes advertised by your direct link. BGP route filtering can help reduce resource usage, influence network traffic, and add security. For more information, see [About route filtering](/docs/dl?topic=dl-filter-routes).
+:   Configure route filters to control the inbound routes that are learned by your direct link and outbound routes that are advertised by your direct link. BGP route filtering can help reduce resource usage, influence network traffic, and add security. For more information, see [About route filtering](/docs/dl?topic=dl-filter-routes).
 
 ## 21 September 2022
 {: #dl-september2122}
 {: release-note}
 
 Generate a route report for a specific direct link
-:   Request a route report to verify expected routes and figure out which routes are associated with attached virtual connections. This assists in diagnosing and troubleshooting routing and connectivity issues. For more information, see [Generating a direct link route report](/docs/dl?topic=dl-generate-route-reports&interface=ui).
+:   Request a route report to verify expected routes and figure out which routes are associated with attached virtual connections. This feature helps diagnose and troubleshoot routing and connectivity issues. For more information, see [Generating a direct link route report](/docs/dl?topic=dl-generate-route-reports&interface=ui).
 
 BGP AS prepending support
 :   Prepend one or more autonomous system numbers (ASNs) at the beginning of an AS path. Prepending an AS path makes a shorter AS path look longer and therefore less preferable to BGP. For more information, see [Using AS prepends to influence route preference](/docs/dl?topic=dl-dl-about#use-case-1).
@@ -70,7 +70,7 @@ BGP AS prepending support
 {: release-note}
 
 Reduced unmetered plan pricing for Direct Link Connect
-:   IBM is pleased to announce _a significant reduction in unmetered pricing_ for IBM Cloud Direct Link Connect and Direct Link Dedicated. Note that Direct Link also offers a metered pricing plan, allowing you to switch between metered and unmetered pricing plans to suit your bandwidth usage needs.
+:   IBM is pleased to announce _a significant reduction in unmetered pricing_ for IBM Cloud Direct Link Connect and Direct Link Dedicated. Direct Link also offers a metered pricing plan, allowing you to switch between metered and unmetered pricing plans to suit your bandwidth usage needs.
 
 ## 27 January 2022
 {: #dl-jan2722}
@@ -96,11 +96,11 @@ More flexibility in configuring BGP values
 Direct Link connection support for transit gateways
 :    Direct Link now supports Transit Gateway connections. A Direct Link connection allows an on-premises network to connect to other networks (for instance, VPC and classic infrastructure) that are connected to the same transit gateway.
 
-:    The beta release for this feature has ended. If you participated in this beta, you can continue to use the gateways that you created during the beta period.
+:    The beta release for this feature ended. If you participated in this beta, you can continue to use the gateways that you created during the beta period.
 
 ## 24 June 2021
 {: #dl-jun2421}
 {: release-note}
 
 BGP Message Digest 5 authentication support
-:    Border Gateway Protocol (BGP) authentication enables routers to share information only if they can verify that they are talking to a trusted source, based on a key. TCP MD5 authentication adds an extra layer of security between BGP peers by verifying each transmitted message sent through a BGP session. You can store your keys in either Key Protect or Hyper Protect Crypto Services (HPCS).
+:    Border Gateway Protocol (BGP) authentication enables routers to share information only if they can verify that they are talking to a trusted source, based on a key. TCP MD5 authentication adds an extra layer of security between BGP peers by verifying each transmitted message that is sent through a BGP session. You can store your keys in either Key Protect or Hyper Protect Crypto Services (HPCS).

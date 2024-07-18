@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2024
-lastupdated: "2024-06-19"
+lastupdated: "2024-07-18"
 
 keywords: direct link, direct link dedicated, direct link connect
 
@@ -27,14 +27,14 @@ Use {{site.data.keyword.dl_short}} to seamlessly connect your on-premises resour
 * Bring Your Own IP (BYOIP) address to create native connectivity between your on-premises environment and {{site.data.keyword.cloud_notm}}
 * Support for new connect speeds for high bandwidth through {{site.data.keyword.dl_short}} Connect (10, 25, 40, 50, and 100 Gbps).
 * Direct Link connections to and from transit gateways.
-* Support for BGP Message Digest 5 (MD5) Authentication and Bidirectional Forwarding Detection (BFD).
+* Support for BGP Message Digest 5 (MD5) Authentication and bidirectional Forwarding Detection (BFD).
 
 ## {{site.data.keyword.dl_short}} Dedicated
 {: #get-started-with-direct-link-dedicated}
 
 Terminate a single-tenant, fiber-based, cross-connect into your own IBM Cloud Private network connection. This offering is also used by colocation facilities that are next to IBM Cloud PoPs and data centers.
 
-To get started using {{site.data.keyword.dl_full_notm}} Dedicated, follow these [instructions](/docs/dl?topic=dl-how-to-order-ibm-cloud-dl-dedicated) for ordering the service.
+To get started with {{site.data.keyword.dl_full_notm}} Dedicated, follow these [instructions](/docs/dl?topic=dl-how-to-order-ibm-cloud-dl-dedicated) for ordering the service.
 
 ## {{site.data.keyword.dl_short}} Connect
 {: #get-started-with-direct-link-connect}
@@ -52,5 +52,5 @@ To get started using {{site.data.keyword.dl_full_notm}} Connect, follow these [i
 
 * For more information about {{site.data.keyword.dl_short}} offerings, see our [FAQs](/docs/dl?topic=dl-faqs).
 
-Currently, there isn't a migration path from {{site.data.keyword.dlc_short}} offerings to {{site.data.keyword.dl_short}}. You must order a new {{site.data.keyword.dl_short}} Dedicated or {{site.data.keyword.dl_short}} Connect connection.
+Currently, a migration path does not exist from {{site.data.keyword.dlc_short}} offerings to {{site.data.keyword.dl_short}}. You must order a new {{site.data.keyword.dl_short}} Dedicated or {{site.data.keyword.dl_short}} Connect connection.
 {: note}

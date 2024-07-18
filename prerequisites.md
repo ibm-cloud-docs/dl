@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020, 2023
-lastupdated: "2022-08-19"
+  years: 2020, 2024
+lastupdated: "2024-07-18"
 
 keywords:  direct link prerequisites
 
@@ -24,7 +24,7 @@ When you are ready to finalize your {{site.data.keyword.dl_short}} order, you ar
 
    You are responsible for any fees that are associated with reaching the Point of Presence (PoP) from your remote network and any cross-connects needed within the PoP facility to reach your provider.
 
-   You (or your provider) are also responsible for buying the virtual circuit to {{site.data.keyword.cloud_notm}}. If your provider requires that a router or other device be physically in the PoP, you are responsible for the costs that are associated with colocating that equipment as well. You should confirm that your service or PoP provider can reach the {{site.data.keyword.dl_short}} and price out the associated costs.
+   You (or your provider) are also responsible for buying the virtual circuit to {{site.data.keyword.cloud_notm}}. If your provider requires that a router or other device be physically in the PoP, you are responsible for the costs that are associated with colocating that equipment as well. Confirm that your service or PoP provider can reach the {{site.data.keyword.dl_short}} and price out the associated costs.
 
 1. {{site.data.keyword.cloud_notm}} will not colocate any customer equipment in our network PoPs.
 
@@ -36,7 +36,7 @@ When you are ready to finalize your {{site.data.keyword.dl_short}} order, you ar
 
 1. **{{site.data.keyword.dl_short}} Dedicated only**: After you confirm that your circuit reached the {{site.data.keyword.dl_short}} PoP, you must place an order with the service provider to extend service to the {{site.data.keyword.dl_short}} Demarcation point.
 
-   IBM will supply a Letter of Authorization/Connecting Facility Assignment (LOA/CFA) with port information to order the cross connect.
+   IBM supplies a Letter of Authorization/Connecting Facility Assignment (LOA/CFA) with port information to order the cross connect.
 
    **Note**: Direct Link Dedicated is a switchport in access mode. Currently, 802.1q is not supported.
 

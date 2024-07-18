@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2023
-lastupdated: "2023-02-28"
+  years: 2023, 2024
+lastupdated: "2024-07-18"
 
 keywords: direct link
 
@@ -15,13 +15,13 @@ subcollection: dl
 # Configuring route filters
 {: #configure-route-filters}
 
-You can configure route filters using the UI, CLI, and API.
+You can configure route filters by using the UI, CLI, and API.
 {: shortdesc}
 
 ## Before you begin
 {: #route-filters-before-you-begin}
 
-Before configuring a route filter, review the following information:
+Before you configure a route filter, review the following information:
 
 * The prefix must be an IPv4 subnet CIDR indicating both the address and mask length.
 * [Route filtering examples](/docs/dl?topic=dl-route-filtering-examples&interface=ui)
@@ -36,7 +36,7 @@ To create and configure route filters on a provisioned gateway, follow these ste
 1. Log in to the [Direct Link console](/interconnectivity/direct-link){: external}, then click the Direct Link name in the table to show its details.
 1. Click the **BGP** tab, then click **Route filters**.  Alternatively, you can use the **Route filters** shortcut.
 1. Depending on the route filter that you want to configure, click **Import route filters** or **Export route filters**.
-1. For Default, specify to permit or deny all routes not specified by a route filter.
+1. For Default, specify to permit or deny all routes that are not specified by a route filter.
 1. To create filters to add to the list, or to prioritize filters, click **Configure filters**.
 1. Save your configuration. You are returned to the Details page where your route configuration is displayed.
 
@@ -44,7 +44,7 @@ To create and configure route filters on a provisioned gateway, follow these ste
 {: #create-route-filters-cli}
 {: cli}
 
-You can create route filters with the CLI using the [`exportroutefilter-create`](/docs/dl?topic=dl-dl-cli&interface=cli#export-route-filter-create) and [`importroutefilter-create`](/docs/dl?topic=dl-dl-cli&interface=cli#import-route-filter-create) commands. For example, the following command shows how to create an export route filter:
+You can create route filters with the CLI by using the [`exportroutefilter-create`](/docs/dl?topic=dl-dl-cli&interface=cli#export-route-filter-create) and [`importroutefilter-create`](/docs/dl?topic=dl-dl-cli&interface=cli#import-route-filter-create) commands. For example, the following command shows how to create an export route filter:
 
 ```sh
 ibmcloud dl export-route-filter-create 58e4f46f-0dab-0000-9432-3df974db0618 --action deny --prefix 10.10.10.0/24 --ge 30 --le 26
@@ -71,7 +71,7 @@ Where:
 {: #create-route-filters-api}
 {: api}
 
-To create route filters using the API, follow these steps:
+To create route filters by using the API, follow these steps:
 
 1. Set up your [API environment](/docs/dl?topic=dl-set-up-environment) with the right variables.
 1. Store any additional variables to be used in the API commands, for example:
