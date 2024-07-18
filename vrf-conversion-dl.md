@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2024
-lastupdated: "2024-07-16"
+lastupdated: "2024-07-18"
 
 keywords:  VRF, direct link, virtual routing and forwarding
 
@@ -33,7 +33,7 @@ During migration, the VLANs are disconnected from the backbone and reconnected t
 
 Existing {{site.data.keyword.cloud_notm}} customers can [open an IBM Support case](/unifiedsupport/cases/add){: external} through the {{site.data.keyword.cloud_notm}} console, requesting to be migrated to a VRF. Have the support case state: “Private Network Question” and include the following text:
 
-"We are requesting that account _your account number_ be moved to its own VRF. We understand the risks and approve the change. Reply with the scheduled windows of time where this change will be made so we can prepare for the migration."
+"We are requesting that account _your account number_ move to its own VRF. We understand the risks and approve the change. Reply with the scheduled windows of time where this change will be made so we can prepare for the migration."
 
 The {{site.data.keyword.cloud_notm}}Network Engineering team completes the migration. No other information is required from you, except an "agreed to" schedule. Intermittent packet loss might last 15 - 30 minutes, depending on the complexity of your account. It might be longer if your account has legacy {{site.data.keyword.dl_short}} connections. The process is highly automated, requiring minimal interaction by the IBM team.
 
