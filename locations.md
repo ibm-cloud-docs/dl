@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2024
-lastupdated: "2024-07-17"
+lastupdated: "2024-07-18"
 
 keywords: direct link
 
@@ -37,11 +37,11 @@ The following table provides details about the {{site.data.keyword.cloud_notm}} 
 | San Jose 2 | PoP | Equinix | SV1 |
 | San Jose 3| DC | Digital Realty | SJC31|
 | San Jose 4 | DC | Infomart | SJC1 |
-| São Paulo 1 | DC | Digital Realty (Ascenty) | SAO01 |
+| São Paulo 1 | DC | Ascenty, a Digital Realty Company | SAO01 |
 | São Paulo 2 | PoP | Equinix | SP4 |
 | São Paulo 3 | PoP  | ODATA | SAO03 |
 | São Paulo 4 | DC | ODATA | SAO04 |
-| São Paulo 5 | DC | ASCENTY | SAO05 |
+| São Paulo 5 | DC |  Ascenty, a Digital Realty Company| SAO05 |
 | Seattle 2 | PoP | Digital Realty (The Westin Building) | WBX |
 | Toronto 1 | DC| Digital Realty | TOR01 |
 | Toronto 2 | PoP | Cologix | TOR02 |
@@ -128,7 +128,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect service provide
 | Provider | Locations | API integration |
 |----|----|----|
 | Anthem | **Americas**: Washington DC 4 | |
-| Ascenty | **Americas**: São Paulo 1, São Paulo 5 | |
+| Ascenty, a Digital Realty Company | **Americas**: São Paulo 1, São Paulo 5 | |
 | At Tokyo | **APAC**: Osaka 1, Tokyo 2 | |
 | AT&T Cloud Gateway | **Americas**: Dallas 3 | |
 | AT&T NetBond for Cloud | **Americas**: Dallas 3, Dallas 8, San Jose 2 (no diversity: on same XCR), Washington DC 2, Washington DC 3  \n **EU**: Frankfurt 1, London 1 | |
@@ -167,7 +167,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect service provide
 | SES Networks | **Americas**: Washington DC 2 | | |
 | SoftBank | **APAC**: Tokyo 4 | |
 | TATA | **APAC**: Chennai 1, Hong Kong 1 | | |
-| Telia | **Americas**: Dallas 3, Washington DC 2  \n **EU**: Stockholm 2 | | |
+| Telia | **Americas**: Dallas 3, Washington DC 2 | | |
 | Tokai | **APAC**: Osaka 1, Tokyo 3 | |
 | Verizon SCI | **Americas**: Dallas 3, San Jose 2, Washington DC 2  \n **EU**: Amsterdam 2, Frankfurt 1 | |
 | Vodafone | **EU**: Frankfurt 1, Frankfurt 3, London 1, London 3 | |
@@ -217,12 +217,11 @@ The following table lists {{site.data.keyword.dl_short}} Connect service provide
 | Paris 2 | Colt  \n Equinix  \n Lumen  \n Megaport  \n Orange Business Services |
 | Paris 3 | Colt  \n Equinix |
 | San Jose 2 | AT&T NetBond for Cloud (no diversity, on same XCR) \n China Unicom  \n Cloudflare  \n Colt  \n Console Connect  \n Equinix  \n Lumen  \n Megaport  \n PacketFabric  \n Verizon SCI |
-| São Paulo 1 | Ascenty  \n British Telecom  \n IBM Power Virtual Server |
-| São Paulo 2 | Ascenty  \n  Equinix  \n Level3  \n Lumen  \n Neutrona |
-| São Paulo 5 | Ascenty |
+| São Paulo 1 | Ascenty, a Digital Realty Company  \n British Telecom  \n IBM Power Virtual Server |
+| São Paulo 2 | Ascenty, a Digital Realty Company  \n  Equinix  \n Level3  \n Lumen  \n Neutrona |
+| São Paulo 5 | Ascenty, a Digital Realty Company |
 | Seoul 2 | KINX |
 | Singapore 1 | Digital Realty  \n Megaport[^singapore2] |
-| Stockholm 2 | Telia |
 | Sydney 2 | Equinix  \n Megaport |
 | Sydney 3 | Console Connect  \n NextDC |
 | Sydney 4 | IBM Power Virtual Server |
