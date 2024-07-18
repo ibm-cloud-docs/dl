@@ -50,7 +50,7 @@ To get started using {{site.data.keyword.dl_full_notm}} Connect, follow these [i
 
 * If you require a diverse, redundant, or multi-cloud deployment for Direct Link Connect, see [Alternatives for your Direct Link Connect deployment](/docs/dl?topic=dl-alternatives-for-your-ibm-cloud-direct-link-deployment).
 
-* For more information about {{site.data.keyword.dl_short}} offerings, see our [FAQs](/docs/dl?topic=dl-faqs).
+* For more information about {{site.data.keyword.dl_short}} offerings, see the [FAQs](/docs/dl?topic=dl-faqs).
 
 Currently, a migration path does not exist from {{site.data.keyword.dlc_short}} offerings to {{site.data.keyword.dl_short}}. You must order a new {{site.data.keyword.dl_short}} Dedicated or {{site.data.keyword.dl_short}} Connect connection.
 {: note}

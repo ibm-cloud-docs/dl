@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020, 2023
-lastupdated: "2022-10-09"
+  years: 2020, 2024
+lastupdated: "2024-07-18"
 
 keywords: direct link
 
@@ -17,12 +17,12 @@ subcollection: dl
 
 Known limitations are as follows:
 
-* VPC networking doesn't consider the AS path length when selecting the best route for network traffic and therefore, AS prepends configured on direct links have no effect when VPCs are directly connected. However, you can use a transit gateway between the direct link and VPC in some topologies to achieve the desired effect. For planning considerations, see [Using AS prepends with VPN connections](/docs/dl?topic=dl-dl-planning-considerations&interface=ui#as-prepends-routes).
+* VPC networking doesn't consider the AS path length when selecting the best route for network traffic. Therefore, AS prepends configured on direct links have no effect when VPCs are directly connected. However, you can use a transit gateway between the direct link and VPC in some topologies to achieve the wanted effect. For planning considerations, see [Using AS prepends with VPN connections](/docs/dl?topic=dl-dl-planning-considerations&interface=ui#as-prepends-routes).
 * Each {{site.data.keyword.dl_full_notm}} connection requires a unique order. If you require multiple connections, open an {{site.data.keyword.dl_full_notm}} order for each connection.
 * Direct Link Dedicated is a switchport in access mode. Currently, 802.1q is not supported.
 * {{site.data.keyword.dl_full_notm}} requires BGP to establish the routes to a customer's remote network.
 * Each {{site.data.keyword.dl_full_notm}} service is not redundant. Diversity can be supplied by IBM for multiple direct links. However, customers must build redundancy in their own BGP schemes.
-* If you want to connect to the classic infrastructure, be aware that IP subnet overlaps might exist and require exception approval. For more information, see [Configuring BGP](/docs/direct-link?topic=direct-link-configure-ibm-cloud-direct-link#configuring-bgp).
+* If you want to connect to the classic infrastructure, keep in mind that IP subnet overlaps might exist and require exception approval. For more information, see [Configuring BGP](/docs/direct-link?topic=direct-link-configure-ibm-cloud-direct-link#configuring-bgp).
 * The {{site.data.keyword.cloud_notm}} services network isn't accessible directly from your remote networks.
 * {{site.data.keyword.cloud_notm}} doesn't permit customers to back haul traffic between their remote sites across the {{site.data.keyword.cloud_notm}} backbone. Use {{site.data.keyword.dl_full_notm}} to let your remote networks communicate privately with your {{site.data.keyword.cloud_notm}} infrastructure.
 * {{site.data.keyword.dl_full_notm}} requires you to use a VRF (Virtual Routing and Forwarding) instance.

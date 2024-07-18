@@ -21,7 +21,7 @@ View details about the {{site.data.keyword.cloud_notm}} data centers where {{sit
 
 The following table provides details about the {{site.data.keyword.cloud_notm}} data centers where {{site.data.keyword.dl_short}} Dedicated is available. Choose a tab to see locations for Americas, APAC, and EMEA.
 
-|**IBM Location Code** | **Location Type** | **Meet Me Room Operator**| **Operator Site Code** |
+| IBM Location Code  |  Location Type  |  Meet Me Room Operator |  Operator Site Code  |
 |-----------------|-----------------|-----------------|--------------------|
 | Chicago 1 | PoP | Equinix  | CH4 |
 | Dallas 3 | PoP 1 | Equinix | DA1 |
@@ -77,7 +77,7 @@ The following table provides details about the {{site.data.keyword.cloud_notm}} 
 | Sydney 5 | DC | Equinix | SY4 |
 | Taipei 1 | PoP | Chief Telecom | TPE01 |
 | Tokyo 1 | Pop | Equinix | TY2  |
-| Tokyo 2 | DC | At Toyko | TOK02 |
+| Tokyo 2 | DC | At Tokyo | TOK02 |
 | Tokyo 3 | PoP 2 | Equinix | TY4 |
 | Tokyo 4 | DC | Softbank | |
 | Tokyo 5 | DC | NTT |  |

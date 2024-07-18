@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2018, 2022
-lastupdated: "2022-06-01"
+  years: 2018, 2024
+lastupdated: "2024-07-18"
 
 keywords: direct link
 
@@ -15,10 +15,10 @@ subcollection: dl
 # Comparing Layer-2 and Layer-3 connections for {{site.data.keyword.dl_short}}
 {: #comparing-layer-2-layer-3}
 
-{{site.data.keyword.dl_full}} accepts OSI Layer-2 and Layer-3 partner interconnections from network service providers (NSPs). Some network service providers offer services for both of these layers on different networks, however, some providers might choose **not** to interconnect all of their networks into {{site.data.keyword.cloud_notm}}.
+{{site.data.keyword.dl_full}} accepts OSI Layer-2 and Layer-3 partner interconnections from network service providers (NSPs). However, some network service providers offer services for both of these layers on different networks some providers might choose not to interconnect all of their networks into {{site.data.keyword.cloud_notm}}.
 {: shortdesc}
 
-When planning your {{site.data.keyword.dl_short}} deployment, consider the characteristics that are associated with Layer-2 and Layer-3 connections, so you can create a deployment that best suits your needs.
+When you plan your {{site.data.keyword.dl_short}} deployment, consider the characteristics that are associated with Layer-2 and Layer-3 connections, so you can create a deployment that best suits your needs.
 
 ## Considerations for Layer-2 connections
 {: #layer-2-networks}
@@ -35,19 +35,19 @@ For each VLAN-based virtual circuit, which you create with a Layer-2 partner int
 
 For Layer-3 connections, for each virtual circuit, your service provider establishes a BGP session between {{site.data.keyword.cloud_notm}} XCRs and the provider's edge routers. You do not need to configure BGP with {{site.data.keyword.cloud_notm}} for your on-premises router because your service provider manages the BGP configuration to {{site.data.keyword.cloud_notm}}.
 
-When you order {{site.data.keyword.dl_short}} Connect via the IBM Cloud console, you need to populate the Layer-3 provider's ASN for the BGP session, not your customer ASN.
+When you order {{site.data.keyword.dl_short}} Connect through the IBM Cloud console, you need to populate the Layer-3 provider's ASN for the BGP session, not your customer ASN.
 {: important}
 
 * Layer-3 IP VPN or AVPN networks enable "any-to-any" connectivity.
 * Layer-3 networks require the network service provider to maintain a BGP session between the enterprise and {{site.data.keyword.cloud_notm}}.
-* Certain network service providers might restrict certain functionalities across their network when using Layer-3 connections, such as ASN prepend, GRE tunneling, and so forth. Be sure to check with your provider about possible restrictions.
+* Certain network service providers might restrict certain functions across their network when you use Layer-3 connections, such as ASN prepends, GRE tunneling. Be sure to check with your provider about possible restrictions.
 
 ## Provider interconnection table
 {: #partner-interconnection-table}
 
 The following table summarizes the type of connections that each {{site.data.keyword.cloud_notm}} partner provides.
 
-| Partners | Interconnection type |
+| Business Partners | Interconnection type |
 |-------|-------|
 | AT&T NetBond for Cloud | **Layer 3** |
 | AT&T Cloud Gateway (formerly known as RedFringe)| **Layer 3** |

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021, 2024
-lastupdated: "2024-06-19"
+lastupdated: "2024-07-18"
 
 keywords: troubleshooting, direct link
 
@@ -12,12 +12,12 @@ subcollection: dl
 
 {{site.data.keyword.attribute-definition-list}}
 
-# My connection is down after scheduled Direct Link maintenance. What should I do?
+# The connection is down after scheduled Direct Link maintenance. What can be done?
 {: #troubleshoot-connection-down-after-scheduled-maintenance}
 {: troubleshoot}
 {: support}
 
-There is no connectivity after scheduled maintenance on my direct link.
+Experiencing no connectivity after scheduled maintenance on the direct link.
 {: shortdesc}
 
 My connection is down.
