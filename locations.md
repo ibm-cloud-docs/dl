@@ -167,7 +167,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect service provide
 | SES Networks | **Americas**: Washington DC 2 | | |
 | SoftBank | **APAC**: Tokyo 4 | |
 | TATA | **APAC**: Chennai 1, Hong Kong 1 | | |
-| Telia | **Americas**: Dallas 3, Washington DC 2  \n **EU**: Stockholm 2 | | |
+| Telia | **Americas**: Dallas 3, Washington DC 2 | | |
 | Tokai | **APAC**: Osaka 1, Tokyo 3 | |
 | Verizon SCI | **Americas**: Dallas 3, San Jose 2, Washington DC 2  \n **EU**: Amsterdam 2, Frankfurt 1 | |
 | Vodafone | **EU**: Frankfurt 1, Frankfurt 3, London 1, London 3 | |
@@ -222,7 +222,6 @@ The following table lists {{site.data.keyword.dl_short}} Connect service provide
 | São Paulo 5 | Ascenty, a Digital Realty Company |
 | Seoul 2 | KINX |
 | Singapore 1 | Digital Realty  \n Megaport[^singapore2] |
-| Stockholm 2 | Telia |
 | Sydney 2 | Equinix  \n Megaport |
 | Sydney 3 | Console Connect  \n NextDC |
 | Sydney 4 | IBM Power Virtual Server |
