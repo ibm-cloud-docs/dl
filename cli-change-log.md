@@ -2,7 +2,7 @@
 
 copyright:
   years: 2022, 2024
-lastupdated: "2024-07-15"
+lastupdated: "2024-07-19"
 
 keywords: direct link cli change log
 
@@ -17,7 +17,7 @@ content-type: release-note
 # Direct Link CLI change log
 {: #direct-link-cli-change-log}
 
-Learn about the latest changes, improvements, and updates for the IBM Cloud Direct Link CLI plug-in (`ibmcloud dl`). Changes to existing CLI versions are compatible with existing client applications.
+Learn about recent changes, improvements, and updates for the IBM Cloud Direct Link CLI plug-in (`ibmcloud dl`). Changes to existing CLI versions are compatible with existing client applications.
 {: shortdesc}
 
 To learn about general updates and improvements to Direct Link offerings, see the [Release notes for Direct Link](/docs/dl?topic=dl-direct-link-release-notes).

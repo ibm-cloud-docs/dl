@@ -2,7 +2,7 @@
 
 copyright:
   years: 2022, 2024
-lastupdated: "2024-07-15"
+lastupdated: "2024-07-19"
 
 keywords: direct link api change log
 
@@ -50,7 +50,7 @@ Route report enhancements
 {: #dl-march1623}
 
 BGP route filter support
-:   New commands: Gateway export route filters
+:   New commands: Export route filters
 
    * List export route filters - `GET /gateways/{gateway_id}/export_route_filters`
    * Create an export route filter - `POST /gateways/{gateway_id}/export_route_filters`
@@ -59,7 +59,7 @@ BGP route filter support
    * Retrieves the specified Direct Link export route filter - `GET /gateways/{gateway_id}/export_route_filters/{id}`
    * Updates the specified Direct Link export route filter - `PATCH /gateways/{gateway_id}/export_route_filters/{id}`
 
-:   New commands: Gateway import route filters
+:   New commands: Import route filters
 
    * List import route filters - `GET /gateways/{gateway_id}/import_route_filters`
    * Create an import route filter - `POST /gateways/{gateway_id}/import_route_filters`
