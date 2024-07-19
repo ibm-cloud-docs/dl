@@ -44,7 +44,7 @@ Context-based restrictions protect only the actions associated with the [Direct 
 ## Creating rules
 {: #dl-creating-rules}
 
-Context-based restrictions for the Direct Link service can be scoped to a Direct Link service resource type. The Direct Link Service has two applicable resource types: `connect` and `dedicated`.
+Context-based restrictions for the Direct Link service can be scoped to a Direct Link service resource type. The Direct Link Service has two applicable reso(/docs/account?topic=account-cbr-plugin#cbr-zones-cliurce types: `connect` and `dedicated`.
 
 Also, rules can be scoped to a specific instance of the service, or a resource group by using resource attributes.
 
@@ -52,8 +52,8 @@ Also, rules can be scoped to a specific instance of the service, or a resource g
 {: #dl-creating-rules-cli}
 {: cli}
 
-1. To create rules from the CLI, [install the CBR CLI plug-in](/docs/account?topic=cli-cbr-plugin#install-cbr-plugin).
-1. Use the [`ibmcloud cbr rule-create` command](/docs/account?topic=cli-cbr-plugin#cbr-cli-rule-create-command) to create CBR rules. For more information, see the CBR [CLI reference](/docs/account?topic=cli-cbr-plugin#cbr-zones-cli).
+1. To create rules from the CLI, [install the CBR CLI plug-in](/docs/account?topic=account-cbr-plugin).
+1. Use the [`ibmcloud cbr rule-create` command](/docs/account?topic=account-cbr-plugin#cbr-cli-rule-create-command) to create CBR rules. For more information, see the CBR [CLI reference](/docs/account?topic=account-cbr-plugin#cbr-zones-cli).
 
 The examples in this section are enforcement rules. You can make them report-only by adding `--enforcement-mode report`.
 
