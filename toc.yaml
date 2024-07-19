@@ -109,6 +109,10 @@ toc:
             - data-security.md
             - cbr.md
         - topicgroup:
+            label: Observability
+            topics:
+            - at_events.md
+        - topicgroup:
             label: Direct Link hazardous change remediation
             topics:
             - hcr-enable-service-network-routes.md
