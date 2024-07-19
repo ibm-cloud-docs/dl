@@ -106,6 +106,7 @@ toc:
                  label: Privately connecting to Direct Link
                  topics:
                  - vpe.md
+            - data-security.md
             - cbr.md
         - topicgroup:
             label: Direct Link hazardous change remediation

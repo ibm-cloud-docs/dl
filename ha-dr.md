@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020
-lastupdated: "2020-07-02"
+  years: 2020, 2024
+lastupdated: "2024-07-18"
 
 keywords: direct link
 
@@ -28,17 +28,17 @@ You are responsible for understanding your connection configuration, customizati
 ## High availability for customer {{site.data.keyword.dl_short}} connections
 {: #high-availability-customer}
 
-Your {{site.data.keyword.dl_short}} connections are location specific. It is up to you to set up any High Availability or Disaster Recovery plans that are required. For information on how to design Diversity to achieve HA with Direct Link, see [Models for diversity and redundancy in Direct Link](/docs/dl?topic=dl-models-for-diversity-and-redundancy-in-direct-link).
+Your {{site.data.keyword.dl_short}} connections are location-specific. It is up to you to set up any High Availability or Disaster Recovery plans that are required. For information on how to design Diversity to achieve HA with Direct Link, see [Models for diversity and redundancy in Direct Link](/docs/dl?topic=dl-models-for-diversity-and-redundancy-in-direct-link).
 
 ## Disaster recovery
 {: #disaster-recovery}
 
-In the event of a catastrophic failure impacting an entire region, and the {{site.data.keyword.dl_short}} physical link between on-premises and {{site.data.keyword.cloud_notm}} was in that region, you would experience an outage. If you require a highly available connection to {{site.data.keyword.cloud_notm}}, it is imperative that you have a redundant connection in a second region. If you decide to rely on a single connection, it is recommended that you back up all configuration elements in case you would ever have to recreate your {{site.data.keyword.dl_short}} gateway and virtual connections. For information on how to design Diversity to achieve HA with Direct Link, see [Models for diversity and redundancy in Direct Link](/docs/dl?topic=dl-models-for-diversity-and-redundancy-in-direct-link).
+In the event of a catastrophic failure that impacts an entire region, and the {{site.data.keyword.dl_short}} physical link between on-premises and {{site.data.keyword.cloud_notm}} was in that region, you would experience an outage. If you require a highly available connection to {{site.data.keyword.cloud_notm}}, it is imperative that you have a redundant connection in a second region. If you decide to rely on a single connection, it is recommended that you back up all configuration elements in case you would ever have to re-create your {{site.data.keyword.dl_short}} gateway and virtual connections. For information on how to design Diversity to achieve HA with Direct Link, see [Models for diversity and redundancy in Direct Link](/docs/dl?topic=dl-models-for-diversity-and-redundancy-in-direct-link).
 
 ### Backing up {{site.data.keyword.dl_short}} gateways for disaster recovery
 {: #disaster-recovery-dl}
 
-You must be prepared to recreate your {{site.data.keyword.dl_short}} gateways and connections. This section helps you ensure that you have all the data needed.
+Be prepared to re-create your {{site.data.keyword.dl_short}} gateways and connections. This section helps you ensure that you have all the data needed.
 
 {{site.data.keyword.dl_short}} backups are cross-regionally durable. Backups are stored across multiple regions, and are restorable to other regions.
 {: note}
@@ -53,4 +53,4 @@ The following steps use the IBM Cloud CLI, but you can also use the {{site.data.
 
 For more information, see the [{{site.data.keyword.dl_short}} CLI reference](/docs/dl?topic=dl-dl-cli).
 
-Saving the information returned from these commands helps you recover from a failure quickly. In the event of a failure, use the saved information and run the `ibmcloud dl gateway-create` and `ibmcloud dl virtual-connection-create` commands to recreate your direct links and their connections.
+Saving the information that is returned from these commands helps you recover from a failure quickly. If a failure occurs, use the saved information and run the `ibmcloud dl gateway-create` and `ibmcloud dl virtual-connection-create` commands to re-create your direct links and their connections.

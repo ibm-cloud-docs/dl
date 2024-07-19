@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020
-lastupdated: "2024-07-16"
+lastupdated: "2024-07-18"
 
 keywords: IAM access for Direct Link, permissions for Direct Link, identity and access management for Direct Link, roles for Direct Link, actions for  Direct Link, assigning access for Direct Link
 
@@ -15,18 +15,18 @@ subcollection: dl
 # Managing IAM access for {{site.data.keyword.dl_full_notm}}
 {: #iam}
 
-Access to Direct Link gateways for users in your account is controlled by {{site.data.keyword.cloud}} Identity and Access Management (IAM). Every user that accesses the {{site.data.keyword.dl_short}} service in your account must be assigned an access policy with an IAM role. Review the following roles, actions, and more to help determine the best way to assign access to {{site.data.keyword.dl_short}}.
+{{site.data.keyword.cloud}} Identity and Access Management (IAM) controls access to Direct Link gateways for users in your account. Every user that accesses the {{site.data.keyword.dl_short}} service in your account must be assigned an access policy with an IAM role. Review the following roles, actions, and more to help determine the best way to assign access to {{site.data.keyword.dl_short}}.
 {: shortdesc}
 
 {{site.data.keyword.dl_full}} enables connectivity between customer on-premises resources to {{site.data.keyword.cloud_notm}} resources that are hosted in classic and Virtual Private Cloud (VPC) infrastructures.
 {: note}
 
-The access policy that you assign users in your account determines what actions a user can perform within the context of the service or specific instance that you select. The allowable actions are customized and defined by the direct link as operations that are allowed to be performed on the service. Each action is mapped to an IAM platform or service role that you can assign to a user.
+The access policy that you assign users in your account determines what actions a user can perform within the context of the service or specific instance that you select. The direct link customizes and defines the allowable actions as operations that are allowed to be performed on the service. Each action is mapped to an IAM platform or service role that you can assign to a user.
 
 If a specific role and its actions don't fit the use case that you're looking to address, you can [create a custom role](/docs/account?topic=account-custom-roles&interface=ui#custom-access-roles) and pick the actions to include.
 {: tip}
 
-IAM access policies enable access to be granted at different levels. Some of the options include the following:
+IAM access policies enable access to be granted at different levels. Some options include:
 
 * Access across the instance of the Direct Link service in your account
 * Access to an individual service instance in your account
@@ -41,7 +41,7 @@ Review the following table that outlines what types of tasks each role allows fo
 |---|---|---|
 | Administrator | Allows a user to assign {{site.data.keyword.dl_short}} IAM access policies to other users. | Create gateway  \n Delete gateway  \n Edit gateway  \n Add a virtual connection to a gateway&ast;  \n Remove a virtual connection from a gateway&ast;  \n Edit a virtual connection (API only)  \n Update user access policies for the service |
 | Editor | Performs all actions, including managing gateways and virtual connections. | Create gateway  \n Delete gateway  \n Edit gateway  \n Add a virtual connection to a gateway&ast;  \n Remove a virtual connection from a gateway&ast;  \n Edit a virtual connection (API only) |
-| Viewer/Operator | Performs actions that don't change the state of resources. | List gateways  \n Get gateways  \n List a gateway's virtual connections  \n View a gateway's virtual connections  \n Retrieve gateway-related information (completion notice/letter of authorization)  \n View incoming connection requests&ast; |
+| Viewer/Operator | Performs actions that don't change the state of resources. | List gateways  \n Get gateways  \n List a gateway's virtual connections  \n View a gateway's virtual connections  \n Retrieve gateway-related information (completion notice of authorization)  \n View incoming connection requests&ast; |
 {: caption="Table 1. IAM platform-access user role and actions" caption-side="bottom"}
 
 &ast; To add or remove virtual connections to VPCs, or to accept or reject a connection request, the user must also have Editor or Administrator platform-access role permissions to the VPC. See [VPC: Getting started with IAM](/docs/vpc?topic=vpc-iam-getting-started) for more information.
@@ -55,7 +55,7 @@ Review the following table that outlines what types of tasks each role allows fo
 {: #assign-access-console}
 {: ui}
 
-There are two common ways to assign access in the console:
+Common ways to assign access in the console:
 
 * Access policies per user. You can manage access policies per user from the **Manage** > **Access (IAM)** > **Users** page in the console. For information about the steps to assign IAM access, see [Managing access to resources](/docs/account?topic=account-assign-access-resources&interface=ui#access-resources-console).
 * Access groups. Access groups are used to streamline access management by assigning access to a group once, then you can add or remove users as needed from the group to control their access. You manage access groups and their access from the **Manage** > **Access (IAM)** > **Access groups** page in the console. For more information, see [Assigning access to a group in the console](/docs/account?topic=account-groups&interface=ui#access_ag).
@@ -65,13 +65,13 @@ There are two common ways to assign access in the console:
 
 The following table shows the authorization changes for cross-account virtual connections.
 
-   A cross-account virtual connection means that the gateway exists in an IBM Cloud account and a virtual connection in that gateway connects to a VPC in a different IBM Cloud account. This setup requires special authorization considerations because the objects (the directlink gateway and the VPC) and their resource groups do not exist in both accounts.
+   A cross-account virtual connection means that the gateway exists in an IBM Cloud account and a virtual connection in that gateway connects to a VPC in a different IBM Cloud account. This setup requires special authorization considerations because the objects (the direct link and the VPC) and their resource groups do not exist in both accounts.
    {: note}
 
 | Related account | Capability | Required authorization |
 |---|---|---|
 | Gateway account | Any capabilities not mentioned in this table. | No authorization changes. |
-| Gateway account | Create and delete a cross-account virtual connection. | `directlink.dedicated.edit` or `directlink.connect.edit`  \n No VPC authorization required at create or delete time. |
+| Gateway account | Create and delete a cross-account virtual connection. | `directlink.dedicated.edit` or `directlink.connect.edit`  \n No VPC authorization that is required at create or delete time. |
 | Network account | View read-only gateways and virtual connections. | Service-level `directlink.dedicated.view` or `directlink.connect.view` |
 | Network account | Accept and reject pending connections. | Service-level `directlink.dedicated.view` or `directlink.connect.view`  \n Update authorization on the connected VPC. |
 | Network account | `DELETE` attached virtual connection. | Service-level `directlink.dedicated.view` or `directlink.connect.view`  \n  Update authorization on the connected VPC. |
@@ -95,7 +95,7 @@ ibmcloud iam user-policy-create USER@EXAMPLE.COM --service-name directlink --rol
 {: #assign-access-api}
 {: api}
 
-For step-by-step instructions for assigning, removing, and reviewing access, see [Assigning access to resources by using the API](/docs/account?topic=account-assign-access-resources&interface=api) or the [Create a policy API docs](/apidocs/iam-policy-management#create-policy). Role cloud resource names (CRN) in the following table are used to assign access with the API.
+For step-by-step instructions for assigning, removing, and reviewing access, see [Assigning access to resources by using the API](/docs/account?topic=account-assign-access-resources&interface=api) or the [Create a policy API doc](/apidocs/iam-policy-management#create-policy). Role cloud resource names (CRN) in the following table are used to assign access with the API.
 
 | Role name | Role CRN |
 |---------------|-----------------|
@@ -108,7 +108,7 @@ For step-by-step instructions for assigning, removing, and reviewing access, see
 | Manager        | `crn:v1:bluemix:public:directlink::::serviceRole:Manager`       |
 {: caption="Table 3. Role ID values for API use" caption-side="bottom"}
 
-Use `directlink` for the service name, and refer to the Role ID values table to ensure that you're using the correct value for the CRN.
+Use `directlink` for the service name, and refer to the Role ID values table to make sure that you're using the correct value for the CRN.
 {: tip}
 
 The following policy assigns a user Writer role to all `serviceName=directlink` resources in the account.
