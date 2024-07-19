@@ -44,7 +44,7 @@ Context-based restrictions protect only the actions associated with the [Direct 
 ## Creating rules
 {: #dl-creating-rules}
 
-Context-based restrictions for the Direct Link service can be scoped to a Direct Link service resource type. The Direct Link Service has two applicable reso(/docs/account?topic=account-cbr-plugin#cbr-zones-cliurce types: `connect` and `dedicated`.
+Context-based restrictions for the Direct Link service can be scoped to a Direct Link service resource type. The Direct Link service has two applicable resource types:`connect` and `dedicated`.
 
 Also, rules can be scoped to a specific instance of the service, or a resource group by using resource attributes.
 
