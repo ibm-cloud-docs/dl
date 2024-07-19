@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2024
-lastupdated: "2024-06-20"
+lastupdated: "2024-07-19"
 
 keywords: direct link
 
@@ -17,7 +17,7 @@ subcollection: dl
 
 Follow these steps to order Direct Link Connect from DE-CIX:
 
-1. Navigate to the [Login - DE-CIX portal](https://portal.de-cix.net/login){: external} and enter your Username and Password, then click **Login**.
+1. Open the [Login - DE-CIX portal](https://portal.de-cix.net/login){: external} and enter your username and password, then click **Login**.
 1. Click **Add Service**, then select **Add DirectCLOUD Service**.
 1. On the Choose your Provider page, select **IBM Cloud** and click **Next**.
 
@@ -33,8 +33,8 @@ Follow these steps to order Direct Link Connect from DE-CIX:
    * **Metro Area of your Access**: Location of your DE-CIX access port
    * **External reference**: _Optional_
    * **Purchase order**: _Optional_
-   * **Subscriber CIDR**: IP Address of your router
-   * **Provider CIDR**: IP Address of the IBM Cloud router
+   * **Subscriber CIDR**: IP address of your router
+   * **Provider CIDR**: IP address of the IBM Cloud router
    * **ASN**: AS number of your router
    * **Bandwidth**: Bandwidth of the connection that you want
 
@@ -50,7 +50,7 @@ Follow these steps to order Direct Link Connect from DE-CIX:
 
 1. Select a VLAN ID for the service, then click **Next**.
 
-   If you have any questions regarding the options on this page, contact the DE-CIX support team.
+   If you have any questions regarding these options, contact the DE-CIX support team.
    {: note}
 
    ![Configure VLANs page](images/decix-configure-vlans.png "Configure VLANs page"){: caption="Configure VLANs page" caption-side="bottom"}
@@ -77,6 +77,6 @@ Follow these steps to order Direct Link Connect from DE-CIX:
 
    ![Direct Link created](images/decix-direct-link.png "Direct Link created"){: caption="Direct Link created" caption-side="bottom"}
 
-   If you switch back to the DE-CIX portal, you should see the following page after some time. The status on this page shows you that your direct link was created successfully.
+   If you switch back to the DE-CIX portal, you should see the following page after some time. The status shows you that your direct link was created successfully.
 
    ![Cloud order completed](images/decix-order-completed.png "Cloud order completed"){: caption="Cloud order completed" caption-side="bottom"}
