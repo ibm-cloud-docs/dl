@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020
-lastupdated: "2024-07-18"
+lastupdated: "2024-07-31"
 
 keywords: IAM access for Direct Link, permissions for Direct Link, identity and access management for Direct Link, roles for Direct Link, actions for  Direct Link, assigning access for Direct Link
 
@@ -34,7 +34,7 @@ IAM access policies enable access to be granted at different levels. Some option
 
 Review the following table that outlines what types of tasks each role allows for when you're working with the {{site.data.keyword.dl_short}} service. Platform management roles enable users to perform tasks on service resources at the platform level, for example, assign user access to the service, and create or delete instances.
 
-{{site.data.keyword.dl_short}} does not have service-access roles, which enable users access to Direct Link and the ability to call the Direct Link API. For information about the exact actions that are mapped to each role, see [{{site.data.keyword.dl_short}}](/docs/account?topic=account-iam-service-roles-actions#directlink-roles).
+{{site.data.keyword.dl_short}} does not have service-access roles, which enable users access to Direct Link and the ability to call the Direct Link API. For information about the exact actions that are mapped to each role, see [{{site.data.keyword.dl_short}}](/docs/account?topic=account-iam-service-roles-actions#directlink.connect-roles).
 {: note}
 
 | Platform role | Description of actions | Example actions |
