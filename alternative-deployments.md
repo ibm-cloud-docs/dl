@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2024
-lastupdated: "2024-07-15"
+lastupdated: "2024-08-12"
 
 keywords: direct link
 
@@ -31,4 +31,4 @@ You can also establish diverse Connect deployments with IBM Cloud Direct Link, a
 
 Some customers want to use Direct Link Connect along with other cloud providers, such as AWS, Azure, or Google Cloud. The following schematic shows an overview of how to establish this type of connection with a telco (service provider).
 
-![Other Clouds Connect](images/connect_alt_3.png "Other Clouds Connect"){: caption="Figure 2. Using Direct Link Connect in conjunction with other clouds" caption-side="bottom"}
+![Other Clouds Connect](images/connect_alt_3.png "Other Clouds Connect"){: caption="Figure 2. Using Direct Link Connect in conjunction with other clouds. Displays a single Direct Link, not a diverse deployment." caption-side="bottom"}
