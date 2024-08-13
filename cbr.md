@@ -2,7 +2,7 @@
 
 copyright:
   years:  2023, 2024
-lastupdated: "2024-07-19"
+lastupdated: "2024-08-13"
 
 keywords:
 
@@ -76,7 +76,7 @@ These example CLI commands create a context-based restriction rule for Direct Li
 * Creates an enabled rule against the Direct Link Connect service instance in the current account with an ID of `y` in ResourceGroup `x`.
 
    ```sh
-   ibmcloud cbr rule-create --description directlink-rule3 --service-name directlink --resource-type dedicated --resource-attributes "resource=<id_y>,resourceGroupId=<rg_x_id>" --zone-id=<zone_id> --enforcement-mode disabled
+   ibmcloud cbr rule-create --description directlink-rule3 --service-name directlink --resource-type dedicated --resource-attributes "resource=<id_y>,resourceGroupId=<rg_x_id>" --zone-id=<zone_id> --enforcement-mode enabled
    ```
    {: pre}
 
