@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2024
-lastupdated: "2024-07-19"
+lastupdated: "2024-08-29"
 
 keywords: faqs
 
@@ -18,7 +18,7 @@ subcollection: dl
 You can review answers to some frequently asked questions about {{site.data.keyword.dl_full}}.
 {: shortdesc}
 
-## How does the new {{site.data.keyword.dl_short}} differ from {{site.data.keyword.dlc_short}}?
+## How does {{site.data.keyword.dl_short}} differ from {{site.data.keyword.dlc_short}}?
 {: #differentiators}
 {: faq}
 {: support}
@@ -30,11 +30,11 @@ Direct Link allows connectivity to both classic IaaS as well as VPCs, whereas {{
 For more information about the differences between the new {{site.data.keyword.dl_short}} offering and the classic version (Direct Link on Classic), see [How do I know which {{site.data.keyword.dl_short}} solution to order?](/docs/direct-link?topic=direct-link-get-started-with-ibm-cloud-direct-link#get-started-solution-to-order).
 {: tip}
 
-## Where can I find Direct Link pricing and what do I pay for?
+## Direct Link pricing 
 {: #pricing-billing}
 {: faq}
 
-See the following FAQs for details.
+See the following FAQs for pricing details.
 
 ### Where do I find cost estimates for Direct Link offerings?
 {: #pricing}
