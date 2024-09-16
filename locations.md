@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2024
-lastupdated: "2024-07-31"
+lastupdated: "2024-09-16"
 
 keywords: direct link
 
@@ -136,7 +136,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect service provide
 | BBIX | **APAC**: Tokyo 1, Tokyo 3 | |
 | BlueFringe | **Americas**: Dallas 3, Washington DC 2  \n **APAC**: Chennai 1  \n **EU**: Amsterdam 2, Frankfurt 3 | |
 | British Telecom | **Americas**: São Paulo 1  \n **EU**: Frankfurt 1, Frankfurt 3, London 1, London 3 | ![Checkmark icon](../icons/checkmark-icon.svg) |
-| Chief Telecom | **APAC**: Hong Kong 1, Taipei 1 | |
+| Chief Telecom | **APAC**: Hong Kong 1, Hong Kong 3, Taipei 1 | |
 | China Unicom | **Americas**: San Jose 2  \n **APAC**: Hong Kong 3  \n  **EU**: Frankfurt 3 | |
 | Cloudflare | **Americas**: Dallas 3, Los Angeles 1, Washington DC 2| |
 | Cologix | **Americas**: Chicago 1, Montreal 2, Toronto 2, Washington DC 2 |  ![Checkmark icon](../icons/checkmark-icon.svg) |
@@ -196,7 +196,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect service provide
 | Frankfurt 4 | DE-CIX  \n IBM Power Virtual Server |
 | Frankfurt 5 | Console Connect  \n DE-CIX  \n IBM Power Virtual Server |
 | Hong Kong 1 | Console Connect  \n Chief Telecom  \n Epsilon  \n TATA |
-| Hong Kong 3 | China Unicom  \n Colt  \n Megaport  \n Zenlayer |
+| Hong Kong 3 | Chief Telecom  \n China Unicom  \n Colt  \n Megaport  \n Zenlayer |
 | London 1 | AT&T NetBond for Cloud  \n British Telecom  \n Colt \n Console Connect  \n Epsilon  \n Equinix  \n IX Reach  \n nextGen GNPP  \n Vodafone |
 | London 3 | British Telecom  \n Colt  \n Equinix  \n IX Reach  \n Lumen  \n Megaport  \n nextGen GNPP  \n Orange Business Services  \n Vodafone |
 | London 4 | IBM Power Virtual Server  \n nextGen GNPP  |
