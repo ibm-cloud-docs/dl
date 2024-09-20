@@ -102,10 +102,12 @@ toc:
         - topicgroup:
             label: Enhancing security
             topics:
+            - architecture-workload-isolation.md
             - topicgroup:
-                 label: Privately connecting to Direct Link
-                 topics:
-                 - vpe.md
+                label: Privately connecting to Direct Link
+                topics:
+                - vpe.md
+                - service-endpoints.md
             - data-security.md
             - cbr.md
         - topicgroup:
