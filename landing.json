@@ -1,7 +1,6 @@
 {
   "version": 2,
   "title": "IBM Cloud Direct Link",
-  "lastupdated": "2024-09-20",
   "introduction": "The IBM Cloud Direct Link solution is designed to seamlessly connect your on-premises resources to your cloud resources. Leverage the docs, CLI, and API reference to plan for, provision, and manage your direct links.",
   "product_page": "https://www.ibm.com/products/direct-link",
   "console_page": "/interconnectivity/direct-link",
