@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021, 2024
-lastupdated: "2024-07-17"
+lastupdated: "2024-10-09"
 
 keywords: direct link
 
@@ -54,7 +54,7 @@ Review location support for Direct Link on Classic offerings versus Direct Link.
 | Washington DC 6 | ![Checkmark icon](../icons/checkmark-icon.svg) | ![Checkmark icon](../icons/checkmark-icon.svg) | ![Checkmark icon](../icons/checkmark-icon.svg) | ![Checkmark icon](../icons/checkmark-icon.svg)  |
 | Washington DC 7 | ![Checkmark icon](../icons/checkmark-icon.svg) | ![Checkmark icon](../icons/checkmark-icon.svg) |  |  |
 {: class="simple-tab-table"}
-{: caption="Table 1. Direct Link location comparison - Americas" caption-side="bottom"}
+{: caption="Direct Link location comparison - Americas" caption-side="bottom"}
 {: #simpletabtable1}
 {: tab-title="Americas"}
 {: tab-group="dedicated-simple"}
@@ -85,7 +85,7 @@ Review location support for Direct Link on Classic offerings versus Direct Link.
 | Tokyo 3 | ![Checkmark icon](../icons/checkmark-icon.svg) | ![Checkmark icon](../icons/checkmark-icon.svg) | ![Checkmark icon](../icons/checkmark-icon.svg) | ![Checkmark icon](../icons/checkmark-icon.svg) |
 | Tokyo 4 | ![Checkmark icon](../icons/checkmark-icon.svg) | ![Checkmark icon](../icons/checkmark-icon.svg) | ![Checkmark icon](../icons/checkmark-icon.svg) | ![Checkmark icon](../icons/checkmark-icon.svg) |
 | Tokyo 5 | ![Checkmark icon](../icons/checkmark-icon.svg) | ![Checkmark icon](../icons/checkmark-icon.svg) | ![Checkmark icon](../icons/checkmark-icon.svg) | ![Checkmark icon](../icons/checkmark-icon.svg) |
-{: caption="Table 2. Direct Link location comparison - APAC" caption-side="bottom"}
+{: caption="Direct Link location comparison - APAC" caption-side="bottom"}
 {: #simpletabtable2}
 {: tab-title="APAC"}
 {: tab-group="dedicated-simple"}
@@ -118,7 +118,7 @@ Review location support for Direct Link on Classic offerings versus Direct Link.
 | Paris 1 | ![Checkmark icon](../icons/checkmark-icon.svg) | ![Checkmark icon](../icons/checkmark-icon.svg) | ![Checkmark icon](../icons/checkmark-icon.svg) | Checkmark icon](../icons/checkmark-icon.svg) |
 | Paris 2 | ![Checkmark icon](../icons/checkmark-icon.svg) | ![Checkmark icon](../icons/checkmark-icon.svg) | ![Checkmark icon](../icons/checkmark-icon.svg) | ![Checkmark icon](../icons/checkmark-icon.svg) |
 | Paris 3 |  | ![Checkmark icon](../icons/checkmark-icon.svg) | ![Checkmark icon](../icons/checkmark-icon.svg) | ![Checkmark icon](../icons/checkmark-icon.svg) |
-{: caption="Table 3. Direct Link location comparison - EMEA" caption-side="bottom"}
+{: caption="Direct Link location comparison - EMEA" caption-side="bottom"}
 {: #simpletabtable3}
 {: tab-title="EMEA"}
 {: tab-group="dedicated-simple"}
