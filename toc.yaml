@@ -102,6 +102,7 @@ toc:
         - topicgroup:
             label: Enhancing security
             topics:
+            - data-security.md
             - cbr.md
             - topicgroup:
                 label: Privately connecting to Direct Link
