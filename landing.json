@@ -1,50 +1,66 @@
 {
-    "title": "Direct Link docs",
-    "lastupdated": "2024-08-12",
-    "introduction": "The IBM Cloud Direct Link solution is designed to seamlessly connect your on-premises resources to your cloud resources. Leverage the docs, CLI, and API reference to plan for, provision, and manage your direct links.",
-    "section_devtools": {
-      "api": "/apidocs/direct_link",
-      "cli": "/docs/dl?topic=dl-get-started-with-ibm-cloud-dl",
-      "terraform": "https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs/resources/dl_gateway"
-    },
-    "section_recommended": [
+  "version": 2,
+  "title": "IBM Cloud Direct Link",
+  "introduction": "The IBM Cloud Direct Link solution is designed to seamlessly connect your on-premises resources to your cloud resources. Leverage the docs, CLI, and API reference to plan for, provision, and manage your direct links.",
+  "product_page": "https://www.ibm.com/products/direct-link",
+  "console_page": "/interconnectivity/direct-link",
+  "section_topics": {
+    "links": [
+      {
+        "title": "About IBM Cloud Direct Link",
+        "href": "/docs/dl?topic=dl-dl-about"
+      },
       {
         "title": "Ordering Direct Link Dedicated",
-        "description": "Terminate a single-tenant, fiber-based, cross connect into your own IBM Cloud private network connection. Also used by colocation facilities adjacent to IBM Cloud PoPs and data centers.",
         "href": "/docs/dl?topic=dl-how-to-order-ibm-cloud-dl-dedicated"
       },
       {
         "title": "Ordering Direct Link Connect",
-        "description": "Fast setup! Leverage a service provider to quickly establish and deliver connectivity to IBM Cloud locations. Ideal for multi-cloud environments with your service provider's network.",
         "href": "/docs/dl?topic=dl-how-to-order-ibm-cloud-dl-connect"
-      }
-    ],
-    "section_videos": [
+      },
       {
-        "title": "IBM Cloud Direct Link for hybrid cloud",
-        "href": "/docs/dl?topic=dl-offering-video",
-        "thumbnail": "images/thumbnail.png"
+        "title": "Models for diversity in Direct Link",
+        "href": "/docs/dl?topic=dl-models-for-diversity-and-redundancy-in-direct-link"
+      },
+      {
+        "title": "Alternatives for your Direct Link Connect deployment",
+        "href": "/docs/overview?topic=overview-get-started-checklist"
       }
-    ],
-    "section_learn": {
-      "developer": "https://developer.ibm.com/depmodels/cloud/",
-      "architecture": "https://www.ibm.com/architectures/hybrid",
-      "training": "https://www.ibm.com/training/cloud",
-      "community": "https://community.ibm.com/community/user/search?executeSearch=true&SearchTerm=direct+link&rf=%5eMulti04%3adirect%5e"
+    ]
+  },
+  "section_highlights": [
+    {
+      "title": "IBM Cloud Direct Link for hybrid cloud",
+      "description": "IBM Cloud Direct Link offerings provide connectivity from an external source into a customer's IBM Cloud private network.",
+      "href": "https://www.youtube.com/watch?v=ZRY2LPJREQw",
+      "type": "video"
     },
-    "section_updates": {
-      "view_more": "/docs/dl?topic=dl-direct-link-release-notes",
-      "tiles": [
-        {
-          "date": "01 May 2024",
-          "title": "Behavior change: Enable service network routes from Direct Link to non-Classic connections",
-          "description": "When a direct link is connected to a transit gateway, the direct link advertises all service network routes."
-        },
-        {
-          "date": "07 March 2024",
-          "title": "VLAN tagging support for Direct Link Dedicated",
-          "description":"VLAN's keep traffic from different networks separated when traversing shared links and devices within a topology. This process, also known as VLAN tagging, limits broadcast network traffic and secures network segments."
-        }
-      ]
+    {
+      "title": "Use IBM Direct Link for IBM Cloud network connectivity",
+      "description": "Learn how IBM Direct Link lets you provides connectivity from an on-premises external source into IBM Cloud privately and securely.",
+      "href": "https://developer.ibm.com/blogs/awb-direct-link-service-for-ibm-cloud-network-connectivity/?mhsrc=ibmsearch_a&mhq=direct%20link%20blog",
+      "type": "blog",
+      "recommended": true
     }
+  ],
+  "section_devtools": {
+    "api": "/apidocs/direct_link",
+    "cli": "/docs/dl?topic=dl-dl-cli",
+    "terraform": "https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs/resources/dl_gateway"
+  },
+  "section_updates": {
+    "view_more": "/docs/dl?topic=dl-direct-link-release-notes",
+    "tiles": [
+      {
+        "date": "01 May 2024",
+        "title": "Behavior change: Enable service network routes from Direct Link to non-Classic connections",
+        "description": "When a direct link is connected to a transit gateway, the direct link advertises all service network routes."
+      },
+      {
+        "date": "07 March 2024",
+        "title": "VLAN tagging support for Direct Link Dedicated",
+        "description":"VLAN's keep traffic from different networks separated when traversing shared links and devices within a topology. This process, also known as VLAN tagging, limits broadcast network traffic and secures network segments."
+      }
+    ]
   }
+}

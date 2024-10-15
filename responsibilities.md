@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2024
-lastupdated: "2024-07-18"
+lastupdated: "2024-10-09"
 
 keywords: direct link responsibilities
 
@@ -33,7 +33,7 @@ Incident and operations management includes tasks, such as monitoring, event man
 | Partnership | {{site.data.keyword.IBM_notm}} provides partner relationships with physical locations for {{site.data.keyword.dl_short}} interconnects. | The Customer is responsible for ordering connectivity services from appropriate partner.|
 | Performance | A Customer can achieve 99.99% effectively with two or more direct links that are properly configured for failover by using BGP, but IBM cannot control that. | The Customer is responsible for opening tickets if there is an outage to track performance. |
 | IP addressing | {{site.data.keyword.IBM_notm}} assigns the subnets to VPCs specified by the Customer. | The Customer is responsible for ensuring no IP overlap on their on-premises subnet. |
-{: caption="Table 1. Responsibilities for incident and operations" caption-side="bottom"}
+{: caption="Responsibilities for incident and operations" caption-side="bottom"}
 
 ## Change management
 {: #change-management}
@@ -46,7 +46,7 @@ Change management includes tasks, such as deployment, configuration, upgrades, p
 | API version changes| {{site.data.keyword.IBM_notm}} is responsible for versioning the REST APIs.  | The Customer is responsible for integrating with the wanted version of REST APIs. |
 | Scaling | {{site.data.keyword.IBM_notm}} is responsible for scaling infrastructure as requested and meeting the capacity that you selected. | The Customer is responsible for ordering the appropriate Direct Link port speed in the IBM Cloud console. |
 | Updates, fixes, and new features | {{site.data.keyword.IBM_notm}} is responsible for providing regular updates, bug fixes, and new features, following a continuous delivery model in a way that is transparent to you. Notifications are posted for changes that impact you.  | The Customer is responsible for reading system-generated notifications and taking appropriate action.
-{: caption="Table 2. Responsibilities for change management" caption-side="bottom"}
+{: caption="Responsibilities for change management" caption-side="bottom"}
 
 ## Traffic management
 {: #traffic-management}
@@ -59,7 +59,7 @@ Traffic management includes tasks, such as bandwidth monitoring, packet inspecti
 | API version changes| {{site.data.keyword.IBM_notm}} is responsible for versioning the REST APIs.  | The Customer is responsible for integrating with the wanted version of REST APIs. |
 | Scaling | {{site.data.keyword.IBM_notm}} is responsible for scaling infrastructure as requested and  meeting the capacity that you selected. | The Customer is responsible for ordering the appropriate Direct Link port speed in the IBM Cloud console. |
 | Updates, fixes, and new features | {{site.data.keyword.IBM_notm}} is responsible for providing regular updates, bug fixes, and new features, following a continuous delivery model in a way that is transparent to you. Notifications are posted for changes that impact you.  | The Customer is responsible for reading system-generated notifications and taking appropriate action.
-{: caption="Table 3. Responsibilities for traffic management" caption-side="bottom"}
+{: caption="Responsibilities for traffic management" caption-side="bottom"}
 
 ## Identity and access management
 {: #iam-responsibilities}
@@ -69,7 +69,7 @@ Identity and access management includes tasks, such as authentication, authoriza
 | Task | {{site.data.keyword.IBM_notm}} Responsibilities | Your Responsibilities |
 |----------|-----------------------|--------|
 | Identity and access | {{site.data.keyword.IBM_notm}} provides the function to restrict access to resources through the IBM Cloud console and REST APIs.  | The Customer is responsible for managing access to resources through IBM Cloud Identity and Access Management (IAM). |
-{: caption="Table 4. Responsibilities for identity and access management" caption-side="bottom"}
+{: caption="Responsibilities for identity and access management" caption-side="bottom"}
 
 ## Security and regulation compliance
 {: #security-compliance}
@@ -80,7 +80,7 @@ Security and regulation compliance includes tasks, such as security controls imp
 |---------------------------|------|-----|
 | Encryption | {{site.data.keyword.IBM_notm}} does not provide encryption capabilities.| The Customer is responsible for encryption of data on disk, in motion, and in backups. The Customer is also responsible for choosing and managing appropriate additional security features. If the Customer uses Key Protect (Bring Your Own Key), or another form of encryption, the Customer is responsible for managing the service authorization and keys. |
 | Security | {{site.data.keyword.IBM_notm}} is responsible for ensuring the security of data on disk and data in motion within its infrastructure. | The Customer is responsible for restricting user access to the appropriate resources and resource groups. |
-{: caption="Table 5. Responsibilities for security and regulation compliance" caption-side="bottom"}
+{: caption="Responsibilities for security and regulation compliance" caption-side="bottom"}
 
 ## Disaster recovery
 {: #disaster-recovery-responsibilities}
@@ -94,4 +94,4 @@ Disaster recovery includes tasks, such as providing dependencies on disaster rec
 | Host service in multiple regions | {{site.data.keyword.IBM_notm}} is responsible for hosting this service in multiple regions. | The Customer is responsible for designing and deploying their workload in a way that achieves the wanted availability and Disaster Recovery capabilities by using provided tools. For example, deploy in different zones of a region, use at least two load balancers that are located in different zones, and either use DNS records to point to the load balancers, or ensure that your application can handle a list of IP addresses that it can connect to. |
 | Backup user configuration data | {{site.data.keyword.IBM_notm}} is not responsible for backup of user configuration data. | The Customer is responsible for backup of configuration data, as needed. |
 | Backup and recovery of workload | {{site.data.keyword.IBM_notm}} is not responsible for backup or recovery of user configuration data. |  The Customer is responsible for backup and recovery of their workloads, as needed. |
-{: caption="Table 6. Responsibilities for disaster recovery" caption-side="bottom"}
+{: caption="Responsibilities for disaster recovery" caption-side="bottom"}

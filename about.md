@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2024
-lastupdated: "2024-07-19"
+lastupdated: "2024-10-09"
 
 keywords: interconnectivity, direct link
 
@@ -53,7 +53,7 @@ Adding one or more autonomous system (AS) numbers at the beginning of an AS path
 
 Assuming that all other criteria are equal, the prefix of the AS prepend matches with routes and lengthens the AS path to the destination. This action results in a less priority route compared to one without AS prepends to the same destination. Take the following use case, for example. Suppose that you want your East site to prefer Path A through IBM PoP East when traffic is sent to `10.80.0.0/28`. To de-prioritize Path B, the BGP Autonomous System Number (ASN) of `12345` is prepended to the route (`12345 12345 12345 4040 286 I`).
 
-![Influencing route priority by using AS prepends](images/as-prepends.png){: caption="Figure 1. Influencing route priority using AS prepends" caption-side="bottom"}
+![Influencing route priority by using AS prepends](images/as-prepends.png){: caption="Influencing route priority using AS prepends" caption-side="bottom"}
 
 For more information, see [Influencing route preference by using AS prepends](/docs/dl?topic=dl-models-for-diversity-and-redundancy-in-direct-link#dl-bgp-path-selection) and [Using AS prepends with VPN connections](/docs/dl?topic=dl-dl-planning-considerations&interface=ui#as-prepends-routes).
 
@@ -77,7 +77,7 @@ Some benefits include:
 * Latency tolerant
 * Lower-cost entry to {{site.data.keyword.cloud_notm}}
 
-![Using service provider networks to virtually reach IBM Cloud](images/direct-link-connect.png){: caption="Figure 2. Leveraging service provider networks to virtually reach IBM Cloud" caption-side="bottom"}
+![Using service provider networks to virtually reach IBM Cloud](images/direct-link-connect.png){: caption="Leveraging service provider networks to virtually reach IBM Cloud" caption-side="bottom"}
 
 ### {{site.data.keyword.dl_short}} Connect use case 2: Other Cloud Service Providers (CSPs) or enterprises
 {: #connect-use-case-3}
@@ -88,7 +88,7 @@ Some benefits include:
 * Layer 2 and Layer 3 support
 * Lower cost of entry to IBM Cloud
 
-![Other CSPs or enterprises](images/connect-use-case.png){: caption="Figure 3. Other CSPs or enterprises" caption-side="bottom"}
+![Other CSPs or enterprises](images/connect-use-case.png){: caption="Other CSPs or enterprises" caption-side="bottom"}
 
 Termination location:
 
@@ -144,14 +144,14 @@ These use cases are best for working with hybrid workloads, cross-provider workl
 Use when deterministic latency is required.
 {: important}
 
-![Customer on-premises facility to IBM Cloud](images/direct-link-dedicated.png){: caption="Figure 4. Customer on-premises facility to IBM Cloud" caption-side="bottom"}
+![Customer on-premises facility to IBM Cloud](images/direct-link-dedicated.png){: caption="Customer on-premises facility to IBM Cloud" caption-side="bottom"}
 
 ### {{site.data.keyword.dl_short}} Dedicated use case 2: Customer colocation to {{site.data.keyword.cloud_notm}}
 {: #use-case-dedicated-2}
 
 Use when ultra-low latency is required.
 
-![Customer colocation to IBM Cloud](images/dedicated-model-colo.png){: caption="Figure 5. Customer colocation to IBM Cloud" caption-side="bottom"}
+![Customer colocation to IBM Cloud](images/dedicated-model-colo.png){: caption="Customer colocation to IBM Cloud" caption-side="bottom"}
 
 Termination location:
 

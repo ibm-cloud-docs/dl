@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2024
-lastupdated: "2024-07-16"
+lastupdated: "2024-10-09"
 
 keywords: vpe for Direct Link, virtual private endpoints for Direct Link, using vpe for vpc with Direct Link, isolation for Direct Link, private network for Direct Link, network isolation in Direct Link, non-public routes for Direct Link, private connection for Direct Link, private connectivity for Direct Link
 
@@ -50,7 +50,7 @@ Direct Link supports VPEs in all the VPC regions as shown.
 | Tokyo | `jp-tok` | `crn:v1:bluemix:public:container-registry:jp-tok:::endpoint:vpe.jp-tok.container-registry.cloud.ibm.com` |
 | Toronto  | `ca-tor` | `crn:v1:bluemix:public:container-registry:ca-tor:::endpoint:vpe.ca-tor.container-registry.cloud.ibm.com` |
 | Washington DC | `us-east` | `crn:v1:bluemix:public:container-registry:us-east:::endpoint:vpe.us-east.container-registry.cloud.ibm.com` |
-{: caption="Table 1. Region availability and Cloud Resource Names (CRNs) for connecting {{site.data.keyword.dl_short}} over {{site.data.keyword.cloud_notm}} private networks" caption-side="bottom"}
+{: caption="Region availability and Cloud Resource Names (CRNs) for connecting {{site.data.keyword.dl_short}} over {{site.data.keyword.cloud_notm}} private networks" caption-side="bottom"}
 
 ### Configuring an endpoint gateway
 {: #endpoint-gateway-servicename}

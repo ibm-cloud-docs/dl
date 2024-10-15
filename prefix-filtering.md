@@ -19,4 +19,4 @@ If you use IBM Cloud Transit Gateway with IBM Cloud Direct Link, you can filter 
 
 The prefix filter will only filter prefixes into the transit gateway. There is no prefix filter to block prefixes that are learned by the transit gateway out to networks that are connected to it. This means that the direct link sees all the prefixes from all the networks that participate in the transit gateway. 
 
-![Filtering routes by using Transit Gateway prefix filtering](/images/prefix-filter-transit-gateway.png){: caption="Figure 1. Filtering routes using Transit Gateway prefix filtering" caption-side="bottom"}
+![Filtering routes by using Transit Gateway prefix filtering](/images/prefix-filter-transit-gateway.png){: caption="Filtering routes using Transit Gateway prefix filtering" caption-side="bottom"}

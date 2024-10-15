@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2024
-lastupdated: "2024-09-16"
+lastupdated: "2024-10-09"
 
 keywords: direct link
 
@@ -54,7 +54,7 @@ The following table provides details about the {{site.data.keyword.cloud_notm}} 
 | Washington DC 6 | DC | Raging Wire | VA2 |
 | Washington DC 7 | DC | Sabey | Sabey Intergate.Ashburn |
 {: class="simple-tab-table"}
-{: caption="Table 1. Direct Link Dedicated - Americas" caption-side="bottom"}
+{: caption="Direct Link Dedicated - Americas" caption-side="bottom"}
 {: #simpletabtable1}
 {: tab-title="Americas"}
 {: tab-group="dedicated-simple"}
@@ -81,7 +81,7 @@ The following table provides details about the {{site.data.keyword.cloud_notm}} 
 | Tokyo 3 | PoP 2 | Equinix | TY4 |
 | Tokyo 4 | DC | Softbank | |
 | Tokyo 5 | DC | NTT |  |
-{: caption="Table 2. Direct Link Dedicated - APAC" caption-side="bottom"}
+{: caption="Direct Link Dedicated - APAC" caption-side="bottom"}
 {: #simpletabtable2}
 {: tab-title="APAC"}
 {: tab-group="dedicated-simple"}
@@ -111,7 +111,7 @@ The following table provides details about the {{site.data.keyword.cloud_notm}} 
 | Paris 1 | DC  | Global Switch Limited | PAR01 |
 | Paris 2 | PoP | Equinix | PA2 |
 | Paris 3 | PoP | Equinix | PA4 |
-{: caption="Table 3. Direct Link Dedicated - EMEA" caption-side="bottom"}
+{: caption="Direct Link Dedicated - EMEA" caption-side="bottom"}
 {: #simpletabtable3}
 {: tab-title="EMEA"}
 {: tab-group="dedicated-simple"}
@@ -174,7 +174,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect service provide
 | Zayo | **Americas**: Dallas 3, Toronto 2, Washington DC 2| |
 | Zenlayer | **APAC**: Hong Kong 3, Tokyo 1 | |
 {: class="simple-tab-table"}
-{: caption="Table 4. Direct Link Connect by Provider" caption-side="bottom"}
+{: caption="Direct Link Connect by Provider" caption-side="bottom"}
 {: #simpletabtable4}
 {: tab-title="By Provider"}
 {: tab-group="connect-simple"}
@@ -240,7 +240,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect service provide
 | Washington DC 4 | Anthem  \n Digital Realty  \n IBM Power Virtual Server |
 | Washington DC 5 | Coresite |
 | Washington DC 7 | IBM Power Virtual Server |
-{: caption="Table 5. Direct Link Connect by Location" caption-side="bottom"}
+{: caption="Direct Link Connect by Location" caption-side="bottom"}
 {: #simpletabtable5}
 {: tab-title="By Location"}
 {: tab-group="connect-simple"}
