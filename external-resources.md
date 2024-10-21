@@ -1,9 +1,9 @@
 ---
 
 copyright:
-  years: 2020, 2023
+  years: 2020, 2024
 
-lastupdated: "2023-02-02"
+lastupdated: "2024-10-21"
 
 keywords: direct link
 
@@ -22,7 +22,7 @@ These resources are created by {{site.data.keyword.cloud}} and by some IBM Busin
 ## Blogs on the IBM website
 {: #blogs}
 
-* [Demystifying Direct Link Offerings](https://www.ibm.com/blog/demystifying-direct-link-offerings/){: external}, by Bepsy Paul
+* [Demystifying Direct Link Offerings](https://www.ibm.com/think/insights/demystifying-direct-link-offerings/){: external}, by Bepsy Paul
 
 * [Introducing {{site.data.keyword.dl_full_notm}} 2.0](https://www.ibm.com/blog/announcement/introducing-ibm-cloud-direct-link-2-0/){: external}, by Nicholas Woodyard
 
