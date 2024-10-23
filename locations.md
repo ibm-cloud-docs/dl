@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2024
-lastupdated: "2024-10-09"
+lastupdated: "2024-10-23"
 
 keywords: direct link
 
@@ -222,7 +222,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect service provide
 | São Paulo 5 | Ascenty, a Digital Realty Company |
 | Seoul 2 | KINX |
 | Singapore 1 | Digital Realty  \n Megaport[^singapore2] |
-| Sydney 2 | Equinix  \n Megaport |
+| Sydney 2 | Megaport |
 | Sydney 3 | Console Connect  \n NextDC |
 | Sydney 4 | IBM Power Virtual Server |
 | Sydney 5 | Console Connect  \n IBM Power Virtual Server |
