@@ -106,7 +106,7 @@ For the most up-to-date information, see [{{site.data.keyword.dl_short}} Dedicat
 {: faq}
 {: support}
 
-For a direct link that was provisioned via the IBM console, a VLAN ID update is not supported. For a direct link provisioned via Provider API, you can request a VLAN update using the Provider portal/APIs, or request a VLAN update by opening an [IBM Support case](/docs/get-support?topic=get-support-open-case).
+For a direct link that was provisioned via the IBM console, a VLAN ID update is not supported. For a direct link provisioned via Provider API, you can request a VLAN update using the Provider portal/APIs, or request a VLAN update by opening an [IBM Support case](/docs/account?topic=account-open-case).
 
 ## How do I interconnect the classic infrastructure and VPC?
 {: #interconnect}
