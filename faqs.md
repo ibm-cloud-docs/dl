@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2024
-lastupdated: "2024-09-24"
+lastupdated: "2024-10-30"
 
 keywords: faqs
 
@@ -150,7 +150,7 @@ The new {{site.data.keyword.dl_short}} performs better as it's not required to e
 {: #view-egress-usage}
 {: faq}
 
-IBM Cloud Direct Link is integrated into the [IBM Cloud usage dashboard](/docs/billing-usage?topic=billing-usage-viewingusage&interface=ui), which provides a summary of estimated charges for all services and resources that are used per month in your organizations. This includes the number of connections and the amount of traffic flowing across your direct links. IBM Cloud Direct Link usage is billed and reported as part of the [IBM Cloud invoice process](/docs/billing-usage?topic=billing-usage-managing-invoices).
+IBM Cloud Direct Link is integrated into the [IBM Cloud usage dashboard](/docs/account?topic=account-viewingusage&interface=ui), which provides a summary of estimated charges for all services and resources that are used per month in your organizations. This includes the number of connections and the amount of traffic flowing across your direct links. IBM Cloud Direct Link usage is billed and reported as part of the [IBM Cloud invoice process](/docs/account?topic=account-managing-invoices).
 
 ## How does {{site.data.keyword.dl_full_notm}} work?
 {: #how-does-ibm-cloud-dl-work}
