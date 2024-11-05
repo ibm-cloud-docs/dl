@@ -4,7 +4,7 @@ copyright:
   years: 2024
 lastupdated: "2024-11-05"
 
-keywords: CIS
+keywords: Direct Link
 
 subcollection: repo-name
 
@@ -41,7 +41,7 @@ To find out more about responsibility ownership for using {{site.data.keyword.cl
 
 *If there is a specific responsibility topic available for the product, include the next line or remove the line and include details in this section of the topic.*
 
-For more information about your responsibilities for CIS, see [Understanding your responsibilities when using CIS](/docs/cis?topic=cis-responsibilities-cis).
+For more information about your responsibilities for Direct Link, see [Understanding your responsibilities when using Direct Link](/docs/dl?topic=dl-dl-responsibilities).
 
 ## Data export procedures
 {: #data-portability-procedures}
