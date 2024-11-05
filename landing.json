@@ -53,13 +53,11 @@
     "tiles": [
       {
         "date": "01 May 2024",
-        "title": "Behavior change: Enable service network routes from Direct Link to non-Classic connections",
-        "description": "When a direct link is connected to a transit gateway, the direct link advertises all service network routes."
+        "title": "Behavior change: Enable service network routes from Direct Link to non-Classic connections"
       },
       {
         "date": "07 March 2024",
-        "title": "VLAN tagging support for Direct Link Dedicated",
-        "description":"VLAN's keep traffic from different networks separated when traversing shared links and devices within a topology. This process, also known as VLAN tagging, limits broadcast network traffic and secures network segments."
+        "title": "VLAN tagging support for Direct Link Dedicated"
       }
     ]
   }
