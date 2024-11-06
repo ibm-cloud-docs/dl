@@ -146,7 +146,6 @@ toc:
         - prerequisites.md
         - completion-notice.md
         - responsibilities.md
-        - data-portability.md
         - external-resources.md
     - navgroup:
         id: help
