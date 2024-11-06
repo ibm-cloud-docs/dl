@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2024
-lastupdated: "2024-07-18"
+lastupdated: "2024-11-06"
 
 keywords: direct link, direct link dedicated
 
@@ -86,7 +86,7 @@ To order {{site.data.keyword.dl_full}} Dedicated, follow these steps.
       Allowed ASN ranges are:
       * For a 2-byte range, enter a value between `1-64495` or the default `64999`.
       * For a 2-byte or 4-byte range, enter a value between `131072-4199999999`.
-      * For a 4-byte range, enter a value between `4201000000-4201064511`.
+      * For a 4-byte range, enter a value between `4201000000-4294967294`.
 
       Excluded ASNs: `0`, `13884`, `36351`, `64512`, `64513`, `65100`, `65201 – 65234`, `65402 – 65433`, `65500`, `65516`, `65519`, `65521`, `65531`, and `4201065000 – 4201065999`
 
