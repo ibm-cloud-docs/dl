@@ -146,6 +146,12 @@ toc:
         - prerequisites.md
         - completion-notice.md
         - responsibilities.md
+        - topicgroup:
+            label: High availability and disaster recovery
+            topics:
+            - ha.md
+            - bc-dr.md
+        - data-portability.md
         - external-resources.md
     - navgroup:
         id: help
