@@ -6,7 +6,7 @@ lastupdated: "2024-11-12"
 
 keywords: Direct Link
 
-subcollection: repo-name
+subcollection: dl
 
 ---
 
