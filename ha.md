@@ -2,7 +2,7 @@
 
 copyright:
   years: 2024
-lastupdated: "2024-11-12"
+lastupdated: "2024-11-15"
 
 keywords:
 
@@ -18,27 +18,27 @@ subcollection: dl
 [High availability](#x2284708){: term} (HA) is a core discipline in an IT infrastructure to keep your apps up and running, even after a partial or full site failure. The main purpose of high availability is to eliminate potential points of failures in an IT infrastructure.
 {: shortdesc}
 
-IBM Cloud highly recommends setting up a secondary, diverse direct link to avoid outages, whether unplanned or scheduled for maintenance. Effective disaster recovery, especially for issues impacting an entire location, requires careful planning and preparation. 
+IBM Cloud highly recommends setting up a secondary, diverse direct link to avoid outages, whether unplanned or scheduled for maintenance. Effective disaster recovery, especially for issues impacting an entire location, requires careful planning and preparation.
 
 You are responsible for understanding your connection configuration, customization, and usage of the service. You are also responsible for being ready to re-create an instance of the service in a new location and restore your data there.  For information on how to design Diversity to achieve HA with Direct Link, see [Models for diversity and redundancy in Direct Link](/docs/dl?topic=dl-models-for-diversity-and-redundancy-in-direct-link).
 {: important}
 
 See [How IBM Cloud ensures high availability and disaster recovery](/docs/overview?topic=overview-zero-downtime#zero-downtime) to learn more about the high availability and disaster recovery standards in {{site.data.keyword.cloud_notm}}. You can also find information about [Service Level Agreements](/docs/overview?topic=overview-slas#slas).
 
-### High availability within the service
-{: #high-availability}
+## Responsibilities
+{: #ha-responsibilities}
 
-{{site.data.keyword.cloud_notm}} service supports high availability with no single point of failure. The service achieves high availability automatically and transparently by means of the Multi-Zone Region ([MZR](/docs/overview?topic=overview-locations#table-mzr)) feature provided by {{site.data.keyword.cloud_notm}}.
+To find out more about responsibility ownership for using Direct Link between {{site.data.keyword.IBM_notm}} and the customer, see [Understanding your responsibilities when using Direct Link](/docs/dl?topic=dl-dl-responsibilities).
 
 ### High availability for customer {{site.data.keyword.dl_short}} connections
 {: #high-availability-customer}
 
 Your {{site.data.keyword.dl_short}} connections are location-specific. It is up to you to set up any High Availability or Disaster Recovery plans that are required. For information on how to design Diversity to achieve HA with Direct Link, see [Models for diversity and redundancy in Direct Link](/docs/dl?topic=dl-models-for-diversity-and-redundancy-in-direct-link).
 
-## Responsibilities
-{: #ha-responsibilities}
+### High availability within the service
+{: #high-availability}
 
-To find out more about responsibility ownership for using Direct Link between {{site.data.keyword.IBM_notm}} and the customer, see [Understanding your responsibilities when using Direct Link](/docs/dl?topic=dl-dl-responsibilities).
+{{site.data.keyword.cloud_notm}} service supports high availability with no single point of failure. The service achieves high availability automatically and transparently by means of the Multi-Zone Region ([MZR](/docs/overview?topic=overview-locations#table-mzr)) feature provided by {{site.data.keyword.cloud_notm}}.
 
 ## What level of availability do I need?
 {: #ha-level}
