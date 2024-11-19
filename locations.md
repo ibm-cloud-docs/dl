@@ -114,7 +114,7 @@ The following table provides details about the {{site.data.keyword.cloud_notm}} 
 | Paris 3 | PoP | Equinix | PA4 |
 {: caption="Direct Link Dedicated - EMEA" caption-side="bottom"}
 {: #simpletabtable3}
-{: tab-title="EMEA"}
+{: tab-title="EU"}
 {: tab-group="dedicated-simple"}
 {: class="simple-tab-table"}
 
@@ -125,8 +125,8 @@ The following table provides details about the {{site.data.keyword.cloud_notm}} 
 
 The following table provides details about the markets where {{site.data.keyword.dl_short}} Dedicated is available and their sites. Choose a tab to see locations for Americas, APAC, and EMEA.
 
-| Market  |  Sites |
-|-----------------|----------------|
+| Market | Sites |
+|----------------|----------------|
 | Dallas | Chicago 1 (PoP) \n Dallas 3 (PoP) \n Dallas 4 (PoP) \n Dallas 09 (MZR) \n Dallas 10 (MZR) \n Dallas 12 (MZR) \n Dallas 13 (MZR) \n Dallas 14 (MZR) \n Denver 1 (PoP) |
 | Montreal | Montreal 1 \n Montreal 3 (PoP) \n Montreal 2 (PoP) |
 | San Jose | Los Angeles 1 (PoP) \n San Jose 2 (PoP) \n San Jose 3 (MZR) \n San Jose 4 (MZR) |
@@ -140,64 +140,33 @@ The following table provides details about the markets where {{site.data.keyword
 {: tab-title="Americas"}
 {: tab-group="dedicated-simple"}
 
-|**IBM Location Code** | **Location Type** | **Meet Me Room Operator**| **Operator Site Code** |
-|-----------------|-----------------|-----------------|--------------------|
-| Chennai 1 | DC | Tata | PH-01 |
-| Hong Kong 3 |	PoP |	Equinix |	HKG3 |
-| Melbourne 2 | PoP | NextDC | M1 |
-| Mumbai 1 | PoP | Equinix | Mumbai 1 |
-| Osaka 1 | PoP | Equinix | OS1 |
-| Osaka 21  | DC|  IDC Frontier (SoftBank) | OSA021 |
-| Osaka 22  | DC | IDC Frontier (SoftBank) | OSA022 |
-| Osaka 23  | DC | IDC Frontier (SoftBank) | OSA023 |
-| Singapore 1 |	DC  | Digital Realty | SIN10 |
-| Sydney 1 | DC | Global Switch | SYD01 |
-| Sydney 2 | PoP 1 | Equinix | SY3 |
-| Sydney 3 | PoP 2 | NextDC | SYD03 |
-| Sydney 4 | DC | Digital Realty | SYD10 |
-| Sydney 5 | DC | Equinix | SY4 |
-| Taipei 1 | PoP | Chief Telecom | TPE01 |
-| Tokyo 1 | Pop | Equinix | TY2  |
-| Tokyo 2 | DC | At Tokyo | TOK02 |
-| Tokyo 3 | PoP 2 | Equinix | TY4 |
-| Tokyo 4 | DC | Softbank | |
-| Tokyo 5 | DC | NTT |  |
+| Market | Sites |
+|----------------|----------------|
+| Chennai | Chennai 1 (MZR) \n Mumbai 1 (PoP) |
+| Hong Kong | Hong Kong 3 (PoP) \n Taipei (PoP) |
+| Melbourne | Melbourne 2 (PoP) |
+| Singapore | Singapore 1 (MZR) |
+| Sydney | Perth 1 (PoP) \n Sydney 1 (MZR) \n Sydney 2 (PoP) \n Sydney 3 (PoP) \n Sydney 4 (MZR) \n Sydney 5 (MZR) |
+| Tokyo | Osaka 1 (PoP) \n Osaka 21 (MZR) \n Osaka 22 (MZR) \n Osaka 23 (MZR) \n Tokyo 1 (PoP) \n Tokyo 2 (MZR) \n Tokyo 3 (PoP) \n Tokyo 4 (MZR) \n Tokyo 5 (MZR) |
 {: caption="Direct Link Dedicated - APAC" caption-side="bottom"}
 {: #simpletabtable22}
 {: tab-title="APAC"}
 {: tab-group="dedicated-simple"}
 {: class="simple-tab-table"}
 
-|**IBM Location Code** | **Location Type** | **Meet Me Room Operator**| **Operator Site Code** |
-|-----------------|-----------------|-----------------|--------------------|
-| Amsterdam 2 | PoP | Equinix | AM2 |
-| Amsterdam 3 | DC | KPN | Amsterdam 3 |
-| Frankfurt 1 | PoP 1 | Digital Realty | FRA6 |
-| Frankfurt 2 | DC | CyrusOne (Zenium) | FRA1 |
-| Frankfurt 3 | PoP 2 | Equinix | FR6 |
-| Frankfurt 4 | DC  | NTT | Frankfurt 1 |
-| Frankfurt 5 | DC  | Digital Realty | FRA11 |
-| London 1 | PoP | Equinix (Telecity) | LD8 |
-| London 2 | DC | Digital Realty | LHR13 |
-| London 3 | PoP 2 | Equinix | LD5 |
-| London 4 | DC | ARK | A103 |
-| London 6 | DC | CyrusOne (Zenium) | LON1 |
-| Madrid 1 | PoP | Equinix | MAD01 |
-| Madrid 2 | DC  | DATA4 Madrid Campus | MAD02 |
-| Madrid 3 | PoP | Digital Realty |  MAD03 |
-| Madrid 4 | DC  | NTT Data Center | MAD04 |
-| Madrid 5 | DC  | Digital Realty | MAD05 |
-| Milan 1 | DC | Data 4 | |
-| Milan 2 | PoP | Infracom Italia | Infracom 21 Via Caldera Way |
-| Paris 1 | DC  | Global Switch Limited | PAR01 |
-| Paris 2 | PoP | Equinix | PA2 |
-| Paris 3 | PoP | Equinix | PA4 |
+| Market | Sites |
+|----------------|----------------|
+| Amsterdam | Amsterdam 2 (PoP) \n Amsterdam 3 (MZR) |
+| Frankfurt | Frankfurt 1 (PoP) \n Frankfurt 2 (MZR) \n Frankfurt 3 (PoP) \n Frankfurt 4 (MZR) \n Frankfurt 5 (MZR) |
+| London | London 1 (PoP) \n London 2 (MZR) \n London 3 (PoP) \n London 4 (MZR) \n London 5 (MZR) \n London 6 (MZR) |
+| Madrid | Madrid 1 (PoP) \n Madrid 2 (MZR) \n Madrid 3 (PoP) \n Madrid 4 (MZR) \n Madrid 5 (MZR) |
+| Milan | Milan 1 (MZR) \n Milan 2 (PoP) |
+| Paris | Paris 1 (MZR) \n Paris 2 (PoP) \n Paris 3 (PoP) |
 {: caption="Direct Link Dedicated - EMEA" caption-side="bottom"}
 {: #simpletabtable33}
-{: tab-title="EMEA"}
+{: tab-title="EU"}
 {: tab-group="dedicated-simple"}
 {: class="simple-tab-table"}
-
 
 ## Direct Link Connect service providers and locations
 {: #connect-locations}
