@@ -128,7 +128,7 @@ The following table provides details about the markets where {{site.data.keyword
 | **Market** | **Sites** |
 |----------------|----------------|
 | Dallas | Chicago 1 (PoP) \n Dallas 3 (PoP) \n Dallas 4 (PoP) \n Dallas 09 (MZR) \n Dallas 10 (MZR) \n Dallas 12 (MZR) \n Dallas 13 (MZR) \n Dallas 14 (MZR) \n Denver 1 (PoP) |
-| Montreal | Montreal 1 (MZR) \n Montreal 3 (PoP) \n Montreal 2 (PoP) |
+| Montreal | Montreal 1 (MZR) \n Montreal 2 (PoP) \n Montreal 3 (PoP) |
 | San Jose | Los Angeles 1 (PoP) \n San Jose 2 (PoP) \n San Jose 3 (MZR) \n San Jose 4 (MZR) |
 | São Paulo | São Paulo 5 (MZR)  \n São Paulo 2 (PoP) \n São Paulo 4 (MZR) \n São Paulo 3 (PoP) \n São Paulo 1 (MZR) |
 | Seattle | Seattle 2 (PoP) |
