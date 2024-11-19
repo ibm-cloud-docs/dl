@@ -125,7 +125,7 @@ The following table provides details about the {{site.data.keyword.cloud_notm}} 
 
 The following table provides details about the markets where {{site.data.keyword.dl_short}} Dedicated is available and their sites. Choose a tab to see locations for Americas, APAC, and EMEA.
 
-| Market | Sites |
+| **Market** | **Sites** |
 |----------------|----------------|
 | Dallas | Chicago 1 (PoP) \n Dallas 3 (PoP) \n Dallas 4 (PoP) \n Dallas 09 (MZR) \n Dallas 10 (MZR) \n Dallas 12 (MZR) \n Dallas 13 (MZR) \n Dallas 14 (MZR) \n Denver 1 (PoP) |
 | Montreal | Montreal 1 \n Montreal 3 (PoP) \n Montreal 2 (PoP) |
@@ -140,7 +140,7 @@ The following table provides details about the markets where {{site.data.keyword
 {: tab-title="Americas"}
 {: tab-group="dedicated-simple-2"}
 
-| Market | Sites |
+| **Market** | **Sites** |
 |----------------|----------------|
 | Chennai | Chennai 1 (MZR) \n Mumbai 1 (PoP) |
 | Hong Kong | Hong Kong 3 (PoP) \n Taipei (PoP) |
@@ -154,7 +154,7 @@ The following table provides details about the markets where {{site.data.keyword
 {: tab-group="dedicated-simple-2"}
 {: class="simple-tab-table"}
 
-| Market | Sites |
+| **Market** | **Sites** |
 |----------------|----------------|
 | Amsterdam | Amsterdam 2 (PoP) \n Amsterdam 3 (MZR) |
 | Frankfurt | Frankfurt 1 (PoP) \n Frankfurt 2 (MZR) \n Frankfurt 3 (PoP) \n Frankfurt 4 (MZR) \n Frankfurt 5 (MZR) |
