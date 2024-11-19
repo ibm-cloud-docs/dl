@@ -21,8 +21,8 @@ View details about the {{site.data.keyword.cloud_notm}} data centers where {{sit
 
 The following table provides details about the {{site.data.keyword.cloud_notm}} data centers where {{site.data.keyword.dl_short}} Dedicated is available. Choose a tab to see locations for Americas, APAC, and EMEA.
 
-| IBM Location Code  |  Location Type  |  Meet Me Room Operator |  Operator Site Code  |
-|-----------------|-----------------|-----------------|--------------------|
+| IBM Location Code  | Location Type  |  Meet Me Room Operator |  Operator Site Code  |
+|-----------------|----------------|-----------------|-----------------|
 | Chicago 1 | PoP | Equinix  | CH4 |
 | Dallas 3 | PoP 1 | Equinix | DA1 |
 | Dallas 4 | PoP 2 | Digital Realty | DFW14 |
@@ -119,6 +119,85 @@ The following table provides details about the {{site.data.keyword.cloud_notm}} 
 {: class="simple-tab-table"}
 
 [^newyork2]: New York City 2 connects to the IBM Cloud backbone through New York City 1. The primary reason for this PoP is to extend connectivity to different site providers from our New York City 1 site. When planning your diversity strategy, keep in mind that traffic for New York City 2 has a single, shared path to the IBM network.
+
+## Direct Link Dedicated market to site mappings
+{: #dedicated-markets-sites}
+
+The following table provides details about the markets where {{site.data.keyword.dl_short}} Dedicated is available and their sites. Choose a tab to see locations for Americas, APAC, and EMEA.
+
+| Market  |  Sites |
+|-----------------|----------------|
+| Dallas | Chicago 1 (PoP) \n Dallas 3 (PoP) \n Dallas 4 (PoP) \n Dallas 09 (MZR) \n Dallas 10 (MZR) \n Dallas 12 (MZR) \n Dallas 13 (MZR) \n Dallas 14 (MZR) \n Denver 1 (PoP) |
+| Montreal | Montreal 1 \n Montreal 3 (PoP) \n Montreal 2 (PoP) |
+| San Jose | Los Angeles 1 (PoP) \n San Jose 2 (PoP) \n San Jose 3 (MZR) \n San Jose 4 (MZR) |
+| São Paulo | São Paulo 5 (MZR)  \n São Paulo 2 (PoP) \n São Paulo 4 (MZR) \n São Paulo 3 (PoP) \n São Paulo 1 (MZR) |
+| Seattle | Seattle 2 (PoP) |
+| Toronto | Toronto 1 (MZR) \n Toronto 2 (PoP) \n Toronto 3 (PoP) \n Toronto 5 (MZR) |
+| Washington DC | Miami 1 (PoP) \n New York City 2 (PoP) \n New York City 3 (PoP) \n Washington 2 (PoP) \n Washington 4 (MZR) \n Washington 5 (PoP) \n Washington 6 (MZR) \n Washington 7 (MZR) |
+{: class="simple-tab-table"}
+{: caption="Direct Link Dedicated - Americas" caption-side="bottom"}
+{: #simpletabtable11}
+{: tab-title="Americas"}
+{: tab-group="dedicated-simple"}
+
+|**IBM Location Code** | **Location Type** | **Meet Me Room Operator**| **Operator Site Code** |
+|-----------------|-----------------|-----------------|--------------------|
+| Chennai 1 | DC | Tata | PH-01 |
+| Hong Kong 3 |	PoP |	Equinix |	HKG3 |
+| Melbourne 2 | PoP | NextDC | M1 |
+| Mumbai 1 | PoP | Equinix | Mumbai 1 |
+| Osaka 1 | PoP | Equinix | OS1 |
+| Osaka 21  | DC|  IDC Frontier (SoftBank) | OSA021 |
+| Osaka 22  | DC | IDC Frontier (SoftBank) | OSA022 |
+| Osaka 23  | DC | IDC Frontier (SoftBank) | OSA023 |
+| Singapore 1 |	DC  | Digital Realty | SIN10 |
+| Sydney 1 | DC | Global Switch | SYD01 |
+| Sydney 2 | PoP 1 | Equinix | SY3 |
+| Sydney 3 | PoP 2 | NextDC | SYD03 |
+| Sydney 4 | DC | Digital Realty | SYD10 |
+| Sydney 5 | DC | Equinix | SY4 |
+| Taipei 1 | PoP | Chief Telecom | TPE01 |
+| Tokyo 1 | Pop | Equinix | TY2  |
+| Tokyo 2 | DC | At Tokyo | TOK02 |
+| Tokyo 3 | PoP 2 | Equinix | TY4 |
+| Tokyo 4 | DC | Softbank | |
+| Tokyo 5 | DC | NTT |  |
+{: caption="Direct Link Dedicated - APAC" caption-side="bottom"}
+{: #simpletabtable22}
+{: tab-title="APAC"}
+{: tab-group="dedicated-simple"}
+{: class="simple-tab-table"}
+
+|**IBM Location Code** | **Location Type** | **Meet Me Room Operator**| **Operator Site Code** |
+|-----------------|-----------------|-----------------|--------------------|
+| Amsterdam 2 | PoP | Equinix | AM2 |
+| Amsterdam 3 | DC | KPN | Amsterdam 3 |
+| Frankfurt 1 | PoP 1 | Digital Realty | FRA6 |
+| Frankfurt 2 | DC | CyrusOne (Zenium) | FRA1 |
+| Frankfurt 3 | PoP 2 | Equinix | FR6 |
+| Frankfurt 4 | DC  | NTT | Frankfurt 1 |
+| Frankfurt 5 | DC  | Digital Realty | FRA11 |
+| London 1 | PoP | Equinix (Telecity) | LD8 |
+| London 2 | DC | Digital Realty | LHR13 |
+| London 3 | PoP 2 | Equinix | LD5 |
+| London 4 | DC | ARK | A103 |
+| London 6 | DC | CyrusOne (Zenium) | LON1 |
+| Madrid 1 | PoP | Equinix | MAD01 |
+| Madrid 2 | DC  | DATA4 Madrid Campus | MAD02 |
+| Madrid 3 | PoP | Digital Realty |  MAD03 |
+| Madrid 4 | DC  | NTT Data Center | MAD04 |
+| Madrid 5 | DC  | Digital Realty | MAD05 |
+| Milan 1 | DC | Data 4 | |
+| Milan 2 | PoP | Infracom Italia | Infracom 21 Via Caldera Way |
+| Paris 1 | DC  | Global Switch Limited | PAR01 |
+| Paris 2 | PoP | Equinix | PA2 |
+| Paris 3 | PoP | Equinix | PA4 |
+{: caption="Direct Link Dedicated - EMEA" caption-side="bottom"}
+{: #simpletabtable33}
+{: tab-title="EMEA"}
+{: tab-group="dedicated-simple"}
+{: class="simple-tab-table"}
+
 
 ## Direct Link Connect service providers and locations
 {: #connect-locations}
