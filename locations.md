@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2024
-lastupdated: "2024-10-23"
+lastupdated: "2024-11-19"
 
 keywords: direct link
 
@@ -30,6 +30,7 @@ The following table provides details about the {{site.data.keyword.cloud_notm}} 
 | Dallas 12 | DC | Digital Realty | DFW18 |
 | Dallas 13 | DC | CyrusOne | Carrollton - Frankford |
 | Denver 1 | PoP | Coresite |	DE1 |
+| Los Angeles 1 | PoP | Coresite | LAX01 |
 | Miami 1 | PoP  | TERREMARK | MI1 |
 | Montreal 1 | DC | Colo-D | MON01 |
 | Montreal 3 | DC | Colo-D | MON03 |
