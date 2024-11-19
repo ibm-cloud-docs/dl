@@ -138,7 +138,7 @@ The following table provides details about the markets where {{site.data.keyword
 {: caption="Direct Link Dedicated - Americas" caption-side="bottom"}
 {: #simpletabtable11}
 {: tab-title="Americas"}
-{: tab-group="dedicated-simple"}
+{: tab-group="dedicated-simple-2"}
 
 | Market | Sites |
 |----------------|----------------|
@@ -151,7 +151,7 @@ The following table provides details about the markets where {{site.data.keyword
 {: caption="Direct Link Dedicated - APAC" caption-side="bottom"}
 {: #simpletabtable22}
 {: tab-title="APAC"}
-{: tab-group="dedicated-simple"}
+{: tab-group="dedicated-simple-2"}
 {: class="simple-tab-table"}
 
 | Market | Sites |
@@ -165,7 +165,7 @@ The following table provides details about the markets where {{site.data.keyword
 {: caption="Direct Link Dedicated - EMEA" caption-side="bottom"}
 {: #simpletabtable33}
 {: tab-title="EU"}
-{: tab-group="dedicated-simple"}
+{: tab-group="dedicated-simple-2"}
 {: class="simple-tab-table"}
 
 ## Direct Link Connect service providers and locations
