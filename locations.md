@@ -21,8 +21,8 @@ View details about the {{site.data.keyword.cloud_notm}} data centers where {{sit
 
 The following table provides details about the {{site.data.keyword.cloud_notm}} data centers where {{site.data.keyword.dl_short}} Dedicated is available. Choose a tab to see locations for Americas, APAC, and EMEA.
 
-| IBM Location Code  |  Location Type  |  Meet Me Room Operator |  Operator Site Code  |
-|-----------------|-----------------|-----------------|--------------------|
+| IBM Location Code  | Location Type  |  Meet Me Room Operator |  Operator Site Code  |
+|-----------------|----------------|-----------------|-----------------|
 | Chicago 1 | PoP | Equinix  | CH4 |
 | Dallas 3 | PoP 1 | Equinix | DA1 |
 | Dallas 4 | PoP 2 | Digital Realty | DFW14 |
@@ -114,11 +114,59 @@ The following table provides details about the {{site.data.keyword.cloud_notm}} 
 | Paris 3 | PoP | Equinix | PA4 |
 {: caption="Direct Link Dedicated - EMEA" caption-side="bottom"}
 {: #simpletabtable3}
-{: tab-title="EMEA"}
+{: tab-title="EU"}
 {: tab-group="dedicated-simple"}
 {: class="simple-tab-table"}
 
 [^newyork2]: New York City 2 connects to the IBM Cloud backbone through New York City 1. The primary reason for this PoP is to extend connectivity to different site providers from our New York City 1 site. When planning your diversity strategy, keep in mind that traffic for New York City 2 has a single, shared path to the IBM network.
+
+## Direct Link Dedicated market to site mappings
+{: #dedicated-markets-sites}
+
+The following table provides details about the markets where {{site.data.keyword.dl_short}} Dedicated is available and their sites. Choose a tab to see locations for Americas, APAC, and EMEA.
+
+| **Market** | **Sites** |
+|----------------|----------------|
+| Dallas | Chicago 1 (PoP) \n Dallas 3 (PoP) \n Dallas 4 (PoP) \n Dallas 09 (MZR) \n Dallas 10 (MZR) \n Dallas 12 (MZR) \n Dallas 13 (MZR) \n Dallas 14 (MZR) \n Denver 1 (PoP) |
+| Montreal | Montreal 1 (MZR) \n Montreal 2 (PoP) \n Montreal 3 (PoP) |
+| San Jose | Los Angeles 1 (PoP) \n San Jose 2 (PoP) \n San Jose 3 (MZR) \n San Jose 4 (MZR) |
+| São Paulo | São Paulo 1 (MZR) \n São Paulo 2 (PoP) \n São Paulo 3 (PoP) \n São Paulo 4 (MZR) \n São Paulo 5 (MZR) |
+| Seattle | Seattle 2 (PoP) |
+| Toronto | Toronto 1 (MZR) \n Toronto 2 (PoP) \n Toronto 3 (PoP) \n Toronto 5 (MZR) |
+| Washington DC | Miami 1 (PoP) \n New York City 2 (PoP) \n New York City 3 (PoP) \n Washington 2 (PoP) \n Washington 4 (MZR) \n Washington 5 (PoP) \n Washington 6 (MZR) \n Washington 7 (MZR) |
+{: class="simple-tab-table"}
+{: caption="Direct Link Dedicated - Americas" caption-side="bottom"}
+{: #simpletabtable11}
+{: tab-title="Americas"}
+{: tab-group="dedicated-simple-2"}
+
+| **Market** | **Sites** |
+|----------------|----------------|
+| Chennai | Chennai 1 (MZR) \n Mumbai 1 (PoP) |
+| Hong Kong | Hong Kong 3 (PoP) \n Taipei (PoP) |
+| Melbourne | Melbourne 2 (PoP) |
+| Singapore | Singapore 1 (MZR) |
+| Sydney | Perth 1 (PoP) \n Sydney 1 (MZR) \n Sydney 2 (PoP) \n Sydney 3 (PoP) \n Sydney 4 (MZR) \n Sydney 5 (MZR) |
+| Tokyo | Osaka 1 (PoP) \n Osaka 21 (MZR) \n Osaka 22 (MZR) \n Osaka 23 (MZR) \n Tokyo 1 (PoP) \n Tokyo 2 (MZR) \n Tokyo 3 (PoP) \n Tokyo 4 (MZR) \n Tokyo 5 (MZR) |
+{: caption="Direct Link Dedicated - APAC" caption-side="bottom"}
+{: #simpletabtable22}
+{: tab-title="APAC"}
+{: tab-group="dedicated-simple-2"}
+{: class="simple-tab-table"}
+
+| **Market** | **Sites** |
+|----------------|----------------|
+| Amsterdam | Amsterdam 2 (PoP) \n Amsterdam 3 (MZR) |
+| Frankfurt | Frankfurt 1 (PoP) \n Frankfurt 2 (MZR) \n Frankfurt 3 (PoP) \n Frankfurt 4 (MZR) \n Frankfurt 5 (MZR) |
+| London | London 1 (PoP) \n London 2 (MZR) \n London 3 (PoP) \n London 4 (MZR) \n London 5 (MZR) \n London 6 (MZR) |
+| Madrid | Madrid 1 (PoP) \n Madrid 2 (MZR) \n Madrid 3 (PoP) \n Madrid 4 (MZR) \n Madrid 5 (MZR) |
+| Milan | Milan 1 (MZR) \n Milan 2 (PoP) |
+| Paris | Paris 1 (MZR) \n Paris 2 (PoP) \n Paris 3 (PoP) |
+{: caption="Direct Link Dedicated - EMEA" caption-side="bottom"}
+{: #simpletabtable33}
+{: tab-title="EU"}
+{: tab-group="dedicated-simple-2"}
+{: class="simple-tab-table"}
 
 ## Direct Link Connect service providers and locations
 {: #connect-locations}
