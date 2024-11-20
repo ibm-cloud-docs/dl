@@ -128,29 +128,29 @@ The following table provides details about the markets where {{site.data.keyword
 The sites highlighted in **bold** are emphasized because they differ from the market region.
 {: note}
 
-| **Market** | **Sites** |
-|----------------|----------------|
-| Dallas | **Chicago 1 (PoP)** \n Dallas 3 (PoP) \n Dallas 4 (PoP) \n Dallas 09 (MZR) \n Dallas 10 (MZR) \n Dallas 12 (MZR) \n Dallas 13 (MZR) \n Dallas 14 (MZR) \n **Denver 1 (PoP)** |
-| Montreal | Montreal 1 (MZR) \n Montreal 2 (PoP) \n Montreal 3 (PoP) |
-| San Jose | **Los Angeles 1 (PoP)** \n San Jose 2 (PoP) \n San Jose 3 (MZR) \n San Jose 4 (MZR) |
-| São Paulo | São Paulo 1 (MZR) \n São Paulo 2 (PoP) \n São Paulo 3 (PoP) \n São Paulo 4 (MZR) \n São Paulo 5 (MZR) |
-| Seattle | Seattle 2 (PoP) |
-| Toronto | Toronto 1 (MZR) \n Toronto 2 (PoP) \n Toronto 3 (PoP) \n Toronto 5 (MZR) |
-| Washington DC | **Miami 1 (PoP)** \n **New York City 2 (PoP)[^newyork3]** \n **New York City 3 (PoP)** \n Washington 2 (PoP) \n Washington 4 (MZR) \n Washington 5 (PoP) \n Washington 6 (MZR) \n Washington 7 (MZR) |
+| **Market** | **Data centers** | **PoPs** |
+|----------------|----------------|---------------|
+| Dallas | Dallas 09 \n Dallas 10 \n Dallas 12 \n Dallas 13 \n Dallas 14 | **Chicago 1** \n Dallas 3 \n Dallas 4 \n **Denver 1** |
+| Montreal | Montreal 1 | Montreal 2 \n Montreal 3 |
+| San Jose | San Jose 3 \n San Jose 4 | **Los Angeles 1** \n San Jose 2 |
+| São Paulo | São Paulo 1 \n São Paulo 4 \n São Paulo 5 | São Paulo 2 \n São Paulo 3 |
+| Seattle | | Seattle 2 |
+| Toronto | Toronto 1 \n Toronto 5 | Toronto 2 \n Toronto 3 |
+| Washington DC | Washington 4 \n Washington 6 \n Washington 7 | **Miami 1** \n **New York City 2[^newyork3]** \n **New York City 3** \n Washington 2 \n Washington 5 |
 {: class="simple-tab-table"}
 {: caption="Direct Link Dedicated - Americas" caption-side="bottom"}
 {: #simpletabtable11}
 {: tab-title="Americas"}
 {: tab-group="dedicated-simple-2"}
 
-| **Market** | **Sites** |
-|----------------|----------------|
-| Chennai | Chennai 1 (MZR) \n **Mumbai 1 (PoP)** |
-| Hong Kong | Hong Kong 3 (PoP) \n **Taipei (PoP)** |
-| Melbourne | Melbourne 2 (PoP) |
-| Singapore | Singapore 1 (MZR) |
-| Sydney | **Perth 1 (PoP)** \n Sydney 1 (MZR) \n Sydney 2 (PoP) \n Sydney 3 (PoP) \n Sydney 4 (MZR) \n Sydney 5 (MZR) |
-| Tokyo | **Osaka 1 (PoP)** \n **Osaka 21 (MZR)** \n **Osaka 22 (MZR)** \n **Osaka 23 (MZR)** \n Tokyo 1 (PoP) \n Tokyo 2 (MZR) \n Tokyo 3 (PoP) \n Tokyo 4 (MZR) \n Tokyo 5 (MZR) |
+| **Market** | **Data centers** | **PoPs** |
+|----------------|----------------|---------------|
+| Chennai | Chennai 1 | **Mumbai 1** |
+| Hong Kong | | Hong Kong 3 \n **Taipei** |
+| Melbourne | | Melbourne 2 |
+| Singapore | Singapore 1 | |
+| Sydney | Sydney 1 \n Sydney 4 \n Sydney 5 | **Perth 1** \n Sydney 2 \n Sydney 3 |
+| Tokyo | **Osaka 21** \n **Osaka 22** \n **Osaka 23** \n Tokyo 2 \n Tokyo 4 \n Tokyo 5 | **Osaka 1** \n Tokyo 1 \n Tokyo 3 |
 {: caption="Direct Link Dedicated - APAC" caption-side="bottom"}
 {: #simpletabtable22}
 {: tab-title="APAC"}
@@ -159,12 +159,12 @@ The sites highlighted in **bold** are emphasized because they differ from the ma
 
 | **Market** | **Sites** |
 |----------------|----------------|
-| Amsterdam | Amsterdam 2 (PoP) \n Amsterdam 3 (MZR) |
-| Frankfurt | Frankfurt 1 (PoP) \n Frankfurt 2 (MZR) \n Frankfurt 3 (PoP) \n Frankfurt 4 (MZR) \n Frankfurt 5 (MZR) |
-| London | London 1 (PoP) \n London 2 (MZR) \n London 3 (PoP) \n London 4 (MZR) \n London 5 (MZR) \n London 6 (MZR) |
-| Madrid | Madrid 1 (PoP) \n Madrid 2 (MZR) \n Madrid 3 (PoP) \n Madrid 4 (MZR) \n Madrid 5 (MZR) |
-| Milan | Milan 1 (MZR) \n Milan 2 (PoP) |
-| Paris | Paris 1 (MZR) \n Paris 2 (PoP) \n Paris 3 (PoP) |
+| Amsterdam | A msterdam 3  | Amsterdam 2 |
+| Frankfurt | Frankfurt 2 \n Frankfurt 4 \n Frankfurt 5 | Frankfurt 1 \n Frankfurt 3 |
+| London | London 2 \n London 4 \n London 5 \n London 6 | London 1 \n London 3 |
+| Madrid | Madrid 2 \n Madrid 4 \n Madrid 5 | Madrid 1 \n Madrid 3 |
+| Milan | Milan 1 | Milan 2 |
+| Paris | Paris 1 | Paris 2 \n Paris 3 |
 {: caption="Direct Link Dedicated - EMEA" caption-side="bottom"}
 {: #simpletabtable33}
 {: tab-title="EU"}
