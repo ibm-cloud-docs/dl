@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2024
-lastupdated: "2024-11-20"
+lastupdated: "2024-11-21"
 
 keywords: direct link
 
@@ -159,7 +159,7 @@ The sites highlighted in **bold** are emphasized because they differ from the ma
 
 | **Market** | **Sites** |
 |----------------|----------------|
-| Amsterdam | A msterdam 3  | Amsterdam 2 |
+| Amsterdam | Amsterdam 3  | Amsterdam 2 |
 | Frankfurt | Frankfurt 2 \n Frankfurt 4 \n Frankfurt 5 | Frankfurt 1 \n Frankfurt 3 |
 | London | London 2 \n London 4 \n London 5 \n London 6 | London 1 \n London 3 |
 | Madrid | Madrid 2 \n Madrid 4 \n Madrid 5 | Madrid 1 \n Madrid 3 |
