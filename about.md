@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2024
-lastupdated: "2024-10-09"
+lastupdated: "2024-11-21"
 
 keywords: interconnectivity, direct link
 
@@ -104,7 +104,9 @@ Cross-connect details:
  
 Port speed options
 
- :    Select 50 Mbps, 100 Mbps, 200 Mbps, 500 Mbps, 1 Gbps, 2 Gbps, 5 Gbps, 10 Gbps, 25 Gbps, 40 Gbps, 50 Gbps, or 100 Gbps.
+ :    Select 50 Mbps, 100 Mbps[^100], 200 Mbps, 500 Mbps, 1 Gbps, 2 Gbps, 5 Gbps, 10 Gbps, 25 Gbps, 40 Gbps, 50 Gbps, or 100 Gbps.
+
+[^100]: 100 Mbps not available for Equinix Exchange and Connect direct links.
 
 Approximate latency:
 
