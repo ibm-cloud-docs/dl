@@ -97,7 +97,6 @@ toc:
             - route-filtering-using-tgw-prefix-filtering.md
         - dl-md5-authentication.md
         - dl-bfd.md
-        - ha-dr.md
         - terraform.md
         - topicgroup:
             label: Enhancing security
