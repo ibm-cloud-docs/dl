@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2024
-lastupdated: "2024-11-21"
+lastupdated: "2024-11-22"
 
 keywords: direct link
 
@@ -19,13 +19,14 @@ View details about the {{site.data.keyword.cloud_notm}} data centers where {{sit
 ## Direct Link Dedicated locations
 {: #dedicated-locations}
 
-The following table provides details about the {{site.data.keyword.cloud_notm}} data centers where {{site.data.keyword.dl_short}} Dedicated is available. Choose a tab to see locations for Americas, APAC, and EMEA.
+The following table provides details about the {{site.data.keyword.cloud_notm}} data centers where {{site.data.keyword.dl_short}} Dedicated is available. Choose a tab to see locations for Americas, APAC, and EU.
 
 | IBM Location Code  | Location Type  |  Meet Me Room Operator |  Operator Site Code  |
 |-----------------|----------------|-----------------|-----------------|
 | Chicago 1 | PoP | Equinix  | CH4 |
 | Dallas 3 | PoP 1 | Equinix | DA1 |
 | Dallas 4 | PoP 2 | Digital Realty | DFW14 |
+| Dallas 09 | DC |  |  |
 | Dallas 10 | DC | QTS | IRV |
 | Dallas 12 | DC | Digital Realty | DFW18 |
 | Dallas 13 | DC | CyrusOne | Carrollton - Frankford |
@@ -33,8 +34,10 @@ The following table provides details about the {{site.data.keyword.cloud_notm}} 
 | Los Angeles 1 | PoP | Coresite | LAX01 |
 | Miami 1 | PoP  | TERREMARK | MI1 |
 | Montreal 1 | DC | Colo-D | MON01 |
+| Montreal 2 | PoP | Cologix | MON02 |
 | Montreal 3 | DC | Colo-D | MON03 |
 | New York City 2[^newyork2]  | PoP | Equinix | NY4 |
+| New York City 3 | PoP | Equinix | NY5 |
 | San Jose 2 | PoP | Equinix | SV1 |
 | San Jose 3| DC | Digital Realty | SJC31|
 | San Jose 4 | DC | Infomart | SJC1 |
@@ -70,6 +73,7 @@ The following table provides details about the {{site.data.keyword.cloud_notm}} 
 | Osaka 21  | DC|  IDC Frontier (SoftBank) | OSA021 |
 | Osaka 22  | DC | IDC Frontier (SoftBank) | OSA022 |
 | Osaka 23  | DC | IDC Frontier (SoftBank) | OSA023 |
+| Perth 1 |  PoP | Equinix | PE2 |
 | Singapore 1 |	DC  | Digital Realty | SIN10 |
 | Sydney 1 | DC | Global Switch | SYD01 |
 | Sydney 2 | PoP 1 | Equinix | SY3 |
@@ -101,6 +105,7 @@ The following table provides details about the {{site.data.keyword.cloud_notm}} 
 | London 2 | DC | Digital Realty | LHR13 |
 | London 3 | PoP 2 | Equinix | LD5 |
 | London 4 | DC | ARK | A103 |
+| London 5 | DC |   |   |
 | London 6 | DC | CyrusOne (Zenium) | LON1 |
 | Madrid 1 | PoP | Equinix | MAD01 |
 | Madrid 2 | DC  | DATA4 Madrid Campus | MAD02 |
