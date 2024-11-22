@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2024
-lastupdated: "2024-11-21"
+lastupdated: "2024-11-22"
 
 keywords: interconnectivity, direct link
 
@@ -97,16 +97,16 @@ Termination location:
 Typical deployment time:
 
  :    5 - 10 days after the circuit reaches the exchange. Deployment time can be 30 - 60 days overall, depending on your location and the requirements when you order a circuit from a service provider or carrier.
- 
+
 Cross-connect details:
 
  :    Physical cross-connects for the secure {{site.data.keyword.dl_short}} Connect interconnect are maintained between {{site.data.keyword.cloud_notm}} and the service provider. Request a "Virtual Circuit" from the service provider, which establishes logical connectivity to {{site.data.keyword.cloud_notm}}, after you are connected to the service provider.
- 
+
 Port speed options
 
  :    Select 50 Mbps, 100 Mbps[^100], 200 Mbps, 500 Mbps, 1 Gbps, 2 Gbps, 5 Gbps, 10 Gbps, 25 Gbps, 40 Gbps, 50 Gbps, or 100 Gbps.
 
-[^100]: 100 Mbps not available for Equinix Exchange and Connect direct links.
+[^100]: The 100 Mbps port speed option is not available for Equinix Exchange and Connect direct links.
 
 Approximate latency:
 
