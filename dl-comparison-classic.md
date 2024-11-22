@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021, 2024
-lastupdated: "2024-11-06"
+lastupdated: "2024-11-22"
 
 keywords: direct link
 
@@ -36,4 +36,4 @@ Review feature support for Direct Link on Classic offerings versus Direct Link.
 | Connectivity between Direct Link and Transit Gateway | Not supported. | All MZRs have Direct Link offering support. |
 | Bidirectional Forwarding Detection (BFD) | You can open an IBM Support case to enable this feature for all Direct Link on Classic offerings. | All MZRs have Direct Link offering support. |
 | Update BGP ASN and IP | You can open an IBM Support ticket to enable this feature for all Direct Link on Classic offerings. | All MZRs have Direct Link offering support. |
-{: caption="Table 1: Feature comparison between Direct Link versions" caption-side="bottom"}
+{: caption="Feature comparison between Direct Link versions" caption-side="bottom"}
