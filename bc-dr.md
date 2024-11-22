@@ -2,7 +2,7 @@
 
 copyright:
   years: 2024
-lastupdated: "2024-11-12"
+lastupdated: "2024-11-22"
 
 keywords:
 
@@ -36,7 +36,7 @@ Direct Link provides mechanisms to protect your data and restore service functio
 |---|---|
 |  RPO | 24 hrs |
 |  RTO | 24 hrs |
-{: caption="Table 1. RPO and RTO for Direct Link" caption-side="bottom"}
+{: caption="RPO and RTO for Direct Link" caption-side="bottom"}
 
 ## Locations
 {: #ha-locations}
