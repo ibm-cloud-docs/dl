@@ -27,7 +27,7 @@ Check back regularly to see what's new with {{site.data.keyword.cloud}} Direct L
 Metrics routing support
 :    You can now monitor and track metrics for Direct Link physical connections and virtual interfaces, allowing you to analyze traffic flow and set up alerts. This way, you can be notified and take appropriate action if any anomalies or unusual traffic patterns are detected. For more information, see [Monitoring Direct Link](/docs/dl?topic=dl-monitoring).
 
-## 1 May 2024
+## 01 May 2024
 {: #dl-may0124}
 
 Enable service network routes from Direct Link to non-Classic connections (Behavior Change)
