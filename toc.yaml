@@ -129,7 +129,8 @@ toc:
                label: Direct Link Provider API
                href: https://{DomainName}/apidocs/direct_link_provider_api
             - api-change-log.md
-            - set-up-environment.md
+            - set-up-environment.md 
+            - service-dependency.md 
         - topicgroup:
             label: CLI reference
             topics:
