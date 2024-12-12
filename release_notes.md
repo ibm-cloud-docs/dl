@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2024
-lastupdated: "2024-07-18"
+lastupdated: "2024-12-09"
 
 keywords: direct link release notes
 
@@ -21,7 +21,13 @@ content-type: release-note
 Check back regularly to see what's new with {{site.data.keyword.cloud}} Direct Link.
 {: shortdesc}
 
-## 1 May 2024
+## 12 December 2024
+{: #dl-december1224}
+
+Metrics routing support
+:    You can now monitor and track metrics for Direct Link physical connections and virtual interfaces, allowing you to analyze traffic flow and set up alerts. This way, you can be notified and take appropriate action if any anomalies or unusual traffic patterns are detected. For more information, see [Monitoring Direct Link](/docs/dl?topic=dl-monitoring).
+
+## 01 May 2024
 {: #dl-may0124}
 
 Enable service network routes from Direct Link to non-Classic connections (Behavior Change)
