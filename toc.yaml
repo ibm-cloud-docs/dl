@@ -111,6 +111,7 @@ toc:
             label: Observability
             topics:
             - at_events.md
+            - monitoring.md
         - topicgroup:
             label: Direct Link hazardous change remediation
             topics:
