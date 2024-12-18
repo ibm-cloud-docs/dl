@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2024
-lastupdated: "2024-11-06"
+lastupdated: "2024-12-18"
 
 keywords: direct link, direct link dedicated
 
@@ -42,8 +42,8 @@ To order {{site.data.keyword.dl_full}} Dedicated, follow these steps.
 {: shortdesc}
 
 1. Log in to your [IBM Cloud account](/login){: external}.
-1. Click Menu ![Menu icon](images/menu_icon.png) on the upper left, then click **Interconnectivity**.
-1. Scroll to locate the Dedicated tile, then click **Order {{site.data.keyword.dl_short}} Dedicated** to order.
+1. Click Menu ![Menu icon](images/menu_icon.png) on the upper left of the page, then click **Infrastructure** > **Network** > **Direct Link**.
+1. Click **Order Direct Link**, then click the **Direct Link Dedicated** tile to open the provisioning page.
 
    Alternatively, you can click **Direct Link** in the left navigation pane to view the Direct Link page, which lists existing Direct Link instances. Then click **Order Direct Link** > **Direct Link Dedicated** tile.
    {: tip}

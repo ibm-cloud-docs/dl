@@ -2,7 +2,7 @@
 
 copyright:
   years: 2024
-lastupdated: "2024-07-19"
+lastupdated: "2024-12-18"
 
 keywords: direct link
 
@@ -48,7 +48,7 @@ Follow these steps to create a Direct Link connection with Console Connect by PC
 
 1. Navigate back to the [IBM Cloud console](/login){: external} to accept the direct link and complete the provisioning. To do so, follow these steps:
 
-   1. Select the **Navigation Menu** icon ![menu icon](../icons/icon_hamburger.svg), then click **Interconnectivity > Direct Link**.
+   1. Select the **Navigation Menu** icon ![menu icon](../icons/icon_hamburger.svg), then click **Infrastructure** > **Network** > **Direct Link**.
    1. In the table, click the name of the new direct link to display its details, then click **Review**.
    1. Select a resource group and type of routing (Local or Global), then click **Next**.
    1. (Optional) Configure any AS prepends if required, then click **Next**.

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021, 2024
-lastupdated: "2024-05-01"
+lastupdated: "2024-12-18"
 
 keywords: direct link
 
@@ -23,7 +23,7 @@ one or more network connections, either a classic infrastructure or VPC connecti
 To change the network connection type of a direct link, follow these steps:
 
 1. Log in to your [{{site.data.keyword.cloud_notm}}](/login){: external} account.
-1. Click Menu ![Menu icon](images/menu_icon.png) on the upper left of the page, then click **Interconnectivity**.
+1. Click Menu ![Menu icon](images/menu_icon.png) on the upper left of the page, then click **Infrastructure** > **Network** > **Direct Link**.
 1. Click **Direct Link** in the navigation pane.
 1. Click the name of the direct link that you want to change the connection type for.
 1. Expand the **Actions** menu in the upper right of the page, then click **Edit gateway**.

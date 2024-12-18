@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2022
-lastupdated: "2022-09-21"
+  years: 2022, 2024
+lastupdated: "2024-12-18"
 
 keywords: direct link
 
@@ -32,7 +32,7 @@ You can create AS prepends and manage your AS prepend configurations after direc
 To prepend an AS path by using the UI, follow these steps:
 
 1. From your browser, open the [{{site.data.keyword.cloud_notm}} console](/login){: external} and log in to your account.
-1. Select the Menu icon ![Menu icon](../../icons/icon_hamburger.svg) from the upper left, then click **Interconnectivity > Direct Link**.
+1. Select the Menu icon ![Menu icon](../../icons/icon_hamburger.svg) from the upper left, then click **Infrastructure** > **Network** > **Direct Link**.
 1. In the Direct Link table, click the Direct Link name of the gateway where you want to manage route priority.
 1. On the Details page, click the **BGP** tab and scroll to the AS prepends section. Then, click **Go to AS prepends**.
 
