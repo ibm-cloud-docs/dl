@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023, 2024
-lastupdated: "2024-06-19"
+lastupdated: "2024-12-18"
 
 keywords: direct link
 
@@ -36,7 +36,7 @@ Review the following considerations when working with a route report:
 To generate a route report by using the UI, follow these steps:
 
 1. From your browser, open the [{{site.data.keyword.cloud_notm}} console](/login){: external} and log in to your account.
-1. Select the Menu icon ![Menu icon](../../icons/icon_hamburger.svg) from the upper left, then click **Interconnectivity > Direct Link**.
+1. Select the Menu icon ![Menu icon](../../icons/icon_hamburger.svg) from the upper left, then click **Infrastructure** > **Network** > **Direct Link**.
 1. In the Direct Link table, click the Direct Link name that you want to generate the report for.
 1. On the Details page, click the **BGP** tab and scroll down to the **Routes** tabbed view. Then, click the **Generate report** link.
 
