@@ -130,7 +130,6 @@ toc:
                href: https://{DomainName}/apidocs/direct_link_provider_api
             - api-change-log.md
             - set-up-environment.md 
-            - service-dependency.md 
         - topicgroup:
             label: CLI reference
             topics:
@@ -147,6 +146,7 @@ toc:
         - prerequisites.md
         - completion-notice.md
         - responsibilities.md
+        - service-dependency.md 
         - topicgroup:
             label: High availability and disaster recovery
             topics:
