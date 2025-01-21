@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2024
-lastupdated: "2024-11-15"
+  years: 2024, 2025
+lastupdated: "2025-01-21"
 
 keywords:
 
@@ -23,7 +23,7 @@ IBM Cloud highly recommends setting up a secondary, diverse direct link to avoid
 You are responsible for understanding your connection configuration, customization, and usage of the service. You are also responsible for being ready to re-create an instance of the service in a new location and restore your data there.  For information on how to design Diversity to achieve HA with Direct Link, see [Models for diversity and redundancy in Direct Link](/docs/dl?topic=dl-models-for-diversity-and-redundancy-in-direct-link).
 {: important}
 
-See [How IBM Cloud ensures high availability and disaster recovery](/docs/overview?topic=overview-zero-downtime#zero-downtime) to learn more about the high availability and disaster recovery standards in {{site.data.keyword.cloud_notm}}. You can also find information about [Service Level Agreements](/docs/overview?topic=overview-slas#slas).
+See [How IBM Cloud ensures high availability and disaster recovery](/docs/resiliency?topic=resiliency-ha-redundancy#zero-downtime) to learn more about the high availability and disaster recovery standards in {{site.data.keyword.cloud_notm}}. You can also find information about [Service Level Agreements](/docs/overview?topic=overview-slas#slas).
 
 ## Responsibilities
 {: #ha-responsibilities}
@@ -57,7 +57,7 @@ Service level objectives (SLOs) describe the design points that the {{site.data.
 |  Availability % | 99.999%  |
 {: caption="SLO for Direct Link" caption-side="bottom"}
 
-The SLO is not a warranty and {{site.data.keyword.IBM_notm}} will not issue credits for failure to meet an objective. Refer to the SLAs for commitments and credits that are issued for failure to meet any committed SLAs. For a summary of all SLOs, see [{{site.data.keyword.cloud_notm}} service level objectives](/docs/overview?topic=overview-slo).
+The SLO is not a warranty and {{site.data.keyword.IBM_notm}} will not issue credits for failure to meet an objective. Refer to the SLAs for commitments and credits that are issued for failure to meet any committed SLAs. For a summary of all SLOs, see [{{site.data.keyword.cloud_notm}} service level objectives](/docs/resiliency?topic=resiliency-slo).
 
 ## Locations
 {: #ha-locations}

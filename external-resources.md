@@ -1,9 +1,9 @@
 ---
 
 copyright:
-  years: 2020, 2024
+  years: 2020, 2025
 
-lastupdated: "2024-10-21"
+lastupdated: "2025-01-21"
 
 keywords: direct link
 
@@ -26,7 +26,7 @@ These resources are created by {{site.data.keyword.cloud}} and by some IBM Busin
 
 * [Introducing {{site.data.keyword.dl_full_notm}} 2.0](https://www.ibm.com/blog/announcement/introducing-ibm-cloud-direct-link-2-0/){: external}, by Nicholas Woodyard
 
-* [New Border Gateway Protocol (BGP) Features for Direct Link Offering](https://www.ibm.com/blog/){: external}, by Gilberto Tellez and Vaishali Pandya
+* [New Border Gateway Protocol (BGP) Features for Direct Link Offering](https://www.ibm.com/new/announcements){: external}, by Gilberto Tellez and Vaishali Pandya
 
 * [Megaport and IBM Empower Enterprise Cloud](https://www.ibm.com/blog/){: external}, by Matt Simpson and Jill Tempelmeyer
 
