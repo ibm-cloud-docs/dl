@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2018, 2024
-lastupdated: "2024-07-19"
+  years: 2018, 2025
+lastupdated: "2025-02-05"
 
 keywords: direct link
 
@@ -84,6 +84,9 @@ The configurations that are shown in this group offer options for connecting acr
 ## Achieving redundancy
 {: #how-to-achieve-diversity-and-redundancy}
 
-If you are looking for High Availability (HA), or full redundancy, set up two links into different XCRs in the same data center (for example DAL03). Then, fail over as needed by using BGP configurations.
+If you are looking for High Availability (HA), or full redundancy, set up two links into different XCRs in the same data center (for example DAL03). Then, fail over as needed by using BGP configurations. 
+
+ECMP routing can be utilized for ingress traffic entering IBM Cloud. However, ECMP is not supported for traffic within IBM Cloud leveraging Direct Link connectivity, nor for ECMP routes that egress from IBM Cloud to an on-premises client.
+{: important}
 
 ![ECMP Dual XCR Model](images/ecmp-with-diversity.png "ECMP Dual XCR Model"){: caption="Figure 7: ECMP with Dual XCRs" caption-side="bottom"}
