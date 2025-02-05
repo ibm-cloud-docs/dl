@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020, 2024
-lastupdated: "2024-11-22"
+  years: 2020, 2025
+lastupdated: "2025-02-05"
 
 keywords: direct link
 
@@ -24,8 +24,8 @@ The following table provides details about the {{site.data.keyword.cloud_notm}} 
 | IBM Location Code  | Location Type  |  Meet Me Room Operator |  Operator Site Code  |
 |-----------------|----------------|-----------------|-----------------|
 | Chicago 1 | PoP | Equinix  | CH4 |
-| Dallas 3 | PoP 1 | Equinix | DA1 |
-| Dallas 4 | PoP 2 | Digital Realty | DFW14 |
+| Dallas 3 | PoP | Equinix | DA1 |
+| Dallas 4 | PoP | Digital Realty | DFW14 |
 | Dallas 09 | DC |  |  |
 | Dallas 10 | DC | QTS | IRV |
 | Dallas 12 | DC | Digital Realty | DFW18 |
@@ -52,9 +52,9 @@ The following table provides details about the {{site.data.keyword.cloud_notm}} 
 | Toronto 3 | PoP | Equinix| TR2 |
 | Toronto 4 | DC | Server Farm | TOR04 |
 | Toronto 5 | DC | Digital Realty | TOR05 |
-| Washington DC 2 | PoP 1 | Equinix | DC2 |
+| Washington DC 2 | PoP | Equinix | DC2 |
 | Washington DC 4 | DC | Digital Realty | IAD38 |
-| Washington DC 5 | PoP 2 | Coresite | DC2 |
+| Washington DC 5 | PoP | Coresite | DC2 |
 | Washington DC 6 | DC | Raging Wire | VA2 |
 | Washington DC 7 | DC | Sabey | Sabey Intergate.Ashburn |
 {: class="simple-tab-table"}
@@ -76,14 +76,14 @@ The following table provides details about the {{site.data.keyword.cloud_notm}} 
 | Perth 1 |  PoP | Equinix | PE2 |
 | Singapore 1 |	DC  | Digital Realty | SIN10 |
 | Sydney 1 | DC | Global Switch | SYD01 |
-| Sydney 2 | PoP 1 | Equinix | SY3 |
-| Sydney 3 | PoP 2 | NextDC | SYD03 |
+| Sydney 2 | PoP | Equinix | SY3 |
+| Sydney 3 | PoP | NextDC | SYD03 |
 | Sydney 4 | DC | Digital Realty | SYD10 |
 | Sydney 5 | DC | Equinix | SY4 |
 | Taipei 1 | PoP | Chief Telecom | TPE01 |
 | Tokyo 1 | Pop | Equinix | TY2  |
 | Tokyo 2 | DC | At Tokyo | TOK02 |
-| Tokyo 3 | PoP 2 | Equinix | TY4 |
+| Tokyo 3 | PoP | Equinix | TY4 |
 | Tokyo 4 | DC | Softbank | |
 | Tokyo 5 | DC | NTT |  |
 {: caption="Direct Link Dedicated - APAC" caption-side="bottom"}
@@ -96,14 +96,14 @@ The following table provides details about the {{site.data.keyword.cloud_notm}} 
 |-----------------|-----------------|-----------------|--------------------|
 | Amsterdam 2 | PoP | Equinix | AM2 |
 | Amsterdam 3 | DC | KPN | Amsterdam 3 |
-| Frankfurt 1 | PoP 1 | Digital Realty | FRA6 |
+| Frankfurt 1 | PoP | Digital Realty | FRA6 |
 | Frankfurt 2 | DC | CyrusOne (Zenium) | FRA1 |
-| Frankfurt 3 | PoP 2 | Equinix | FR6 |
+| Frankfurt 3 | PoP | Equinix | FR6 |
 | Frankfurt 4 | DC  | NTT | Frankfurt 1 |
 | Frankfurt 5 | DC  | Digital Realty | FRA11 |
 | London 1 | PoP | Equinix (Telecity) | LD8 |
 | London 2 | DC | Digital Realty | LHR13 |
-| London 3 | PoP 2 | Equinix | LD5 |
+| London 3 | PoP | Equinix | LD5 |
 | London 4 | DC | ARK | A103 |
 | London 5 | DC |   |   |
 | London 6 | DC | CyrusOne (Zenium) | LON1 |
