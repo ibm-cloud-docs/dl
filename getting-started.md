@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020, 2024
-lastupdated: "2024-07-18"
+  years: 2020, 2025
+lastupdated: "2025-02-07"
 
 keywords: direct link, direct link dedicated, direct link connect
 
@@ -25,7 +25,6 @@ Use {{site.data.keyword.dl_short}} to seamlessly connect your on-premises resour
 * Support for multiple VPCs (without classic access) from a single direct link within the same account
 * Support for both local and global routing options
 * Bring Your Own IP (BYOIP) address to create native connectivity between your on-premises environment and {{site.data.keyword.cloud_notm}}
-* Support for new connect speeds for high bandwidth through {{site.data.keyword.dl_short}} Connect (10, 25, 40, 50, and 100 Gbps).
 * Direct Link connections to and from transit gateways.
 * Support for BGP Message Digest 5 (MD5) Authentication and Bidirectional Forwarding Detection (BFD).
 
