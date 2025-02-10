@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020, 2024
-lastupdated: "2024-07-19"
+  years: 2020, 2025
+lastupdated: "2025-02-10"
 
 keywords: direct link
 
@@ -35,75 +35,7 @@ Activity tracker events are captured for all locations, even if recorded in `eu-
 
 {{site.data.keyword.dl_short}} is a global service, and can generate activity tracking events in all regions.
 
-## Locations where activity tracking events are sent to {{site.data.keyword.at_full_notm}} hosted event search
-{: #at-legacy-locations}
-
-{{site.data.keyword.dl_full_notm}} sends activity tracking events to {{site.data.keyword.at_full_notm}} hosted event search in the regions that are indicated in the following table.
-
-| Dallas (`us-south`) | Washington (`us-east`)  | Toronto (`ca-tor`) | Sao Paulo (`br-sao`) |
-|---------------------|-------------------------|-------------------|----------------------|
-| [No]{: tag-red} | [No]{: tag-red} | [No]{: tag-red} | [No]{: tag-red} |
-{: caption="Regions where activity tracking events are sent in Americas locations" caption-side="top"}
-{: #at-table-1}
-{: tab-title="Americas"}
-{: tab-group="at"}
-{: class="simple-tab-table"}
-{: row-headers}
-
-| Tokyo (`jp-tok`)    | Sydney (`au-syd`) |  Osaka (`jp-osa`) | Chennai (`in-che`) |
-|---------------------|------------------|------------------|--------------------|
-| [No]{: tag-red} | [No]{: tag-red} | [No]{: tag-red} | [No]{: tag-red} |
-{: caption="Regions where activity tracking events are sent in Asia Pacific locations" caption-side="top"}
-{: #at-table-2}
-{: tab-title="Asia Pacific"}
-{: tab-group="at"}
-{: class="simple-tab-table"}
-{: row-headers}
-
-| Frankfurt (`eu-de`)  | London (`eu-gb`) | Madrid (`eu-es`) |
-|---------------------------------------------------------------|---------------------|------------------|
-| [Yes]{: tag-green} | [No]{: tag-red} | [No]{: tag-red} |
-{: caption="Regions where activity tracking events are sent in Europe locations" caption-side="top"}
-{: #at-table-3}
-{: tab-title="Europe"}
-{: tab-group="at"}
-{: class="simple-tab-table"}
-{: row-headers}
-
-## Locations where activity tracking events are sent by {{site.data.keyword.atracker_full_notm}}
-{: #atracker-locations}
-
-{{site.data.keyword.dl_full_notm}} sends activity tracking events by {{site.data.keyword.atracker_full_notm}} in the regions that are indicated in the following table.
-
-| Dallas (`us-south`) | Washington (`us-east`)  | Toronto (`ca-tor`) | Sao Paulo (`br-sao`) |
-|---------------------|-------------------------|-------------------|----------------------|
-| [No]{: tag-red} | [No]{: tag-red} | [No]{: tag-red} | [No]{: tag-red} |
-{: caption="Regions where activity tracking events are sent in Americas locations" caption-side="top"}
-{: #atracker-table-1}
-{: tab-title="Americas"}
-{: tab-group="atracker"}
-{: class="simple-tab-table"}
-{: row-headers}
-
-| Tokyo (`jp-tok`)    | Sydney (`au-syd`) |  Osaka (`jp-osa`) | Chennai (`in-che`) |
-|---------------------|------------------|------------------|--------------------|
-| [No]{: tag-red} | [No]{: tag-red} | [No]{: tag-red} | [No]{: tag-red} |
-{: caption="Regions where activity tracking events are sent in Asia Pacific locations" caption-side="top"}
-{: #atracker-table-2}
-{: tab-title="Asia Pacific"}
-{: tab-group="atracker"}
-{: class="simple-tab-table"}
-{: row-headers}
-
-| Frankfurt (`eu-de`)  | London (`eu-gb`) | Madrid (`eu-es`) |
-|---------------------------------------------------------------|---------------------|------------------|
-| [Yes]{: tag-green} | [No]{: tag-red} | [No]{: tag-red} |
-{: caption="Regions where activity tracking events are sent in Europe locations" caption-side="top"}
-{: #atracker-table-3}
-{: tab-title="Europe"}
-{: tab-group="atracker"}
-{: class="simple-tab-table"}
-{: row-headers}
+By default, Direct Link activity tracking events are stored in the Frankfurt (eu-de) location. If you prefer not to store these events in this region, you can set up your AT log routing rules to route to an AT instance in a different location.
 
 ## Viewing activity tracking events for {{site.data.keyword.dl_full_notm}}
 {: #at-viewing}
