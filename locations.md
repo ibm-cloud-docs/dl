@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2025
-lastupdated: "2025-02-05"
+lastupdated: "2025-02-14"
 
 keywords: direct link
 
@@ -15,6 +15,8 @@ subcollection: dl
 {: #locations}
 
 View details about the {{site.data.keyword.cloud_notm}} data centers where {{site.data.keyword.dl_short}} Dedicated and Connect offering are available.
+
+[ADD HOSTING LOCATIONS]{: tag-purple}
 
 ## Direct Link Dedicated locations
 {: #dedicated-locations}
