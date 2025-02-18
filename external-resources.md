@@ -3,7 +3,7 @@
 copyright:
   years: 2020, 2025
 
-lastupdated: "2025-01-21"
+lastupdated: "2025-02-18"
 
 keywords: direct link
 
@@ -28,19 +28,19 @@ These resources are created by {{site.data.keyword.cloud}} and by some IBM Busin
 
 * [New Border Gateway Protocol (BGP) Features for Direct Link Offering](https://www.ibm.com/new/announcements){: external}, by Gilberto Tellez and Vaishali Pandya
 
-* [Megaport and IBM Empower Enterprise Cloud](https://www.ibm.com/blog/){: external}, by Matt Simpson and Jill Tempelmeyer
+* [Megaport and IBM Empower Enterprise Cloud](https://www.ibm.com/new/announcements){: external}, by Matt Simpson and Jill Tempelmeyer
 
-* [Supporting the next generation cloud applications with {{site.data.keyword.dl_full_notm}}](https://www.ibm.com/blog/){: external}, by Gabriel Montanti
+* [Supporting the next generation cloud applications with {{site.data.keyword.dl_full_notm}}](https://www.ibm.com/new/announcements){: external}, by Gabriel Montanti
 
 * [IBM and Colt - Enabling Enterprise Digital Transformation](https://www.ibm.com/blog/announcement/ibm-colt-enterprise-digital-transformation/){: external}, by Paul Hertzfeldt
 
-* [Digital Realty and {{site.data.keyword.dl_full_notm}} - Built for Enterprise Cloud](https://www.ibm.com/blog/){: external}, by Paul Hertzfeldt
+* [Digital Realty and {{site.data.keyword.dl_full_notm}} - Built for Enterprise Cloud](https://www.ibm.com/new/announcements){: external}, by Paul Hertzfeldt
 
 * [PacketFabric and {{site.data.keyword.cloud_notm}} Enable Secure Enterprise Connections](https://www.ibm.com/blog/announcement/packetfabric-ibm-enable-secure-enterprise-connections/){: external}, by Paul Hertzfeldt
 
 * [AT TOKYO Connects to {{site.data.keyword.cloud_notm}} to Support Mission-Critical Applications](https://www.ibm.com/blog/announcement/tokyo-connects-ibm-cloud-support-mission-critical-applications/){: external}, by Paul Hertzfeldt
 
-* [Improve Digital Experiences with SES Networks and IBM](https://www.ibm.com/blog/){: external}, by Paul Hertzfeldt
+* [Improve Digital Experiences with SES Networks and IBM](https://www.ibm.com/new/announcements){: external}, by Paul Hertzfeldt
 
 ## Papers and case studies
 {: #papers-case-studies}
