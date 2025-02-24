@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2025
-lastupdated: "2025-02-14"
+lastupdated: "2025-02-24"
 
 keywords: faqs
 
@@ -224,7 +224,7 @@ We are unable to support any QoS guarantees. QoS requires MPLS mapping between e
 {: #does-dl-support-jumbo-frames}
 {: faq}
 
-[Ashtosh Review]{: tag-purple} Jumbo frames (up to 9214 bytes) are supported on Direct Link Dedicated.
+Jumbo frames (up to 9214 bytes) are supported on Direct Link Dedicated.
 
 ## How easy is it to upgrade the bandwidth of my {{site.data.keyword.dl_short}} Dedicated connection, for example 1 - 5 GB?
 {: #how-easy-is-it-to-upgrade-the-bandwidth-of-my-dl-connection}
