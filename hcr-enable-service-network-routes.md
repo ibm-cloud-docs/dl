@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2024
-lastupdated: "2024-07-18"
+  years: 2024, 2025
+lastupdated: "2025-02-14"
 keywords:
 
 subcollection: dl
@@ -17,12 +17,12 @@ subcollection: dl
 ## What changed?
 {: #what-changed}
 
-Starting 1 May 2024, IBM Cloud Direct Link Connect and Dedicated offerings enabled a new feature. `10.0.0.0/14`, `10.198.0.0/15`, and `10.200.0.0/14` routes are now announced from a direct link over IBM Cloud Transit Gateway. Also, Transit Gateway prevents these routes from making it into classic connections. Only nonclassic connections on a transit gateway can use these routes from an on-premises network.
+Starting 1 May 2024, IBM Cloud Direct Link Connect and Dedicated offerings enabled a new feature. `10.0.0.0/14`, `10.198.0.0/15`, and `10.200.0.0/14` routes are now announced from a direct link over IBM Cloud Transit Gateway. Also, Transit Gateway prevents these routes from making it into classic connections. Only non-classic connections on a transit gateway can use these routes from an on-premises network.
 
 ## Why did we make this change?
 {: #why-make-this-change}
 
-A direct link must be in transit mode so that it can connect only to transit gateways. When in transit mode, a direct link will not advertise these routes to protect classic networks that might be on a transit gateway that it is connected to. These changes are being made to allow other nonclassic connections (for example, VPC or Power Edge Router) on the transit gateway to access these on-prem routes.
+A direct link must be in transit mode so that it can connect only to transit gateways. When in transit mode, a direct link will not advertise these routes to protect classic networks that might be on a transit gateway that it is connected to. These changes are being made to allow other non-classic connections (for example, VPC or Power Edge Router) on the transit gateway to access these on-prem routes.
 
 ## What are the effects of this change?
 {: #affected-by-this-change}
@@ -30,7 +30,7 @@ A direct link must be in transit mode so that it can connect only to transit gat
 All transit gateways with either a classic or Direct Link connection can be affected by this change to `10.0.0.0/14`, `10.198.0.0/15`, and `10.200.0.0/14` routes.
 
 * Classic connections will no longer see these routes, even if they previously did from other non-Direct Link connections.
-* Other nonclassic connections see these routes from Direct Link connections.
+* Other non-classic connections see these routes from Direct Link connections.
 
 Keep in mind that:
 
