@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2024
-lastupdated: "2024-12-12"
+  years: 2024, 2025
+lastupdated: "2025-02-24"
 keywords: service metrics
 
 subcollection: dl
@@ -50,7 +50,7 @@ The metric contains the following metadata:
 
 | Metadata | Description |
 |----------|-------------|
-| Metric name | `ibm_direct_link_connect_gateway_egress_bytes_per_second` |
+| Metric name | `ibm_directlink_connect_gateway_egress_bytes_per_second` |
 | Metric type | `gauge` |
 | Value type | `bytes per second` |
 | Segment by | `ibm_ctype`, `ibm_scope`,`ibm_location`,`ibm_service_name`, `ibm_resource_name`, `ibm_resource`, `ibm_resource_type`|
@@ -65,7 +65,7 @@ The metric contains the following metadata:
 
 | Metadata | Description |
 |----------|-------------|
-| Metric name | `ibm_direct_link_connect_gateway_ingress_bytes_per_second` |
+| Metric name | `ibm_directlink_connect_gateway_ingress_bytes_per_second` |
 | Metric type | `gauge` |
 | Value type | `bytes per second` |
 | Segment by | `ibm_ctype`, `ibm_scope`,`ibm_location`,`ibm_service_name`, `ibm_resource_name`, `ibm_resource`, `ibm_resource_type`|
@@ -80,7 +80,7 @@ The metric contains the following metadata:
 
 | Metadata | Description |
 |----------|-------------|
-| Metric name | `ibm_direct_link_dedicated_gateway_egress_bytes_per_second` |
+| Metric name | `ibm_directlink_dedicated_gateway_egress_bytes_per_second` |
 | Metric type | `gauge` |
 | Value type | `bytes per second`|
 | Segment by |`ibm_ctype`, `ibm_scope`,`ibm_location`,`ibm_service_name`, `ibm_resource_name`, `ibm_resource`, `ibm_resource_type`|
@@ -95,7 +95,7 @@ The metric contains the following metadata:
 
 | Metadata | Description |
 |----------|-------------|
-| Metric name | `ibm_direct_link_dedicated_gateway_ingress_bytes_per_second` |
+| Metric name | `ibm_directlink_dedicated_gateway_ingress_bytes_per_second` |
 | Metric type | `gauge` |
 | Value type | `bytes per second`|
 | Segment by |`ibm_ctype`, `ibm_scope`,`ibm_location`,`ibm_service_name`, `ibm_resource_name`, `ibm_resource`, `ibm_resource_type`|
@@ -110,7 +110,7 @@ The metric contains the following metadata:
 
 | Metadata | Description |
 |----------|-------------|
-| Metric name | `ibm_direct_link_dedicated_gateway_egress_packet_per_second` |
+| Metric name | `ibm_directlink_dedicated_gateway_egress_packet_per_second` |
 | Metric type | `gauge` |
 | Value type | `packets per second`|
 | Segment by |`ibm_ctype`, `ibm_scope`,`ibm_location`,`ibm_service_name`, `ibm_resource_name`, `ibm_resource`, `ibm_resource_type`|
@@ -125,7 +125,7 @@ The metric contains the following metadata:
 
 | Metadata | Description |
 |----------|-------------|
-| Metric name | `ibm_direct_link_dedicated_gateway_ingress_packet_per_second` |
+| Metric name | `ibm_directlink_dedicated_gateway_ingress_packet_per_second` |
 | Metric type | `gauge` |
 | Value type | `packets per second`|
 | Segment by |`ibm_ctype`, `ibm_scope`,`ibm_location`,`ibm_service_name`, `ibm_resource_name`, `ibm_resource`, `ibm_resource_type`|
@@ -140,7 +140,7 @@ The metric contains the following metadata:
 
 | Metadata | Description |
 |----------|-------------|
-| Metric name | `ibm_direct_link_dedicated_gateway_ingress_packet_dropped_per_second` |
+| Metric name | `ibm_directlink_dedicated_gateway_ingress_packet_dropped_per_second` |
 | Metric type | `gauge` |
 | Value type | `packets per second`|
 | Segment by |`ibm_ctype`, `ibm_scope`,`ibm_location`,`ibm_service_name`, `ibm_resource_name`, `ibm_resource`, `ibm_resource_type`|
@@ -155,7 +155,7 @@ The metric contains the following metadata:
 
 | Metadata | Description |
 |----------|-------------|
-| Metric name | `ibm_direct_link_dedicated_gateway_error_count_per_second` |
+| Metric name | `ibm_directlink_dedicated_gateway_error_count_per_second` |
 | Metric type | `count` |
 | Value type | `none`|
 | Segment by |`ibm_ctype`, `ibm_scope`,`ibm_location`,`ibm_service_name`, `ibm_resource_name`, `ibm_resource`, `ibm_resource_type`|
