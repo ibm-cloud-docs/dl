@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2025
-lastupdated: "2025-02-24"
+lastupdated: "2025-02-27"
 
 keywords: direct link
 
@@ -112,8 +112,7 @@ The following table provides details about the {{site.data.keyword.cloud_notm}} 
 | Madrid 2 | DC  | DATA4 Madrid Campus | MAD02 |
 | Madrid 3 | PoP | Digital Realty |  MAD03 |
 | Madrid 4 | DC  | NTT Data Center | MAD04 |
-| Madrid 5 | DC  | Digital Realty | MAD05 |
-| Milan 1 | DC | Data 4 | |
+| Madrid 5 | DC  | Digital Realty | MAD05 | 
 | Milan 2 | PoP | Infracom Italia | Infracom 21 Via Caldera Way |
 | Paris 1 | DC  | Global Switch Limited | PAR01 |
 | Paris 2 | PoP | Equinix | PA2 |
@@ -169,7 +168,7 @@ The sites highlighted in **bold** are emphasized because they differ from the ma
 | Frankfurt | Frankfurt 2 \n Frankfurt 4 \n Frankfurt 5 | Frankfurt 1 \n Frankfurt 3 |
 | London | London 2 \n London 4 \n London 5 \n London 6 | London 1 \n London 3 |
 | Madrid | Madrid 2 \n Madrid 4 \n Madrid 5 | Madrid 1 \n Madrid 3 |
-| Milan | Milan 1 | Milan 2 |
+| Milan | Milan 2 |
 | Paris | Paris 1 | Paris 2 \n Paris 3 |
 {: caption="Direct Link Dedicated - EMEA" caption-side="bottom"}
 {: #simpletabtable33}
