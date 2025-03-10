@@ -2,7 +2,7 @@
 
 copyright:
   years: 2024, 2025
-lastupdated: "2025-02-24"
+lastupdated: "2025-03-10"
 keywords: service metrics
 
 subcollection: dl
@@ -132,7 +132,7 @@ The metric contains the following metadata:
 {: caption="IBM Cloud Direct Link Dedicated ingress packets per second metrics" caption-side="bottom"}
 
 ### Direct Link Dedicated - Packets dropped per second data for ingress traffic
-{: #ibm_cloud_direct_link_dedicated_packets_per_second_ingress}
+{: #ibm_cloud_direct_link_dedicated_packets_dropped_per_second_ingress}
 
 Packets dropped per second data for all the ingress data flow on a gateway.
 
