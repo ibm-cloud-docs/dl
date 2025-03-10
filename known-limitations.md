@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020, 2024
-lastupdated: "2024-09-18"
+  years: 2020, 2025
+lastupdated: "2025-03-10"
 
 keywords: direct link
 
@@ -12,7 +12,7 @@ subcollection: dl
 
 {{site.data.keyword.attribute-definition-list}}
 
-# Known limitations
+# Known issues and limitations
 {: #known-limitations}
 
 Known limitations are as follows:
