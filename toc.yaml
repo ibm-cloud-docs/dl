@@ -48,11 +48,17 @@ toc:
     - navgroup:
         id: howto
         topics:
-        - order-nsp.md
+        - topicgroup:
+            label: Ordering IBM Cloud Direct Link Dedicated
+            topics:
+            - order-nsp.md
+            - completing-the-connection.md
         - topicgroup:
             label: Ordering IBM Cloud Direct Link Connect
             topics:
             - order-connect.md
+            - macsec-prerequisites.md
+            - completing-the-connection.md
             - topicgroup:
                 label: Partner-specific instructions
                 topics:

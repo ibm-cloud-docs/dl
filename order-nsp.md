@@ -33,7 +33,7 @@ Make sure that you review the following information before you order Direct Link
 * A Generic Routing Encapsulation (GRE)/IPsec tunneling requirement between your Edge router and a virtual router in {{site.data.keyword.cloud_notm}} requires a nonconflicting subnet when ordering. Default addresses for Direct Link are nonroutable and do not support tunneling.
 * {{site.data.keyword.cloud_notm}} VPC permits the use of RFC-1918 and IANA-registered IPv4 address space, privately within your VPC, with some exceptions in the IANA Special-Purpose ranges, and select ranges that are assigned to {{site.data.keyword.cloud_notm}} services. When you use IANA-registered ranges within your enterprise, and within VPCs with {{site.data.keyword.cloud_notm}} Direct Link, custom routes must be installed in each zone. For more information, see [Routing considerations for IANA-registered IP assignments](/docs/vpc?topic=vpc-interconnectivity#routing-considerations-iana).
 * If you plan to connect your direct link to a transit gateway, keep in mind that a single direct link instance accepts a maximum of 120 on-premises address prefixes when connected to a transit gateway. Consider aggregating prefixes to keep within this limit. (A direct link can accept a maximum of 200 prefixes when not connected to a transit gateway.)
-* For known limitations and restrictions, see [Known issues and limitations](/docs/dl?topic=dl-known-limitations).   
+* For known limitations and restrictions, see [Known issues and limitations](/docs/dl?topic=dl-known-limitations).
 
 ## Ordering instructions
 {: #instructions-dedicated}
@@ -41,7 +41,7 @@ Make sure that you review the following information before you order Direct Link
 To order {{site.data.keyword.dl_full}} Dedicated, follow these steps.
 {: shortdesc}
 
-In the [{{site.data.keyword.cloud_notm}} console](/login){: external}, click the **Navigation menu** icon ![menu icon](../icons/icon_hamburger.svg) **> Infrastructure**> **Network** > **Direct link****.
+1. In the [{{site.data.keyword.cloud_notm}} console](/login){: external}, click the **Navigation menu** icon ![menu icon](../icons/icon_hamburger.svg) **> Infrastructure**> **Network** > **Direct link****.
 1. Click **Order Direct Link**, then click the **Direct Link Dedicated** tile to open the provisioning page.
 1. In the Before you begin section, click **Expand checklist** to review the ordering process (also described in [Completing the connection](/docs/dl?topic=dl-how-to-order-ibm-cloud-dl-dedicated#complete-connection)).
 1. In the Resource section, complete the following information:
@@ -164,32 +164,10 @@ In the [{{site.data.keyword.cloud_notm}} console](/login){: external}, click the
    If you want to add GB egress data to your estimate, click **Add to estimate** to calculate the cost. You can also click the **About** tab for links to {{site.data.keyword.dl_short}} pricing tables and other helpful resources.
    {: tip}
 
-Complete your connection, using the following instructions.
+## Next step
+{: #dedicated-next-step}
 
-## Completing the connection
-{: #complete-connection}
-
-After you submit your {{site.data.keyword.dl_short}} order, the {{site.data.keyword.dl_short}} table indicates an **LOA creation in progress** connection status. Click the name of the connection to open its details page. Then, view the **Actions** section to see if you have any pending actions.
-
-Here's how the process works:
-
-1. IBM Cloud uploads a Letter of Authorization (LOA) containing a Connecting Facility Assignment (CFA) within 24 hours. In turn, the connection status changes to **Waiting LOA review**. Currently, you can click the corresponding buttons to preview and accept the LOA.
-1. After you accept the LOA and download it, the connection status changes to **Waiting completion notice upload**. Now take the LOA document to your carrier and get the completion notice ([Example](/docs/dl?topic=dl-completion-notice-example)). To do so, you can:
-
-   * Supply the LOA/CFA to your colocation provider and have them order a cross-connect and any required inter-campus connectivity.
-   * Supply the LOA/CFA to your service provider and have them order a third-party cross-connect, as well as the circuit between your on-premises and the appropriate Meet Me Room.
-
-   IBM Cloud will not order a cross-connect on a customer's behalf.
-   {: note}
-
-1. After you receive the completion notice from your carrier, upload it. The completion notice must be in PDF format with the name **completion_notice.pdf** for the automation to process it properly. The specific connection shows an option in the {{site.data.keyword.cloud_notm}} console to upload the completion notice. Notice that the connection status changes to **Completion notice review in progress**.
-
-1. The IBM Cloud team reviews the completion notice and accepts it. The IBM Cloud team then places an order for the fiber to be installed between the patch panel/port mentioned in the LOA and the device port. This process can take 1-4 business days, depending on how quickly the site provider finishes the request. This completes the physical-layer portion of the direct link and the connection status changes to **Provisioned.**
-
-1. Configure the BGP parameters on your Edge router for BGP session establishment. After this completes, the **BGP status** indicates **Established** and **Link status** indicates **Up**. It can take up to 30 minutes for the link status to update.
-
-If you decide to cancel your direct link, remember to disconnect the cross-connect router with the site provider; otherwise, you will continue to be charged for the cross-connect.
-{: important}
+To complete your connection, see XXXXX
 
 ## Related link
 {: #related-links-dedicated}
