@@ -53,20 +53,36 @@ In the [{{site.data.keyword.cloud_notm}} console](/login){: external}, click the
 
 1. In the Gateway section, complete the following information:
 
-   * Select a geography, followed by a market, type, site, and routing option.
+   1. Select a geography, followed by a market, type, site, and routing option.
 
       Local and global routing options are supported. When you select a routing option, the location details with reachable sites are displayed.
       {: note}
 
-   * Choose a connection speed. The speeds that are supported for the {{site.data.keyword.dl_short}} Dedicated offering are 1 Gbps, 2 Gbps, 5 Gbps, and 10 Gbps.
+   1. Choose a connection speed. The speeds that are supported for the {{site.data.keyword.dl_short}} Dedicated offering are 1 Gbps, 2 Gbps, 5 Gbps, and 10 Gbps.
 
       Speeds greater than 1 Gbps require 10 Gbps service from the client's carrier and equipment. If you intend to upgrade the speed for this gateway, select 2 Gbps to start with; otherwise, you cannot upgrade to a higher speed on this gateway.
       {: tip}
 
-   * Choose an IBM cross-connect router, if available.
+   1. [MACsec update]{: tag-red} Choose the cross-connect router available at the selected location for this direct link. You can't modify this router after provisioning. Some routers may be disabled based on their support for the MACsec feature and the decisions made regarding its use.
 
-   The routing option that you select determines the reachability of the resources in the selected location. If you select the **Global** routing option along with your location selections, the **Region** menu list displays all the regions that are globally available in the specific account. After you select a region, you can select any VPC from the **Available connections** menu. If you select **Local** routing, then only the region that corresponds to the selected location is available to select. When selected, the VPCs available in the local region for your account are shown.
-   {: note}
+      The routing option that you select determines the reachability of the resources in the selected location. If you select the **Global** routing option along with your location selections, the **Region** menu list displays all the regions that are globally available in the specific account. After you select a region, you can select any VPC from the **Available connections** menu. If you select **Local** routing, then only the region that corresponds to the selected location is available to select. When selected, the VPCs available in the local region for your account are shown.
+      {: note}
+
+   1. [MACsec update]{: tag-red} Choose the MACsec security level that you want for this direct link. Options are:
+
+      * **Require MACsec** - Enforce the use of MACsec, which cannot be disabled after provisioning. The available capabilities depend on the ports available on the selected cross-connect router.
+
+         Enabling MACsec allows you to edit its configuration, but you can’t remove this feature. 
+         {: note}     
+
+      * **Enable/disable MACsec** - Optionally, enable or disable MACsec either during or after the provisioning of this direct link. After MACsec is enabled, you can activate or deactivate this feature.          
+
+         You can enable or disable the MACsec feature either during or after the provisioning of this direct link.This choice affects your router options, limiting access to MACsec-supported locations and routers only. You can’t select a router that supports only MACsec unless MACsec is enabled.  
+         {: note}
+
+      * **No MACsec** - Exclude this direct link from using MACsec. MACsec can't be enabled during or after provisioning. 
+
+         **Warning: You can’t use or enable MACsec on this direct link, nor can you select a router that supports only MACsec.**         
 
 1. In the Billing section, select **Metered** or **Unmetered**. Metered pricing is paying only for what you use. Unmetered is unlimited access, for a predicable, monthly fee. {: #dl-dedicated-bgp}
 1. In the BGP section, complete the following information:
