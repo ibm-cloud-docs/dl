@@ -30,10 +30,14 @@ Make sure that you review the following information before you order Direct Link
    * To avoid IP address conflicts for classic connections to a direct link, don't use IP address ranges in the `10.0.0.0/14`, `10.200.0.0/14`, `10.198.0.0/15`, and `10.254.0.0/16` blocks for on-prem networks. On-prem routes that overlap are dropped.
    * For VPC connections to a direct link, you "can" use restricted Classic IP ranges in the `10.0.0.0/14`, `10.200.0.0/14`, `10.198.0.0/15`, and `10.254.0.0/16` blocks.
    * For direct links connected to transit gateways, these IP ranges are always filtered to protect classic networks that could potentially be connected to transit gateways.
-* A Generic Routing Encapsulation (GRE)/IPsec tunneling requirement between your Edge router and a virtual router in {{site.data.keyword.cloud_notm}} requires a nonconflicting subnet when ordering. Default addresses for Direct Link are nonroutable and do not support tunneling.
-* {{site.data.keyword.cloud_notm}} VPC permits the use of RFC-1918 and IANA-registered IPv4 address space, privately within your VPC, with some exceptions in the IANA Special-Purpose ranges, and select ranges that are assigned to {{site.data.keyword.cloud_notm}} services. When you use IANA-registered ranges within your enterprise, and within VPCs with {{site.data.keyword.cloud_notm}} Direct Link, custom routes must be installed in each zone. For more information, see [Routing considerations for IANA-registered IP assignments](/docs/vpc?topic=vpc-interconnectivity#routing-considerations-iana).
-* If you plan to connect your direct link to a transit gateway, keep in mind that a single direct link instance accepts a maximum of 120 on-premises address prefixes when connected to a transit gateway. Consider aggregating prefixes to keep within this limit. (A direct link can accept a maximum of 200 prefixes when not connected to a transit gateway.)
-* For known limitations and restrictions, see [Known issues and limitations](/docs/dl?topic=dl-known-limitations).
+* A Generic Routing Encapsulation (GRE)/IPsec tunneling requirement between your Edge router and a virtual router in {{site.data.keyword.cloud_notm}} requires a nonconflicting subnet when ordering. The default addresses for Direct Link are nonroutable and do not support tunneling.
+* {{site.data.keyword.cloud_notm}} VPC permits the use of RFC-1918 and IANA-registered IPv4 address space, privately within your VPC. It also permits this use, with some exceptions, in the IANA Special-Purpose ranges, as well as select ranges that are assigned to {{site.data.keyword.cloud_notm}} services. When you use IANA-registered ranges within your enterprise, and within VPCs with {{site.data.keyword.cloud_notm}} Direct Link, custom routes must be installed in each zone. For more information, see [Routing considerations for IANA-registered IP assignments](/docs/vpc?topic=vpc-interconnectivity#routing-considerations-iana).
+* If you plan to connect your direct link to a transit gateway, keep in mind that a single direct link instance accepts a maximum of 120 on-premises address prefixes when connected to a transit gateway. Consider aggregating prefixes to keep within this limit.
+
+   A direct link can accept a maximum of 200 prefixes when not connected to a transit gateway.
+   {: note}
+
+* Be sure to consult and familiarize yourself with the [Known issues and limitations](/docs/dl?topic=dl-known-limitations).
 
 ## Ordering instructions
 {: #instructions-dedicated}
@@ -41,7 +45,7 @@ Make sure that you review the following information before you order Direct Link
 To order {{site.data.keyword.dl_full}} Dedicated, follow these steps.
 {: shortdesc}
 
-1. In the [{{site.data.keyword.cloud_notm}} console](/login){: external}, click the **Navigation menu** icon ![menu icon](../icons/icon_hamburger.svg) **> Infrastructure**> **Network** > **Direct link****.
+1. In the [{{site.data.keyword.cloud_notm}} console](/login){: external}, click the **Navigation menu** icon ![menu icon](../icons/icon_hamburger.svg), then select **Infrastructure > Network > Direct link**.
 1. Click **Order Direct Link**, then click the **Direct Link Dedicated** tile to open the provisioning page.
 1. In the Before you begin section, click **Expand checklist** to review the ordering process (also described in [Completing the connection](/docs/dl?topic=dl-complete-connection)).
 1. In the Resource section, complete the following information:
@@ -54,7 +58,7 @@ To order {{site.data.keyword.dl_full}} Dedicated, follow these steps.
 
    1. Select a geography, followed by a market, type, site, and routing option.
 
-      Local and global routing options are supported. When you select a routing option, the location details with reachable sites are displayed.
+      Local and global routing options are supported. When you select a routing option, the location details with reachable sites display.
       {: note}
 
    1. Choose a connection speed. The speeds that are supported for the {{site.data.keyword.dl_short}} Dedicated offering are 1 Gbps, 2 Gbps, 5 Gbps, and 10 Gbps.
@@ -67,7 +71,7 @@ To order {{site.data.keyword.dl_full}} Dedicated, follow these steps.
       The routing option that you select determines the reachability of the resources in the selected location. If you select the **Global** routing option along with your location selections, the **Region** menu list displays all the regions that are globally available in the specific account. After you select a region, you can select any VPC from the **Available connections** menu. If you select **Local** routing, then only the region that corresponds to the selected location is available to select. When selected, the VPCs available in the local region for your account are shown.
       {: note}
 
-   1. Choose the MACsec security level that you want for this direct link. Options are:
+   1. Choose the MACsec security level that you want for this direct link. The options are:
 
       * **Require MACsec** - Enforce the use of MACsec, which cannot be disabled after provisioning. The available capabilities depend on the ports available on the selected cross-connect router.
 
@@ -76,40 +80,42 @@ To order {{site.data.keyword.dl_full}} Dedicated, follow these steps.
 
       * **Enable/disable MACsec** - Optionally, enable or disable MACsec either during or after the provisioning of this direct link. After MACsec is enabled, you can activate or deactivate this feature.          
 
-         You can enable or disable the MACsec feature either during or after the provisioning of this direct link. This choice affects your router options, limiting access to MACsec-supported locations and routers only. You can’t select a router that supports only MACsec unless MACsec is enabled.
+         This choice affects your router options, limiting access to MACsec-supported locations and routers only. You can’t select a router that supports only MACsec unless MACsec is enabled.
          {: note}
 
       * **No MACsec** - Exclude this direct link from using MACsec. MACsec can't be enabled during or after provisioning. 
 
          **Warning: You can’t use or enable MACsec on this direct link, nor can you select a router that supports only MACsec.**         
 
-1. In the Billing section, select **Metered** or **Unmetered**. Metered pricing is paying only for what you use. Unmetered is unlimited access, for a predicable, monthly fee. {: #dl-dedicated-bgp}
+1. In the Billing section, select **Metered** or **Unmetered**. Metered pricing means paying only for what you use. Unmetered is unlimited access, for a predicable, monthly fee. {: #dl-dedicated-bgp}
 1. In the BGP section, complete the following information:
    * Select the IBM cross-connect router for the {{site.data.keyword.dl_short}} connection. The number of direct links that are associated with your account for each router is shown next to the router name.
    * Select a BGP peering subnet for the {{site.data.keyword.dl_short}} connection. You have two choices for BGP subnets:
-      * Select **Manual-select IP** to specify two of your own IP addresses (in CIDR format) from the ranges `10.254.0.0/16`, `172.16.0.0/12`, `192.168.0.0/16`, `169.254.0.0/16`, or `Public` (a public IP address that you own). Manual-select is useful when you are trying to avoid conflicts with an existing subnet that is in use.
-      * Select **Auto-select IP** for IBM to assign an IP address from IP range `169.254.0.0/16`.
+      * Select **Manual-select IP** to specify two of your own IP addresses (in CIDR format) from the ranges `10.254.0.0/16`, `172.16.0.0/12`, `192.168.0.0/16`, `169.254.0.0/16`, or `Public` (a public IP address that you own).
+
+         Manual-select is useful when you are trying to avoid conflicts with an existing subnet that is in use.
+         {: tip}
+        
+      * Select **Auto-select IP** to have IBM assign an IP address from IP range `169.254.0.0/16`.
 
       Make sure that any self-provided BGP addresses do not conflict with blocks that are used by IBM, or by resources external to your {{site.data.keyword.dl_short}} deployment. Also, if you plan to use GRE or IPsec tunneling with your direct link, you must select a BGP IP other than `169.254.0.0/16`.
       {: important}
 
-   * For BGP ASN, use either the default value of `64999` or select an ASN from the specified allowed ranges.
-      Allowed ASN ranges are:
+   * For BGP ASN, use either the default value of `64999` or select an ASN from the specified allowed ranges. Allowed ASN ranges are:
       * For a 2-byte range, enter a value between `1-64495` or the default `64999`.
       * For a 2-byte or 4-byte range, enter a value between `131072-4199999999`.
       * For a 4-byte range, enter a value between `4201000000-4294967294`.
 
-      Excluded ASNs: `0`, `13884`, `36351`, `64512`, `64513`, `65100`, `65201 – 65234`, `65402 – 65433`, `65500`, `65516`, `65519`, `65521`, `65531`, and `4201065000 – 4201065999`
+      Excluded ASNs are: `0`, `13884`, `36351`, `64512`, `64513`, `65100`, `65201` – `65234`, `65402` – `65433`, `65500`, `65516`, `65519`, `65521`, `65531`, and `4201065000` – `4201065999`.
 
-1. In the Additional gateway settings section, you can activate one or more of these optional settings.
+1. In the Additional gateway settings section, you can activate one or more of these optional settings:
 
    * **Configure Virtual Local Area Network (VLAN) tagging** - Specify the VLAN that is configured on your router to establish connectivity to IBM on the VLAN of your choice. For more information, see [Activating, deactivating, and updating VLAN tagging](/docs/dl?topic=dl-activate-vlan-tagging).
 
       Activating, deactivating, or updating a VLAN after the BGP session is established causes BGP session downtime and network disruption until the BGP peer device is configured for the same change.
       {: important}
 
-      Complete the following information:
-      * VLAN – Enter a VLAN ID. Enter a value in the range from `2` to `3967`.
+      Enter a VLAN ID and a value in the range from `2` to `3967`.
 
       The VLAN must comply with the IEEE 802.1Q (Dot 1Q) standard.
       {: note}
@@ -136,7 +142,7 @@ To order {{site.data.keyword.dl_full}} Dedicated, follow these steps.
       * Interval – The interval is the minimum time (in milliseconds) expected to occur between when the local routing device sends BFD hello packets and the reply from its neighbor. This value can range from 300 to 255,000 milliseconds.
       * Multiplier – The multiplier is the number of times that a hello packet is missed before BFD declares the neighbor down. This value can range from 1 to 255. The default multiplier value is 3.
 
-   * **Prioritize direct links with AS prepends** - Adjust route preference by lengthening AS paths with multiples of the BGP Autonomous System Number (ASN). When the prefix is matched, the longer AS path becomes a lower priority for the BGP router. For more information, see [Prepending an AS path to influence route priority](/docs/dl?topic=dl-prepend-as-paths).
+   * **Prioritize direct links with AS prepends** - Adjust the route preference by lengthening AS paths with multiples of the BGP Autonomous System Number (ASN). When the prefix is matched, the longer AS path becomes a lower priority for the BGP router. For more information, see [Prepending an AS path to influence route priority](/docs/dl?topic=dl-prepend-as-paths).
 
    * **Filter your import routes** - Select a default filter to either permit or deny all routes unmatched by active route filters. By default, all import routes are permitted. Next, click **Configure filters** to start creating import route filters. To prioritize filters, drag and drop the icon next to the Order number in the table. Click **Save** to save your configuration. For more information, see [Filtering routes](/docs/dl?topic=dl-filter-routes).
 
@@ -159,7 +165,7 @@ To order {{site.data.keyword.dl_full}} Dedicated, follow these steps.
       If you select **Transit Gateway** as the type of network connection, you must also initiate a Direct Link connection through the [{{site.data.keyword.cloud_notm}} Transit Gateway console](/interconnectivity/transit){: external} from the same {{site.data.keyword.cloud_notm}} account. For instructions, see [Adding a connection](/docs/transit-gateway?topic=transit-gateway-adding-connections){: external}.
       {: important}
 
-1. An order summary shows pricing estimates for your review. Read and agree to the [**{{site.data.keyword.dl_short}} prerequisites**](/docs/dl?topic=dl-ibm-cloud-dl-prerequisites) and review Cloud Services [**Terms**](https://www.ibm.com/support/customer/csol/terms/?id=i126-8695){: external}. Then, click **Create** to complete your order.
+1. An order summary shows pricing estimates for your review. Read and agree to the [**{{site.data.keyword.dl_short}} prerequisites**](/docs/dl?topic=dl-ibm-cloud-dl-prerequisites) and review the Cloud Services [**Terms**](https://www.ibm.com/support/customer/csol/terms/?id=i126-8695){: external}. Then, click **Create** to complete your order.
 
    If you want to add GB egress data to your estimate, click **Add to estimate** to calculate the cost. You can also click the **About** tab for links to {{site.data.keyword.dl_short}} pricing tables and other helpful resources.
    {: tip}
