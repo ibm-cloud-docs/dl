@@ -41,7 +41,6 @@ Make sure that you review the following information before you order Direct Link
 To order {{site.data.keyword.dl_full}} Dedicated, follow these steps.
 {: shortdesc}
 
-1. Log in to your [IBM Cloud account](/login){: external}.
 In the [{{site.data.keyword.cloud_notm}} console](/login){: external}, click the **Navigation menu** icon ![menu icon](../icons/icon_hamburger.svg) **> Infrastructure**> **Network** > **Direct link****.
 1. Click **Order Direct Link**, then click the **Direct Link Dedicated** tile to open the provisioning page.
 1. In the Before you begin section, click **Expand checklist** to review the ordering process (also described in [Completing the connection](/docs/dl?topic=dl-how-to-order-ibm-cloud-dl-dedicated#complete-connection)).
