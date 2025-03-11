@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2025
-lastupdated: "2025-03-10"
+lastupdated: "2025-03-11"
 
 keywords: direct link
 
@@ -12,19 +12,42 @@ subcollection: dl
 
 {{site.data.keyword.attribute-definition-list}}
 
-# Known issues and limitations
-{: #known-limitations}
+# Guidelines and restrictions for Direct Link Dedicated with MACsec
+{: #limitations-macsec}
 
-Known limitations are as follows:
+[MACsec updates]{: tag-red} MACsec for Direct Link Dedicated has the following guidelines and restrictions:
 
-* VPC networking doesn't consider the AS path length when selecting the best route for network traffic. Therefore, AS prepends configured on direct links have no effect when VPCs are directly connected. However, you can use a transit gateway between the direct link and VPC in some topologies to achieve the wanted effect. For planning considerations, see [Using AS prepends with VPC connections](/docs/dl?topic=dl-dl-planning-considerations&interface=ui#as-prepends-routes).
-* Each {{site.data.keyword.dl_full_notm}} connection requires a unique order. If you require multiple connections, open an {{site.data.keyword.dl_full_notm}} order for each connection.
-* {{site.data.keyword.dl_full_notm}} requires BGP to establish the routes to a customer's remote network.
-* Each {{site.data.keyword.dl_full_notm}} service is not redundant. Diversity can be supplied by IBM for multiple direct links. However, customers must build redundancy in their own BGP schemes.
-* If you want to connect to the classic infrastructure, keep in mind that IP subnet overlaps might exist and require exception approval. For more information, see [Configuring BGP](/docs/direct-link?topic=direct-link-configure-ibm-cloud-direct-link#configuring-bgp).
-* The {{site.data.keyword.cloud_notm}} services network isn't accessible directly from your remote networks.
-* {{site.data.keyword.cloud_notm}} doesn't permit customers to back haul traffic between their remote sites across the {{site.data.keyword.cloud_notm}} backbone. Use {{site.data.keyword.dl_full_notm}} to let your remote networks communicate privately with your {{site.data.keyword.cloud_notm}} infrastructure.
-* {{site.data.keyword.dl_full_notm}} requires you to use a VRF (Virtual Routing and Forwarding) instance.
-* VRF isn't fully compatible with the {{site.data.keyword.cloud_notm}} SSL and IPsec VPN services.
-* The {{site.data.keyword.cloud_notm}} fees for {{site.data.keyword.dl_short}} Dedicated cover the cost of port termination on the {{site.data.keyword.cloud_notm}} infrastructure. Customers are responsible for any fees that are associated with reaching the PoP from a remote network and any cross-connects needed within the PoP facility. {{site.data.keyword.cloud_notm}} does not order a cross-connect on any customer's behalf.
-* {{site.data.keyword.cloud_notm}} does not colocate any customer equipment in our network PoPs. Customers must work with their provider to determine whether they need to colocate any equipment in the facility where the {{site.data.keyword.cloud_notm}} network PoP exists.
+* Direct Link supports MACsec Key Agreement protocol (MKA)
+* Multiple MACsec peers (different SCI values) for the same interface are not supported
+
+## Key restrictions
+{: #key-restrictions}
+
+To replace the primary or fallback Connectivity Association Key (CAK), you must add a new standard key by importing a key into HPCS. Then, communicate the new key name to the Direct Link instance through the IBM Cloud console, CLI, or API.
+
+The key names that you choose must follow specific Direct Link naming conventions. The hex key name must consist of alphanumeric characters (`0-9`, `a-f`, `A-F`) and be an even number of characters. The key name must also range from 1 octet to 64 (max size) characters in length. The key material string must be a base64-encoded string of 64 hexadecimal characters.
+
+Make sure to use the **Add key** > **Import a key** option. If you use the **Create a key** option, the generated key string breaks the key length check for 64 characters.
+{: important}
+
+## Fallback restrictions
+{: #fallback-restrictions}
+
+* If a MACsec session is secured on an old primary key, it does not go to a fallback session in case of a mismatched latest active primary key. As a result, the session remains secure on the old primary key and will show as rekeying on the old CA under Status. In addition, the MACsec session on the new key on the primary PSK will be in the init state.
+
+* Use only one key with an infinite lifetime in the fallback key chain. Multiple keys are not supported.
+
+* You must use unique key names for each primary or fallback key that you generate.
+
+* You cannot remove the fallback configuration on an interface unless you also remove the complete MACsec configuration on the interface as well.
+
+## MACsec policy restriction
+{: #macsec-policy-restriction}
+
+* You cannot modify an existing MACsec policy. Instead, you must create a new MACsec policy and attach it to the interface, or you can remove the MACsec policy from the interface, edit it, and then reattach it. Any change to the policy might cause network disruptions.
+
+* BPDU packets might be transmitted before a MACsec session becomes secure.
+
+Interoperability restriction:
+
+* Interoperability with other peer switches is supported only with the XPN cipher suite. 
