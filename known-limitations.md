@@ -50,4 +50,9 @@ Make sure to use the **Add key** > **Import a key** option. If you use the **Cre
 
 Interoperability restriction:
 
-* Interoperability with other peer switches is supported only with the XPN cipher suite. 
+* Interoperability with other peer switches is supported only with the XPN cipher suite.
+
+## Related link
+{: #known-issues-limitations=related-link}
+
+[Known issues and limitations](/docs/dl?topic=dl-known-limitations)
