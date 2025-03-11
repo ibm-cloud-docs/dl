@@ -49,7 +49,7 @@ In the [{{site.data.keyword.cloud_notm}} console](/login){: external}, click the
    * Type a name for your {{site.data.keyword.dl_short}} Dedicated connection.
    * Choose a resource group to create the {{site.data.keyword.dl_short}} connection. Resource groups help manage and contain resources that are associated with an account. Select **Default** if you don't have other groups that are defined in the menu list. For more information about resource groups, see [Best practices for organizing resources in a resource group](/docs/account?topic=account-account_setup).
    * Type your customer and carrier names.
-
+      
 1. In the Gateway section, complete the following information:
 
    1. Select a geography, followed by a market, type, site, and routing option.
@@ -76,7 +76,7 @@ In the [{{site.data.keyword.cloud_notm}} console](/login){: external}, click the
 
       * **Enable/disable MACsec** - Optionally, enable or disable MACsec either during or after the provisioning of this direct link. After MACsec is enabled, you can activate or deactivate this feature.          
 
-         You can enable or disable the MACsec feature either during or after the provisioning of this direct link.This choice affects your router options, limiting access to MACsec-supported locations and routers only. You can’t select a router that supports only MACsec unless MACsec is enabled.  
+         You can enable or disable the MACsec feature either during or after the provisioning of this direct link. This choice affects your router options, limiting access to MACsec-supported locations and routers only. You can’t select a router that supports only MACsec unless MACsec is enabled.
          {: note}
 
       * **No MACsec** - Exclude this direct link from using MACsec. MACsec can't be enabled during or after provisioning. 
