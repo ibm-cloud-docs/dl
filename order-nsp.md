@@ -62,17 +62,17 @@ In the [{{site.data.keyword.cloud_notm}} console](/login){: external}, click the
       Speeds greater than 1 Gbps require 10 Gbps service from the client's carrier and equipment. If you intend to upgrade the speed for this gateway, select 2 Gbps to start with; otherwise, you cannot upgrade to a higher speed on this gateway.
       {: tip}
 
-   1. [MACsec update]{: tag-red} Choose the cross-connect router available at the selected location for this direct link. You can't modify this router after provisioning. Some routers may be disabled based on their support for the MACsec feature and the decisions made regarding its use.
+   1. Choose the cross-connect router available at the selected location for this direct link. You can't modify this router after provisioning. Some routers may be disabled based on their support for the MACsec feature and the decisions made regarding its use.
 
       The routing option that you select determines the reachability of the resources in the selected location. If you select the **Global** routing option along with your location selections, the **Region** menu list displays all the regions that are globally available in the specific account. After you select a region, you can select any VPC from the **Available connections** menu. If you select **Local** routing, then only the region that corresponds to the selected location is available to select. When selected, the VPCs available in the local region for your account are shown.
       {: note}
 
-   1. [MACsec update]{: tag-red} Choose the MACsec security level that you want for this direct link. Options are:
+   1. Choose the MACsec security level that you want for this direct link. Options are:
 
       * **Require MACsec** - Enforce the use of MACsec, which cannot be disabled after provisioning. The available capabilities depend on the ports available on the selected cross-connect router.
 
          Enabling MACsec allows you to edit its configuration, but you can’t remove this feature. 
-         {: note}     
+         {: note}
 
       * **Enable/disable MACsec** - Optionally, enable or disable MACsec either during or after the provisioning of this direct link. After MACsec is enabled, you can activate or deactivate this feature.          
 
