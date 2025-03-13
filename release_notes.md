@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020, 2024
-lastupdated: "2024-12-09"
+  years: 2020, 2025
+lastupdated: "2025-03-13"
 
 keywords: direct link release notes
 
@@ -20,6 +20,12 @@ content-type: release-note
 
 Check back regularly to see what's new with {{site.data.keyword.cloud}} Direct Link.
 {: shortdesc}
+
+## 13 March 2025
+{: #dl-march1325}
+
+Montreal region now available
+:    Montreal is now a supported region for the Direct Link service. For more information, see [IBM Cloud region and data center locations for resource deployment](/docs/overview?topic=overview-locations).
 
 ## 12 December 2024
 {: #dl-december1224}
