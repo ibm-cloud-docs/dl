@@ -52,6 +52,7 @@ toc:
             label: Ordering IBM Cloud Direct Link Dedicated
             topics:
             - order-nsp.md
+            - completing-the-connection.md
         - topicgroup:
             label: Ordering IBM Cloud Direct Link Connect
             topics:
