@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2025
-lastupdated: "2025-03-11"
+lastupdated: "2025-03-13"
 
 keywords: direct link, direct link dedicated
 
@@ -47,7 +47,7 @@ To order {{site.data.keyword.dl_full}} Dedicated, follow these steps.
 
 1. In the [{{site.data.keyword.cloud_notm}} console](/login){: external}, click the **Navigation menu** icon ![menu icon](../icons/icon_hamburger.svg), then select **Infrastructure > Network > Direct link**.
 1. Click **Order Direct Link**, then click the **Direct Link Dedicated** tile to open the provisioning page.
-1. In the Before you begin section, click **Expand checklist** to review the ordering process (also described in [Completing the connection](/docs/dl?topic=dl-complete-connection)).
+1. In the Before you begin section, click **Expand checklist** to review the ordering process (also described in [Completing the connection](/docs/dl?topic=dl-complete-connection-dedicated)).
 1. In the Resource section, complete the following information:
 
    * Type a name for your {{site.data.keyword.dl_short}} Dedicated connection.
@@ -61,6 +61,9 @@ To order {{site.data.keyword.dl_full}} Dedicated, follow these steps.
       Local and global routing options are supported. When you select a routing option, the location details with reachable sites display.
       {: note}
 
+      The routing option that you select determines the reachability of the resources in the selected location. If you select the **Global** routing option along with your location selections, the **Region** menu list displays all the regions that are globally available in the specific account. After you select a region, you can select any VPC from the **Available connections** menu. If you select **Local** routing, then only the region that corresponds to the selected location is available to select. When selected, the VPCs available in the local region for your account are shown.
+      {: note}
+
    1. Choose a connection speed. The speeds that are supported for the {{site.data.keyword.dl_short}} Dedicated offering are 1 Gbps, 2 Gbps, 5 Gbps, and 10 Gbps.
 
       Speeds greater than 1 Gbps require 10 Gbps service from the client's carrier and equipment. If you intend to upgrade the speed for this gateway, select 2 Gbps to start with; otherwise, you cannot upgrade to a higher speed on this gateway.
@@ -68,24 +71,18 @@ To order {{site.data.keyword.dl_full}} Dedicated, follow these steps.
 
    1. Choose the cross-connect router available at the selected location for this direct link. You can't modify this router after provisioning. Some routers may be disabled based on their support for the MACsec feature and the decisions made regarding its use.
 
-      The routing option that you select determines the reachability of the resources in the selected location. If you select the **Global** routing option along with your location selections, the **Region** menu list displays all the regions that are globally available in the specific account. After you select a region, you can select any VPC from the **Available connections** menu. If you select **Local** routing, then only the region that corresponds to the selected location is available to select. When selected, the VPCs available in the local region for your account are shown.
-      {: note}
+   1. Choose the support level of MACsec that you want for this direct link. The available capabilities depend on the ports available on the selected cross-connect router. The options are:
 
-   1. Choose the MACsec security level that you want for this direct link. The options are:
+      * **Require MACsec** - Enforce the use of MACsec, which cannot be disabled after provisioning.
 
-      * **Require MACsec** - Enforce the use of MACsec, which cannot be disabled after provisioning. The available capabilities depend on the ports available on the selected cross-connect router.
-
-         Enabling MACsec allows you to edit its configuration, but you can’t remove this feature. 
+         **Require MACsec** allows you to edit MACsec configuration, but you can’t remove this feature. 
          {: note}
 
       * **Enable/disable MACsec** - Optionally, enable or disable MACsec either during or after the provisioning of this direct link. After MACsec is enabled, you can activate or deactivate this feature.          
 
-         This choice affects your router options, limiting access to MACsec-supported locations and routers only. You can’t select a router that supports only MACsec unless MACsec is enabled.
-         {: note}
-
       * **No MACsec** - Exclude this direct link from using MACsec. MACsec can't be enabled during or after provisioning. 
 
-         **Warning: You can’t use or enable MACsec on this direct link, nor can you select a router that supports only MACsec.**         
+         **Warning: You can’t use or enable MACsec on this direct link, nor can you select a router that supports only MACsec.**
 
 1. In the Billing section, select **Metered** or **Unmetered**. Metered pricing means paying only for what you use. Unmetered is unlimited access, for a predicable, monthly fee. {: #dl-dedicated-bgp}
 1. In the BGP section, complete the following information:
@@ -174,7 +171,7 @@ To order {{site.data.keyword.dl_full}} Dedicated, follow these steps.
 {: #dedicated-next-step}
 
 After you submit your Direct Link Dedicated order, the Direct Link table indicates an LOA creation in progress connection status. Click the name of the connection to open its details page. Then, view the Actions section to see if you have any pending actions.
-To view the completion process, see [Completing the connection](/docs/dl?topic=dl-complete-connection).
+To view the completion process, see [Completing the connection](/docs/dl?topic=dl-complete-connection-dedicated).
 
 ## Related link
 {: #related-links-dedicated}
