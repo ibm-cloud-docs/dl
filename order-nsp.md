@@ -59,7 +59,6 @@ To order {{site.data.keyword.dl_full}} Dedicated, follow these steps.
    1. Select a geography, followed by a market, type, site, and routing option.
 
       Local and global routing options are supported. When you select a routing option, the location details with reachable sites display.
-      {: note}
 
       The routing option that you select determines the reachability of the resources in the selected location. If you select the **Global** routing option along with your location selections, the **Region** menu list displays all the regions that are globally available in the specific account. After you select a region, you can select any VPC from the **Available connections** menu. If you select **Local** routing, then only the region that corresponds to the selected location is available to select. When selected, the VPCs available in the local region for your account are shown.
       {: note}
