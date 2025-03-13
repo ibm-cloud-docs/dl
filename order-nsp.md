@@ -68,20 +68,7 @@ To order {{site.data.keyword.dl_full}} Dedicated, follow these steps.
       Speeds greater than 1 Gbps require 10 Gbps service from the client's carrier and equipment. If you intend to upgrade the speed for this gateway, select 2 Gbps to start with; otherwise, you cannot upgrade to a higher speed on this gateway.
       {: tip}
 
-   1. Choose the cross-connect router available at the selected location for this direct link. You can't modify this router after provisioning. Some routers may be disabled based on their support for the MACsec feature and the decisions made regarding its use.
-
-   1. Choose the support level of MACsec that you want for this direct link. The available capabilities depend on the ports available on the selected cross-connect router. The options are:
-
-      * **Require MACsec** - Enforce the use of MACsec, which cannot be disabled after provisioning.
-
-         **Require MACsec** allows you to edit MACsec configuration, but you can’t remove this feature. 
-         {: note}
-
-      * **Enable/disable MACsec** - Optionally, enable or disable MACsec either during or after the provisioning of this direct link. After MACsec is enabled, you can activate or deactivate this feature.          
-
-      * **No MACsec** - Exclude this direct link from using MACsec. MACsec can't be enabled during or after provisioning. 
-
-         **Warning: You can’t use or enable MACsec on this direct link, nor can you select a router that supports only MACsec.**
+   1. Choose the cross-connect router available at the selected location for this direct link.
 
 1. In the Billing section, select **Metered** or **Unmetered**. Metered pricing means paying only for what you use. Unmetered is unlimited access, for a predicable, monthly fee. {: #dl-dedicated-bgp}
 1. In the BGP section, complete the following information:
