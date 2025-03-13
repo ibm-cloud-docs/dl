@@ -48,7 +48,11 @@ toc:
     - navgroup:
         id: howto
         topics:
-        - order-nsp.md
+        - topicgroup:
+            label: Ordering IBM Cloud Direct Link Dedicated
+            topics:
+            - order-nsp.md
+            - completing-the-connection.md
         - topicgroup:
             label: Ordering IBM Cloud Direct Link Connect
             topics:
@@ -127,7 +131,7 @@ toc:
         - topicgroup:
             label: CLI reference
             topics:
-            - include: ../dl-cli-plugin/direct-link-cli.md
+            - direct-link-cli.md
             - cli-change-log.md
         - link:
            label: Terraform reference

@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020, 2024
-lastupdated: "2024-11-06"
+  years: 2020, 2025
+lastupdated: "2025-03-10"
 
 keywords: direct link
 
@@ -34,9 +34,6 @@ Follow these steps to order an {{site.data.keyword.dl_full}} Connect gateway wit
 
    * **Connection Name** – The name of your VXC to be shown in the Megaport Portal.
    * **Service Level Reference** (optional) – Specify a unique identifying number for the Direct Link Connect gateway to be used for billing purposes, such as a cost center number or a unique customer ID. The service level reference number appears for each service under the Product section of the invoice. You can also edit this field for an existing service.
-
-      Partner managed accounts can apply a Partner Deal to a service. For details, see [Associating a Deal With a Service](https://partner-docs.megaport.com/services/deal-ids/){: external}.
-      {: note}
 
    * **Rate Limit** – This is the speed of your connection in Mbps. The speed tiers available are dependent on the selected location, and match the speeds available in IBM. Select the port speed from the drop-down list to match the selected speed in the IBM Cloud console for the Direct Link service.
 
