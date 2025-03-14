@@ -131,7 +131,7 @@ toc:
         - topicgroup:
             label: CLI reference
             topics:
-            - direct-link-cli.md
+            - dl-cli-plugin.md
             - cli-change-log.md
         - link:
            label: Terraform reference
