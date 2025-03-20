@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020, 2024
-lastupdated: "2024-10-09"
+  years: 2020, 2025
+lastupdated: "2025-03-20"
 
 keywords: direct link
 
@@ -17,6 +17,11 @@ subcollection: dl
 
 Provides general considerations for planning your Direct Link deployment.
 {: shortdesc}
+
+## Planning for virtual connections
+{: #dl-planning-virtual-connections}
+
+Direct Link gateways allow on-premises networks to connect to networks in the IBM Cloud using virtual connections. Network traffic between virtual connections on a Direct Link gateway is not supported. However, depending on what network prefixes are advertised from the on-prem network, traffic might still flow between the virtual connections. For example, if the on-prem network advertises the default route (`0.0.0.0/0`). In this case, all traffic originating from a network that is connected through a virtual connection that does not find a route more specific than `0.0.0.0/0` is sent to the Direct Link gateway. After traffic arrives at the gateway, the traffic is forwarded by using standard routing algorithms. If another virtual connection has a route that matches the destination address of the traffic, then it is forwarded to the network on that virtual connection (instead of the less specific `0.0.0.0/0` of the on-premises network).
 
 ## Using AS prepends with VPC connections
 {: #as-prepends-routes}
@@ -56,8 +61,3 @@ The following deployment topologies illustrate various AS Prepend scenarios when
 
 * [Using AS prepends to manage route priorities](/docs/dl?topic=dl-dl-about#use-case-1)
 * [Influencing route preference using AS prepends](/docs/dl?topic=dl-models-for-diversity-and-redundancy-in-direct-link#dl-bgp-path-selection)
-
-## Planning for virtual connections
-{: #dl-planning-virtual-connections}
-
-Direct Link gateways allow on-premises networks to connect to networks in the IBM Cloud using virtual connections. Network traffic between virtual connections on a Direct Link gateway is not supported. However, depending on what network prefixes are advertised from the on-prem network, traffic might still flow between the virtual connections. For example, if the on-prem network advertises the default route (`0.0.0.0/0`). In this case, all traffic originating from a network that is connected through a virtual connection that does not find a route more specific than `0.0.0.0/0` is sent to the Direct Link gateway. After traffic arrives at the gateway, the traffic is forwarded by using standard routing algorithms. If another virtual connection has a route that matches the destination address of the traffic, then it is forwarded to the network on that virtual connection (instead of the less specific `0.0.0.0/0` of the on-premises network).
