@@ -15,7 +15,7 @@ subcollection: dl
 # Creating base64-encoded encryption keys
 {: #create-encryption-keys}
 
-This section describes how to base64 encode your key value for proper key creation. This is required for MD5 authentication and if you plan to enable the MACsec feature.
+This section describes how to base64-encode your key value for proper key creation. This is required for MD5 authentication and if you plan to enable the MACsec feature.
 
 The following examples show you how to use utilities that are readily available on your operating system to receive the encoded key string.
 
