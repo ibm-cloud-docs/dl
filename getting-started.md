@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2025
-lastupdated: "2025-02-07"
+lastupdated: "2025-03-20"
 
 keywords: direct link, direct link dedicated, direct link connect
 
@@ -33,7 +33,7 @@ Use {{site.data.keyword.dl_short}} to seamlessly connect your on-premises resour
 
 Terminate a single-tenant, fiber-based, cross-connect into your own IBM Cloud Private network connection. This offering is also used by colocation facilities that are next to IBM Cloud PoPs and data centers.
 
-To get started with {{site.data.keyword.dl_full_notm}} Dedicated, follow these [instructions](/docs/dl?topic=dl-how-to-order-ibm-cloud-dl-dedicated) for ordering the service.
+To get started with {{site.data.keyword.dl_full_notm}} Dedicated, follow these [instructions](/docs/dl?topic=dl-how-to-order-ibm-cloud-dl-dedicated) for ordering the service. 
 
 ## {{site.data.keyword.dl_short}} Connect
 {: #get-started-with-direct-link-connect}
