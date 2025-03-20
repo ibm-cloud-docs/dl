@@ -80,7 +80,8 @@ toc:
             - dl-as-a-spoke.md
             - editing_gateway.md
             - dl-vlan-tagging.md
-            - dl-disable-md5.md
+            - dl-disable-md5.md            
+            - base-64-encryption-keys.md
             - dl-bfd-activation.md
             - dl-prepend.md
             - dl-route-report.md
