@@ -147,10 +147,10 @@ toc:
         - responsibilities.md
         - service-dependency.md 
         - topicgroup:
-            label: High availability and disaster recovery
+            label: High availability and disaster recovery 
             topics:
+            - bc-dr.md           
             - ha.md
-            - bc-dr.md
         - data-portability.md
         - external-resources.md
     - navgroup:
