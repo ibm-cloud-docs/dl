@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2025
-lastupdated: "2025-03-27"
+lastupdated: "2025-04-21"
 
 keywords: direct link
 
@@ -58,9 +58,9 @@ Similar rules apply on the route prefixes that IBM Cloud advertises. The IBM Clo
 
 The configurations that are shown in this group assume that the assets are located in the same PoP and in the same global market.
 
-![Connect with diversity in the same PoP](images/connect-diversity-same-pop.png "Connect with diversity in the same PoP"){: caption="Figure 1: {{site.data.keyword.dl_short}} Connect with diversity in the same PoP (non-AZ)" caption-side="bottom"}
+![Connect with diversity in the same PoP](images/connect-diversity-same-pop.png "Connect with diversity in the same PoP"){: caption="{{site.data.keyword.dl_short}} Connect with diversity in the same PoP (non-AZ)" caption-side="bottom"}
 
-![Dedicated with diversity in the same PoP](images/dedicated-diversity-same-pop.png "Dedicated with diversity in the same PoP"){: caption="Figure 2: {{site.data.keyword.dl_short}} Dedicated with diversity in same PoP (non-AZ)" caption-side="bottom"}
+![Dedicated with diversity in the same PoP](images/dedicated-diversity-same-pop.png "Dedicated with diversity in the same PoP"){: caption="{{site.data.keyword.dl_short}} Dedicated with diversity in same PoP (non-AZ)" caption-side="bottom"}
 
 ## Diversity that includes AZs and global routing options
 {: #section-2-diversity-models}
@@ -70,16 +70,16 @@ The configurations that are shown in this group offer options for connecting acr
 ### Diversity in a local availability zone (AZ)
 {: #section-2-part-a}
 
-![Connect with diversity in the local AZ](images/connect-diversity-local-az.png "Connect with diversity in the local AZ"){: caption="Figure 3: {{site.data.keyword.dl_short}} Connect with diversity in a local AZ" caption-side="bottom"}
+![Connect with diversity in the local AZ](images/connect-diversity-local-az.png "Connect with diversity in the local AZ"){: caption="{{site.data.keyword.dl_short}} Connect with diversity in a local AZ" caption-side="bottom"}
 
-![Dedicated with diversity in the local AZ](images/dedicated-diversity-local-az.png "Dedicated with diversity in the local AZ"){: caption="Figure 4: {{site.data.keyword.dl_short}} Dedicated with diversity in a local AZ" caption-side="bottom"}
+![Dedicated with diversity in the local AZ](images/dedicated-diversity-local-az.png "Dedicated with diversity in the local AZ"){: caption="{{site.data.keyword.dl_short}} Dedicated with diversity in a local AZ" caption-side="bottom"}
 
 ### Diversity in different local markets, with global routing
 {: #section-2-part-b}
 
-![Connect with diversity and global routing](images/connect-diversity-global.png "Connect with diversity and global routing"){: caption="Figure 5: {{site.data.keyword.dl_short}} Connect with diversity and global routing" caption-side="bottom"}
+![Connect with diversity and global routing](images/connect-diversity-global.png "Connect with diversity and global routing"){: caption="{{site.data.keyword.dl_short}} Connect with diversity and global routing" caption-side="bottom"}
 
-![Dedicated with diversity and global routing](images/dedicated-diversity-global.png "Dedicated with diversity and global routing"){: caption="Figure 6: {{site.data.keyword.dl_short}} Dedicated with diversity and global routing" caption-side="bottom"}
+![Dedicated with diversity and global routing](images/dedicated-diversity-global.png "Dedicated with diversity and global routing"){: caption="{{site.data.keyword.dl_short}} Dedicated with diversity and global routing" caption-side="bottom"}
 
 ## Achieving redundancy
 {: #how-to-achieve-diversity-and-redundancy}
@@ -89,4 +89,4 @@ If you are looking for High Availability (HA), or full redundancy, set up two li
 ECMP routing can be utilized for ingress traffic entering IBM Cloud. However, ECMP is not supported for traffic within IBM Cloud leveraging Direct Link connectivity, nor for ECMP routes that egress from IBM Cloud to an on-premises client. If you connect your direct link to an ECMP-capable transit gateway, some amount of ECMP will be available for outbound traffic.
 {: important}
 
-![ECMP Dual XCR Model](images/ecmp-with-diversity.png "ECMP Dual XCR Model"){: caption="Figure 7: ECMP with Dual XCRs" caption-side="bottom"}
+![ECMP Dual XCR Model](images/ecmp-with-diversity.png "ECMP Dual XCR Model"){: caption="ECMP with Dual XCRs" caption-side="bottom"}
