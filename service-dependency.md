@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2024
-lastupdated: "2025-01-21"
+  years: 2024, 2025
+lastupdated: "2025-05-01"
 
 keywords:
 
@@ -40,9 +40,12 @@ The following table provides the dependency listing of this service following a 
 |:---|:---|:---|:---|:---|
 | Oculus Automation API | Availability, Instance control, Operations, Security compliance | No | Control plane |  Same data center  |
 | IBM Cloud Classic DNS Servers | Availability, Change management, Instance control | No | Control plane |  Same data center  |
+| IBM Cloud Classic Infrastructure Resource Management | Change management, Instance control | No | Control plane |  [Global](/docs/resiliency?topic=resiliency-ha-redundancy#global-platform)  |
+| IBM Cloud Public IP Address Management | Change management, Instance control | No | Control plane |  [Global](/docs/resiliency?topic=resiliency-ha-redundancy#global-platform)  |
 | IBM Cloud Databases - databases-for-postgresql | Availability, Change management, Disaster recovery, Instance control, Security compliance | No | Control plane |  Same region  |
 | IBM Cloud Kubernetes Service and Red Hat OpenShift on IBM Cloud - containers-kubernetes | Availability, Change management, Disaster recovery, Instance control, Security compliance | No | Control plane |  Same region  |
 | IBM Cloud Identity and Access Management | Access management, Availability, Instance control, Security compliance | No | Control plane |  [Global](/docs/resiliency?topic=resiliency-ha-redundancy#global-platform)  |
+| IBM Cloud Internet Services | Instance control | No | Control plane |  Same region  |
 {: row-headers}
 {: caption="IBM Cloud Direct Link Services service dependency information - Critical dependencies" caption-side="top"}
 {: tab-title="Critical dependencies"}
@@ -64,18 +67,6 @@ The following table provides the dependency listing of this service following a 
 {: tab-group="service-dependency-data-for-directlink"}
 {: class="comparison-tab-table"}
 {: #significant-deps}
-{: summary="Use the buttons for the dependency level to change the context of the table. This table has row and column headers. The row headers details about the dependency. The column headers identify the dependency. To understand the details about each dependency, navigate to the row to find the dependency that you need more information about interested in."}
-
-|Dependencies|Dependency impacts|Customer provided|Control or data plane|Location of dependency|
-|:---|:---|:---|:---|:---|
-| IBM Cloud Activity Tracker event routing| Security compliance | No | Control plane |  Same region  |
-| IBM Cloud Monitoring| Operations, Security compliance | No | Data plane |  Same region  |
-{: row-headers}
-{: caption="IBM Cloud Direct Link Services service dependency information - Minimal dependencies" caption-side="top"}
-{: tab-title="Minimal dependencies"}
-{: tab-group="service-dependency-data-for-directlink"}
-{: class="comparison-tab-table"}
-{: #minimal-deps}
 {: summary="Use the buttons for the dependency level to change the context of the table. This table has row and column headers. The row headers details about the dependency. The column headers identify the dependency. To understand the details about each dependency, navigate to the row to find the dependency that you need more information about interested in."}
 
 This table can be used to answer the following questions:

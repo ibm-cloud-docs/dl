@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2025
-lastupdated: "2025-02-13"
+lastupdated: "2025-03-27"
 
 keywords: direct link responsibilities
 
@@ -52,7 +52,6 @@ Change management includes tasks, such as deployment, configuration, upgrades, p
 {: #traffic-management}
 
 Traffic management includes tasks, such as bandwidth monitoring, packet inspection, forwarding detection, and traffic routing.
-
 
 | Task | {{site.data.keyword.IBM_notm}} Responsibilities | Your Responsibilities |
 |----------|-----------------------|--------|

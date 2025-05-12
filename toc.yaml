@@ -81,6 +81,7 @@ toc:
             - editing_gateway.md
             - dl-vlan-tagging.md
             - dl-disable-md5.md
+            - base-64-encryption-keys.md
             - dl-bfd-activation.md
             - dl-prepend.md
             - dl-route-report.md
@@ -127,11 +128,12 @@ toc:
                label: Direct Link Provider API
                href: https://{DomainName}/apidocs/direct_link_provider_api
             - api-change-log.md
-            - set-up-environment.md 
+            - set-up-environment.md
         - topicgroup:
             label: CLI reference
             topics:
             - dl-cli-plugin.md
+            - dl-cli-plugin-old.md
             - cli-change-log.md
         - link:
            label: Terraform reference
@@ -144,12 +146,12 @@ toc:
         - prerequisites.md
         - completion-notice.md
         - responsibilities.md
-        - service-dependency.md 
+        - service-dependency.md
         - topicgroup:
             label: High availability and disaster recovery
             topics:
-            - ha.md
             - bc-dr.md
+            - ha.md
         - data-portability.md
         - external-resources.md
     - navgroup:
