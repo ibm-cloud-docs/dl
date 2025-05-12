@@ -133,6 +133,7 @@ toc:
             label: CLI reference
             topics:
             - dl-cli-plugin.md
+            - dl-cli-plugin-old.md
             - cli-change-log.md
         - link:
            label: Terraform reference

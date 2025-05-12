@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2025
-lastupdated: "2025-03-20"
+lastupdated: "2025-05-12"
 
 keywords: faqs
 
@@ -12,7 +12,7 @@ subcollection: dl
 
 {{site.data.keyword.attribute-definition-list}}
 
-# FAQs for {{site.data.keyword.dl_short}}
+# FAQ for {{site.data.keyword.dl_short}}
 {: #faqs}
 
 You can review answers to some frequently asked questions about {{site.data.keyword.dl_full}}.

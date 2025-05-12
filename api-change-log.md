@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2022, 2024
-lastupdated: "2024-07-19"
+  years: 2022, 2025
+lastupdated: "2025-05-12"
 
 keywords: direct link api change log
 
@@ -19,6 +19,8 @@ content-type: release-note
 
 Check back regularly to see what's new with {{site.data.keyword.cloud}} Direct Link API.
 {: shortdesc}
+
+
 
 ## 07 March 2024
 {: #dl-marc0724}

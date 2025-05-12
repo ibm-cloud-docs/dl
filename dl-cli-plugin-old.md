@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2025
-lastupdated: "2025-05-09"
+lastupdated: "2025-05-12"
 
 subcollection: dl
 
@@ -101,160 +101,6 @@ ibmcloud dl asprepends-replace GATEWAY_ID --file JSON_FILE --etag ETAG
 
 - `ibmcloud dl asprepends-replace 5cc19d0a-792c-4595-adfc-f90fc650de01 --file update.json --etag 'W/\"20-3e8f21374fef9e548af910e4ad4322abe25bfb41\"'`
 - `ibmcloud dl aspsr 22f799e8-b4ab-44ca-856b-897be9b0e53d --file update.json --etag 'W/\"20-3e8f21374fef9e5477770e4ad4322abe25bfb41\"'`
-
-## `ibmcloud dl cak`
-{: #cak}
-
-View details of a CAK by ID.
-
-```sh
-ibmcloud dl cak GATEWAY_ID CAK_ID [-–help|-h] [--output format]
-```
-
-### Command options
-{: #command-options-cak-details}
-
-`GATEWAY_ID`
-:   Specify the ID of the gateway.
-
-`CAK_ID`
-:   Specify the ID of the CAK that you want to list.
-
-`--help|-h`
-:   Get help on this command.
-
-`--output VALUE`
-:   Specify whether you want the output to display in JSON format. Currently, `json` is the only supported format.
-
-### Examples
-{: #example-cak}
-
-- `ibmcloud dl cak beec5de0-a1c0-4730-8888-2ce4a3020ec8 c3df351b-ff64-4444-ba64-92cb7622dfd6`
-
-## `ibmcloud dl caks`
-{: #caks}
-
-List all CAKs.
-
-```sh
-ibmcloud dl caks GATEWAY_ID [-–help|-h] [--output format]
-```
-
-### Command options
-{: #command-options-caks-details}
-
-`GATEWAY_ID`
-:   Specify the ID of the gateway.
-
-`--help|-h`
-:   Get help on this command.
-
-`--output VALUE`
-:   Specify whether you want the output to display in JSON format. Currently, `json` is the only supported format.
-
-### Example
-{: #example-caks}
-
-`ibmcloud dl caks beec5de0-a1c0-4730-8888-2ce4a3020ec8`
-
-## `ibmcloud dl cak-create`
-{: #cak-create}
-
-Create a CAK.
-
-```sh
-ibmcloud dl cak-create|cakc GATEWAY_ID --name NAME --crn CRN --session primary|fallback [-–help|-h] [--output format]
-```
-
-### Command options
-{: #command-options-cak-create}
-
-`GATEWAY_ID`
-:   Specify the ID of the gateway.
-
-`--name NAME`
-:   Specify the name of the CAK.
-
-`--crn CRN`
-:   Specify CRN of the key.
-
-`--session`
-:   Specify the session type of the CAK (`primary` or `fallback`).
-
-`--help|-h`
-:   Get help on this command.
-
-`--output VALUE`
-:   Specify whether you want the output to display in JSON format. Currently, `json` is the only supported format.
-
-### Examples
-{: #example-cak-create}
-
-- `ibmcloud dl cakc dc206f57-5693-442f-8888-6d43b6c82d73 --name 1000 --crn $crn --session primary`
-
-## `ibmcloud dl cak-delete`
-{: #cak-delete}
-
-Delete a CAK.
-
-```sh
-ibmcloud dl cak-delete|cakd GATEWAY_ID CAK_ID [-–help|-h] [--output format]
-```
-
-### Command options
-{: #command-options-cak-delete}
-
-`GATEWAY_ID`
-:   Specify the ID of the gateway.
-
-`CAK_ID`
-:   Specify the ID of the CAK that you want to delete.
-
-`--help|-h`
-:   Get help on this command.
-
-`--output VALUE`
-:   Specify whether you want the output to display in JSON format. Currently, `json` is the only supported format.
-
-### Examples
-{: #example-cak-delete}
-
-- `ibmcloud dl cakd beec5de0-a1c0-4730-8888-2ce4a3020ec8 c3df351b-ff64-4444-ba64-92cb7622dfd6`
-
-## `ibmcloud dl cak-update`
-{: #cak-update}
-
-Update a CAK. Both the name and crn values must be updated together.
-
-```sh
-ibmcloud dl cak-update|caku GATEWAY_ID CAK_ID --name NAME --crn CRN [-–help|-h] [--output format]
-```
-
-### Command options
-{: #command-options-cak-update}
-
-`GATEWAY_ID`
-:   Specify the ID of the gateway.
-
-`CAK_ID`
-:   Specify the ID of the CAK that you want to update.
-
-`--name NAME`
-:   Specify the name of the CAK.
-
-`--crn CRN`
-:   Specify CRN of the key.
-
-`--help|-h`
-:   Get help on this command.
-
-`--output VALUE`
-:   Specify whether you want the output to display in JSON format. Currently, `json` is the only supported format.
-
-### Examples
-{: #example-cak-update}
-
-- `ibmcloud dl caku beec5de0-a1c0-4730-8888-2ce4a3020ec8 c3df351b-ff64-4444-ba64-92cb7622dfd6 --name 2000 -crn $crn2`
 
 ## `ibmcloud dl completion-notice`
 {: #completion-notice-download}
@@ -641,7 +487,7 @@ ibmcloud dl export-route-filter-replace|erfr GATEWAY_ID --file JSON_FILE --etag 
 Update an export route filter.
 
 ```sh
-ibmcloud dl export-route-filter-update|erfu GATEWAY_ID FILTER_ID [--action ACTION] [--prefix PREFIX] [--before BEFORE] [--ge GE] [--le LE] [-–help|-h] [--output format]
+ibmcloud dl export-route-filter-update|erfu GATEWAY_ID [--action ACTION] [--prefix PREFIX] [--before BEFORE] [--ge GE] [--le LE] [-–help|-h] [--output format]
 ```
 
 ### Command options
@@ -649,9 +495,6 @@ ibmcloud dl export-route-filter-update|erfu GATEWAY_ID FILTER_ID [--action ACTIO
 
 `GATEWAY_ID`
 :   Specify the ID of the gateway.
-
-`FILTER_ID`
-:   Specify the ID of the export route filter that you want to update.
 
 `--action ACTION`
 :   Specify the action of the export route filter. One of `permit`, `deny`.
@@ -1243,7 +1086,7 @@ ibmcloud dl import-route-filter-replace|irfr GATEWAY_ID --file JSON_FILE --etag 
 Update an import route filter.
 
 ```sh
-ibmcloud dl import-route-filter-update|irfu GATEWAY_ID FILTER_ID [--action ACTION] [--prefix PREFIX] [--before BEFORE] [--ge GE] [--le LE] [-–help|-h] [--output format]
+ibmcloud dl import-route-filter-update|irfu GATEWAY_ID [--action ACTION] [--prefix PREFIX] [--before BEFORE] [--ge GE] [--le LE] [-–help|-h] [--output format]
 ```
 
 ### Command options
@@ -1251,9 +1094,6 @@ ibmcloud dl import-route-filter-update|irfu GATEWAY_ID FILTER_ID [--action ACTIO
 
 `GATEWAY_ID`
 :   Specify the ID of the gateway.
-
-`FILTER_ID`
-:   Specify the ID of the import route filter that you want to update.
 
 `--action ACTION`
 :   Specify the action of the import route filter. One of `permit`, `deny`.
@@ -1349,7 +1189,7 @@ ibmcloud dl locations|locs OFFERING_TYPE [–-output format] [--help|-h]
 ```
 
 ### Command options
-{: #command-options-locations-offering_type}
+{: #command-options-offering_type}
 
 `OFFERING_TYPE`
 :   Specify the Direct Link offering type. Values are `dedicated` or `connect`.
@@ -1361,139 +1201,10 @@ ibmcloud dl locations|locs OFFERING_TYPE [–-output format] [--help|-h]
 :   Get help on this command.
 
 ### Examples
-{: #example-locations-offering-type}
+{: #example-offering-type1}
 
 - `ibmcloud dl locations dedicated`
 - `ibmcloud dl locs dedicated --output json`
-
-## `ibmcloud dl macsec`
-{: #macsec}
-
-View details of the macsec configuration.
-
-```sh
-ibmcloud dl macsec|mac GATEWAY_ID [-–help|-h] [--output format]
-```
-
-### Command options
-{: #command-options-masec}
-
-`GATEWAY_ID`
-:   Specify the ID of the gateway.
-
-`--help|-h`
-:   Get help on this command.
-
-`--output VALUE`
-:   Specify whether you want the output to display in JSON format. Currently, `json` is the only supported format.
-
-### Examples
-{: #example-macsec}
-
-- `ibmcloud dl mac beec5de0-a1c0-4730-8888-2ce4a3020ec8`
-
-## `ibmcloud dl macsec-set`
-{: #macsec-set}
-
-Set the macsec configuration.
-
-```sh
-ibmcloud dl macsec-set|macst GATEWAY_ID --file JSON_FILE [--etag ETAG] [-–help|-h] [--output format]
-```
-
-### Command options
-{: #command-options-macsec-set}
-
-`GATEWAY_ID`
-:   Specify the ID of the gateway.
-
-`--file JSON_FILE`
-:   Specify the JSON file for input data.
-
-`--etag ETAG`
-:   Specify the eTag.  ETag is required when there is an existing macsec configuration being replaced.
-
-`--help|-h`
-:   Get help on this command.
-
-`--output VALUE`
-:   Specify whether you want the output to display in JSON format. Currently, `json` is the only supported format.
-
-### Examples
-{: #example-macsec-set}
-
-- `ibmcloud dl macsec-set 58e4f46f-0dab-4025-9999-3df974db0618 --etag 'W/"182-9c1ba4f4ab697f4080f662c18e664d5763ae4b8dcb0542b4b473d661"' --file ~/macsec.txt`
-
-## `ibmcloud dl macsec-delete`
-{: #mac-delete}
-
-Delete the macsec configuration.
-
-```sh
-ibmcloud dl macsec-delete|macd GATEWAY_ID [-–help|-h] [--output format]
-```
-
-### Command options
-{: #command-options-macsec-delete}
-
-`GATEWAY_ID`
-:   Specify the ID of the gateway.
-
-`--help|-h`
-:   Get help on this command.
-
-`--output VALUE`
-:   Specify whether you want the output to display in JSON format. Currently, `json` is the only supported format.
-
-### Examples
-{: #example-macsec-delete}
-
-- `ibmcloud dl macd beec5de0-a1c0-4730-8888-2ce4a3020ec8`
-
-## `ibmcloud dl macsec-update`
-{: #macsec-update}
-
-Update the macsec configuration.
-
-```sh
-ibmcloud dl macsec-update|caku GATEWAY_ID [--active true|false] [--sakrekey-mode MODE] [--sakrekey-interval INTERVAL] [--security-policy POLICY] [--window-size SIZE] [-–help|-h] [--output format]
-```
-
-### Command options
-{: #command-options-macsec-update}
-
-`GATEWAY_ID`
-:   Specify the ID of the gateway.
-
-`CAK_ID`
-:   Specify the ID of the CAK that you want to update.
-
-`--active ACTIVE`
-:   Specify if MACsec should be active. [`true`|`false`]
-
-`--sakrekey-mode MODE`
-:   Specify SAK rekey mode to be used. [`timer`|`packet_number_rollover`]
-
-`--sakrekey-interval INTERVAL`
-:   When SAK rekey mode is timer, interval value is used.
-
-`--security-policy POLICY`
-:   Specify MACsec security policy. [`must_secure`|`should_secure`]
-
-`--window-size SIZE`
-:   Specify window size to be used.
-
-`--help|-h`
-:   Get help on this command.
-
-`--output VALUE`
-:   Specify whether you want the output to display in JSON format. Currently, `json` is the only supported format.
-
-### Examples
-{: #example-cak-update}
-
-- `ibmcloud dl macu beec5de0-a1c0-4730-8888-2ce4a3020ec8 --size 128`
-- `ibmcloud dl macu beec5de0-a1c0-4730-8888-2ce4a3020ec8 --active false`
 
 ## `ibmcloud dl offering-speeds`
 {: #offering-speeds-list}
