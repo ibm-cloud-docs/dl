@@ -1,7 +1,7 @@
 ---
 copyright:
-  years: 2020, 2024
-lastupdated: "2024-07-18"
+  years: 2020, 2025
+lastupdated: "2025-05-25"
 
 keywords: direct link
 
@@ -53,7 +53,7 @@ Given that our shared goal is to minimize latency, it makes sense to limit the n
 
 To minimize latency, {{site.data.keyword.cloud_notm}} took a unique approach to building our network. All of our data centers are connected to network points of presence (PoPs), and all of our network points of presence are connected to each other through our global backbone network. Because IBM maintains our own global backbone network, our operations team can control network paths and data transfers more precisely than if we relied on other providers to move data between geographies.
 
-For example, if a customer in Berlin wants to watch a cat video hosted on an {{site.data.keyword.cloud_notm}} server in Dallas, the packets of data that makes up that cat video travels across our backbone network (which is exclusively used by {{site.data.keyword.cloud_notm}} traffic) to Frankfurt, where the packets are sent to one of our peering or transit public service providers, finally to get to the user in Berlin. Even better, if our customer uses {{site.data.keyword.cloud_notm}} CDN capability, the packets are sent from an edge server that is located close to the customer, and they never need to be sent from Dallas.
+For example, if a customer in Berlin wants to watch a cat video hosted on an {{site.data.keyword.cloud_notm}} server in Dallas, the packets of data that makes up that cat video travels across our backbone network (which is exclusively used by {{site.data.keyword.cloud_notm}} traffic) to Frankfurt, where the packets are sent to one of our peering or transit public service providers, finally to get to the user in Berlin. 
 
 Without a global backbone network, the video packets are sent to a peering or transit public network provider in Dallas. Then, that provider routes the packets across its network or sends the packets to another provider at a network hop, and the packets finally bounce their way to Germany. It’s entirely possible that the packets might get from Dallas to Berlin with the same network latency without using the global backbone network. However, without the global backbone network, more variables exist; the total latency is much more difficult to guarantee or predict.
 
