@@ -47,14 +47,7 @@ You can store your keys in either Key Protect or Hyper Protect Crypto Services (
 
    You should grant access to all keys in the instance; otherwise, you must grant a new service-to-service authorization each time that you want to use a different key for Direct Link. As long as a key is in use by your gateway, you should never delete it, nor should you revoke the service-to-service authorization.
 
-1. If the Key Protect or HPCS instance has a context-based restriction (CBR) rule, a Direct Link Service Reference must be added to the network zone of that rule. For instructions, see [How Direct Link integrates with context-based restrictions](/docs/dl?topic=dl-cbr&interface=cli#cbr-overview).
-
-## Configuration failure
-{: #configuration-failure}
-
-After you provide an authentication key, the Direct Link service attempts to configure the key on your direct link. During configuration, the direct link's `operational_status` might enter a failed state. If the failure is caused by an improper key setup, the `operational_status_reason` shows the code `authentication_key_failed`.
-
-This failure can occur due to changes on the key itself or the permissions granted to the Direct Link service. While in this failed state, you can update the authentication key, either by resubmitting the same key or providing a new one. If you choose to reuse the same key, make sure to resolve any related issues before submitting it again.
+1. If the Key Protect or HPCS instance has a context-based restriction (CBR) rule, a Direct Link Service Reference must be added to the network zone of that rule. For instructions, see [How Direct Link integrates with context-based restrictions](/docs/dl?topic=dl-cbr&interface=cli#cbr-overview). 
 
 ## Next step
 {: #md5-next-step}
