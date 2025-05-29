@@ -52,7 +52,7 @@ You can store your keys in either Key Protect or Hyper Protect Crypto Services (
 ## Configuration failure
 {: #configuration-failure}
 
-After you provide an authentication key, the Direct Link Service attempts to configure the key on your direct link. During configuration, the direct link's `operational_status` might enter a failed state. If the failure is caused by an improper key setup, the `operational_status_reason` shows the code `authentication_key_failed`.
+After you provide an authentication key, the Direct Link service attempts to configure the key on your direct link. During configuration, the direct link's `operational_status` might enter a failed state. If the failure is caused by an improper key setup, the `operational_status_reason` shows the code `authentication_key_failed`.
 
 This failure can occur due to changes on the key itself or the permissions granted to the Direct Link service. While in this failed state, you can update the authentication key, either by resubmitting the same key or providing a new one. If you choose to reuse the same key, make sure to resolve any related issues before submitting it again.
 
