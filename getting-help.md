@@ -3,8 +3,8 @@
 
 
 copyright:
-  years: 2022, 2024
-lastupdated: "2024-10-30"
+  years: 2022, 2025
+lastupdated: "2025-05-29"
 
 keywords: case, forum, direct link
 
@@ -20,6 +20,7 @@ subcollection: dl
 If you experience an issue or have questions when using Direct Link, you can use the following resources before you open a support case.
 {: shortdesc}
 
+* Ask a question in the [AI assistant](/docs/overview?topic=overview-ask-ai-assistant) from the console or the {{site.data.keyword.cloud_notm}} CLI.
 * Review the [FAQs](/docs/dl?topic=dl-faqs) in the product documentation.
 * Review the [troubleshooting documentation](/docs/dl?topic=dl-troubleshoot-connection-down-after-scheduled-maintenance) to troubleshoot and resolve common issues.
 * Check the status of the {{site.data.keyword.Bluemix_notm}} platform and resources by going to the [Status page](https://cloud.ibm.com/status){: external}.
