@@ -2,7 +2,7 @@
 
 copyright:
   years: 2025
-lastupdated: "2025-03-20"
+lastupdated: "2025-05-30"
 
 keywords: direct link, direct link dedicated
 
@@ -15,7 +15,7 @@ subcollection: dl
 # Completing the connection
 {: #complete-connection-dedicated}
 
-After you submit your {{site.data.keyword.dl_short}} Dedicated order, the {{site.data.keyword.dl_short}} table indicates an **LOA creation in progress** connection status. Click the name of the connection to open its details page. Then, view the **Actions** section to see if you have any pending actions.
+After you submit your {{site.data.keyword.dl_short}} Dedicated order, the {{site.data.keyword.dl_short}} table indicates an **LOA creation in progress** connection status. Click the name of the connection to open its details page. Then, view the **Actions** section to see whether you have any pending actions.
 
 Here's how the process works:
 
