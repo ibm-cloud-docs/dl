@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020, 2024
-lastupdated: "2024-11-22"
+  years: 2020, 2025
+lastupdated: "2025-06-02"
 
 keywords: interconnectivity, direct link
 
@@ -41,7 +41,15 @@ Provides private access to the IBM Cloud infrastructure and any other clouds tha
 ### {{site.data.keyword.dl_short}} Dedicated
 {: #ibm-cloud-dedicated}
 
-Allows customers to end a single-tenant, fiber-based cross-connect into the {{site.data.keyword.cloud_notm}} network. Customers with colocation premises that are next to {{site.data.keyword.cloud_notm}} PoPs and data centers can use this offering. Network service providers that deliver circuits to customers' on-premises or other data centers can also use this offering.
+Allows customers to end a single-tenant, fiber-based cross-connect into the {{site.data.keyword.cloud_notm}} network. Customers with colocation premises that are next to {{site.data.keyword.cloud_notm}} PoPs and data centers can use this offering. Network service providers that deliver circuits to customers' on-premises or other data centers can also use this offering. 
+
+You can now enable MACsec when ordering IBM Cloud Direct Link Dedicated to secure Ethernet connections between your on-premises network and IBM Cloud. For more information, see [Planning for the Direct Link MACsec feature](/docs/dl?topic=dl-models-for-diversity-and-redundancy-in-direct-link#macsec-feature-dedicated).
+{: note}
+
+### {{site.data.keyword.dl_short}} Dedicated Hosting 
+{: #ibm-cloud-dedicated-hosting}
+
+Provides connectivity similar to Direct Link Dedicated, but the connection point is next to an {{site.data.keyword.cloud_notm}} data center, which improves latency for higher-performance use cases. {{site.data.keyword.cloud_notm}} offers various customizable colocation services with this solution. 
 
 ## Using AS prepends to influence route preference
 {: #use-case-1}
@@ -185,4 +193,42 @@ Redundancy:
 
 Local and global routing options:
 
- :    The local routing option is the default routing option. It provides access to data centers within the same market as the {{site.data.keyword.dl_short}} PoP (denoted, for example, as DAL, AMS, or MEL). The global routing option is required as an add-on to connect your {{site.data.keyword.cloud_notm}} resources to other {{site.data.keyword.cloud_notm}} resources in data centers outside the local market. It provides a way to share workloads between {{site.data.keyword.cloud_notm}} resources (for example, Dallas to Ashburn, or Dallas to Frankfurt).
+ :    The local routing option is the default routing option. It provides access to data centers within the same market as the {{site.data.keyword.dl_short}} PoP (denoted, for example, as DAL, AMS, or MEL). The global routing option is required as an add-on to connect your {{site.data.keyword.cloud_notm}} resources to other {{site.data.keyword.cloud_notm}} resources in data centers outside the local market. It provides a way to share workloads between {{site.data.keyword.cloud_notm}} resources (for example, Dallas to Ashburn, or Dallas to Frankfurt). 
+
+### Direct Link Dedicated Hosting use case
+{: #direct-link-dedicated-hosting-solution}
+ 
+Direct Link Dedicated Hosting provides connectivity similar to Direct Link Dedicated, but the connection point is next to an {{site.data.keyword.cloud_notm}} data center, which improves latency for higher performance use cases. IBM Cloud offers various customizable colocation services with this solution, with simple pricing.
+ 
+ **Common use cases:** Best for working with non-standard compute technologies, for dedicated storage requirements, or for using existing IT investments.
+ 
+ ![Direct Link Dedicated Hosting](/images/direct-link-dedicated-hosting.png){: caption="Direct Link Dedicated Hosting" caption-side="bottom"}
+ 
+ **Termination location:** {{site.data.keyword.cloud_notm}} Data Center
+ 
+ **Typical deployment time:** 30 - 60 days after all requirements are finalized and contracts are executed.
+ 
+ **Cross-connect details:** {{site.data.keyword.cloud_notm}} provides 1G or 10G fiber connections from the {{site.data.keyword.cloud_notm}} cross-connect router (XCR) infrastructure to the customer's colocation environment as part of the deployment. If colocation services are not requested (if existing environments are connected already), {{site.data.keyword.cloud_notm}} provides a Letter of Authorization (LOA) that a customer uses to order fiber ethernet (single-mode fiber only, either 1Gig-LX or 10Gig-LR optics) that runs from a customer cage to the {{site.data.keyword.cloud_notm}} CFA termination point, which will be tied down to the cross-connect router (XCR) infrastructure. The media must be a 1310 nm wavelength optic.
+ 
+ **Port speed options:** Select 1 Gbps, 2 Gbps, 5 Gbps, or 10 Gbps.
+ 
+ **Approximate latency:** Latency is approximately 0.5 ms within the local data center.
+ 
+ **IBM colocation services:** Yes.
+ 
+ **Redundancy:** {{site.data.keyword.cloud_notm}} provides connections to two diverse cross-connect routers (XCRs) as part of the product. To establish redundant connectivity, customers must configure BGP on each Direct Link connection as they prefer. Examples include options such as these: _prefer Lowest MED_, _prefer highest local-preference_, or _prefer shorter AS paths_.
+ 
+ **Local and global routing options:** The default routing option is Local routing. It provides access to data centers within the same Market as the Direct Link PoP (denoted, for example, as DAL, AMS, or MEL). The Global routing option is required as an add-on to connect your IBM Cloud resources to other IBM Cloud resources in data centers outside the local market. It is used to share workloads between IBM Cloud resources (for example Dallas to Ashburn, or Dallas to Frankfurt).
+ 
+ **Third-party, cross-connect add-on:**
+ * Customer can order an additional third-party, cross connect for carrier connections.
+ *	Customer is responsible for ordering the circuit directly from the carrier and for providing the LOA/CFA (Letter of Authorization – Carrier Facility Assignment) to the colocation provider.
+ *	Carrier availability might vary by location.
+ 
+ ![Cross-Connect Router (XCR)](/images/dedicated_hosting.png){: caption="Cross-Connect Router (XCR)" caption-side="bottom"}
+ 
+ **Use cases:**
+ 
+ * Additional cross connects are requested to the MMR to service ISP/Telco links, connect to other CSPs, or colocation tenants.
+ * DLDH customer procures services and LOA/CFA from third party.
+ * DLDH customer supplies third party LOA/CFA to colocation provider for cross-connect order.

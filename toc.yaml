@@ -52,6 +52,7 @@ toc:
             label: Ordering IBM Cloud Direct Link Dedicated
             topics:
             - order-nsp.md
+            - macsec-prerequisites.md 
             - completing-the-connection.md
         - topicgroup:
             label: Ordering IBM Cloud Direct Link Connect
@@ -71,6 +72,7 @@ toc:
                 - dl-verizon-sci.md
                 - dl-verizon-sci-equinix.md
                 - dl-accepting-provider-enabled-connection.md
+        - order-colocation.md
         - iam.md
         - topicgroup:
             label: Managing direct links
@@ -87,6 +89,8 @@ toc:
             - dl-route-report.md
             - dl-upgrade-bandwidth.md
             - deleting_gateway.md
+            - viewing-details.md
+            - macsec-rotating-keys.md
         - topicgroup:
             label: Setting up route filters
             topics:
@@ -158,6 +162,7 @@ toc:
         id: help
         topics:
         - known-limitations.md
+        - macsec-guidelines.md
         - getting-help.md
         - topic: faqs.md
           navtitle: FAQs
@@ -170,3 +175,5 @@ toc:
             - dl-ts-not-in-provisioned-state.md
             - dl-ts-suspended.md
             - dl-ts-unable-connect-vsi.md
+            - dl-ts-md5-configuration.md
+            - dl-ts-macsec-cak-configuration.md

@@ -19,6 +19,10 @@
         "href": "/docs/dl?topic=dl-how-to-order-ibm-cloud-dl-connect"
       },
       {
+        "title": "Ordering Direct Link Dedicated Hosting",
+        "href": "/docs/dl?topic=dl-how-to-order-ibm-cloud-direct-link-dedicated-hosting"
+      },
+      {
         "title": "Models for diversity in Direct Link",
         "href": "/docs/dl?topic=dl-models-for-diversity-and-redundancy-in-direct-link"
       },
