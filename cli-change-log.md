@@ -2,7 +2,7 @@
 
 copyright:
   years: 2022, 2025
-lastupdated: "2025-06-02"
+lastupdated: "2025-06-03"
 
 keywords: direct link cli change log
 
@@ -23,8 +23,8 @@ Learn about recent changes, improvements, and updates for the IBM Cloud Direct L
 To learn about general updates and improvements to Direct Link offerings, see the [Release notes for Direct Link](/docs/dl?topic=dl-direct-link-release-notes).
 {: note}
 
-## 02 June 2025
-{: #dl-jun0225}
+## 03 2025
+{: #dl-jun0325}
 {: release-note}
 
 MACsec support for Direct Link Dedicated

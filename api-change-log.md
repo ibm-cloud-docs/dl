@@ -2,7 +2,7 @@
 
 copyright:
   years: 2022, 2025
-lastupdated: "2025-06-02"
+lastupdated: "2025-06-03"
 
 keywords: direct link api change log
 
@@ -20,8 +20,8 @@ content-type: release-note
 Check back regularly to see what's new with {{site.data.keyword.cloud}} Direct Link API.
 {: shortdesc}
 
-## 02 June 2025
-{: #dl-june0225}
+## 03 June 2025
+{: #dl-june0325}
 
 MACsec support for Direct Link Dedicated
 
