@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2025
-lastupdated: "2025-06-02"
+lastupdated: "2025-06-03"
 
 keywords: interconnectivity, direct link
 
@@ -45,11 +45,6 @@ Allows customers to end a single-tenant, fiber-based cross-connect into the {{si
 
 You can now enable MACsec when ordering IBM Cloud Direct Link Dedicated to secure Ethernet connections between your on-premises network and IBM Cloud. For more information, see [Planning for the Direct Link MACsec feature](/docs/dl?topic=dl-models-for-diversity-and-redundancy-in-direct-link#macsec-feature-dedicated).
 {: note}
-
-### {{site.data.keyword.dl_short}} Dedicated Hosting 
-{: #ibm-cloud-dedicated-hosting}
-
-Provides connectivity similar to Direct Link Dedicated, but the connection point is next to an {{site.data.keyword.cloud_notm}} data center, which improves latency for higher-performance use cases. {{site.data.keyword.cloud_notm}} offers various customizable colocation services with this solution. 
 
 ## Using AS prepends to influence route preference
 {: #use-case-1}

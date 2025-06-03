@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2025
-lastupdated: "2025-06-02"
+lastupdated: "2025-06-03"
 
 keywords: direct link
 
@@ -28,10 +28,3 @@ Known limitations are as follows:
 * VRF isn't fully compatible with the {{site.data.keyword.cloud_notm}} SSL and IPsec VPN services.
 * The {{site.data.keyword.cloud_notm}} fees for {{site.data.keyword.dl_short}} Dedicated cover the cost of port termination on the {{site.data.keyword.cloud_notm}} infrastructure. Customers are responsible for any fees that are associated with reaching the PoP from a remote network and any cross-connects needed within the PoP facility. {{site.data.keyword.cloud_notm}} does not order a cross-connect on any customer's behalf.
 * {{site.data.keyword.cloud_notm}} does not colocate any customer equipment in our network PoPs. Customers must work with their provider to determine whether they need to colocate any equipment in the facility where the {{site.data.keyword.cloud_notm}} network PoP exists.
-* Direct Link Dedicated Hosting requires a specific contract between {{site.data.keyword.cloud_notm}} Direct Link Dedicated Hosting services and the customer. This contract outlines the terms and conditions for the product, the pricing for the colocation environment, and the term commitment for the services.  A 12-, 24-, 36- or 60-month contract period is required.
-* Direct Link Dedicated Hosting Provider connectivity is limited to the On-Net providers of the selected data center. 
-
-## Related link
-{: #macsec-related-link}
-
-[Guidelines and restrictions for Direct Link Dedicated with MACsec](/docs/dl?topic=dl-limitations-macsec)

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2025
-lastupdated: "2025-06-02"
+lastupdated: "2025-06-03"
 
 keywords: direct link
 
@@ -194,7 +194,7 @@ The following table provides details about the {{site.data.keyword.cloud_notm}} 
 {: tab-title="Americas"}
 {: tab-group="dedicated-simple"}
 
-|**IBM Location Code** | **Location Type** | **Meet Me Room Operator**| **Operator Site Code** |
+|IBM Location Code | Location Type | Meet Me Room Operator | Operator Site Code |
 |-----------------|-----------------|-----------------|--------------------|
 | Chennai 1 | DC | Tata | PH-01 |
 | Hong Kong 3 |	PoP |	Equinix |	HKG3 |
@@ -223,7 +223,7 @@ The following table provides details about the {{site.data.keyword.cloud_notm}} 
 {: tab-group="dedicated-simple"}
 {: class="simple-tab-table"}
 
-|**IBM Location Code** | **Location Type** | **Meet Me Room Operator**| **Operator Site Code** |
+| IBM Location Code | Location Type | Meet Me Room Operator | Operator Site Code |
 |-----------------|-----------------|-----------------|--------------------|
 | Amsterdam 2 | PoP | Equinix | AM2 |
 | Amsterdam 3 | DC | KPN | Amsterdam 3 |
@@ -263,7 +263,7 @@ The following table provides details about the markets where {{site.data.keyword
 The sites highlighted in **bold** are emphasized because they differ from the market region.
 {: note}
 
-| **Market** | **Data centers** | **PoPs** |
+| Market | Data centers | PoPs |
 |----------------|----------------|---------------|
 | Dallas | Dallas 09 \n Dallas 10 \n Dallas 12 \n Dallas 13 \n Dallas 14 | **Chicago 1** \n Dallas 3 \n Dallas 4 \n **Denver 1** |
 | Montreal | Montreal 1 | Montreal 2 \n Montreal 3 |
@@ -278,7 +278,7 @@ The sites highlighted in **bold** are emphasized because they differ from the ma
 {: tab-title="Americas"}
 {: tab-group="dedicated-simple-2"}
 
-| **Market** | **Data centers** | **PoPs** |
+| Market | Data centers | PoPs |
 |----------------|----------------|---------------|
 | Chennai | Chennai 1 | **Mumbai 1** |
 | Hong Kong | | Hong Kong 3 \n **Taipei** |
@@ -292,7 +292,7 @@ The sites highlighted in **bold** are emphasized because they differ from the ma
 {: tab-group="dedicated-simple-2"}
 {: class="simple-tab-table"}
 
-| **Market** | **Sites** |
+| Market | Sites |
 |----------------|----------------|
 | Amsterdam | Amsterdam 3  | Amsterdam 2 |
 | Frankfurt | Frankfurt 2 \n Frankfurt 4 \n Frankfurt 5 | Frankfurt 1 \n Frankfurt 3 |
@@ -307,52 +307,3 @@ The sites highlighted in **bold** are emphasized because they differ from the ma
 {: class="simple-tab-table"}
 
 [^newyork3]: New York City 2 connects to the IBM Cloud backbone through New York City 1. The primary reason for this PoP is to extend connectivity to different site providers from our New York City 1 site. When planning your diversity strategy, keep in mind that traffic for New York City 2 has a single, shared path to the IBM network.
-
-## Direct Link Dedicated Hosting locations
-{: #dedicated-hosting-locations}
-
-The following table provides details about the {{site.data.keyword.cloud_notm}} data centers where {{site.data.keyword.dl_short}} Dedicated Hosting is available. Choose a tab to see locations for Americas, APAC, and EU.
-
-| IBM Location Code  | Location Type  |  Meet Me Room Operator |  Operator Site Code  |
-|-----------------|----------------|-----------------|-----------------|
-| Dallas 09 | DC |  Digital Realty  | DAL09 | 
-| Dallas 12 | DC | Digital Realty | DAL12 |
-| Dallas 13 | DC | CyrusOne | DAL13 | 
-| Montreal 1 | DC | Cologix | MON01 |  
-| São Paulo 1 | DC | Ascenty, a Digital Realty Company | SAO01 |
-| San Jose 3  | DC | ODATA | SJC003 |
-| Toronto 5 | DC | Digital Realty | TOR05 |
-| Washington DC 4 | DC | Digital Realty | IAD38 |
-| Washington DC 6 | DC | Raging Wire | VA2 |
-| Washington DC 7 | DC | Sabey | WDC07 |
-{: class="simple-tab-table"}
-{: caption="Direct Link Dedicated Hosting - Americas" caption-side="bottom"}
-{: #simpletabtable11}
-{: tab-title="Americas"}
-{: tab-group="dedicated-hosting-simple"}
-
-|**IBM Location Code** | **Location Type** | **Meet Me Room Operator**| **Operator Site Code** |
-|-----------------|-----------------|-----------------|--------------------|
-| Osaka 21  | PoP|  Digital Realty | OSA021 | 
-| Sydney 4 | DC | Digital Realty | SYD10 |
-| Sydney 5 | DC | Equinix | SY4 | 
-| Tokyo 2 | DC | At Tokyo | TOK02 | 
-| Tokyo 5 | DC | NTT |  |
-{: caption="Direct Link Dedicated Hosting - APAC" caption-side="bottom"}
-{: #simpletabtable22}
-{: tab-title="APAC"}
-{: tab-group="dedicated-hosting-simple"}
-{: class="simple-tab-table"}
-
-|**IBM Location Code** | **Location Type** | **Meet Me Room Operator**| **Operator Site Code** |
-|-----------------|-----------------|-----------------|--------------------| 
-| Frankfurt 3 | DC  | Equinix |   
-| Frankfurt 4 | DC  | NTT | Frankfurt 1 |
-| Frankfurt 5 | DC  | Interxion A Digital Realty Company | FRA11 | 
-| London 2 | DC | Digital Realty | LHR13 | 
-| Madrid 5 | DC  | Digital Realty | MAD05 |
-{: caption="Direct Link Dedicated Hosting - EMEA" caption-side="bottom"}
-{: #simpletabtable33}
-{: tab-title="EU"}
-{: tab-group="dedicated-hosting-simple"}
-{: class="simple-tab-table"}

@@ -72,7 +72,6 @@ toc:
                 - dl-verizon-sci.md
                 - dl-verizon-sci-equinix.md
                 - dl-accepting-provider-enabled-connection.md
-        - order-colocation.md
         - iam.md
         - topicgroup:
             label: Managing direct links
