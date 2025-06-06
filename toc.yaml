@@ -149,11 +149,7 @@ toc:
         - completion-notice.md
         - responsibilities.md
         - service-dependency.md
-        - topicgroup:
-            label: High availability and disaster recovery
-            topics:
-            - bc-dr.md
-            - ha.md
+        - ha-dr.md
         - data-portability.md
         - external-resources.md
     - navgroup:
