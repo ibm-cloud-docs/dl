@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2025
-lastupdated: "2025-05-21"
+lastupdated: "2025-06-02"
 
 keywords: direct link
 
@@ -15,7 +15,7 @@ subcollection: dl
 # Securing your data in {{site.data.keyword.dl_short}}
 {: #mng-data}
 
-Direct Link does not store any customer data. IBM does not encrypt data transmitted through a direct link. 
+Direct Link does not store any customer data. IBM does not encrypt data transmitted through a direct link. Where available, data sent between customer devices and the direct link can be encrypted using MACsec. For more information, see [Planning for the Direct Link Dedicated MACsec feature](/docs/dl?topic=dl-dl-planning-considerations#macsec-feature-dedicated).
 {: shortdesc}
 
 Data about your specific {{site.data.keyword.dl_short}} configuration is encrypted in transit and at rest. Configuration data is deleted upon your request through API or User Interface.

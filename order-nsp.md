@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2025
-lastupdated: "2025-03-13"
+lastupdated: "2025-06-02"
 
 keywords: direct link, direct link dedicated
 
@@ -29,15 +29,20 @@ Make sure that you review the following information before you order Direct Link
 * All subnets of the VPC or classic network are connected to the direct link. When you create VPCs, make sure to create the VPCs with nonoverlapping prefixes and unique subnets.
    * To avoid IP address conflicts for classic connections to a direct link, don't use IP address ranges in the `10.0.0.0/14`, `10.200.0.0/14`, `10.198.0.0/15`, and `10.254.0.0/16` blocks for on-prem networks. On-prem routes that overlap are dropped.
    * For VPC connections to a direct link, you "can" use restricted Classic IP ranges in the `10.0.0.0/14`, `10.200.0.0/14`, `10.198.0.0/15`, and `10.254.0.0/16` blocks.
-   * For direct links connected to transit gateways, these IP ranges are always filtered to protect classic networks that could potentially be connected to transit gateways.
+   * For direct links connected to transit gateways, these IP ranges are always filtered to protect classic networks that might potentially be connected to transit gateways.
 * A Generic Routing Encapsulation (GRE)/IPsec tunneling requirement between your Edge router and a virtual router in {{site.data.keyword.cloud_notm}} requires a nonconflicting subnet when ordering. The default addresses for Direct Link are nonroutable and do not support tunneling.
-* {{site.data.keyword.cloud_notm}} VPC permits the use of RFC-1918 and IANA-registered IPv4 address space, privately within your VPC. It also permits this use, with some exceptions, in the IANA Special-Purpose ranges, as well as select ranges that are assigned to {{site.data.keyword.cloud_notm}} services. When you use IANA-registered ranges within your enterprise, and within VPCs with {{site.data.keyword.cloud_notm}} Direct Link, custom routes must be installed in each zone. For more information, see [Routing considerations for IANA-registered IP assignments](/docs/vpc?topic=vpc-interconnectivity#routing-considerations-iana).
+* {{site.data.keyword.cloud_notm}} VPC permits the use of RFC-1918 and IANA-registered IPv4 address space, privately within your VPC. It also permits this use, with some exceptions, in the IANA Special-Purpose ranges, and select ranges that are assigned to {{site.data.keyword.cloud_notm}} services. When you use IANA-registered ranges within your enterprise, and within VPCs with {{site.data.keyword.cloud_notm}} Direct Link, custom routes must be installed in each zone. For more information, see [Routing considerations for IANA-registered IP assignments](/docs/vpc?topic=vpc-interconnectivity#routing-considerations-iana).
 * If you plan to connect your direct link to a transit gateway, keep in mind that a single direct link instance accepts a maximum of 120 on-premises address prefixes when connected to a transit gateway. Consider aggregating prefixes to keep within this limit.
 
    A direct link can accept a maximum of 200 prefixes when not connected to a transit gateway.
    {: note}
 
 * Be sure to consult and familiarize yourself with the [Known issues and limitations](/docs/dl?topic=dl-known-limitations).
+* For Direct Link Dedicated with MACsec feature only:
+
+   * Currently, the Direct Link Dedicated with MACsec feature is offered in select locations, with growing support.
+   * Ensure that you [secure your data in Direct Link](/docs/dl?topic=dl-mng-data&interface=cli).
+   * Review [Guidelines and restrictions for Direct Link Dedicated with MACsec](/docs/dl?topic=dl-limitations-macsec).
 
 ## Ordering instructions
 {: #instructions-dedicated}
@@ -53,6 +58,39 @@ To order {{site.data.keyword.dl_full}} Dedicated, follow these steps.
    * Type a name for your {{site.data.keyword.dl_short}} Dedicated connection.
    * Choose a resource group to create the {{site.data.keyword.dl_short}} connection. Resource groups help manage and contain resources that are associated with an account. Select **Default** if you don't have other groups that are defined in the menu list. For more information about resource groups, see [Best practices for organizing resources in a resource group](/docs/account?topic=account-account_setup).
    * Type your customer and carrier names.
+
+1. Optionally, you can enable enhanced traffic security in the MACsec section. To do so, toggle the **Secure Direct Link with MACsec** switch and follow these steps:
+
+   Before establishing a direct link with the MACsec feature, make sure that all [prerequisites](/docs/dl?topic=dl-macsec-prerequisites) are met. Additionally, make sure to review MACsec [guidelines and restrictions](/docs/dl?topic=dl-limitations-macsec).
+   {: important}
+
+   1. Type the replay protection window size in packets. The default value is `512`. The secured interface does not accept any reordered packet that is outside the specified window size.
+   1. Choose the level of enforcement required for securing the network traffic:
+
+      * **Must secure** - Enforces mandatory encryption for all network traffic, helping ensure strict confidentiality, integrity, and authenticity.
+      * **Should secure** - Recommends encryption for network traffic, but it is not mandatory and can allow exceptions or fallback options.
+
+   1. For the Security Association Key (SAK) rekey mode, define how you want your keys refreshed or changed during communication between devices:
+
+      * **Timer** - The SAK is rekeyed after the specified time interval. This ensures that keys are periodically changed at regular time intervals, regardless of the number of packets transmitted.
+      * **Packet number rollover** - The SAK is rekeyed based on the used packet numbers. This option triggers rekeying based on the number of packets sent, ensuring a new key is used after a high proportion of used packet numbers with the current SAK (the exact threshold determined at the system's discretion).
+
+   1. Configure a primary CAK.
+      1. Type a CAK name.
+      1. Choose an HPCS instance for the primary connectivity association key (CAK) key.
+      1. Choose a key from HPCS containing the CAK secret.
+   1. Optionally, configure a fallback CAK.
+      1. Type a CAK name.  
+      1. Choose a fallback key instance.
+      1. Choose a key from HPCS containing the CAK secret.
+   
+      If you do not have a fallback key, you can set one up after you provision your direct link.
+      {: note}
+
+   1. Ensure that the switch is **Activated** for MACsec if you want to immediately try to establish a MACsec session when you provision your direct link.
+
+         You can also activate and deactivate MACsec after creating your direct link.
+         {: note}
       
 1. In the Gateway section, complete the following information:
 
@@ -68,7 +106,20 @@ To order {{site.data.keyword.dl_full}} Dedicated, follow these steps.
       Speeds greater than 1 Gbps require 10 Gbps service from the client's carrier and equipment. If you intend to upgrade the speed for this gateway, select 2 Gbps to start with; otherwise, you cannot upgrade to a higher speed on this gateway.
       {: tip}
 
-   1. Choose the cross-connect router available at the selected location for this direct link.
+   1. Choose the cross-connect router available at the selected location for this direct link. You can't modify this router after provisioning. Some routers can be disabled based on their support for the MACsec feature and the decisions made regarding its use. 
+
+   1. Choose the support level of MACsec that you want for this direct link. The available capabilities depend on the ports available on the selected cross-connect router. The options are:
+
+      * **Require MACsec** - Enforce the use of MACsec, which cannot be disabled after provisioning.
+
+         **Require MACsec** allows you to edit MACsec configuration, but you can’t remove this feature. 
+         {: note}
+
+      * **Enable/disable MACsec** - Optionally, enable or disable MACsec either during or after the provisioning of this direct link. After MACsec is enabled, you can activate or deactivate this feature.          
+
+      * **No MACsec** - Exclude this direct link from using MACsec. MACsec can't be enabled during or after provisioning. 
+
+         **Warning: You can’t use or enable MACsec on this direct link, nor can you select a router that supports only MACsec.**
 
 1. In the Billing section, select **Metered** or **Unmetered**. Metered pricing means paying only for what you use. Unmetered is unlimited access, for a predicable, monthly fee. {: #dl-dedicated-bgp}
 1. In the BGP section, complete the following information:
@@ -108,7 +159,7 @@ To order {{site.data.keyword.dl_full}} Dedicated, follow these steps.
       **Important**:
 
       * Configure the same BGP MD5 authentication key on both your Edge router and the IBM cross-connect router (XCR). The shared authentication key on the IBM device must be stored in your HPCS or Key Protect instance and shared with the Direct Link service. For more information, see [Setting up BGP Message Digest 5 (MD5) authentication keys](/docs/dl?topic=dl-dl-md5).
-      * You can achieve hitless key refresh if the keys are updated on both your Edge router and on the IBM cross-connect router (XCR) within 90 seconds. As a pre-condition, you must configure the BGP hold time on your router to a minimum of 90 seconds. All Direct Link routers have a 90-second configuration by default. Either side can initiate the key refresh, but both sides must refresh within the configured BGP hold time to avoid traffic disruption.
+      * You can achieve hitless key refresh if the keys are updated on both your Edge router and on the IBM cross-connect router (XCR) within 90 seconds. As a precondition, you must configure the BGP hold time on your router to a minimum of 90 seconds. All Direct Link routers have a 90-second configuration by default. Either side can initiate the key refresh, but both sides must refresh within the configured BGP hold time to avoid traffic disruption.
       * If a BGP peering session was established and you enable BGP MD5 authentication (or change the authentication key to a different value), BGP sessions are reestablished. This action causes BGP session downtime and network disruption until the BGP peer device is configured with the same change.
 
       Complete the following information:
@@ -127,9 +178,9 @@ To order {{site.data.keyword.dl_full}} Dedicated, follow these steps.
 
    * **Prioritize direct links with AS prepends** - Adjust the route preference by lengthening AS paths with multiples of the BGP Autonomous System Number (ASN). When the prefix is matched, the longer AS path becomes a lower priority for the BGP router. For more information, see [Prepending an AS path to influence route priority](/docs/dl?topic=dl-prepend-as-paths).
 
-   * **Filter your import routes** - Select a default filter to either permit or deny all routes unmatched by active route filters. By default, all import routes are permitted. Next, click **Configure filters** to start creating import route filters. To prioritize filters, drag and drop the icon next to the Order number in the table. Click **Save** to save your configuration. For more information, see [Filtering routes](/docs/dl?topic=dl-filter-routes).
+   * **Filter your import routes** - Select a default filter to either permit or deny all routes unmatched by active route filters. By default, all import routes are permitted. Next, click **Configure filters** to start creating import route filters. To prioritize filters, drag the icon next to the Order number in the table. Click **Save** to save your configuration. For more information, see [Filtering routes](/docs/dl?topic=dl-filter-routes).
 
-   * **Filter your export routes** - Select a default filter to either permit or deny all routes unmatched by active route filters. By default, all export routes are permitted. Next, click **Configure filters** to start creating export route filters. To prioritize filters, drag and drop the icon next to the Order number in the table. Click **Save** to save your configuration. For more information, see [Filtering routes](/docs/dl?topic=dl-filter-routes).
+   * **Filter your export routes** - Select a default filter to either permit or deny all routes unmatched by active route filters. By default, all export routes are permitted. Next, click **Configure filters** to start creating export route filters. To prioritize filters, drag the icon next to the Order number in the table. Click **Save** to save your configuration. For more information, see [Filtering routes](/docs/dl?topic=dl-filter-routes).
 
 1. In the Connections section, select the type of network connection that you want to bind to the {{site.data.keyword.dl_short}} gateway. You can select a connection type when you create a direct link, or after your direct link is provisioned.
 
@@ -140,7 +191,7 @@ To order {{site.data.keyword.dl_full}} Dedicated, follow these steps.
       * **Classic infrastructure** networks allow you to connect to {{site.data.keyword.cloud_notm}} classic resources. Only one classic infrastructure connection is allowed per {{site.data.keyword.dl_short}} gateway.
       * **VPC** networks allow you to connect to your account’s VPC resources.
 
-      You cannot request a connection to a network in another account when you create a gateway. However, you can request a connection to a network in another account after a gateway is provisioned. You also can create classic infrastructure and VPC connections after a gateway is created. To learn more, see [Adding virtual connections to a {{site.data.keyword.dl_short}} gateway](/docs/dl?topic=dl-add-virtual-connection).
+      You cannot request a connection to a network in another account when you create a gateway. However, you can request a connection to a network in another account after a gateway is provisioned. You can also create classic infrastructure and VPC connections after a gateway is created. To learn more, see [Adding virtual connections to a {{site.data.keyword.dl_short}} gateway](/docs/dl?topic=dl-add-virtual-connection).
       {: tip}
 
    * Select **Transit Gateway** to bind your direct link to transit gateways. You can bind your direct link to one or more local gateways, or one global gateway.
@@ -156,7 +207,7 @@ To order {{site.data.keyword.dl_full}} Dedicated, follow these steps.
 ## Next step
 {: #dedicated-next-step}
 
-After you submit your Direct Link Dedicated order, the Direct Link table indicates an LOA creation in progress connection status. Click the name of the connection to open its details page. Then, view the Actions section to see if you have any pending actions.
+After you submit your Direct Link Dedicated order, the Direct Link table indicates an LOA creation in progress connection status. Click the name of the connection to open its details page. Then, view the Actions section to see whether you have any pending actions.
 To view the completion process, see [Completing the connection](/docs/dl?topic=dl-complete-connection-dedicated).
 
 ## Related link
