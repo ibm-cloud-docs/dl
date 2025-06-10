@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020, 2025
-lastupdated: "2025-06-02"
+  years: 2020, 2024
+lastupdated: "2024-07-18"
 
 keywords:  direct link prerequisites
 
@@ -38,11 +38,7 @@ When you are ready to finalize your {{site.data.keyword.dl_short}} order, you ar
 
    IBM supplies a Letter of Authorization/Connecting Facility Assignment (LOA/CFA) with port information to order the cross connect.
 
-   **Note**: Direct Link Dedicated is a switchport in access mode. Currently, 802.1q is not supported. 
-
-1. **{{site.data.keyword.dl_short}} Dedicated Hosting only**: To establish redundant connectivity, you must order dual uplinks, one for each of IBM Cloud’s cross-connect routers. This is accomplished on the customer's routers via BGP sessions by using ECMP capabilities or simply weighting the connection by balancing traffic to the direct link from the customer routers.
-
-    If you require more than two direct links, you can order additional direct links. 
+   **Note**: Direct Link Dedicated is a switchport in access mode. Currently, 802.1q is not supported.
 
 1. Be aware if you use Classic IaaS, that infrastructure uses the `10.x.x.x` network and you cannot overlap your on-premises hosts within IBM Cloud or with the IBM Cloud services network (`10.0.0.0/14`, `10.198.0.0/15`, and `10.200.0.0/14`).
 

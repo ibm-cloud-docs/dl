@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2025
-lastupdated: "2025-06-03"
+lastupdated: "2025-05-27"
 
 keywords: direct link
 
@@ -194,7 +194,7 @@ The following table provides details about the {{site.data.keyword.cloud_notm}} 
 {: tab-title="Americas"}
 {: tab-group="dedicated-simple"}
 
-|IBM Location Code | Location Type | Meet Me Room Operator | Operator Site Code |
+|**IBM Location Code** | **Location Type** | **Meet Me Room Operator**| **Operator Site Code** |
 |-----------------|-----------------|-----------------|--------------------|
 | Chennai 1 | DC | Tata | PH-01 |
 | Hong Kong 3 |	PoP |	Equinix |	HKG3 |
@@ -223,7 +223,7 @@ The following table provides details about the {{site.data.keyword.cloud_notm}} 
 {: tab-group="dedicated-simple"}
 {: class="simple-tab-table"}
 
-| IBM Location Code | Location Type | Meet Me Room Operator | Operator Site Code |
+|**IBM Location Code** | **Location Type** | **Meet Me Room Operator**| **Operator Site Code** |
 |-----------------|-----------------|-----------------|--------------------|
 | Amsterdam 2 | PoP | Equinix | AM2 |
 | Amsterdam 3 | DC | KPN | Amsterdam 3 |
@@ -263,7 +263,7 @@ The following table provides details about the markets where {{site.data.keyword
 The sites highlighted in **bold** are emphasized because they differ from the market region.
 {: note}
 
-| Market | Data centers | PoPs |
+| **Market** | **Data centers** | **PoPs** |
 |----------------|----------------|---------------|
 | Dallas | Dallas 09 \n Dallas 10 \n Dallas 12 \n Dallas 13 \n Dallas 14 | **Chicago 1** \n Dallas 3 \n Dallas 4 \n **Denver 1** |
 | Montreal | Montreal 1 | Montreal 2 \n Montreal 3 |
@@ -278,7 +278,7 @@ The sites highlighted in **bold** are emphasized because they differ from the ma
 {: tab-title="Americas"}
 {: tab-group="dedicated-simple-2"}
 
-| Market | Data centers | PoPs |
+| **Market** | **Data centers** | **PoPs** |
 |----------------|----------------|---------------|
 | Chennai | Chennai 1 | **Mumbai 1** |
 | Hong Kong | | Hong Kong 3 \n **Taipei** |
@@ -292,7 +292,7 @@ The sites highlighted in **bold** are emphasized because they differ from the ma
 {: tab-group="dedicated-simple-2"}
 {: class="simple-tab-table"}
 
-| Market | Sites |
+| **Market** | **Sites** |
 |----------------|----------------|
 | Amsterdam | Amsterdam 3  | Amsterdam 2 |
 | Frankfurt | Frankfurt 2 \n Frankfurt 4 \n Frankfurt 5 | Frankfurt 1 \n Frankfurt 3 |
