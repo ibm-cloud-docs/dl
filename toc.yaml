@@ -35,6 +35,7 @@ toc:
             - link:
                 label: Getting started with Virtual Private Cloud (VPC)
                 href: /vpc/vpc-getting-started
+            - include: ../vpc/private-connectivity-vpe.md
             - include: ../vpc/interconnectivity.md
        - release_notes.md
     - navgroup:

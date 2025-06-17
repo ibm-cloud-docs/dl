@@ -132,7 +132,7 @@ Direct Link provides mechanisms to protect your data and restore service functio
 {: caption="RTO objectives for IBM Cloud Direct Link" caption-side="bottom"}
 
 ## Change management
-{: #change-management}
+{: #dl-change-management}
 
 Change management includes tasks such as upgrades, configuration changes, and deletion.
 

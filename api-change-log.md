@@ -21,7 +21,7 @@ Check back regularly to see what's new with {{site.data.keyword.cloud}} Direct L
 {: shortdesc}
 
 ## 17 June 2025
-{: #dl-june1725}
+{: #dl-june1625}
 
 MACsec support for Direct Link Dedicated
 
