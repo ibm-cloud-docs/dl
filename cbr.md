@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years:  2023, 2024
-lastupdated: "2024-08-13"
+  years:  2023, 2025
+lastupdated: "2025-06-17"
 
 keywords:
 
@@ -34,8 +34,6 @@ Context-based restrictions protect only the actions associated with the [Direct 
 
 - [Resource Instance APIs](/apidocs/resource-controller/resource-controller#list-resource-instances)
 - [Resource Keys APIs](/apidocs/resource-controller/resource-controller#list-resource-keys)
-- [Resource Bindings APIs](/apidocs/resource-controller/resource-controller#list-resource-bindings)
-- [Resource Aliases APIs](/apidocs/resource-controller/resource-controller#list-resource-aliases)
 - [IAM Policy APIs](/apidocs/iam-policy-management#list-policies)
 - [Global Search APIs](/apidocs/search)
 - Global Tagging [Attach](/apidocs/tagging#attach-tag) and [Detach](/apidocs/tagging#detach-tag) APIs
