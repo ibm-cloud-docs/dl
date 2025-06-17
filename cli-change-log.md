@@ -2,7 +2,7 @@
 
 copyright:
   years: 2022, 2025
-lastupdated: "2025-05-12"
+lastupdated: "2025-06-17"
 
 keywords: direct link cli change log
 
@@ -23,7 +23,23 @@ Learn about recent changes, improvements, and updates for the IBM Cloud Direct L
 To learn about general updates and improvements to Direct Link offerings, see the [Release notes for Direct Link](/docs/dl?topic=dl-direct-link-release-notes).
 {: note}
 
+## 17 June 2025
+{: #dl-jun1725}
+{: release-note}
 
+MACsec support for Direct Link Dedicated
+
+:    New commands:
+
+   * [View details of a CAK by ID](/docs/dl?topic=dl-dl-cli#cak)
+   * [List all CAKs](/docs/dl?topic=dl-dl-cli#caks)
+   * [Create a CAK](/docs/dl?topic=dl-dl-cli#cak-create)
+   * [Delete a CAK](/docs/dl?topic=dl-dl-cli#cak-delete)
+   * [Update a CAK](/docs/dl?topic=dl-dl-cli#cak-update)
+   * [View details of a MACsec configuration](/docs/dl?topic=dl-dl-cli#macsec)
+   * [Set the MACsec configuration](/docs/dl?topic=dl-dl-cli#macsec-set)
+   * [Unset the MACsec configuration](/docs/dl?topic=dl-dl-cli#macsec-unset)
+   * [Update the MACsec configuration](/docs/dl?topic=dl-dl-cli#macsec-update) 
 
 ## 07 March 2024
 {: #dl-mar0724}

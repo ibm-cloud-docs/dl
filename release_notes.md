@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2025
-lastupdated: "2025-05-12"
+lastupdated: "2025-06-17"
 
 keywords: direct link release notes
 
@@ -21,7 +21,11 @@ content-type: release-note
 Check back regularly to see what's new with {{site.data.keyword.cloud}} Direct Link.
 {: shortdesc}
 
+## 17 June 2025
+{: #dl-june1725}
 
+Media Access Control Security (MACsec) support for Direct Link Dedicated
+:    MACsec, a security protocol that provides encryption for data over Ethernet, is now available in select locations equipped with cross-connect switches (XCS) that support MACsec functionality. Supported markets include Toronto, Montreal, Dallas, and Washington D.C. For more information, see [Planning for the Direct Link Dedicated MACsec feature](/docs/dl?topic=dl-dl-planning-considerations#macsec-feature-dedicated).
 
 ## 13 March 2025
 {: #dl-march1325}

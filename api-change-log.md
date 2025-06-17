@@ -2,7 +2,7 @@
 
 copyright:
   years: 2022, 2025
-lastupdated: "2025-05-12"
+lastupdated: "2025-06-17"
 
 keywords: direct link api change log
 
@@ -20,7 +20,22 @@ content-type: release-note
 Check back regularly to see what's new with {{site.data.keyword.cloud}} Direct Link API.
 {: shortdesc}
 
+## 17 June 2025
+{: #dl-june1725}
 
+MACsec support for Direct Link Dedicated
+
+: New commands
+
+   * Get MACsec CAK - `GET /gateways/{id}/macsec/caks/{cak_id}`
+   * List MACsec CAKs - `GET /gateways/{id}/macsec/caks`
+   * Create MACsec CAK - `POST /gateways/{id}/macsec/caks`
+   * Delete MACsec CAK - `DELETE /gateways/{id}/macsec/caks/{cak_id}`
+   * Update MACsec CAK - `PATCH /gateways/{id}/macsec/caks/{cak_id}`
+   * Set MACsec configuration - `PUT /gateways/{id}/macsec` 
+   * Unset MACsec configuration - `DELETE /gateways/{id}/macsec`
+   * Get MACsec configuration - `GET /gateways/{id}/macsec`
+   * Update MACsec configuration - `PATCH /gateways/{id}/macsec` 
 
 ## 07 March 2024
 {: #dl-marc0724}

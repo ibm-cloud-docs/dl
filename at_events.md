@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2025
-lastupdated: "2025-02-10"
+lastupdated: "2025-06-17"
 
 keywords: direct link
 
@@ -24,10 +24,7 @@ You can use {{site.data.keyword.atracker_full_notm}}, a platform service, to rou
 
 You can use {{site.data.keyword.logs_full_notm}} to visualize and alert on events that are generated in your account and routed by {{site.data.keyword.atracker_full_notm}} to an {{site.data.keyword.logs_full_notm}} instance.
 
-As of 28 March 2024, the {{site.data.keyword.at_full_notm}} service is deprecated and will no longer be supported as of 30 March 2025. Customers will need to migrate to {{site.data.keyword.logs_full_notm}} before 30 March 2025. During the migration period, customers can use {{site.data.keyword.at_full_notm}} along with {{site.data.keyword.logs_full_notm}}. Activity tracking events are the same for both services. For information about migrating from {{site.data.keyword.at_full_notm}} to {{site.data.keyword.logs_full_notm}} and running the services in parallel, see [migration planning](/docs/cloud-logs?topic=cloud-logs-migration-intro).
-{: important}
-
-Activity tracker events are captured for all locations, even if recorded in `eu-de`. Because Direct Link is a global control plan, if you perform an action to a resource in `us-south`, it's handled by that control plane and logged in the `us-south` activity tracker location (by default).
+Activity tracker events are captured for all locations, even if recorded in `eu-de`. Because Direct Link is a global control plan, if you perform an action to a resource in `us-south`, it's handled by that control plane and logged in the `us-south` location (by default).
 {: remember}
 
 ## Locations where activity tracking events are generated

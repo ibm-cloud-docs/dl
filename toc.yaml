@@ -35,7 +35,6 @@ toc:
             - link:
                 label: Getting started with Virtual Private Cloud (VPC)
                 href: /vpc/vpc-getting-started
-            - include: ../vpc/private-connectivity-vpe.md
             - include: ../vpc/interconnectivity.md
        - release_notes.md
     - navgroup:
@@ -52,6 +51,7 @@ toc:
             label: Ordering IBM Cloud Direct Link Dedicated
             topics:
             - order-nsp.md
+            - macsec-prerequisites.md 
             - completing-the-connection.md
         - topicgroup:
             label: Ordering IBM Cloud Direct Link Connect
@@ -87,6 +87,8 @@ toc:
             - dl-route-report.md
             - dl-upgrade-bandwidth.md
             - deleting_gateway.md
+            - viewing-details.md
+            - macsec-rotating-keys.md
         - topicgroup:
             label: Setting up route filters
             topics:
@@ -133,7 +135,6 @@ toc:
             label: CLI reference
             topics:
             - dl-cli-plugin.md
-            - dl-cli-plugin-old.md
             - cli-change-log.md
         - link:
            label: Terraform reference
@@ -147,17 +148,14 @@ toc:
         - completion-notice.md
         - responsibilities.md
         - service-dependency.md
-        - topicgroup:
-            label: High availability and disaster recovery
-            topics:
-            - bc-dr.md
-            - ha.md
+        - ha-dr.md
         - data-portability.md
         - external-resources.md
     - navgroup:
         id: help
         topics:
         - known-limitations.md
+        - macsec-guidelines.md
         - getting-help.md
         - topic: faqs.md
           navtitle: FAQs
@@ -170,3 +168,5 @@ toc:
             - dl-ts-not-in-provisioned-state.md
             - dl-ts-suspended.md
             - dl-ts-unable-connect-vsi.md
+            - dl-ts-md5-configuration.md
+            - dl-ts-macsec-cak-configuration.md
