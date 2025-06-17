@@ -52,12 +52,12 @@
     "view_more": "/docs/dl?topic=dl-direct-link-release-notes",
     "tiles": [
       {
-        "date": "01 May 2024",
-        "title": "Behavior change: Enable service network routes from Direct Link to non-Classic connections"
+        "date": "17 June 2025",
+        "title": "Media Access Control Security (MACsec) support for Direct Link Dedicated"
       },
       {
-        "date": "07 March 2024",
-        "title": "VLAN tagging support for Direct Link Dedicated"
+        "date": "13 March 2025",
+        "title": "Montreal region now available"
       }
     ]
   }

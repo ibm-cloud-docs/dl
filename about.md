@@ -43,7 +43,7 @@ Provides private access to the IBM Cloud infrastructure and any other clouds tha
 
 Allows customers to end a single-tenant, fiber-based cross-connect into the {{site.data.keyword.cloud_notm}} network. Customers with colocation premises that are next to {{site.data.keyword.cloud_notm}} PoPs and data centers can use this offering. Network service providers that deliver circuits to customers' on-premises or other data centers can also use this offering. 
 
-You can now enable MACsec when ordering IBM Cloud Direct Link Dedicated to secure Ethernet connections between your on-premises network and IBM Cloud. For more information, see [Planning for the Direct Link MACsec feature](/docs/dl?topic=dl-models-for-diversity-and-redundancy-in-direct-link#macsec-feature-dedicated).
+You can now enable MACsec when ordering IBM Cloud Direct Link Dedicated to secure Ethernet connections between your on-premises network and IBM Cloud. For more information, see [Planning for the Direct Link MACsec feature](/docs/dl?topic=dl-dl-planning-considerations#macsec-feature-dedicated).
 {: note}
 
 ## Using AS prepends to influence route preference
