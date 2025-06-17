@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2025
-lastupdated: "2025-05-12"
+lastupdated: "2025-06-17"
 
 keywords: faqs
 
@@ -232,6 +232,21 @@ Jumbo frames (up to 9214 bytes) are supported on Direct Link Dedicated Hosting.
 
 Typically, IBM installs speeds of 1 GB and lower on 1 GB optics. For speeds of 2-10 GB, IBM installs 10 GB optics. As a result, an upgrade of 1-5 GB would require new optics to be assigned or inserted. It would be a service affecting event. If you anticipate that type of growth, it's possible to request 10 GB optical fibers to be installed at the beginning of your {{site.data.keyword.dl_short}} deployment, or to order 2 GB initially so that the 10 GB optics are in place.
 
+## Is ECMP the best choice for redundant Direct Link connections? What alternatives exist?
+{: #is-ecmp-the-way-to-go-for-redundant-direct-link-connections}
+{: faq}
+
+ECMP (Equal-Cost Multi-Path) is primarily designed for load balancing across multiple links, not for providing redundancy. When using ECMP, both connections typically terminate at the same IBM Cloud cross-connect router (XCR), creating a single point of failure. Essentially, ECMP can be set up as two sessions on a single XCR.
+
+It's important to note that you don’t have to use the same XCR for both connections. There may be scenarios involving AS Path issues similar to those mentioned in [Route report considerations](/docs/transit-gateway?topic=transit-gateway-helpful-tips#helpful-tips-include-reuse-route-report-considerations). Additionally, with two 10 GB direct links using ECMP, if you exceed 10 GB of throughput and one link fails, the remaining 10 GB link could become overloaded.
+
+   IBM Cloud does not recommend using ECMP in this context. ECMP load balancing only applies to traffic at the XCRs. Beyond the XCRs, the traffic from ECMP appears as the same IP address to IBM Cloud network, which defaults to the shortest path found. As a result, only one of the direct links in the ECMP configuration is actively used at a given time.
+   {: important}
+
+If redundancy is your goal, consider establishing two Direct Link connections——one for each XCR. For those interested in using ECMP alongside redundancy, you would need two Direct Links to each XCR to enable simultaneous ECMP sessions. Alternatively, some customers set up two links to different XCRs in the same data center, such as WDC02, and then manage failover through BGP configurations. While this approach offers some redundancy, it is less safe than having Direct Link connections in separate data centers, like WDC02 and WDC05.
+
+Another consideration with ECMP is that if you have two VPCs advertising the same route, it might attempt to load balance across those as well. This behavior isn't limited to direct links or GREs; it can also apply to IBM Power Virtual Server workspaces.
+{: note}
 
 ## For Direct Link offerings, does IBM set a BGP password?
 {: #on-direct-link-exchange-does-ibm-set-a-bgp-password}
