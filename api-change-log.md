@@ -2,7 +2,7 @@
 
 copyright:
   years: 2022, 2025
-lastupdated: "2025-06-17"
+lastupdated: "2025-07-21"
 
 keywords: direct link api change log
 
@@ -32,10 +32,10 @@ MACsec support for Direct Link Dedicated
    * Create MACsec CAK - `POST /gateways/{id}/macsec/caks`
    * Delete MACsec CAK - `DELETE /gateways/{id}/macsec/caks/{cak_id}`
    * Update MACsec CAK - `PATCH /gateways/{id}/macsec/caks/{cak_id}`
-   * Set MACsec configuration - `PUT /gateways/{id}/macsec` 
+   * Set MACsec configuration - `PUT /gateways/{id}/macsec`
    * Unset MACsec configuration - `DELETE /gateways/{id}/macsec`
    * Get MACsec configuration - `GET /gateways/{id}/macsec`
-   * Update MACsec configuration - `PATCH /gateways/{id}/macsec` 
+   * Update MACsec configuration - `PATCH /gateways/{id}/macsec`
 
 ## 07 March 2024
 {: #dl-marc0724}
@@ -109,10 +109,3 @@ BGP AS prepends support
 
    * Add AS prepend support during create gateway - `POST /gateways`
    * Add AS prepend support during create gateway approve - `POST gateways/{id}/actions`
-
-## 01 April 2022
-{: #dl-april0122}
-{: release-note}
-
-Reduced unmetered plan pricing for Direct Link Connect
-:   IBM is pleased to announce a significant reduction in unmetered pricing for IBM Cloud Direct Link Connect and Direct Link Dedicated. Direct Link also offers a metered pricing plan, which allows you to switch between metered and unmetered pricing plans to suit your bandwidth usage needs.
