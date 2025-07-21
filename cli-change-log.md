@@ -2,7 +2,7 @@
 
 copyright:
   years: 2022, 2025
-lastupdated: "2025-06-17"
+lastupdated: "2025-07-21"
 
 keywords: direct link cli change log
 
@@ -39,7 +39,7 @@ MACsec support for Direct Link Dedicated
    * [View details of a MACsec configuration](/docs/dl?topic=dl-dl-cli#macsec)
    * [Set the MACsec configuration](/docs/dl?topic=dl-dl-cli#macsec-set)
    * [Unset the MACsec configuration](/docs/dl?topic=dl-dl-cli#macsec-unset)
-   * [Update the MACsec configuration](/docs/dl?topic=dl-dl-cli#macsec-update) 
+   * [Update the MACsec configuration](/docs/dl?topic=dl-dl-cli#macsec-update)
 
 ## 07 March 2024
 {: #dl-mar0724}
@@ -103,27 +103,3 @@ Route report support
    * [Create a route report](/docs/dl?topic=dl-dl-cli#route-report-create-view) - `route-report-create`, `rrc`
    * [Delete a route report](/docs/dl?topic=dl-dl-cli#route-report-delete-view) - `route-report-delete`, `rrd`
    * [List all route reports](/docs/dl?topic=dl-dl-cli#route-report-list-view) - `route-reports`, `rrs`
-
-## 24 September 2021
-{: #dl-sept2422}
-{: release-note}
-
-Bidirectional Forwarding Detection (BFD)
-:    Added the parameters **bfd-interval** and **bfd-multiplier** in [dedicated-gateway-create](/docs/dl?topic=dl-dl-cli#create-dedicated-gateway), [connect-gateway-create](/docs/dl?topic=dl-dl-cli#create-connect-gateway), and [gateway-update](/docs/dl?topic=dl-dl-cli#update-gateway) commands.
-
-More flexibility in configuring BGP values
-:    Added the fields **bgp-asn**, **bgp-cer-cidr**, and **bgp-ibm-cidr** in [gateway-update](/docs/dl?topic=dl-dl-cli#update-gateway) to update BGP values (ASN and IP addresses).
-
-## 30 August 2021
-{: #dl-august3021}
-{: release-note}
-
-Direct Link connection support for transit gateways
-:    Added the **connection** flag to the [dedicated-gateway-create](/docs/dl?topic=dl-dl-cli#create-dedicated-gateway) and [connect-gateway-create](/docs/dl?topic=dl-dl-cli#create-connect-gateway) commands.
-
-## 24 June 2021
-{: #dl-june2421}
-{: release-note}
-
-BGP Message Digest 5 authentication support
-:    Added the **file** option to create a direct link with MD5 authentication key. See the [template](/apidocs/direct_link#create-gateway) to provide the MD5 authentication key.
