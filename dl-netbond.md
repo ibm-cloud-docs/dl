@@ -43,7 +43,7 @@ Follow these steps to request activation and provisioning from AT&T NetBond for 
 
       * **Subject**: ATTN: SNS - DL Connect AT&T NetBond Activation & Provisioning
       * **Description**:
-         * Route this ticket directly to the Special Network Services (SNS) queue for Direct Link Connect implementation with AT&T NetBond.
+         * Route this case directly to the Special Network Services (SNS) queue for Direct Link Connect implementation with AT&T NetBond.
          * Include the NetBond connection service key that was assigned by NetBond (as provided in Step 1).
          * Include the direct link name or service key from the Direct Link page. For example, `0xx43ex3-b8f0-4d52-8b84-x91af2x02yy3`.
 
