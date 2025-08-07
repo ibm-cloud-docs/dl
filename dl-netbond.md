@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020, 2024
-lastupdated: "2024-06-19"
+  years: 2020, 2025
+lastupdated: "2025-08-07"
 
 keywords: direct link
 
@@ -15,9 +15,13 @@ subcollection: dl
 # AT&T NetBond for Cloud ordering considerations
 {: #netbond}
 
-Follow these steps to request a VLAN assignment from AT&T NetBond for Cloud:
+Follow these steps to request activation and provisioning from AT&T NetBond for Cloud:
 
 1. Order the NetBond connect on the AT&T portal.
+
+   AT&T NetBond requires two Direct Link Connect orders, one for the Primary connection and one for the Secondary. To proceed with placing this order, select the appropriate port for either the Primary or Secondary connection.
+
+   ![NetBond ports](images/net-bond-port.png){: caption="NetBond ports" caption-side="bottom"}
 
    NetBond is responsible for making sure that this VLAN is not in use with any NetBond connections within IBM.
    {: note}
@@ -27,7 +31,7 @@ Follow these steps to request a VLAN assignment from AT&T NetBond for Cloud:
    * When defining the IP range to be used for BGP, select **Manual-select IP**.
    * Choose the IP range that you want to use with this gateway.
 
-      Ensure that the range you choose is the range that you specified in the NetBond portal.
+      Ensure that the IP range you select matches the range specified in the AT&T NetBond portal. Additionally, verify that you are using the correct Primary or Secondary subnet corresponding to the port that you have chosen.
       {: note}
 
    * In the BGP ASN field, specify the ASN provided by AT&T.
@@ -37,7 +41,7 @@ Follow these steps to request a VLAN assignment from AT&T NetBond for Cloud:
    * Select the **Direct Link Connect** tile.
    * In the IBM Support case, add the following information:
 
-      * **Subject**: DL Connect manual implementation AT&T NetBond
+      * **Subject**: ATTN: SNS - DL Connect AT&T NetBond Activation & Provisioning
       * **Description**:
          * Route this ticket directly to the Special Network Services (SNS) queue for Direct Link Connect implementation with AT&T NetBond.
          * Include the NetBond connection service key that was assigned by NetBond (as provided in Step 1).
