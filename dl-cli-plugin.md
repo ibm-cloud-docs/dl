@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2025
-lastupdated: "2025-06-17"
+lastupdated: "2025-08-08"
 
 subcollection: dl
 
@@ -735,7 +735,7 @@ ibmcloud dl gateway-change-approve GATEWAY_ID {--file JSON_FILE | [--action Acti
 :   The number of BFD packets not received by a neighbor that causes the originating interface to be declared down. Range [1 - 255]
 
 `--bgp-asn VALUE`
-:   Gateway BGP-ASN. Excluded ASNs: 0, 13884, 36351, 64512, 64513, 65100, 65201‍–‍65234, 65402‍–‍65433, 65500, and 4201065000‍–‍4201065999
+:   Gateway BGP-ASN. Excluded ASNs: 4-byte `4201065000` – `4201065999`
 
 `--bgp-cer-cidr VALUE`
 :   BGP customer edge router CIDR
@@ -795,7 +795,7 @@ ibmcloud dl gateway-change-reject|gwcr GATEWAY_ID [--action Action] [--bgp-asn B
 :   Action request. One of: `gateway-create`, `gateway-delete`, `gateway-attribute-update`.
 
 `--bgp-asn VALUE`
-:   Gateway BGP-ASN. Excluded ASNs: 0, 13884, 36351, 64512, 64513, 65100, 65201‍–‍65234, 65402‍–‍65433, 65500, and 4201065000‍–‍4201065999
+:   Gateway BGP-ASN. Excluded ASNs: 4-byte `4201065000` – `4201065999`
 
 `--bgp-cer-cidr VALUE`
 :   BGP customer edge router CIDR
@@ -1003,7 +1003,7 @@ ibmcloud dl gateway-update GATEWAY_ID {--file JSON_FILE | [--bfd-interval interv
 :   The number of BFD packets not received by a neighbor that causes the originating interface to be declared down. Range [1 - 255]
 
 `--bgp-asn VALUE`
-:   Gateway BGP-ASN. Excluded ASNs: 0, 13884, 36351, 64512, 64513, 65100, 65201‍–‍65234, 65402‍–‍65433, 65500, and 4201065000‍–‍4201065999
+:   Gateway BGP-ASN. Excluded ASNs: 4-byte `4201065000` – `4201065999`
 
 `--bgp-cer-cidr VALUE`
 :   BGP customer edge router CIDR.
