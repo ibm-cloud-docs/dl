@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020, 2024
-lastupdated: "2024-12-18"
+  years: 2020, 2025
+lastupdated: "2025-08-08"
 
 keywords: direct link, direct link connect
 
@@ -89,12 +89,13 @@ To order Direct Link Connect, follow these steps:
       {: important}
 
    * For BGP ASN, use either the default value of `64999` or select an ASN from the specified allowed ranges.
+   
       Allowed ASN ranges are:
-      * For a 2-byte range, enter a value between `1-64495` or the default `64999`.
-      * For a 2-byte or 4-byte range, enter a value between `131072-4199999999`.
+      * For a 2-byte range, enter a value between `1-64495` or the default `64999`. 
       * For a 4-byte range, enter a value between `4201000000-4294967294`.
 
-      Excluded ASNs: `0`, `13884`, `36351`, `64512`, `64513`, `65100`, `65201 – 65234`, `65402 – 65433`, `65500`, `65516`, `65519`, `65521`, `65531`, and `4201065000 – 4201065999`
+      Excluded ASNs: 4-byte `4201065000` – `4201065999`
+
 1. In the Additional BGP settings section, you can activate one or more of these optional settings. Make sure to enable the switch for each section before you configure the settings.
 
    * **Verify data integrity with Message Digest 5 (MD5)** - Add an extra layer of security between two BGP peers by verifying each transmitted message sent through the BGP session. When MD5 authentication is activated, BGP authenticates every segment that is sent over the TCP session from its peer and verifies the source of each routing update.
