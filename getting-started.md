@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2025
-lastupdated: "2025-03-20"
+lastupdated: "2025-08-08"
 
 keywords: direct link, direct link dedicated, direct link connect
 
@@ -20,13 +20,11 @@ Use {{site.data.keyword.dl_short}} to seamlessly connect your on-premises resour
 
 {{site.data.keyword.dl_short}} highlights include:
 
-* Metered billing, which lowers the barrier of entry to {{site.data.keyword.cloud_notm}}
-* Support for connections to multiple {{site.data.keyword.cloud_notm}} accounts from a single direct link
-* Support for multiple VPCs (without classic access) from a single direct link within the same account
-* Support for both local and global routing options
-* Bring Your Own IP (BYOIP) address to create native connectivity between your on-premises environment and {{site.data.keyword.cloud_notm}}
-* Direct Link connections to and from transit gateways.
-* Support for BGP Message Digest 5 (MD5) Authentication and Bidirectional Forwarding Detection (BFD).
+* Free global routing with bring your own IP (BYIOP) support
+* Flexible bandwidth options (1, 2, 5, and 10 Gbps)
+* Integrated support for virtual routing, dynamic path selection, and VPC connectivity
+* Metered billing with no price increase compared to Direct Link on Classic (1.0)
+* Automated ordering experience through API integration with partners
 
 ## {{site.data.keyword.dl_short}} Dedicated
 {: #get-started-with-direct-link-dedicated}
