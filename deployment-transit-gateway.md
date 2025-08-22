@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2025
-lastupdated: "2025-06-17"
+lastupdated: "2025-08-22"
 
 keywords: direct link, planning
 
@@ -60,7 +60,6 @@ Currently, VPC networking doesn't consider the AS path length when selecting the
 
 Keep in mind that AS prepends currently have no effect on the routing between VPCs and direct links.
 {: important}
-
 
 
 ### Examples
