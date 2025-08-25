@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2025
-lastupdated: "2025-07-21"
+lastupdated: "2025-08-25"
 
 keywords: direct link release notes
 
@@ -20,6 +20,8 @@ content-type: release-note
 
 Check back regularly to see what's new with {{site.data.keyword.cloud}} Direct Link.
 {: shortdesc}
+
+
 
 ## 17 June 2025
 {: #dl-june1725}
