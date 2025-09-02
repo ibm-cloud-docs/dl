@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2025
-lastupdated: "2025-06-17"
+lastupdated: "2025-08-26"
 
 keywords: interconnectivity, direct link
 
@@ -66,7 +66,7 @@ For more information, see [Influencing route preference by using AS prepends](/d
 These use cases are best for working with hybrid workloads, cross-provider workloads, large or frequent data transfers, private workloads, and environment administration. Use these use cases:
 
 * When you want quicker connectivity for mission-critical workloads
-* When you need connections between a client network and IBM Cloud at speeds of 100 Gbps or less
+* When you need connections between a client network and IBM Cloud at speeds of 10 Gbps or less
 * When diverse ports in a point of presence (PoP) are available
 
 ### {{site.data.keyword.dl_short}} Connect use case 1: Using service provider networks to virtually reach IBM Cloud
@@ -107,7 +107,7 @@ Cross-connect details:
 
 Port speed options
 
- :    Select 50 Mbps, 100 Mbps[^100], 200 Mbps, 500 Mbps, 1 Gbps, 2 Gbps, 5 Gbps, 10 Gbps, 25 Gbps, 40 Gbps, 50 Gbps, or 100 Gbps.
+ :    Select 50 Mbps, 100 Mbps[^100], 200 Mbps, 500 Mbps, 1 Gbps, 2 Gbps, 5 Gbps, 10 Gbps
 
 [^100]: The 100 Mbps port speed option is not available for Equinix Exchange and Connect direct links.
 
