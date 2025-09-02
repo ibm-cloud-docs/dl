@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2025
-lastupdated: "2025-08-22"
+lastupdated: "2025-09-02"
 
 keywords: direct link, planning
 
@@ -56,20 +56,19 @@ IBM has tested and verified the implementation of Cisco MACsec IEEE 802.1AE for 
 ## Using AS prepends with VPC connections
 {: #as-prepends-routes}
 
-Currently, VPC networking doesn't consider the AS path length when selecting the best route for network traffic. However, you can use a transit gateway between the direct link and VPC in certain topologies to achieve the same outcome. Also, if prefix values are repeated across different AS prepends (of the same policy), the first instance of the prefix value sets the prefix length; the rest are ignored.
+IBM Cloud supports customer-defined AS path prepends for Direct Link. You can influence BGP route selection to prioritize preferred paths and manage failover across hybrid and multicloud environments.
 
-Keep in mind that AS prepends currently have no effect on the routing between VPCs and direct links.
-{: important}
-
+If prefix values are repeated across different AS prepends (within the same policy), the first instance of the prefix value sets the prefix length; the rest are ignored.
+{: note} 
 
 ### Examples
 {: #as-prepend-examples}
 
-The following deployment topologies illustrate various AS Prepend scenarios when connecting to VPCs.
+The following deployment topologies illustrate various AS Prepend scenarios when connecting to VPCs. 
 
-1. VPC chooses a route regardless of the AS path length.
+1. Two Direct Link connections from an on-premises environment provide connectivity to VPC 1 and VPC 2. By applying AS path prepending on one of the Direct Link connections, you can influence BGP to prefer one path over the other for traffic from on-premises to IBM Cloud, supporting active/passive routing or failover scenarios.
 
-   ![AS prepends have no effect on the routing between VPCs and direct links](images/asprepends_1.png){: caption="AS prepends have no effect on the routing between VPCs and direct links." caption-side="bottom"}
+   ![Customer-defined AS path prepending influences BGP route selection](images/asprepends_1.png){: caption="Customer-defined AS path prepending influences BGP route selection" caption-side="bottom"}
 
 1. VPC routes to the transit gateway, then the transit gateway considers the AS path length when choosing the route to on-premises.
 
