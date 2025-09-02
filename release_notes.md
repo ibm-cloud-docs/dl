@@ -21,12 +21,12 @@ content-type: release-note
 Check back regularly to see what's new with {{site.data.keyword.cloud}} Direct Link.
 {: shortdesc}
 
-## 02 September 2025
+### 02 September 2025
 {: vpc-sept0225}
 {: release-note}
 
-Customer-defined AS Path Prepends support
-:    You can now influence BGP route selection in VPC networking using AS path length. Previously, VPC networking ignored AS path length when choosing the best route, which often required you to use a Transit Gateway between Direct Link and VPC in certain topologies to achieve specific routing behavior. Now, you can influence routing by deprioritizing paths, ideal for managing primary and backup Direct Link connections or configuring failover in hybrid and multicloud environments. For more information, see [Using AS Prepends with VPC connections](/docs/dl?topic=dl-dl-planning-considerations#as-prepends-routes).
+Manage BGP route selection in VPC
+:    Previously, VPC didn't honor AS path length when choosing the best route, and this required using a Transit Gateway between Direct Link and VPC in certain topologies to achieve specific routing behavior and high availability. With this enhancement, you can now influence routing decisions by using AS Path length to choose specific paths-ideal for managing primary and backup Direct Link connections or configuring failover in hybrid and multicloud environments. For more information, see [Using AS Prepends with VPC connections](/docs/dl?topic=dl-dl-planning-considerations#as-prepends-routes). 
 
 ## 17 June 2025
 {: #dl-june1725}
