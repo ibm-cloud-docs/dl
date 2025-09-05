@@ -30,19 +30,13 @@ Direct Link allows connectivity to both classic IaaS as well as VPCs, whereas {{
 For more information about the differences between the new {{site.data.keyword.dl_short}} offering and the classic version (Direct Link on Classic), see [How do I know which {{site.data.keyword.dl_short}} solution to order?](/docs/direct-link?topic=direct-link-get-started-with-ibm-cloud-direct-link#get-started-solution-to-order).
 {: tip}
 
-## Direct Link pricing and billing
-{: #pricing-billing}
-{: faq}
-
-See the following FAQs for pricing and billing questions.
-
-### Where do I find cost estimates for Direct Link offerings?
+## Where do I find cost estimates for Direct Link offerings?
 {: #pricing}
 {: faq}
 
 You can estimate the cost of a service using the cost estimator on the provisioning page of Direct Link offerings. For example, log in to the [IBM Cloud Direct Link console](/interconnectivity/direct-link) and click **Order Direct Link**. Then, choose to order **Direct Link Connect** or **Direct Link Dedicated**. You can click the Pricing tab to get cost estimates or, as you complete the ordering form, cost estimates will appear in the Summary side panel.
 
-### In terms of cost, what do I pay for?
+## In terms of cost, what do I pay for?
 {: #cost}
 {: faq}
 
@@ -50,7 +44,7 @@ There are two Direct Link pricing plans: metered and unmetered. Metered has a po
 
 Direct Link pricing does NOT include any additional charges by service providers to enable connectivity to Direct Link.
 
-### What extra charges will I incur from other parties with {{site.data.keyword.dl_short}}?
+## What extra charges will I incur from other parties with {{site.data.keyword.dl_short}}?
 {: #what-additional-charges-will-i-incur-from-other-parties-with-dl}
 {: faq}
 
@@ -58,14 +52,14 @@ You might have extra charges from your provider. See to your carrier or service 
 
 You, the customer, must arrange connectivity and billing with your service providers, independently of Direct Link. Direct Link creates a Letter Of Authorization / Connecting Facility Assignment (LOA/CFA) which is usable by any service provider who can reach the Meet Me Room that is specified on that LOA/CFA. The provider who is connecting to the LOA/CFA must include pricing for the cross-connect in their quote to you. Direct Link does not order cross-connects on behalf of any customer.
 
-### Can I change billing options after my direct link is provisioned?
+## Can I change billing options after my direct link is provisioned?
 {: #switch-billing-options}
 {: faq}
 {: support}
 
 Yes, you can change billing options after a direct link is provisioned, regardless of whether you chose global or local routing. For example, to change from metered to unmetered billing, navigate to the Details page of the direct link and click **Edit**. In the side panel, select **Unmetered** in the Billing section, review the updated information, then agree to the prerequisites and click **Submit**.
 
-### When does billing begin with {{site.data.keyword.dl_short}}?
+## When does billing begin with {{site.data.keyword.dl_short}}?
 {: #when-does-billing-begin-with-dl}
 {: faq}
 
@@ -75,7 +69,7 @@ Infrastructure services are billed in advance and begin upon acceptance of a cli
 
 Billing stops after (1) you request a circuit to be deleted, and (2) the provider has de-provisioned the circuit.
 
-### When are changes to my Direct Link service reflected on my invoice?
+## When are changes to my Direct Link service reflected on my invoice?
 {: #billing-related-charges-on-invoice}
 {: faq}
 
