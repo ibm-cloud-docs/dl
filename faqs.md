@@ -30,11 +30,11 @@ Direct Link allows connectivity to both classic IaaS as well as VPCs, whereas {{
 For more information about the differences between the new {{site.data.keyword.dl_short}} offering and the classic version (Direct Link on Classic), see [How do I know which {{site.data.keyword.dl_short}} solution to order?](/docs/direct-link?topic=direct-link-get-started-with-ibm-cloud-direct-link#get-started-solution-to-order).
 {: tip}
 
-## Direct Link pricing
+## Direct Link pricing and billing
 {: #pricing-billing}
 {: faq}
 
-See the following FAQs for pricing details.
+See the following FAQs for pricing and billing questions.
 
 ### Where do I find cost estimates for Direct Link offerings?
 {: #pricing}
