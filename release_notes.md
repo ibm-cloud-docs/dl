@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2025
-lastupdated: "2025-09-02"
+lastupdated: "2025-09-05"
 
 keywords: direct link release notes
 
@@ -21,8 +21,8 @@ content-type: release-note
 Check back regularly to see what's new with {{site.data.keyword.cloud}} Direct Link.
 {: shortdesc}
 
-### 02 September 2025
-{: vpc-sept0225}
+## 02 September 2025
+{: #dl-sept0225}
 {: release-note}
 
 Manage BGP route selection in VPC
