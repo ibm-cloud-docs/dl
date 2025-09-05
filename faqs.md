@@ -75,7 +75,7 @@ Infrastructure services are billed in advance and begin upon acceptance of a cli
 
 Billing stops after (1) you request a circuit to be deleted, and (2) the provider has de-provisioned the circuit.
 
-## When are changes to my Direct Link service reflected on my invoice?
+### When are changes to my Direct Link service reflected on my invoice?
 {: #billing-related-charges-on-invoice}
 {: faq}
 
