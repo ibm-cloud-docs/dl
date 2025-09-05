@@ -81,7 +81,7 @@ Billing stops after (1) you request a circuit to be deleted, and (2) the provide
 
 Billing-related changes, such as configuration updates that affect your charges, appear on the next month’s invoice if they are made at least 7 days before the end of the current month (by 00:00 UTC). Changes made after that cutoff are reflected in the following month’s bill.
 
-For example, to have a change appear on your October invoice, you must make it before September 24 at 00:00 UTC.
+For example, for a change to appear on your October invoice, it must be made before 24 September at 00:00 UTC.
 
 ## Where can you find metric or usage data?
 {: #where-can-I-find-my-usage-data}
