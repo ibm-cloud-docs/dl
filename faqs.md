@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2025
-lastupdated: "2025-06-17"
+lastupdated: "2025-09-05"
 
 keywords: faqs
 
@@ -74,6 +74,14 @@ The fees for {{site.data.keyword.dl_short}} cover the cost of service terminatio
 Infrastructure services are billed in advance and begin upon acceptance of a client’s order. However, due to the nature of {{site.data.keyword.dl_full_notm}}, the {{site.data.keyword.dl_short}} service billing begins when a BGP session is established with {{site.data.keyword.cloud_notm}}, or 30 days after the order is submitted.
 
 Billing stops after (1) you request a circuit to be deleted, and (2) the provider has de-provisioned the circuit.
+
+## When are changes to my Direct Link service reflected on my invoice?
+{: #billing-related-charges-on-invoice}
+{: faq}
+
+Billing-related changes, such as configuration updates that affect your charges, appear on the next month’s invoice if they are made at least 7 days before the end of the current month (by 00:00 UTC). Changes made after that cutoff are reflected in the following month’s bill.
+
+For example, to have a change appear on your October invoice, you must make it before September 24 at 00:00 UTC.
 
 ## Where can you find metric or usage data?
 {: #where-can-I-find-my-usage-data}
