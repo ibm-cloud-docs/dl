@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020, 2024
-lastupdated: "2024-06-20"
+  years: 2020, 2025
+lastupdated: "2025-10-09"
 
 keywords: direct link, equinix
 
@@ -36,7 +36,7 @@ For Exchange on Classic instructions, see [Steps to order Direct Link Exchange o
     * All direct links ordered from a customer Origin port with a priority set to secondary are provisioned on an IBM destination secondary port.
     * No Destination port selection is required; only the IBM location is selected. The Equinix port mapping is auto-mapped to match the same Origin port priority and Destination port priority.
 
-    If you have any questions or require assistance for setting or changing the Origin port priority, contact Equinix support. For more information, see [Change the Priority of an Equinix Fabric Port](https://docs.equinix.com/en-us/Content/Interconnection/Fabric/ports/Fabric-change-port-priority.htm){: external}.
+    If you have any questions or require assistance for setting or changing the Origin port priority, contact Equinix support. For more information, see [Change the Priority of an Equinix Fabric Port](https://docs.equinix.com/fabric/ports/managing-fabric-ports/){: external}.
 
    ![Select a Port, Location, and Destination](images/equinix-port.png "Select a Port, Location, and Destination"){: caption="Select a Port, Location, and Destination" caption-side="bottom"}
 

@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2023, 2024
-lastupdated: "2024-06-20"
+  years: 2023, 2025
+lastupdated: "2025-10-09"
 
 keywords: direct link, cologix
 
@@ -17,7 +17,7 @@ subcollection: dl
 
 Follow these steps to order Direct Link Connect from Cologix:
 
-1. Log in to the [Cologix portal](https://my.cologix.com) and navigate to the Manage Ports & Connections page.  Then, choose the port to add a Direct Link connection.
+1. Log in to the [Cologix portal](https://inlogix.cologix.com/inlogix/login){: external} and navigate to the Manage Ports & Connections page.  Then, choose the port to add a Direct Link connection.
 
    ![Choose port for Direct Link connection](images/cologix1.png "Choose port for Direct Link connection"){: caption="Choose port for Direct Link connection" caption-side="bottom"}
 1. To add a new connection, select **Cloud Connection**.
