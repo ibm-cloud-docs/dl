@@ -66,7 +66,7 @@ For more information, see [Influencing route preference by using AS prepends](/d
 These use cases are best for working with hybrid workloads, cross-provider workloads, large or frequent data transfers, private workloads, and environment administration. Use these use cases:
 
 * When you want quicker connectivity for mission-critical workloads
-* When you need connections between a client network and IBM Cloud at speeds of 10 Gbps or less
+* When you need connections between a client network and IBM Cloud at speeds of 5 Gbps or less
 * When diverse ports in a point of presence (PoP) are available
 
 ### {{site.data.keyword.dl_short}} Connect use case 1: Using service provider networks to virtually reach IBM Cloud
