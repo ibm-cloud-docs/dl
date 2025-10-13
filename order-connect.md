@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2025
-lastupdated: "2025-08-26"
+lastupdated: "2025-10-13"
 
 keywords: direct link, direct link connect
 
@@ -68,7 +68,7 @@ To order Direct Link Connect, follow these steps:
    * Choose a resource group to create the {{site.data.keyword.dl_short}} connection. Resource groups help manage and contain resources associated with an account. Select **default** if you don't have any other groups that are defined in the menu list. For more information about resource groups, see [Best practices for organizing resources in a resource group](/docs/account?topic=account-account_setup).
 1. In the Gateway section, select a geography, followed by a market, type, site, and routing option. Then, select a provider, connection speed, and port.
 
-   Available speeds are based on your provider's location. {{site.data.keyword.dl_short}} Connect supports the following speeds: 50 Mbps, 100 Mbps, 200 Mbps, 500 Mbps, 1 Gbps, 2 Gbps, 5 Gbps, and 10 Gbps.
+   Available speeds are based on your provider's location. {{site.data.keyword.dl_short}} Connect supports the following speeds: 50 Mbps, 100 Mbps, 200 Mbps, 500 Mbps, 1 Gbps, 2 Gbps, and 5 Gbps.
    {: note}
 
    The routing option that you select determines the reachability of the resources in the selected location. If you select the Global routing option along with your location selections, the Region menu list displays all the regions that are globally available in the specific account. After you select a region, you can select any VPC from the Available connections menu. If you select Local routing, then only the region that corresponds to the selected location is available to select. When selected, the VPCs available in the local region for your account are shown.
