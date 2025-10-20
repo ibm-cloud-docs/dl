@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2025
-lastupdated: "2025-10-13"
+lastupdated: "2025-10-20"
 
 keywords: direct link, direct link connect
 
