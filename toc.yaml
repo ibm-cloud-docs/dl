@@ -61,6 +61,7 @@ toc:
               topics:
               - dl-netbond.md
               - dl-netbond-essentials.md
+              - dl-clink.md
               - dl-cologix-template.md
               - dl-console-connect.md
               - dl-de-cix.md

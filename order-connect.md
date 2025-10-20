@@ -41,6 +41,7 @@ Make sure to review the following information before you order Direct Link Conne
 
 * [AT&T NetBond for Cloud](/docs/dl?topic=dl-netbond)
 * [AT&T NetBond Essentials using Equinix Fabric](/docs/dl?topic=dl-att-netbond-essentials)
+* [CenturyLink Dynamic Connections](/docs/dl?topic=dl-clink)
 * [Cologix](/docs/dl?topic=dl-cologix-instructions)
 * [Console Connect](/docs/dl?topic=dl-console-connect-ordering)
 * [DE-CIX](/docs/dl?topic=dl-de-cix)
