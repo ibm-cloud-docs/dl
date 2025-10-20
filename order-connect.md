@@ -39,7 +39,7 @@ Make sure to review the following information before you order Direct Link Conne
 ## Partner-specific instructions
 {: #instructions-partner}
 
-* [AT&T NetBond for Cloud]
+* [AT&T NetBond for Cloud](/docs/dl?topic=dl-netbond)
 * [AT&T NetBond Essentials using Equinix Fabric](/docs/dl?topic=dl-att-netbond-essentials)
 * [Cologix](/docs/dl?topic=dl-cologix-instructions)
 * [Console Connect](/docs/dl?topic=dl-console-connect-ordering)
