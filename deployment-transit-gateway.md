@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2025
-lastupdated: "2025-09-02"
+lastupdated: "2025-11-20"
 
 keywords: direct link, planning
 
@@ -39,7 +39,7 @@ MACsec sessions are established between your MACsec-capable device and the IBM c
 
 MACsec uses industry-standard MACsec Key Agreement (MKA) for secure key management. It employs hardware-based AES encryption, providing strong security with minimal impact on performance. The encryption ensures data confidentiality and integrity, operating at Layer 2 without the need for changes to higher-layer protocols or applications. IBM also provides guidance for securely rotating CAKs to ensure uninterrupted encryption without impacting traffic.
 
-MACsec is available in select locations where IBM Cloud supports MACsec-capable cross-connect infrastructure. Currently, MACsec for Direct Link Dedicated is available in Dallas, Washington DC, Toronto, and Montreal. 
+MACsec is available in select locations where IBM Cloud supports MACsec-capable cross-connect infrastructure. Currently, MACsec for Direct Link Dedicated is available in Dallas, Toronto, and Montreal. 
 {: attention}
 
 IBM has tested and verified the implementation of Cisco MACsec IEEE 802.1AE for encryption and security at Layer 2. While IBM’s testing has been conducted specifically on Cisco’s MACsec solution, IBM supports other MACsec solutions that implement the IEEE 802.1AE standard. If you encounter any issues or require assistance with a MACsec solution, IBM Support is available to assist. 
