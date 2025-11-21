@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2025
-lastupdated: "2025-09-25"
+lastupdated: "2025-11-21"
 
 keywords: direct link
 
@@ -235,11 +235,11 @@ The following table provides details about the {{site.data.keyword.cloud_notm}} 
 | London 4 | DC | ARK | A103 |
 | London 5 | DC |   |   |
 | London 6 | DC | CyrusOne (Zenium) | LON1 |
-| Madrid 1 | PoP | Equinix | MAD01 |
-| Madrid 2 | DC  | DATA4 Madrid Campus | MAD02 |
-| Madrid 3 | PoP | Digital Realty |  MAD03 |
-| Madrid 4 | DC  | NTT Data Center | MAD04 |
-| Madrid 5 | DC  | Digital Realty | MAD05 | 
+| Madrid 1 | PoP | Equinix | MD1 |
+| Madrid 2 | DC  | DATA4 | MAD01 |
+| Madrid 3 | PoP | Digital Realty |  MAD3 |
+| Madrid 4 | DC  | NTT Data Center | MADRID 1 |
+| Madrid 5 | DC  | Interxion | MAD4 | 
 | Milan 2 | PoP | Infracom Italia | Infracom 21 Via Caldera Way |
 | Paris 1 | DC  | Global Switch Limited | PAR01 |
 | Paris 2 | PoP | Equinix | PA2 |
