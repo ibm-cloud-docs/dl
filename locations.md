@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2025
-lastupdated: "2025-11-21"
+lastupdated: "2025-11-26"
 
 keywords: direct link
 
@@ -239,7 +239,7 @@ The following table provides details about the {{site.data.keyword.cloud_notm}} 
 | Madrid 2 | DC  | DATA4 | MAD01 |
 | Madrid 3 | PoP | Digital Realty |  MAD3 |
 | Madrid 4 | DC  | NTT Data Center | MADRID 1 |
-| Madrid 5 | DC  | Interxion | MAD4 | 
+| Madrid 5 | DC  | Digital Realty | MAD4 | 
 | Milan 2 | PoP | Infracom Italia | Infracom 21 Via Caldera Way |
 | Paris 1 | DC  | Global Switch Limited | PAR01 |
 | Paris 2 | PoP | Equinix | PA2 |
