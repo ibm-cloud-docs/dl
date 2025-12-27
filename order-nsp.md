@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2025
-lastupdated: "2025-08-08"
+lastupdated: "2025-12-27"
 
 keywords: direct link, direct link dedicated, macsec
 
@@ -135,11 +135,9 @@ To order {{site.data.keyword.dl_full}} Dedicated, follow these steps.
       Make sure that any self-provided BGP addresses do not conflict with blocks that are used by IBM, or by resources external to your {{site.data.keyword.dl_short}} deployment. Also, if you plan to use GRE or IPsec tunneling with your direct link, you must select a BGP IP other than `169.254.0.0/16`.
       {: important}
 
-   * For BGP ASN, use either the default value of `64999` or select an ASN from the specified allowed ranges. Allowed ASN ranges are:
-      * For a 2-byte range, enter a value between `1-64495` or the default `64999`. 
-      * For a 4-byte range, enter a value between `4201000000-4294967294`.
+   * For BGP ASN, use either the default value of `64999` or select an ASN from the specified allowed ranges.  
 
-      Excluded ASNs: 4-byte `4201065000` – `4201065999`
+      The router supports public and private ASNs, including both 2-byte and 4-byte values (`1` to `4`,`294,967,294`), except for the following excluded ASNs: `0`, `13884`, `36351`, `64512`, `64513`, `65100`, `65201`–`65234`, `65402`–`65433`, `65500`, `65516`, `65519`, `65521`, `65531`, and `4201065000`–`4201065999`. 
 
 1. In the Additional gateway settings section, you can activate one or more of these optional settings:
 
