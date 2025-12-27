@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2025
-lastupdated: "2025-03-10"
+lastupdated: "2025-12-27"
 
 keywords: direct link
 
@@ -52,7 +52,7 @@ Follow these steps to order an {{site.data.keyword.dl_full}} Connect gateway wit
 
       This is used to link the Megaport Portal and IBM Cloud console. Confirmation for this new connection is sent to the specified account ID in the IBM Cloud console.
 
-   * **Customer ASN** – Your network’s Autonomous System Number. This can be a public or private ASN and the supported ranges are `1` - `64495`, `131072` - `4199999999`, or `4201000000` - `4294967294` (default is `64999`).
+   * **Customer ASN** – Your network’s Autonomous System Number. This can be a public or private ASN, including both 2-byte and 4-byte values (`1` to `4`,`294,967,294`) with the default being `64999`. Excluded ASNs: `0`, `13884`, `36351`, `64512`, `64513`, `65100`, `65201`–`65234`, `65402`–`65433`, `65500`, `65516`, `65519`, `65521`, `65531`, and `4201065000`–`4201065999`.
 
    * **Customer IP Address** (optional) – The IP address space (in CIDR format) you will use on your network for peering. For private connections, this field is optional and if left blank, Megaport assigns a private `/30` address. For public connections, this field is required and needs public IPs (`/30`) allocated by you for BGP connectivity. You must own the public IPs.
 
