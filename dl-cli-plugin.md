@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2025
-lastupdated: "2025-08-08"
+lastupdated: "2025-12-27"
 
 subcollection: dl
 
@@ -334,6 +334,8 @@ ibmcloud dl connect-gateway-create {--file JSON_FILE | GATEWAY_NAME --billing BI
 `--bgp-asn BGP_ASN`
 :   Specify either the default value of `64999`, or select an ASN from allowed ranges. Required.
 
+:   The router supports public and private ASNs, including both 2-byte and 4-byte values (`1` to `4`,`294,967,294`), except for the following excluded ASNs: `0`, `13884`, `36351`, `64512`, `64513`, `65100`, `65201`–`65234`, `65402`–`65433`, `65500`, `65516`, `65519`, `65521`, `65531`, and `4201065000`–`4201065999`. 
+
 `--port-id PORT_ID`
 :   Port ID for the gateway. Required when type is `connect`. Required.
 
@@ -415,6 +417,8 @@ ibmcloud dl dedicated-gateway-create {--file JSON_FILE | GATEWAY_NAME --billing 
 
 `--bgp-asn VALUE`
 :   Specify either the default value of `64999`, or select an ASN from allowed ranges.
+
+:   The router supports public and private ASNs, including both 2-byte and 4-byte values (`1` to `4`,`294,967,294`), except for the following excluded ASNs: `0`, `13884`, `36351`, `64512`, `64513`, `65100`, `65201`–`65234`, `65402`–`65433`, `65500`, `65516`, `65519`, `65521`, `65531`, and `4201065000`–`4201065999`. 
 
 `--bgp-base-cidr BGP_BASE_CIDR`
 :   Specify the BGP Base CIDR.
@@ -847,6 +851,8 @@ ibmcloud dl gateway-create|gwc GATEWAY_NAME --billing BILLING --bgp-asn BGP_ASN 
 
 `--bgp-asn VALUE`
 :   Specify either the default value of `64999`, or select an ASN from allowed ranges.
+
+:   The router supports public and private ASNs, including both 2-byte and 4-byte values (`1` to `4`,`294,967,294`), except for the following excluded ASNs: `0`, `13884`, `36351`, `64512`, `64513`, `65100`, `65201`–`65234`, `65402`–`65433`, `65500`, `65516`, `65519`, `65521`, `65531`, and `4201065000`–`4201065999`. 
 
 `--bgp-base-cidr BGP_BASE_CIDR`
 :   Specify the BGP Base CIDR.
