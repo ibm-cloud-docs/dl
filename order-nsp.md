@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2025
-lastupdated: "2025-12-27"
+lastupdated: "2025-12-31"
 
 keywords: direct link, direct link dedicated, macsec
 
@@ -77,7 +77,7 @@ To order {{site.data.keyword.dl_full}} Dedicated, follow these steps.
 
    1. Configure a primary CAK.
       1. Type a CAK name.
-      1. Choose an HPCS instance for the primary connectivity association key (CAK) key.
+      1. Choose a  HPCS instance for the primary connectivity association key (CAK) key.
       1. Choose a key from HPCS containing the CAK secret.
    1. Optionally, configure a fallback CAK.
       1. Type a CAK name.  

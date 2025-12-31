@@ -2,7 +2,7 @@
 
 copyright:
   years: 2025
-lastupdated: "2025-06-17"
+lastupdated: "2025-12-31"
 
 keywords: direct link, direct link dedicated, macsec
 
@@ -75,7 +75,10 @@ Configure an HPCS instance on IBM Cloud to manage the encryption keys and ensure
    You must configure the same name and key octet string (value) on your switch. Otherwise, the MACsec key negotiation fails.
    {: important}
    
-1. After creating keys for Direct Link, you must use IBM Cloud Identity and Access Management (IAM) to grant authorization between your Hyper Protect Crypto Service (HPCS) instance and the Direct Link service. Due to known limitations, you must grant access at the HPCS instance level, which grants the Direct Link service access to all the keys inside that instance. For instructions, see [Using authorizations to grant access between services](/docs/account?topic=account-serviceauth). The Direct Link service will never access any key besides those used for the MACsec feature.
+1. After creating keys for Direct Link, you must use IBM Cloud Identity and Access Management (IAM) to grant authorization between your HPCS instance and the Direct Link service. For instructions, see [Using authorizations to grant access between services](/docs/account?topic=account-serviceauth). The Direct Link service will never access any key besides those used for the MACsec feature.
+
+   Due to known limitations, if using HPCS, you must grant access at the HPCS instance level, which grants the Direct Link service access to all the keys inside that instance. 
+   {: important}
    
    You should grant access to all keys in the HPCS instance; otherwise, you must grant a new service-to-service authorization each time that you want to use a different key for Direct Link with MACsec. As long as a key is in use by your gateway, it shouldn’t be deleted and the service-to-service authorization must not be revoked.
-   {: note} 
+   {: note}
