@@ -24,7 +24,7 @@ Ensure that your MACsec-capable device is properly configured and supports the r
 
 Work with your network provider to select the appropriate data center or Point of Presence (PoP) and confirm that the necessary infrastructure and network connections are in place to support MACsec. Also, ensure that a key management system is in place for secure key exchange, and assess the performance impact to ensure that the device can handle encryption without affecting network speed.
 
-## Preparing for key exchange
+## Preparing for key exchange with HPCS
 {: #prepare-key-exchange}
    
 Configure an HPCS instance on IBM Cloud to manage the encryption keys and ensure that your device is ready for secure key exchange. To do so, follow these steps:
@@ -77,7 +77,7 @@ Configure an HPCS instance on IBM Cloud to manage the encryption keys and ensure
    
 1. After creating keys for Direct Link, you must use IBM Cloud Identity and Access Management (IAM) to grant authorization between your HPCS instance and the Direct Link service. For instructions, see [Using authorizations to grant access between services](/docs/account?topic=account-serviceauth). The Direct Link service will never access any key besides those used for the MACsec feature.
 
-   Due to known limitations, if using HPCS, you must grant access at the HPCS instance level, which grants the Direct Link service access to all the keys inside that instance. 
+   Due to known limitations, you must grant access at the HPCS instance level, which grants the Direct Link service access to all the keys inside that instance. 
    {: important}
    
    You should grant access to all keys in the HPCS instance; otherwise, you must grant a new service-to-service authorization each time that you want to use a different key for Direct Link Dedicated with MACsec. As long as a key is in use by your gateway, it shouldn’t be deleted and the service-to-service authorization must not be revoked.
