@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020, 2025
-lastupdated: "2025-12-31"
+  years: 2020, 2026
+lastupdated: "2026-01-02"
 
 keywords: direct link, direct link dedicated, macsec
 
@@ -40,7 +40,7 @@ Make sure that you review the following information before you order Direct Link
 * Be sure to consult and familiarize yourself with the [Known issues and limitations](/docs/dl?topic=dl-known-limitations).
 * For Direct Link Dedicated with MACsec feature only:
 
-   * Currently, the Direct Link Dedicated with MACsec feature is offered in select locations, with growing support.
+   * Currently, the Direct Link Dedicated with MACsec feature is offered in Dallas, Toronto, and Montreal.
    * Ensure that you [secure your data in Direct Link](/docs/dl?topic=dl-mng-data&interface=cli).
    * Review [Guidelines and restrictions for Direct Link Dedicated with MACsec](/docs/dl?topic=dl-limitations-macsec).
 
