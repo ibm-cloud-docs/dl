@@ -47,7 +47,7 @@ Make sure that you review the following information before you order Direct Link
 ## Ordering instructions
 {: #instructions-dedicated}
 
-To order {{site.data.keyword.dl_full}} Dedicated, follow these steps.
+[REVIEW]{: tag-green} To order {{site.data.keyword.dl_full}} Dedicated, follow these steps.
 {: shortdesc}
 
 1. In the [{{site.data.keyword.cloud_notm}} console](/login){: external}, click the **Navigation menu** icon ![menu icon](../icons/icon_hamburger.svg), then select **Infrastructure > Network > Direct link**.
@@ -77,12 +77,12 @@ To order {{site.data.keyword.dl_full}} Dedicated, follow these steps.
 
    1. Configure a primary CAK.
       1. Type a CAK name.
-      1. Choose a  HPCS instance for the primary connectivity association key (CAK) key.
+      1. Choose **Hyper Protect Crypto Services** for the primary connectivity association key (CAK) keystore.
       1. Choose a key from HPCS containing the CAK secret.
    1. Optionally, configure a fallback CAK.
       1. Type a CAK name.  
       1. Choose a fallback key instance.
-      1. Choose a key from HPCS containing the CAK secret.
+      1. Select **Hyper Protect Crypto Services** containing the CAK secret.
    
       If you do not have a fallback key, you can set one up after you provision your direct link.
       {: note}
@@ -183,7 +183,7 @@ To order {{site.data.keyword.dl_full}} Dedicated, follow these steps.
 
    Select from the following connection types:
 
-   * Select **Direct resources** (default) to create a direct, private connection between your on-premises network and IBM Cloud deployment. Optionally, choose a connection and enter a connection name. To add multiple network connections to the {{site.data.keyword.dl_short}} gateway, click **Add connection +**. You can create one of the following connections:
+   * Select **Direct resources** (default) to create a direct, private connection between your on-premises network and IBM Cloud deployment. Optionally, choose a connection and enter a connection name. To add multiple network connections to the {{site.data.keyword.dl_short}} gateway, click **Add connection**. You can create one of the following connections:
 
       * **Classic infrastructure** networks allow you to connect to {{site.data.keyword.cloud_notm}} classic resources. Only one classic infrastructure connection is allowed per {{site.data.keyword.dl_short}} gateway.
       * **VPC** networks allow you to connect to your account’s VPC resources.
