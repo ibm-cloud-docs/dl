@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020, 2024
-lastupdated: "2024-06-19"
+  years: 2020, 2026
+lastupdated: "2026-01-02"
 
 keywords: direct link
 
@@ -30,7 +30,7 @@ Make sure to review the following BGP MD5 authentication requirements and consid
 ## Activating BGP MD5 authentication
 {: #dl-enable-md5}
 
-To activate MD5 authentication on a provisioned gateway, follow these steps:
+[REVIEW]{: tag-green} To activate MD5 authentication on a provisioned gateway, follow these steps:
 
 1. [Set up BGP Message Digest 5 (MD5) authentication keys](/docs/dl?topic=dl-dl-md5).
 1. Log in to the [Direct Link console](/interconnectivity/direct-link){: external}, then click the Direct Link name in the table to show its details.
