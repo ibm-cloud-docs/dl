@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021, 2026
-lastupdated: "2026-01-02"
+lastupdated: "2026-01-05"
 
 keywords: direct link
 
@@ -15,7 +15,7 @@ subcollection: dl
 # Setting up BGP Message Digest 5 (MD5) authentication keys
 {: #dl-md5}
 
-[REVIEW]{: tag-green} Border Gateway Protocol (BGP) authentication is an added layer of security that enables routers to share information only if they can verify that they are communicating with a trusted source, based on a key. TCP MD5 authentication between BGP peers verifies each transmitted message sent through the BGP session.
+Border Gateway Protocol (BGP) authentication is an added layer of security that enables routers to share information only if they can verify that they are communicating with a trusted source, based on a key. TCP MD5 authentication between BGP peers verifies each transmitted message sent through the BGP session.
 {: shortdesc}
 
 ## BGP authentication requirements
