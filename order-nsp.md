@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2026
-lastupdated: "2026-01-02"
+lastupdated: "2026-01-05"
 
 keywords: direct link, direct link dedicated, macsec
 
@@ -47,7 +47,7 @@ Make sure that you review the following information before you order Direct Link
 ## Ordering instructions
 {: #instructions-dedicated}
 
-[REVIEW]{: tag-green} To order {{site.data.keyword.dl_full}} Dedicated, follow these steps.
+To order {{site.data.keyword.dl_full}} Dedicated, follow these steps.
 {: shortdesc}
 
 1. In the [{{site.data.keyword.cloud_notm}} console](/login){: external}, click the **Navigation menu** icon ![menu icon](../icons/icon_hamburger.svg), then select **Infrastructure > Network > Direct link**.
