@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020, 2025
-lastupdated: "2025-11-26"
+  years: 2020, 2026
+lastupdated: "2026-01-05"
 
 keywords: direct link
 
@@ -154,7 +154,7 @@ The following table provides details about the {{site.data.keyword.cloud_notm}} 
 | Chicago 1 | PoP | Equinix  | CH4 |
 | Dallas 3 | PoP | Equinix | DA1 |
 | Dallas 4 | PoP | Digital Realty | DFW14 |
-| Dallas 09 | DC |  |  |
+| Dallas 09 | DC | Digital Realty | DFW17 |
 | Dallas 10 | DC | QTS | IRV |
 | Dallas 12 | DC | Digital Realty | DFW18 |
 | Dallas 13 | DC | CyrusOne | Carrollton - Frankford |
