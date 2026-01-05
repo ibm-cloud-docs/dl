@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2021, 2025
-lastupdated: "2025-07-16"
+  years: 2021, 2026
+lastupdated: "2026-01-05"
 
 keywords: direct link
 
@@ -33,9 +33,11 @@ Make sure to adhere to the following BGP MD5 authentication requirements:
 ## Setting up BGP MD5 authentication keys
 {: #setting-up-bgp-md5-keys}
 
-You can store your keys in either Key Protect or Hyper Protect Crypto Services (HPCS). To configure BGP MD5 authentication, follow these steps:
+You can store your keys in either Hyper Protect Crypto Services (HPCS) or Key Protect. To configure BGP MD5 authentication, follow these steps:
 
-1. Set up a keystore instance with keys. For instructions, see [Key Protect: Getting started with encryption keys](/docs/key-protect?topic=key-protect-getting-started-tutorial) or [HPCS: Creating and importing encryption keys](/docs/hs-crypto?topic=hs-crypto-tutorial-import-keys).
+1. Set up a keystore instance with keys. For instructions, choose from the following:
+   * [HPCS: Creating and importing encryption keys](/docs/hs-crypto?topic=hs-crypto-tutorial-import-keys)
+   * [Key Protect: Getting started with encryption keys](/docs/key-protect?topic=key-protect-getting-started-tutorial)
 
    If you use HPCS, it is important to note that the `"extractable": <key_type>` value is set to `true` for standard keys.
    {: note}

@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020, 2025
-lastupdated: "2025-12-27"
+  years: 2020, 2026
+lastupdated: "2026-01-05"
 
 subcollection: dl
 
@@ -738,8 +738,10 @@ ibmcloud dl gateway-change-approve GATEWAY_ID {--file JSON_FILE | [--action Acti
 `--bfd-multiplier VALUE`
 :   The number of BFD packets not received by a neighbor that causes the originating interface to be declared down. Range [1 - 255]
 
-`--bgp-asn VALUE`
-:   Gateway BGP-ASN. Excluded ASNs: 4-byte `4201065000` – `4201065999`
+`--bgp-asn BGP_ASN`
+:   Specify either the default value of `64999`, or select an ASN from allowed ranges. Required.
+
+:   The router supports public and private ASNs, including both 2-byte and 4-byte values (`1` to `4`,`294,967,294`), except for the following excluded ASNs: `0`, `13884`, `36351`, `64512`, `64513`, `65100`, `65201`–`65234`, `65402`–`65433`, `65500`, `65516`, `65519`, `65521`, `65531`, and `4201065000`–`4201065999`. 
 
 `--bgp-cer-cidr VALUE`
 :   BGP customer edge router CIDR
@@ -849,8 +851,8 @@ ibmcloud dl gateway-create|gwc GATEWAY_NAME --billing BILLING --bgp-asn BGP_ASN 
 `--billing VALUE`
 :   Billing of resources (metered | nonmetered). Select metered to charge per gigabyte and nonmetered for flat rate.
 
-`--bgp-asn VALUE`
-:   Specify either the default value of `64999`, or select an ASN from allowed ranges.
+`--bgp-asn BGP_ASN`
+:   Specify either the default value of `64999`, or select an ASN from allowed ranges. Required.
 
 :   The router supports public and private ASNs, including both 2-byte and 4-byte values (`1` to `4`,`294,967,294`), except for the following excluded ASNs: `0`, `13884`, `36351`, `64512`, `64513`, `65100`, `65201`–`65234`, `65402`–`65433`, `65500`, `65516`, `65519`, `65521`, `65531`, and `4201065000`–`4201065999`. 
 
@@ -1008,8 +1010,10 @@ ibmcloud dl gateway-update GATEWAY_ID {--file JSON_FILE | [--bfd-interval interv
 `--bfd-multiplier VALUE`
 :   The number of BFD packets not received by a neighbor that causes the originating interface to be declared down. Range [1 - 255]
 
-`--bgp-asn VALUE`
-:   Gateway BGP-ASN. Excluded ASNs: 4-byte `4201065000` – `4201065999`
+`--bgp-asn BGP_ASN`
+:   Specify either the default value of `64999`, or select an ASN from allowed ranges. Required.
+
+:   The router supports public and private ASNs, including both 2-byte and 4-byte values (`1` to `4`,`294,967,294`), except for the following excluded ASNs: `0`, `13884`, `36351`, `64512`, `64513`, `65100`, `65201`–`65234`, `65402`–`65433`, `65500`, `65516`, `65519`, `65521`, `65531`, and `4201065000`–`4201065999`. 
 
 `--bgp-cer-cidr VALUE`
 :   BGP customer edge router CIDR.

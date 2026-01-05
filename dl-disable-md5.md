@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020, 2024
-lastupdated: "2024-06-19"
+  years: 2020, 2026
+lastupdated: "2026-01-05"
 
 keywords: direct link
 

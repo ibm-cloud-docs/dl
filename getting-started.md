@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020, 2025
-lastupdated: "2025-08-08"
+  years: 2020, 2026
+lastupdated: "2026-01-02"
 
 keywords: direct link, direct link dedicated, direct link connect
 
@@ -26,19 +26,17 @@ Use {{site.data.keyword.dl_short}} to seamlessly connect your on-premises resour
 * Metered billing with no price increase compared to Direct Link on Classic (1.0)
 * Automated ordering experience through API integration with partners
 
-## {{site.data.keyword.dl_short}} Dedicated
-{: #get-started-with-direct-link-dedicated}
-
-Terminate a single-tenant, fiber-based, cross-connect into your own IBM Cloud Private network connection. This offering is also used by colocation facilities that are next to IBM Cloud PoPs and data centers.
-
-To get started with {{site.data.keyword.dl_full_notm}} Dedicated, follow these [instructions](/docs/dl?topic=dl-how-to-order-ibm-cloud-dl-dedicated) for ordering the service. 
-
 ## {{site.data.keyword.dl_short}} Connect
 {: #get-started-with-direct-link-connect}
 
 Use a service provider to quickly establish and deliver connectivity to IBM Cloud locations. These service providers are already connected to the IBM Cloud network that uses multi-tenant, high capacity links (also known as network-to-network interfaces, or NNI).
 
 To get started using {{site.data.keyword.dl_full_notm}} Connect, follow these [instructions](/docs/dl?topic=dl-how-to-order-ibm-cloud-dl-connect) for ordering the service.
+
+## {{site.data.keyword.dl_short}} Dedicated
+{: #get-started-with-direct-link-dedicated}
+
+Terminate a single-tenant, fiber-based, cross-connect into your own IBM Cloud Private network connection. This offering is also used by colocation facilities that are next to IBM Cloud PoPs and data centers. To get started with {{site.data.keyword.dl_full_notm}} Dedicated, follow these [instructions](/docs/dl?topic=dl-how-to-order-ibm-cloud-dl-dedicated) for ordering the service.
 
 ## Learn more
 {: #learn-more}
