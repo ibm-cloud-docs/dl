@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2026
-lastupdated: "2026-01-06"
+lastupdated: "2026-01-07"
 
 subcollection: dl
 
@@ -264,7 +264,7 @@ Alias: `cn`
 Download the completion notice for the gateway in either the current working directory or in an output directory path.
 
 ```sh
-ibmcloud dl completion-notice|cn GATEWAY_ID [--file OUTPUT_DIRECTORY_PATH][--help|-h]
+ibmcloud dl completion-notice GATEWAY_ID [--file OUTPUT_DIRECTORY_PATH][--help|-h]
 ```
 
 ### Command options
@@ -336,7 +336,7 @@ ibmcloud dl connect-gateway-create {--file JSON_FILE | GATEWAY_NAME --billing BI
 `--bgp-asn BGP_ASN`
 :   Specify either the default value of `64999`, or select an ASN from allowed ranges. Required.
 
-:   The router supports public and private ASNs, including both 2-byte and 4-byte values (`1` to `4`,`294,967,294`), except for the following excluded ASNs: `0`, `13884`, `36351`, `64512`, `64513`, `65100`, `65201`–`65234`, `65402`–`65433`, `65500`, `65516`, `65519`, `65521`, `65531`, and `4201065000`–`4201065999`. 
+:   The router supports public and private ASNs, including both 2-byte and 4-byte values (`1` to `4`,`294,967,294`), except for the following excluded ASNs: `0`, `13884`, `36351`, `64512`, `64513`, `65100`, `65201`–`65234`, `65402`–`65433`, `65500`, `65516`, `65519`, `65521`, `65531`, and `4201065000`–`4201065999`.
 
 `--port-id PORT_ID`
 :   Port ID for the gateway. Required when type is `connect`. Required.
@@ -420,7 +420,7 @@ ibmcloud dl dedicated-gateway-create {--file JSON_FILE | GATEWAY_NAME --billing 
 `--bgp-asn VALUE`
 :   Specify either the default value of `64999`, or select an ASN from allowed ranges.
 
-:   The router supports public and private ASNs, including both 2-byte and 4-byte values (`1` to `4`,`294,967,294`), except for the following excluded ASNs: `0`, `13884`, `36351`, `64512`, `64513`, `65100`, `65201`–`65234`, `65402`–`65433`, `65500`, `65516`, `65519`, `65521`, `65531`, and `4201065000`–`4201065999`. 
+:   The router supports public and private ASNs, including both 2-byte and 4-byte values (`1` to `4`,`294,967,294`), except for the following excluded ASNs: `0`, `13884`, `36351`, `64512`, `64513`, `65100`, `65201`–`65234`, `65402`–`65433`, `65500`, `65516`, `65519`, `65521`, `65531`, and `4201065000`–`4201065999`.
 
 `--bgp-base-cidr BGP_BASE_CIDR`
 :   Specify the BGP Base CIDR.
@@ -748,7 +748,7 @@ ibmcloud dl gateway-change-approve GATEWAY_ID {--file JSON_FILE | [--action Acti
 `--bgp-asn BGP_ASN`
 :   Specify either the default value of `64999`, or select an ASN from allowed ranges. Required.
 
-:   The router supports public and private ASNs, including both 2-byte and 4-byte values (`1` to `4`,`294,967,294`), except for the following excluded ASNs: `0`, `13884`, `36351`, `64512`, `64513`, `65100`, `65201`–`65234`, `65402`–`65433`, `65500`, `65516`, `65519`, `65521`, `65531`, and `4201065000`–`4201065999`. 
+:   The router supports public and private ASNs, including both 2-byte and 4-byte values (`1` to `4`,`294,967,294`), except for the following excluded ASNs: `0`, `13884`, `36351`, `64512`, `64513`, `65100`, `65201`–`65234`, `65402`–`65433`, `65500`, `65516`, `65519`, `65521`, `65531`, and `4201065000`–`4201065999`.
 
 `--bgp-cer-cidr VALUE`
 :   BGP customer edge router CIDR
@@ -865,7 +865,7 @@ ibmcloud dl gateway-create GATEWAY_NAME --billing BILLING --bgp-asn BGP_ASN  --b
 `--bgp-asn BGP_ASN`
 :   Specify either the default value of `64999`, or select an ASN from allowed ranges. Required.
 
-:   The router supports public and private ASNs, including both 2-byte and 4-byte values (`1` to `4`,`294,967,294`), except for the following excluded ASNs: `0`, `13884`, `36351`, `64512`, `64513`, `65100`, `65201`–`65234`, `65402`–`65433`, `65500`, `65516`, `65519`, `65521`, `65531`, and `4201065000`–`4201065999`. 
+:   The router supports public and private ASNs, including both 2-byte and 4-byte values (`1` to `4`,`294,967,294`), except for the following excluded ASNs: `0`, `13884`, `36351`, `64512`, `64513`, `65100`, `65201`–`65234`, `65402`–`65433`, `65500`, `65516`, `65519`, `65521`, `65531`, and `4201065000`–`4201065999`.
 
 `--bgp-base-cidr BGP_BASE_CIDR`
 :   Specify the BGP Base CIDR.
@@ -1028,7 +1028,7 @@ ibmcloud dl gateway-update GATEWAY_ID {--file JSON_FILE | [--bfd-interval interv
 `--bgp-asn BGP_ASN`
 :   Specify either the default value of `64999`, or select an ASN from allowed ranges. Required.
 
-:   The router supports public and private ASNs, including both 2-byte and 4-byte values (`1` to `4`,`294,967,294`), except for the following excluded ASNs: `0`, `13884`, `36351`, `64512`, `64513`, `65100`, `65201`–`65234`, `65402`–`65433`, `65500`, `65516`, `65519`, `65521`, `65531`, and `4201065000`–`4201065999`. 
+:   The router supports public and private ASNs, including both 2-byte and 4-byte values (`1` to `4`,`294,967,294`), except for the following excluded ASNs: `0`, `13884`, `36351`, `64512`, `64513`, `65100`, `65201`–`65234`, `65402`–`65433`, `65500`, `65516`, `65519`, `65521`, `65531`, and `4201065000`–`4201065999`.
 
 `--bgp-cer-cidr VALUE`
 :   BGP customer edge router CIDR.
@@ -1170,7 +1170,7 @@ Alias: `irfc`
 Create an import route filter.
 
 ```sh
-ibmcloud dl import-route-filter-create|irfc GATEWAY_ID --action ACTION --prefix PREFIX [--before BEFORE] [--ge GE] [--le LE] [-–help|-h] [--output FORMAT]
+ibmcloud dl import-route-filter-create GATEWAY_ID --action ACTION --prefix PREFIX [--before BEFORE] [--ge GE] [--le LE] [-–help|-h] [--output FORMAT]
 ```
 
 ### Command options
@@ -1493,10 +1493,12 @@ ibmcloud dl macsec-unset GATEWAY_ID [--force] [-–help|-h] [--output FORMAT]
 ## `ibmcloud dl macsec-update`
 {: #macsec-update}
 
+Alias: `macu`
+
 Update the MACsec configuration.
 
 ```sh
-ibmcloud dl macsec-update|macu GATEWAY_ID [--active true|false] [--sakrekey-mode MODE] [--sakrekey-interval INTERVAL] [--security-policy POLICY] [--window-size SIZE] [-–help|-h] [--output FORMAT]
+ibmcloud dl macsec-update GATEWAY_ID [--active true|false] [--sakrekey-mode MODE] [--sakrekey-interval INTERVAL] [--security-policy POLICY] [--window-size SIZE] [-–help|-h] [--output FORMAT]
 ```
 
 ### Command options
