@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2023, 2024
-lastupdated: "2024-07-18"
+  years: 2023, 2026
+lastupdated: "2026-01-14"
 
 keywords: direct link
 
@@ -25,7 +25,7 @@ Before you configure a route filter, review the following information:
 
 * The prefix must be an IPv4 subnet CIDR indicating both the address and mask length.
 * [Route filtering examples](/docs/dl?topic=dl-route-filtering-examples&interface=ui)
-* You can configure a maximum of 15 import/export route filters per direct link. To increase this quota for Direct Link Connect or Direct Link Dedicated, [contact IBM Support](/unifiedsupport/cases/form){: external}.
+* You can configure a maximum of 15 import/export route filters per direct link.
 
 ## Configuring route filters in the UI
 {: #configure-route-filters-ui}
