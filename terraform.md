@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2021, 2024
-lastupdated: "2024-07-16"
+  years: 2021, 2026
+lastupdated: "2026-01-15"
 
 keywords: direct link, terraform
 
@@ -24,12 +24,14 @@ Looking for a managed Terraform on {{site.data.keyword.cloud}} solution? Try out
 ## Installing Terraform and configuring resources for Direct Link
 {: #install-terraform}
 
-Before you begin, make sure that you have the [required access](/docs/dl?topic=dl-iam) to create and work with Direct Link resources.
+Before you can create an authorization by using Terraform, make sure that you have completed the following:
 
-1. Follow the [Terraform on {{site.data.keyword.cloud}} getting started tutorial](/docs/ibm-cloud-provider-for-terraform?topic=ibm-cloud-provider-for-terraform-getting-started) to install the Terraform CLI and configure the {{site.data.keyword.cloud}} Provider plug-in for Terraform. The plug-in abstracts the {{site.data.keyword.cloud}} APIs that are used to provision, update, or delete Direct Link service instances and resources.
-1. Create a Terraform configuration file that is named `main.tf`. In this file, you add the configuration to create a Direct Link service instance and to assign a user an IAM access policy for that instance. For more information, see the [Terraform documentation](https://developer.hashicorp.com/terraform/language){: external}.
+* Make sure that you have the [required access](/docs/dl?topic=dl-iam) to create and work with Direct Link resources.
+* Install the Terraform CLI and configure the {{site.data.keyword.cloud_notm}} Provider plug-in for Terraform. For more information, see the tutorial for [Getting started with Terraform on {{site.data.keyword.cloud}}](/docs/ibm-cloud-provider-for-terraform?topic=ibm-cloud-provider-for-terraform-getting-started). The plug-in abstracts the {{site.data.keyword.cloud_notm}} APIs that are used to complete this task.
+* Create a Terraform configuration file that is named `main.tf`. In this file, you add the configuration to create an authorization between services by using HashiCorp Configuration Language. For more information, see the [Terraform documentation](https://developer.hashicorp.com/terraform/language){: external}.
 
-   The Direct Link resource in the following example is named `test_dl_routers` and is created as a Dedicated gateway in the `dal10` location.
+1. In your Terraform configuration file, find the Terraform code that you used to create the Direct Link instance.
+1. Create a Direct Link instance by using the `ibm_resource_instance` resource argument in your `main.tf` file. The Direct Link zone in the following example is named `Gateway1`. The Direct Link resource in the following example is named `test_dl_routers` and is created as a dedicated gateway in the `dal10` location.
 
    For more information about arguments and attributes, see the [`ibm_dl_gateway`](https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs/resources/dl_gateway){: external} usage example.
    {: note}
@@ -57,27 +59,34 @@ Before you begin, make sure that you have the [required access](/docs/dl?topic=d
    ```
    {: codeblock}
 
-1. Initialize the Terraform CLI.
+1. After you finish building your configuration file, initialize the Terraform CLI. For more information, see [Initializing Working Directories](https://developer.hashicorp.com/terraform/cli/init){: external}.
 
    ```terraform
    terraform init
    ```
    {: pre}
 
-1. Create a Terraform execution plan. The Terraform execution plan summarizes all the actions that need to be run to create the Direct Link instance in your account.
+1. Provision the resources from the `main.tf` file. For more information, see [Provisioning Infrastructure with Terraform](https://developer.hashicorp.com/terraform/cli/run){: external}.
 
-   ```terraform
-   terraform plan
-   ```
-   {: pre}
+   1. Run `terraform plan` to generate a Terraform execution plan to preview the proposed actions.
 
-1. Create the Direct Link instance and IAM access policy in {{site.data.keyword.cloud_notm}}.
+      ```terraform
+      terraform plan
+      ```
+      {: pre}
 
-   ```terraform
-   terraform apply
-   ```
-   {: pre}
+   1. Run `terraform apply` to create the resources that are defined in the plan.
+
+      ```terraform
+      terraform apply
+      ```
+      {: pre}
 
 1. From the [{{site.data.keyword.cloud_notm}} resource list](/resources){: external}, select the Direct Link instance that you created and note the instance ID.
 
 1. Verify that the access policy is successfully assigned. For more information, see [Reviewing assigned access in the console](/docs/account?topic=account-assign-access-resources&interface=ui#review-your-access-console).
+
+## What's next?
+{: #terraform-setup-next}
+
+Now that you successfully created your first Direct Link service instance with Terraform on {{site.data.keyword.cloud_notm}}, you can visit the Direct Link [Direct Link Terraform registry](https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs/resources/dl_gateway){: external} to perform additional tasks using Terraform.
