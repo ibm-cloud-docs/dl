@@ -54,9 +54,9 @@ Follow these steps to order an {{site.data.keyword.dl_full}} Connect gateway wit
 
    * **Customer ASN** – Your network’s Autonomous System Number. This can be a public or private ASN, including both 2-byte and 4-byte values (`1` to `4`,`294,967,294`) with the default being `64999`. Excluded ASNs: `0`, `13884`, `36351`, `64512`, `64513`, `65100`, `65201`–`65234`, `65402`–`65433`, `65500`, `65516`, `65519`, `65521`, `65531`, and `4201065000`–`4201065999`.
 
-   * **Customer IP Address** (optional) – The IP address space (in CIDR format) you will use on your network for peering. For private connections, this field is optional and if left blank, Megaport assigns a private `/30` address. For public connections, this field is required and needs public IPs (`/30`) allocated by you for BGP connectivity. You must own the public IPs.
+   * **Customer IP Address** (optional) – The IP address space (in CIDR format) you will use on your network for peering. For private connections, this field is optional and if left blank, Megaport assigns a private `/30` address. For public connections, this field is required and needs public IPs (`/30`) allocated by you for BGP connectivity. You must own the public IPs. Private ranges supported are 10.254/16, 172.16/12, 192.168/16 and 169.254/16.
 
-   * **Provider IP Address** (optional) – The IP address space in CIDR format assigned in the IBM network for peering. This field is optional and if left blank, Megaport automatically assigns a private `/30` address.
+   * **Provider IP Address** (optional) – The IP address space in CIDR format assigned in the IBM network for peering. This field is optional and if left blank, Megaport automatically assigns a private `/30` address. if specifying a range this must be the other useable IP in the rangespecified for Customer IP. 
 
    ![Connection details for IBM Cloud Service](images/megaport4.png "Connection details for IBM Cloud Service"){: caption="Connection details for IBM Cloud Service" caption-side="bottom"}
 
