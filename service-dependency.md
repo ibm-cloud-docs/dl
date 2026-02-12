@@ -2,17 +2,13 @@
 
 copyright:
   years: 2024, 2026
-lastupdated: "2026-02-11"
+lastupdated: "2026-02-12"
 
 keywords:
 
 subcollection: dl
 
-
 ---
-
-
-
 
 {{site.data.keyword.attribute-definition-list}}
 
@@ -116,22 +112,9 @@ The following dependencies apply to the following deployment locations: Dallas (
 {: #significant-deps-control-plane-deployment}
 {: summary="Use the buttons for the dependency level to change the context of the table. This table has row and column headers. The row headers detail the specific dependent service. The column headers identify the details about the dependency and its impact. To understand the details about each dependency, navigate to the row to find the dependency that you need more information about interested in."}
 
-|Dependencies|Dependency impacts|Customer provided|Control or data plane|Location of dependency|
-|:---|:---|:---|:---|:---|
-| {{site.data.keyword.atracker_full}}| Security compliance | No | control-plane |  Same region  |
-{: row-headers}
-{: caption="IBM Cloud Direct Link Services - Control plane deployment service dependency information - Minimal dependencies" caption-side="top"}
-{: tab-title="Minimal dependencies"}
-{: tab-group="service-dependency-data-for-directlink-Control-plane-deployment"}
-{: class="comparison-tab-table"}
-{: #minimal-deps-control-plane-deployment}
-{: summary="Use the buttons for the dependency level to change the context of the table. This table has row and column headers. The row headers detail the specific dependent service. The column headers identify the details about the dependency and its impact. To understand the details about each dependency, navigate to the row to find the dependency that you need more information about interested in."}
-
 
 ## Understanding service dependency data
 {: #understand-dependency-data}
-
-
 
 If you have any questions about the service dependency data as you review the service dependency information in the tables, you can refer to the following FAQ:
 
