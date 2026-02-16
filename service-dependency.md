@@ -1,17 +1,14 @@
 ---
 
 copyright:
-  years: 2024, 2025
-lastupdated: "2025-12-27"
+  years: 2024, 2026
+lastupdated: "2026-02-12"
 
 keywords:
 
 subcollection: dl
 
 ---
-
-
-
 
 {{site.data.keyword.attribute-definition-list}}
 

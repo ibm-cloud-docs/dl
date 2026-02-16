@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2026
-lastupdated: "2026-01-15"
+lastupdated: "2026-02-16"
 
 keywords: direct link
 
@@ -35,7 +35,6 @@ The following table lists {{site.data.keyword.dl_short}} Connect service provide
 | British Telecom | **Americas**: São Paulo 1  \n **EU**: Frankfurt 1, Frankfurt 3, London 1, London 3 | ![Checkmark icon](../icons/checkmark-icon.svg) |
 | Chief Telecom | **APAC**: Hong Kong 1, Hong Kong 3, Taipei 1 | |
 | China Unicom | **Americas**: San Jose 2  \n **APAC**: Hong Kong 3  \n  **EU**: Frankfurt 3 | |
-| Cloudflare | **Americas**: Dallas 3, Los Angeles 1, Washington DC 2| |
 | Cologix | **Americas**: Chicago 1, Montreal 2, Toronto 2, Washington DC 2 |  ![Checkmark icon](../icons/checkmark-icon.svg) |
 | Colt | **Americas**: San Jose 2, Washington DC 2  \n **APAC**: Hong Kong 3, Tokyo 1, Tokyo 3  \n **EU**: Amsterdam 2, Frankfurt 1, Frankfurt 3, London 1, London 3, Paris 2, Paris 3 | |
 | Console Connect | **Americas**: Chicago 1, Dallas 3, San Jose 2  \n **APAC**: Hong Kong 1,Tokyo 1  \n **EU**: London 1 | ![Checkmark icon](../icons/checkmark-icon.svg) |
@@ -80,7 +79,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect service provide
 | Amsterdam 2 | BlueFringe  \n  Colt  \n Epsilon  \n Equinix  \n Intercloud  \n Megaport  \n nextGen GNPP  \n Verizon SCI |
 | Chennai 1 | BlueFringe  \n TATA |
 | Chicago 1 | Cologix  \n Console Connect  \n Equinix  \n Megaport |
-| Dallas 3 |  AT&T Cloud Gateway  \n AT&T NetBond for Cloud  \n Axtel  \n BlueFringe  \n Cloudflare  \n Console Connect  \n Equinix  \n Level3  \n Lumen  \n Neutrona  \n Orange Business Systems  \n Telia  \n  Verizon SCI  \n Zayo |
+| Dallas 3 |  AT&T Cloud Gateway  \n AT&T NetBond for Cloud  \n Axtel  \n BlueFringe  \n Console Connect  \n Equinix  \n Level3  \n Lumen  \n Neutrona  \n Orange Business Systems  \n Telia  \n  Verizon SCI  \n Zayo |
 | Dallas 4 |  PacketFabric  \n Megaport |
 | Dallas 8 | AT&T NetBond for Cloud |
 | Dallas 10 | DE-CIX  \n IBM Power Virtual Server |
@@ -97,7 +96,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect service provide
 | London 3 | British Telecom  \n Colt  \n Equinix  \n IX Reach  \n Lumen  \n Megaport  \n nextGen GNPP  \n Orange Business Services  \n Vodafone |
 | London 4 | IBM Power Virtual Server  \n nextGen GNPP  |
 | London 6 | IBM Power Virtual Server |
-| Los Angeles 1 | Cloudflare  \n Coresite |
+| Los Angeles 1 | Coresite |
 | Madrid 1 | Equinix |
 | Madrid 3| Digital Realty |
 | Melbourne 2 | Megaport  \n NextDC | 
@@ -110,7 +109,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect service provide
 | Osaka 21 |IBM Power Virtual Server |
 | Paris 2 | Colt  \n Equinix  \n Lumen  \n Megaport  \n Orange Business Services |
 | Paris 3 | Colt  \n Equinix |
-| San Jose 2 | AT&T NetBond for Cloud (no diversity, on same XCR) \n China Unicom  \n Cloudflare  \n Colt  \n Console Connect  \n Equinix  \n Lumen  \n Megaport  \n PacketFabric  \n Verizon SCI |
+| San Jose 2 | AT&T NetBond for Cloud (no diversity, on same XCR) \n China Unicom  \n Colt  \n Console Connect  \n Equinix  \n Lumen  \n Megaport  \n PacketFabric  \n Verizon SCI |
 | São Paulo 1 | Ascenty, a Digital Realty Company  \n British Telecom  \n IBM Power Virtual Server |
 | São Paulo 2 | Ascenty, a Digital Realty Company  \n  Equinix  \n Level3  \n Neutrona |
 | São Paulo 5 | Ascenty, a Digital Realty Company |
@@ -129,7 +128,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect service provide
 | Toronto 1 | IBM Power Virtual Server |
 | Toronto 2 | Cologix  \n Equinix  \n Lumen  \n Megaport  \n Zayo |
 | Toronto 3 | Equinix |
-| Washington DC 2 |  AT&T NetBond for Cloud  \n BlueFringe  \n Cloudflare  \n Cologix  \n Colt  \n Epsilon  \n Equinix  \n IXReach  \n Lumen  \n Megaport  \n Neutrona  \n nextGen GNPP  \n PacketFabric  \n SES Networks  \n Telia  \n Verizon SCI  \n Zayo |
+| Washington DC 2 |  AT&T NetBond for Cloud  \n BlueFringe  \n Cologix  \n Colt  \n Epsilon  \n Equinix  \n IXReach  \n Lumen  \n Megaport  \n Neutrona  \n nextGen GNPP  \n PacketFabric  \n SES Networks  \n Telia  \n Verizon SCI  \n Zayo |
 | Washington DC 3 | AT&T NetBond for Cloud |
 | Washington DC 4 | Anthem  \n Digital Realty  \n IBM Power Virtual Server |
 | Washington DC 5 | Coresite |
