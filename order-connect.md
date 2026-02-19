@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020, 2025
-lastupdated: "2025-12-27"
+  years: 2020, 2026
+lastupdated: "2026-02-19"
 
 keywords: direct link, direct link connect
 
@@ -57,7 +57,7 @@ Make sure to review the following information before you order Direct Link Conne
 To order Direct Link Connect, follow these steps:
 
 1. Log in to your [IBM Cloud account](/login){: external}.
-1. Click Menu ![Menu icon](images/menu_icon.png) on the upper left of the page, then click **Infrastructure** > **Network** > **Direct Link**.
+1. Select the **Navigation menu** ![Menu icon](../icons/icon_hamburger.svg), then click **Infrastructure** ![VPC icon](../../icons/vpc.svg) > **Network** > **Direct link**.
 1. Click **Order Direct Link**, then click the **Direct Link Connect** tile to open the provisioning page.
 
    Alternatively, you can click **Direct Link** on the left navigation pane to view the Direct Link page, which lists existing Direct Link instances. Then, click **Order Direct Link** > **Direct Link Connect**.
@@ -90,8 +90,8 @@ To order Direct Link Connect, follow these steps:
       {: important}
 
    * For BGP ASN, use either the default value of `64999` or select an ASN from the specified allowed ranges.
-   
-      The router supports public and private ASNs, including both 2-byte and 4-byte values (`1` to `4`,`294,967,294`), except for the following excluded ASNs: `0`, `13884`, `36351`, `64512`, `64513`, `65100`, `65201`–`65234`, `65402`–`65433`, `65500`, `65516`, `65519`, `65521`, `65531`, and `4201065000`–`4201065999`. 
+
+      The router supports public and private ASNs, including both 2-byte and 4-byte values (`1` to `4`,`294,967,294`), except for the following excluded ASNs: `0`, `13884`, `36351`, `64512`, `64513`, `65100`, `65201`–`65234`, `65402`–`65433`, `65500`, `65516`, `65519`, `65521`, `65531`, and `4201065000`–`4201065999`.
 
 1. In the Additional BGP settings section, you can activate one or more of these optional settings. Make sure to enable the switch for each section before you configure the settings.
 
