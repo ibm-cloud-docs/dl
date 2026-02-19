@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2023, 2024
-lastupdated: "2024-12-18"
+  years: 2023, 2026
+lastupdated: "2026-02-19"
 
 keywords: direct link
 
@@ -41,7 +41,7 @@ Follow these steps to order Direct Link Connect from Digital Realty:
 
    On the ServiceFabric dashboard, the Active Services window shows the new service status as **Creating**.
 
-1. Log in to your [IBM Cloud account](/login){: external}. Click Menu ![Menu icon](images/menu_icon.png) on the upper left of the page, then click **Infrastructure** > **Network** > **Direct Link**.
+1. Log in to your [IBM Cloud account](/login){: external}. Select the **Navigation menu** ![Menu icon](../icons/icon_hamburger.svg), then click **Infrastructure** ![VPC icon](../../icons/vpc.svg) > **Network** > **Direct link**.
 1. Scroll to locate the Connect tile, then click **Order {{site.data.keyword.dl_short}} Connect**.
 1. In the Direct Link table, click the new service name, then select **Review** in the Actions section.
 

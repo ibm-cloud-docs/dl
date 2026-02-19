@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020, 2025
-lastupdated: "2025-04-21"
+  years: 2020, 2026
+lastupdated: "2026-02-19"
 
 keywords: direct link
 
@@ -23,14 +23,14 @@ You can add a virtual connection when you create a direct link, or after the gat
 **Important:**
 
 * Make sure that you have no IP address conflicts between on-premises subnets and subnets on IBM Cloud for both VPC and classic infrastructure connections.
-* If you selected Transit Gateway as your network connection type, you cannot add another connection to your direct link. 
+* If you selected Transit Gateway as your network connection type, you cannot add another connection to your direct link.
 
    Keep in mind that classic routes are not blocked. For more information, see [Preparing for Direct Link changes to advertised service network routes](/docs/dl?topic=dl-notification-dl-tgw).
    {: important}
 
 To add a connection to a provisioned gateway, follow these steps:
 
-1. In the table row of the gateway where you want to add a connection, click **Add connection** from the Actions ![Actions menu](images/overflow.png) menu. Alternatively, you can click the Direct Link name in the table and click **Add connection** in the Virtual connections section on the gateway's details page.
+1. In the table row of the gateway where you want to add a connection, click **Add connection** from the Actions ![Actions menu](../icons/action-menu-icon.svg) menu. Alternatively, you can click the Direct Link name in the table and click **Add connection** in the Virtual connections section on the gateway's details page.
 
    You can create a connection to the logged-in account, or request a connection to a network within another account.
    {: note}
