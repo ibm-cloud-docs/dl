@@ -46,20 +46,6 @@ Allows customers to end a single-tenant, fiber-based cross-connect into the {{si
 You can now enable MACsec when ordering IBM Cloud Direct Link Dedicated to secure Ethernet connections between your on-premises network and IBM Cloud. For more information, see [Planning for the Direct Link MACsec feature](/docs/dl?topic=dl-dl-planning-considerations#macsec-feature-dedicated).
 {: note}
 
-## Using AS prepends to influence route preference
-{: #use-case-1}
-
-This use case pertains to both Direct Link Connect and Direct Link Dedicated offerings.
-{: note}
-
-Adding one or more autonomous system (AS) numbers at the beginning of an AS path is called _AS prepending_. You can use this technique to make a route less preferable to the BGP router by increasing the length of the AS path. For example, you might want route redundancy, but don't want traffic going through both routes at the same time.
-
-Assuming that all other criteria are equal, the prefix of the AS prepend matches with routes and lengthens the AS path to the destination. This action results in a less priority route compared to one without AS prepends to the same destination. Take the following use case, for example. Suppose that you want your East site to prefer Path A through IBM PoP East when traffic is sent to `10.80.0.0/28`. To de-prioritize Path B, the BGP Autonomous System Number (ASN) of `12345` is prepended to the route (`12345 12345 12345 4040 286 I`).
-
-![Influencing route priority by using AS prepends](images/as-prepends.png){: caption="Influencing route priority using AS prepends" caption-side="bottom"}
-
-For more information, see [Influencing route preference by using AS prepends](/docs/dl?topic=dl-models-for-diversity-and-redundancy-in-direct-link#dl-bgp-path-selection) and [Using AS prepends with VPN connections](/docs/dl?topic=dl-dl-planning-considerations&interface=ui#as-prepends-routes).
-
 ## Direct Link Connect use cases
 {: #connect-use-cases}
 
@@ -189,6 +175,20 @@ Redundancy:
 Local and global routing options:
 
  :    The local routing option is the default routing option. It provides access to data centers within the same market as the {{site.data.keyword.dl_short}} PoP (denoted, for example, as DAL, AMS, or MEL). The global routing option is required as an add-on to connect your {{site.data.keyword.cloud_notm}} resources to other {{site.data.keyword.cloud_notm}} resources in data centers outside the local market. It provides a way to share workloads between {{site.data.keyword.cloud_notm}} resources (for example, Dallas to Ashburn, or Dallas to Frankfurt).
+
+## Using AS prepends to influence route preference
+{: #use-case-1}
+
+This use case pertains to both Direct Link Connect and Direct Link Dedicated offerings.
+{: note}
+
+Adding one or more autonomous system (AS) numbers at the beginning of an AS path is called _AS prepending_. You can use this technique to make a route less preferable to the BGP router by increasing the length of the AS path. For example, you might want route redundancy, but don't want traffic going through both routes at the same time.
+
+Assuming that all other criteria are equal, the prefix of the AS prepend matches with routes and lengthens the AS path to the destination. This action results in a less priority route compared to one without AS prepends to the same destination. Take the following use case, for example. Suppose that you want your East site to prefer Path A through IBM PoP East when traffic is sent to `10.80.0.0/28`. To de-prioritize Path B, the BGP Autonomous System Number (ASN) of `12345` is prepended to the route (`12345 12345 12345 4040 286 I`).
+
+![Influencing route priority by using AS prepends](images/as-prepends.png){: caption="Influencing route priority using AS prepends" caption-side="bottom"}
+
+For more information, see [Influencing route preference by using AS prepends](/docs/dl?topic=dl-models-for-diversity-and-redundancy-in-direct-link#dl-bgp-path-selection) and [Using AS prepends with VPN connections](/docs/dl?topic=dl-dl-planning-considerations&interface=ui#as-prepends-routes).
 
  ## Infrastructure terminology
  {: #infrastructure-terminology}
