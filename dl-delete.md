@@ -59,7 +59,7 @@ To delete a direct link and its associated virtual connections from the CLI, fol
 1. Delete each virtual connection:
 
    ```sh
-   ibmcloud dl vc-delete VC_ID
+   ibmcloud dl virtual-connection-delete VIRTUAL_CONNECTION_ID
    ```
    {: pre}
 
