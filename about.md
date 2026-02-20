@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020, 2025
-lastupdated: "2025-10-13"
+  years: 2020, 2026
+lastupdated: "2026-02-19"
 
 keywords: interconnectivity, direct link
 
@@ -15,7 +15,7 @@ subcollection: dl
 # About {{site.data.keyword.dl_full_notm}}
 {: #dl-about}
 
-{{site.data.keyword.dl_full}} offerings provide connectivity from an external source into a customer's {{site.data.keyword.cloud_notm}} private network. {{site.data.keyword.dl_short}} can be viewed as an alternative to a traditional site-to-site VPN solution, which is designed for customers that need more consistent, higher-throughput connectivity between a remote network and their {{site.data.keyword.cloud_notm}} environments.
+{{site.data.keyword.dl_full}} provide connectivity from an external source into a customer's {{site.data.keyword.cloud_notm}} private network. {{site.data.keyword.dl_short}} can be viewed as an alternative to a traditional site-to-site VPN solution, which is designed for customers that need more consistent, higher-throughput connectivity between a remote network and their {{site.data.keyword.cloud_notm}} environments.
 {: shortdesc}
 
 The {{site.data.keyword.dl_full_notm}} service is a routed, OSI Layer-3 service. It offers a direct connection to the {{site.data.keyword.cloud_notm}} private network backbone, with low latency and speeds up to 10 Gbps.
@@ -41,24 +41,10 @@ Provides private access to the IBM Cloud infrastructure and any other clouds tha
 ### {{site.data.keyword.dl_short}} Dedicated
 {: #ibm-cloud-dedicated}
 
-Allows customers to end a single-tenant, fiber-based cross-connect into the {{site.data.keyword.cloud_notm}} network. Customers with colocation premises that are next to {{site.data.keyword.cloud_notm}} PoPs and data centers can use this offering. Network service providers that deliver circuits to customers' on-premises or other data centers can also use this offering. 
+Allows customers to end a single-tenant, fiber-based cross-connect into the {{site.data.keyword.cloud_notm}} network. Customers with colocation premises that are next to {{site.data.keyword.cloud_notm}} PoPs and data centers can use this offering. Network service providers that deliver circuits to customers' on-premises or other data centers can also use this offering.
 
 You can now enable MACsec when ordering IBM Cloud Direct Link Dedicated to secure Ethernet connections between your on-premises network and IBM Cloud. For more information, see [Planning for the Direct Link MACsec feature](/docs/dl?topic=dl-dl-planning-considerations#macsec-feature-dedicated).
 {: note}
-
-## Using AS prepends to influence route preference
-{: #use-case-1}
-
-This use case pertains to both Direct Link Connect and Direct Link Dedicated offerings.
-{: note}
-
-Adding one or more autonomous system (AS) numbers at the beginning of an AS path is called _AS prepending_. You can use this technique to make a route less preferable to the BGP router by increasing the length of the AS path. For example, you might want route redundancy, but don't want traffic going through both routes at the same time.
-
-Assuming that all other criteria are equal, the prefix of the AS prepend matches with routes and lengthens the AS path to the destination. This action results in a less priority route compared to one without AS prepends to the same destination. Take the following use case, for example. Suppose that you want your East site to prefer Path A through IBM PoP East when traffic is sent to `10.80.0.0/28`. To de-prioritize Path B, the BGP Autonomous System Number (ASN) of `12345` is prepended to the route (`12345 12345 12345 4040 286 I`).
-
-![Influencing route priority by using AS prepends](images/as-prepends.png){: caption="Influencing route priority using AS prepends" caption-side="bottom"}
-
-For more information, see [Influencing route preference by using AS prepends](/docs/dl?topic=dl-models-for-diversity-and-redundancy-in-direct-link#dl-bgp-path-selection) and [Using AS prepends with VPN connections](/docs/dl?topic=dl-dl-planning-considerations&interface=ui#as-prepends-routes).
 
 ## Direct Link Connect use cases
 {: #connect-use-cases}
@@ -189,3 +175,26 @@ Redundancy:
 Local and global routing options:
 
  :    The local routing option is the default routing option. It provides access to data centers within the same market as the {{site.data.keyword.dl_short}} PoP (denoted, for example, as DAL, AMS, or MEL). The global routing option is required as an add-on to connect your {{site.data.keyword.cloud_notm}} resources to other {{site.data.keyword.cloud_notm}} resources in data centers outside the local market. It provides a way to share workloads between {{site.data.keyword.cloud_notm}} resources (for example, Dallas to Ashburn, or Dallas to Frankfurt).
+
+## Using AS prepends to influence route preference
+{: #use-case-1}
+
+This use case pertains to both Direct Link Connect and Direct Link Dedicated offerings.
+{: note}
+
+Adding one or more autonomous system (AS) numbers at the beginning of an AS path is called _AS prepending_. You can use this technique to make a route less preferable to the BGP router by increasing the length of the AS path. For example, you might want route redundancy, but don't want traffic going through both routes at the same time.
+
+Assuming that all other criteria are equal, the prefix of the AS prepend matches with routes and lengthens the AS path to the destination. This action results in a less priority route compared to one without AS prepends to the same destination. Take the following use case, for example. Suppose that you want your East site to prefer Path A through IBM PoP East when traffic is sent to `10.80.0.0/28`. To de-prioritize Path B, the BGP Autonomous System Number (ASN) of `12345` is prepended to the route (`12345 12345 12345 4040 286 I`).
+
+![Influencing route priority by using AS prepends](images/as-prepends.png){: caption="Influencing route priority using AS prepends" caption-side="bottom"}
+
+For more information, see [Influencing route preference by using AS prepends](/docs/dl?topic=dl-models-for-diversity-and-redundancy-in-direct-link#dl-bgp-path-selection) and [Using AS prepends with VPN connections](/docs/dl?topic=dl-dl-planning-considerations&interface=ui#as-prepends-routes).
+
+ ## Infrastructure terminology
+ {: #infrastructure-terminology}
+
+IBM Cloud Direct Link documentation and APIs reference infrastructure components that support physical connectivity.
+
+* A cross-connect router (XCR) is an IBM-managed edge router at a Direct Link point of presence (PoP). When you order a Direct Link connection, you select an XCR. Your physical Layer 2 connection terminates on this router. The selected XCR determines the metro and facility where the connection is established. XCR identifiers appear in the console and API responses.
+
+* A cross-connect switch (XCS) refers to IBM-managed switching infrastructure within a Direct Link facility that connects physical cross-connects to XCR devices. You do not directly select or configure an XCS, but it might be referenced in API contexts.
