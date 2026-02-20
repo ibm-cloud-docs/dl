@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2026
-lastupdated: "2026-01-07"
+lastupdated: "2026-02-20"
 
 subcollection: dl
 
@@ -42,15 +42,6 @@ Show Direct Link CLI plug-in information.
 
 ```sh
 ibmcloud plugin show dl-cli
-```
-
-## `ibmcloud dl --help`
-{: #command-help}
-
-Get help on Direct Link commands.
-
-```sh
-ibmcloud dl -h|--help
 ```
 
 ## `ibmcloud dl asprepends`
