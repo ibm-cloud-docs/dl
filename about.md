@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2026
-lastupdated: "2026-02-19"
+lastupdated: "2026-02-23"
 
 keywords: interconnectivity, direct link
 
@@ -190,8 +190,8 @@ Assuming that all other criteria are equal, the prefix of the AS prepend matches
 
 For more information, see [Influencing route preference by using AS prepends](/docs/dl?topic=dl-models-for-diversity-and-redundancy-in-direct-link#dl-bgp-path-selection) and [Using AS prepends with VPN connections](/docs/dl?topic=dl-dl-planning-considerations&interface=ui#as-prepends-routes).
 
- ## Infrastructure terminology
- {: #infrastructure-terminology}
+## Infrastructure terminology
+{: #infrastructure-terminology}
 
 IBM Cloud Direct Link documentation and APIs reference infrastructure components that support physical connectivity.
 
