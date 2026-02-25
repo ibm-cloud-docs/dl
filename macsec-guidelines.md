@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2026
-lastupdated: "2026-01-05"
+lastupdated: "2026-02-25"
 
 keywords: direct link, macsec
 
@@ -25,9 +25,6 @@ MACsec for Direct Link Dedicated has the following guidelines and restrictions:
 {: #key-restrictions}
 
 A Connectivity Association Key (CAK) consists of both a name and material. Both name and material must match on your MACsec device and the IBM MACsec device. The CAK name is provided to the service directly, while the material must be secured as an imported key in a Hyper Protect Crypto Services (HPCS) instance. You must configure an IAM service-to-service authorization to enable the Direct Link service access to your HPCS instance.
-
-The service-to-service authorization must be given at the instance level. This is a known limitation with the HPCS service.
-{: note}
 
 CAK names must follow specific MACsec naming conventions. The name must consist of an even number of hexadecimal characters (`0-9`, `a-f`, `A-F`) with a maximum length of 64 characters.
 
