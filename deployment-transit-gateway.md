@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2026
-lastupdated: "2026-01-05"
+lastupdated: "2026-02-25"
 
 keywords: direct link, planning
 
@@ -39,10 +39,10 @@ MACsec sessions are established between your MACsec-capable device and the IBM c
 
 MACsec uses industry-standard MACsec Key Agreement (MKA) for secure key management. It employs hardware-based AES encryption, providing strong security with minimal impact on performance. The encryption ensures data confidentiality and integrity, operating at Layer 2 without the need for changes to higher-layer protocols or applications. IBM also provides guidance for securely rotating CAKs to ensure uninterrupted encryption without impacting traffic.
 
-MACsec is available in select locations where IBM Cloud supports MACsec-capable cross-connect infrastructure. Currently, MACsec for Direct Link Dedicated is available in Dallas, Toronto, and Montreal. 
+MACsec is available in select locations where IBM Cloud supports MACsec-capable cross-connect infrastructure. Currently, MACsec for Direct Link Dedicated is available in Dallas, Toronto, and Montreal.
 {: attention}
 
-IBM has tested and verified the implementation of Cisco MACsec IEEE 802.1AE for encryption and security at Layer 2. While IBM’s testing has been conducted specifically on Cisco’s MACsec solution, IBM supports other MACsec solutions that implement the IEEE 802.1AE standard. If you encounter any issues or require assistance with a MACsec solution, IBM Support is available to assist. 
+IBM has tested and verified the implementation of Cisco MACsec IEEE 802.1AE for encryption and security at Layer 2. While IBM’s testing has been conducted specifically on Cisco’s MACsec solution, IBM supports other MACsec solutions that implement the IEEE 802.1AE standard. If you encounter any issues or require assistance with a MACsec solution, IBM Support is available to assist.
 
 ### Related links
 {: #macsec-related-links}
@@ -59,12 +59,12 @@ IBM has tested and verified the implementation of Cisco MACsec IEEE 802.1AE for 
 IBM Cloud supports customer-defined AS path prepends for Direct Link. You can influence BGP route selection to prioritize preferred paths and manage failover across hybrid and multicloud environments.
 
 If prefix values are repeated across different AS prepends (within the same policy), the first instance of the prefix value sets the prefix length; the rest are ignored.
-{: note} 
+{: note}
 
 ### Examples
 {: #as-prepend-examples}
 
-The following deployment topologies illustrate various AS Prepend scenarios when connecting to VPCs. 
+The following deployment topologies illustrate various AS Prepend scenarios when connecting to VPCs.
 
 1. Two Direct Link connections from an on-premises environment provide connectivity to VPC 1 and VPC 2. By applying AS path prepending on one of the Direct Link connections, you can influence BGP to prefer one path over the other for traffic from on-premises to IBM Cloud, supporting active/passive routing or failover scenarios.
 

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2026
-lastupdated: "2026-01-05"
+lastupdated: "2026-02-25"
 
 keywords: direct link, macsec
 
@@ -18,16 +18,13 @@ subcollection: dl
 MACsec for Direct Link Dedicated has the following guidelines and restrictions:
 
 * The MACsec feature is only supported on the Direct Link Dedicated offering
-* Direct Link supports MACsec Key Agreement (MKA) protocol 
+* Direct Link supports MACsec Key Agreement (MKA) protocol
 * Multiple MACsec peers (different SCI values) for the same interface are not supported
 
 ## Key restrictions
 {: #key-restrictions}
 
 A Connectivity Association Key (CAK) consists of both a name and material. Both name and material must match on your MACsec device and the IBM MACsec device. The CAK name is provided to the service directly, while the material must be secured as an imported key in a Hyper Protect Crypto Services (HPCS) instance. You must configure an IAM service-to-service authorization to enable the Direct Link service access to your HPCS instance.
-
-The service-to-service authorization must be given at the instance level. This is a known limitation with the HPCS service.
-{: note}
 
 CAK names must follow specific MACsec naming conventions. The name must consist of an even number of hexadecimal characters (`0-9`, `a-f`, `A-F`) with a maximum length of 64 characters.
 
@@ -38,7 +35,7 @@ The CAK material must be 64 hexadecimal characters in length. If your generated 
 
 You must [base64-encode](/docs/dl?topic=dl-create-encryption-keys) the material to import it into your HPCS instance. The unencoded material is configured on the IBM MACsec device.
 {: note}
-  
+
 Make sure to use the **Add key** > **Import a key** option. If you use the **Create a key** option, the generated key string breaks the key length check for 64 characters.
 {: important}
 
@@ -62,7 +59,7 @@ Make sure to use the **Add key** > **Import a key** option. If you use the **Cre
 
 Interoperability restriction:
 
-* Peer MACsec devices must support the XPN cipher suite. 
+* Peer MACsec devices must support the XPN cipher suite.
 
 ## Related link
 {: #known-issues-limitations-related-link}

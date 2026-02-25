@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2026
-lastupdated: "2026-01-02"
+lastupdated: "2026-02-25"
 
 keywords: direct link release notes
 
@@ -26,7 +26,7 @@ Check back regularly to see what's new with {{site.data.keyword.cloud}} Direct L
 {: release-note}
 
 Manage BGP route selection in VPC
-:    Previously, VPC didn't honor AS path length when choosing the best route, and this required using a Transit Gateway between Direct Link and VPC in certain topologies to achieve specific routing behavior and high availability. With this enhancement, you can now influence routing decisions by using AS Path length to choose specific paths—ideal for managing primary and backup Direct Link connections, or configuring failover in hybrid and multicloud environments. For more information, see [Using AS Prepends with VPC connections](/docs/dl?topic=dl-dl-planning-considerations#as-prepends-routes). 
+:    Previously, VPC didn't honor AS path length when choosing the best route, and this required using a Transit Gateway between Direct Link and VPC in certain topologies to achieve specific routing behavior and high availability. With this enhancement, you can now influence routing decisions by using AS Path length to choose specific paths—ideal for managing primary and backup Direct Link connections, or configuring failover in hybrid and multicloud environments. For more information, see [Using AS Prepends with VPC connections](/docs/dl?topic=dl-dl-planning-considerations#as-prepends-routes).
 
 ## 17 June 2025
 {: #dl-june1725}
