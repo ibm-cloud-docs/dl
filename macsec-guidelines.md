@@ -18,7 +18,7 @@ subcollection: dl
 MACsec for Direct Link Dedicated has the following guidelines and restrictions:
 
 * The MACsec feature is only supported on the Direct Link Dedicated offering
-* Direct Link supports MACsec Key Agreement (MKA) protocol 
+* Direct Link supports MACsec Key Agreement (MKA) protocol
 * Multiple MACsec peers (different SCI values) for the same interface are not supported
 
 ## Key restrictions
@@ -35,7 +35,7 @@ The CAK material must be 64 hexadecimal characters in length. If your generated 
 
 You must [base64-encode](/docs/dl?topic=dl-create-encryption-keys) the material to import it into your HPCS instance. The unencoded material is configured on the IBM MACsec device.
 {: note}
-  
+
 Make sure to use the **Add key** > **Import a key** option. If you use the **Create a key** option, the generated key string breaks the key length check for 64 characters.
 {: important}
 
@@ -59,7 +59,7 @@ Make sure to use the **Add key** > **Import a key** option. If you use the **Cre
 
 Interoperability restriction:
 
-* Peer MACsec devices must support the XPN cipher suite. 
+* Peer MACsec devices must support the XPN cipher suite.
 
 ## Related link
 {: #known-issues-limitations-related-link}

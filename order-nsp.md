@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2026
-lastupdated: "2026-01-05"
+lastupdated: "2026-02-25"
 
 keywords: direct link, direct link dedicated, macsec
 
@@ -80,10 +80,10 @@ To order {{site.data.keyword.dl_full}} Dedicated, follow these steps.
       1. Choose **Hyper Protect Crypto Services** for the primary connectivity association key (CAK) keystore.
       1. Choose a key from HPCS containing the CAK secret.
    1. Optionally, configure a fallback CAK.
-      1. Type a CAK name.  
+      1. Type a CAK name.
       1. Choose a fallback key instance.
       1. Select **Hyper Protect Crypto Services** containing the CAK secret.
-   
+
       If you do not have a fallback key, you can set one up after you provision your direct link.
       {: note}
 
@@ -91,7 +91,7 @@ To order {{site.data.keyword.dl_full}} Dedicated, follow these steps.
 
          You can also activate and deactivate MACsec after creating your direct link.
          {: note}
-      
+
 1. In the Gateway section, complete the following information:
 
    1. Select a geography, followed by a market, type, site, and routing option.
@@ -106,18 +106,18 @@ To order {{site.data.keyword.dl_full}} Dedicated, follow these steps.
       Speeds greater than 1 Gbps require 10 Gbps service from the client's carrier and equipment. If you intend to upgrade the speed for this gateway, select 2 Gbps to start with; otherwise, you cannot upgrade to a higher speed on this gateway.
       {: tip}
 
-   1. Choose the cross-connect router available at the selected location for this direct link. You can't modify this router after provisioning. Some routers can be disabled based on their support for the MACsec feature and the decisions made regarding its use. 
+   1. Choose the cross-connect router available at the selected location for this direct link. You can't modify this router after provisioning. Some routers can be disabled based on their support for the MACsec feature and the decisions made regarding its use.
 
    1. Choose the support level of MACsec that you want for this direct link. The available capabilities depend on the ports available on the selected cross-connect router. The options are:
 
       * **Require MACsec** - Enforce the use of MACsec, which cannot be disabled after provisioning.
 
-         **Require MACsec** allows you to edit MACsec configuration, but you can’t remove this feature. 
+         **Require MACsec** allows you to edit MACsec configuration, but you can’t remove this feature.
          {: note}
 
       * **Enable/disable MACsec** - Optionally, enable or disable MACsec either during or after the provisioning of this direct link. After MACsec is enabled, you can activate or deactivate this feature.          
 
-      * **No MACsec** - Exclude this direct link from using MACsec. MACsec can't be enabled during or after provisioning. 
+      * **No MACsec** - Exclude this direct link from using MACsec. MACsec can't be enabled during or after provisioning.
 
          **Warning: You can’t use or enable MACsec on this direct link, nor can you select a router that supports only MACsec.**
 
@@ -129,15 +129,15 @@ To order {{site.data.keyword.dl_full}} Dedicated, follow these steps.
 
          Manual-select is useful when you are trying to avoid conflicts with an existing subnet that is in use.
          {: tip}
-        
+
       * Select **Auto-select IP** to have IBM assign an IP address from IP range `169.254.0.0/16`.
 
       Make sure that any self-provided BGP addresses do not conflict with blocks that are used by IBM, or by resources external to your {{site.data.keyword.dl_short}} deployment. Also, if you plan to use GRE or IPsec tunneling with your direct link, you must select a BGP IP other than `169.254.0.0/16`.
       {: important}
 
-   * For BGP ASN, use either the default value of `64999` or select an ASN from the specified allowed ranges.  
+   * For BGP ASN, use either the default value of `64999` or select an ASN from the specified allowed ranges.
 
-      The router supports public and private ASNs, including both 2-byte and 4-byte values (`1` to `4`,`294,967,294`), except for the following excluded ASNs: `0`, `13884`, `36351`, `64512`, `64513`, `65100`, `65201`–`65234`, `65402`–`65433`, `65500`, `65516`, `65519`, `65521`, `65531`, and `4201065000`–`4201065999`. 
+      The router supports public and private ASNs, including both 2-byte and 4-byte values (`1` to `4`,`294,967,294`), except for the following excluded ASNs: `0`, `13884`, `36351`, `64512`, `64513`, `65100`, `65201`–`65234`, `65402`–`65433`, `65500`, `65516`, `65519`, `65521`, `65531`, and `4201065000`–`4201065999`.
 
 1. In the Additional gateway settings section, you can activate one or more of these optional settings:
 
