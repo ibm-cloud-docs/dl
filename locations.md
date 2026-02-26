@@ -158,7 +158,7 @@ The following table provides details about the {{site.data.keyword.cloud_notm}} 
 | Dallas 10 | DC | QTS | IRV |
 | Dallas 12 | DC | Digital Realty | DFW18 |
 | Dallas 13 | DC | CyrusOne | Carrollton - Frankford |
-| Dallas 14 | DC | STACK infrastructure | DFW02 |
+| Dallas 14 | DC | STACK Infrastructure | DFW02 |
 | Denver 1 | PoP | Coresite |	DE1 |
 | Los Angeles 1 | PoP | Coresite | LAX01 |
 | Miami 1 | PoP  | TERREMARK | MI1 |
