@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2026
-lastupdated: "2026-02-26"
+lastupdated: "2026-02-27"
 
 keywords: direct link
 
@@ -104,7 +104,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect service provide
 | Milan 2 | Equinix |
 | Montreal 1 | Equinix |
 | Montreal 2 | Cologix  \n Megaport |
-| Mumbai 1 | Equinix |
+| Mumbai 1 | Equinix  \n TATA |
 | New York 2 | Equinix |
 | Osaka 1 | AT Tokyo  \n Equinix  \n Megaport  \n Tokai |
 | Osaka 21 |IBM Power Virtual Server |
