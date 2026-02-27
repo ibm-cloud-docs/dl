@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021, 2026
-lastupdated: "2026-02-23"
+lastupdated: "2026-02-27"
 
 keywords: direct link, updating
 
@@ -55,7 +55,7 @@ Configuration updates start automatically after you click **Submit**. Notice tha
 You can update an existing direct link with the CLI with the  [`ibmcloud dl gateway-update`](/docs/dl?topic=dl-dl-cli&interface=cli#update-gateway) command. For example, the following command shows how to update a direct link without confirmation.
 
 ```sh
-ibmcloud dl gateway-update 8ba9e7b0-dded-400e-ad7e-6481dad0b157 --name "New Direct Link Name" --speed-mbps 1000
+ibmcloud dl gateway-update 8ba9e7b0-dded-400e-ad7e-6481dad0b157 --name "New Name"
 ```
 {: pre}
 
