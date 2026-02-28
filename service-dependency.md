@@ -2,7 +2,7 @@
 
 copyright:
   years: 2024, 2026
-lastupdated: "2026-02-12"
+lastupdated: "2026-02-28"
 
 keywords:
 
@@ -41,6 +41,8 @@ The following dependencies apply to the following deployment locations: Amsterda
 |Dependencies|Dependency impacts|Customer provided|Control or data plane|Location of dependency|
 |:---|:---|:---|:---|:---|
 | Oculus Automation API | Availability, Instance control, Operations | No | data-plane |  Same data center  |
+| IBM Cloud Databases | Availability, Change management, Disaster recovery, Instance control, Security compliance | No | data-plane |  Same region  |
+| IBM Cloud Kubernetes Service and Red Hat OpenShift on IBM Cloud | Availability, Change management, Disaster recovery, Instance control, Security compliance | No | data-plane |  Same region  |
 | {{site.data.keyword.iamlong}} | Access management, Availability, Instance control, Security compliance | No | data-plane |  [Global](/docs/resiliency?topic=resiliency-ha-redundancy#global-platform)  |
 | IBM Cloud Classic DNS Servers | Availability, Change management, Instance control | No | data-plane |  Same data center  |
 {: row-headers}
@@ -87,6 +89,8 @@ The following dependencies apply to the following deployment locations: Dallas (
 |Dependencies|Dependency impacts|Customer provided|Control or data plane|Location of dependency|
 |:---|:---|:---|:---|:---|
 | Oculus Automation API | Availability, Instance control, Operations | No | control-plane |  Same data center  |
+| IBM Cloud Databases | Availability, Change management, Disaster recovery, Instance control, Security compliance | No | control-plane |  Same region  |
+| IBM Cloud Kubernetes Service and Red Hat OpenShift on IBM Cloud | Availability, Change management, Disaster recovery, Instance control, Security compliance | No | control-plane |  Same region  |
 | {{site.data.keyword.iamlong}} | Access management, Availability, Instance control, Security compliance | No | control-plane |  [Global](/docs/resiliency?topic=resiliency-ha-redundancy#global-platform)  |
 | IBM Cloud Classic DNS Servers | Availability, Change management, Instance control | No | control-plane |  Same data center  |
 {: row-headers}
