@@ -158,7 +158,7 @@ toc:
       - macsec-guidelines.md
       - getting-help.md
       - topic: faqs.md
-        navtitle: FAQs
+        navtitle: FAQ
       - topicgroup:
           label: Troubleshooting
           topics:
