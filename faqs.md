@@ -146,11 +146,11 @@ No. {{site.data.keyword.cloud_notm}} offers two options: (1) A local market only
 {: #faq-tech-capabilities-configuration}
 
 
-## Does IBM Support IPv6 over {{site.data.keyword.dl_short}}?
+## Does IBM support IPv6 over {{site.data.keyword.dl_short}}?
 {: #can-ibm-support-ipv6-over-dl}
 {: faq}
 
-Not for the BGP session. We must assign our `/30` from IPv4, and we need the same in return from you.
+IBM does not support IPv6 over {{site.data.keyword.dl_short}} for the BGP session. A `/30` must be assigned from IPv4, and the same is required in return from you.
 
 ## Does IBM do IPV6 on the private network?
 {: #can-ibm-do-ipv6-on-the-private-network}
@@ -162,7 +162,7 @@ No. IPv6 is public only.
 {: #does-dl-support-any-type-of-qos}
 {: faq}
 
-We are unable to support any QoS guarantees. QoS requires MPLS mapping between each of our service suppliers and {{site.data.keyword.cloud_notm}}. Cloud service providers generally cannot support QoS because it must reach from end-to-end and involve every device in between. No workaround is currently available by "tunneling" or any other method.
+IBM is unable to support any QoS guarantees. QoS requires MPLS mapping between each of our service suppliers and {{site.data.keyword.cloud_notm}}. Cloud service providers generally cannot support QoS because it must reach from end-to-end and involve every device in between. No workaround is currently available by "tunneling" or any other method.
 
 ### Does {{site.data.keyword.dl_short}} support Jumbo frames?
 {: #does-dl-support-jumbo-frames}
@@ -211,7 +211,7 @@ Yes, you can change the routing option any time after creating the gateway. To d
 {: #pricing}
 {: faq}
 
-You can estimate the cost of a service using the cost estimator on the provisioning page of Direct Link offerings. For example, log in to the [IBM Cloud Direct Link console](/interconnectivity/direct-link) and click **Order Direct Link**. Then, choose to order **Direct Link Connect** or **Direct Link Dedicated**. You can click the Pricing tab to get cost estimates or, as you complete the ordering form, cost estimates will appear in the Summary side panel.
+You can estimate the cost of a service using the cost estimator on the provisioning page of Direct Link offerings. For example, log in to the [IBM Cloud Direct Link console](/interconnectivity/direct-link) and click **Order Direct Link**. Then, choose to order **Direct Link Connect** or **Direct Link Dedicated**. You can click the Pricing tab to get cost estimates or, as you complete the ordering form, cost estimates appear in the Summary side panel.
 
 ### In terms of cost, what do I pay for?
 {: #cost}
@@ -221,8 +221,8 @@ There are two Direct Link pricing plans: metered and unmetered. Metered has a po
 
 Direct Link pricing does NOT include any additional charges by service providers to enable connectivity to Direct Link.
 
-### What extra charges will I incur from other parties with {{site.data.keyword.dl_short}}?
-{: #what-additional-charges-will-i-incur-from-other-parties-with-dl}
+### What extra charges do I incur from other parties with {{site.data.keyword.dl_short}}?
+{: #what-additional-charges-do-i-incur-from-other-parties-with-dl}
 {: faq}
 
 You might have extra charges from your provider. See to your carrier or service provider for their fee information.
