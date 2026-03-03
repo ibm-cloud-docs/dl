@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2026
-lastupdated: "2026-03-01"
+lastupdated: "2026-03-03"
 
 keywords: faqs
 
@@ -145,14 +145,13 @@ No. {{site.data.keyword.cloud_notm}} offers two options: (1) A local market only
 ## Technical capabilities and configuration
 {: #faq-tech-capabilities-configuration}
 
-
-## Does IBM support IPv6 over {{site.data.keyword.dl_short}}?
+### Does IBM support IPv6 over {{site.data.keyword.dl_short}}?
 {: #can-ibm-support-ipv6-over-dl}
 {: faq}
 
 IBM does not support IPv6 over {{site.data.keyword.dl_short}} for the BGP session. A `/30` must be assigned from IPv4, and the same is required in return from you.
 
-## Does IBM do IPV6 on the private network?
+### Does IBM do IPV6 on the private network?
 {: #can-ibm-do-ipv6-on-the-private-network}
 {: faq}
 
