@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2026
-lastupdated: "2026-03-03"
+lastupdated: "2026-03-06"
 
 keywords: direct link
 
@@ -30,14 +30,14 @@ The following table lists {{site.data.keyword.dl_short}} Connect service provide
 | AT&T Cloud Gateway | **Americas**: Dallas 3 | |
 | AT&T NetBond for Cloud | **Americas**: Dallas 3, Dallas 8, San Jose 2 (no diversity: on same XCR), Washington DC 2, Washington DC 3  \n **EU**: Frankfurt 1, London 1 | |
 | Axtel | **Americas**: Dallas 3 | |
-| BBIX | **APAC**: Tokyo 1, Tokyo 3 | |
+| BBIX | **APAC**: Osaka 1, Tokyo 1, Tokyo 3 | |
 | BlueFringe | **Americas**: Dallas 3, Washington DC 2  \n **APAC**: Chennai 1  \n **EU**: Amsterdam 2, Frankfurt 3 | |
 | British Telecom | **Americas**: São Paulo 1  \n **EU**: Frankfurt 1, Frankfurt 3, London 1, London 3 | ![Checkmark icon](../icons/checkmark-icon.svg) |
 | Chief Telecom | **APAC**: Hong Kong 1, Hong Kong 3, Taipei 1 | |
 | China Unicom | **Americas**: San Jose 2  \n **APAC**: Hong Kong 3  \n  **EU**: Frankfurt 3 | |
 | Cologix | **Americas**: Chicago 1, Montreal 2, Toronto 2, Washington DC 2 |  ![Checkmark icon](../icons/checkmark-icon.svg) |
 | Colt | **Americas**: San Jose 2, Washington DC 2  \n **APAC**: Hong Kong 3, Tokyo 1, Tokyo 3  \n **EU**: Amsterdam 2, Frankfurt 1, Frankfurt 3, London 1, London 3, Paris 2, Paris 3 | |
-| Console Connect | **Americas**: Chicago 1, Dallas 3, San Jose 2  \n **APAC**: Hong Kong 1,Tokyo 1  \n **EU**: London 1 | ![Checkmark icon](../icons/checkmark-icon.svg) |
+| Console Connect | **Americas**: Chicago 1, Dallas 3, San Jose 2  \n **APAC**: Hong Kong 1, Osaka 1, Tokyo 1  \n **EU**: London 1 | ![Checkmark icon](../icons/checkmark-icon.svg) |
 | Coresite | **Americas**: Denver 1, Los Angeles 1, Washington DC 5 | |
 | CyrusOne | **Americas**: Dallas 13 | |
 | DE-CIX | **Americas**: Dallas 10  \n **EU**: Frankfurt 1, Frankfurt 3, Frankfurt 4, Frankfurt 5 | ![Checkmark icon](../icons/checkmark-icon.svg) |
@@ -106,7 +106,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect service provide
 | Montreal 2 | Cologix  \n Megaport |
 | Mumbai 1 | Equinix  \n TATA |
 | New York 2 | Equinix |
-| Osaka 1 | AT Tokyo  \n Equinix  \n Megaport  \n Tokai |
+| Osaka 1 | AT Tokyo  \n BBIX  \n Console Connect  \n Equinix  \n Megaport  \n Tokai |
 | Osaka 21 |IBM Power Virtual Server |
 | Paris 2 | Colt  \n Equinix  \n Lumen  \n Megaport  \n Orange Business Services |
 | Paris 3 | Colt  \n Equinix |
