@@ -42,8 +42,8 @@ Direct Link supports VPEs in all the VPC regions as shown.
 |---------|-------|----------------|
 | Dallas | `us-south` | `crn:v1:bluemix:public:container-registry:us-south:::endpoint:vpe.us-south.container-registry.cloud.ibm.com` |
 | Frankfurt | `eu-de` | `crn:v1:bluemix:public:container-registry:eu-de:::endpoint:vpe.eu-de.container-registry.cloud.ibm.com` |
-| London | `eu-gb` | `crn:v1:bluemix:public:container-registry:eu-gb:::endpoint:vpe.eu-gb.container-registry.cloud.ibm.com` | 
-| Montreal | `ca-mon` | `crn:v1:bluemix:public:container-registry:ca-mon:::endpoint:vpe.ca-mon.container-registry.cloud.ibm.com` | 
+| London | `eu-gb` | `crn:v1:bluemix:public:container-registry:eu-gb:::endpoint:vpe.eu-gb.container-registry.cloud.ibm.com` |
+| Montreal | `ca-mon` | `crn:v1:bluemix:public:container-registry:ca-mon:::endpoint:vpe.ca-mon.container-registry.cloud.ibm.com` |
 | Osaka | `jp-osa` | `crn:v1:bluemix:public:container-registry:jp-osa:::endpoint:vpe.jp-osa.container-registry.cloud.ibm.com` |
 | Sao Paulo | `br-sao` | `crn:v1:bluemix:public:container-registry:br-sao:::endpoint:vpe.br-sao.container-registry.cloud.ibm.com` |
 | Sydney | `au-syd` | `crn:v1:bluemix:public:container-registry:au-syd:::endpoint:vpe.au-syd.container-registry.cloud.ibm.com` |
@@ -73,7 +73,7 @@ After you create an endpoint gateway for {{site.data.keyword.dl_short}}, follow 
 {: #vpe-cli}
 {: cli}
 
-Use the following steps to update to the latest version of the CLI and the {{site.data.keyword.dl_short}} plug-in.
+Follow these steps to update to the latest version of the CLI and the {{site.data.keyword.dl_short}} plug-in.
 
 1. Update the {{site.data.keyword.cloud_notm}} CLI to the latest version:
 
