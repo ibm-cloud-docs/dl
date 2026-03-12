@@ -123,5 +123,3 @@ If you plan to access the Direct Link service by using Terraform, make sure to s
 export IBMCLOUD_DL_API_ENDPOINT=private.directlink.cloud.ibm.com
 ```
 {: pre}
-
-For more information, see [Direct Link resources and data sources](/docs/ibm-cloud-provider-for-terraform?topic=ibm-cloud-provider-for-terraform-resources-datasource-list#ibm-directlink-gateway_rd).
