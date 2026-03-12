@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023, 2026
-lastupdated: "2026-02-19"
+lastupdated: "2026-03-12"
 
 keywords: direct link
 
@@ -28,6 +28,7 @@ Review the following considerations when working with a route report:
 * If a connection exposes a route of `0.0.0.0/0`, that route is ignored when computing overlapping prefixes.
 * Only one report per gateway is available at any time. If you generate a new report, the old report is deleted.
 * Older route reports might be inaccurate after you add or remove a connection. As a result, if you update routes within those connections, it is recommended that you generate a new route report.
+* Route reports are intended to be generated when validating or troubleshooting configuration changes to Direct Link or attached networks. They are not designed for continuous or automated generation. Frequent or automated requests are subject to be limited or blocked.
 
 ## Generating a route report by using the UI
 {: #generate-route-report-ui}

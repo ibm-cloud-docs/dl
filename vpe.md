@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2025
-lastupdated: "2025-10-09"
+  years: 2017, 2026
+lastupdated: "2026-03-12"
 
 keywords: vpe for Direct Link, virtual private endpoints for Direct Link, using vpe for vpc with Direct Link, isolation for Direct Link, private network for Direct Link, network isolation in Direct Link, non-public routes for Direct Link, private connection for Direct Link, private connectivity for Direct Link
 
@@ -28,7 +28,6 @@ Before you target a virtual private endpoint for {{site.data.keyword.cloud}}, yo
 * Make sure that a [Virtual Private Cloud is created](/docs/vpc?topic=vpc-getting-started).
 * Make a plan for your [virtual private endpoints](/docs/vpc?topic=vpc-vpe-planning-considerations).
 * Ensure that [correct access controls](/docs/vpc?topic=vpc-configure-acls-sgs-endpoint-gateways) are set for your virtual private endpoint.
-* Understand the [limitations](/docs/vpc?topic=vpc-limitations-vpe) of having a virtual private endpoint.
 * Understand how to [view details](/docs/vpc?topic=vpc-vpe-viewing-details-of-an-endpoint-gateway) about a virtual private endpoint.
 
 ## Setting up a VPE for {{site.data.keyword.dl_short}}
