@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2025
-lastupdated: "2025-10-09"
+  years: 2017, 2026
+lastupdated: "2026-03-12"
 
 keywords: vpe for Direct Link, virtual private endpoints for Direct Link, using vpe for vpc with Direct Link, isolation for Direct Link, private network for Direct Link, network isolation in Direct Link, non-public routes for Direct Link, private connection for Direct Link, private connectivity for Direct Link
 
@@ -28,7 +28,6 @@ Before you target a virtual private endpoint for {{site.data.keyword.cloud}}, yo
 * Make sure that a [Virtual Private Cloud is created](/docs/vpc?topic=vpc-getting-started).
 * Make a plan for your [virtual private endpoints](/docs/vpc?topic=vpc-vpe-planning-considerations).
 * Ensure that [correct access controls](/docs/vpc?topic=vpc-configure-acls-sgs-endpoint-gateways) are set for your virtual private endpoint.
-* Understand the [limitations](/docs/vpc?topic=vpc-limitations-vpe) of having a virtual private endpoint.
 * Understand how to [view details](/docs/vpc?topic=vpc-vpe-viewing-details-of-an-endpoint-gateway) about a virtual private endpoint.
 
 ## Setting up a VPE for {{site.data.keyword.dl_short}}
@@ -43,8 +42,8 @@ Direct Link supports VPEs in all the VPC regions as shown.
 |---------|-------|----------------|
 | Dallas | `us-south` | `crn:v1:bluemix:public:container-registry:us-south:::endpoint:vpe.us-south.container-registry.cloud.ibm.com` |
 | Frankfurt | `eu-de` | `crn:v1:bluemix:public:container-registry:eu-de:::endpoint:vpe.eu-de.container-registry.cloud.ibm.com` |
-| London | `eu-gb` | `crn:v1:bluemix:public:container-registry:eu-gb:::endpoint:vpe.eu-gb.container-registry.cloud.ibm.com` | 
-| Montreal | `ca-mon` | `crn:v1:bluemix:public:container-registry:ca-mon:::endpoint:vpe.ca-mon.container-registry.cloud.ibm.com` | 
+| London | `eu-gb` | `crn:v1:bluemix:public:container-registry:eu-gb:::endpoint:vpe.eu-gb.container-registry.cloud.ibm.com` |
+| Montreal | `ca-mon` | `crn:v1:bluemix:public:container-registry:ca-mon:::endpoint:vpe.ca-mon.container-registry.cloud.ibm.com` |
 | Osaka | `jp-osa` | `crn:v1:bluemix:public:container-registry:jp-osa:::endpoint:vpe.jp-osa.container-registry.cloud.ibm.com` |
 | Sao Paulo | `br-sao` | `crn:v1:bluemix:public:container-registry:br-sao:::endpoint:vpe.br-sao.container-registry.cloud.ibm.com` |
 | Sydney | `au-syd` | `crn:v1:bluemix:public:container-registry:au-syd:::endpoint:vpe.au-syd.container-registry.cloud.ibm.com` |
@@ -74,7 +73,7 @@ After you create an endpoint gateway for {{site.data.keyword.dl_short}}, follow 
 {: #vpe-cli}
 {: cli}
 
-Use the following steps to update to the latest version of the CLI and the {{site.data.keyword.dl_short}} plug-in.
+Follow these steps to update to the latest version of the CLI and the {{site.data.keyword.dl_short}} plug-in.
 
 1. Update the {{site.data.keyword.cloud_notm}} CLI to the latest version:
 
@@ -124,5 +123,3 @@ If you plan to access the Direct Link service by using Terraform, make sure to s
 export IBMCLOUD_DL_API_ENDPOINT=private.directlink.cloud.ibm.com
 ```
 {: pre}
-
-For more information, see [Direct Link resources and data sources](/docs/ibm-cloud-provider-for-terraform?topic=ibm-cloud-provider-for-terraform-resources-datasource-list#ibm-directlink-gateway_rd).

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023, 2026
-lastupdated: "2026-02-19"
+lastupdated: "2026-03-12"
 
 keywords: direct link
 
@@ -23,6 +23,7 @@ You can retrieve a route report by using the UI, CLI, or API.
 
 Review the following considerations when working with a route report:
 
+* Route reports are intended to be generated when validating or troubleshooting configuration changes to Direct Link or attached networks. They are not designed for continuous or automated generation. Frequent or automated requests are subject to be limited or blocked.
 * After a new virtual connection (VPC, classic, or transit gateway) reaches `Active` state, allow 5 minutes for the routes to be learned by your direct link. Generating a route report before all routes are learned results in a partial route report.
 * On-prem routes won't show up until approx 5 mins after BGP is set to `Established` status. Gateway routes won't show up until the gateway is finished provisioning.
 * If a connection exposes a route of `0.0.0.0/0`, that route is ignored when computing overlapping prefixes.

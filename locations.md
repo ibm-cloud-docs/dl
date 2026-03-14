@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2026
-lastupdated: "2026-03-06"
+lastupdated: "2026-03-14"
 
 keywords: direct link
 
@@ -58,7 +58,6 @@ The following table lists {{site.data.keyword.dl_short}} Connect service provide
 | Neutrona | **Americas**: Dallas 3, São Paulo 2, Washington DC 2 | |
 | Orange Business Services | **Americas**: Dallas 3  \n **EU**: London 3, Paris 2 | |
 | PacketFabric | **Americas**: Dallas 4, Washington DC 2, San Jose 2 | |
-| POWERIAASLITE-STAGING | **Americas**: Dallas 12 | | |
 | SES Networks | **Americas**: Washington DC 2 | | |
 | SoftBank | **APAC**: Tokyo 4 | |
 | TATA | **APAC**: Chennai 1, Hong Kong 1 | | |
