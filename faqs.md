@@ -281,7 +281,7 @@ To enhance security, IBM is integrating IBM Cloud Secrets Manager with Direct Li
 {: #faq-secrets-manager-for-direct-link}
 {: faq}
 
-The security landscape is evolving. Secrets Manager offers a more specialized, centralized way to manage various types of secrets, including automatic rotation, versioning, and a dedicated UI for certificate management that goes beyond standard key management. Our goal is to ensure that Direct Link’s security posture continues to align with global enterprise requirements.
+The security landscape is evolving. Secrets Manager offers a more specialized, centralized way to manage various types of secrets, including automatic rotation, versioning, and a dedicated UI for certificate management that goes beyond standard key management. Our goal is to provide additional capabilities for Direct Link users while maintaining alignment with enterprise security standards.
 
 ### What are the key benefits of moving to Secrets Manager?
 {: #faq-secrets-manager-key-benefits}
@@ -333,4 +333,4 @@ See [Migrating Direct Link MACsec CAKs and MD5 keys from HPCS to Secrets Manager
 {: #faq-compliance-requirements}
 {: faq}
 
-IBM understands that some enterprise customers require the FIPS 140-2 Level 4 protection offered by HPCS. The Direct Link to Secrets Manager integration is being built to uphold IBM’s highest security standards. If you have specific regulatory requirements, please contact your account team to discuss how Secrets Manager can support your compliance needs.
+IBM understands that some enterprise customers require the FIPS 140-2 Level 4 protection offered by HPCS. Secrets Manager meets FIPS 140-2 Level 1 standards and is built to uphold IBM’s high security posture. If you have specific regulatory requirements, contact your account team to discuss how Secrets Manager can support your compliance needs.
