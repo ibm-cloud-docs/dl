@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2026
-lastupdated: "2026-02-25"
+lastupdated: "2026-03-17"
 
 keywords: direct link, planning
 
@@ -35,7 +35,7 @@ MACsec provides several key security features:
 * Data confidentiality through AES encryption
 * Data integrity using an Integrity Check Value (ICV) per frame
 
-MACsec sessions are established between your MACsec-capable device and the IBM cross-connect switch. The feature supports a primary CAK and an optional fallback CAK in case of a mismatch. CAK secrets are securely stored as IBM Hyper Protect Crypto Services (HPCS) key resources. To enable this integration, Direct Link must be authorized to retrieve the relevant keys from your HPCS instance.
+MACsec sessions are established between your MACsec-capable device and the IBM cross-connect switch. The feature supports a primary CAK and an optional fallback CAK in case of a mismatch. CAK secrets are securely stored as Secrets Manager (recommended) or IBM Hyper Protect Crypto Services (HPCS) key resources. To enable this integration, Direct Link must be authorized to retrieve the relevant keys from your Secrets Manager or HPCS instance.
 
 MACsec uses industry-standard MACsec Key Agreement (MKA) for secure key management. It employs hardware-based AES encryption, providing strong security with minimal impact on performance. The encryption ensures data confidentiality and integrity, operating at Layer 2 without the need for changes to higher-layer protocols or applications. IBM also provides guidance for securely rotating CAKs to ensure uninterrupted encryption without impacting traffic.
 

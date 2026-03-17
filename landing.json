@@ -42,16 +42,16 @@
     "view_more": "/docs/dl?topic=dl-direct-link-release-notes",
     "tiles": [
       {
+        "date": "17 March 2026",
+        "title": "Secrets Manager authentication support for Direct Link Dedicated with MACsec and BGP MD5"
+      },
+      {
         "date": "02 September 2025",
         "title": "Influence routing decisions by using AS Path length to choose specific paths"
       },
       {
         "date": "17 June 2025",
         "title": "Media Access Control Security (MACsec) support for Direct Link Dedicated"
-      },
-      {
-        "date": "13 March 2025",
-        "title": "Montreal region now available"
       }
     ]
   }

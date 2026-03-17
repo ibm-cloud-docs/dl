@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2021, 2025
-lastupdated: "2025-12-27"
+  years: 2021, 2026
+lastupdated: "2026-03-17"
 
 keywords: direct link
 
@@ -23,7 +23,7 @@ Review feature support for Direct Link on Classic offerings versus Direct Link.
 | Locations | All IBM Cloud data centers and PoP locations have Direct Link on Classic support. | All MZRs have Direct Link offering support. Single-campus multizone region support is being rolled out on a location-by-location basis. |
 | 100G NNI | No 100G NNI support. | Business case justification is required in roadmap for MZR’s and associated POP’s pending business/finance approval. |
 | Account in VRF | VRF migration is required. | If the account is used for VPC connectivity only, there is no need to migrate to VRF. If SoftLayer classic network connectivity is required, then the account needs a VRF migration. |
-| BGP authentication. | You can open an IBM Support ticket to enable this feature for all Direct Link on Classic offerings. | Supported for Dedicated and Connect offerings through automation. Need to store the MD5 secret in Key Protect or an HPCS instance in the customer account. |
+| BGP authentication. | You can open an IBM Support ticket to enable this feature for all Direct Link on Classic offerings. | Supported for Dedicated and Connect offerings through automation. Need to store the MD5 secret in Secrets Manager, Key Protect, or an HPCS instance in the customer account. |
 | Default BGP IP address range for automation | `10.254.0.0/16` | `169.254.0.0/16` |
 | Manual IP address range supported | None | `172.16.0.0/12`, `192.168.0.0/16`, `10.254.0.0/16`, any public IP addresses |
 | BGP ASN supported | Allowed to use any ASN outside these blocked ranges: Allowed to use any ASN outside these blocked ranges: `0`, `13884`, `36351`, `64512`, `64513`, `65100`, `65201 – 65234`, `65402 – 65433`, `65500`, and `4201065000 – 4201065999` | The router supports public and private ASNs, including both 2-byte and 4-byte values (`1` to `4`,`294,967,294`), except for the following excluded ASNs: `0`, `13884`, `36351`, `64512`, `64513`, `65100`, `65201`–`65234`, `65402`–`65433`, `65500`, `65516`, `65519`, `65521`, `65531`, and `4201065000`–`4201065999`. |

@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2025
-lastupdated: "2025-06-17"
+  years: 2026
+lastupdated: "2026-03-17"
 
 keywords: direct link, direct link dedicated, connections
 
@@ -32,7 +32,7 @@ Here's how the process works:
 
 1. The IBM Cloud team reviews the completion notice and accepts it. The IBM Cloud team then places an order for the fiber to be installed between the patch panel/port mentioned in the LOA and the device port. This process can take 1-4 business days, depending on how quickly the site provider finishes the request. This completes the physical-layer portion of the direct link and the connection status changes to **Provisioned.**
 
-1. If the MACsec feature is enabled, ensure that a secure connection is established on your MACsec-capable device before configuring and establishing the BGP session. Because MACsec configurations can vary across different device manufacturers, it is essential to consult your device’s MACsec documentation for proper guidance on securing the connection. Additionally, verify that the keys configured on your MACsec-capable device align with the keys provided during the HPCS instance key setup for your IBM Cloud Direct Link.
+1. If the MACsec feature is enabled, ensure that a secure connection is established on your MACsec-capable device before configuring and establishing the BGP session. Because MACsec configurations can vary across different device manufacturers, it is essential to consult your device’s MACsec documentation for proper guidance on securing the connection. Additionally, verify that the keys configured on your MACsec-capable device align with the keys provided during the Secrets Manager or HPCS instance key setup for your IBM Cloud Direct Link.
 
 1. Configure the BGP parameters on your Edge router for BGP session establishment. After this completes, the **BGP status** indicates **Established** and **Link status** indicates **Up**. It can take up to 30 minutes for the link status to update.
 

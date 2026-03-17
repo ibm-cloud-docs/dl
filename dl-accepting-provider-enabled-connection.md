@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020, 2021
-lastupdated: "2021-06-24"
+  years: 2020, 2026
+lastupdated: "2026-03-17"
 
 keywords: direct link
 
@@ -42,7 +42,7 @@ This topic shows you how to accept provider-created connections (create, edit, d
 
 Optionally, you can enable MD5 authentication to secure the BGP session by allowing routing of messages only from routers using a shared authentication key.
 
-You must configure the same BGP MD5 authentication key on both your Edge router and the IBM cross-connect router (XCR). The shared authentication key on the IBM device must be stored in your HPCS or Key Protect instance and shared with the Direct Link service.
+You must configure the same BGP MD5 authentication key on both your Edge router and the IBM cross-connect router (XCR). The shared authentication key on the IBM device must be stored in your Secrets Manager, HPCS, or Key Protect instance and shared with the Direct Link service.
 {: important}
 
 To enable MD5 authentication after submitting your order, follow these steps:
@@ -53,7 +53,7 @@ To enable MD5 authentication after submitting your order, follow these steps:
 1. Review your settings and click **Accept**. The Finalize creation panel displays.
 1. Click the MD5 authentication switch to enable it, then complete the following:
 
-   * For the keystore, select **Hyper Protect Crypto Services** or **Key Protect**.
+   * For the keystore, select **Secrets Manager**, **Hyper Protect Crypto Services**,  or **Key Protect**.
    * Choose an authentication keystore instance and authentication key.
 
 1. Click **Create**.

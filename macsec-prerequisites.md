@@ -2,7 +2,7 @@
 
 copyright:
   years: 2026
-lastupdated: "2026-02-25"
+lastupdated: "2026-03-17"
 
 keywords: direct link, direct link dedicated, macsec
 
@@ -23,6 +23,50 @@ Before you can enable and configure MACsec on IBM Cloud Direct Link Dedicated, t
 Ensure that your MACsec-capable device is properly configured and supports the required encryption standards (such as AES) for your network setup. Verify that the device has the necessary hardware and software support for MACsec, and ensure that its ports or interfaces are configured to enable encryption.
 
 Work with your network provider to select the appropriate data center or Point of Presence (PoP) and confirm that the necessary infrastructure and network connections are in place to support MACsec. Also, ensure that a key management system is in place for secure key exchange, and assess the performance impact to ensure that the device can handle encryption without affecting network speed.
+
+## Preparing for key exchange with Secrets Manager
+{: #prepare-key-exchange-secrets-manager}
+
+Configure a Secrets Manager instance on IBM Cloud to manage the encryption keys and ensure that your device is ready for secure key exchange. To do so, follow these steps:
+
+### Before you begin
+{: #before-you-begin-secrets-manager}
+
+Make sure that you have met the following prerequisites:
+
+* You have an active Direct Link Dedicated connection with MACsec enabled.
+* You have access to an IBM Cloud Secrets Manager instance. For instructions, see [Create a Secrets Manager service instance](/docs/secrets-manager?topic=secrets-manager-create-instance).
+* You have the necessary IAM permissions to manage secrets in Secrets Manager and configure Direct Link.
+* CAK material must meet MACsec requirements for length and format, as specified in [MACsec prerequisites and limitations](/docs/dl?topic=dl-limitations-macsec).
+
+To prepare for key exchange with Secrets Manager, follow these steps:
+
+1. Create a new secret in Secrets Manager:
+   1. Open your Secrets Manager instance in the IBM Cloud console and click **Add secret**.
+   1. Select Arbitrary secret as the secret type.
+   1. Enter a descriptive name for your MACsec key (for example, `directlink-macsec-cak`).
+   1. Paste or upload the CAK material in the Secret value field, then click **Add** to store the secret.
+1. Configure IAM access for Direct Link:
+   1. Make sure that the Direct Link service has the necessary IAM role to read secrets from Secrets Manager.
+   1. Assign a Reader or custom role to the Direct Link service ID, scoped to the Secrets Manager instance containing the CAK.
+1. Prepare Direct Link for MACsec key exchange:
+   1. Navigate to your Direct Link Dedicated connection in the IBM Cloud console and select **MACsec configuration**.
+   1. In the Connectivity Association Key (CAK) section, select **Retrieve from Secrets Manager**.
+   1. Select the previously created secret containing your CAK.
+
+      Confirm that the secret value meets MACsec format requirements, as specified in MACsec prerequisites and limitations.
+
+   1. Click **Save** or **Apply configuration** to complete the key exchange preparation.
+
+      Direct Link retrieves the CAK material from Secrets Manager and uses it to configure MACsec for your connection.
+
+1. After saving the CAK secret, verify MACsec configuration:
+
+   1. Confirm that the MACsec status shows `Active` in the Direct Link dashboard.
+   1. Check that the connection status and encryption statistics indicate successful key exchange.
+
+You should grant access to all keys in the Secrets Manager instance; otherwise, you must grant a new service-to-service authorization each time that you want to use a different key for Direct Link Dedicated with MACsec. As long as a key is in use by your gateway, it shouldn’t be deleted and the service-to-service authorization must not be revoked.
+{: note}
 
 ## Preparing for key exchange with HPCS
 {: #prepare-key-exchange}
@@ -75,7 +119,7 @@ Configure an HPCS instance on IBM Cloud to manage the encryption keys and ensure
    You must configure the same name and key octet string (value) on your switch. Otherwise, the MACsec key negotiation fails.
    {: important}
 
-1. After creating keys for Direct Link, you must use IBM Cloud Identity and Access Management (IAM) to grant authorization between your HPCS instance and the Direct Link service. For instructions, see [Using authorizations to grant access between services](/docs/account?topic=account-serviceauth). The Direct Link service will never access any key besides those used for the MACsec feature.
+1. After creating keys for Direct Link, you must use IBM Cloud Identity and Access Management (IAM) to grant authorization between your Secrets Manager or HPCS instance and the Direct Link service. For instructions, see [Using authorizations to grant access between services](/docs/account?topic=account-serviceauth). The Direct Link service will never access any key besides those used for the MACsec feature.
 
    Due to known limitations, you must grant access at the HPCS instance level, which grants the Direct Link service access to all the keys inside that instance.
    {: important}

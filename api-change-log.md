@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2022, 2025
-lastupdated: "2025-07-21"
+  years: 2022, 2026
+lastupdated: "2026-03-17"
 
 keywords: direct link api change log
 
@@ -19,6 +19,16 @@ content-type: release-note
 
 Check back regularly to see what's new with {{site.data.keyword.cloud}} Direct Link API.
 {: shortdesc}
+
+## 17 March 2026
+{: #dl-mar1726}
+
+Support for Secret Manager keys
+
+: Updated commands
+
+   * Create a dedicated/connect gateway - `POST /gateways`
+   * Get a gateway - `GET /gateways/{id}`
 
 ## 17 June 2025
 {: #dl-june1625}
