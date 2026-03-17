@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020, 2025
-lastupdated: "2025-06-17"
+  years: 2020, 2026
+lastupdated: "2026-03-17"
 
 keywords: direct link, security
 
@@ -30,22 +30,22 @@ However, the result of using {{site.data.keyword.dl_short}} is to join customer 
 ## Protecting your sensitive data in {{site.data.keyword.dl_short}}
 {: #data-encryption}
 
-All data related to {{site.data.keyword.dl_short}}'s configuration is not considered as sensitive data. The configuration data is encrypted at rest at the database level. The {{site.data.keyword.dl_short}} offering does not manage customer-managed keys. Therefore, Key Protect and Hyper Protect Crypto Services are not used.
+All data related to {{site.data.keyword.dl_short}}'s configuration is not considered as sensitive data. The configuration data is encrypted at rest at the database level. The {{site.data.keyword.dl_short}} offering does not manage customer-managed keys. Therefore, Secrets Manager, Key Protect, or Hyper Protect Crypto Services are not used.
 
 ### About customer-managed keys
 {: #about-encryption}
 
-The {{site.data.keyword.dl_short}} offering does not manage customer-managed keys. Therefore, Key Protect and Hyper Protect Crypto Services are not used.
+The {{site.data.keyword.dl_short}} offering does not manage customer-managed keys. Therefore, Secrets Manager, Key Protect, or Hyper Protect Crypto Services are not used.
 
 ### Enabling customer-managed keys for {{site.data.keyword.dl_short}}
 {: #using-byok}
 
-The {{site.data.keyword.dl_short}} offering does not manage customer-managed keys. Therefore, Key Protect and Hyper Protect Crypto Services are not used.
+The {{site.data.keyword.dl_short}} offering does not manage customer-managed keys. Therefore, Secrets Manager, Key Protect, or Hyper Protect Crypto Services are not used.
 
 ### Working with customer-managed keys for {{site.data.keyword.dl_short}}
 {: #working-with-keys}
 
-The {{site.data.keyword.dl_short}} offering does not manage customer-managed keys. Therefore, Key Protect and Hyper Protect Crypto Services are not used.
+The {{site.data.keyword.dl_short}} offering does not manage customer-managed keys.Therefore, Secrets Manager, Key Protect, or Hyper Protect Crypto Services are not used.
 
 ## Deleting your data in {{site.data.keyword.dl_short}}
 {: #data-delete}

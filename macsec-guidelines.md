@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2026
-lastupdated: "2026-02-25"
+lastupdated: "2026-03-17"
 
 keywords: direct link, macsec
 
@@ -24,16 +24,16 @@ MACsec for Direct Link Dedicated has the following guidelines and restrictions:
 ## Key restrictions
 {: #key-restrictions}
 
-A Connectivity Association Key (CAK) consists of both a name and material. Both name and material must match on your MACsec device and the IBM MACsec device. The CAK name is provided to the service directly, while the material must be secured as an imported key in a Hyper Protect Crypto Services (HPCS) instance. You must configure an IAM service-to-service authorization to enable the Direct Link service access to your HPCS instance.
+A Connectivity Association Key (CAK) consists of both a name and material. Both name and material must match on your MACsec device and the IBM MACsec device. The CAK name is provided to the service directly, while the material must be secured as an imported key in a Secrets Manager or Hyper Protect Crypto Services (HPCS) instance. You must configure an IAM service-to-service authorization to enable the Direct Link service access to your Secrets Manager or HPCS instance.
 
 CAK names must follow specific MACsec naming conventions. The name must consist of an even number of hexadecimal characters (`0-9`, `a-f`, `A-F`) with a maximum length of 64 characters.
 
 You must use unique CAK names for each CAK, primary or fallback.
 {: note}
 
-The CAK material must be 64 hexadecimal characters in length. If your generated material is fewer than 64 characters, it must be right-padded with zeros until it reaches the required length. The material must then be imported as a key into your HPCS instance.
+The CAK material must be 64 hexadecimal characters in length. If your generated material is fewer than 64 characters, it must be right-padded with zeros until it reaches the required length. The material must then be imported as a key into your Secrets Manager or HPCS instance.
 
-You must [base64-encode](/docs/dl?topic=dl-create-encryption-keys) the material to import it into your HPCS instance. The unencoded material is configured on the IBM MACsec device.
+You must [base64-encode](/docs/dl?topic=dl-create-encryption-keys) the material to import it into your Secrets Manager or HPCS instance. The unencoded material is configured on the IBM MACsec device.
 {: note}
 
 Make sure to use the **Add key** > **Import a key** option. If you use the **Create a key** option, the generated key string breaks the key length check for 64 characters.

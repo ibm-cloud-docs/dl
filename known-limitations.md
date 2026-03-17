@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020, 2025
-lastupdated: "2025-09-02"
+  years: 2020, 2026
+lastupdated: "2026-03-17"
 
 keywords: direct link, known issues, limitations
 
@@ -15,7 +15,7 @@ subcollection: dl
 # Known issues and limitations
 {: #known-limitations}
 
-Known limitations are as follows: 
+Known limitations are as follows:
 
 * Each {{site.data.keyword.dl_full_notm}} connection requires a unique order. If you require multiple connections, open an {{site.data.keyword.dl_full_notm}} order for each connection.
 * {{site.data.keyword.dl_full_notm}} requires BGP to establish the routes to a customer's remote network.
@@ -27,3 +27,8 @@ Known limitations are as follows:
 * VRF isn't fully compatible with the {{site.data.keyword.cloud_notm}} SSL and IPsec VPN services.
 * The {{site.data.keyword.cloud_notm}} fees for {{site.data.keyword.dl_short}} Dedicated cover the cost of port termination on the {{site.data.keyword.cloud_notm}} infrastructure. Customers are responsible for any fees that are associated with reaching the PoP from a remote network and any cross-connects needed within the PoP facility. {{site.data.keyword.cloud_notm}} does not order a cross-connect on any customer's behalf.
 * {{site.data.keyword.cloud_notm}} does not colocate any customer equipment in our network PoPs. Customers must work with their provider to determine whether they need to colocate any equipment in the facility where the {{site.data.keyword.cloud_notm}} network PoP exists.
+
+## Related link
+{: #macsec-related-link}
+
+[Guidelines and restrictions for Direct Link Dedicated with MACsec](/docs/dl?topic=dl-limitations-macsec)

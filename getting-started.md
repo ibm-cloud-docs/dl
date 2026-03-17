@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2026
-lastupdated: "2026-01-02"
+lastupdated: "2026-03-17"
 
 keywords: direct link, direct link dedicated, direct link connect
 
@@ -37,6 +37,8 @@ To get started using {{site.data.keyword.dl_full_notm}} Connect, follow these [i
 {: #get-started-with-direct-link-dedicated}
 
 Terminate a single-tenant, fiber-based, cross-connect into your own IBM Cloud Private network connection. This offering is also used by colocation facilities that are next to IBM Cloud PoPs and data centers. To get started with {{site.data.keyword.dl_full_notm}} Dedicated, follow these [instructions](/docs/dl?topic=dl-how-to-order-ibm-cloud-dl-dedicated) for ordering the service.
+
+When ordering Direct Link Dedicated, you can enable MACsec to secure Ethernet connections between your on-premises network and IBM Cloud. Direct Link now supports MACsec encryption and BGP MD5 authentication using IBM Cloud Secrets Manager for key management. Secrets Manager is the recommended alternative to Hyper Protect Crypto Services (HPCS) and Key Protect, providing centralized secret management with built-in versioning, rotation, and access control. For more information, see [Planning for the Direct Link MACsec feature](/docs/dl?topic=dl-dl-planning-considerations#macsec-feature-dedicated).
 
 ## Learn more
 {: #learn-more}

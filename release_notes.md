@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2026
-lastupdated: "2026-03-09"
+lastupdated: "2026-03-17"
 
 keywords: direct link release notes
 
@@ -20,6 +20,18 @@ content-type: release-note
 
 Check back regularly to see what's new with {{site.data.keyword.cloud}} Direct Link.
 {: shortdesc}
+
+## 17 March 2026
+{: #dl-mar1726}
+{: release-note}
+
+MACsec and BGP MD5 authentication with Secrets Manager
+:    Direct Link now supports using Secrets Manager to manage keys for both MACsec encryption on Direct Link Dedicated connections and BGP MD5 authentication. Secrets Manager provides centralized secret management with versioning, rotation, and fine-grained access control to simplify handling sensitive credentials.
+
+:   Unlike Hyper Protect Crypto Services (HPCS) and Key Protect, Secrets Manager supports a broader range of secret types and use cases, providing greater flexibility for evolving security requirements. By consolidating secret management into a single service, you can simplify operations while maintaining strong security controls. For more information about Direct Link integration with Secrets Manager, see the [Direct Link security with Secrets Manager FAQs](/docs/dl?topic=dl-faqs#enhance-security-with-secrets-manager).
+
+    If you want to update Direct Link instances to use Secrets Manager–hosted keys, see [Migrating Direct Link MACsec CAKs and MD5 keys from HPCS to Secrets Manager](/docs/dl?topic=dl-hpcs-migration&interface=ui).
+
 
 
 ## 02 September 2025

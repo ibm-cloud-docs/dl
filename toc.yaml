@@ -36,6 +36,7 @@ toc:
           - include: ../vpc/private-connectivity-vpe.md
           - include: ../vpc/interconnectivity.md
       - release_notes.md
+      - migrate-keys-to-secrets-manager.md
   - navgroup:
       id: tutorial
       topics:

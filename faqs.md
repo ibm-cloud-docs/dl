@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2026
-lastupdated: "2026-03-03"
+lastupdated: "2026-03-17"
 
 keywords: faqs
 
@@ -267,3 +267,70 @@ The Direct Link offerings do not provide reporting metrics or usage data. If you
 {: faq}
 
 IBM Cloud Direct Link is integrated into the [IBM Cloud usage dashboard](/docs/account?topic=account-viewingusage&interface=ui), which provides a summary of estimated charges for all services and resources that are used per month in your organizations. This includes the number of connections and the amount of traffic flowing across your direct links. IBM Cloud Direct Link usage is billed and reported as part of the [IBM Cloud invoice process](/docs/account?topic=account-managing-invoices).
+
+## Direct Link security with Secrets Manager
+{: #enhance-security-with-secrets-manager}
+
+### What is changing in Direct Link secret management?
+{: #faq-change-to-secrets-manager}
+{: faq}
+
+To enhance security, IBM is integrating IBM Cloud Secrets Manager with Direct Link to manage sensitive configuration data, including MACsec keys and BGP MD5 authentication secrets. This integration ensures improved compliance and automated credential handling. It also provides Direct Link users access to a more robust platform to meet modern security and compliance standards.
+
+### Why is IBM Cloud introducing Secrets Manager for Direct Link?
+{: #faq-secrets-manager-for-direct-link}
+{: faq}
+
+The security landscape is evolving. Secrets Manager offers a more specialized, centralized way to manage various types of secrets, including automatic rotation, versioning, and a dedicated UI for certificate management that goes beyond standard key management. Our goal is to ensure that Direct Link’s security posture continues to align with global enterprise requirements.
+
+### What are the key benefits of moving to Secrets Manager?
+{: #faq-secrets-manager-key-benefits}
+{: faq}
+
+Secrets Manager provides features not fully available in standard KMS (Key Management Services), such as:
+
+* Unified Management: Manage certificates, API keys, and passwords in one place.
+* Lifecycle Automation: Automatically renew and rotate secrets to reduce manual overhead.
+* Enhanced Visibility: Detailed auditing and tracking of secret access and changes.
+
+### I already use Key Protect or Hyper Protect Crypto Services (HPCS). Do I need to switch immediately?
+{: #faq-when-to-switch-over}
+{: faq}
+
+No. Secrets Manager co-exists with Key Protect and HPCS until these products are announced as End of Marketing (EOM). Your current Direct Link configurations continue to function exactly as they do today. IBM is introducing this integration now so you can begin exploring its advanced features at your own pace.
+
+### What is the long-term plan for Key Protect and HPCS in Direct Link?
+{: #faq-long-term-plan-for-key-protect-hpcs}
+{: faq}
+
+Eventually, Secrets Manager will become the standard for Direct Link secret management. However, this is a phased transition. IBM is committed to a transparent roadmap and will provide a minimum of six months' notice before any deprecation of the Key Protect or HPCS integrations.
+
+### Does this change the price of my Direct Link connection?
+{: #faq-pricing-direct-link-connections}
+{: faq}
+
+No. There are no changes to the existing list prices or billing models for IBM Cloud Direct Link. This integration is a platform-level enhancement designed to improve your security experience.
+
+### How is Secrets Manager billed?
+{: #faq-secrets-manager-billing}
+{: faq}
+
+Secrets Manager is an existing, independent product in the IBM Cloud catalog. If you choose to use Secrets Manager, it follows its standard pricing. It is a separate line item on your bill, just as you currently see with Key Protect or HPCS.
+
+### Does this integration change how I get support or manage operations?
+{: #faq-support-due-to-integration-change}
+{: faq}
+
+No. Existing support channels, SLAs, and operational workflows for Direct Link remain the same. Billing for Direct Link continues through your standard IBM Cloud account. The only change is the additional option within the Direct Link UI or API to select Secrets Manager as your provider.
+
+### If I decide to migrate from Key Protect or HPCS to Secrets Manager, what are the steps?
+{: #faq-migration-secrets-manager}
+{: faq}
+
+See [Migrating Direct Link MACsec CAKs and MD5 keys from HPCS to Secrets Manager](/docs/dl?topic=dl-hpcs-migration).
+
+### What if my compliance requirements require HPCS?
+{: #faq-compliance-requirements}
+{: faq}
+
+IBM understands that some enterprise customers require the FIPS 140-2 Level 4 protection offered by HPCS. The Direct Link to Secrets Manager integration is being built to uphold IBM’s highest security standards. If you have specific regulatory requirements, please contact your account team to discuss how Secrets Manager can support your compliance needs.

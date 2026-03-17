@@ -2,7 +2,7 @@
 
 copyright:
   years: 2026
-lastupdated: "2026-02-25"
+lastupdated: "2026-03-17"
 
 keywords: direct link, macsec, dedicated
 
@@ -39,8 +39,8 @@ When using Direct Link Dedicated with MACsec, follow these steps to rotate the p
    The existing MACsec session is not disrupted and remains secured using the old primary CAK.
    {: note}
 
-1. Store the primary CAK material used in Step 2 in the HPCS instance.
-1. Send a PATCH request to the primary CAK using the IBM Direct Link API, providing the CAK name and the HPCS key CRN containing the material. IBM Direct Link securely retrieves the updated CAK material from HPCS and configures it with the specified name on the IBM cross-connect switch (XCS) that peers with your device.
+1. Store the primary CAK material used in Step 2 in the Secrets Manager or HPCS instance.
+1. Send a PATCH request to the primary CAK using the IBM Direct Link API, providing the CAK name and the Secrets Manager or HPCS key CRN containing the material. IBM Direct Link securely retrieves the updated CAK material from Secrets Manager or HPCS and configures it with the specified name on the IBM cross-connect switch (XCS) that peers with your device.
 
    Any operation that can be performed using the API can also be performed through the UI and CLI.
    {: note}
@@ -66,5 +66,5 @@ Use of a fallback CAK is optional. If you configure a fallback CAK, you might ne
    {: important}
 
 1. Delete the old fallback CAK and configure the new fallback CAK name and material on your device.
-1. Store the fallback CAK material used in Step 2 in the HPCS instance.
+1. Store the fallback CAK material used in Step 2 in the Secrets Manager or HPCS instance.
 1. Then, call an IBM Direct Link API to inform the Direct Link service about the availability of the new CAK. IBM Direct Link securely retrieves the new CAK and configures it on the IBM (XCS) that peers with your device.

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021, 2026
-lastupdated: "2026-02-25"
+lastupdated: "2026-03-17"
 
 keywords: direct link
 
@@ -33,9 +33,11 @@ Make sure to adhere to the following BGP MD5 authentication requirements:
 ## Setting up BGP MD5 authentication keys
 {: #setting-up-bgp-md5-keys}
 
-You can store your keys in either Hyper Protect Crypto Services (HPCS) or Key Protect. To configure BGP MD5 authentication, follow these steps:
+You can store your keys in either Secrets Manager, Hyper Protect Crypto Services (HPCS), or Key Protect. To configure BGP MD5 authentication, follow these steps:
 
 1. Set up a keystore instance with keys. For instructions, choose from the following:
+
+   * [Secrets Manager: Getting started with Secrets Manager](/docs/secrets-manager?topic=secrets-manager-getting-started)
    * [HPCS: Creating and importing encryption keys](/docs/hs-crypto?topic=hs-crypto-tutorial-import-keys)
    * [Key Protect: Getting started with encryption keys](/docs/key-protect?topic=key-protect-getting-started-tutorial)
 
@@ -49,7 +51,7 @@ You can store your keys in either Hyper Protect Crypto Services (HPCS) or Key Pr
 
    You should grant access to all keys in the instance; otherwise, you must grant a new service-to-service authorization each time that you want to use a different key for Direct Link. As long as a key is in use by your gateway, you should never delete it, nor should you revoke the service-to-service authorization.
 
-1. If the Key Protect or HPCS instance has a context-based restriction (CBR) rule, a Direct Link Service Reference must be added to the network zone of that rule. For instructions, see [How Direct Link integrates with context-based restrictions](/docs/dl?topic=dl-cbr&interface=cli#cbr-overview).
+1. If the Secrets Manager, Key Protect, or HPCS instance has a context-based restriction (CBR) rule, a Direct Link Service Reference must be added to the network zone of that rule. For instructions, see [How Direct Link integrates with context-based restrictions](/docs/dl?topic=dl-cbr&interface=cli#cbr-overview).
 
 ## Next step
 {: #md5-next-step}
