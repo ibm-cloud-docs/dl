@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2026
-lastupdated: "2026-03-17"
+lastupdated: "2026-03-18"
 
 keywords: faqs
 
@@ -333,4 +333,4 @@ See [Migrating Direct Link MACsec CAKs and MD5 keys from HPCS to Secrets Manager
 {: #faq-compliance-requirements}
 {: faq}
 
-IBM understands that some enterprise customers require the FIPS 140-2 Level 4 protection offered by HPCS. Secrets Manager meets FIPS 140-2 Level 1 standards and is built to uphold IBM’s high security posture. If you have specific regulatory requirements, contact your account team to discuss how Secrets Manager can support your compliance needs.
+IBM understands that some enterprise customers require the FIPS 140-2 Level 4 protection offered by HPCS. The Direct Link to Secrets Manager integration is being built to uphold IBM’s highest security standards. If you have specific regulatory requirements, contact your account team to discuss how Secrets Manager can support your compliance needs.
