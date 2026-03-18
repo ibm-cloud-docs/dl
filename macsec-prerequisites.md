@@ -29,9 +29,6 @@ Work with your network provider to select the appropriate data center or Point o
 
 Configure a Secrets Manager instance on IBM Cloud to manage the encryption keys and ensure that your device is ready for secure key exchange. To do so, follow these steps:
 
-### Before you begin
-{: #before-you-begin-secrets-manager}
-
 Make sure that you have met the following prerequisites:
 
 * You have an active Direct Link Dedicated connection with MACsec enabled.
