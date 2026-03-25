@@ -31,6 +31,13 @@
       "href": "https://developer.ibm.com/blogs/?mhsrc=ibmsearch_a&mhq=direct%20link%20blog",
       "type": "blog",
       "recommended": true
+    },
+    {
+      "title": "Enterprise-Grade Secrets Management — Now Even More Secure with Direct Link",
+      "description": "Announcing the native integration of IBM Cloud Secrets Manager with Direct Link.",
+      "href": "https://community.ibm.com/community/user/blogs/premnath-jaganathan/2026/03/09/bringing-enterprise-grade-security-to-ibm-cloud",
+      "type": "blog",
+      "recommended": true
     }
   ],
   "section_devtools": {
