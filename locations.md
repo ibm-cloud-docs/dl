@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2026
-lastupdated: "2026-03-14"
+lastupdated: "2026-03-25"
 
 keywords: direct link
 
@@ -24,6 +24,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect service provide
 
 | Provider | Locations | API integration |
 |----|----|----|
+| Airtel | **APAC**: Chennai 1 | |
 | Anthem | **Americas**: Washington DC 4 | |
 | Ascenty, a Digital Realty Company | **Americas**: São Paulo 1, São Paulo 5 | |
 | At Tokyo | **APAC**: Osaka 1, Tokyo 2 | |
@@ -60,7 +61,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect service provide
 | PacketFabric | **Americas**: Dallas 4, Washington DC 2, San Jose 2 | |
 | SES Networks | **Americas**: Washington DC 2 | | |
 | SoftBank | **APAC**: Tokyo 4 | |
-| TATA | **APAC**: Chennai 1, Hong Kong 1 | | |
+| TATA | **APAC**: Chennai 1, Hong Kong 1, Singapore 1 | | |
 | Telia | **Americas**: Dallas 3, Washington DC 2 | | |
 | Tokai | **APAC**: Osaka 1, Tokyo 3 | |
 | Verizon SCI | **Americas**: Dallas 3, San Jose 2, Washington DC 2  \n **EU**: Amsterdam 2, Frankfurt 1 | |
@@ -76,7 +77,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect service provide
 | Location | Providers |
 |----|----|
 | Amsterdam 2 | BlueFringe  \n  Colt  \n Epsilon  \n Equinix  \n Intercloud  \n Megaport  \n nextGen GNPP  \n Verizon SCI |
-| Chennai 1 | BlueFringe  \n TATA |
+| Chennai 1 | Airtel  \n BlueFringe  \n TATA |
 | Chicago 1 | Cologix  \n Console Connect  \n Equinix  \n Megaport |
 | Dallas 3 |  AT&T Cloud Gateway  \n AT&T NetBond for Cloud  \n Axtel  \n BlueFringe  \n Console Connect  \n Equinix  \n Level3  \n Lumen  \n Neutrona  \n Orange Business Systems  \n Telia  \n  Verizon SCI  \n Zayo |
 | Dallas 4 |  PacketFabric  \n Megaport |
@@ -114,7 +115,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect service provide
 | São Paulo 2 | Ascenty, a Digital Realty Company  \n  Equinix  \n Level3  \n Neutrona |
 | São Paulo 5 | Ascenty, a Digital Realty Company |
 | Seoul 2 | KINX |
-| Singapore 1 | Digital Realty  \n Megaport[^singapore2] |
+| Singapore 1 | Digital Realty  \n Megaport[^singapore2]  \n TATA |
 | Sydney 2 | Megaport |
 | Sydney 3 | NextDC |
 | Sydney 4 | IBM Power Virtual Server |
