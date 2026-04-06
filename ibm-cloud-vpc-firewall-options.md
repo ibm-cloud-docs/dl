@@ -70,8 +70,7 @@ transit VPC to inspect and control traffic flows.
 
 This pattern centralizes security and simplifies route management.
 
-For more information, see
-[Transit VPC Pattern](/docs/pattern-transit-vpc?topic=pattern-transit-vpc-transit-vpc).
+For more information, see [Securing multiple landing zones with a transit VPC and advanced security capabilities](/docs/pattern-transit-vpc?topic=pattern-transit-vpc-transit-vpc).
 
 ### Single VPC
 {: #single-vpc-pattern}
@@ -106,6 +105,8 @@ suitable for development, testing, or non-critical workloads.
 #### Available solutions
 {: #standalone-solutions}
 
+The following table outlines the available standalone firewall solutions from leading vendors, along with their corresponding products and catalog links.
+
 | Vendor | Product | Catalog Link |
 |--------|---------|--------------|
 | Fortinet | FortiGate Next-Generation Firewall - Single VM | [Catalog](/catalog/content/ibm-fortigate-terraform-deploy-1f878ca9-069f-42ca-9ed9-5b461d4d5231-global) |
@@ -115,13 +116,27 @@ suitable for development, testing, or non-critical workloads.
 | F5 | BIG-IP Virtual Edition for VPC | [Catalog](/catalog/content/ibmcloud_schematics_bigip_multinic_declared-1.0-d33f1544-e938-478a-b0dd-d883370f08d0-global) |
 {: caption="Available standalone firewall solutions" caption-side="bottom"}
 
-#### Best for
+#### Best for:
 {: #standalone-best-for}
 
 - Development and testing environments
 - Non-critical workloads
 - Cost-sensitive deployments
 - Proof of concept projects
+
+### Active/Active HA (Single Zone)
+{: #active-active-single-zone}
+
+Multiple firewall instances actively processing traffic simultaneously within
+a single zone, using a Network Load Balancer for traffic distribution.
+
+#### Characteristics
+{: #active-active-single-zone-characteristics}
+
+* Load balancing across multiple firewalls
+* Higher throughput capacity
+* Vendor-agnostic solution
+* Uses Network Load Balancer (NLB) with Route mode
 
 ### Active/Passive HA (Single Zone)
 {: #active-passive-single-zone}
@@ -225,7 +240,7 @@ availability zones, providing regional-level high availability.
 | Fortinet | FortiGate Next-Generation Firewall - Cross Zone HA | [Catalog](/catalog/content/ibm-fortigate-cross-zone-ha-par-terraform-deploy-9a7c26d7-83c6-45bc-b145-e65d54c2d009-global) |
 {: caption="Available Active/Passive HA (Multi-Zone) solutions" caption-side="bottom"}
 
-#### Best for
+#### Best for:
 {: #active-passive-multizone-best-for}
 
 - Mission-critical production workloads
@@ -264,6 +279,7 @@ For each route pointing to old active node:
 
 1. DELETE old route
 1. CREATE new route with:
+
    - Same destination CIDR
    - New next_hop IP (new active node)
    - New zone (new active node's zone)
@@ -333,20 +349,6 @@ When active firewall node moves to different zone, Fortinet's SDN Connector auto
 * Transparent firewall operation for public traffic
 * Automatic failover with public address range zone binding updates (Fortinet only)
 * No application changes required
-
-### Active/Active HA (Single Zone)
-{: #active-active-single-zone}
-
-Multiple firewall instances actively processing traffic simultaneously within
-a single zone, using a Network Load Balancer for traffic distribution.
-
-#### Characteristics
-{: #active-active-single-zone-characteristics}
-
-* Load balancing across multiple firewalls
-* Higher throughput capacity
-* Vendor-agnostic solution
-* Uses Network Load Balancer (NLB) with Route mode
 
 ### Route Mode Network Load Balancer
 {: #route-mode-nlb}
@@ -449,7 +451,7 @@ availability zones, using BGP for dynamic routing and failover.
 - For more information, see
   [Virtual firewall appliances with BGP Over GRE](/docs/pattern-transit-vpc?topic=pattern-transit-vpc-transit-vpc#Virtual-firewall-Appliances-with-BGP-over-GRE).
 
-#### Best for
+#### Best for:
 {: #active-active-multizone-best-for}
 
 - Enterprise-scale deployments
@@ -493,23 +495,25 @@ IBM Cloud Classic uses a Layer 2 network architecture with six primary firewall 
 #### Gateway Appliances (Still Available)
 {: #gateway-appliances}
 
-- **Virtual FortiGate (vFSA)**: See
-  [Getting started with Fortigate Security Appliance](/docs/vfsa?topic=vfsa-getting-started-vfsa)
-- **Virtual Juniper vSRX**: See
-  [Getting started with IBM Cloud Juniper vSRX](/docs/vsrx?topic=vsrx-getting-started-vsrx)
-- **Virtual Router Appliance (Vyatta/VRA)**: See
-  [Getting started with IBM Virtual Router Appliance](/docs/virtual-router-appliance)
+:   Virtual FortiGate (vFSA)
 
-For more information, see
-[Getting started with IBM Cloud Gateway Appliance](/docs/gateway-appliance?topic=gateway-appliance-getting-started-ga).
+    See [Getting started with Fortigate Security Appliance](/docs/vfsa?topic=vfsa-getting-started-vfsa).
+
+:    Virtual Juniper vSRX*
+
+     See [Getting started with IBM Cloud Juniper vSRX](/docs/vsrx?topic=vsrx-getting-started-vsrx).
+
+:    Virtual Router Appliance (Vyatta/VRA)
+
+     See [Getting started with IBM Virtual Router Appliance](/docs/virtual-router-appliance).
+
+For more information, see [Getting started with IBM Cloud Gateway Appliance](/docs/gateway-appliance?topic=gateway-appliance-getting-started-ga).
 
 #### Deprecated physical firewalls
 {: #deprecated-firewalls}
 
-- FortiGate 10G: See
-  [Exploring Firewalls](/docs/fortigate-10g?topic=fortigate-10g-exploring-firewalls)
-- Hardware Firewall (Shared): See
-  [Getting started with Hardware Firewall (Shared)](/docs/hardware-firewall-shared)
+*  FortiGate 10G: See [Exploring Firewalls](/docs/fortigate-10g?topic=fortigate-10g-exploring-firewalls).
+* Hardware Firewall (Shared): See [Getting started with Hardware Firewall (Shared)](/docs/hardware-firewall-shared).
 
 ### Key differences: Classic versus VPC
 {: #classic-vs-vpc}
@@ -545,54 +549,44 @@ appropriate deployment configuration.
 #### Firewall license
 {: #firewall-license-performance}
 
-- **vCPU Count**: Firewall vendor licenses typically limit throughput based
+* **vCPU Count**: Firewall vendor licenses typically limit throughput based
   on vCPU count
-- **Gating Factor**: The license vCPU limit is usually the primary constraint
+* **Gating Factor**: The license vCPU limit is usually the primary constraint
   on performance
-- **Example**: A 4-vCPU firewall license will limit throughput regardless of
+* **Example**: A 4-vCPU firewall license will limit throughput regardless of
   virtual server instance profile size
-- **Recommendation**: Match virtual server instance profile vCPU count to
+* **Recommendation**: Match virtual server instance profile vCPU count to
   firewall license vCPU entitlement
 
 #### Virtual server instance profile selection
 {: #vsi-profile-selection}
 
-- **Profile Size**: Larger profiles provide higher bandwidth caps (see [profile tables](/docs/vpc?topic=vpc-profiles))
-- **Bandwidth Pooling** (Gen 4 profiles only): Network bandwidth is pooled
-  across all interfaces, allowing flexible allocation
-- **Pre-Gen 4 Profiles**: Bandwidth is equally divided across interfaces, not
-  pooled
-- **Example**: A bx4-32x128 profile has 64 Gbps bandwidth cap that can be
-  pooled across all interfaces (Gen 4)
+* **Profile Size**: Larger profiles provide higher bandwidth caps (see [profile tables](/docs/vpc?topic=vpc-profiles))
+* **Bandwidth Pooling** (Gen 4 profiles only): Network bandwidth is pooled across all interfaces, allowing flexible allocation
+* **Pre-Gen 4 Profiles**: Bandwidth is equally divided across interfaces, not pooled
+* **Example**: A bx4-32x128 profile has 64 Gbps bandwidth cap that can be pooled across all interfaces (Gen 4)
 
 #### Network interface configuration
 {: #network-interface-config}
 
-- **Number of Interfaces**: More interfaces may impact available bandwidth
-  per interface (pre-Gen 4)
-- **Gen 4 Advantage**: Bandwidth pooling eliminates per-interface division
-- **Recommendation**: Use Gen 4 profiles for firewall deployments when available
+* **Number of Interfaces**: More interfaces may impact available bandwidth per interface (pre-Gen 4)
+* **Gen 4 Advantage**: Bandwidth pooling eliminates per-interface division
+* **Recommendation**: Use Gen 4 profiles for firewall deployments when available
 
 #### Network Load Balancer (Active/Active)
 {: #nlb-active-active}
 
-- **NLB Throughput**: Network Load Balancer has its own throughput limits
-- **Route Mode**: Lower latency than application load balancers, efficient
-  Layer 4 routing
-- **Scaling**: Distribute load across multiple firewall instances for higher
-  aggregate throughput
+* **NLB Throughput**: Network Load Balancer has its own throughput limits
+* **Route Mode**: Lower latency than application load balancers, efficient Layer 4 routing
+* **Scaling**: Distribute load across multiple firewall instances for higher aggregate throughput
 
 #### Bare Metal Servers
 {: #bare-metal-performance}
 
-- **High Network Throughput**: Dedicated hardware resources provide consistent
-  high performance
-- **VNI Floating Interfaces**: Automatic failover without SDN Connector overhead
-- **Significant Limitations**: Requires manual hypervisor and VM
-  configuration, monthly billing only, limited scaling flexibility,
-  customer-managed OS and software
-- **Recommendation**: Consider virtual server instance deployments first due
-  to operational simplicity and flexibility
+* **High Network Throughput**: Dedicated hardware resources provide consistent high performance
+* **VNI Floating Interfaces**: Automatic failover without SDN Connector overhead
+* **Significant Limitations**: Requires manual hypervisor and VM configuration, monthly billing only, limited scaling flexibility, customer-managed OS and software
+* **Recommendation**: Consider virtual server instance deployments first due to operational simplicity and flexibility
 
 Bare metal servers provide dedicated hardware resources but require
 significant manual configuration and management.
@@ -607,13 +601,13 @@ Important Limitations
 
 :   Consider the following limitations:
 
-   - **Manual Configuration Required**: Hypervisor and all virtual machines must
+    - **Manual Configuration Required**: Hypervisor and all virtual machines must
   be manually configured and managed by customer
-   - **Limited Flexibility**: Cannot scale out easily like virtual server
+    - **Limited Flexibility**: Cannot scale out easily like virtual server
   deployments
-   - **Billing**: Monthly billing only (no hourly billing option)
-   - **Customer Managed**: Bare metal OS and all software are customer responsibility
-   - **Complexity**: Requires expertise in hypervisor management and VM
+    - **Billing**: Monthly billing only (no hourly billing option)
+    - **Customer Managed**: Bare metal OS and all software are customer responsibility
+    - **Complexity**: Requires expertise in hypervisor management and VM
   configuration
 
 Technical Details
@@ -630,11 +624,11 @@ Virtual server instance deployments are recommended for most use cases due to
 flexibility, ease of management, and hourly billing.
 {: tip}
 
-##### Best for
+##### Best for:
 {: #active-passive-single-zone-best-for}
 
-- Production workloads requiring zone-level resilience
-- Applications that can tolerate zone-level outages
+* Production workloads requiring zone-level resilience
+* Applications that can tolerate zone-level outages
 
 ##### Key recommendations
 {: #performance-recommendations}
