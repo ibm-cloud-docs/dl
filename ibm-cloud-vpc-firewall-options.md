@@ -499,7 +499,7 @@ IBM Cloud Classic uses a Layer 2 network architecture with six primary firewall 
 
     See [Getting started with Fortigate Security Appliance](/docs/vfsa?topic=vfsa-getting-started-vfsa).
 
-:    Virtual Juniper vSRX*
+:    Virtual Juniper vSRX
 
      See [Getting started with IBM Cloud Juniper vSRX](/docs/vsrx?topic=vsrx-getting-started-vsrx).
 
@@ -588,14 +588,11 @@ appropriate deployment configuration.
 * **Significant Limitations**: Requires manual hypervisor and VM configuration, monthly billing only, limited scaling flexibility, customer-managed OS and software
 * **Recommendation**: Consider virtual server instance deployments first due to operational simplicity and flexibility
 
-Bare metal servers provide dedicated hardware resources but require
-significant manual configuration and management.
+Bare metal servers provide dedicated hardware resources but require significant manual configuration and management.
 
 Failover Method
 
-:   Uses VNI (Virtual Network Interface) floating interfaces instead of SDN
-    Connector. The data interface automatically floats to the active node
-    during failover.
+:   Uses virtual network floating interfaces instead of SDN Connector. The data interface automatically floats to the active node during failover.
 
 Important Limitations
 
@@ -617,8 +614,7 @@ Technical Details
     - **Tested Vendors**: Fortinet (PCI Passthrough and macvtap), Palo Alto
       (macvtap)
 
-For more information, see
-[Virtual firewalls on VPC Bare Metal servers](/docs/pattern-transit-vpc?topic=pattern-transit-vpc-transit-vpc#Virtual-firewall-Appliances-on-VPC-Bare-Metals).
+For more information, see [Virtual firewalls on VPC Bare Metal servers](/docs/pattern-transit-vpc?topic=pattern-transit-vpc-transit-vpc#Virtual-firewall-Appliances-on-VPC-Bare-Metals).
 
 Virtual server instance deployments are recommended for most use cases due to
 flexibility, ease of management, and hourly billing.
@@ -633,14 +629,10 @@ flexibility, ease of management, and hourly billing.
 ##### Key recommendations
 {: #performance-recommendations}
 
-1. **Match License to Profile**: Ensure virtual server instance profile vCPU
-   count matches or exceeds firewall license vCPU entitlement
-1. **Use Gen 4 Profiles**: Bandwidth pooling provides better flexibility for
-   multi-interface firewalls
-1. **Start with virtual server instances**: Virtual server instance
-   deployments offer better flexibility, easier management, and hourly billing
-1. **Test Performance**: Validate actual throughput meets requirements before
-   production deployment
+1. **Match License to Profile**: Ensure virtual server instance profile vCPU count matches or exceeds firewall license vCPU entitlement
+1. **Use Gen 4 Profiles**: Bandwidth pooling provides better flexibility for multi-interface firewalls
+1. **Start with virtual server instances**: Virtual server instance deployments offer better flexibility, easier management, and hourly billing
+1. **Test Performance**: Validate actual throughput meets requirements before production deployment
 
 #### Gen 4 virtual server instance profile examples
 {: #gen4-vsi-profiles}
@@ -656,8 +648,7 @@ Balanced Profiles (bx4):
 | bx4-64x256 | 64 | 256 | 128 |
 {: caption="Gen 4 balanced virtual server instance profiles (bx4)" caption-side="bottom"}
 
-Gen 4 profiles feature bandwidth pooling across all interfaces. For complete
-profile details, see [General purpose instance profiles - Intel Gen 4](/docs/vpc?topic=vpc-general-purpose-vsi-profiles-gen4-intel).
+Gen 4 profiles feature bandwidth pooling across all interfaces. For complete profile details, see [General purpose instance profiles - Intel Gen 4](/docs/vpc?topic=vpc-general-purpose-vsi-profiles-gen4-intel).
 {: note}
 
 ### Cost considerations
@@ -666,9 +657,7 @@ profile details, see [General purpose instance profiles - Intel Gen 4](/docs/vpc
 - **Standalone:** Lowest cost, no redundancy
 - **Single Zone HA:** Moderate cost, good balance
 - **Multi-Zone HA:** Higher cost, maximum availability
-- **Virtual server instance vs Bare Metal:** Virtual server instances offer
-  hourly billing and operational flexibility; bare metal requires monthly
-  billing and manual management
+- **Virtual server instance versus Bare Metal:** Virtual server instances offer hourly billing and operational flexibility; bare metal requires monthly billing and manual management.
 
 ## Next steps
 {: #next-steps}
