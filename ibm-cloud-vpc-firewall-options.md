@@ -40,29 +40,19 @@ implementation options for each firewall deployment pattern.
 that provide different levels of availability, scalability, and operational
 complexity.
 
-| Feature | [Standalone](#standalone-deployment) |
-  [Active/Active HA (Single Zone)](#activeactive-ha-single-zone) |
-  [Active/Passive HA (Single Zone)](#activepassive-ha-single-zone) |
-  [Active/Passive HA (Multi-Zone)](#activepassive-ha-multizone) |
-  [Active/Active HA (Multi-Zone)](#activeactive-ha-multizone) |
-|---------|------------|---------------------------|--------------------------|
-  -------------------------|--------------------------|
+| Feature | [Standalone](#standalone-deployment) | [Active/Active HA (Single Zone)](#activeactive-ha-single-zone) | [Active/Passive HA (Single Zone)](#activepassive-ha-single-zone) | [Active/Passive HA (Multi-Zone)](#activepassive-ha-multizone) | [Active/Active HA (Multi-Zone)](#activeactive-ha-multizone) |
+|---------|-------------------------------------|---------------------------------------------|----------------------------------------------|----------------------------------------------|---------------------------------------------|
 | **High Availability** | None | Load balanced | Single zone failover | Regional failover | Regional load balanced |
 | **Deployment Complexity** | Low | Medium | Medium | High | High |
 | **Compute Options** | Virtual Server or Bare Metal | Virtual Server | Virtual Server or Bare Metal | Virtual Server | Virtual Server |
-| **Failover Method** | N/A | Network Load Balancer | Virtual Server: SDN Connector<br>Bare Metal: VNI Floating |
-  SDN Connector | BGP over GRE |
-| **SDN Connector Required** | No | No (uses NLB) | Virtual Server: Yes (Fortinet native)<br>Bare Metal: No (uses VNI) |
-  Yes (Fortinet native) | No (uses BGP) |
-| **Performance** | [See Performance Factors](#performance-factors) |
-  [See Performance Factors](#performance-factors) |
-  [See Performance Factors](#performance-factors) |
-  [See Performance Factors](#performance-factors) |
-  [See Performance Factors](#performance-factors) |
+| **Failover Method** | N/A | Network Load Balancer | Virtual Server: SDN Connector<br>Bare Metal: VNI Floating | SDN Connector | BGP over GRE |
+| **SDN Connector Required** | No | No (uses NLB) | Virtual Server: Yes (Fortinet native)<br>Bare Metal: No (uses VNI) | Yes (Fortinet native) | No (uses BGP) |
+| **Performance** | [See Performance Factors](#performance-factors) | [See Performance Factors](#performance-factors) | [See Performance Factors](#performance-factors) | [See Performance Factors](#performance-factors) | [See Performance Factors](#performance-factors) |
 | **Public Address Range Support** | Yes | Yes | Yes | Yes (Fortinet native integration) | Yes |
-| **Supported Vendors** | All |  All | Fortinet (native), Others (custom code) | Fortinet (native), Others (custom code) | BGP-capable vendors |
+| **Supported Vendors** | All | All | Fortinet (native), Others (custom code) | Fortinet (native), Others (custom code) | BGP-capable vendors |
 | **Use Case** | Dev/Test, Small workloads | High throughput via scaling | Production (zone-level resilience) | Production (regional resilience) | High throughput + regional resilience |
-| **Licensing** | BYOL| BYOL | BYOL | BYOL | BYOL |
+| **Licensing** | BYOL | BYOL | BYOL | BYOL | BYOL |
+{: caption="Comparison of firewall deployment patterns" caption-side="bottom"}
 {: caption="Comparison of firewall deployment patterns" caption-side="bottom"}
 
 ## Common network patterns
