@@ -7,7 +7,7 @@ lastupdated: "2026-04-06"
 keywords: vpc firewall, firewall deployment, high availability, fortinet,
   palo alto, juniper, check point, f5, transit vpc, sdn connector
 
-subcollection: classic-to-vpc
+subcollection: dl
 
 ---
 
