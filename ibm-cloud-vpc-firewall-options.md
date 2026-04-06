@@ -15,30 +15,21 @@ subcollection: dl
 
 
 
-# Firewall deployment options for VPC
+# {{site.data.keyword.vpc_short}} firewall options
 {: #vpc-firewall-options}
 
-Firewall deployment options are available for
-{{site.data.keyword.vpc_full}}, including standalone, active/passive, and
-active/active high availability configurations across single and multiple
-availability zones.
+Firewall deployment options are available for {{site.data.keyword.vpc_full}}, including standalone, active/passive, and
+active/active high availability configurations across single and multiple availability zones.
 {: shortdesc}
 
-{{site.data.keyword.vpc_short}} is a Layer 3 Software-Defined Network (SDN)
-that offers flexible firewall deployment options to meet various security and
-availability requirements. Unlike IBM Cloud Classic infrastructure, which uses
-a Layer 2 network architecture, VPC uses a Layer 3 SDN architecture with
-multiple firewall implementation patterns.
+{{site.data.keyword.vpc_short}} is a Layer 3 Software-Defined Network (SDN) that offers flexible firewall deployment options to meet various security and availability requirements. Unlike IBM Cloud Classic infrastructure, which uses a Layer 2 network architecture, VPC uses a Layer 3 SDN architecture with multiple firewall implementation patterns.
 
-The following sections describe the characteristics, available solutions, and
-implementation options for each firewall deployment pattern.
+The following sections describe the characteristics, available solutions, and implementation options for each firewall deployment pattern.
 
-## Firewall deployment patterns
-{: #firewall-deployment-patterns}
+## Comparision of firewall deployment options
+{: #firewall-deployment-option-comparison}
 
-{{site.data.keyword.vpc_short}} supports multiple firewall deployment patterns
-that provide different levels of availability, scalability, and operational
-complexity.
+{{site.data.keyword.vpc_short}} supports multiple firewall deployment patterns that provide different levels of availability, scalability, and operational complexity.
 
 | Feature | [Standalone](#standalone-deployment) | [Active/Active HA (Single Zone)](#active-active-ha-single-zone) | [Active/Passive HA (Single Zone)](#activepassive-ha-single-zone) | [Active/Passive HA (Multizone)](#activepassive-ha-multizone) | [Active/Active HA (Multizone)](#activeactive-ha-multizone) |
 |---------|-------------------------------------|---------------------------------------------|----------------------------------------------|----------------------------------------------|---------------------------------------------|
@@ -54,18 +45,15 @@ complexity.
 | **Licensing** | BYOL | BYOL | BYOL | BYOL | BYOL |
 {: caption="Comparison of firewall deployment patterns" caption-side="bottom"}
 
-## Common network patterns
-{: #common-network-patterns}
+## Common deployment patterns
+{: #common-deployment-patterns}
 
-Firewall deployments in VPC are commonly implemented using standard network
-patterns to control and inspect traffic flows.
+Firewall deployments in VPC are commonly implemented using standard network patterns to control and inspect traffic flows.
 
 ### Transit VPC (Hub and Spoke)
 {: #transit-vpc-pattern}
 
-A centralized VPC that acts as a hub for routing traffic between multiple
-spoke VPCs and on-premises networks. Firewalls are typically deployed in the
-transit VPC to inspect and control traffic flows.
+A centralized VPC that acts as a hub for routing traffic between multiple spoke VPCs and on-premises networks. Firewalls are typically deployed in the transit VPC to inspect and control traffic flows.
 
 This pattern centralizes security and simplifies route management.
 
@@ -90,19 +78,16 @@ This is the simplest and most cost-effective deployment pattern.
 ### Standalone deployment
 {: #standalone-deployment}
 
-A single firewall instance without high availability. This deployment is
-suitable for development, testing, or non-critical workloads.
+A single firewall instance without high availability. This deployment is suitable for development, testing, or non-critical workloads.
 
-#### Characteristics
-{: #standalone-characteristics}
+**Characteristics:**
 
 - Simplest deployment model
 - No automatic failover
 - Lower cost
 - Any vendor supported
 
-#### Available solutions
-{: #standalone-solutions}
+**Available solutions:**
 
 The following table outlines the available standalone firewall solutions from leading vendors, along with their corresponding products and catalog links.
 
@@ -115,8 +100,7 @@ The following table outlines the available standalone firewall solutions from le
 | F5 | BIG-IP Virtual Edition for VPC | [Catalog](/catalog/content/ibmcloud_schematics_bigip_multinic_declared-1.0-d33f1544-e938-478a-b0dd-d883370f08d0-global) |
 {: caption="Available standalone firewall solutions" caption-side="bottom"}
 
-#### Best for:
-{: #standalone-best-for}
+**Best for:**
 
 - Development and testing environments
 - Non-critical workloads
@@ -128,8 +112,7 @@ The following table outlines the available standalone firewall solutions from le
 
 Multiple firewall instances actively processing traffic simultaneously within a single zone, using a network load balancer for traffic distribution.
 
-#### Characteristics
-{: #active-active-single-zone-characteristics}
+**Characteristics:**
 
 * Load balancing across multiple firewalls
 * Higher throughput capacity
@@ -139,30 +122,25 @@ Multiple firewall instances actively processing traffic simultaneously within a 
 ### Active/Passive HA (Single Zone)
 {: #active-passive-single-zone}
 
-Two firewall instances in an active/passive configuration within a single
-availability zone. The passive instance takes over if the active instance
-fails.
+Two firewall instances in an active/passive configuration within a single availability zone. The passive instance takes over if the active instance fails.
 
 This deployment provides zone-level redundancy for production workloads.
 
-#### Characteristics
-{: #active-passive-single-zone-characteristics}
+**Characteristics:**
 
 - Zone-level high availability
 - Automatic failover using SDN Connector
 - Supports virtual server instance and Bare Metal deployments
 - Tested with Fortinet and Palo Alto
 
-#### Available solutions
-{: #active-passive-single-zone-solutions}
+**Available solutions:**
 
 | Vendor | Product | Catalog Link |
 |--------|---------|--------------|
 | Fortinet | FortiGate Next-Generation Firewall - A/P HA | [Catalog](/catalog/content/ibm-fortigate-AP-HA-terraform-deploy-5dd3e4ba-c94b-43ab-b416-c1c313479cec-global) |
 {: caption="Available Active/Passive HA (Single Zone) solutions" caption-side="bottom"}
 
-#### Implementation options
-{: #active-passive-single-zone-implementation}
+Implementation options are as follows:
 
 ##### Virtual server instances
 {: #vsi-implementation}
@@ -174,58 +152,52 @@ This deployment provides zone-level redundancy for production workloads.
 ### Active/Passive HA (Multizone)
 {: #active-passive-multizone}
 
-Two firewall instances in an active/passive configuration across multiple
-availability zones, providing regional-level high availability.
+Two firewall instances in an active/passive configuration across multiple availability zones, providing regional-level high availability.
 
-#### Characteristics
-{: #active-passive-multizone-characteristics}
+**Characteristics:**
 
 - Regional high availability
 - Protection against zone failures
 - Automatic failover across zones
 - Currently optimized for Fortinet
 
-#### Available solutions
-{: #active-passive-multizone-solutions}
+**Available solutions:**
 
 | Vendor | Product | Catalog Link |
 |--------|---------|--------------|
 | Fortinet | FortiGate Next-Generation Firewall - Cross Zone HA | [Catalog](/catalog/content/ibm-fortigate-cross-zone-ha-par-terraform-deploy-9a7c26d7-83c6-45bc-b145-e65d54c2d009-global) |
 {: caption="Available Active/Passive HA (Multizone) solutions" caption-side="bottom"}
 
-#### Best for:
-{: #active-passive-multizone-best-for}
+**Best for:**
 
 - Mission-critical production workloads
 - Applications requiring maximum availability
 - Compliance requirements for regional resilience
 - Disaster recovery scenarios
 
-SDN Connector with cross-zone awareness automatically updates routing when
-zone failure occurs.
+**Failover method:**
 
-### Cross-zone failover
-{: #cross-zone-failover}
+SDN Connector with cross-zone awareness automatically updates routing when zone failure occurs.
+
+### Cross-zone failover technical details
+{: #cross-zone-failover-tech-details}
 
 Cross-zone failover is more complex than single-zone failover due to
 zone-specific routing requirements and the need to update zone bindings.
 
-#### Vendor support
-{: #cross-zone-vendor-support}
+**Vendor support:**
 
 * **Fortinet FortiGate**: Native SDN Connector with cross-zone support and automatic public address range zone binding updates
 * **Other Vendors**: Must implement custom automation for cross-zone failover
 
-#### Failover process
-{: #cross-zone-failover-process}
+**Failover process:**
 
 1. **Detection**: SDN Connector detects zone failure or active node change
 1. **Route Updates**: Updates all routes pointing to old active node
 1. **Zone Binding**: Updates route zone to match new active node's zone
 1. **Public Address Range Updates**: If using Public Address Ranges for VPC, updates public address range zone binding (Fortinet only). Public address ranges support Public IPs across multiple zones.
 
-#### Route update pattern
-{: #cross-zone-route-update}
+**Route update pattern:**
 
 For each route pointing to old active node:
 
@@ -236,8 +208,7 @@ For each route pointing to old active node:
    - New next_hop IP (new active node)
    - New zone (new active node's zone)
 
-#### Key points
-{: #cross-zone-key-points}
+**Key points:**
 
 - Failover typically completes in seconds
 - Brief traffic interruption during route updates
@@ -250,30 +221,26 @@ For each route pointing to old active node:
 
 Public address ranges enable public-facing applications to preserve source IP addresses without NAT, while still routing through firewalls for inspection and security.
 
-#### What is Public Address Ranges for VPC?
-{: #what-is-par}
+**What is Public Address Ranges for VPC?**
 
 * Public subnet bound to specific VPC and zone
 * Used in routing tables with "Public Internet" as traffic source
 * Preserves source IP (no NAT by VPC infrastructure)
 * Firewall can perform NAT if needed for backend applications
 
-#### Vendor support
-{: #par-vendor-support}
+**Vendor support:**
 
 * **Fortinet FortiGate**: Native Public Address Range integration with automatic zone binding updates during cross-zone failover (FortiOS 7.6.3+)
 * **Other Vendors**: Can use public address ranges but must implement custom automation for zone binding updates
 
-#### Use cases
-{: #par-use-cases}
+**Use cases:**
 
 * Public-facing web applications requiring source IP visibility
 * Services with IP-based access control or logging requirements
 * Compliance requirements for IP address logging
 * DDoS protection with source IP preservation
 
-#### How public address ranges work with firewalls
-{: #par-how-it-works}
+**How public address ranges work with firewalls:**
 
 1. A public address range is created and bound to a VPC and specific zone
 1. Routing table configured with public address range CIDR as destination
@@ -282,8 +249,7 @@ Public address ranges enable public-facing applications to preserve source IP ad
 1. Firewall inspects and forwards to backend applications
 1. Source IP preserved throughout the flow
 
-#### Cross-zone failover with public address ranges (Fortinet only)
-{: #par-cross-zone-failover}
+**Cross-zone failover with public address ranges (Fortinet only):**
 
 When active firewall node moves to different zone, Fortinet's SDN Connector automatically:
 
@@ -291,29 +257,26 @@ When active firewall node moves to different zone, Fortinet's SDN Connector auto
 1. Updates public address range zone binding to match new active node's zone
 1. Ensures traffic continuity through new active node
 
-#### Benefits
-{: #par-benefits}
+**Benefits:**
 
 * Source IP preservation for security and compliance
 * Transparent firewall operation for public traffic
 * Automatic failover with public address range zone binding updates (Fortinet only)
 * No application changes required
 
-### Route Mode Network Load Balancer
-{: #route-mode-nlb}
+### Route Mode Network Load Balancer technical details
+{: #route-mode-nlb-technical-details}
 
 Route mode is a special feature of an {{site.data.keyword.cloud_notm}} network load balancer that enables transparent firewall deployments in Active/Active configurations.
 
-#### How Route Mode works
-{: #route-mode-how-it-works}
+**How Route Mode works:**
 
 - Preserves source and destination IP addresses (no NAT)
 - Acts as "bump in the wire" for traffic inspection
 - Distributes traffic across multiple firewall instances
 - Maintains session affinity for stateful inspection
 
-#### Traffic flow
-{: #route-mode-traffic-flow}
+**Traffic flow:**
 
 ```text
 REQUEST:  Client → VPC Routing Table → NLB (Route Mode) → Firewall →
@@ -322,8 +285,7 @@ RESPONSE: Server → VPC Routing Table → NLB (Route Mode) → Same Firewall �
           Client
 ```
 
-#### Key characteristics
-{: #route-mode-characteristics}
+**Key characteristics:**
 
 - **Transparent Operation**: Client and server see each other's real IPs
 - **No NAT**: Source and destination IPs preserved throughout flow
@@ -331,8 +293,7 @@ RESPONSE: Server → VPC Routing Table → NLB (Route Mode) → Same Firewall �
 - **Load Distribution**: Traffic distributed across active firewall instances
 - **Vendor Agnostic**: Works with any firewall vendor
 
-#### Configuration requirements
-{: #route-mode-configuration}
+**Configuration requirements:**
 
 - Network load balancer with route mode enabled
 - IP spoofing enabled on firewall interfaces
@@ -340,8 +301,7 @@ RESPONSE: Server → VPC Routing Table → NLB (Route Mode) → Same Firewall �
 - Routing tables configured to use NLB as next hop
 - Firewall instances configured as backend pool members
 
-#### Routing table configuration
-{: #route-mode-routing-config}
+**Routing table configuration**
 
 Egress Routing Table (Client VPC):
 
@@ -355,8 +315,7 @@ Egress Routing Table (Server VPC):
 - Next Hop: NLB IP address
 - Action: Deliver
 
-#### Performance characteristics
-{: #route-mode-performance}
+**Performance characteristics:**
 
 - Lower latency than application load balancers
 - Horizontal scaling by adding firewall instances
@@ -364,8 +323,7 @@ Egress Routing Table (Server VPC):
 - Throughput scales with number of firewall instances
 - Vendor-agnostic solution supports any firewall
 
-#### Benefits
-{: #route-mode-benefits}
+**Benefits:**
 
 - **Scalability**: Add firewall instances to increase capacity
 - **High Availability**: Multiple active instances provide redundancy
@@ -381,31 +339,27 @@ For more information, see [Virtual firewall appliances with network load balance
 Multiple firewall instances actively processing traffic across multiple
 availability zones, using BGP for dynamic routing and failover.
 
-#### Characteristics
-{: #active-active-multizone-characteristics}
+**Characteristics:**
 
 - Regional high availability with load balancing
 - Highest throughput and resilience
 - Requires BGP support
 - Most complex deployment
 
-#### Implementation
-{: #active-active-multizone-implementation}
+**Implementation:**
 
 - Firewall must support BGP routing protocol
 - Any vendor with BGP capability is supported
 - For more information, see [Virtual firewall appliances with BGP Over GRE](/docs/pattern-transit-vpc?topic=pattern-transit-vpc-transit-vpc#Virtual-firewall-Appliances-with-BGP-over-GRE).
 
-#### Best for:
-{: #active-active-multizone-best-for}
+**Best for:**
 
 * Enterprise-scale deployments
 * Maximum throughput and availability requirements
 * Complex routing scenarios
 * Multi-region architectures
 
-BGP over GRE tunnels provides dynamic routing and automatic failover across
-zones.
+BGP over GRE tunnels provides dynamic routing and automatic failover across zones.
 
 ## Licensing models
 {: #licensing-models}
@@ -437,14 +391,14 @@ BYOL options will continue to be available for customers who prefer direct vendo
 
 IBM Cloud Classic uses a Layer 2 network architecture with six primary firewall offerings:
 
-#### Gateway Appliances (Still Available)
+#### Gateway Appliances (still available)
 {: #gateway-appliances}
 
-* For information about Virtual FortiGate (vFSA), see [Getting started with Fortigate Security Appliance](/docs/vfsa?topic=vfsa-getting-started-vfsa).
+* Virtual FortiGate (vFSA) (see [Getting started with Fortigate Security Appliance](/docs/vfsa?topic=vfsa-getting-started-vfsa))
 
-* For information about Virtual Juniper vSRX, see [Getting started with IBM Cloud Juniper vSRX](/docs/vsrx?topic=vsrx-getting-started-vsrx).
+* Virtual Juniper vSRX (see [Getting started with IBM Cloud Juniper vSRX](/docs/vsrx?topic=vsrx-getting-started-vsrx)).
 
-* For information about Virtual Router Appliance (Vyatta/VRA), see [Getting started with IBM Virtual Router Appliance](/docs/virtual-router-appliance).
+* Virtual Router Appliance (Vyatta/VRA) (see [Getting started with IBM Virtual Router Appliance](/docs/virtual-router-appliance))
 
 For more information, see [Getting started with IBM Cloud Gateway Appliance](/docs/gateway-appliance?topic=gateway-appliance-getting-started-ga).
 {: note}
@@ -452,8 +406,8 @@ For more information, see [Getting started with IBM Cloud Gateway Appliance](/do
 #### Deprecated physical firewalls
 {: #deprecated-firewalls}
 
-*  For information about FortiGate 10G, see [Exploring Firewalls](/docs/fortigate-10g?topic=fortigate-10g-exploring-firewalls).
-* For information about Hardware Firewall (Shared), see [Getting started with Hardware Firewall (Shared)](/docs/hardware-firewall-shared).
+* FortiGate 10G (see [Exploring Firewalls](/docs/fortigate-10g?topic=fortigate-10g-exploring-firewalls))
+* Hardware Firewall (Shared) (see [Getting started with Hardware Firewall (Shared)](/docs/hardware-firewall-shared))
 
 ### Key differences: Classic versus VPC
 {: #classic-vs-vpc}
@@ -524,6 +478,14 @@ appropriate deployment configuration.
 * **Significant Limitations**: Requires manual hypervisor and VM configuration, monthly billing only, limited scaling flexibility, customer-managed OS and software
 * **Recommendation**: Consider virtual server instance deployments first due to operational simplicity and flexibility
 
+#### Key recommendations
+{: #performance-recommendations}
+
+1. **Match License to Profile**: Ensure virtual server instance profile vCPU count matches or exceeds firewall license vCPU entitlement
+1. **Use Gen 4 Profiles**: Bandwidth pooling provides better flexibility for multi-interface firewalls
+1. **Start with virtual server instances**: Virtual server instance deployments offer better flexibility, easier management, and hourly billing
+1. **Test Performance**: Validate actual throughput meets requirements before production deployment
+
 #### Gen 4 virtual server instance profile examples
 {: #gen4-vsi-profiles}
 
@@ -549,13 +511,38 @@ Gen 4 profiles feature bandwidth pooling across all interfaces. For complete pro
 - **Multizone HA:** Higher cost, maximum availability
 - **Virtual server instance versus Bare Metal:** Virtual server instances offer hourly billing and operational flexibility; bare metal requires monthly billing and manual management.
 
-## Related links
-{: #related-links}
+## Additional resources
+{: #additional-resources}
 
-* [Securing multiple landing zones with a transit VPC and advanced security capabilities](/docs/pattern-transit-vpc?topic=pattern-transit-vpc-transit-vpc)
-* [About networking](/docs/vpc?topic=vpc-about-networking-for-vpc)
-* [IBM Cloud Catalog - Network Security](/catalog?category=network_security)
-* [Getting help and support](/docs/get-support)
+### IBM Cloud documentation
+{: #cloud-docs}
+
+- [Transit VPC Pattern](/docs/pattern-transit-vpc?topic=pattern-transit-vpc-transit-vpc)
+- [VPC Networking Overview](/docs/vpc?topic=vpc-about-networking-for-vpc)
+- [IBM Cloud Catalog - Network Security](/catalog?category=network_security)
+
+### Vendor documentation
+{: #vendor-docs}
+
+- **Fortinet:** FortiGate documentation for IBM Cloud VPC deployments
+- **Palo Alto:** VM-Series deployment guides
+- **Juniper:** vSRX configuration guides
+- **Check Point:** CloudGuard deployment documentation
+- **F5:** BIG-IP VE deployment guides
+
+### Support
+{: #ibm-support}
+
+- **IBM Cloud Support:** For infrastructure and platform issues
+- **Vendor Support:** For firewall configuration and licensing (BYOL)
+- **IBM Support (Q2 2026):** For IBM-licensed Fortinet offerings
+
+## Summary
+{: #summary}
+
+IBM Cloud VPC offers flexible firewall deployment options to meet diverse security and availability requirements. Whether you need a simple standalone deployment for development or a complex multi-zone active/active configuration for enterprise workloads, VPC provides the necessary tools and patterns.
+
+For assistance with firewall deployment planning or migration from Classic infrastructure, contact IBM Cloud Support or your IBM representative.
 
 ## Reference (Placeholder)
 {: #reference}
@@ -630,16 +617,7 @@ For more information, see [Virtual firewalls on VPC Bare Metal servers](/docs/pa
 Virtual server instance deployments are recommended for most use cases due to flexibility, ease of management, and hourly billing.
 {: tip}
 
-#### Best for:
-{: #bare-metal-best-for}
+**Best for:**
 
 * Production workloads requiring zone-level resilience
 * Applications that can tolerate zone-level outages
-
-#### Key recommendations
-{: #performance-recommendations}
-
-1. **Match License to Profile**: Ensure virtual server instance profile vCPU count matches or exceeds firewall license vCPU entitlement
-1. **Use Gen 4 Profiles**: Bandwidth pooling provides better flexibility for multi-interface firewalls
-1. **Start with virtual server instances**: Virtual server instance deployments offer better flexibility, easier management, and hourly billing
-1. **Test Performance**: Validate actual throughput meets requirements before production deployment
