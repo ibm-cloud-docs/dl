@@ -440,25 +440,20 @@ IBM Cloud Classic uses a Layer 2 network architecture with six primary firewall 
 #### Gateway Appliances (Still Available)
 {: #gateway-appliances}
 
-:   Virtual FortiGate (vFSA)
+* For information about Virtual FortiGate (vFSA), see [Getting started with Fortigate Security Appliance](/docs/vfsa?topic=vfsa-getting-started-vfsa).
 
-    * See [Getting started with Fortigate Security Appliance](/docs/vfsa?topic=vfsa-getting-started-vfsa).
+* For information about Virtual Juniper vSRX, see [Getting started with IBM Cloud Juniper vSRX](/docs/vsrx?topic=vsrx-getting-started-vsrx).
 
-:   Virtual Juniper vSRX
-
-    * See [Getting started with IBM Cloud Juniper vSRX](/docs/vsrx?topic=vsrx-getting-started-vsrx).
-
-:   Virtual Router Appliance (Vyatta/VRA)
-
-    * See [Getting started with IBM Virtual Router Appliance](/docs/virtual-router-appliance).
+* For information about Virtual Router Appliance (Vyatta/VRA), see [Getting started with IBM Virtual Router Appliance](/docs/virtual-router-appliance).
 
 For more information, see [Getting started with IBM Cloud Gateway Appliance](/docs/gateway-appliance?topic=gateway-appliance-getting-started-ga).
+{: note}
 
 #### Deprecated physical firewalls
 {: #deprecated-firewalls}
 
-*  FortiGate 10G: See [Exploring Firewalls](/docs/fortigate-10g?topic=fortigate-10g-exploring-firewalls).
-* Hardware Firewall (Shared): See [Getting started with Hardware Firewall (Shared)](/docs/hardware-firewall-shared).
+*  For information about FortiGate 10G, see [Exploring Firewalls](/docs/fortigate-10g?topic=fortigate-10g-exploring-firewalls).
+* For information about Hardware Firewall (Shared), see [Getting started with Hardware Firewall (Shared)](/docs/hardware-firewall-shared).
 
 ### Key differences: Classic versus VPC
 {: #classic-vs-vpc}
@@ -554,11 +549,11 @@ Gen 4 profiles feature bandwidth pooling across all interfaces. For complete pro
 - **Multizone HA:** Higher cost, maximum availability
 - **Virtual server instance versus Bare Metal:** Virtual server instances offer hourly billing and operational flexibility; bare metal requires monthly billing and manual management.
 
-## Next steps
-{: #next-steps}
+## Related links
+{: #related-links}
 
-* [Transit VPC Pattern](/docs/pattern-transit-vpc?topic=pattern-transit-vpc-transit-vpc)
-* [VPC Networking Overview](/docs/vpc?topic=vpc-about-networking-for-vpc)
+* [Securing multiple landing zones with a transit VPC and advanced security capabilities](/docs/pattern-transit-vpc?topic=pattern-transit-vpc-transit-vpc)
+* [About networking](/docs/vpc?topic=vpc-about-networking-for-vpc)
 * [IBM Cloud Catalog - Network Security](/catalog?category=network_security)
 * [Getting help and support](/docs/get-support)
 
