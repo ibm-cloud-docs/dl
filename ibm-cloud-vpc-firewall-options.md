@@ -45,8 +45,8 @@ complexity.
 | **High Availability** | None | Load balanced | Single zone failover | Regional failover | Regional load balanced |
 | **Deployment Complexity** | Low | Medium | Medium | High | High |
 | **Compute Options** | Virtual Server or Bare Metal | Virtual Server | Virtual Server or Bare Metal | Virtual Server | Virtual Server |
-| **Failover Method** | N/A | Network Load Balancer | Virtual Server: SDN Connector<br>Bare Metal: VNI Floating | SDN Connector | BGP over GRE |
-| **SDN Connector Required** | No | No (uses NLB) | Virtual Server: Yes (Fortinet native)<br>Bare Metal: No (uses VNI) | Yes (Fortinet native) | No (uses BGP) |
+| **Failover Method** | N/A | Network Load Balancer | Virtual Server: SDN Connector /n Bare Metal: VNI Floating | SDN Connector | BGP over GRE |
+| **SDN Connector Required** | No | No (uses NLB) | Virtual Server: Yes (Fortinet native) /n Bare Metal: No (uses VNI) | Yes (Fortinet native) | No (uses BGP) |
 | **Performance** | [See Performance Factors](#performance-factors) | [See Performance Factors](#performance-factors) | [See Performance Factors](#performance-factors) | [See Performance Factors](#performance-factors) | [See Performance Factors](#performance-factors) |
 | **Public Address Range Support** | Yes | Yes | Yes | Yes (Fortinet native integration) | Yes |
 | **Supported Vendors** | All | All | Fortinet (native), Others (custom code) | Fortinet (native), Others (custom code) | BGP-capable vendors |
@@ -145,10 +145,8 @@ This deployment provides zone-level redundancy for production workloads.
 
 | Vendor | Product | Catalog Link |
 |--------|---------|--------------|
-| Fortinet | FortiGate Next-Generation Firewall - A/P HA |
-  [Catalog](/catalog/content/ibm-fortigate-AP-HA-terraform-deploy-5dd3e4ba-c94b-43ab-b416-c1c313479cec-global) |
-{: caption="Available Active/Passive HA (Single Zone) solutions"
-  caption-side="bottom"}
+| Fortinet | FortiGate Next-Generation Firewall - A/P HA | [Catalog](/catalog/content/ibm-fortigate-AP-HA-terraform-deploy-5dd3e4ba-c94b-43ab-b416-c1c313479cec-global) |
+{: caption="Available Active/Passive HA (Single Zone) solutions" caption-side="bottom"}
 
 #### Implementation options
 {: #active-passive-single-zone-implementation}
@@ -226,10 +224,8 @@ availability zones, providing regional-level high availability.
 
 | Vendor | Product | Catalog Link |
 |--------|---------|--------------|
-| Fortinet | FortiGate Next-Generation Firewall - Cross Zone HA |
-  [Catalog](/catalog/content/ibm-fortigate-cross-zone-ha-par-terraform-deploy-9a7c26d7-83c6-45bc-b145-e65d54c2d009-global) |
-{: caption="Available Active/Passive HA (Multi-Zone) solutions"
-  caption-side="bottom"}
+| Fortinet | FortiGate Next-Generation Firewall - Cross Zone HA | [Catalog](/catalog/content/ibm-fortigate-cross-zone-ha-par-terraform-deploy-9a7c26d7-83c6-45bc-b145-e65d54c2d009-global) |
+{: caption="Available Active/Passive HA (Multi-Zone) solutions" caption-side="bottom"}
 
 #### Best for
 {: #active-passive-multizone-best-for}
@@ -376,7 +372,7 @@ configurations.
 #### Traffic flow
 {: #route-mode-traffic-flow}
 
-```
+```text
 REQUEST:  Client → VPC Routing Table → NLB (Route Mode) → Firewall →
           Server
 RESPONSE: Server → VPC Routing Table → NLB (Route Mode) → Same Firewall →
@@ -527,13 +523,10 @@ For more information, see
 | Aspect | IBM Cloud Classic | IBM Cloud VPC |
 |--------|-------------------|---------------|
 | **Network Architecture** | Layer 2 | Layer 3 SDN |
-| **Licensing** | IBM-licensed (except BYOL Gateway) |
-  BYOL (IBM-licensed coming soon for Fortinet) |
+| **Licensing** | IBM-licensed (except BYOL Gateway) | BYOL (IBM-licensed coming soon for Fortinet) |
 | **High Availability** | A/P Single Data Center Pod | Multiple HA patterns |
-| **Deployment Flexibility** | Physical and Bare Metal |
-  Virtual (Virtual Server Instance and Bare Metal) |
-{: caption="Key differences between Classic and VPC infrastructure"
-  caption-side="bottom"}
+| **Deployment Flexibility** | Physical and Bare Metal | Virtual (Virtual Server Instance and Bare Metal) |
+{: caption="Key differences between Classic and VPC infrastructure" caption-side="bottom"}
 
 ### Migration considerations for gateway devices
 {: #migration-considerations}
