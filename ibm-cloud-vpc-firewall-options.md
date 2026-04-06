@@ -606,7 +606,7 @@ Bare metal deployments do "not" use SDN Connector. They use virtual network floa
 - No external monitoring required
 - Integrated with firewall HA mechanism (Fortinet only)
 
-#### Bare Metal Servers
+### Bare Metal Servers
 {: #bare-metal-servers-reference}
 
 Bare metal servers provide dedicated hardware resources but require significant manual configuration and management.
