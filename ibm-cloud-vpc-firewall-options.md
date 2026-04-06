@@ -40,7 +40,7 @@ implementation options for each firewall deployment pattern.
 that provide different levels of availability, scalability, and operational
 complexity.
 
-| Feature | [Standalone](#standalone-deployment) | [Active/Active HA (Single Zone)](#activeactive-ha-single-zone) | [Active/Passive HA (Single Zone)](#activepassive-ha-single-zone) | [Active/Passive HA (Multi-Zone)](#activepassive-ha-multizone) | [Active/Active HA (Multi-Zone)](#activeactive-ha-multizone) |
+| Feature | [Standalone](#standalone-deployment) | [Active/Active HA (Single Zone)](#activeactive-ha-single-zone) | [Active/Passive HA (Single Zone)](#activepassive-ha-single-zone) | [Active/Passive HA (Multizone)](#activepassive-ha-multizone) | [Active/Active HA (Multizone)](#activeactive-ha-multizone) |
 |---------|-------------------------------------|---------------------------------------------|----------------------------------------------|----------------------------------------------|---------------------------------------------|
 | **High Availability** | None | Load balanced | Single zone failover | Regional failover | Regional load balanced |
 | **Deployment Complexity** | Low | Medium | Medium | High | High |
@@ -238,7 +238,7 @@ availability zones, providing regional-level high availability.
 | Vendor | Product | Catalog Link |
 |--------|---------|--------------|
 | Fortinet | FortiGate Next-Generation Firewall - Cross Zone HA | [Catalog](/catalog/content/ibm-fortigate-cross-zone-ha-par-terraform-deploy-9a7c26d7-83c6-45bc-b145-e65d54c2d009-global) |
-{: caption="Available Active/Passive HA (Multi-Zone) solutions" caption-side="bottom"}
+{: caption="Available Active/Passive HA (Multizone) solutions" caption-side="bottom"}
 
 #### Best for:
 {: #active-passive-multizone-best-for}
@@ -269,8 +269,7 @@ zone-specific routing requirements and the need to update zone bindings.
 1. **Detection**: SDN Connector detects zone failure or active node change
 1. **Route Updates**: Updates all routes pointing to old active node
 1. **Zone Binding**: Updates route zone to match new active node's zone
-1. **Public Address Range Updates**: If using Public Address Ranges for VPC,
-   updates public address range zone binding (Fortinet only). Public address ranges support Public IPs across multiple zones.
+1. **Public Address Range Updates**: If using Public Address Ranges for VPC, updates public address range zone binding (Fortinet only). Public address ranges support Public IPs across multiple zones.
 
 #### Route update pattern
 {: #cross-zone-route-update}
@@ -290,16 +289,13 @@ For each route pointing to old active node:
 - Failover typically completes in seconds
 - Brief traffic interruption during route updates
 - Automatic recovery without manual intervention (Fortinet only)
-- VPC routing table routes cannot be updated with new zone via PATCH (must
-  use DELETE/CREATE)
+- VPC routing table routes cannot be updated with new zone via PATCH (must use DELETE/CREATE)
 - Floating IPs cannot move across zones (VPC limitation). Floating IPs support Public IP access within a single zone.
 
 ### Public Address Range integration
 {: #par-integration}
 
-Public address ranges enable public-facing applications to preserve source IP
-addresses without NAT, while still routing through firewalls for inspection
-and security.
+Public address ranges enable public-facing applications to preserve source IP addresses without NAT, while still routing through firewalls for inspection and security.
 
 #### What is Public Address Ranges for VPC?
 {: #what-is-par}
@@ -353,9 +349,7 @@ When active firewall node moves to different zone, Fortinet's SDN Connector auto
 ### Route Mode Network Load Balancer
 {: #route-mode-nlb}
 
-Route Mode is a special feature of {{site.data.keyword.cloud_notm}} Network
-Load Balancer that enables transparent firewall deployments in Active/Active
-configurations.
+Route Mode is a special feature of {{site.data.keyword.cloud_notm}} Network Load Balancer that enables transparent firewall deployments in Active/Active configurations.
 
 #### How Route Mode works
 {: #route-mode-how-it-works}
@@ -454,10 +448,10 @@ availability zones, using BGP for dynamic routing and failover.
 #### Best for:
 {: #active-active-multizone-best-for}
 
-- Enterprise-scale deployments
-- Maximum throughput and availability requirements
-- Complex routing scenarios
-- Multi-region architectures
+* Enterprise-scale deployments
+* Maximum throughput and availability requirements
+* Complex routing scenarios
+* Multi-region architectures
 
 BGP over GRE tunnels provides dynamic routing and automatic failover across
 zones.
@@ -549,14 +543,10 @@ appropriate deployment configuration.
 #### Firewall license
 {: #firewall-license-performance}
 
-* **vCPU Count**: Firewall vendor licenses typically limit throughput based
-  on vCPU count
-* **Gating Factor**: The license vCPU limit is usually the primary constraint
-  on performance
-* **Example**: A 4-vCPU firewall license will limit throughput regardless of
-  virtual server instance profile size
-* **Recommendation**: Match virtual server instance profile vCPU count to
-  firewall license vCPU entitlement
+* **vCPU Count**: Firewall vendor licenses typically limit throughput based on vCPU count
+* **Gating Factor**: The license vCPU limit is usually the primary constraint on performance
+* **Example**: A 4-vCPU firewall license will limit throughput regardless of virtual server instance profile size
+* **Recommendation**: Match virtual server instance profile vCPU count to firewall license vCPU entitlement
 
 #### Virtual server instance profile selection
 {: #vsi-profile-selection}
@@ -598,10 +588,8 @@ Important Limitations
 
 :   Consider the following limitations:
 
-    - **Manual Configuration Required**: Hypervisor and all virtual machines must
-  be manually configured and managed by customer
-    - **Limited Flexibility**: Cannot scale out easily like virtual server
-  deployments
+    - **Manual Configuration Required**: Hypervisor and all virtual machines must be manually configured and managed by customer
+    - **Limited Flexibility**: Cannot scale out easily like virtual server deployments
     - **Billing**: Monthly billing only (no hourly billing option)
     - **Customer Managed**: Bare metal OS and all software are customer responsibility
     - **Complexity**: Requires expertise in hypervisor management and VM
@@ -609,15 +597,13 @@ Important Limitations
 
 Technical Details
 
-:   - **Key Difference**: Does "not" require SDN Connector - uses VNI floating
-      interface technology
+:   - **Key Difference**: Does "not" require SDN Connector - uses VNI floating interface technology
     - **Tested Vendors**: Fortinet (PCI Passthrough and macvtap), Palo Alto
       (macvtap)
 
 For more information, see [Virtual firewalls on VPC Bare Metal servers](/docs/pattern-transit-vpc?topic=pattern-transit-vpc-transit-vpc#Virtual-firewall-Appliances-on-VPC-Bare-Metals).
 
-Virtual server instance deployments are recommended for most use cases due to
-flexibility, ease of management, and hourly billing.
+Virtual server instance deployments are recommended for most use cases due to flexibility, ease of management, and hourly billing.
 {: tip}
 
 ##### Best for:
@@ -656,7 +642,7 @@ Gen 4 profiles feature bandwidth pooling across all interfaces. For complete pro
 
 - **Standalone:** Lowest cost, no redundancy
 - **Single Zone HA:** Moderate cost, good balance
-- **Multi-Zone HA:** Higher cost, maximum availability
+- **Multizone HA:** Higher cost, maximum availability
 - **Virtual server instance versus Bare Metal:** Virtual server instances offer hourly billing and operational flexibility; bare metal requires monthly billing and manual management.
 
 ## Next steps
