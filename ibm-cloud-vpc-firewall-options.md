@@ -535,12 +535,11 @@ Gen 4 profiles feature bandwidth pooling across all interfaces. For complete pro
 
 - **IBM Cloud Support:** For infrastructure and platform issues
 - **Vendor Support:** For firewall configuration and licensing (BYOL)
-- **IBM Support (Q2 2026):** For IBM-licensed Fortinet offerings
 
 ## Summary
 {: #summary}
 
-IBM Cloud VPC offers flexible firewall deployment options to meet diverse security and availability requirements. Whether you need a simple standalone deployment for development or a complex multi-zone active/active configuration for enterprise workloads, VPC provides the necessary tools and patterns.
+IBM Cloud VPC offers flexible firewall deployment options to meet diverse security and availability requirements. Whether you need a simple standalone deployment for development or a complex multizone active/active configuration for enterprise workloads, VPC provides the necessary tools and patterns.
 
 For assistance with firewall deployment planning or migration from Classic infrastructure, contact IBM Cloud Support or your IBM representative.
 
