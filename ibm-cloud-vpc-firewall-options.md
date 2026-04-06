@@ -40,19 +40,18 @@ implementation options for each firewall deployment pattern.
 that provide different levels of availability, scalability, and operational
 complexity.
 
-| Feature | [Standalone](#standalone-deployment) | [Active/Active HA (Single Zone)](#activeactive-ha-single-zone) | [Active/Passive HA (Single Zone)](#activepassive-ha-single-zone) | [Active/Passive HA (Multizone)](#activepassive-ha-multizone) | [Active/Active HA (Multizone)](#activeactive-ha-multizone) |
+| Feature | [Standalone](#standalone-deployment) | [Active/Active HA (Single Zone)](#active-active-ha-single-zone) | [Active/Passive HA (Single Zone)](#activepassive-ha-single-zone) | [Active/Passive HA (Multizone)](#activepassive-ha-multizone) | [Active/Active HA (Multizone)](#activeactive-ha-multizone) |
 |---------|-------------------------------------|---------------------------------------------|----------------------------------------------|----------------------------------------------|---------------------------------------------|
 | **High Availability** | None | Load balanced | Single zone failover | Regional failover | Regional load balanced |
 | **Deployment Complexity** | Low | Medium | Medium | High | High |
 | **Compute Options** | Virtual Server or Bare Metal | Virtual Server | Virtual Server or Bare Metal | Virtual Server | Virtual Server |
-| **Failover Method** | N/A | Network Load Balancer | Virtual Server: SDN Connector /n Bare Metal: VNI Floating | SDN Connector | BGP over GRE |
-| **SDN Connector Required** | No | No (uses NLB) | Virtual Server: Yes (Fortinet native) /n Bare Metal: No (uses VNI) | Yes (Fortinet native) | No (uses BGP) |
+| **Failover Method** | N/A | Network Load Balancer | Virtual Server: SDN Connector /n Bare Metal: Virtual Network Floating | SDN Connector | BGP over GRE |
+| **SDN Connector Required** | No | No (uses NLB) | Virtual Server: Yes (Fortinet native) /n Bare Metal: No (uses Virtual Server) | Yes (Fortinet native) | No (uses BGP) |
 | **Performance** | [See Performance Factors](#performance-factors) | [See Performance Factors](#performance-factors) | [See Performance Factors](#performance-factors) | [See Performance Factors](#performance-factors) | [See Performance Factors](#performance-factors) |
 | **Public Address Range Support** | Yes | Yes | Yes | Yes (Fortinet native integration) | Yes |
 | **Supported Vendors** | All | All | Fortinet (native), Others (custom code) | Fortinet (native), Others (custom code) | BGP-capable vendors |
 | **Use Case** | Dev/Test, Small workloads | High throughput via scaling | Production (zone-level resilience) | Production (regional resilience) | High throughput + regional resilience |
 | **Licensing** | BYOL | BYOL | BYOL | BYOL | BYOL |
-{: caption="Comparison of firewall deployment patterns" caption-side="bottom"}
 {: caption="Comparison of firewall deployment patterns" caption-side="bottom"}
 
 ## Common network patterns
@@ -127,8 +126,7 @@ The following table outlines the available standalone firewall solutions from le
 ### Active/Active HA (Single Zone)
 {: #active-active-single-zone}
 
-Multiple firewall instances actively processing traffic simultaneously within
-a single zone, using a Network Load Balancer for traffic distribution.
+Multiple firewall instances actively processing traffic simultaneously within a single zone, using a network load balancer for traffic distribution.
 
 #### Characteristics
 {: #active-active-single-zone-characteristics}
@@ -136,7 +134,7 @@ a single zone, using a Network Load Balancer for traffic distribution.
 * Load balancing across multiple firewalls
 * Higher throughput capacity
 * Vendor-agnostic solution
-* Uses Network Load Balancer (NLB) with Route mode
+* Uses a network load balancer with route mode
 
 ### Active/Passive HA (Single Zone)
 {: #active-passive-single-zone}
@@ -181,8 +179,7 @@ Active/Passive HA configurations for virtual server instance-based
 deployments. It monitors the firewall cluster and automatically updates VPC
 routing tables when failover occurs.
 
-Bare metal deployments do "not" use SDN Connector. They use VNI (Virtual
-Network Interface) floating interfaces instead.
+Bare metal deployments do "not" use SDN Connector. They use virtual network floating interfaces instead.
 {: important}
 
 #### Vendor support (virtual server instance only)
@@ -349,7 +346,7 @@ When active firewall node moves to different zone, Fortinet's SDN Connector auto
 ### Route Mode Network Load Balancer
 {: #route-mode-nlb}
 
-Route Mode is a special feature of {{site.data.keyword.cloud_notm}} Network Load Balancer that enables transparent firewall deployments in Active/Active configurations.
+Route mode is a special feature of an {{site.data.keyword.cloud_notm}} network load balancer that enables transparent firewall deployments in Active/Active configurations.
 
 #### How Route Mode works
 {: #route-mode-how-it-works}
@@ -381,7 +378,7 @@ RESPONSE: Server → VPC Routing Table → NLB (Route Mode) → Same Firewall �
 #### Configuration requirements
 {: #route-mode-configuration}
 
-- Network Load Balancer with Route Mode enabled
+- Network load balancer with route mode enabled
 - IP spoofing enabled on firewall interfaces
 - Proper security group rules allowing traffic
 - Routing tables configured to use NLB as next hop
@@ -420,8 +417,7 @@ Egress Routing Table (Server VPC):
 - **Simplicity**: No complex BGP configuration required
 - **Performance**: Efficient Layer 4 load balancing
 
-For more information, see
-[Virtual firewall appliances with network load balancer for traffic management](/docs/pattern-transit-vpc?topic=pattern-transit-vpc-transit-vpc#Virtual-firewall-Appliances-with-NLB).
+For more information, see [Virtual firewall appliances with network load balancer for traffic management](/docs/pattern-transit-vpc?topic=pattern-transit-vpc-transit-vpc#Virtual-firewall-Appliances-with-NLB).
 
 ### Active/Active HA (multizone)
 {: #active-active-multizone}
@@ -442,8 +438,7 @@ availability zones, using BGP for dynamic routing and failover.
 
 - Firewall must support BGP routing protocol
 - Any vendor with BGP capability is supported
-- For more information, see
-  [Virtual firewall appliances with BGP Over GRE](/docs/pattern-transit-vpc?topic=pattern-transit-vpc-transit-vpc#Virtual-firewall-Appliances-with-BGP-over-GRE).
+- For more information, see [Virtual firewall appliances with BGP Over GRE](/docs/pattern-transit-vpc?topic=pattern-transit-vpc-transit-vpc#Virtual-firewall-Appliances-with-BGP-over-GRE).
 
 #### Best for:
 {: #active-active-multizone-best-for}
@@ -489,17 +484,17 @@ IBM Cloud Classic uses a Layer 2 network architecture with six primary firewall 
 #### Gateway Appliances (Still Available)
 {: #gateway-appliances}
 
-:   Virtual FortiGate (vFSA)
+:  Virtual FortiGate (vFSA)
 
-    See [Getting started with Fortigate Security Appliance](/docs/vfsa?topic=vfsa-getting-started-vfsa).
+   See [Getting started with Fortigate Security Appliance](/docs/vfsa?topic=vfsa-getting-started-vfsa).
 
-:    Virtual Juniper vSRX
+:   Virtual Juniper vSRX
 
-     See [Getting started with IBM Cloud Juniper vSRX](/docs/vsrx?topic=vsrx-getting-started-vsrx).
+    See [Getting started with IBM Cloud Juniper vSRX](/docs/vsrx?topic=vsrx-getting-started-vsrx).
 
-:    Virtual Router Appliance (Vyatta/VRA)
+:   Virtual Router Appliance (Vyatta/VRA)
 
-     See [Getting started with IBM Virtual Router Appliance](/docs/virtual-router-appliance).
+    See [Getting started with IBM Virtual Router Appliance](/docs/virtual-router-appliance).
 
 For more information, see [Getting started with IBM Cloud Gateway Appliance](/docs/gateway-appliance?topic=gateway-appliance-getting-started-ga).
 
@@ -566,7 +561,7 @@ appropriate deployment configuration.
 #### Network Load Balancer (Active/Active)
 {: #nlb-active-active}
 
-* **NLB Throughput**: Network Load Balancer has its own throughput limits
+* **NLB Throughput**: Network load balancer has its own throughput limits
 * **Route Mode**: Lower latency than application load balancers, efficient Layer 4 routing
 * **Scaling**: Distribute load across multiple firewall instances for higher aggregate throughput
 
@@ -574,7 +569,7 @@ appropriate deployment configuration.
 {: #bare-metal-performance}
 
 * **High Network Throughput**: Dedicated hardware resources provide consistent high performance
-* **VNI Floating Interfaces**: Automatic failover without SDN Connector overhead
+* **Virtual Network Floating Interfaces**: Automatic failover without SDN Connector overhead
 * **Significant Limitations**: Requires manual hypervisor and VM configuration, monthly billing only, limited scaling flexibility, customer-managed OS and software
 * **Recommendation**: Consider virtual server instance deployments first due to operational simplicity and flexibility
 
@@ -592,12 +587,11 @@ Important Limitations
     - **Limited Flexibility**: Cannot scale out easily like virtual server deployments
     - **Billing**: Monthly billing only (no hourly billing option)
     - **Customer Managed**: Bare metal OS and all software are customer responsibility
-    - **Complexity**: Requires expertise in hypervisor management and VM
-  configuration
+    - **Complexity**: Requires expertise in hypervisor management and VM configuration
 
 Technical Details
 
-:   - **Key Difference**: Does "not" require SDN Connector - uses VNI floating interface technology
+:   - **Key Difference**: Does "not" require SDN Connector - uses virtual network floating interface technology
     - **Tested Vendors**: Fortinet (PCI Passthrough and macvtap), Palo Alto
       (macvtap)
 
@@ -607,7 +601,7 @@ Virtual server instance deployments are recommended for most use cases due to fl
 {: tip}
 
 ##### Best for:
-{: #active-passive-single-zone-best-for}
+{: #bare-metal-best-for}
 
 * Production workloads requiring zone-level resilience
 * Applications that can tolerate zone-level outages
