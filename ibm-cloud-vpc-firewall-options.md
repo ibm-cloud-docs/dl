@@ -108,16 +108,11 @@ suitable for development, testing, or non-critical workloads.
 
 | Vendor | Product | Catalog Link |
 |--------|---------|--------------|
-| Fortinet | FortiGate Next-Generation Firewall - Single VM |
-  [Catalog](/catalog/content/ibm-fortigate-terraform-deploy-1f878ca9-069f-42ca-9ed9-5b461d4d5231-global) |
-| Palo Alto | VM-Series Firewall - BYOL |
-  [Catalog](/catalog/content/ibmcloud-vmseries-1.9-6470816d-562d-4627-86a5-fe3ad4e94b30-global) |
-| Juniper | Next-Gen SASE Firewall - BYOL |
-  [Catalog](/catalog/content/jnpr-nextgen-fw-vsrx-74b4b3ba-2a05-460d-afba-98e4d012f53a-global) |
-| Check Point | CloudGuard Network Security Firewall |
-  [Catalog](/catalog/content/check-point-cloudguard-network-security-firewall-with-threat-prevention-1f1f50fe-e41d-4715-9ba6-02d37d76596c-global) |
-| F5 | BIG-IP Virtual Edition for VPC |
-  [Catalog](/catalog/content/ibmcloud_schematics_bigip_multinic_declared-1.0-d33f1544-e938-478a-b0dd-d883370f08d0-global) |
+| Fortinet | FortiGate Next-Generation Firewall - Single VM | [Catalog](/catalog/content/ibm-fortigate-terraform-deploy-1f878ca9-069f-42ca-9ed9-5b461d4d5231-global) |
+| Palo Alto | VM-Series Firewall - BYOL | [Catalog](/catalog/content/ibmcloud-vmseries-1.9-6470816d-562d-4627-86a5-fe3ad4e94b30-global) |
+| Juniper | Next-Gen SASE Firewall - BYOL | [Catalog](/catalog/content/jnpr-nextgen-fw-vsrx-74b4b3ba-2a05-460d-afba-98e4d012f53a-global) |
+| Check Point | CloudGuard Network Security Firewall | [Catalog](/catalog/content/check-point-cloudguard-network-security-firewall-with-threat-prevention-1f1f50fe-e41d-4715-9ba6-02d37d76596c-global) |
+| F5 | BIG-IP Virtual Edition for VPC | [Catalog](/catalog/content/ibmcloud_schematics_bigip_multinic_declared-1.0-d33f1544-e938-478a-b0dd-d883370f08d0-global) |
 {: caption="Available standalone firewall solutions" caption-side="bottom"}
 
 #### Best for
@@ -164,7 +159,6 @@ This deployment provides zone-level redundancy for production workloads.
 - **Fortinet vFSA (FortiGate):**
   - [Transit VPC with FortiGate Solution Guide](/docs/pattern-transit-vpc-fortigate)
   - [FortiGate with SDN Connector](/docs/pattern-transit-vpc?topic=pattern-transit-vpc-transit-vpc#fortigate-with-SDN-connector)
-
 
 ### SDN Connector overview
 {: #sdn-connector-overview}
@@ -276,11 +270,11 @@ zone-specific routing requirements and the need to update zone bindings.
 
 For each route pointing to old active node:
 
-  1. DELETE old route
-  1. CREATE new route with:
-     - Same destination CIDR
-     - New next_hop IP (new active node)
-     - New zone (new active node's zone)
+1. DELETE old route
+1. CREATE new route with:
+   - Same destination CIDR
+   - New next_hop IP (new active node)
+   - New zone (new active node's zone)
 
 #### Key points
 {: #cross-zone-key-points}
@@ -399,7 +393,6 @@ RESPONSE: Server → VPC Routing Table → NLB (Route Mode) → Same Firewall �
 - **Vendor Agnostic**: Works with any firewall vendor
 
 #### Configuration requirements
-
 {: #route-mode-configuration}
 
 - Network Load Balancer with Route Mode enabled
@@ -442,7 +435,7 @@ Egress Routing Table (Server VPC):
 - **Performance**: Efficient Layer 4 load balancing
 
 For more information, see
-[Virtual Firewall Appliances with NLB](/docs/pattern-transit-vpc?topic=pattern-transit-vpc-transit-vpc#Virtual-firewall-Appliances-with-NLB).
+[Virtual firewall appliances with network load balancer for traffic management](/docs/pattern-transit-vpc?topic=pattern-transit-vpc-transit-vpc#Virtual-firewall-Appliances-with-NLB).
 
 ### Active/Active HA (multizone)
 {: #active-active-multizone}
@@ -464,7 +457,7 @@ availability zones, using BGP for dynamic routing and failover.
 - Firewall must support BGP routing protocol
 - Any vendor with BGP capability is supported
 - For more information, see
-  [Virtual firewall appliances with BGP over GRE](/docs/pattern-transit-vpc?topic=pattern-transit-vpc-transit-vpc#Virtual-firewall-Appliances-with-BGP-over-GRE)
+  [Virtual firewall appliances with BGP Over GRE](/docs/pattern-transit-vpc?topic=pattern-transit-vpc-transit-vpc#Virtual-firewall-Appliances-with-BGP-over-GRE).
 
 #### Best for
 {: #active-active-multizone-best-for}
