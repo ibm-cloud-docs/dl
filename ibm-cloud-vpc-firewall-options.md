@@ -630,13 +630,13 @@ For more information, see [Virtual firewalls on VPC Bare Metal servers](/docs/pa
 Virtual server instance deployments are recommended for most use cases due to flexibility, ease of management, and hourly billing.
 {: tip}
 
-##### Best for:
+#### Best for:
 {: #bare-metal-best-for}
 
 * Production workloads requiring zone-level resilience
 * Applications that can tolerate zone-level outages
 
-##### Key recommendations
+#### Key recommendations
 {: #performance-recommendations}
 
 1. **Match License to Profile**: Ensure virtual server instance profile vCPU count matches or exceeds firewall license vCPU entitlement
