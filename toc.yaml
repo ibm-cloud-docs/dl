@@ -171,3 +171,4 @@ toc:
           - dl-ts-unable-connect-vsi.md
           - dl-ts-md5-configuration.md
           - dl-ts-macsec-cak-configuration.md
+          - ibm-cloud-vpc-firewall-options.md
