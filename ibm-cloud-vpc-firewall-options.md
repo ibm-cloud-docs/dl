@@ -154,9 +154,9 @@ This deployment provides zone-level redundancy for production workloads.
 ##### Virtual server instances
 {: #vsi-implementation}
 
-- **Fortinet vFSA (FortiGate):**
-  - [Transit VPC with FortiGate Solution Guide](/docs/pattern-transit-vpc-fortigate)
-  - [FortiGate with SDN Connector](/docs/pattern-transit-vpc?topic=pattern-transit-vpc-transit-vpc#fortigate-with-SDN-connector)
+* **Fortinet vFSA (FortiGate):**
+   * [Transit VPC with FortiGate Solution Guide](/docs/pattern-transit-vpc-fortigate)
+   * [FortiGate with SDN Connector](/docs/pattern-transit-vpc?topic=pattern-transit-vpc-transit-vpc#fortigate-with-SDN-connector)
 
 ### SDN Connector overview
 {: #sdn-connector-overview}
@@ -173,10 +173,8 @@ Network Interface) floating interfaces instead.
 #### Vendor support (virtual server instance only)
 {: #sdn-connector-vendor-support}
 
-- **Fortinet FortiGate**: Native SDN Connector integration included in IBM
-  Cloud VPC images
-- **Other Vendors**: Must implement custom automation or use manual failover
-  processes
+* **Fortinet FortiGate**: Native SDN Connector integration included in IBM Cloud VPC images
+* **Other Vendors**: Must implement custom automation or use manual failover processes
 
 #### How it works
 {: #sdn-connector-how-it-works}
@@ -247,10 +245,8 @@ zone-specific routing requirements and the need to update zone bindings.
 #### Vendor support
 {: #cross-zone-vendor-support}
 
-- **Fortinet FortiGate**: Native SDN Connector with cross-zone support and
-  automatic public address range zone binding updates
-- **Other Vendors**: Must implement custom automation for cross-zone
-  failover
+* **Fortinet FortiGate**: Native SDN Connector with cross-zone support and automatic public address range zone binding updates
+* **Other Vendors**: Must implement custom automation for cross-zone failover
 
 #### Failover process
 {: #cross-zone-failover-process}
@@ -292,26 +288,24 @@ and security.
 #### What is Public Address Ranges for VPC?
 {: #what-is-par}
 
-- Public subnet bound to specific VPC and zone
-- Used in routing tables with "Public Internet" as traffic source
-- Preserves source IP (no NAT by VPC infrastructure)
-- Firewall can perform NAT if needed for backend applications
+* Public subnet bound to specific VPC and zone
+* Used in routing tables with "Public Internet" as traffic source
+* Preserves source IP (no NAT by VPC infrastructure)
+* Firewall can perform NAT if needed for backend applications
 
 #### Vendor support
 {: #par-vendor-support}
 
-- **Fortinet FortiGate**: Native Public Address Range integration with
-  automatic zone binding updates during cross-zone failover (FortiOS 7.6.3+)
-- **Other Vendors**: Can use public address ranges but must implement custom
-  automation for zone binding updates
+* **Fortinet FortiGate**: Native Public Address Range integration with automatic zone binding updates during cross-zone failover (FortiOS 7.6.3+)
+* **Other Vendors**: Can use public address ranges but must implement custom automation for zone binding updates
 
 #### Use cases
 {: #par-use-cases}
 
-- Public-facing web applications requiring source IP visibility
-- Services with IP-based access control or logging requirements
-- Compliance requirements for IP address logging
-- DDoS protection with source IP preservation
+* Public-facing web applications requiring source IP visibility
+* Services with IP-based access control or logging requirements
+* Compliance requirements for IP address logging
+* DDoS protection with source IP preservation
 
 #### How public address ranges work with firewalls
 {: #par-how-it-works}
@@ -335,10 +329,10 @@ When active firewall node moves to different zone, Fortinet's SDN Connector auto
 #### Benefits
 {: #par-benefits}
 
-- Source IP preservation for security and compliance
-- Transparent firewall operation for public traffic
-- Automatic failover with public address range zone binding updates (Fortinet only)
-- No application changes required
+* Source IP preservation for security and compliance
+* Transparent firewall operation for public traffic
+* Automatic failover with public address range zone binding updates (Fortinet only)
+* No application changes required
 
 ### Active/Active HA (Single Zone)
 {: #active-active-single-zone}
@@ -349,10 +343,10 @@ a single zone, using a Network Load Balancer for traffic distribution.
 #### Characteristics
 {: #active-active-single-zone-characteristics}
 
-- Load balancing across multiple firewalls
-- Higher throughput capacity
-- Vendor-agnostic solution
-- Uses Network Load Balancer (NLB) with Route mode
+* Load balancing across multiple firewalls
+* Higher throughput capacity
+* Vendor-agnostic solution
+* Uses Network Load Balancer (NLB) with Route mode
 
 ### Route Mode Network Load Balancer
 {: #route-mode-nlb}
@@ -612,13 +606,14 @@ Failover Method
 Important Limitations
 
 :   Consider the following limitations:
-- **Manual Configuration Required**: Hypervisor and all virtual machines must
+
+   - **Manual Configuration Required**: Hypervisor and all virtual machines must
   be manually configured and managed by customer
-- **Limited Flexibility**: Cannot scale out easily like virtual server
+   - **Limited Flexibility**: Cannot scale out easily like virtual server
   deployments
-- **Billing**: Monthly billing only (no hourly billing option)
-- **Customer Managed**: Bare metal OS and all software are customer responsibility
-- **Complexity**: Requires expertise in hypervisor management and VM
+   - **Billing**: Monthly billing only (no hourly billing option)
+   - **Customer Managed**: Bare metal OS and all software are customer responsibility
+   - **Complexity**: Requires expertise in hypervisor management and VM
   configuration
 
 Technical Details
@@ -668,8 +663,7 @@ Balanced Profiles (bx4):
 {: caption="Gen 4 balanced virtual server instance profiles (bx4)" caption-side="bottom"}
 
 Gen 4 profiles feature bandwidth pooling across all interfaces. For complete
-profile details, see
-[General purpose instance profiles - Intel Gen 4](/docs/vpc?topic=vpc-general-purpose-vsi-profiles-gen4-intel).
+profile details, see [General purpose instance profiles - Intel Gen 4](/docs/vpc?topic=vpc-general-purpose-vsi-profiles-gen4-intel).
 {: note}
 
 ### Cost considerations
@@ -685,7 +679,7 @@ profile details, see
 ## Next steps
 {: #next-steps}
 
-- [Transit VPC Pattern](/docs/pattern-transit-vpc?topic=pattern-transit-vpc-transit-vpc)
-- [VPC Networking Overview](/docs/vpc?topic=vpc-about-networking-for-vpc)
-- [IBM Cloud Catalog - Network Security](/catalog?category=network_security)
-- [Getting help and support](/docs/get-support)
+* [Transit VPC Pattern](/docs/pattern-transit-vpc?topic=pattern-transit-vpc-transit-vpc)
+* [VPC Networking Overview](/docs/vpc?topic=vpc-about-networking-for-vpc)
+* [IBM Cloud Catalog - Network Security](/catalog?category=network_security)
+* [Getting help and support](/docs/get-support)
