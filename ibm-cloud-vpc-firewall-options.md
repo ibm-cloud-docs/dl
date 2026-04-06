@@ -171,7 +171,7 @@ This deployment provides zone-level redundancy for production workloads.
    * [Transit VPC with FortiGate Solution Guide](/docs/pattern-transit-vpc-fortigate)
    * [FortiGate with SDN Connector](/docs/pattern-transit-vpc?topic=pattern-transit-vpc-transit-vpc#fortigate-with-SDN-connector)
 
-### Active/Passive HA (multizone)
+### Active/Passive HA (Multizone)
 {: #active-passive-multizone}
 
 Two firewall instances in an active/passive configuration across multiple
@@ -375,7 +375,7 @@ Egress Routing Table (Server VPC):
 
 For more information, see [Virtual firewall appliances with network load balancer for traffic management](/docs/pattern-transit-vpc?topic=pattern-transit-vpc-transit-vpc#Virtual-firewall-Appliances-with-NLB).
 
-### Active/Active HA (multizone)
+### Active/Active HA (Multizone)
 {: #active-active-multizone}
 
 Multiple firewall instances actively processing traffic across multiple
