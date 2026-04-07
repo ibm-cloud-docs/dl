@@ -207,6 +207,81 @@ availability zones, using BGP for dynamic routing and failover.
 
 BGP over GRE tunnels provides dynamic routing and automatic failover across zones.
 
+### SDN Connector overview
+{: #sdn-connector-overview}
+
+The SDN Connector is a critical component that enables automatic failover in Active/Passive HA configurations for virtual server instance-based deployments. It monitors the firewall cluster and automatically updates VPC routing tables when failover occurs.
+
+Bare metal deployments do "not" use SDN Connector. They use virtual network floating interfaces instead.
+{: important}
+
+#### Vendor support (virtual server instance only)
+{: #sdn-connector-vendor-support}
+
+* **Fortinet FortiGate**: Native SDN Connector integration included in IBM Cloud VPC images
+* **Other Vendors**: Must implement custom automation or use manual failover processes
+
+#### How it works
+{: #sdn-connector-how-it-works}
+
+1. **Monitoring**: Continuously monitors HA cluster state
+1. **Detection**: Detects when active node changes
+1. **API Integration**: Uses IBM Cloud VPC APIs to update routing
+1. **Route Updates**: Redirects traffic to new active node
+
+#### Failover process
+{: #sdn-connector-failover-process}
+
+1. Active node fails or becomes unavailable
+1. Passive node detects failure and becomes active
+1. SDN Connector detects the cluster state change
+1. Connector queries VPC routing tables for routes with old active IP
+1. Connector deletes each old route
+1. Connector creates new routes pointing to new active node
+1. Traffic automatically flows through new active node
+
+#### Benefits
+{: #sdn-connector-benefits}
+
+- Automatic failover without manual intervention
+- Fast recovery (typically seconds)
+- No external monitoring required
+- Integrated with firewall HA mechanism (Fortinet only)
+
+### Bare Metal Servers
+{: #bare-metal-servers-reference}
+
+Bare metal servers provide dedicated hardware resources but require significant manual configuration and management.
+
+Failover Method
+
+:   Uses virtual network floating interfaces instead of SDN Connector. The data interface automatically floats to the active node during failover.
+
+Important Limitations
+
+:   Consider the following limitations:
+
+    - **Manual Configuration Required**: Hypervisor and all virtual machines must be manually configured and managed by customer
+    - **Limited Flexibility**: Cannot scale out easily like virtual server deployments
+    - **Billing**: Monthly billing only (no hourly billing option)
+    - **Customer Managed**: Bare metal OS and all software are customer responsibility
+    - **Complexity**: Requires expertise in hypervisor management and VM configuration
+
+Technical Details
+
+:   - **Key Difference**: Does "not" require SDN Connector - uses virtual network floating interface technology
+    - **Tested Vendors**: Fortinet (PCI Passthrough and macvtap), Palo Alto (macvtap)
+
+For more information, see [Virtual firewalls on VPC Bare Metal servers](/docs/pattern-transit-vpc?topic=pattern-transit-vpc-transit-vpc#Virtual-firewall-Appliances-on-VPC-Bare-Metals).
+
+Virtual server instance deployments are recommended for most use cases due to flexibility, ease of management, and hourly billing.
+{: tip}
+
+**Best for:**
+
+* Production workloads requiring zone-level resilience
+* Applications that can tolerate zone-level outages
+
 ### Cross-zone failover technical details
 {: #cross-zone-failover-tech-details}
 
@@ -542,81 +617,3 @@ Gen 4 profiles feature bandwidth pooling across all interfaces. For complete pro
 IBM Cloud VPC offers flexible firewall deployment options to meet diverse security and availability requirements. Whether you need a simple standalone deployment for development or a complex multizone active/active configuration for enterprise workloads, VPC provides the necessary tools and patterns.
 
 For assistance with firewall deployment planning or migration from Classic infrastructure, contact IBM Cloud Support or your IBM representative.
-
-## Reference (Placeholder)
-{: #reference}
-
-### SDN Connector overview
-{: #sdn-connector-overview}
-
-The SDN Connector is a critical component that enables automatic failover in Active/Passive HA configurations for virtual server instance-based deployments. It monitors the firewall cluster and automatically updates VPC routing tables when failover occurs.
-
-Bare metal deployments do "not" use SDN Connector. They use virtual network floating interfaces instead.
-{: important}
-
-#### Vendor support (virtual server instance only)
-{: #sdn-connector-vendor-support}
-
-* **Fortinet FortiGate**: Native SDN Connector integration included in IBM Cloud VPC images
-* **Other Vendors**: Must implement custom automation or use manual failover processes
-
-#### How it works
-{: #sdn-connector-how-it-works}
-
-1. **Monitoring**: Continuously monitors HA cluster state
-1. **Detection**: Detects when active node changes
-1. **API Integration**: Uses IBM Cloud VPC APIs to update routing
-1. **Route Updates**: Redirects traffic to new active node
-
-#### Failover process
-{: #sdn-connector-failover-process}
-
-1. Active node fails or becomes unavailable
-1. Passive node detects failure and becomes active
-1. SDN Connector detects the cluster state change
-1. Connector queries VPC routing tables for routes with old active IP
-1. Connector deletes each old route
-1. Connector creates new routes pointing to new active node
-1. Traffic automatically flows through new active node
-
-#### Benefits
-{: #sdn-connector-benefits}
-
-- Automatic failover without manual intervention
-- Fast recovery (typically seconds)
-- No external monitoring required
-- Integrated with firewall HA mechanism (Fortinet only)
-
-### Bare Metal Servers
-{: #bare-metal-servers-reference}
-
-Bare metal servers provide dedicated hardware resources but require significant manual configuration and management.
-
-Failover Method
-
-:   Uses virtual network floating interfaces instead of SDN Connector. The data interface automatically floats to the active node during failover.
-
-Important Limitations
-
-:   Consider the following limitations:
-
-    - **Manual Configuration Required**: Hypervisor and all virtual machines must be manually configured and managed by customer
-    - **Limited Flexibility**: Cannot scale out easily like virtual server deployments
-    - **Billing**: Monthly billing only (no hourly billing option)
-    - **Customer Managed**: Bare metal OS and all software are customer responsibility
-    - **Complexity**: Requires expertise in hypervisor management and VM configuration
-
-Technical Details
-
-:   - **Key Difference**: Does "not" require SDN Connector - uses virtual network floating interface technology
-    - **Tested Vendors**: Fortinet (PCI Passthrough and macvtap), Palo Alto (macvtap)
-
-For more information, see [Virtual firewalls on VPC Bare Metal servers](/docs/pattern-transit-vpc?topic=pattern-transit-vpc-transit-vpc#Virtual-firewall-Appliances-on-VPC-Bare-Metals).
-
-Virtual server instance deployments are recommended for most use cases due to flexibility, ease of management, and hourly billing.
-{: tip}
-
-**Best for:**
-
-* Production workloads requiring zone-level resilience
-* Applications that can tolerate zone-level outages
