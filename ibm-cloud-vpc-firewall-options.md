@@ -179,6 +179,34 @@ Two firewall instances in an active/passive configuration across multiple availa
 
 SDN Connector with cross-zone awareness automatically updates routing when zone failure occurs.
 
+### Active/Active HA (Multizone)
+{: #active-active-multizone}
+
+Multiple firewall instances actively processing traffic across multiple
+availability zones, using BGP for dynamic routing and failover.
+
+**Characteristics:**
+
+- Regional high availability with load balancing
+- Highest throughput and resilience
+- Requires BGP support
+- Most complex deployment
+
+**Implementation:**
+
+- Firewall must support BGP routing protocol
+- Any vendor with BGP capability is supported
+- For more information, see [Virtual firewall appliances with BGP Over GRE](/docs/pattern-transit-vpc?topic=pattern-transit-vpc-transit-vpc#Virtual-firewall-Appliances-with-BGP-over-GRE).
+
+**Best for:**
+
+* Enterprise-scale deployments
+* Maximum throughput and availability requirements
+* Complex routing scenarios
+* Multi-region architectures
+
+BGP over GRE tunnels provides dynamic routing and automatic failover across zones.
+
 ### Cross-zone failover technical details
 {: #cross-zone-failover-tech-details}
 
@@ -332,34 +360,6 @@ Egress Routing Table (Server VPC):
 - **Performance**: Efficient Layer 4 load balancing
 
 For more information, see [Virtual firewall appliances with network load balancer for traffic management](/docs/pattern-transit-vpc?topic=pattern-transit-vpc-transit-vpc#Virtual-firewall-Appliances-with-NLB).
-
-### Active/Active HA (Multizone)
-{: #active-active-multizone}
-
-Multiple firewall instances actively processing traffic across multiple
-availability zones, using BGP for dynamic routing and failover.
-
-**Characteristics:**
-
-- Regional high availability with load balancing
-- Highest throughput and resilience
-- Requires BGP support
-- Most complex deployment
-
-**Implementation:**
-
-- Firewall must support BGP routing protocol
-- Any vendor with BGP capability is supported
-- For more information, see [Virtual firewall appliances with BGP Over GRE](/docs/pattern-transit-vpc?topic=pattern-transit-vpc-transit-vpc#Virtual-firewall-Appliances-with-BGP-over-GRE).
-
-**Best for:**
-
-* Enterprise-scale deployments
-* Maximum throughput and availability requirements
-* Complex routing scenarios
-* Multi-region architectures
-
-BGP over GRE tunnels provides dynamic routing and automatic failover across zones.
 
 ## Licensing models
 {: #licensing-models}
