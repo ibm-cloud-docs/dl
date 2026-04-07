@@ -482,7 +482,7 @@ For more information, see [Getting started with IBM Cloud Gateway Appliance](/do
 {: #deprecated-firewalls}
 
 * FortiGate 10G (see [Exploring Firewalls](/docs/fortigate-10g?topic=fortigate-10g-exploring-firewalls))
-* Hardware Firewall (Shared) (see [Getting started with Hardware Firewall (Shared)](/docs/hardware-firewall-shared))
+* Hardware Firewall (Shared) (see [Getting started with Hardware Firewall](/docs/hardware-firewall-shared))
 
 ### Key differences: Classic versus VPC
 {: #classic-vs-vpc}
