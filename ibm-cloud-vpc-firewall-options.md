@@ -2,7 +2,7 @@
 
 copyright:
   years: 2026
-lastupdated: "2026-04-06"
+lastupdated: "2026-04-07"
 
 keywords: vpc firewall, firewall deployment, high availability, fortinet,
   palo alto, juniper, check point, f5, transit vpc, sdn connector
@@ -142,7 +142,7 @@ This deployment provides zone-level redundancy for production workloads.
 
 Implementation options are as follows:
 
-##### Virtual server instances
+#### Virtual server instances
 {: #vsi-implementation}
 
 * **Fortinet vFSA (FortiGate):**
@@ -301,7 +301,7 @@ RESPONSE: Server → VPC Routing Table → NLB (Route Mode) → Same Firewall �
 - Routing tables configured to use NLB as next hop
 - Firewall instances configured as backend pool members
 
-**Routing table configuration**
+**Routing table configuration:**
 
 Egress Routing Table (Client VPC):
 
