@@ -311,9 +311,6 @@ The sites highlighted in **bold** are emphasized because they differ from the ma
 
 The following table provides details about the {{site.data.keyword.cloud_notm}} data centers where {{site.data.keyword.dl_short}} Dedicated with MACsec is available. Choose a tab to see locations for Americas, APAC, and EU.
 
-The sites highlighted in **bold** are emphasized because they differ from the market region.
-{: note}
-
 | Market | Data centers | PoPs |
 |----------------|----------------|---------------|
 | Dallas | Dallas 3 \n Dallas 14 | |
@@ -334,8 +331,8 @@ The sites highlighted in **bold** are emphasized because they differ from the ma
 {: tab-group="dedicated-simple-2"}
 {: class="simple-tab-table"}
 
-| Market | Sites |
-|----------------|----------------|
+| Market | Data centers | PoPs |
+|----------------|----------------|---------------|
 | Madrid | Madrid 1 \n Madrid 2 \n Madrid 3 | Madrid 4 \n Madrid 5 |
 {: caption="Direct Link Dedicated with MACsec hardware - EMEA" caption-side="bottom"}
 {: #simpletabtable333}
