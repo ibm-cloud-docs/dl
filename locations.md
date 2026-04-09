@@ -306,7 +306,7 @@ The sites highlighted in **bold** are emphasized because they differ from the ma
 
 [^newyork3]: New York City 2 connects to the IBM Cloud backbone through New York City 1. The primary reason for this PoP is to extend connectivity to different site providers from our New York City 1 site. When planning your diversity strategy, keep in mind that traffic for New York City 2 has a single, shared path to the IBM network.
 
-### Direct Link Dedicated with MACsec locations
+## Direct Link Dedicated with MACsec locations
 {: #dedicated-macsec-locations}
 
 The following table provides details about the {{site.data.keyword.cloud_notm}} data centers where {{site.data.keyword.dl_short}} Dedicated with MACsec is available. Choose a tab to see locations for Americas, APAC, and EU.
