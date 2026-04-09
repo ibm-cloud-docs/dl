@@ -2,7 +2,7 @@
 
 copyright:
   years: 2026
-lastupdated: "2026-04-07"
+lastupdated: "2026-04-09"
 
 keywords: vpc firewall, firewall deployment, high availability, fortinet,
   palo alto, juniper, check point, f5, transit vpc, sdn connector
@@ -595,15 +595,6 @@ Gen 4 profiles feature bandwidth pooling across all interfaces. For complete pro
 - [Transit VPC Pattern](/docs/pattern-transit-vpc?topic=pattern-transit-vpc-transit-vpc)
 - [VPC Networking Overview](/docs/vpc?topic=vpc-about-networking-for-vpc)
 - [IBM Cloud Catalog - Network Security](/catalog?category=network_security)
-
-### Vendor documentation
-{: #vendor-docs}
-
-- **Fortinet:** FortiGate documentation for IBM Cloud VPC deployments
-- **Palo Alto:** VM-Series deployment guides
-- **Juniper:** vSRX configuration guides
-- **Check Point:** CloudGuard deployment documentation
-- **F5:** BIG-IP VE deployment guides
 
 ### Support
 {: #ibm-support}
