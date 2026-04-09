@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2026
-lastupdated: "2026-03-25"
+lastupdated: "2026-04-09"
 
 keywords: direct link
 
@@ -290,8 +290,8 @@ The sites highlighted in **bold** are emphasized because they differ from the ma
 {: tab-group="dedicated-simple-2"}
 {: class="simple-tab-table"}
 
-| Market | Sites |
-|----------------|----------------|
+| Market | Data centers | PoPs |
+|----------------|----------------|---------------|
 | Amsterdam | Amsterdam 3  | Amsterdam 2 |
 | Frankfurt | Frankfurt 2 \n Frankfurt 4 \n Frankfurt 5 | Frankfurt 1 \n Frankfurt 3 |
 | London | London 2 \n London 4 \n London 5 \n London 6 | London 1 \n London 3 |
@@ -305,3 +305,40 @@ The sites highlighted in **bold** are emphasized because they differ from the ma
 {: class="simple-tab-table"}
 
 [^newyork3]: New York City 2 connects to the IBM Cloud backbone through New York City 1. The primary reason for this PoP is to extend connectivity to different site providers from our New York City 1 site. When planning your diversity strategy, keep in mind that traffic for New York City 2 has a single, shared path to the IBM network.
+
+### Direct Link Dedicated with MACsec locations
+{: #dedicated-macsec-locations}
+
+The following table provides details about the {{site.data.keyword.cloud_notm}} data centers where {{site.data.keyword.dl_short}} Dedicated with MACsec is available. Choose a tab to see locations for Americas, APAC, and EU.
+
+The sites highlighted in **bold** are emphasized because they differ from the market region.
+{: note}
+
+| Market | Data centers | PoPs |
+|----------------|----------------|---------------|
+| Dallas | Dallas 3 \n Dallas 14 | |
+| Montreal | Montreal 2 | | 
+| Toronto | | Toronto 2 | 
+{: class="simple-tab-table"}
+{: caption="Direct Link Dedicated with MACsec hardware - Americas" caption-side="bottom"}
+{: #simpletabtable111}
+{: tab-title="Americas"}
+{: tab-group="dedicated-simple-2"}
+
+| Market | Data centers | PoPs |
+|----------------|----------------|---------------|
+| Chennai | Chennai 4 | **Mumbai 4** |
+{: caption="Direct Link Dedicated with MACsec hardware - APAC" caption-side="bottom"}
+{: #simpletabtable222}
+{: tab-title="APAC"}
+{: tab-group="dedicated-simple-2"}
+{: class="simple-tab-table"}
+
+| Market | Sites |
+|----------------|----------------|
+| Madrid | Madrid 1 \n Madrid 2 \n Madrid 3 | Madrid 4 \n Madrid 5 |
+{: caption="Direct Link Dedicated with MACsec hardware - EMEA" caption-side="bottom"}
+{: #simpletabtable333}
+{: tab-title="EU"}
+{: tab-group="dedicated-simple-2"}
+{: class="simple-tab-table"}
