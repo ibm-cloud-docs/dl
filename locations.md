@@ -261,7 +261,7 @@ The following table provides details about the markets where {{site.data.keyword
 The sites highlighted in **bold** are emphasized because they differ from the market region.
 {: note}
 
-| Market | Data centers | PoPs |
+| Market | Data Centers | PoPs |
 |----------------|----------------|---------------|
 | Dallas | Dallas 09 \n Dallas 10 \n Dallas 12 \n Dallas 13 \n Dallas 14 | **Chicago 1** \n Dallas 3 \n Dallas 4 \n **Denver 1** |
 | Montreal | Montreal 1 | Montreal 2 \n Montreal 3 |
@@ -276,7 +276,7 @@ The sites highlighted in **bold** are emphasized because they differ from the ma
 {: tab-title="Americas"}
 {: tab-group="dedicated-simple-2"}
 
-| Market | Data centers | PoPs |
+| Market | Data Centers | PoPs |
 |----------------|----------------|---------------|
 | Chennai | Chennai 1 | **Mumbai 1** |
 | Hong Kong | | Hong Kong 3 \n **Taipei** |
@@ -290,7 +290,7 @@ The sites highlighted in **bold** are emphasized because they differ from the ma
 {: tab-group="dedicated-simple-2"}
 {: class="simple-tab-table"}
 
-| Market | Data centers | PoPs |
+| Market | Data Centers | PoPs |
 |----------------|----------------|---------------|
 | Amsterdam | Amsterdam 3  | Amsterdam 2 |
 | Frankfurt | Frankfurt 2 \n Frankfurt 4 \n Frankfurt 5 | Frankfurt 1 \n Frankfurt 3 |
@@ -311,29 +311,35 @@ The sites highlighted in **bold** are emphasized because they differ from the ma
 
 The following table provides details about the {{site.data.keyword.cloud_notm}} data centers where {{site.data.keyword.dl_short}} Dedicated with MACsec is available. Choose a tab to see locations for Americas, APAC, and EU.
 
-| Market | Data centers | PoPs |
-|----------------|----------------|---------------|
-| Dallas | Dallas 14 | Dallas 3 |
-| Montreal | | Montreal 2  | 
-| Toronto | | Toronto 2 | 
+| IBM Location Code | Location Type |
+|----------------|----------------| 
+| Dallas 3 | PoP |
+| Dallas 14 | DC |
+| Montreal 2 | PoP | 
+| Toronto 2 | |PoP | 
 {: caption="Direct Link Dedicated with MACsec hardware - Americas" caption-side="bottom"}
 {: #simpletabtable111}
 {: tab-title="Americas"}
 {: tab-group="dedicated-simple-tab"}
 {: class="simple-tab-table"}
 
-| Market | Data centers | PoPs |
-|----------------|----------------|---------------|
-| Chennai | Chennai 4 | **Mumbai 4**[^mumbai1] |
+| IBM Location Code | Location Type |
+|----------------|----------------| 
+| Chennai 4 | DC |
+| **Mumbai 4**[^mumbai1] | PoP |
 {: caption="Direct Link Dedicated with MACsec hardware - APAC" caption-side="bottom"}
 {: #simpletabtable222}
 {: tab-title="APAC"}
 {: tab-group="dedicated-simple-tab"}
 {: class="simple-tab-table"}
 
-| Market | Data centers | PoPs |
-|----------------|----------------|---------------|
-| Madrid | Madrid 2 \n Madrid 4 \n Madrid 5  | Madrid 1 \n Madrid 3 |
+| IBM Location Code | Location Type |
+|----------------|----------------| 
+| Madrid 1 | PoP|
+| Madrid 2 | DC |
+| Madrid 3 | PoP |
+| Madrid 4 | DC |
+| Madric 5 | DC |
 {: caption="Direct Link Dedicated with MACsec hardware - EMEA" caption-side="bottom"}
 {: #simpletabtable333}
 {: tab-title="EU"}
