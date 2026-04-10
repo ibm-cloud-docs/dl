@@ -324,7 +324,7 @@ The following table provides details about the {{site.data.keyword.cloud_notm}} 
 
 | Market | Data centers | PoPs |
 |----------------|----------------|---------------|
-| Chennai | Chennai 4 | **Mumbai 4** |
+| Chennai | Chennai 4 | **Mumbai 4**[^mumbai1] |
 {: caption="Direct Link Dedicated with MACsec hardware - APAC" caption-side="bottom"}
 {: #simpletabtable222}
 {: tab-title="APAC"}
@@ -333,9 +333,11 @@ The following table provides details about the {{site.data.keyword.cloud_notm}} 
 
 | Market | Data centers | PoPs |
 |----------------|----------------|---------------|
-| Madrid | Madrid 1 \n Madrid 2 \n Madrid 3 | Madrid 4 \n Madrid 5 |
+| Madrid | Madrid 2 \n Madrid 4 \n Madrid 5  | Madrid 1 \n Madrid 3 |
 {: caption="Direct Link Dedicated with MACsec hardware - EMEA" caption-side="bottom"}
 {: #simpletabtable333}
 {: tab-title="EU"}
 {: tab-group="dedicated-simple-tab"}
 {: class="simple-tab-table"}
+
+[^mumbai1]: Available in the Chennai region.
