@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2026
-lastupdated: "2026-04-09"
+lastupdated: "2026-04-10"
 
 keywords: direct link
 
@@ -316,11 +316,11 @@ The following table provides details about the {{site.data.keyword.cloud_notm}} 
 | Dallas | Dallas 3 \n Dallas 14 | |
 | Montreal | Montreal 2 | | 
 | Toronto | | Toronto 2 | 
-{: class="simple-tab-table"}
 {: caption="Direct Link Dedicated with MACsec hardware - Americas" caption-side="bottom"}
 {: #simpletabtable111}
 {: tab-title="Americas"}
-{: tab-group="dedicated-simple-2"}
+{: tab-group="dedicated-simple-tab"}
+{: class="simple-tab-table"}
 
 | Market | Data centers | PoPs |
 |----------------|----------------|---------------|
@@ -328,7 +328,7 @@ The following table provides details about the {{site.data.keyword.cloud_notm}} 
 {: caption="Direct Link Dedicated with MACsec hardware - APAC" caption-side="bottom"}
 {: #simpletabtable222}
 {: tab-title="APAC"}
-{: tab-group="dedicated-simple-2"}
+{: tab-group="dedicated-simple-tab"}
 {: class="simple-tab-table"}
 
 | Market | Data centers | PoPs |
@@ -337,5 +337,5 @@ The following table provides details about the {{site.data.keyword.cloud_notm}} 
 {: caption="Direct Link Dedicated with MACsec hardware - EMEA" caption-side="bottom"}
 {: #simpletabtable333}
 {: tab-title="EU"}
-{: tab-group="dedicated-simple-2"}
+{: tab-group="dedicated-simple-tab"}
 {: class="simple-tab-table"}
