@@ -311,35 +311,35 @@ The sites highlighted in **bold** are emphasized because they differ from the ma
 
 The following table provides details about the {{site.data.keyword.cloud_notm}} data centers where {{site.data.keyword.dl_short}} Dedicated with MACsec is available. Choose a tab to see locations for Americas, APAC, and EU.
 
-| IBM Location Code | Location Type |
-|----------------|----------------| 
-| Dallas 3 | PoP |
-| Dallas 14 | DC |
-| Montreal 2 | PoP | 
-| Toronto 2 | |PoP | 
+| IBM Location Code  | Location Type  |  Meet Me Room Operator |  Operator Site Code  |
+|-----------------|----------------|-----------------|-----------------|
+| Dallas 3 | PoP | Equinix | DA1 |
+| Dallas 14 | DC | STACK Infrastructure | DFW02 |
+| Montreal 2 | PoP | Cologix | MON02 |
+| Toronto 2 | PoP | Cologix | TOR02 |
 {: caption="Direct Link Dedicated with MACsec hardware - Americas" caption-side="bottom"}
 {: #simpletabtable111}
 {: tab-title="Americas"}
 {: tab-group="dedicated-simple-tab"}
 {: class="simple-tab-table"}
 
-| IBM Location Code | Location Type |
-|----------------|----------------| 
-| Chennai 4 | DC |
-| **Mumbai 4**[^mumbai1] | PoP |
+| IBM Location Code  | Location Type  |  Meet Me Room Operator |  Operator Site Code  |
+|-----------------|----------------|-----------------|-----------------|
+| Chennai 4 | DC | ? | ? |
+| **Mumbai 4**[^mumbai1] | PoP | ? | ? |
 {: caption="Direct Link Dedicated with MACsec hardware - APAC" caption-side="bottom"}
 {: #simpletabtable222}
 {: tab-title="APAC"}
 {: tab-group="dedicated-simple-tab"}
 {: class="simple-tab-table"}
 
-| IBM Location Code | Location Type |
-|----------------|----------------| 
-| Madrid 1 | PoP|
-| Madrid 2 | DC |
-| Madrid 3 | PoP |
-| Madrid 4 | DC |
-| Madric 5 | DC |
+| IBM Location Code  | Location Type  |  Meet Me Room Operator |  Operator Site Code  |
+|-----------------|----------------|-----------------|-----------------|
+| Madrid 1 | PoP | Equinix | MD1 |
+| Madrid 2 | DC  | DATA4 | MAD01 |
+| Madrid 3 | PoP | Digital Realty |  MAD3 |
+| Madrid 4 | DC  | NTT Data Center | MADRID 1 |
+| Madrid 5 | DC  | Digital Realty | MAD4 |
 {: caption="Direct Link Dedicated with MACsec hardware - EMEA" caption-side="bottom"}
 {: #simpletabtable333}
 {: tab-title="EU"}
