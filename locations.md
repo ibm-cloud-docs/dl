@@ -313,8 +313,8 @@ The following table provides details about the {{site.data.keyword.cloud_notm}} 
 
 | Market | Data centers | PoPs |
 |----------------|----------------|---------------|
-| Dallas | Dallas 3 \n Dallas 14 | |
-| Montreal | Montreal 2 | | 
+| Dallas | Dallas 14 | Dallas 3 |
+| Montreal | | Montreal 2  | 
 | Toronto | | Toronto 2 | 
 {: caption="Direct Link Dedicated with MACsec hardware - Americas" caption-side="bottom"}
 {: #simpletabtable111}
