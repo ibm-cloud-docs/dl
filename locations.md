@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2026
-lastupdated: "2026-04-10"
+lastupdated: "2026-04-13"
 
 keywords: direct link
 
@@ -325,8 +325,8 @@ The following table provides details about the {{site.data.keyword.cloud_notm}} 
 
 | IBM Location Code  | Location Type  |  Meet Me Room Operator |  Operator Site Code  |
 |-----------------|----------------|-----------------|-----------------|
-| Chennai 4 | DC | ? | ? |
-| **Mumbai 4**[^mumbai1] | PoP | ? | ? |
+| Chennai 4 | DC | North Hall (nxtra) | 2F |
+| **Mumbai 4**[^mumbai1] | PoP | NW (Fusion) | NW |
 {: caption="Direct Link Dedicated with MACsec hardware - APAC" caption-side="bottom"}
 {: #simpletabtable222}
 {: tab-title="APAC"}
