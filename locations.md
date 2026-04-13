@@ -326,7 +326,7 @@ The following table provides details about the {{site.data.keyword.cloud_notm}} 
 | IBM Location Code  | Location Type  |  Meet Me Room Operator |  Operator Site Code  |
 |-----------------|----------------|-----------------|-----------------|
 | Chennai 4 | DC | North Hall (nxtra) | 2F |
-| **Mumbai 4**[^mumbai1] | PoP | NW (Fusion) | NW |
+| **Mumbai 4**[^mumbai1] | PoP | Fusion | NW |
 {: caption="Direct Link Dedicated with MACsec hardware - APAC" caption-side="bottom"}
 {: #simpletabtable222}
 {: tab-title="APAC"}
