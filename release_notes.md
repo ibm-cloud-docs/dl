@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2026
-lastupdated: "2026-03-17"
+lastupdated: "2026-04-10"
 
 keywords: direct link release notes
 
@@ -45,7 +45,7 @@ Manage BGP route selection in VPC
 {: #dl-june1725}
 
 Media Access Control Security (MACsec) support for Direct Link Dedicated
-:    MACsec, a security protocol that provides encryption for data over Ethernet, is now available in select locations equipped with cross-connect switches (XCS) that support MACsec functionality. Supported markets include Dallas, Toronto, and Montreal. For more information, see [Planning for the Direct Link Dedicated MACsec feature](/docs/dl?topic=dl-dl-planning-considerations#macsec-feature-dedicated).
+:    MACsec, a security protocol that provides encryption for data over Ethernet, is now available in select locations equipped with cross-connect switches (XCS) that support MACsec functionality. Supported markets include Chennai, Dallas, Madrid, Montreal, Toronto, and Mumbai. For more information, see [Planning for the Direct Link Dedicated MACsec feature](/docs/dl?topic=dl-dl-planning-considerations#macsec-feature-dedicated).
 
 ## 13 March 2025
 {: #dl-march1325}

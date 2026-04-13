@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2026
-lastupdated: "2026-03-25"
+lastupdated: "2026-04-13"
 
 keywords: direct link
 
@@ -261,7 +261,7 @@ The following table provides details about the markets where {{site.data.keyword
 The sites highlighted in **bold** are emphasized because they differ from the market region.
 {: note}
 
-| Market | Data centers | PoPs |
+| Market | Data Centers | PoPs |
 |----------------|----------------|---------------|
 | Dallas | Dallas 09 \n Dallas 10 \n Dallas 12 \n Dallas 13 \n Dallas 14 | **Chicago 1** \n Dallas 3 \n Dallas 4 \n **Denver 1** |
 | Montreal | Montreal 1 | Montreal 2 \n Montreal 3 |
@@ -276,7 +276,7 @@ The sites highlighted in **bold** are emphasized because they differ from the ma
 {: tab-title="Americas"}
 {: tab-group="dedicated-simple-2"}
 
-| Market | Data centers | PoPs |
+| Market | Data Centers | PoPs |
 |----------------|----------------|---------------|
 | Chennai | Chennai 1 | **Mumbai 1** |
 | Hong Kong | | Hong Kong 3 \n **Taipei** |
@@ -290,8 +290,8 @@ The sites highlighted in **bold** are emphasized because they differ from the ma
 {: tab-group="dedicated-simple-2"}
 {: class="simple-tab-table"}
 
-| Market | Sites |
-|----------------|----------------|
+| Market | Data Centers | PoPs |
+|----------------|----------------|---------------|
 | Amsterdam | Amsterdam 3  | Amsterdam 2 |
 | Frankfurt | Frankfurt 2 \n Frankfurt 4 \n Frankfurt 5 | Frankfurt 1 \n Frankfurt 3 |
 | London | London 2 \n London 4 \n London 5 \n London 6 | London 1 \n London 3 |
@@ -305,3 +305,45 @@ The sites highlighted in **bold** are emphasized because they differ from the ma
 {: class="simple-tab-table"}
 
 [^newyork3]: New York City 2 connects to the IBM Cloud backbone through New York City 1. The primary reason for this PoP is to extend connectivity to different site providers from our New York City 1 site. When planning your diversity strategy, keep in mind that traffic for New York City 2 has a single, shared path to the IBM network.
+
+## Direct Link Dedicated with MACsec locations
+{: #dedicated-macsec-locations}
+
+The following table provides details about the {{site.data.keyword.cloud_notm}} data centers where {{site.data.keyword.dl_short}} Dedicated with MACsec is available. Choose a tab to see locations for Americas, APAC, and EU.
+
+| IBM Location Code  | Location Type  |  Meet Me Room Operator |  Operator Site Code  |
+|-----------------|----------------|-----------------|-----------------|
+| Dallas 3 | PoP | Equinix | DA1 |
+| Dallas 14 | DC | STACK Infrastructure | DFW02 |
+| Montreal 2 | PoP | Cologix | MON02 |
+| Toronto 2 | PoP | Cologix | TOR02 |
+{: caption="Direct Link Dedicated with MACsec hardware - Americas" caption-side="bottom"}
+{: #simpletabtable111}
+{: tab-title="Americas"}
+{: tab-group="dedicated-simple-tab"}
+{: class="simple-tab-table"}
+
+| IBM Location Code  | Location Type  |  Meet Me Room Operator |  Operator Site Code  |
+|-----------------|----------------|-----------------|-----------------|
+| Chennai 4 | DC | North Hall (nxtra) | 2F |
+| **Mumbai 4**[^mumbai1] | PoP | Fusion | NW |
+{: caption="Direct Link Dedicated with MACsec hardware - APAC" caption-side="bottom"}
+{: #simpletabtable222}
+{: tab-title="APAC"}
+{: tab-group="dedicated-simple-tab"}
+{: class="simple-tab-table"}
+
+| IBM Location Code  | Location Type  |  Meet Me Room Operator |  Operator Site Code  |
+|-----------------|----------------|-----------------|-----------------|
+| Madrid 1 | PoP | Equinix | MD1 |
+| Madrid 2 | DC  | DATA4 | MAD01 |
+| Madrid 3 | PoP | Digital Realty |  MAD3 |
+| Madrid 4 | DC  | NTT Data Center | MADRID 1 |
+| Madrid 5 | DC  | Digital Realty | MAD4 |
+{: caption="Direct Link Dedicated with MACsec hardware - EMEA" caption-side="bottom"}
+{: #simpletabtable333}
+{: tab-title="EU"}
+{: tab-group="dedicated-simple-tab"}
+{: class="simple-tab-table"}
+
+[^mumbai1]: Available in the Chennai region.
