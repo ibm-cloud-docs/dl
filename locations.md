@@ -315,7 +315,7 @@ The following table provides details about the {{site.data.keyword.cloud_notm}} 
 |-----------------|----------------|-----------------|-----------------|
 | Dallas 3 | PoP | Equinix | DA1 |
 | Dallas 14 | DC | STACK Infrastructure | DFW02 |
-| Montreal 2 | PoP | Cologix | MON02 |
+| Montreal 2 | PoP | Cologix | MTL07 |
 | Toronto 2 | PoP | Cologix | TOR02 |
 {: caption="Direct Link Dedicated with MACsec hardware - Americas" caption-side="bottom"}
 {: #simpletabtable111}
