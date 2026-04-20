@@ -162,7 +162,7 @@ The following table provides details about the {{site.data.keyword.cloud_notm}} 
 | Denver 1 | PoP | Coresite |	DE1 |
 | Los Angeles 1 | PoP | Coresite | LAX01 |
 | Miami 1 | PoP  | TERREMARK | MI1 |
-| Montreal 1 | DC | Cologix | MTL |
+| Montreal 1 | DC | Cologix | MTL9 |
 | Montreal 2 | PoP | Cologix | MTL07 |
 | Montreal 3 | PoP | Cologix | MT1 |
 | New York City 2[^newyork2]  | PoP | Equinix | NY4 |
