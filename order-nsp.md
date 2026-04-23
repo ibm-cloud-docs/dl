@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2026
-lastupdated: "2026-03-17"
+lastupdated: "2026-04-23"
 
 keywords: direct link, direct link dedicated, macsec
 
@@ -56,7 +56,7 @@ To order {{site.data.keyword.dl_full}} Dedicated, follow these steps.
 1. In the Resource section, complete the following information:
 
    * Type a name for your {{site.data.keyword.dl_short}} Dedicated connection.
-   * Choose a resource group to create the {{site.data.keyword.dl_short}} connection. Resource groups help manage and contain resources that are associated with an account. Select **Default** if you don't have other groups that are defined in the menu list. For more information about resource groups, see [Best practices for organizing resources in a resource group](/docs/account?topic=account-account_setup).
+   * Choose a resource group to create the {{site.data.keyword.dl_short}} connection. Resource groups help manage and contain resources that are associated with an account. Select **Default** if you don't have other groups that are defined in the menu list. For more information about resource groups, see [Best practices for organizing resources in a resource group](/docs/iam?topic=iam-account_setup).
    * Type your customer and carrier names.
 
 1. Optionally, you can enable enhanced traffic security in the MACsec section. To do so, toggle the **Secure Direct Link with MACsec** switch and follow these steps:
