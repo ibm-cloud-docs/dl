@@ -86,4 +86,4 @@ For specific information about how to initiate a VRF conversion for your account
 
 * [{{site.data.keyword.dl_short}} conversion instructions](/docs/dl?topic=dl-what-happens-during-the-account-conversion-process)
 * [Deprecated: Setting up access to classic infrastructure](/docs/vpc?topic=vpc-setting-up-access-to-classic-infrastructure&interface=ui)
-* [{{site.data.keyword.cloud_notm}} service endpoints conversion instructions](/docs/iam?topic=iam-vrf-service-endpoint)
+* [{{site.data.keyword.cloud_notm}} service endpoints conversion instructions](/docs/account?topic=account-vrf-service-endpoint&interface=ui)

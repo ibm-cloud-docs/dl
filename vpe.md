@@ -33,7 +33,7 @@ Before you target a virtual private endpoint for {{site.data.keyword.cloud}}, yo
 ## Setting up a VPE for {{site.data.keyword.dl_short}}
 {: #setup-vpe-dl}
 
-When you create a VPE gateway by using the CLI or API, you must specify the [Cloud Resource Name (CRN)](/docs/iam?topic=iam-crn) of the region in which you want to connect to {{site.data.keyword.dl_short}}. Review the following table for the available regions and CRNs to use to create your VPE gateway.
+When you create a VPE gateway by using the CLI or API, you must specify the [Cloud Resource Name (CRN)](/docs/account?topic=account-crn) of the region in which you want to connect to {{site.data.keyword.dl_short}}. Review the following table for the available regions and CRNs to use to create your VPE gateway.
 
 
 Direct Link supports VPEs in all the VPC regions as shown.

@@ -23,7 +23,7 @@ subcollection: dl
 
 The access policy that you assign users in your account determines what actions a user can perform within the context of the service or specific instance that you select. The direct link customizes and defines the allowable actions as operations that are allowed to be performed on the service. Each action is mapped to an IAM platform or service role that you can assign to a user.
 
-If a specific role and its actions don't fit the use case that you're looking to address, you can [create a custom role](/docs/iam?topic=iam-custom-roles#custom-access-roles) and pick the actions to include.
+If a specific role and its actions don't fit the use case that you're looking to address, you can [create a custom role](/docs/iam?topic=iam-custom-roles&interface=ui#custom-access-roles) and pick the actions to include.
 {: tip}
 
 IAM access policies enable access to be granted at different levels. Some options include:
@@ -34,7 +34,7 @@ IAM access policies enable access to be granted at different levels. Some option
 
 Review the following table that outlines what types of tasks each role allows for when you're working with the {{site.data.keyword.dl_short}} service. Platform management roles enable users to perform tasks on service resources at the platform level, for example, assign user access to the service, and create or delete instances.
 
-{{site.data.keyword.dl_short}} does not have service-access roles, which enable users access to Direct Link and the ability to call the Direct Link API. For information about the exact actions that are mapped to each role, see [{{site.data.keyword.dl_short}} Connect](/docs/iam?topic=iam-service-roles-actions#directlink-connect-roles) and [{{site.data.keyword.dl_short}} Dedicated](/docs/iam?topic=iam-service-roles-actions#directlink-dedicated-roles).
+{{site.data.keyword.dl_short}} does not have service-access roles, which enable users access to Direct Link and the ability to call the Direct Link API. For information about the exact actions that are mapped to each role, see [{{site.data.keyword.dl_short}} Connect](/docs/iam?topic=iam-iam-service-roles-actions#directlink.connect-roles) and [{{site.data.keyword.dl_short}} Dedicated](/docs/iam?topic=iam-iam-service-roles-actions#directlink.dedicated-roles).
 {: note}
 
 | Platform role | Description of actions | Example actions |
