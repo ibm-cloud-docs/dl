@@ -365,4 +365,4 @@ resource "ibm_iam_user_policy" "policy" {
 ```
 {: codeblock}
 
-For more information, see [ibm_iam_user_policy](https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs/resources/iam_user_policy){: external}.
+For more information, see [ibm_iam_user_policy](https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs/resources/iam_user_policy).

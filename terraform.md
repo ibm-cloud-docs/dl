@@ -33,7 +33,7 @@ Before you can create an authorization by using Terraform, make sure that you ha
 1. In your Terraform configuration file, find the Terraform code that you used to create the Direct Link instance.
 1. Create a Direct Link instance by using the `ibm_resource_instance` resource argument in your `main.tf` file. The Direct Link zone in the following example is named `Gateway1`. The Direct Link resource in the following example is named `test_dl_routers` and is created as a dedicated gateway in the `dal10` location.
 
-   For more information about arguments and attributes, see the [`ibm_dl_gateway`](https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs/resources/dl_gateway){: external} usage example.
+   For more information about arguments and attributes, see the [`ibm_dl_gateway`](https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs/resources/dl_gateway) usage example.
    {: note}
 
    ```terraform
@@ -89,4 +89,4 @@ Before you can create an authorization by using Terraform, make sure that you ha
 ## What's next?
 {: #terraform-setup-next}
 
-Now that you successfully created your first Direct Link service instance with Terraform on {{site.data.keyword.cloud_notm}}, you can visit the Direct Link [Direct Link Terraform registry](https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs/resources/dl_gateway){: external} to perform additional tasks using Terraform.
+Now that you successfully created your first Direct Link service instance with Terraform on {{site.data.keyword.cloud_notm}}, you can visit the Direct Link [Direct Link Terraform registry](https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs/resources/dl_gateway) to perform additional tasks using Terraform.
