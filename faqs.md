@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2026
-lastupdated: "2026-03-18"
+lastupdated: "2026-04-23"
 
 keywords: faqs
 
@@ -180,7 +180,7 @@ By default, BGP passwords for Direct Link aren't set up. Currently, BGP MD5 auth
 {: faq}
 {: support}
 
-For a direct link that was provisioned via the IBM console, a VLAN ID update is not supported. For a direct link provisioned via Provider API, you can request a VLAN update using the Provider portal/APIs, or request a VLAN update by opening an [IBM Support case](/docs/account?topic=account-open-case).
+For a direct link that was provisioned via the IBM console, a VLAN ID update is not supported. For a direct link provisioned via Provider API, you can request a VLAN update using the Provider portal/APIs, or request a VLAN update by opening an [IBM Support case](/docs/get-support?topic=get-support-open-case).
 
 ### How easy is it to upgrade the bandwidth of my {{site.data.keyword.dl_short}} Dedicated connection, for example 1 - 5 GB?
 {: #how-easy-is-it-to-upgrade-the-bandwidth-of-my-dl-connection}
