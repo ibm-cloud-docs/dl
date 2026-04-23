@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2025
-lastupdated: "2025-06-17"
+  years: 2026
+lastupdated: "2026-04-23"
 
 keywords: HA for direct link, DR for direct link, direct link recovery time objective, direct link recovery point objective
 
@@ -23,7 +23,7 @@ subcollection: dl
 
 IBM Cloud Direct Link is a highly available service designed to meet the [Service Level Objectives (SLO)](/docs/resiliency?topic=resiliency-slo). It is composed of zonal and regional configurations to fit a variety of needs. To better understand the underlying infrastructure, including definitions of data centers, zones, and Points of Presence (PoPs), see [IBM Cloud region and data center locations for resource deployment](/docs/overview?topic=overview-locations). For information about available regions and data center locations for Direct Link, see the Gateway section on the [Direct Link Connect](/interconnectivity/direct-link/connect/provision) or [Direct Link Dedicated](/interconnectivity/direct-link/dedicated/provision) provisioning pages.
 
-To learn more about the IBM Cloud approach to high availability and disaster recovery, including platform-wide standards and best practices, see [How IBM Cloud ensures high availability and disaster recovery](/docs/resiliency?topic=resiliency-ha-redundancy#zero-downtime). You can also find information about high availability in the IBM Cloud [Service Level Agreement](https://www.ibm.com/support/customer/csol/terms/?id=i126-9268&lc=en){: external} (SLA). 
+To learn more about the IBM Cloud approach to high availability and disaster recovery, including platform-wide standards and best practices, see [How IBM Cloud ensures high availability and disaster recovery](/docs/resiliency?topic=resiliency-ha-redundancy#zero-downtime). You can also find information about high availability in the IBM Cloud [Service Level Agreement](https://www.ibm.com/support/customer/csol/terms/?id=i126-9268&lc=en){: external} (SLA).
 
 ## High availability architecture
 {: #ha-architecture}
@@ -41,7 +41,7 @@ You are responsible for understanding how your Direct Link connection is configu
 
 ### High availability features
 {: #high-availability-features}
-  
+
 {{site.data.keyword.dl_full_notm}} supports the following high availability features:
 
 | Feature| Description | Consideration |
@@ -59,7 +59,7 @@ As a customer, you can create and support the following other high availability 
 | AS prepending, BGP |  Configure AS prepending and BGP routing to manage traffic flow between active and passive connections.| Define clear routing policies for inbound and outbound traffic. Monitor BGP advertisements for correctness and adjust AS path strategies as needed.|
 | Bidirectional Forwarding Detection (BFD)  | Enable BFD to quickly detect link failures and ensure rapid failover, improving availability.| Verify that all network elements support BFD. Monitor BFD session health and tune detection intervals carefully to balance sensitivity and false positives. |
 {: caption="Customer HA features for {{site.data.keyword.dl_full_notm}}" caption-side="bottom"}
- 
+
 ## Disaster recovery architecture
 {: #disaster-recovery-intro}
 
@@ -68,19 +68,19 @@ IBM Cloud Direct Link plays a critical role in building resilient, high-availabi
 Organizations can choose from multiple port speed options (50 Mbps to 10 Gbps) based on their data replication needs. While redundancy is not built-in, you can configure it by provisioning dual links across diverse cross-connect routers (XCRs) and implementing proper BGP failover strategies. Direct Link supports both local and global routing, enabling workload distribution across regions for improved resilience. Integration with multi-zone regions (MZRs) and support for configuration backup and recovery provide further protection against localized failures.
 
 The following table outlines these features and key considerations.
- 
+
 ### Disaster recovery features
 {: #dr-features}
 
 {{site.data.keyword.dl_full_notm}} supports the following disaster recovery features:
- 
+
 | Feature | Description | Consideration |
 | -------------- | -------------- | -------------- |
 | Local and Global routing | Direct Link includes both local and global routing, providing seamless connectivity to data centers within the same market (local routing) and across different geographic markets (global routing). | Global routing is necessary for inter-region workload sharing and disaster recovery across multiple regions. |
 | Backup and recovery of configurations | IBM Cloud provides tools to back up Direct Link configurations, allowing you to restore services if there is a disaster. | Regular backups and testing of recovery procedures are recommended to ensure quick restoration during outages. |
 | Multi-zone Region (MZR) support | Direct Link integrates with IBM Cloud's MZRs, enhancing availability and resilience by distributing workloads across multiple zones. | Proper deployment across multiple zones is necessary to achieve high availability and minimize the impact of zone-specific failures. |
 {: caption="Disaster Recovery features for {{site.data.keyword.dl_full_notm}}" caption-side="bottom"}
- 
+
 As a customer, you can create and support the following other disaster recovery options:
 
 | Feature | Description | Consideration |
@@ -102,21 +102,21 @@ There can be multiple ways to recover from certain failures, so be sure to asses
 | PoP failure | Ensure that there are two or more connections that don't connect to the same PoP. |
 | Data center (zone) failure | Ensure that there are two or more direct links across different zones to ensure failover. IBM Cloud Direct Link can reroute traffic automatically, but customer-side configuration improves resilience. |
 | Region failure | Anticipate this by having connections in a restored region. If this is cost prohibitive, have VPN capabilities and associated scripts in place to replace direct link connections. |
-| Hardware failure (single point)	|  The IBM Cloud Direct Link architecture is designed to handle single point hardware failures by providing diverse network connections. Failover occurs seamlessly, with no customer configuration needed. |  
+| Hardware failure (single point)	|  The IBM Cloud Direct Link architecture is designed to handle single point hardware failures by providing diverse network connections. Failover occurs seamlessly, with no customer configuration needed. |
 | Network connection packet loss | Use monitoring tools to identify the root cause. Check for traffic spikes that exceed provisioned bandwidth, which can trigger policing and packet drops. Inspect ports, cabling, and network hardware for faults. If the issue persists or cannot be isolated, escalate to IBM Support for further investigation. |
 | Two direct links are provisioned using different providers to the same PoP, but both are connected to the same hardware device, creating a single point of failure. | Ensure port diversity by checking port assignment details in the IBM Cloud console when ordering direct links. For nonintegrated providers (ordered separately in both the provider portal and IBM Cloud console), verify the port that is used by an existing link and select a different one. For API-integrated providers (where orders are initiated in the provider's portal and reflected in the IBM Cloud console), consult our [provider-specific instructions](/docs/dl?topic=dl-netbond). For dedicated direct links, check for existing cross-connects in the same PoP.|
-{: caption="Disaster recovery scenarios for {{site.data.keyword.dl_full_notm}}" caption-side="bottom"} 
+{: caption="Disaster recovery scenarios for {{site.data.keyword.dl_full_notm}}" caption-side="bottom"}
 
 ## Your responsibilities for HA and DR
 {: #ha-dr-responsibilities}
 
 For background information about responsibility ownership for using Direct Link between {{site.data.keyword.IBM_notm}} and you, the customer, see [Understanding your responsibilities when using IBM Cloud Direct Link](/docs/dl?topic=dl-dl-responsibilities). It is your responsibility to continuously test your plan for HA and DR.
 
-Interruptions in network connectivity and short periods of unavailability of a service might occur. It is your responsibility to make sure that application source code includes [client availability retry logic](/docs/resiliency?topic=resiliency-high-availability-design#client-retry-logic-for-ha) to maintain high availability of the application.   
-{: note}  
+Interruptions in network connectivity and short periods of unavailability of a service might occur. It is your responsibility to make sure that application source code includes [client availability retry logic](/docs/resiliency?topic=resiliency-high-availability-design#client-retry-logic-for-ha) to maintain high availability of the application.
+{: note}
 
-## Recovery time objective (RTO) 
-{: #rto-features}  
+## Recovery time objective (RTO)
+{: #rto-features}
 
 Direct Link provides mechanisms to protect your data and restore service functions. Business continuity plans are in place to achieve targeted [recovery time objective](#x3167918){: term} (RTO) for the service. The following table outlines the targets for Direct Link.
 
@@ -125,7 +125,7 @@ Direct Link provides mechanisms to protect your data and restore service functio
 | Redundancy configuration | Within minutes (usually < than 5 minutes)  |
 | Routing | Automatic failover within minutes (typically < 2 minutes)   |
 | Backup and recovery |Based on data size: ~10 minutes + 1 minute per 10 GB of data restored  |
-| Multi-zone region | ~10 minutes + 1 minute per 10 GB if data restoration is needed | 
+| Multi-zone region | ~10 minutes + 1 minute per 10 GB if data restoration is needed |
 | Backup/restore scripts and backup data | 30 minutes – several hours, depending on automation and data volume |
 | Diverse Direct Link connections | < 5 minutes (typically 1–2 minutes) if BGP and routing failover are properly configured and regularly tested  |
 | Data protection, assuming IBM-provided tools | 10 minutes + 1 minute per 10 GB of data restored (same as IBM standard backup recovery) |
@@ -137,14 +137,14 @@ Direct Link provides mechanisms to protect your data and restore service functio
 Change management includes tasks such as upgrades, configuration changes, and deletion.
 
 Grant users and processes the Identity and Access Management (IAM) roles and actions with the least privilege that is required for their work. For more information, see [How can I prevent accidental deletion of services?](/docs/resiliency?topic=resiliency-dr-faq#prevent-accidental-deletion).
-{: tip} 
+{: tip}
 
 Best practices for managing change also include:
- 
-* Plan and document changes by maintaining a change log for any modifications that are made to your Direct Link configuration. 
+
+* Plan and document changes by maintaining a change log for any modifications that are made to your Direct Link configuration.
 * Create a backup of critical configurations before performing upgrade or major changes.
 * Schedule upgrade or high-impact changes during low-traffic windows and notify impacted teams.
-* Monitor your Direct Link connection health and metrics to ensure that everything is performing as expected. 
+* Monitor your Direct Link connection health and metrics to ensure that everything is performing as expected.
 
 ## How IBM supports disaster recovery planning
 {: #ibm-disaster-recovery-planning}
@@ -165,7 +165,7 @@ A zone failure refers to the failure of one data center or availability zone wit
 * Direct Link operates across multiple physical network paths. Diverse links and paths ensure that a failure in one zone doesn’t take down the entire connection.
 * IBM constantly monitors the health of Direct Link endpoints. If a zone becomes unavailable, traffic can be rerouted to healthy zones where applicable.
 
-If IBM can’t restore the service instance, you must restore the service as described in [Disaster recovery architecture](/docs/dl?topic=dl-ha-dr-dl#disaster-recovery-intro).    
+If IBM can’t restore the service instance, you must restore the service as described in [Disaster recovery architecture](/docs/dl?topic=dl-ha-dr-dl#disaster-recovery-intro).
 
 ### How IBM recovers from regional failures
 {: #ibm-regional-failure}
@@ -181,6 +181,6 @@ If {{site.data.keyword.IBM_notm}} can’t restore the service instance, you must
 ## How IBM maintains services
 {: #ibm-service-maintenance}
 
-All upgrades follow {{site.data.keyword.IBM_notm}} service best practices, including recovery plans and rollback processes. Regular maintenance might cause short interruptions, mitigated by [client availability retry logic](/docs/resiliency?topic=resiliency-high-availability-design#client-retry-logic-for-ha). Changes are rolled out sequentially, region by region, and zone by zone within a region. {{site.data.keyword.IBM_notm}} reverts updates at the first sign of a defect. 
+All upgrades follow {{site.data.keyword.IBM_notm}} service best practices, including recovery plans and rollback processes. Regular maintenance might cause short interruptions, mitigated by [client availability retry logic](/docs/resiliency?topic=resiliency-high-availability-design#client-retry-logic-for-ha). Changes are rolled out sequentially, region by region, and zone by zone within a region. {{site.data.keyword.IBM_notm}} reverts updates at the first sign of a defect.
 
-IBM provides advance notice for all planned maintenance activities. If a change is expected to affect your workloads, IBM communicates this through official notifications. To stay updated on maintenance, service announcements, and other updates, see the [Monitoring notifications and status](/docs/account?topic=account-viewing-cloud-status) page.
+IBM provides advance notice for all planned maintenance activities. If a change is expected to affect your workloads, IBM communicates this through official notifications. To stay updated on maintenance, service announcements, and other updates, see the [Monitoring status best practices](/docs/support?topic=support-best-practices) page.

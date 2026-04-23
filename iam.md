@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020
-lastupdated: "2024-10-21"
+  years: 2020, 2026
+lastupdated: "2026-04-23"
 
 keywords: IAM access for Direct Link, permissions for Direct Link, identity and access management for Direct Link, roles for Direct Link, actions for  Direct Link, assigning access for Direct Link
 
@@ -23,7 +23,7 @@ subcollection: dl
 
 The access policy that you assign users in your account determines what actions a user can perform within the context of the service or specific instance that you select. The direct link customizes and defines the allowable actions as operations that are allowed to be performed on the service. Each action is mapped to an IAM platform or service role that you can assign to a user.
 
-If a specific role and its actions don't fit the use case that you're looking to address, you can [create a custom role](/docs/account?topic=account-custom-roles&interface=ui#custom-access-roles) and pick the actions to include.
+If a specific role and its actions don't fit the use case that you're looking to address, you can [create a custom role](/docs/iam?topic=iam-custom-roles&interface=ui#custom-access-roles) and pick the actions to include.
 {: tip}
 
 IAM access policies enable access to be granted at different levels. Some options include:
@@ -34,7 +34,7 @@ IAM access policies enable access to be granted at different levels. Some option
 
 Review the following table that outlines what types of tasks each role allows for when you're working with the {{site.data.keyword.dl_short}} service. Platform management roles enable users to perform tasks on service resources at the platform level, for example, assign user access to the service, and create or delete instances.
 
-{{site.data.keyword.dl_short}} does not have service-access roles, which enable users access to Direct Link and the ability to call the Direct Link API. For information about the exact actions that are mapped to each role, see [{{site.data.keyword.dl_short}} Connect](/docs/account?topic=account-iam-service-roles-actions#directlink.connect-roles) and [{{site.data.keyword.dl_short}} Dedicated](/docs/account?topic=account-iam-service-roles-actions#directlink.dedicated-roles).
+{{site.data.keyword.dl_short}} does not have service-access roles, which enable users access to Direct Link and the ability to call the Direct Link API. For information about the exact actions that are mapped to each role, see [{{site.data.keyword.dl_short}} Connect](/docs/iam?topic=iam-iam-service-roles-actions#directlink.connect-roles) and [{{site.data.keyword.dl_short}} Dedicated](/docs/iam?topic=iam-iam-service-roles-actions#directlink.dedicated-roles).
 {: note}
 
 | Platform role | Description of actions | Example actions |
@@ -49,7 +49,7 @@ Review the following table that outlines what types of tasks each role allows fo
 **Notes**:
 
 * All {{site.data.keyword.dl_short}} resources exist in a resource group. Creating a {{site.data.keyword.dl_short}} resource requires Editor access to the selected resource group.
-* For information about assigning user roles in the console, see [Managing access to resources](/docs/account?topic=account-assign-access-resources).
+* For information about assigning user roles in the console, see [Managing access to resources](/docs/iam?topic=iam-assign-access-resources).
 
 ## Assigning access to Direct Link in the console
 {: #assign-access-console}
@@ -57,8 +57,8 @@ Review the following table that outlines what types of tasks each role allows fo
 
 Common ways to assign access in the console:
 
-* Access policies per user. You can manage access policies per user from the **Manage** > **Access (IAM)** > **Users** page in the console. For information about the steps to assign IAM access, see [Managing access to resources](/docs/account?topic=account-assign-access-resources&interface=ui#access-resources-console).
-* Access groups. Access groups are used to streamline access management by assigning access to a group once, then you can add or remove users as needed from the group to control their access. You manage access groups and their access from the **Manage** > **Access (IAM)** > **Access groups** page in the console. For more information, see [Assigning access to a group in the console](/docs/account?topic=account-groups&interface=ui#access_ag).
+* Access policies per user. You can manage access policies per user from the **Manage** > **Access (IAM)** > **Users** page in the console. For information about the steps to assign IAM access, see [Managing access to resources](/docs/iam?topic=iam-assign-access-resources&interface=ui#access-resources-console).
+* Access groups. Access groups are used to streamline access management by assigning access to a group once, then you can add or remove users as needed from the group to control their access. You manage access groups and their access from the **Manage** > **Access (IAM)** > **Access groups** page in the console. For more information, see [Assigning access to a group in the console](/docs/iam?topic=iam-access-getstarted#create-access-group).
 
 ## Authorization considerations for cross-account virtual connections
 {: #xac-auth-considerations}
@@ -81,7 +81,7 @@ The following table shows the authorization changes for cross-account virtual co
 {: #assign-access-cli}
 {: cli}
 
-For step-by-step instructions for assigning, removing, and reviewing access, see [Assigning access resources by using the CLI](/docs/account?topic=account-assign-access-resources&interface=cli#access-resources-cli). The following example shows a command for assigning the `Editor` role to a user:
+For step-by-step instructions for assigning, removing, and reviewing access, see [Assigning access resources by using the CLI](/docs/iam?topic=iam-assign-access-resources&interface=cli#access-resources-cli). The following example shows a command for assigning the `Editor` role to a user:
 
 Use `directlink` for the service name. Also, use quotations around role names that are more than one word like the example here.
 {: tip}
@@ -95,7 +95,7 @@ ibmcloud iam user-policy-create USER@EXAMPLE.COM --service-name directlink --rol
 {: #assign-access-api}
 {: api}
 
-For step-by-step instructions for assigning, removing, and reviewing access, see [Assigning access to resources by using the API](/docs/account?topic=account-assign-access-resources&interface=api) or the [Create a policy API doc](/apidocs/iam-policy-management#create-policy). Role cloud resource names (CRN) in the following table are used to assign access with the API.
+For step-by-step instructions for assigning, removing, and reviewing access, see [Assigning access to resources by using the API](/docs/iam?topic=iam-assign-access-resources&interface=api) or the [Create a policy API doc](/apidocs/iam-policy-management#create-policy). Role cloud resource names (CRN) in the following table are used to assign access with the API.
 
 | Role name | Role CRN |
 |---------------|-----------------|
@@ -365,4 +365,4 @@ resource "ibm_iam_user_policy" "policy" {
 ```
 {: codeblock}
 
-For more information, see [ibm_iam_user_policy](https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs/resources/iam_user_policy){: external}.
+For more information, see [ibm_iam_user_policy](https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs/resources/iam_user_policy).

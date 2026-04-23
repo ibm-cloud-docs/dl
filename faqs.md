@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2026
-lastupdated: "2026-03-18"
+lastupdated: "2026-04-23"
 
 keywords: faqs
 
@@ -180,7 +180,7 @@ By default, BGP passwords for Direct Link aren't set up. Currently, BGP MD5 auth
 {: faq}
 {: support}
 
-For a direct link that was provisioned via the IBM console, a VLAN ID update is not supported. For a direct link provisioned via Provider API, you can request a VLAN update using the Provider portal/APIs, or request a VLAN update by opening an [IBM Support case](/docs/account?topic=account-open-case).
+For a direct link that was provisioned via the IBM console, a VLAN ID update is not supported. For a direct link provisioned via Provider API, you can request a VLAN update using the Provider portal/APIs, or request a VLAN update by opening an [IBM Support case](/docs/get-support?topic=get-support-open-case).
 
 ### How easy is it to upgrade the bandwidth of my {{site.data.keyword.dl_short}} Dedicated connection, for example 1 - 5 GB?
 {: #how-easy-is-it-to-upgrade-the-bandwidth-of-my-dl-connection}
@@ -266,7 +266,7 @@ The Direct Link offerings do not provide reporting metrics or usage data. If you
 {: #view-egress-usage}
 {: faq}
 
-IBM Cloud Direct Link is integrated into the [IBM Cloud usage dashboard](/docs/account?topic=account-viewingusage&interface=ui), which provides a summary of estimated charges for all services and resources that are used per month in your organizations. This includes the number of connections and the amount of traffic flowing across your direct links. IBM Cloud Direct Link usage is billed and reported as part of the [IBM Cloud invoice process](/docs/account?topic=account-managing-invoices).
+IBM Cloud Direct Link is integrated into the [IBM Cloud usage dashboard](/docs/account?topic=account-viewingusage&interface=ui), which provides a summary of estimated charges for all services and resources that are used per month in your organizations. This includes the number of connections and the amount of traffic flowing across your direct links. IBM Cloud Direct Link usage is billed and reported as part of the [IBM Cloud invoice process](/docs/iam?topic=iam-managing-invoices).
 
 ## Direct Link security with Secrets Manager
 {: #enhance-security-with-secrets-manager}

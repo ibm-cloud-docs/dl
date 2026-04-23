@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021, 2026
-lastupdated: "2026-03-17"
+lastupdated: "2026-04-23"
 
 keywords: direct link
 
@@ -44,7 +44,7 @@ You can store your keys in either Secrets Manager, Hyper Protect Crypto Services
    If you use HPCS, it is important to note that the `"extractable": <key_type>` value is set to `true` for standard keys.
    {: note}
 
-1. After you create encryption keys for Direct Link, use IBM Cloud Identity and Access Management (IAM) to grant authorization between your instance and the Direct Link service. You can grant access at the instance level to allow Direct Link to use all keys within the instance, or on a key-by-key basis. For instructions, see [Using authorizations to grant access between services](/docs/account?topic=account-serviceauth).
+1. After you create encryption keys for Direct Link, use IBM Cloud Identity and Access Management (IAM) to grant authorization between your instance and the Direct Link service. You can grant access at the instance level to allow Direct Link to use all keys within the instance, or on a key-by-key basis. For instructions, see [Using authorizations to grant access between services](/docs/iam?topic=iam-serviceauth&interface=ui).
 
    If you use Key Protect, select **Resources based on selected attributes** after you select **Direct Link** as the Source service. Then, for Resource type, select either **Direct Link Connect** or **Direct Link Dedicated**, followed by **Key Protect** as the Target service. Do not select **Source resource group** as doing so causes an error when used with a Direct Link resource type.
    {: important}

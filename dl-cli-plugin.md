@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2026
-lastupdated: "2026-02-20"
+lastupdated: "2026-04-23"
 
 subcollection: dl
 
@@ -23,7 +23,7 @@ The {{site.data.keyword.dl_full}} command line interface (CLI) is organized into
 
 Complete these steps to use the Direct Link CLI, which is implemented as an {{site.data.keyword.cloud_notm}} CLI plug-in. This plug-in provides you with the means to manage your service instance and its associated resources through a CLI interface.
 
-1. Install the [{{site.data.keyword.cloud_notm}} CLI](/docs/cli?topic=cli-install-ibmcloud-cli){: external}.
+1. Install the [{{site.data.keyword.cloud_notm}} CLI](/docs/cli?topic=cli-install-ibmcloud-cli).
 1. Install the `dl-cli` plug-in to the {{site.data.keyword.cloud_notm}} CLI.
 
    To install the plug-in, enter the following command.

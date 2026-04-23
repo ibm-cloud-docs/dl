@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021, 2026
-lastupdated: "2026-01-16"
+lastupdated: "2026-04-23"
 
 keywords: direct link, terraform
 
@@ -33,7 +33,7 @@ Before you can create an authorization by using Terraform, make sure that you ha
 1. In your Terraform configuration file, find the Terraform code that you used to create the Direct Link instance.
 1. Create a Direct Link instance by using the `ibm_resource_instance` resource argument in your `main.tf` file. The Direct Link zone in the following example is named `Gateway1`. The Direct Link resource in the following example is named `test_dl_routers` and is created as a dedicated gateway in the `dal10` location.
 
-   For more information about arguments and attributes, see the [`ibm_dl_gateway`](https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs/resources/dl_gateway){: external} usage example.
+   For more information about arguments and attributes, see the [`ibm_dl_gateway`](https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs/resources/dl_gateway) usage example.
    {: note}
 
    ```terraform
@@ -84,9 +84,9 @@ Before you can create an authorization by using Terraform, make sure that you ha
 
 1. From the [{{site.data.keyword.cloud_notm}} resource list](/resources){: external}, select the Direct Link instance that you created and note the instance ID.
 
-1. Verify that the access policy is successfully assigned. For more information, see [Reviewing assigned access in the console](/docs/account?topic=account-assign-access-resources&interface=ui#review-your-access-console).
+1. Verify that the access policy is successfully assigned. For more information, see [Reviewing assigned access in the console](/docs/iam?topic=iam-assign-access-resources#review-your-access-console).
 
 ## What's next?
 {: #terraform-setup-next}
 
-Now that you successfully created your first Direct Link service instance with Terraform on {{site.data.keyword.cloud_notm}}, you can visit the Direct Link [Direct Link Terraform registry](https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs/resources/dl_gateway){: external} to perform additional tasks using Terraform.
+Now that you successfully created your first Direct Link service instance with Terraform on {{site.data.keyword.cloud_notm}}, you can visit the Direct Link [Direct Link Terraform registry](https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs/resources/dl_gateway) to perform additional tasks using Terraform.

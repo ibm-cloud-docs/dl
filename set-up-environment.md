@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2022, 2024
-lastupdated: "2024-07-16"
+  years: 2022, 2026
+lastupdated: "2026-04-23"
 keywords: api
 
 subcollection: dl
@@ -21,7 +21,7 @@ Before you can use the Direct Link API, you must set up your environment.
 ## General prerequisites
 {: #general-prerequisites}
 
-Set up your account to access the direct link. Make sure that your account is [upgraded to a paid account](/docs/account?topic=account-accountfaqs#changeacct){: external}.
+Set up your account to access the direct link. Make sure that your account is [upgraded to a paid account](/docs/iam?topic=iam-accountfaqs#changeacct).
 
 ## API prerequisites
 {: #api-prerequisites-setup}
@@ -34,7 +34,7 @@ The following examples use the `directlink.cloud.ibm.com` global endpoint.
 ### Step 1: Store your API key as a variable
 {: #store-api-key-variable}
 
-Run the following command to store the API key for your account in an environment variable. If you don't have an API key, see [Creating an API key](/docs/account?topic=account-userapikey&interface=ui#create_user_key){: external}.
+Run the following command to store the API key for your account in an environment variable. If you don't have an API key, see [Creating an API key](/docs/iam?topic=iam-userapikey#create_user_key).
 
 ```sh
 apikey="<YOUR_API_KEY>"
