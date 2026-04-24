@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2026
-lastupdated: "2026-04-23"
+lastupdated: "2026-04-24"
 
 keywords: direct link, direct link dedicated, macsec
 
@@ -23,10 +23,10 @@ To order {{site.data.keyword.dl_short}} Dedicated, you must determine the locati
 ## Planning considerations
 {: #before-you-begin-dedicated}
 
-Make sure that you review the following information before you order Direct Link Dedicated:
+Review the following information before you order Direct Link Dedicated:
 
 * Before you begin, contact your service provider to determine the location to IBM Cloud by verifying your colocation or service provider's capabilities to reach the Meet Me Room and cross-connect into IBM Cloud.
-* All subnets of the VPC or classic network are connected to the direct link. When you create VPCs, make sure to create the VPCs with nonoverlapping prefixes and unique subnets.
+* All subnets of the VPC or classic network are connected to the direct link. When you create VPCs, use nonoverlapping prefixes and unique subnets.
    * To avoid IP address conflicts for classic connections to a direct link, don't use IP address ranges in the `10.0.0.0/14`, `10.200.0.0/14`, `10.198.0.0/15`, and `10.254.0.0/16` blocks for on-prem networks. On-prem routes that overlap are dropped.
    * For VPC connections to a direct link, you "can" use restricted Classic IP ranges in the `10.0.0.0/14`, `10.200.0.0/14`, `10.198.0.0/15`, and `10.254.0.0/16` blocks.
    * For direct links connected to transit gateways, these IP ranges are always filtered to protect classic networks that might potentially be connected to transit gateways.
@@ -155,7 +155,8 @@ To order {{site.data.keyword.dl_full}} Dedicated, follow these steps.
 
       **Important**:
 
-      * Configure the same BGP MD5 authentication key on both your Edge router and the IBM cross-connect router (XCR). The shared authentication key on the IBM device must be stored in your Secrets Manager, HPCS, or Key Protect instance and shared with the Direct Link service. For more information, see [Setting up BGP Message Digest 5 (MD5) authentication keys](/docs/dl?topic=dl-dl-md5).
+      * Configure the same BGP MD5 authentication key on both your Edge router and the IBM cross-connect router (XCR).
+      * Store the shared authentication key in your Secrets Manager, HPCS, or Key Protect instance and share it with the Direct Link service. For more information, see [Setting up BGP Message Digest 5 (MD5) authentication keys](/docs/dl?topic=dl-dl-md5).
       * You can achieve hitless key refresh if the keys are updated on both your Edge router and on the IBM cross-connect router (XCR) within 90 seconds. As a precondition, you must configure the BGP hold time on your router to a minimum of 90 seconds. All Direct Link routers have a 90-second configuration by default. Either side can initiate the key refresh, but both sides must refresh within the configured BGP hold time to avoid traffic disruption.
       * If a BGP peering session was established and you enable BGP MD5 authentication (or change the authentication key to a different value), BGP sessions are reestablished. This action causes BGP session downtime and network disruption until the BGP peer device is configured with the same change.
 

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2026
-lastupdated: "2026-02-23"
+lastupdated: "2026-04-24"
 
 keywords: interconnectivity, direct link
 
@@ -66,7 +66,7 @@ Some benefits include:
 * Latency tolerant
 * Lower-cost entry to {{site.data.keyword.cloud_notm}}
 
-![Using service provider networks to virtually reach IBM Cloud](images/direct-link-connect.png){: caption="Leveraging service provider networks to virtually reach IBM Cloud" caption-side="bottom"}
+![Architecture diagram showing customer on-premises network connecting to IBM Cloud through a service provider network. The diagram shows customer network, service provider with NNI connection, and IBM Cloud resources](images/direct-link-connect.png){: caption="Leveraging service provider networks to virtually reach IBM Cloud" caption-side="bottom"}
 
 ### {{site.data.keyword.dl_short}} Connect use case 2: Other Cloud Service Providers (CSPs) or enterprises
 {: #connect-use-case-3}
@@ -77,41 +77,33 @@ Some benefits include:
 * Layer 2 and Layer 3 support
 * Lower cost of entry to IBM Cloud
 
-![Other CSPs or enterprises](images/connect-use-case.png){: caption="Other CSPs or enterprises" caption-side="bottom"}
+![Architecture diagram showing Direct Link Connect enabling multi-cloud connectivity. The diagram displays customer network connecting through a service provider to both IBM Cloud and other cloud service providers, demonstrating Layer 2 and Layer 3 support](images/connect-use-case.png){: caption="Other CSPs or enterprises" caption-side="bottom"}
 
-Termination location:
+Termination location
+:   {{site.data.keyword.cloud_notm}} point of presence (PoP).
 
- :    {{site.data.keyword.cloud_notm}} point of presence (PoP).
+Typical deployment time
+:   5 - 10 days after the circuit reaches the exchange. Deployment time can be 30 - 60 days overall, depending on your location and the requirements when you order a circuit from a service provider or carrier.
 
-Typical deployment time:
-
- :    5 - 10 days after the circuit reaches the exchange. Deployment time can be 30 - 60 days overall, depending on your location and the requirements when you order a circuit from a service provider or carrier.
-
-Cross-connect details:
-
- :    Physical cross-connects for the secure {{site.data.keyword.dl_short}} Connect interconnect are maintained between {{site.data.keyword.cloud_notm}} and the service provider. Request a "Virtual Circuit" from the service provider, which establishes logical connectivity to {{site.data.keyword.cloud_notm}}, after you are connected to the service provider.
+Cross-connect details
+:   Physical cross-connects for the secure {{site.data.keyword.dl_short}} Connect interconnect are maintained between {{site.data.keyword.cloud_notm}} and the service provider. Request a "Virtual Circuit" from the service provider, which establishes logical connectivity to {{site.data.keyword.cloud_notm}}, after you are connected to the service provider.
 
 Port speed options
-
- :    Select 50 Mbps, 100 Mbps[^100], 200 Mbps, 500 Mbps, 1 Gbps, 2 Gbps, or 5 Gbps.
+:   Select 50 Mbps, 100 Mbps[^100], 200 Mbps, 500 Mbps, 1 Gbps, 2 Gbps, or 5 Gbps.
 
 [^100]: The 100 Mbps port speed option is not available for Equinix Exchange and Connect direct links.
 
-Approximate latency:
+Approximate latency
+:   Latency is approximately 1.5 ms within the local area (data centers with the same three-letter prefix, such as DAL, AMS, MEL). See [Looking Glass](http://lg.softlayer.com/){: external} for live PoP-to-PoP (P2P) location latency measurements.
 
- :    Latency is approximately 1.5 ms within the local area (data centers with the same three-letter prefix, such as DAL, AMS, MEL). See [Looking Glass](http://lg.softlayer.com/){: external} for live PoP-to-PoP (P2P) location latency measurements.
+IBM colocation services
+:   None.
 
-IBM colocation services:
+Redundancy
+:   {{site.data.keyword.cloud_notm}} does not provide redundancy as part of the product. To establish redundant connectivity, you must acquire two connections on diverse cross-connect routers (XCRs) and configure BGP on each {{site.data.keyword.dlc_full_notm}} connection as they prefer. Examples include: _prefer Lowest MED_, _prefer highest local-preference_, or _prefer shorter AS paths_.
 
- :    None.
-
-Redundancy:
-
- :    {{site.data.keyword.cloud_notm}} does not provide redundancy as part of the product. To establish redundant connectivity, you must acquire two connections on diverse cross-connect routers (XCRs) and configure BGP on each {{site.data.keyword.dlc_full_notm}} connection as they prefer. Examples include: _prefer Lowest MED_, _prefer highest local-preference_, or _prefer shorter AS paths_.
-
-Local and global routing options:
-
- :    The default routing option is Local routing. It provides access to data centers within the same market as the {{site.data.keyword.dl_short}} PoP (denoted, for example, as DAL, AMS, or MEL). The global routing option is required as an add-on to connect your IBM Cloud resources to other IBM Cloud resources in data centers outside the local market. It is used to share workloads between IBM Cloud resources (for example, Dallas to Ashburn, or Dallas to Frankfurt).
+Local and global routing options
+:   The default routing option is Local routing. It provides access to data centers within the same market as the {{site.data.keyword.dl_short}} PoP (denoted, for example, as DAL, AMS, or MEL). The global routing option is required as an add-on to connect your IBM Cloud resources to other IBM Cloud resources in data centers outside the local market. It is used to share workloads between IBM Cloud resources (for example, Dallas to Ashburn, or Dallas to Frankfurt).
 
 ### {{site.data.keyword.dl_short}} Connect use case 3: Location connectivity that uses Power Systems Virtual Servers and Transit Gateway
 {: #connect-use-case-4}
@@ -135,46 +127,38 @@ These use cases are best for working with hybrid workloads, cross-provider workl
 Use when deterministic latency is required.
 {: important}
 
-![Customer on-premises facility to IBM Cloud](images/direct-link-dedicated.png){: caption="Customer on-premises facility to IBM Cloud" caption-side="bottom"}
+![Architecture diagram showing Direct Link Dedicated connection from customer on-premises data center to IBM Cloud cross-connect router (XCR). The diagram shows a single-tenant, fiber-based connection with dedicated bandwidth](images/direct-link-dedicated.png){: caption="Customer on-premises facility to IBM Cloud" caption-side="bottom"}
 
 ### {{site.data.keyword.dl_short}} Dedicated use case 2: Customer colocation to {{site.data.keyword.cloud_notm}}
 {: #use-case-dedicated-2}
 
 Use when ultra-low latency is required.
 
-![Customer colocation to IBM Cloud](images/dedicated-model-colo.png){: caption="Customer colocation to IBM Cloud" caption-side="bottom"}
+![Architecture diagram showing Direct Link Dedicated from customer colocation facility to IBM Cloud data center. The diagram illustrates physical proximity enabling ultra-low latency connection to IBM Cloud XCR](images/dedicated-model-colo.png){: caption="Customer colocation to IBM Cloud" caption-side="bottom"}
 
-Termination location:
+Termination location
+:   {{site.data.keyword.cloud_notm}} point of presence (PoP) or Data Center (DC).
 
- :    {{site.data.keyword.cloud_notm}} point of presence (PoP) or Data Center (DC).
+Typical deployment time
+:   Averages 10-15 business days after the new circuit reaches the PoP. Deployment time can be 30 - 60 days overall, depending on your location and the requirements when you order a circuit from a service provider or carrier.
 
-Typical deployment time:
+Cross-connect details
+:   {{site.data.keyword.cloud_notm}} provides a Letter of Authorization (LOA) that you can use to order fiber Ethernet (single-mode fiber only, either 1Gig-LX or 10Gig-LR optics). The Ethernet runs from a customer cage or provider cage to the {{site.data.keyword.cloud_notm}} Connecting Facility Assignment (CFA) termination point, which is tied down to the cross-connect router (XCR) infrastructure. The media must be a 1310 nm wavelength optic.
 
- :    Averages 10-15 business days after the new circuit reaches the PoP. Deployment time can be 30 - 60 days overall, depending on your location and the requirements when you order a circuit from a service provider or carrier.
+Port speed options
+:   Select 1 Gbps, 2 Gbps, 5 Gbps, or 10 Gbps.
 
-Cross-connect details:
+Approximate latency
+:   Latency is approximately 1.5 ms within the local area (data centers with the same three-letter prefix, such as DAL, AMS, MEL). See [Looking Glass](http://lg.softlayer.com/){: external} for live PoP-to-PoP (P2P) location latency measurements.
 
- :    {{site.data.keyword.cloud_notm}} provides a Letter of Authorization (LOA) that you can use to order fiber Ethernet (single-mode fiber only, either 1Gig-LX or 10Gig-LR optics). The Ethernet runs from a customer cage or provider cage to the {{site.data.keyword.cloud_notm}} Connecting Facility Assignment (CFA) termination point, which is tied down to the cross-connect router (XCR) infrastructure. The media must be a 1310 nm wavelength optic.
+IBM colocation services
+:   None.
 
-Port speed options:
+Redundancy
+:   {{site.data.keyword.cloud_notm}} doesn't provide redundancy as part of the product. To establish redundant connectivity, a customer must acquire two connections on diverse cross-connect routers (XCRs) and configure BGP on each {{site.data.keyword.dl_short}} connection as they prefer. Examples include: _prefer Lowest MED_, _prefer highest local-preference_, or _prefer shorter AS paths_.
 
- :    Select 1 Gbps, 2 Gbps, 5 Gbps, or 10 Gbps.
-
-Approximate latency:
-
- :    Latency is approximately 1.5 ms within the local area (data centers with the same three-letter prefix, such as DAL, AMS, MEL). See [Looking Glass](http://lg.softlayer.com/){: external} for live PoP-to-PoP (P2P) location latency measurements.
-
-IBM colocation services:
-
- :    None.
-
-Redundancy:
-
- :    {{site.data.keyword.cloud_notm}} doesn't provide redundancy as part of the product. To establish redundant connectivity, a customer must acquire two connections on diverse cross-connect routers (XCRs) and configure BGP on each {{site.data.keyword.dl_short}} connection as they prefer. Examples include: _prefer Lowest MED_, _prefer highest local-preference_, or _prefer shorter AS paths_.
-
-Local and global routing options:
-
- :    The local routing option is the default routing option. It provides access to data centers within the same market as the {{site.data.keyword.dl_short}} PoP (denoted, for example, as DAL, AMS, or MEL). The global routing option is required as an add-on to connect your {{site.data.keyword.cloud_notm}} resources to other {{site.data.keyword.cloud_notm}} resources in data centers outside the local market. It provides a way to share workloads between {{site.data.keyword.cloud_notm}} resources (for example, Dallas to Ashburn, or Dallas to Frankfurt).
+Local and global routing options
+:   The local routing option is the default routing option. It provides access to data centers within the same market as the {{site.data.keyword.dl_short}} PoP (denoted, for example, as DAL, AMS, or MEL). The global routing option is required as an add-on to connect your {{site.data.keyword.cloud_notm}} resources to other {{site.data.keyword.cloud_notm}} resources in data centers outside the local market. It provides a way to share workloads between {{site.data.keyword.cloud_notm}} resources (for example, Dallas to Ashburn, or Dallas to Frankfurt).
 
 ## Using AS prepends to influence route preference
 {: #use-case-1}

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2026
-lastupdated: "2026-04-23"
+lastupdated: "2026-04-24"
 
 keywords: vpe for Direct Link, virtual private endpoints for Direct Link, using vpe for vpc with Direct Link, isolation for Direct Link, private network for Direct Link, network isolation in Direct Link, non-public routes for Direct Link, private connection for Direct Link, private connectivity for Direct Link
 
@@ -40,17 +40,17 @@ Direct Link supports VPEs in all the VPC regions as shown.
 
 | Location | Region | Cloud Resource Name (CRN) |
 |---------|-------|----------------|
-| Dallas | `us-south` | `crn:v1:bluemix:public:container-registry:us-south:::endpoint:vpe.us-south.container-registry.cloud.ibm.com` |
-| Frankfurt | `eu-de` | `crn:v1:bluemix:public:container-registry:eu-de:::endpoint:vpe.eu-de.container-registry.cloud.ibm.com` |
-| London | `eu-gb` | `crn:v1:bluemix:public:container-registry:eu-gb:::endpoint:vpe.eu-gb.container-registry.cloud.ibm.com` |
-| Montreal | `ca-mon` | `crn:v1:bluemix:public:container-registry:ca-mon:::endpoint:vpe.ca-mon.container-registry.cloud.ibm.com` |
-| Osaka | `jp-osa` | `crn:v1:bluemix:public:container-registry:jp-osa:::endpoint:vpe.jp-osa.container-registry.cloud.ibm.com` |
-| Sao Paulo | `br-sao` | `crn:v1:bluemix:public:container-registry:br-sao:::endpoint:vpe.br-sao.container-registry.cloud.ibm.com` |
-| Sydney | `au-syd` | `crn:v1:bluemix:public:container-registry:au-syd:::endpoint:vpe.au-syd.container-registry.cloud.ibm.com` |
-| Tokyo | `jp-tok` | `crn:v1:bluemix:public:container-registry:jp-tok:::endpoint:vpe.jp-tok.container-registry.cloud.ibm.com` |
-| Toronto  | `ca-tor` | `crn:v1:bluemix:public:container-registry:ca-tor:::endpoint:vpe.ca-tor.container-registry.cloud.ibm.com` |
-| Washington DC | `us-east` | `crn:v1:bluemix:public:container-registry:us-east:::endpoint:vpe.us-east.container-registry.cloud.ibm.com` |
-{: caption="Region availability and Cloud Resource Names (CRNs) for connecting {{site.data.keyword.dl_short}} over {{site.data.keyword.cloud_notm}} private networks" caption-side="bottom"}
+| Dallas | `us-south` | `crn:v1:bluemix:public:directlink:us-south:::endpoint:private.us-south.directlink.cloud.ibm.com` |
+| Frankfurt | `eu-de` | `crn:v1:bluemix:public:directlink:eu-de:::endpoint:private.eu-de.directlink.cloud.ibm.com` |
+| London | `eu-gb` | `crn:v1:bluemix:public:directlink:eu-gb:::endpoint:private.eu-gb.directlink.cloud.ibm.com` |
+| Montreal | `ca-mon` | `crn:v1:bluemix:public:directlink:ca-mon:::endpoint:private.ca-mon.directlink.cloud.ibm.com` |
+| Osaka | `jp-osa` | `crn:v1:bluemix:public:directlink:jp-osa:::endpoint:private.jp-osa.directlink.cloud.ibm.com` |
+| Sao Paulo | `br-sao` | `crn:v1:bluemix:public:directlink:br-sao:::endpoint:private.br-sao.directlink.cloud.ibm.com` |
+| Sydney | `au-syd` | `crn:v1:bluemix:public:directlink:au-syd:::endpoint:private.au-syd.directlink.cloud.ibm.com` |
+| Tokyo | `jp-tok` | `crn:v1:bluemix:public:directlink:jp-tok:::endpoint:private.jp-tok.directlink.cloud.ibm.com` |
+| Toronto  | `ca-tor` | `crn:v1:bluemix:public:directlink:ca-tor:::endpoint:private.ca-tor.directlink.cloud.ibm.com` |
+| Washington DC | `us-east` | `crn:v1:bluemix:public:directlink:us-east:::endpoint:private.us-east.directlink.cloud.ibm.com` |
+{: caption="VPE region availability and CRNs for Direct Link" caption-side="bottom"}
 
 ### Configuring an endpoint gateway
 {: #endpoint-gateway-servicename}

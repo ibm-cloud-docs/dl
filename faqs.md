@@ -289,9 +289,14 @@ The security landscape is evolving. Secrets Manager offers a more specialized, c
 
 Secrets Manager provides features not fully available in standard KMS (Key Management Services), such as:
 
-* Unified Management: Manage certificates, API keys, and passwords in one place.
-* Lifecycle Automation: Automatically renew and rotate secrets to reduce manual overhead.
-* Enhanced Visibility: Detailed auditing and tracking of secret access and changes.
+Unified Management
+:   Manage certificates, API keys, and passwords in one place.
+
+Lifecycle Automation
+:   Automatically renew and rotate secrets to reduce manual overhead.
+
+Enhanced Visibility
+:   Detailed auditing and tracking of secret access and changes.
 
 ### I already use Key Protect or Hyper Protect Crypto Services (HPCS). Do I need to switch immediately?
 {: #faq-when-to-switch-over}
