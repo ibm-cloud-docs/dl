@@ -2,7 +2,7 @@
 
 copyright:
   years: 2022, 2026
-lastupdated: "2026-04-23"
+lastupdated: "2026-04-24"
 keywords: api
 
 subcollection: dl
@@ -21,7 +21,7 @@ Before you can use the Direct Link API, you must set up your environment.
 ## General prerequisites
 {: #general-prerequisites}
 
-Set up your account to access the direct link. Make sure that your account is [upgraded to a paid account](/docs/iam?topic=iam-accountfaqs#changeacct).
+Set up your account to access the direct link. Make sure that your account is [upgraded to a paid account](/docs/support?topic=support-support-plans).
 
 ## API prerequisites
 {: #api-prerequisites-setup}
