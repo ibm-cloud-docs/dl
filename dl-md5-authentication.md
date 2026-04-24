@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021, 2026
-lastupdated: "2026-04-23"
+lastupdated: "2026-04-24"
 
 keywords: direct link
 
@@ -21,9 +21,9 @@ Border Gateway Protocol (BGP) authentication is an added layer of security that 
 ## BGP authentication requirements
 {: #bgp-md5-important-notices}
 
-Make sure to adhere to the following BGP MD5 authentication requirements:
+Adhere to the following BGP MD5 authentication requirements:
 
- * BGP MD5 keys must be created as an imported, **type-standard key** (not a root key). The key material that you provide must be base64-encoded and the original string cannot exceed a maximum of 126 printable ASCII characters in length. For more information, see [Creating base64-encoded encryption keys](/docs/dl?topic=dl-create-encryption-keys).
+ * Create BGP MD5 keys as imported, **type-standard keys** (not root keys). Base64-encode the key material you provide and ensure the original string does not exceed 126 printable ASCII characters in length. For more information, see [Creating base64-encoded encryption keys](/docs/dl?topic=dl-create-encryption-keys).
 
    The key material must be base64-encoded and can be up to 7,500 bytes. The key name (different from the key material) is a unique, human-readable name for easy identification of your key.
    {: note}

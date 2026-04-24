@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2026
-lastupdated: "2026-04-23"
+lastupdated: "2026-04-24"
 
 keywords: direct link, direct link dedicated, macsec
 
@@ -17,25 +17,22 @@ subcollection: dl
 {: help}
 {: support}
 
-To order {{site.data.keyword.dl_short}} Dedicated, you must determine the location that connects to IBM Cloud, complete the required {{site.data.keyword.dl_short}} configuration information, then click **Create** to submit your order.
+To order {{site.data.keyword.dl_short}} Dedicated, determine the location that connects to IBM Cloud, complete the required {{site.data.keyword.dl_short}} configuration information, then click **Create** to submit your order.
 {: shortdesc}
 
 ## Planning considerations
 {: #before-you-begin-dedicated}
 
-Make sure that you review the following information before you order Direct Link Dedicated:
+Review the following information before you order Direct Link Dedicated:
 
 * Before you begin, contact your service provider to determine the location to IBM Cloud by verifying your colocation or service provider's capabilities to reach the Meet Me Room and cross-connect into IBM Cloud.
-* All subnets of the VPC or classic network are connected to the direct link. When you create VPCs, make sure to create the VPCs with nonoverlapping prefixes and unique subnets.
+* All subnets of the VPC or classic network are connected to the direct link. When you create VPCs, use nonoverlapping prefixes and unique subnets.
    * To avoid IP address conflicts for classic connections to a direct link, don't use IP address ranges in the `10.0.0.0/14`, `10.200.0.0/14`, `10.198.0.0/15`, and `10.254.0.0/16` blocks for on-prem networks. On-prem routes that overlap are dropped.
    * For VPC connections to a direct link, you "can" use restricted Classic IP ranges in the `10.0.0.0/14`, `10.200.0.0/14`, `10.198.0.0/15`, and `10.254.0.0/16` blocks.
    * For direct links connected to transit gateways, these IP ranges are always filtered to protect classic networks that might potentially be connected to transit gateways.
 * A Generic Routing Encapsulation (GRE)/IPsec tunneling requirement between your Edge router and a virtual router in {{site.data.keyword.cloud_notm}} requires a nonconflicting subnet when ordering. The default addresses for Direct Link are nonroutable and do not support tunneling.
 * {{site.data.keyword.cloud_notm}} VPC permits the use of RFC-1918 and IANA-registered IPv4 address space, privately within your VPC. It also permits this use, with some exceptions, in the IANA Special-Purpose ranges, and select ranges that are assigned to {{site.data.keyword.cloud_notm}} services. When you use IANA-registered ranges within your enterprise, and within VPCs with {{site.data.keyword.cloud_notm}} Direct Link, custom routes must be installed in each zone. For more information, see [Routing considerations for IANA-registered IP assignments](/docs/vpc?topic=vpc-interconnectivity#routing-considerations-iana).
-* If you plan to connect your direct link to a transit gateway, keep in mind that a single direct link instance accepts a maximum of 120 on-premises address prefixes when connected to a transit gateway. Consider aggregating prefixes to keep within this limit.
-
-   A direct link can accept a maximum of 200 prefixes when not connected to a transit gateway.
-   {: note}
+* If you plan to connect your direct link to a transit gateway, keep in mind that a single direct link instance accepts a maximum of 120 on-premises address prefixes when connected to a transit gateway. Consider aggregating prefixes to keep within this limit. A direct link can accept a maximum of 200 prefixes when not connected to a transit gateway.
 
 * Be sure to consult and familiarize yourself with the [Known issues and limitations](/docs/dl?topic=dl-known-limitations).
 * For Direct Link Dedicated with MACsec feature only:
@@ -85,12 +82,8 @@ To order {{site.data.keyword.dl_full}} Dedicated, follow these steps.
       1. Select **Secrets Manager** or **Hyper Protect Crypto Services** containing the CAK secret.
 
       If you do not have a fallback key, you can set one up after you provision your direct link.
-      {: note}
 
-   1. Ensure that the switch is **Activated** for MACsec if you want to immediately try to establish a MACsec session when you provision your direct link.
-
-         You can also activate and deactivate MACsec after creating your direct link.
-         {: note}
+   1. Ensure that the switch is **Activated** for MACsec if you want to immediately try to establish a MACsec session when you provision your direct link. You can also activate and deactivate MACsec after creating your direct link.
 
 1. In the Gateway section, complete the following information:
 
@@ -125,11 +118,7 @@ To order {{site.data.keyword.dl_full}} Dedicated, follow these steps.
 1. In the BGP section, complete the following information:
    * Select the IBM cross-connect router for the {{site.data.keyword.dl_short}} connection. The number of direct links that are associated with your account for each router is shown next to the router name.
    * Select a BGP peering subnet for the {{site.data.keyword.dl_short}} connection. You have two choices for BGP subnets:
-      * Select **Manual-select IP** to specify two of your own IP addresses (in CIDR format) from the ranges `10.254.0.0/16`, `172.16.0.0/12`, `192.168.0.0/16`, `169.254.0.0/16`, or `Public` (a public IP address that you own).
-
-         Manual-select is useful when you are trying to avoid conflicts with an existing subnet that is in use.
-         {: tip}
-
+      * Select **Manual-select IP** to specify two of your own IP addresses (in CIDR format) from the ranges `10.254.0.0/16`, `172.16.0.0/12`, `192.168.0.0/16`, `169.254.0.0/16`, or `Public` (a public IP address that you own). Manual-select is useful when you are trying to avoid conflicts with an existing subnet that is in use.
       * Select **Auto-select IP** to have IBM assign an IP address from IP range `169.254.0.0/16`.
 
       Make sure that any self-provided BGP addresses do not conflict with blocks that are used by IBM, or by resources external to your {{site.data.keyword.dl_short}} deployment. Also, if you plan to use GRE or IPsec tunneling with your direct link, you must select a BGP IP other than `169.254.0.0/16`.
@@ -146,16 +135,14 @@ To order {{site.data.keyword.dl_full}} Dedicated, follow these steps.
       Activating, deactivating, or updating a VLAN after the BGP session is established causes BGP session downtime and network disruption until the BGP peer device is configured for the same change.
       {: important}
 
-      Enter a VLAN ID and a value in the range from `2` to `3967`.
-
-      The VLAN must comply with the IEEE 802.1Q (Dot 1Q) standard.
-      {: note}
+      Enter a VLAN ID and a value in the range from `2` to `3967`. The VLAN must comply with the IEEE 802.1Q (Dot 1Q) standard.
 
    * **Verify data integrity with Message Digest 5 (MD5)** - Add an extra layer of security between two BGP peers by verifying each transmitted message sent through the BGP session. When MD5 authentication is activated, BGP authenticates every segment that is sent over the TCP session from its peer and verifies the source of each routing update.
 
       **Important**:
 
-      * Configure the same BGP MD5 authentication key on both your Edge router and the IBM cross-connect router (XCR). The shared authentication key on the IBM device must be stored in your Secrets Manager, HPCS, or Key Protect instance and shared with the Direct Link service. For more information, see [Setting up BGP Message Digest 5 (MD5) authentication keys](/docs/dl?topic=dl-dl-md5).
+      * Configure the same BGP MD5 authentication key on both your Edge router and the IBM cross-connect router (XCR).
+      * Store the shared authentication key in your Secrets Manager, HPCS, or Key Protect instance and share it with the Direct Link service. For more information, see [Setting up BGP Message Digest 5 (MD5) authentication keys](/docs/dl?topic=dl-dl-md5).
       * You can achieve hitless key refresh if the keys are updated on both your Edge router and on the IBM cross-connect router (XCR) within 90 seconds. As a precondition, you must configure the BGP hold time on your router to a minimum of 90 seconds. All Direct Link routers have a 90-second configuration by default. Either side can initiate the key refresh, but both sides must refresh within the configured BGP hold time to avoid traffic disruption.
       * If a BGP peering session was established and you enable BGP MD5 authentication (or change the authentication key to a different value), BGP sessions are reestablished. This action causes BGP session downtime and network disruption until the BGP peer device is configured with the same change.
 
@@ -196,10 +183,7 @@ To order {{site.data.keyword.dl_full}} Dedicated, follow these steps.
       If you select **Transit Gateway** as the type of network connection, you must also initiate a Direct Link connection through the [{{site.data.keyword.cloud_notm}} Transit Gateway console](/interconnectivity/transit){: external} from the same {{site.data.keyword.cloud_notm}} account. For instructions, see [Adding a connection](/docs/transit-gateway?topic=transit-gateway-adding-connections).
       {: important}
 
-1. An order summary shows pricing estimates for your review. Read and agree to the [**{{site.data.keyword.dl_short}} prerequisites**](/docs/dl?topic=dl-ibm-cloud-dl-prerequisites) and review the Cloud Services [**Terms**](https://www.ibm.com/support/customer/csol/terms/?id=i126-8695){: external}. Then, click **Create** to complete your order.
-
-   If you want to add GB egress data to your estimate, click **Add to estimate** to calculate the cost. You can also click the **About** tab for links to {{site.data.keyword.dl_short}} pricing tables and other helpful resources.
-   {: tip}
+1. An order summary shows pricing estimates for your review. If you want to add GB egress data to your estimate, click **Add to estimate** to calculate the cost. You can also click the **About** tab for links to {{site.data.keyword.dl_short}} pricing tables and other helpful resources. Read and agree to the [**{{site.data.keyword.dl_short}} prerequisites**](/docs/dl?topic=dl-ibm-cloud-dl-prerequisites) and review the Cloud Services [**Terms**](https://www.ibm.com/support/customer/csol/terms/?id=i126-8695){: external}. Then, click **Create** to complete your order.
 
 ## Next step
 {: #dedicated-next-step}
