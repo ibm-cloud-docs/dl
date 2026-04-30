@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021, 2026
-lastupdated: "2026-03-17"
+lastupdated: "2026-04-30"
 
 keywords: direct link
 
@@ -15,7 +15,7 @@ subcollection: dl
 # Feature comparison between Direct Link versions
 {: #dl-comparison-classic}
 
-Review feature support for Direct Link on Classic offerings versus Direct Link.
+Review feature support for Direct Link on Classic (1.0) offerings versus Direct Link (2.0).
 {: shortdesc}
 
 | **Feature** | **Direct Link on Classic** | **Direct Link** |
