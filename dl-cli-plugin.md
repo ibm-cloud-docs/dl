@@ -2,11 +2,13 @@
 
 copyright:
   years: 2020, 2026
-lastupdated: "2026-04-23"
+lastupdated: "2026-05-01"
 
 subcollection: dl
 
 keywords: command line interface, commands, CLI, cli plug-in
+
+content-type: cli-docs
 
 ---
 
