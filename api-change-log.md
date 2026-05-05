@@ -2,7 +2,7 @@
 
 copyright:
   years: 2022, 2026
-lastupdated: "2026-03-17"
+lastupdated: "2026-05-05"
 
 keywords: direct link api change log
 
@@ -21,7 +21,7 @@ Check back regularly to see what's new with {{site.data.keyword.cloud}} Direct L
 {: shortdesc}
 
 ## 17 March 2026
-{: #dl-mar1726}
+{: #dlapi-mar1726}
 
 Support for Secret Manager keys
 
