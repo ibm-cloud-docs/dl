@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2024, 2025
-lastupdated: "2025-03-10"
+  years: 2024, 2026
+lastupdated: "2026-05-06"
 keywords: service metrics
 
 subcollection: dl
@@ -56,7 +56,7 @@ The metric contains the following metadata:
 | Segment by | `ibm_ctype`, `ibm_scope`,`ibm_location`,`ibm_service_name`, `ibm_resource_name`, `ibm_resource`, `ibm_resource_type`|
 {: caption="IBM Cloud Direct Link Connect egress bytes per second metrics" caption-side="bottom"}
 
-### Direct Link Connect - Bytes Per Second data for ingress Traffic
+### Direct Link Connect - Bytes per second data for ingress traffic
 {: #ibm_cloud_direct_link_connect_bytes_per_second_ingress}
 
 Bytes per second data for all the ingress data flow on a gateway.
@@ -70,6 +70,21 @@ The metric contains the following metadata:
 | Value type | `bytes per second` |
 | Segment by | `ibm_ctype`, `ibm_scope`,`ibm_location`,`ibm_service_name`, `ibm_resource_name`, `ibm_resource`, `ibm_resource_type`|
 {: caption="IBM Cloud Direct Link Connect ingress bytes per second metrics" caption-side="bottom"}
+
+### Direct Link Connect - BGP status
+{: #ibm_directlink_connect_gateway_bgp_state}
+
+This metric reports the BGP connection state for a Direct Link Connect gateway.
+
+State values: 1=Idle, 2=Connect, 3=Active, 4=OpenSent, 5=OpenConfirm, 6=Established
+
+| Metadata | Description |
+|----------|-------------|
+| Metric name | `ibm_directlink_connect_gateway_bgp_state` |
+| Metric type | `gauge` |
+| Value type | `state` |
+| Segment by | `ibm_ctype`, `ibm_scope`,`ibm_location`,`ibm_service_name`, `ibm_resource_name`, `ibm_resource`, `ibm_resource_type`|
+{: caption="IBM Cloud Direct Link Connect BGP connection state metrics" caption-side="bottom"}
 
 ### Direct Link Dedicated - Bytes per second data for egress traffic
 {: #ibm_cloud_direct_link_dedicated_bytes_per_second_egress}
@@ -160,6 +175,21 @@ The metric contains the following metadata:
 | Value type | `none`|
 | Segment by |`ibm_ctype`, `ibm_scope`,`ibm_location`,`ibm_service_name`, `ibm_resource_name`, `ibm_resource`, `ibm_resource_type`|
 {: caption="IBM Cloud Direct Link Dedicated error count metrics" caption-side="bottom"}
+
+### Direct Link Dedicated - BGP status
+{: #ibm_directlink_dedicated_gateway_bgp_state}
+
+This metric reports the BGP connection state for a Direct Link Dedicated gateway.
+
+State values: 1=Idle, 2=Connect, 3=Active, 4=OpenSent, 5=OpenConfirm, 6=Established
+
+| Metadata | Description |
+|----------|-------------|
+| Metric name | `ibm_directlink_dedicated_gateway_bgp_state` |
+| Metric type | `gauge` |
+| Value type | `state` |
+| Segment by | `ibm_ctype`, `ibm_scope`,`ibm_location`,`ibm_service_name`, `ibm_resource_name`, `ibm_resource`, `ibm_resource_type`|
+{: caption="IBM Cloud Direct Link Dedicated BGP Connection State metrics" caption-side="bottom"}
 
 The Segment by labels correspond to the following definitions:
 
