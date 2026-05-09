@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2026
-lastupdated: "2026-04-24"
+lastupdated: "2026-05-09"
 
 keywords: interconnectivity, direct link
 
@@ -94,7 +94,7 @@ Port speed options
 [^100]: The 100 Mbps port speed option is not available for Equinix Exchange and Connect direct links.
 
 Approximate latency
-:   Latency is approximately 1.5 ms within the local area (data centers with the same three-letter prefix, such as DAL, AMS, MEL). See [Looking Glass](http://lg.softlayer.com/){: external} for live PoP-to-PoP (P2P) location latency measurements.
+:   Latency is approximately 1.5 ms within the local area (data centers with the same three-letter prefix, such as DAL, AMS, MEL).
 
 IBM colocation services
 :   None.
@@ -149,7 +149,7 @@ Port speed options
 :   Select 1 Gbps, 2 Gbps, 5 Gbps, or 10 Gbps.
 
 Approximate latency
-:   Latency is approximately 1.5 ms within the local area (data centers with the same three-letter prefix, such as DAL, AMS, MEL). See [Looking Glass](http://lg.softlayer.com/){: external} for live PoP-to-PoP (P2P) location latency measurements.
+:   Latency is approximately 1.5 ms within the local area (data centers with the same three-letter prefix, such as DAL, AMS, MEL).
 
 IBM colocation services
 :   None.
