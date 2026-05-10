@@ -37,5 +37,5 @@ Review feature support for Direct Link on Classic (1.0), Direct Link (2.0), and 
 | Bidirectional Forwarding Detection (BFD) | You can open an IBM Support case to enable this feature for all Direct Link on Classic offerings. | All MZRs have Direct Link offering support. | Same as Direct Link. |
 | Update BGP ASN and IP | You can open an IBM Support case to enable this feature for all Direct Link on Classic offerings. | All MZRs have Direct Link offering support. | Same as Direct Link. |
 | Encryption | No native Layer 2 encryption support. | No native Layer 2 encryption support. | Supports IEEE 802.1AE MACsec encryption with hardware-based encryption, replay protection, and integrity validation. |
-| Key management | Not supported. | BGP MD5 secret can be stored in Secrets Manager, Key Protect, or HPCS. | MACsec CAK secrets must be stored in IBM Secrets Manager or Hyper Protect Crypto Services (HPCS). |
+| Key management | Not supported. | BGP MD5 secret can be stored in Secrets Manager, Key Protect, or HPCS. | MACsec CAK secrets are stored in IBM Secrets Manager. (Hyper Protect Crypto Services (HPCS) is now deprecated.) |
 {: caption="Feature comparison between Direct Link versions" caption-side="bottom"}
