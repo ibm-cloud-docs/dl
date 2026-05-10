@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021, 2026
-lastupdated: "2026-05-09"
+lastupdated: "2026-05-10"
 
 keywords: direct link
 
@@ -18,7 +18,7 @@ subcollection: dl
 Review feature support for Direct Link on Classic (1.0), Direct Link (2.0), and Direct Link Dedicated with MACsec
 {: shortdesc}
 
-|| **Feature** | **Direct Link on Classic** | **Direct Link** | **Direct Link Dedicated with MACsec** |
+| **Feature** | **Direct Link on Classic** | **Direct Link** | **Direct Link Dedicated with MACsec** |
 |-----|-----|-----|-----|
 | Locations | All IBM Cloud data centers and PoP locations have Direct Link on Classic support. | All MZRs have Direct Link offering support. Single-campus multizone region support is being rolled out on a location-by-location basis. | Available only in selected IBM Cloud PoP and data center locations with MACsec-capable hardware. |
 | 100G NNI | No 100G NNI support. | Business case justification is required in roadmap for MZR’s and associated POP’s pending business/finance approval. | No announced 100G MACsec support currently. MACsec is currently available on Direct Link Dedicated deployments up to 10 Gbps. |
