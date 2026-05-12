@@ -2,7 +2,7 @@
 
 copyright:
   years: 2024, 2026
-lastupdated: "2026-02-28"
+lastupdated: "2026-05-12"
 
 keywords:
 
@@ -35,7 +35,7 @@ Minimal
 ## Data plane deployment
 {: #data-plane-deployment}
 
-The following dependencies apply to the following deployment locations: Amsterdam 03, Chennai 01, Dallas 10, Dallas 12, Dallas 13, Dallas 14, Frankfurt 02, Frankfurt 04, Frankfurt 05, London 02, London 04, London 05, London 06, Madrid 02, Madrid 04, Madrid 05, Milan 01, Osaka 21, Osaka 22, Osaka 23, Paris 01, San Jose 03, San Jose 04, Sao Paulo 01, Sao Paulo 04, Sao Paulo 05, Singapore 01, Sydney 01, Sydney 04, Sydney 05, Tokyo 02, Tokyo 04, Tokyo 05, Toronto 01, Toronto 04, Toronto 05, Washington DC 04, Washington DC 06, Washington DC 07.
+The following dependencies apply to the following deployment locations: Amsterdam 03, Chennai 01, Dallas 10, Dallas 12, Dallas 13, Dallas 14, Frankfurt 02, Frankfurt 04, Frankfurt 05, London 02, London 04, London 05, London 06, Madrid 02, Madrid 04, Madrid 05, Osaka 21, Osaka 22, Osaka 23, Paris 01, San Jose 03, San Jose 04, Sao Paulo 01, Sao Paulo 04, Sao Paulo 05, Singapore 01, Sydney 01, Sydney 04, Sydney 05, Tokyo 02, Tokyo 04, Tokyo 05, Toronto 01, Toronto 04, Toronto 05, Washington DC 04, Washington DC 06, Washington DC 07.
 
 
 |Dependencies|Dependency impacts|Customer provided|Control or data plane|Location of dependency|
