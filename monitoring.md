@@ -2,7 +2,7 @@
 
 copyright:
   years: 2024, 2026
-lastupdated: "2026-05-06"
+lastupdated: "2026-05-12"
 keywords: service metrics
 
 subcollection: dl
@@ -204,7 +204,7 @@ The Segment by labels correspond to the following definitions:
 ### Launching {{site.data.keyword.mon_full_notm}} web UI from the Observability page
 {: #view_metrics}
 
-Complete the following steps to launch the {{site.data.keyword.mon_full_notm}} web UI from the *Observability* page:
+Follow these steps to launch the {{site.data.keyword.mon_full_notm}} web UI from the *Observability* page:
 
 1. [Launch the {{site.data.keyword.mon_full_notm}} web UI](/docs/monitoring?topic=monitoring-launch).
 1. Click **DASHBOARDS**.
