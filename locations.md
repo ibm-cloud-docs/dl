@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2026
-lastupdated: "2026-04-20"
+lastupdated: "2026-05-15"
 
 keywords: direct link
 
@@ -61,7 +61,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect service provide
 | PacketFabric | **Americas**: Dallas 4, Washington DC 2, San Jose 2 | |
 | SES Networks | **Americas**: Washington DC 2 | | |
 | SoftBank | **APAC**: Tokyo 4 | |
-| TATA | **APAC**: Chennai 1, Hong Kong 1, Singapore 1 | | |
+| Tata Communications | **APAC**: Chennai 1, Hong Kong 1, Singapore 1 | | |
 | Telia | **Americas**: Dallas 3, Washington DC 2 | | |
 | Tokai | **APAC**: Osaka 1, Tokyo 3 | |
 | Verizon SCI | **Americas**: Dallas 3, San Jose 2, Washington DC 2  \n **EU**: Amsterdam 2, Frankfurt 1 | |
@@ -77,7 +77,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect service provide
 | Location | Providers |
 |----|----|
 | Amsterdam 2 | BlueFringe  \n  Colt  \n Epsilon  \n Equinix  \n Intercloud  \n Megaport  \n nextGen GNPP  \n Verizon SCI |
-| Chennai 1 | Airtel  \n BlueFringe  \n TATA |
+| Chennai 1 | Airtel  \n BlueFringe  \n Tata Communications |
 | Chicago 1 | Cologix  \n Console Connect  \n Equinix  \n Megaport |
 | Dallas 3 |  AT&T Cloud Gateway  \n AT&T NetBond for Cloud  \n Axtel  \n BlueFringe  \n Console Connect  \n Equinix  \n Level3  \n Lumen  \n Neutrona  \n Orange Business Systems  \n Telia  \n  Verizon SCI  \n Zayo |
 | Dallas 4 |  PacketFabric  \n Megaport |
@@ -90,7 +90,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect service provide
 | Frankfurt 3 | BlueFringe  \n British Telecom  \n China Unicom  \n Colt  \n DE-CIX \n Equinix  \n Intercloud  \n nextGen GNPP  \n Vodafone |
 | Frankfurt 4 | DE-CIX  \n IBM Power Virtual Server |
 | Frankfurt 5 | DE-CIX  \n IBM Power Virtual Server |
-| Hong Kong 1 | Console Connect  \n Chief Telecom  \n Epsilon  \n TATA |
+| Hong Kong 1 | Console Connect  \n Chief Telecom  \n Epsilon  \n Tata Communications |
 | Hong Kong 3 | Chief Telecom  \n China Unicom  \n Colt  \n Equinix \n Megaport  \n Zenlayer |
 | London 1 | AT&T NetBond for Cloud  \n British Telecom  \n Colt \n Console Connect  \n Epsilon  \n Equinix  \n IX Reach  \n nextGen GNPP  \n Vodafone |
 | London 3 | British Telecom  \n Colt  \n Equinix  \n IX Reach  \n Lumen  \n Megaport  \n nextGen GNPP  \n Orange Business Services  \n Vodafone |
@@ -104,7 +104,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect service provide
 | Milan 2 | Equinix |
 | Montreal 1 | Equinix |
 | Montreal 2 | Cologix  \n Megaport |
-| Mumbai 1 | Equinix  \n TATA |
+| Mumbai 1 | Equinix  \n Tata Communications |
 | New York 2 | Equinix |
 | Osaka 1 | AT Tokyo  \n BBIX  \n Console Connect  \n Equinix  \n Megaport  \n Tokai |
 | Osaka 21 |IBM Power Virtual Server |
@@ -115,7 +115,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect service provide
 | São Paulo 2 | Ascenty, a Digital Realty Company  \n  Equinix  \n Level3  \n Neutrona |
 | São Paulo 5 | Ascenty, a Digital Realty Company |
 | Seoul 2 | KINX |
-| Singapore 1 | Digital Realty  \n Megaport[^singapore2]  \n TATA |
+| Singapore 1 | Digital Realty  \n Megaport[^singapore2]  \n Tata Communications |
 | Sydney 2 | Megaport |
 | Sydney 3 | NextDC |
 | Sydney 4 | IBM Power Virtual Server |
@@ -194,7 +194,7 @@ The following table provides details about the {{site.data.keyword.cloud_notm}} 
 
 |IBM Location Code | Location Type | Meet Me Room Operator | Operator Site Code |
 |-----------------|-----------------|-----------------|--------------------|
-| Chennai 1 | DC | Tata | PH-01 |
+| Chennai 1 | DC | Tata Communications | PH-01 |
 | Hong Kong 3 |	PoP |	Equinix |	HKG3 |
 | Melbourne 2 | PoP | NextDC | M1 |
 | Mumbai 1 | PoP | Equinix | Mumbai 1 |
