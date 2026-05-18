@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021, 2026
-lastupdated: "2026-02-19"
+lastupdated: "2026-05-18"
 
 keywords: direct link
 
@@ -33,8 +33,5 @@ To change the network connection type of a direct link, follow these steps:
    {: important}
 
 1. Click **Submit** for your changes to take effect.
-
-If you selected **Transit Gateway** as your network connection type, you must use the same account to create a network connection to your direct link by using the [{{site.data.keyword.cloud_notm}} Transit Gateway console](/interconnectivity/transit){: external}. Keep in mind that classic routes are not blocked. For more information, see [Preparing for Direct Link changes to advertised service network routes](/docs/dl?topic=dl-notification-dl-tgw).
-{: important}
 
 The **Virtual connection type** is shown on the direct link's details page.
