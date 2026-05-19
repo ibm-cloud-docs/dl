@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2026
-lastupdated: "2026-04-23"
+lastupdated: "2026-05-19"
 
 keywords: direct link, direct link connect
 
@@ -99,12 +99,13 @@ To order Direct Link Connect, follow these steps:
 
       **Important**:
 
-      * Configure the same BGP MD5 authentication key on both your Edge router and the IBM cross-connect router (XCR). The shared authentication key on the IBM device must be stored in your HPCS or Key Protect instance and shared with the Direct Link service. For more information, see [Setting up BGP Message Digest 5 (MD5) authentication keys](/docs/dl?topic=dl-dl-md5).
+      * Configure the same BGP MD5 authentication key on both your Edge router and the IBM cross-connect router (XCR). The shared authentication key on the IBM device must be stored in your HPCS, or Key Protect instance and shared with the Direct Link service. For more information, see [Setting up BGP Message Digest 5 (MD5) authentication keys](/docs/dl?topic=dl-dl-md5).
       * You can achieve hitless key refresh if the keys are updated on both your Edge router and on the IBM cross-connect router (XCR) within 90 seconds. As a pre-condition, you must configure the BGP hold time on your router to a minimum of 90 seconds. All Direct Link routers have a 90-second configuration by default. Either side can initiate the key refresh, but both sides must refresh within the configured BGP hold time to avoid traffic disruption.
       * If a BGP peering session was established and you enable BGP MD5 authentication (or change the authentication key to a different value), BGP sessions are reestablished, which causes BGP session downtime and network disruption until the BGP peer device is configured with the same change.
 
       Complete the following information:
-      * For the keystore, select either **Hyper Protect Crypto Services** or **Key Protect**.
+
+      * For the keystore, select either **Hyper Protect Crypto Services**, **Secrets Manager**, or **Key Protect**.
       * Select an authentication keystore instance.
       * Select an authentication key.
 

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2026
-lastupdated: "2026-04-24"
+lastupdated: "2026-05-19"
 
 keywords: direct link, direct link dedicated, macsec
 
@@ -147,7 +147,7 @@ To order {{site.data.keyword.dl_full}} Dedicated, follow these steps.
       * If a BGP peering session was established and you enable BGP MD5 authentication (or change the authentication key to a different value), BGP sessions are reestablished. This action causes BGP session downtime and network disruption until the BGP peer device is configured with the same change.
 
       Complete the following information:
-      * For the keystore, select either **Secrets Manager**, **Hyper Protect Crypto Services**, or **Key Protect**.
+      * For the keystore, select either **Hyper Protect Crypto Services**, **Secrets Manager**, or **Key Protect**.
       * Select an authentication keystore instance.
       * Select an authentication key.
 
