@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2026
-lastupdated: "2026-05-15"
+lastupdated: "2026-05-29"
 
 keywords: direct link release notes
 
@@ -25,7 +25,8 @@ Check back regularly to see what's new with {{site.data.keyword.cloud}} Direct L
 {: #dl-may0526}
 {: release-note}
 
-Direct Link on Classic (1.0) via Equinix will no longer be available for new deployments, following the end-of-marketing date 15 September 2025, after which new orders were no longer accepted. Atlanta (ATL) remains the last location where Direct Link on Classic is still operational.
+Direct Link on Classic Deprecation Update
+:    Following the end-of-marketing date on 15 September 2025, Direct Link on Classic (1.0) through Equinix is no longer available for new deployments, as new orders are no longer accepted. Atlanta (ATL) remains the last location where Direct Link on Classic is still operational.
 
 ## 17 March 2026
 {: #dl-mar1726}
