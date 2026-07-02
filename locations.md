@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2026
-lastupdated: "2026-06-26"
+lastupdated: "2026-07-02"
 
 keywords: direct link
 
@@ -24,7 +24,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect service provide
 
 | Provider | Locations | API integration |
 |----|----|----|
-| Airtel | **APAC**: Chennai 1 | |
+| Airtel | **APAC**: Chennai 1, Chennai 4 | |
 | Anthem | **Americas**: Washington DC 4 | |
 | Ascenty, a Digital Realty Company | **Americas**: São Paulo 1, São Paulo 5 | |
 | At Tokyo | **APAC**: Osaka 1, Tokyo 2 | |
@@ -78,6 +78,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect service provide
 |----|----|
 | Amsterdam 2 | BlueFringe  \n  Colt  \n Epsilon  \n Equinix  \n Intercloud  \n Megaport  \n nextGen GNPP  \n Verizon SCI |
 | Chennai 1 | Airtel  \n BlueFringe  \n Tata Communications |
+| Chennai 4 | Airtel |
 | Chicago 1 | Cologix  \n Console Connect  \n Equinix  \n Megaport |
 | Dallas 3 |  AT&T Cloud Gateway  \n AT&T NetBond for Cloud  \n Axtel  \n BlueFringe  \n Console Connect  \n Equinix  \n Level3  \n Lumen  \n Neutrona  \n Orange Business Systems  \n Telia  \n  Verizon SCI  \n Zayo |
 | Dallas 4 |  PacketFabric  \n Megaport |

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021, 2026
-lastupdated: "2026-04-09"
+lastupdated: "2026-07-02"
 
 keywords: direct link
 
@@ -65,7 +65,7 @@ Review location support for Direct Link on Classic offerings versus Direct Link.
 |**Location** | **Dedicated on Classic** | **Dedicated**| **Dedicated w/ MACsec** | **Connect on Classic** | **Connect** |
 |-----------------|:-----------------:|:-----------------:|:-----------------:|:-----------------:|:---------------:|
 | Chennai 1 | ![Checkmark icon](../icons/checkmark-icon.svg) | ![Checkmark icon](../icons/checkmark-icon.svg) |  | ![Checkmark icon](../icons/checkmark-icon.svg) | ![Checkmark icon](../icons/checkmark-icon.svg) |
-| Chennai 4 | |  |  ![Checkmark icon](../icons/checkmark-icon.svg) |  |  |
+| Chennai 4 | |  |  ![Checkmark icon](../icons/checkmark-icon.svg) |  | ![Checkmark icon](../icons/checkmark-icon.svg) |
 | Hong Kong 1 | ![Checkmark icon](../icons/checkmark-icon.svg) |  |  | ![Checkmark icon](../icons/checkmark-icon.svg) |  |
 | Hong Kong 3 | ![Checkmark icon](../icons/checkmark-icon.svg) | ![Checkmark icon](../icons/checkmark-icon.svg) | | ![Checkmark icon](../icons/checkmark-icon.svg) | ![Checkmark icon](../icons/checkmark-icon.svg) |
 | Melbourne 2 | ![Checkmark icon](../icons/checkmark-icon.svg) |  |  | ![Checkmark icon](../icons/checkmark-icon.svg) |  |
@@ -75,7 +75,7 @@ Review location support for Direct Link on Classic offerings versus Direct Link.
 | Osaka 22  | ![Checkmark icon](../icons/checkmark-icon.svg) | ![Checkmark icon](../icons/checkmark-icon.svg) |  |  | |
 | Osaka 23  | ![Checkmark icon](../icons/checkmark-icon.svg) | ![Checkmark icon](../icons/checkmark-icon.svg) |  |  | |
 | Singapore 1 | ![Checkmark icon](../icons/checkmark-icon.svg) | ![Checkmark icon](../icons/checkmark-icon.svg) | |  | ![Checkmark icon](../icons/checkmark-icon.svg)[^singapore3] |
-| Singapore 2 | ![Checkmark icon](../icons/checkmark-icon.svg) |  | | ![Checkmark icon](../icons/checkmark-icon.svg) |  |
+| Singapore 2 | ![Checkmark icon](../icons/checkmark-icon.svg) |  | | ![Checkmark icon](../icons/checkmark-icon.svg) | ![Checkmark icon](../icons/checkmark-icon.svg) |
 | Sydney 1 | ![Checkmark icon](../icons/checkmark-icon.svg) | ![Checkmark icon](../icons/checkmark-icon.svg) |  |  | |
 | Sydney 2 | ![Checkmark icon](../icons/checkmark-icon.svg) | ![Checkmark icon](../icons/checkmark-icon.svg) | | ![Checkmark icon](../icons/checkmark-icon.svg) | ![Checkmark icon](../icons/checkmark-icon.svg) |
 | Sydney 3 | ![Checkmark icon](../icons/checkmark-icon.svg) | ![Checkmark icon](../icons/checkmark-icon.svg) | | ![Checkmark icon](../icons/checkmark-icon.svg) | ![Checkmark icon](../icons/checkmark-icon.svg) |
