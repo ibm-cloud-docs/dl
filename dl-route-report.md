@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023, 2026
-lastupdated: "2026-03-12"
+lastupdated: "2026-07-06"
 
 keywords: direct link
 
@@ -135,4 +135,4 @@ To generate and view a route report using the API, follow these steps:
    curl -X GET "$directlink_api_endpointv1/gateways/$direct_link_id/route_reports/$route_report?version=$api_version" -H "Authorization: $iam_token"
    ```
 
-   For more information, see [Gateway Route Reports](/apidocs/direct_link#list-gateway-route-reports) API.
+   For more information, see [Gateway Route Reports](/docs/apis/direct_link#list-gateway-route-reports) API.

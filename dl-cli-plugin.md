@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2026
-lastupdated: "2026-05-01"
+lastupdated: "2026-07-06"
 
 subcollection: dl
 
@@ -373,7 +373,7 @@ ibmcloud dl connect-gateway-create {--file JSON_FILE | GATEWAY_NAME --billing BI
 `--output`
 :   The output format. Currently, `json` is the only supported value.
 
-To enable [MD5 authentication for BGP peers](/docs/dl?topic=dl-dl-md5), or create [BGP AS prepends](/docs/dl?topic=dl-models-for-diversity-and-redundancy-in-direct-link&interface=ui#dl-bgp-path-selection), use the `--file` option to create the gateway as stated in the [template](/apidocs/direct_link#create-gateway).
+To enable [MD5 authentication for BGP peers](/docs/dl?topic=dl-dl-md5), or create [BGP AS prepends](/docs/dl?topic=dl-models-for-diversity-and-redundancy-in-direct-link&interface=ui#dl-bgp-path-selection), use the `--file` option to create the gateway as stated in the [template](/docs/apis/direct_link#create-gateway).
 {: note}
 
 ### Examples
@@ -466,7 +466,7 @@ ibmcloud dl dedicated-gateway-create {--file JSON_FILE | GATEWAY_NAME --billing 
 `--output`
 :   The output format. Currently, `json` is the only supported value.
 
-To create a MACsec-enabled gateway, enable [MD5 authentication for BGP peers](/docs/dl?topic=dl-dl-md5), or create [BGP AS prepends](/docs/dl?topic=dl-models-for-diversity-and-redundancy-in-direct-link&interface=ui#dl-bgp-path-selection), use the `--file` option to create the gateway as stated in the [template](/apidocs/direct_link#create-gateway).
+To create a MACsec-enabled gateway, enable [MD5 authentication for BGP peers](/docs/dl?topic=dl-dl-md5), or create [BGP AS prepends](/docs/dl?topic=dl-models-for-diversity-and-redundancy-in-direct-link&interface=ui#dl-bgp-path-selection), use the `--file` option to create the gateway as stated in the [template](/docs/apis/direct_link#create-gateway).
 {: note}
 
 ### Examples
@@ -773,7 +773,7 @@ ibmcloud dl gateway-change-approve GATEWAY_ID {--file JSON_FILE | [--action Acti
 `--help|-h`
 :   Get help on this command.
 
-To approve the provider-created gateways with [MD5 authentication for BGP peers](/docs/dl?topic=dl-dl-md5), or create [BGP AS prepends](/docs/dl?topic=dl-models-for-diversity-and-redundancy-in-direct-link&interface=ui#dl-bgp-path-selection), use the `-file` option to approve the gateway as stated in the [template](/apidocs/direct_link#create-gateway-action).
+To approve the provider-created gateways with [MD5 authentication for BGP peers](/docs/dl?topic=dl-dl-md5), or create [BGP AS prepends](/docs/dl?topic=dl-models-for-diversity-and-redundancy-in-direct-link&interface=ui#dl-bgp-path-selection), use the `-file` option to approve the gateway as stated in the [template](/docs/apis/direct_link#create-gateway-action).
 {: note}
 
 ### Examples
@@ -1068,7 +1068,7 @@ ibmcloud dl gateway-update GATEWAY_ID {--file JSON_FILE | [--bfd-interval interv
 `--output`
 :   The output format. Currently, `json` is the only supported value.
 
-To clear/update the [MD5 authentication for BGP peers](/docs/dl?topic=dl-dl-md5), use the `--file` option to update the gateway as stated in the [template](/apidocs/direct_link#update-gateway).
+To clear/update the [MD5 authentication for BGP peers](/docs/dl?topic=dl-dl-md5), use the `--file` option to update the gateway as stated in the [template](/docs/apis/direct_link#update-gateway).
 {: note}
 
 ### Examples

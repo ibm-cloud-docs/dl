@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2026
-lastupdated: "2026-04-24"
+lastupdated: "2026-07-06"
 
 keywords: vpe for Direct Link, virtual private endpoints for Direct Link, using vpe for vpc with Direct Link, isolation for Direct Link, private network for Direct Link, network isolation in Direct Link, non-public routes for Direct Link, private connection for Direct Link, private connectivity for Direct Link
 
@@ -111,7 +111,7 @@ private.directlink.cloud.ibm.com
 ```
 {: pre}
 
-For examples of setting the service's FQDN for the specific SDK language, see [SDK API examples](/apidocs/direct_link?code=go#authentication).
+For examples of setting the service's FQDN for the specific SDK language, see [SDK API examples](/docs/apis/direct_link?code=go#authentication).
 
 ### Using the VPE with Terraform
 {: #vpe-terraform}

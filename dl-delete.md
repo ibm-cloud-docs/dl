@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2026
-lastupdated: "2026-02-20"
+lastupdated: "2026-07-06"
 
 keywords: direct link
 
@@ -130,7 +130,7 @@ direct_link.delete_gateway(id=gateway_id)
 ```
 {: codeblock}
 
-For more information, including Java, Node, and Go examples, see "Delete gateway" in the [Direct Link API reference](/apidocs/direct_link?code=python#delete-gateway).
+For more information, including Java, Node, and Go examples, see "Delete gateway" in the [Direct Link API reference](/docs/apis/direct_link?code=python#delete-gateway).
 {: note}
 
 ## Deleting a direct link with Terraform

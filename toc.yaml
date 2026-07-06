@@ -126,10 +126,10 @@ toc:
           topics:
           - link:
               label: Direct Link API
-              href: https://{DomainName}/apidocs/direct_link
+              href: https://{DomainName}/docs/apis/direct_link
           - link:
               label: Direct Link Provider API
-              href: https://{DomainName}/apidocs/direct_link_provider_api
+              href: https://{DomainName}/docs/apis/direct_link_provider_api
           - api-change-log.md
           - set-up-environment.md
       - topicgroup:

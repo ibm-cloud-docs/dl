@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021, 2026
-lastupdated: "2026-02-27"
+lastupdated: "2026-07-06"
 
 keywords: direct link, updating
 
@@ -89,5 +89,5 @@ print(json.dumps(gateway, indent=2))
 ```
 {: pre}
 
-For more information, including Java, Node, and Go examples, see "Update gateway" in the [Direct Link API reference](/apidocs/direct_link?code=python#update-gateway).
+For more information, including Java, Node, and Go examples, see "Update gateway" in the [Direct Link API reference](/docs/apis/direct_link?code=python#update-gateway).
 {: note}

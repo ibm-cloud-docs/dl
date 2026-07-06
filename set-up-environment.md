@@ -2,7 +2,7 @@
 
 copyright:
   years: 2022, 2026
-lastupdated: "2026-04-24"
+lastupdated: "2026-07-06"
 keywords: api
 
 subcollection: dl
@@ -88,7 +88,7 @@ To verify that the variable was saved, run `echo $directlink_api_endpoint` and m
 ### Step 4: Store the API version as a variable
 {: #store-api-version-variable}
 
-Every API request must include the `version` parameter in the format `YYYY-MM-DD`. Run the following command to store the version date in a variable so that it can be reused in your session. For more information about setting the `version` parameter, see **Versioning** in the [Direct Link API](/apidocs/direct_link#versioning).
+Every API request must include the `version` parameter in the format `YYYY-MM-DD`. Run the following command to store the version date in a variable so that it can be reused in your session. For more information about setting the `version` parameter, see **Versioning** in the [Direct Link API](/docs/apis/direct_link#versioning).
 
 ```sh
 api_version="2020-03-31"
@@ -102,7 +102,7 @@ To verify that this variable was saved, run ``echo $api_version`` and make sure 
 If you run into unexpected results, add the `--verbose` (debug) flag after the `curl` command to obtain detailed logging information.
 {: tip}
 
-* Call the [List Available Locations API](/apidocs/direct_link#list-offering-type-locations) to see the locations available for your direct link, in JSON format. At least one object returns.
+* Call the [List Available Locations API](/docs/apis/direct_link#list-offering-type-locations) to see the locations available for your direct link, in JSON format. At least one object returns.
 
    This example lists the locations available for a Direct Link Dedicated gateway. For Direct Link Connect, substitute `connect` for `dedicated`.
    {: note}
@@ -111,7 +111,7 @@ If you run into unexpected results, add the `--verbose` (debug) flag after the `
     curl -X GET "$directlink_api_endpoint/v1/offering_types/dedicated/locations?version=$api_version"   -H "Authorization: $IAM_TOKEN"
     ```
 
-* Call the [List gateways](/apidocs/direct_link#list-gateways) API to see any direct links that you already created under your account, in JSON format.
+* Call the [List gateways](/docs/apis/direct_link#list-gateways) API to see any direct links that you already created under your account, in JSON format.
 
     ```sh
     curl -X GET "$directlink_api_endpoint/v1/gateways?version=$api_version"   -H "Authorization: $IAM_TOKEN"

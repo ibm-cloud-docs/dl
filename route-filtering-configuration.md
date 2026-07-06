@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023, 2026
-lastupdated: "2026-01-14"
+lastupdated: "2026-07-06"
 
 keywords: direct link
 
@@ -80,7 +80,7 @@ To create route filters by using the API, follow these steps:
    direct_link_id="11111111-b540-4766-a196-14368f328eb2"
    ```
 
-1. Use either the [create an export route filter](/apidocs/direct_link#create-gateway-export-route-filter) or [create an import route filter](/apidocs/direct_link#create-gateway-import-route-filter) API. For example, the following Curl example creates an import route filter:
+1. Use either the [create an export route filter](/docs/apis/direct_link#create-gateway-export-route-filter) or [create an import route filter](/docs/apis/direct_link#create-gateway-import-route-filter) API. For example, the following Curl example creates an import route filter:
 
 ```curl
 curl -kX POST "https://directlink.cloud.ibm.com/v1/gateways/9a3eac6d-1951-4696-8eca-8b0198f4ddaf/import_route_filters?version=2023-01-02" -H "Authorization: Bearer $token" -d {
@@ -91,7 +91,7 @@ curl -kX POST "https://directlink.cloud.ibm.com/v1/gateways/9a3eac6d-1951-4696-8
 }
 ```
 
-For more information about export and import route filters, including Curl, Python, Java, Node, and Go examples, see the [Gateway Export Route Filters](/apidocs/direct_link#list-gateway-export-route-filters) and [Gateway Import Route Filters](/apidocs/direct_link#list-gateway-import-route-filters) API.
+For more information about export and import route filters, including Curl, Python, Java, Node, and Go examples, see the [Gateway Export Route Filters](/docs/apis/direct_link#list-gateway-export-route-filters) and [Gateway Import Route Filters](/docs/apis/direct_link#list-gateway-import-route-filters) API.
 
 ## Related links
 {: #route-filtering-related}
