@@ -17,7 +17,7 @@ subcollection: dl
 
 You must use the Equinix Fabric portal to create a connection for your Equinix service provider. Then, using your IBM Cloud account, return to the Direct Link page in the [IBM Cloud console](/interconnectivity/direct-link){: external} to review, accept, and finalize the creation of your direct link.
 
-1. [Sign in](https://www.equinix.com/product-solutions/connectivity/fabric){: external} to the Equinix Fabric Portal.
+1. [Sign in](http://ecxfabric.equinix.com){: external} to the Equinix Fabric Portal.
    * Enter your username and password.
    * Click **Sign In**.
 1. In the Frequent Connections section, click the **IBM Cloud** tile.
