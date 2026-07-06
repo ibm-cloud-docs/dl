@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2024
-lastupdated: "2024-11-15"
+  years: 2024, 2026
+lastupdated: "2026-07-06"
 
 keywords: Direct Link
 
@@ -49,11 +49,11 @@ When creating a route report from the details page of a direct link, you can dow
 ### Exporting Direct Link data with the CLI and API
 {: #direct-link-export-cli-api}
 
-The following table provides mechanisms to export the settings and configurations that are used to process the customer's content through the means of the IBM Cloud Direct Link [CLI](/docs/dl?topic=dl-dl-cli) and [API](/apidocs/direct_link). The procedures given in the linked documentation should be followed and the output stored to ensure all necessary configuration data is available.
+The following table provides mechanisms to export the settings and configurations that are used to process the customer's content through the means of the IBM Cloud Direct Link [CLI](/docs/dl?topic=dl-dl-cli) and [API](/docs/apis/direct_link). The procedures given in the linked documentation should be followed and the output stored to ensure all necessary configuration data is available.
 
 | CLI  | API |
 |--------------------|-------------------------|
-| [ibmcloud dl asprepends](/docs/dl?topic=dl-dl-cli#list-all-asprepends) \n [ibmcloud dl export-route-filters](/docs/dl?topic=dl-dl-cli#export-route-filters) \n [ibmcloud dl gateways](/docs/dl?topic=dl-dl-cli#list-all-gateways) \n [ibmcloud dl import-route-filters](/docs/dl?topic=dl-dl-cli#import-route-filters) \n [ibmcloud dl locations](/docs/dl?topic=dl-dl-cli#list-locations-offering-type-json) \n [ibmcloud dl offering-speeds](/docs/dl?topic=dl-dl-cli#offering-speeds-list) \n [ibmcloud dl ports](/docs/dl?topic=dl-dl-cli#list-all-ports) \n [ibmcloud dl route-reports](/docs/dl?topic=dl-dl-cli#route-report-list-view) \n [ibmcloud dl virtual-connections](/docs/dl?topic=dl-dl-cli#virtual-connections-list) | [list as prepends](/apidocs/direct_link#listgatewayasprepends) \n [list export route filters](/apidocs/direct_link#list-gateway-export-route-filters) \n [list gateways](/apidocs/direct_link#listgateways) \n [list import route filters](/apidocs/direct_link#list-gateway-import-route-filters) \n [list locations](/apidocs/direct_link#listofferingtypelocations) \n [list speeds](/apidocs/direct_link#listofferingtypespeeds) \n [list ports](/apidocs/direct_link#listports) \n [list route reports](/apidocs/direct_link#list-gateway-route-reports) \n [list virtual connections](/apidocs/direct_link#listgatewayvirtualconnections) \n [list cross connect routers](/apidocs/direct_link#listofferingtypelocationcrossconnectrouters) |
+| [ibmcloud dl asprepends](/docs/dl?topic=dl-dl-cli#list-all-asprepends) \n [ibmcloud dl export-route-filters](/docs/dl?topic=dl-dl-cli#export-route-filters) \n [ibmcloud dl gateways](/docs/dl?topic=dl-dl-cli#list-all-gateways) \n [ibmcloud dl import-route-filters](/docs/dl?topic=dl-dl-cli#import-route-filters) \n [ibmcloud dl locations](/docs/dl?topic=dl-dl-cli#list-locations-offering-type-json) \n [ibmcloud dl offering-speeds](/docs/dl?topic=dl-dl-cli#offering-speeds-list) \n [ibmcloud dl ports](/docs/dl?topic=dl-dl-cli#list-all-ports) \n [ibmcloud dl route-reports](/docs/dl?topic=dl-dl-cli#route-report-list-view) \n [ibmcloud dl virtual-connections](/docs/dl?topic=dl-dl-cli#virtual-connections-list) | [list as prepends](/docs/apis/direct_link#listgatewayasprepends) \n [list export route filters](/docs/apis/direct_link#list-gateway-export-route-filters) \n [list gateways](/docs/apis/direct_link#listgateways) \n [list import route filters](/docs/apis/direct_link#list-gateway-import-route-filters) \n [list locations](/docs/apis/direct_link#listofferingtypelocations) \n [list speeds](/docs/apis/direct_link#listofferingtypespeeds) \n [list ports](/docs/apis/direct_link#listports) \n [list route reports](/docs/apis/direct_link#list-gateway-route-reports) \n [list virtual connections](/docs/apis/direct_link#listgatewayvirtualconnections) \n [list cross connect routers](/docs/apis/direct_link#listofferingtypelocationcrossconnectrouters) |
 {: caption="Exporting Direct Link data with the CLI and API" caption-side="bottom"}
 
 ## Exported data formats
@@ -70,7 +70,7 @@ ibmcloud dl gateways|gws [--help|-h] [--output format]
 ```
 {: pre}
 
-Example request using the API, [directlink.gateway.list](/apidocs/direct_link#listgateways):
+Example request using the API, [directlink.gateway.list](/docs/apis/direct_link#listgateways):
 
 ```sh
 curl -X GET https://$DL_ENDPOINT/v1/gateways?version=2019-12-13 -H "authorization: Bearer $IAM_TOKEN"

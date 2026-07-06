@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2026
-lastupdated: "2026-04-23"
+lastupdated: "2026-07-06"
 
 keywords: IAM access for Direct Link, permissions for Direct Link, identity and access management for Direct Link, roles for Direct Link, actions for  Direct Link, assigning access for Direct Link
 
@@ -95,7 +95,7 @@ ibmcloud iam user-policy-create USER@EXAMPLE.COM --service-name directlink --rol
 {: #assign-access-api}
 {: api}
 
-For step-by-step instructions for assigning, removing, and reviewing access, see [Assigning access to resources by using the API](/docs/iam?topic=iam-assign-access-resources&interface=api) or the [Create a policy API doc](/apidocs/iam-policy-management#create-policy). Role cloud resource names (CRN) in the following table are used to assign access with the API.
+For step-by-step instructions for assigning, removing, and reviewing access, see [Assigning access to resources by using the API](/docs/iam?topic=iam-assign-access-resources&interface=api) or the [Create a policy API doc](/docs/apis/iam-policy-management#create-policy). Role cloud resource names (CRN) in the following table are used to assign access with the API.
 
 | Role name | Role CRN |
 |---------------|-----------------|

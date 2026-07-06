@@ -2,7 +2,7 @@
 
 copyright:
   years:  2023, 2026
-lastupdated: "2026-04-23"
+lastupdated: "2026-07-06"
 
 keywords:
 
@@ -30,14 +30,14 @@ To protect your Direct Link with context-based restrictions, see the tutorial fo
 ## Limitations
 {: #cbr-limitations}
 
-Context-based restrictions protect only the actions associated with the [Direct Link API](/apidocs/direct_link). Actions that are associated with the following platform APIs are not protected by context-based restrictions. Reference the API docs for the specific action IDs.
+Context-based restrictions protect only the actions associated with the [Direct Link API](/docs/apis/direct_link). Actions that are associated with the following platform APIs are not protected by context-based restrictions. Reference the API docs for the specific action IDs.
 
-- [Resource Instance APIs](/apidocs/resource-controller/resource-controller#list-resource-instances)
-- [Resource Keys APIs](/apidocs/resource-controller/resource-controller#list-resource-keys)
-- [IAM Policy APIs](/apidocs/iam-policy-management#list-policies)
-- [Global Search APIs](/apidocs/search)
-- Global Tagging [Attach](/apidocs/tagging#attach-tag) and [Detach](/apidocs/tagging#detach-tag) APIs
-- [Context-based Restriction Rule APIs](/apidocs/context-based-restrictions#create-rule)
+- [Resource Instance APIs](//docs/apis/resource-controller/resource-controller#list-resource-instances)
+- [Resource Keys APIs](/docs/apis/resource-controller/resource-controller#list-resource-keys)
+- [IAM Policy APIs](/docs/apis/iam-policy-management#list-policies)
+- [Global Search APIs](/docs/apis/search)
+- Global Tagging [Attach](/docs/apis/tagging#attach-tag) and [Detach](/docs/apis/tagging#detach-tag) APIs
+- [Context-based Restriction Rule APIs](/docs/apis/context-based-restrictions#create-rule)
 
 ## Creating rules
 {: #dl-creating-rules}
