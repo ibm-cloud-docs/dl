@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2026
-lastupdated: "2026-07-14"
+lastupdated: "2026-07-21"
 
 keywords: direct link
 
@@ -61,7 +61,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect service provide
 | PacketFabric | **Americas**: Dallas 4, Washington DC 2, San Jose 2 | |
 | SES Networks | **Americas**: Washington DC 2 | | |
 | SoftBank | **APAC**: Tokyo 4 | |
-| Tata Communications | **APAC**: Chennai 1, Hong Kong 1, Mumbai 1, Singapore 1  \n **EU**: London 1 | | |
+| Tata Communications | **Americas**: Washington DC 2  \n **APAC**: Chennai 1, Hong Kong 1, Mumbai 1, Singapore 1  \n **EU**: London 1 | | |
 | Telia | **Americas**: Dallas 3, Washington DC 2 | | |
 | Tokai | **APAC**: Osaka 1, Tokyo 3 | |
 | Verizon SCI | **Americas**: Dallas 3, San Jose 2, Washington DC 2  \n **EU**: Amsterdam 2, Frankfurt 1 | |
@@ -131,7 +131,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect service provide
 | Toronto 1 | IBM Power Virtual Server |
 | Toronto 2 | Cologix  \n Equinix  \n Lumen  \n Megaport  \n Zayo |
 | Toronto 3 | Equinix |
-| Washington DC 2 |  AT&T NetBond for Cloud  \n BlueFringe  \n Cologix  \n Colt  \n Epsilon  \n Equinix  \n IXReach  \n Lumen  \n Megaport  \n Neutrona  \n nextGen GNPP  \n PacketFabric  \n SES Networks  \n Telia  \n Verizon SCI  \n Zayo |
+| Washington DC 2 |  AT&T NetBond for Cloud  \n BlueFringe  \n Cologix  \n Colt  \n Epsilon  \n Equinix  \n IXReach  \n Lumen  \n Megaport  \n Neutrona  \n nextGen GNPP  \n PacketFabric  \n SES Networks  \n TATA Communications  \n Telia  \n Verizon SCI  \n Zayo |
 | Washington DC 3 | AT&T NetBond for Cloud |
 | Washington DC 4 | Anthem  \n Digital Realty  \n IBM Power Virtual Server |
 | Washington DC 5 | Coresite |
