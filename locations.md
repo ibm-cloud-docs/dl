@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2026
-lastupdated: "2026-07-21"
+lastupdated: "2026-07-23"
 
 keywords: direct link
 
@@ -24,7 +24,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect service provide
 
 | Provider | Locations | API integration |
 |----|----|----|
-| Airtel | **APAC**: Chennai 1, Chennai 4 | |
+| Airtel | **APAC**: Chennai 1, Chennai 4, Mumbai 4 | |
 | Anthem | **Americas**: Washington DC 4 | |
 | Ascenty, a Digital Realty Company | **Americas**: São Paulo 1, São Paulo 5 | |
 | At Tokyo | **APAC**: Osaka 1, Tokyo 2 | |
@@ -106,6 +106,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect service provide
 | Montreal 1 | Equinix |
 | Montreal 2 | Cologix  \n Megaport |
 | Mumbai 1 | Equinix  \n Tata Communications |
+| Mumbai 4 | Airtel |
 | New York 2 | Equinix |
 | Osaka 1 | AT Tokyo  \n BBIX  \n Console Connect  \n Equinix  \n Megaport  \n Tokai |
 | Osaka 21 |IBM Power Virtual Server |
