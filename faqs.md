@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2026
-lastupdated: "2026-04-24"
+lastupdated: "2026-08-05"
 
 keywords: faqs
 
@@ -161,7 +161,7 @@ No. IPv6 is public only.
 {: #does-dl-support-any-type-of-qos}
 {: faq}
 
-IBM is unable to support any QoS guarantees. QoS requires MPLS mapping between each of our service suppliers and {{site.data.keyword.cloud_notm}}. Cloud service providers generally cannot support QoS because it must reach from end-to-end and involve every device in between. No workaround is currently available by "tunneling" or any other method.
+IBM is unable to support any QoS guarantees. QoS requires MPLS mapping between each of our service suppliers and {{site.data.keyword.cloud_notm}}. Cloud service providers generally cannot support QoS because it must reach from end-to-end and involve every device in between. No workaround is currently available through tunneling or any other method.
 
 ### Does {{site.data.keyword.dl_short}} support Jumbo frames?
 {: #does-dl-support-jumbo-frames}
@@ -220,11 +220,11 @@ There are two Direct Link pricing plans: metered and unmetered. Metered has a po
 
 Direct Link pricing does NOT include any additional charges by service providers to enable connectivity to Direct Link.
 
-### What extra charges do I incur from other parties with {{site.data.keyword.dl_short}}?
+### What additional charges do I incur from other parties with {{site.data.keyword.dl_short}}?
 {: #what-additional-charges-do-i-incur-from-other-parties-with-dl}
 {: faq}
 
-You might have extra charges from your provider. See to your carrier or service provider for their fee information.
+You might have additional charges from your provider. Check with your carrier or service provider for their fee information.
 
 You, the customer, must arrange connectivity and billing with your service providers, independently of Direct Link. Direct Link creates a Letter Of Authorization / Connecting Facility Assignment (LOA/CFA) which is usable by any service provider who can reach the Meet Me Room that is specified on that LOA/CFA. The provider who is connecting to the LOA/CFA must include pricing for the cross-connect in their quote to you. Direct Link does not order cross-connects on behalf of any customer.
 

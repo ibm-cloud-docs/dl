@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021, 2026
-lastupdated: "2026-07-06"
+lastupdated: "2026-08-05"
 
 keywords: direct link, updating
 
@@ -25,12 +25,12 @@ You can update a direct link either before or after the gateway moves to the **P
 
 To edit a direct link, follow these steps:
 
-1. Click the Direct Link name in the table to show its details. Alternatively, you can click the **Actions** icon at the end of the table row of a provisioned direct link to edit gateway features.sc
+1. Click the Direct Link name in the table to show its details. Alternatively, you can click the **Actions** icon at the end of the table row of a provisioned direct link to edit gateway features.
 
-   If your Direct Link connection was ordered through a third-party service provider (as described in [{{site.data.keyword.cloud_notm}} Getting started with IBM Cloud Direct Link](/docs/dl?topic=dl-get-started-with-ibm-cloud-dl)), you might not be able to edit your BGP configuration as described here. The direct link's details page will display a note stating, "This direct link is read-only. Link-specific actions must be initiated through the provider portal." To edit your BGP configuration, contact your provider either directly, or through the provider's portal.
+   If your Direct Link connection was ordered through a third-party service provider (as described in [{{site.data.keyword.cloud_notm}} Getting started with IBM Cloud Direct Link](/docs/dl?topic=dl-get-started-with-ibm-cloud-dl)), you might not be able to edit your BGP configuration as described here. The direct link's details page will display a note with the text **This direct link is read-only. Link-specific actions must be initiated through the provider portal.** To edit your BGP configuration, contact your provider either directly, or through the provider's portal.
    {: important}
 
-1. Click **Edit** link in the upper right of the Details or BGP section. A page with the current configuration shows. For example, you can update the BGP Autonomous System Number (ASN), or enable a BGP feature.
+1. In the Details or BGP section, click **Edit**. A page with the current configuration shows. For example, you can update the BGP Autonomous System Number (ASN), or enable a BGP feature.
 
    **Important**: Keep in mind that the following tasks result in downtime where traffic is interrupted:
 

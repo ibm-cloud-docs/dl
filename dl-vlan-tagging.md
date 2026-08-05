@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2024
-lastupdated: "2024-03-07"
+  years: 2024, 2026
+lastupdated: "2026-08-05"
 
 keywords: direct link
 
@@ -42,7 +42,7 @@ To activate VLAN tagging after provisioning a Direct Link Dedicated gateway, fol
 To deactivate VLAN tagging after provisioning a Direct Link Dedicated gateway, follow these steps:
 
 1. Log in to the [Direct Link console](/interconnectivity/direct-link){: external}, then click the Direct Link name in the table to show its details. The Overview tabbed view is displayed.
-1. Deactivate the "VLAN tagging" switch. A confirmation dialog appears.
+1. Deactivate the **VLAN tagging** switch. A confirmation dialog appears.
 1. Type **Deactivate** to confirm your decision, then click **Deactivate**. The Details page updates with your changes.
 
 ## Updating VLAN tagging
@@ -52,9 +52,9 @@ To update the VLAN configured on a Direct Link Dedicated gateway, follow these s
 
 1. Log in to the [Direct Link console](/interconnectivity/direct-link){: external}, then click the Direct Link name in the table to show its details. The Overview tabbed view is displayed.
 
-1. Click **Edit** in the upper right of the page.
+1. On the page, click **Edit**.
 1. In the VLAN tagging section, update the VLAN ID. You must enter a value between `2` and `3967`.
-1. Select the checkbox to acknowledge that you have read and agree to the Direct Link Dedicated prerequisities.
+1. Select the checkbox to acknowledge that you have read and agree to the Direct Link Dedicated prerequisites.
 1. Click **Submit**.
 
 Editing BGP ASN and BGP IPs on the IBM side after a BGP session is established causes BGP session downtime until the BGP peer device is configured for the same change.

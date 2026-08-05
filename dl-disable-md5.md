@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2026
-lastupdated: "2026-03-17"
+lastupdated: "2026-08-05"
 
 keywords: direct link
 
@@ -41,7 +41,7 @@ To activate MD5 authentication on a provisioned gateway, follow these steps:
    * Select an authentication key.
 1. Click **Activate**. The information is added to the details page and the switch shows **Activated**.
 
-If you later want to edit BGP values, click **Edit** in the upper right of the BGP section.
+If you later want to edit BGP values, go to the BGP section and click **Edit**.
 {: note}
 
 ## Deactivating BGP MD5 authentication

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2026
-lastupdated: "2026-05-09"
+lastupdated: "2026-08-05"
 
 keywords: interconnectivity, direct link
 
@@ -49,7 +49,7 @@ You can now enable MACsec when ordering IBM Cloud Direct Link Dedicated to secur
 ## Direct Link Connect use cases
 {: #connect-use-cases}
 
-These use cases are best for working with hybrid workloads, cross-provider workloads, large or frequent data transfers, private workloads, and environment administration. Use these use cases:
+These use cases are best for working with hybrid workloads, cross-provider workloads, high-volume or frequent data transfers, private workloads, and environment administration. Use these use cases:
 
 * When you want quicker connectivity for mission-critical workloads
 * When you need connections between a client network and IBM Cloud at speeds of 5 Gbps or less
@@ -86,7 +86,7 @@ Typical deployment time
 :   5 - 10 days after the circuit reaches the exchange. Deployment time can be 30 - 60 days overall, depending on your location and the requirements when you order a circuit from a service provider or carrier.
 
 Cross-connect details
-:   Physical cross-connects for the secure {{site.data.keyword.dl_short}} Connect interconnect are maintained between {{site.data.keyword.cloud_notm}} and the service provider. Request a "Virtual Circuit" from the service provider, which establishes logical connectivity to {{site.data.keyword.cloud_notm}}, after you are connected to the service provider.
+:   Physical cross-connects for the secure {{site.data.keyword.dl_short}} Connect interconnect are maintained between {{site.data.keyword.cloud_notm}} and the service provider. Request a **Virtual Circuit** from the service provider, which establishes logical connectivity to {{site.data.keyword.cloud_notm}}, after you are connected to the service provider.
 
 Port speed options
 :   Select 50 Mbps, 100 Mbps[^100], 200 Mbps, 500 Mbps, 1 Gbps, 2 Gbps, or 5 Gbps.
@@ -115,7 +115,7 @@ For deployment topologies that use Direct Link and Power Systems Virtual Servers
 ## {{site.data.keyword.dl_short}} Dedicated use cases
 {: #use-cases-dedicated}
 
-These use cases are best for working with hybrid workloads, cross-provider workloads, large or frequent data transfers, private workloads, and environment administration. Use these use cases:
+These use cases are best for working with hybrid workloads, cross-provider workloads, high-volume or frequent data transfers, private workloads, and environment administration. Use these use cases:
 
 * When you want dedicated connectivity for mission-critical workloads
 * When you need dedicated, single-tenant connections between a client and IBM

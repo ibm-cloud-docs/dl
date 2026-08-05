@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2026
-lastupdated: "2026-05-29"
+lastupdated: "2026-08-05"
 
 keywords: direct link release notes
 
@@ -109,3 +109,17 @@ Generate a route report for a specific direct link
 
 BGP AS prepending support
 :   Prepend one or more autonomous system numbers (ASNs) at the beginning of an AS path. Prepending an AS path makes a shorter AS path look longer and therefore less preferable to BGP. For more information, see [Using AS prepends to influence route preference](/docs/dl?topic=dl-dl-about#use-case-1).
+
+## 01 April 2022
+{: #dl-apr0122}
+{: release-note}
+
+Reduced unmetered plan pricing for Direct Link Connect
+:   IBM is pleased to announce _a significant reduction in unmetered pricing_ for IBM Cloud Direct Link Connect and Direct Link Dedicated. Direct Link also offers a metered pricing plan, allowing you to switch between metered and unmetered pricing plans to suit your bandwidth usage needs.
+
+## 27 January 2022
+{: #dl-jan2722}
+{: release-note}
+
+VLAN mapping
+:    A Provider can now specify their own VLAN value at the time of gateway creation, or update it later using the [Direct Link Provider API](/docs/apis/direct_link_provider_api). Previously, the VLAN was selected for you.

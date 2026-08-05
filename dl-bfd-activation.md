@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020, 2024
-lastupdated: "2024-06-19"
+  years: 2020, 2026
+lastupdated: "2026-08-05"
 
 keywords: direct link
 
@@ -31,7 +31,7 @@ To activate BFD on a provisioned gateway, follow these steps:
    * **Multiplier** – The multiplier is the number of times that a hello packet is missed before BFD declares the neighbor down. This value can range from 1 to 255. The default multiplier value is 3.
 1. Click **Activate**. The information is added to the details page and the switch shows **Activated**.
 
-If you later want to edit BGP values, click **Edit** in the upper right of the BGP tabbed view. Keep in mind that editing BGP ASN and BGP IPs on the IBM side after BGP session is established, also causes BGP session downtime until the BGP peer device is configured for the same change.
+If you later want to edit BGP values, go to the BGP tabbed view and click **Edit**. Keep in mind that editing BGP ASN and BGP IPs on the IBM side after BGP session is established also causes BGP session downtime until the BGP peer device is configured for the same change.
 {: note}
 
 ## Deactivating BFD
