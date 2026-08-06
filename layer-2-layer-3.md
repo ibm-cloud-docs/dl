@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2018, 2024
-lastupdated: "2024-11-22"
+  years: 2018, 2026
+lastupdated: "2026-08-05"
 
 keywords: direct link
 
@@ -38,7 +38,7 @@ For Layer-3 connections, for each virtual circuit, your service provider establi
 When you order {{site.data.keyword.dl_short}} Connect through the IBM Cloud console, you need to populate the Layer-3 provider's ASN for the BGP session, not your customer ASN.
 {: important}
 
-* Layer-3 IP VPN or AVPN networks enable "any-to-any" connectivity.
+* Layer-3 IP VPN or AVPN networks enable any-to-any connectivity.
 * Layer-3 networks require the network service provider to maintain a BGP session between the enterprise and {{site.data.keyword.cloud_notm}}.
 * Certain network service providers might restrict certain functions across their network when you use Layer-3 connections, such as ASN prepends, GRE tunneling. Be sure to check with your provider about possible restrictions.
 

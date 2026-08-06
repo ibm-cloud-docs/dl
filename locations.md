@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2026
-lastupdated: "2026-07-23"
+lastupdated: "2026-08-05"
 
 keywords: direct link
 
@@ -87,7 +87,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect service provide
 | Dallas 12 | Digital Realty  \n IBM Power Virtual Server  \n POWERIAASLITE-STAGING |
 | Dallas 13 | CyrusOne  \n IBM Power Virtual Server |
 | Denver 1 | Coresite |
-| Frankfurt 1 | AT&T NetBond for Cloud  \n British Telecom  \n Colt  \n DE-CIX  \n  Digital Realty  \n Epsilon  \n EU Networks  \n Intercloud  \n Lumen  \n Megaport  \n Verizon SCI  \n Vodaphone |
+| Frankfurt 1 | AT&T NetBond for Cloud  \n British Telecom  \n Colt  \n DE-CIX  \n  Digital Realty  \n Epsilon  \n EU Networks  \n Intercloud  \n Lumen  \n Megaport  \n Verizon SCI  \n Vodafone |
 | Frankfurt 3 | BlueFringe  \n British Telecom  \n China Unicom  \n Colt  \n DE-CIX \n Equinix  \n Intercloud  \n nextGen GNPP  \n Vodafone |
 | Frankfurt 4 | DE-CIX  \n IBM Power Virtual Server |
 | Frankfurt 5 | DE-CIX  \n IBM Power Virtual Server |

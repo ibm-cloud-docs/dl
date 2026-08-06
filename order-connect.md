@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2026
-lastupdated: "2026-05-19"
+lastupdated: "2026-08-05"
 
 keywords: direct link, direct link connect
 
@@ -95,7 +95,7 @@ To order Direct Link Connect, follow these steps:
 
 1. In the Additional BGP settings section, you can activate one or more of these optional settings. Make sure to enable the switch for each section before you configure the settings.
 
-   * **Verify data integrity with Message Digest 5 (MD5)** - Add an extra layer of security between two BGP peers by verifying each transmitted message sent through the BGP session. When MD5 authentication is activated, BGP authenticates every segment that is sent over the TCP session from its peer and verifies the source of each routing update.
+   * **Verify data integrity with Message Digest 5 (MD5)** - Add MD5 authentication between two BGP peers to verify each transmitted message that is sent through the BGP session. When MD5 authentication is activated, BGP authenticates every segment that is sent over the TCP session from its peer and verifies the source of each routing update.
 
       **Important**:
 

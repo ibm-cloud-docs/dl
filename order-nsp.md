@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2026
-lastupdated: "2026-05-19"
+lastupdated: "2026-08-05"
 
 keywords: direct link, direct link dedicated, macsec
 
@@ -137,7 +137,7 @@ To order {{site.data.keyword.dl_full}} Dedicated, follow these steps.
 
       Enter a VLAN ID and a value in the range from `2` to `3967`. The VLAN must comply with the IEEE 802.1Q (Dot 1Q) standard.
 
-   * **Verify data integrity with Message Digest 5 (MD5)** - Add an extra layer of security between two BGP peers by verifying each transmitted message sent through the BGP session. When MD5 authentication is activated, BGP authenticates every segment that is sent over the TCP session from its peer and verifies the source of each routing update.
+   * **Verify data integrity with Message Digest 5 (MD5)** - Add MD5 authentication between two BGP peers to verify each transmitted message that is sent through the BGP session. When MD5 authentication is activated, BGP authenticates every segment that is sent over the TCP session from its peer and verifies the source of each routing update.
 
       **Important**:
 

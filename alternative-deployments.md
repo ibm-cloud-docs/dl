@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2018, 2024
-lastupdated: "2024-10-09"
+  years: 2018, 2026
+lastupdated: "2026-08-05"
 
 keywords: direct link
 
@@ -20,7 +20,7 @@ Describes alternatives that you can choose for your Direct Link Connect deployme
 
 The default deployments of Direct Link Connect do not include redundant configuration, although they can be deployed diversely on discrete routers.
 
-Many customers choose to create redundant deployments by setting up an extra Direct Link connection. The following diagrams illustrate some schematic representations of alternative Direct Link deployments
+Many customers choose to create redundant deployments by setting up an additional Direct Link connection. The following diagrams illustrate some schematic representations of alternative Direct Link deployments.
 
 You can also establish diverse Connect deployments with IBM Cloud Direct Link, as shown in Figure 1.
 
