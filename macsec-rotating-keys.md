@@ -2,7 +2,7 @@
 
 copyright:
   years: 2026
-lastupdated: "2026-03-17"
+lastupdated: "2026-08-13"
 
 keywords: direct link, macsec, dedicated
 
@@ -15,19 +15,34 @@ subcollection: dl
 # Rotating CAKs for Direct Link Dedicated with MACsec
 {: #macsec-cak-rotation}
 
-If MACsec is configured with the `must secure` security policy, rotation of either primary or fallback CAKs can lead to dropped frames during the rotation process if there are unforeseen failures to establish a valid session.
+Rotating keys regularly helps you meet industry standards and cryptographic best practices.
+{: shortdesc}
+
+If your CAK material is stored in HPCS, complete your migration to Secrets Manager by 31 December 2026. HPCS support for Direct Link ends on 28 March 2027. For migration steps, see [Migrating Direct Link MACsec CAKs and MD5 keys from HPCS to Secrets Manager](/docs/dl?topic=dl-hpcs-migration).
+{: important}
+
+## Key concepts
+{: #macsec-cak-rotation-concepts}
+
+- **Primary CAK** – The key both sides use to establish the MACsec session.
+- **Fallback CAK** (optional) – A safety net used only if a session cannot be established with the primary CAK.
+- **SAK** – The short-lived secure association key, derived from the CAK, that encrypts your traffic. It renews automatically.
+- **Secrets Manager or HPCS** – Where your CAK material is stored in IBM Cloud. Direct Link retrieves it securely and programs the IBM side; key material is never sent in the clear.
+
+## Before you begin
+{: #macsec-cak-rotation-prereqs}
+
+- Generate the new CAK material securely on-premises.
+- Have a Secrets Manager or HPCS instance ready to store it.
+- If your device uses a SAK expiration timer, plan to pause it during the rotation.
+
+If your MACsec security policy is set to `must secure`, schedule a maintenance window for the rotation. An unexpected failure to establish a session during rotation can drop frames.
 {: important}
 
 ## Rotating the primary CAK for Direct Link Dedicated with MACsec
 {: #macsec-primary-cak-rotation}
 
-Rotating keys regularly helps you meet industry standards and cryptographic best practices.
-{: shortdesc}
-
 When using Direct Link Dedicated with MACsec, follow these steps to rotate the primary Connectivity Association Key (CAK). This process, if implemented properly, does not result in dropped packets. However, you can configure an optional fallback CAK to take over if there is an unexpected failure to establish a session using the primary CAK.
-
-   This procedure assumes that a new primary CAK material is securely generated on-premises.
-   {: important}
 
 1. Temporarily disable the Secure Association Key (SAK) expiration timer on your device, if set. This helps avoid SAK renewal failures due to a primary key mismatch on peers during rotation.
 
@@ -40,10 +55,12 @@ When using Direct Link Dedicated with MACsec, follow these steps to rotate the p
    {: note}
 
 1. Store the primary CAK material used in Step 2 in the Secrets Manager or HPCS instance.
-1. Send a PATCH request to the primary CAK using the IBM Direct Link API, providing the CAK name and the Secrets Manager or HPCS key CRN containing the material. IBM Direct Link securely retrieves the updated CAK material from Secrets Manager or HPCS and configures it with the specified name on the IBM cross-connect switch (XCS) that peers with your device.
+1. Update the primary CAK in Direct Link by providing the CAK name and the Secrets Manager or HPCS key CRN containing the material. IBM Direct Link securely retrieves the updated CAK material and configures it with the specified name on the IBM cross-connect switch (XCS) that peers with your device.
 
-   Any operation that can be performed using the API can also be performed through the UI and CLI.
-   {: note}
+   You can complete this step from the console, CLI, or API:
+   - **Console**: Open your Direct Link Dedicated instance, select the **MACsec** tab, find the key in the **Connectivity association key (CAK)** table, and select **Rotate** from the Actions menu.
+   - **CLI**: Update the gateway's CAK using the `ibmcloud dl` command, passing the new CAK name and the Secrets Manager or HPCS key CRN.
+   - **API**: Send a PATCH request to the gateway's MACsec CAK resource with the CAK name and the key CRN.
 
 1. Wait for the new MACsec session to be established with the new key.
 
@@ -66,5 +83,10 @@ Use of a fallback CAK is optional. If you configure a fallback CAK, you might ne
    {: important}
 
 1. Delete the old fallback CAK and configure the new fallback CAK name and material on your device.
-1. Store the fallback CAK material used in Step 2 in the Secrets Manager or HPCS instance.
-1. Then, call an IBM Direct Link API to inform the Direct Link service about the availability of the new CAK. IBM Direct Link securely retrieves the new CAK and configures it on the IBM (XCS) that peers with your device.
+1. Store the fallback CAK material used in Step 1 in the Secrets Manager or HPCS instance.
+1. Rotate the fallback CAK in Direct Link from the console, CLI, or API, providing the CAK name and the key CRN. IBM Direct Link securely retrieves the new CAK and configures it on the XCS that peers with your device.
+
+## Related resources
+{: #macsec-cak-rotation-related}
+
+- [Direct Link HPCS Key Migration](https://community.ibm.com/community/user/blogs/nick-woodyard/2026/08/13/directlinkkeymigration){: external} — IBM Cloud Networking blog post with a step-by-step walkthrough of zero-downtime CAK rotation for Direct Link Dedicated with MACsec.
