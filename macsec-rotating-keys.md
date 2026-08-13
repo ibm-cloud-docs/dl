@@ -18,7 +18,7 @@ subcollection: dl
 Rotating keys regularly helps you meet industry standards and cryptographic best practices.
 {: shortdesc}
 
-If your CAK material is stored in HPCS, complete your migration to Secrets Manager by 31 December 2026. HPCS support for Direct Link ends on 28 March 2027. For migration steps, see [Migrating Direct Link MACsec CAKs and MD5 keys from HPCS to Secrets Manager](/docs/dl?topic=dl-hpcs-migration).
+If your CAK material is stored in HPCS, complete your migration to Secrets Manager by 31 December 2026 — the same date new HPCS-based key creation is removed from Direct Link. Because the cutover involves a brief, planned session reset per connection, early scheduling lets you place each change in a normal maintenance window rather than remediating encryption and routing authentication under deadline pressure ahead of the 28 March 2027 deletion deadline.
 {: important}
 
 ## Key concepts
