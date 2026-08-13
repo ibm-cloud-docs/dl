@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2026
-lastupdated: "2026-07-06"
+lastupdated: "2026-08-13"
 
 keywords: vpe for Direct Link, virtual private endpoints for Direct Link, using vpe for vpc with Direct Link, isolation for Direct Link, private network for Direct Link, network isolation in Direct Link, non-public routes for Direct Link, private connection for Direct Link, private connectivity for Direct Link
 
@@ -45,7 +45,7 @@ Direct Link supports VPEs in all the VPC regions as shown.
 | London | `eu-gb` | `crn:v1:bluemix:public:directlink:eu-gb:::endpoint:private.eu-gb.directlink.cloud.ibm.com` |
 | Montreal | `ca-mon` | `crn:v1:bluemix:public:directlink:ca-mon:::endpoint:private.ca-mon.directlink.cloud.ibm.com` |
 | Osaka | `jp-osa` | `crn:v1:bluemix:public:directlink:jp-osa:::endpoint:private.jp-osa.directlink.cloud.ibm.com` |
-| Sao Paulo | `br-sao` | `crn:v1:bluemix:public:directlink:br-sao:::endpoint:private.br-sao.directlink.cloud.ibm.com` |
+| São Paulo | `br-sao` | `crn:v1:bluemix:public:directlink:br-sao:::endpoint:private.br-sao.directlink.cloud.ibm.com` |
 | Sydney | `au-syd` | `crn:v1:bluemix:public:directlink:au-syd:::endpoint:private.au-syd.directlink.cloud.ibm.com` |
 | Tokyo | `jp-tok` | `crn:v1:bluemix:public:directlink:jp-tok:::endpoint:private.jp-tok.directlink.cloud.ibm.com` |
 | Toronto  | `ca-tor` | `crn:v1:bluemix:public:directlink:ca-tor:::endpoint:private.ca-tor.directlink.cloud.ibm.com` |

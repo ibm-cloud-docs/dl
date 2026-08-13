@@ -2,7 +2,7 @@
 
 copyright:
   years: 2024, 2026
-lastupdated: "2026-05-12"
+lastupdated: "2026-08-13"
 
 keywords:
 
@@ -35,14 +35,14 @@ Minimal
 ## Data plane deployment
 {: #data-plane-deployment}
 
-The following dependencies apply to the following deployment locations: Amsterdam 03, Chennai 01, Dallas 10, Dallas 12, Dallas 13, Dallas 14, Frankfurt 02, Frankfurt 04, Frankfurt 05, London 02, London 04, London 05, London 06, Madrid 02, Madrid 04, Madrid 05, Osaka 21, Osaka 22, Osaka 23, Paris 01, San Jose 03, San Jose 04, Sao Paulo 01, Sao Paulo 04, Sao Paulo 05, Singapore 01, Sydney 01, Sydney 04, Sydney 05, Tokyo 02, Tokyo 04, Tokyo 05, Toronto 01, Toronto 04, Toronto 05, Washington DC 04, Washington DC 06, Washington DC 07.
+The following dependencies apply to the following deployment locations: Amsterdam 03, Chennai 01, Dallas 10, Dallas 12, Dallas 13, Dallas 14, Frankfurt 02, Frankfurt 04, Frankfurt 05, London 02, London 04, London 05, London 06, Madrid 02, Madrid 04, Madrid 05, Osaka 21, Osaka 22, Osaka 23, Paris 01, San Jose 03, San Jose 04, São Paulo 01, São Paulo 04, São Paulo 05, Singapore 01, Sydney 01, Sydney 04, Sydney 05, Tokyo 02, Tokyo 04, Tokyo 05, Toronto 01, Toronto 04, Toronto 05, Washington DC 04, Washington DC 06, Washington DC 07.
 
 
 |Dependencies|Dependency impacts|Customer provided|Control or data plane|Location of dependency|
 |:---|:---|:---|:---|:---|
 | Oculus Automation API | Availability, Instance control, Operations | No | data-plane |  Same data center  |
 | IBM Cloud Databases | Availability, Change management, Disaster recovery, Instance control, Security compliance | No | data-plane |  Same region  |
-| IBM Cloud Kubernetes Service and Red Hat OpenShift on IBM Cloud | Availability, Change management, Disaster recovery, Instance control, Security compliance | No | data-plane |  Same region  |
+| IBM Cloud Kubernetes Service and Red Hat OpenShift on IBM Cloud and ROVS | Availability, Change management, Disaster recovery, Instance control, Security compliance | No | data-plane |  Same region  |
 | {{site.data.keyword.iamlong}} | Access management, Availability, Instance control, Security compliance | No | data-plane |  [Global](/docs/resiliency?topic=resiliency-ha-redundancy#global-platform)  |
 | IBM Cloud Classic DNS Servers | Availability, Change management, Instance control | No | data-plane |  Same data center  |
 {: row-headers}
@@ -90,7 +90,7 @@ The following dependencies apply to the following deployment locations: Dallas (
 |:---|:---|:---|:---|:---|
 | Oculus Automation API | Availability, Instance control, Operations | No | control-plane |  Same data center  |
 | IBM Cloud Databases | Availability, Change management, Disaster recovery, Instance control, Security compliance | No | control-plane |  Same region  |
-| IBM Cloud Kubernetes Service and Red Hat OpenShift on IBM Cloud | Availability, Change management, Disaster recovery, Instance control, Security compliance | No | control-plane |  Same region  |
+| IBM Cloud Kubernetes Service and Red Hat OpenShift on IBM Cloud and ROVS | Availability, Change management, Disaster recovery, Instance control, Security compliance | No | control-plane |  Same region  |
 | {{site.data.keyword.iamlong}} | Access management, Availability, Instance control, Security compliance | No | control-plane |  [Global](/docs/resiliency?topic=resiliency-ha-redundancy#global-platform)  |
 | IBM Cloud Classic DNS Servers | Availability, Change management, Instance control | No | control-plane |  Same data center  |
 {: row-headers}

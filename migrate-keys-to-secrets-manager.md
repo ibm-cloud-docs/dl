@@ -2,7 +2,7 @@
 
 copyright:
   years: 2026
-lastupdated: "2026-03-17"
+lastupdated: "2026-08-13"
 
 keywords:
 
@@ -17,6 +17,9 @@ subcollection: dl
 IBM Cloud Direct Link supports referencing authentication keys stored in IBM Cloud Secrets Manager. Migrating your MACsec Connectivity Association Keys (CAKs) and BGP MD5 authentication keys from Hyper Protect Crypto Services (HPCS) to Secrets Manager enables centralized lifecycle management, controlled access through IAM, and simplified rotation workflows.
 
 This topic describes prerequisites, operational considerations, migration steps, validation, and rollback guidance.
+
+Complete your migration by 31 December 2026. Early migration lets you schedule the brief, planned session reset for each connection during a normal maintenance window and avoid deadline pressure before HPCS support for Direct Link ends on 28 March 2027. After that date, Direct Link will no longer accept HPCS key references for MACsec CAKs or BGP MD5 authentication keys.
+{: important}
 
 ## Before you begin
 {: #hpcs-migration-before-you-begin}
@@ -119,3 +122,8 @@ If you encounter connectivity issues:
 * Review the secret value, CRN, IAM permissions, and peer device configuration for mismatches.
 
 After you confirm successful migration, remove any unused key material from HPCS and update your documentation to reference the Secrets Manager CRNs.
+
+## Related resources
+{: #hpcs-migration-related}
+
+- [Direct Link HPCS Key Migration](https://community.ibm.com/community/user/blogs/nick-woodyard/2026/08/13/directlinkkeymigration){: external} — IBM Cloud Networking blog post with a step-by-step walkthrough of migrating Direct Link MACsec CAKs and BGP MD5 keys from HPCS to Secrets Manager.
