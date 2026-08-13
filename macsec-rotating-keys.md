@@ -59,6 +59,9 @@ When using Direct Link Dedicated with MACsec, follow these steps to rotate the p
 
    You can complete this step from the console, CLI, or API:
    - **Console**: Open your Direct Link Dedicated instance, select the **MACsec** tab, find the key in the **Connectivity association key (CAK)** table, and select **Rotate** from the Actions menu.
+
+   ![Rotate CAK](images/rotate.png){: caption="Rotate CAK" caption-side="bottom"}
+
    - **CLI**: Update the gateway's CAK using the `ibmcloud dl` command, passing the new CAK name and the Secrets Manager or HPCS key CRN.
    - **API**: Send a PATCH request to the gateway's MACsec CAK resource with the CAK name and the key CRN.
 
