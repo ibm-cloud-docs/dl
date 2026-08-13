@@ -60,8 +60,6 @@ When using Direct Link Dedicated with MACsec, follow these steps to rotate the p
    You can complete this step from the console, CLI, or API:
    - **Console**: Open your Direct Link Dedicated instance, select the **MACsec** tab, find the key in the **Connectivity association key (CAK)** table, and select **Rotate** from the Actions menu.
 
-   ![Rotate CAK](images/rotate.png){: caption="Rotate CAK" caption-side="bottom"}
-
    - **CLI**: Update the gateway's CAK using the `ibmcloud dl` command, passing the new CAK name and the Secrets Manager or HPCS key CRN.
    - **API**: Send a PATCH request to the gateway's MACsec CAK resource with the CAK name and the key CRN.
 
@@ -88,6 +86,8 @@ Use of a fallback CAK is optional. If you configure a fallback CAK, you might ne
 1. Delete the old fallback CAK and configure the new fallback CAK name and material on your device.
 1. Store the fallback CAK material used in Step 1 in the Secrets Manager or HPCS instance.
 1. Rotate the fallback CAK in Direct Link from the console, CLI, or API, providing the CAK name and the key CRN. IBM Direct Link securely retrieves the new CAK and configures it on the XCS that peers with your device.
+
+   ![Example: Rotating the fallback CAK in the IBM Cloud console](images/rotate.png){: caption="Example: Rotating the fallback CAK in the IBM Cloud console" caption-side="bottom"}
 
 ## Related resources
 {: #macsec-cak-rotation-related}
