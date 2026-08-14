@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020, 2025
-lastupdated: "2025-06-17"
+  years: 2020, 2026
+lastupdated: "2026-08-14"
 
 keywords:  direct link prerequisites
 
@@ -38,15 +38,13 @@ When you are ready to finalize your {{site.data.keyword.dl_short}} order, you ar
 
    IBM supplies a Letter of Authorization/Connecting Facility Assignment (LOA/CFA) with port information to order the cross connect.
 
-   **Note**: Direct Link Dedicated is a switchport in access mode. Currently, 802.1q is not supported. 
-
 1. **{{site.data.keyword.dl_short}} Dedicated Hosting only**: To establish redundant connectivity, you must order dual uplinks, one for each of IBM Cloud’s cross-connect routers. This is accomplished on the customer's routers via BGP sessions by using ECMP capabilities or simply weighting the connection by balancing traffic to the direct link from the customer routers.
 
     If you require more than two direct links, you can order additional direct links. 
 
 1. Be aware if you use Classic IaaS, that infrastructure uses the `10.x.x.x` network and you cannot overlap your on-premises hosts within IBM Cloud or with the IBM Cloud services network (`10.0.0.0/14`, `10.198.0.0/15`, and `10.200.0.0/14`).
 
-1. Virtual Routing and Forwarding (VRF) is not compatible with IBM Cloud SSL and IPsec VPN services. An alternative is to use the Direct Link itself for management of your servers, or run your own VPN solution (such as a Vyatta) that can be configured with different types of VPNs. **Your account must be migrated to VRF before you can enable a Direct Link Classic virtual connection. Failure to migrate account can result in packet loss interruption.**
+1. Virtual Routing and Forwarding (VRF) is not compatible with IBM Cloud SSL VPN services. An alternative is to use the Direct Link itself for management of your servers, or run your own VPN solution (such as a Vyatta) that can be configured with different types of VPNs. **Your account must be migrated to VRF before you can enable a Direct Link Classic virtual connection. Failure to migrate account can result in packet loss interruption.**
 
    After migrating to a VRF, SSL VPN typically works when a VPN connection is made to the same data center location as the compute that's being accessed, but does not allow access globally.
 
