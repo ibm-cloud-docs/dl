@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2026
-lastupdated: "2026-08-05"
+lastupdated: "2026-08-24"
 
 keywords: direct link
 
@@ -61,7 +61,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect service provide
 | PacketFabric | **Americas**: Dallas 4, Washington DC 2, San Jose 2 | |
 | SES Networks | **Americas**: Washington DC 2 | | |
 | SoftBank | **APAC**: Tokyo 4 | |
-| Tata Communications | **Americas**: Washington DC 2  \n **APAC**: Chennai 1, Hong Kong 1, Mumbai 1, Singapore 1  \n **EU**: London 1 | | |
+| Tata Communications | **Americas**: Washington DC 2  \n **APAC**: Chennai 1, Chennai 3, Hong Kong 1, Mumbai 1, Singapore 1  \n **EU**: London 1 | | |
 | Telia | **Americas**: Dallas 3, Washington DC 2 | | |
 | Tokai | **APAC**: Osaka 1, Tokyo 3 | |
 | Verizon SCI | **Americas**: Dallas 3, San Jose 2, Washington DC 2  \n **EU**: Amsterdam 2, Frankfurt 1 | |
@@ -78,6 +78,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect service provide
 |----|----|
 | Amsterdam 2 | BlueFringe  \n  Colt  \n Epsilon  \n Equinix  \n Intercloud  \n Megaport  \n nextGen GNPP  \n Verizon SCI |
 | Chennai 1 | Airtel  \n BlueFringe  \n Tata Communications |
+| Chennai 3 | Tata Communications |
 | Chennai 4 | Airtel |
 | Chicago 1 | Cologix  \n Console Connect  \n Equinix  \n Megaport |
 | Dallas 3 |  AT&T Cloud Gateway  \n AT&T NetBond for Cloud  \n Axtel  \n BlueFringe  \n Console Connect  \n Equinix  \n Level3  \n Lumen  \n Neutrona  \n Orange Business Systems  \n Telia  \n  Verizon SCI  \n Zayo |
