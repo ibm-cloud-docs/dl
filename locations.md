@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2026
-lastupdated: "2026-08-05"
+lastupdated: "2026-08-27"
 
 keywords: direct link
 
@@ -52,7 +52,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect service provide
 | KINX | **APAC**: Seoul 2 | |
 | Level3 | **Americas**: Dallas 3, Miami 1, São Paulo 2 | |
 | Lumen | **Americas**: Dallas 3, San Jose 2, Toronto 2, Washington DC 2  \n  **EU**: Frankfurt 1, London 3, Paris 2 | |
-| Megaport | **Americas**: Chicago 1, Dallas 4, Montreal 2, San Jose 2, Toronto 2, Washington DC 2  \n **APAC**: Hong Kong 3, Osaka 1, Singapore 1[^singapore1], Sydney 2, Tokyo 2, Tokyo 3 \n **EU**: Amsterdam 2, Frankfurt 1, London 3, Paris 2 | ![Checkmark icon](../icons/checkmark-icon.svg) |
+| Megaport | **Americas**: Chicago 1, Dallas 4, Montreal 2, San Jose 2, Toronto 2, Washington DC 2  \n **APAC**: Hong Kong 3, Mumbai 1, Osaka 1, Singapore 1[^singapore1], Sydney 2, Tokyo 2, Tokyo 3 \n **EU**: Amsterdam 2, Frankfurt 1, London 3, Paris 2 | ![Checkmark icon](../icons/checkmark-icon.svg) |
 | NextDC | **APAC**: Melbourne 2, Sydney 3 | |
 | nextGen GNPP | **Americas**: Washington DC 2  \n **EU**: Amsterdam 2, Frankfurt 3, London 1, London 3, London 4 | |
 | NTT | **APAC**: Tokyo 5 | |
@@ -61,7 +61,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect service provide
 | PacketFabric | **Americas**: Dallas 4, Washington DC 2, San Jose 2 | |
 | SES Networks | **Americas**: Washington DC 2 | | |
 | SoftBank | **APAC**: Tokyo 4 | |
-| Tata Communications | **Americas**: Washington DC 2  \n **APAC**: Chennai 1, Hong Kong 1, Mumbai 1, Singapore 1  \n **EU**: London 1 | | |
+| Tata Communications | **Americas**: Washington DC 2  \n **APAC**: Chennai 1, Chennai 3, Hong Kong 1, Mumbai 1, Singapore 1  \n **EU**: London 1 | | |
 | Telia | **Americas**: Dallas 3, Washington DC 2 | | |
 | Tokai | **APAC**: Osaka 1, Tokyo 3 | |
 | Verizon SCI | **Americas**: Dallas 3, San Jose 2, Washington DC 2  \n **EU**: Amsterdam 2, Frankfurt 1 | |
@@ -78,6 +78,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect service provide
 |----|----|
 | Amsterdam 2 | BlueFringe  \n  Colt  \n Epsilon  \n Equinix  \n Intercloud  \n Megaport  \n nextGen GNPP  \n Verizon SCI |
 | Chennai 1 | Airtel  \n BlueFringe  \n Tata Communications |
+| Chennai 3 | Tata Communications |
 | Chennai 4 | Airtel |
 | Chicago 1 | Cologix  \n Console Connect  \n Equinix  \n Megaport |
 | Dallas 3 |  AT&T Cloud Gateway  \n AT&T NetBond for Cloud  \n Axtel  \n BlueFringe  \n Console Connect  \n Equinix  \n Level3  \n Lumen  \n Neutrona  \n Orange Business Systems  \n Telia  \n  Verizon SCI  \n Zayo |
@@ -105,7 +106,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect service provide
 | Milan 2 | Equinix |
 | Montreal 1 | Equinix |
 | Montreal 2 | Cologix  \n Megaport |
-| Mumbai 1 | Equinix  \n Tata Communications |
+| Mumbai 1 | Equinix  \n Megaport  \n Tata Communications |
 | Mumbai 4 | Airtel |
 | New York 2 | Equinix |
 | Osaka 1 | AT Tokyo  \n BBIX  \n Console Connect  \n Equinix  \n Megaport  \n Tokai |
