@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2026
-lastupdated: "2026-08-27"
+lastupdated: "2026-09-08"
 
 keywords: direct link
 
@@ -61,7 +61,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect service provide
 | PacketFabric | **Americas**: Dallas 4, Washington DC 2, San Jose 2 | |
 | SES Networks | **Americas**: Washington DC 2 | | |
 | SoftBank | **APAC**: Tokyo 4 | |
-| Tata Communications | **Americas**: Washington DC 2  \n **APAC**: Chennai 1, Chennai 3, Hong Kong 1, Mumbai 1, Singapore 1  \n **EU**: London 1 | | |
+| Tata Communications | **Americas**: San Jose 3, Washington DC 2  \n **APAC**: Chennai 1, Chennai 3, Hong Kong 1, Mumbai 1, Singapore 1, Tokyo 1  \n **EU**: Frankfurt 3, London 1 | | |
 | Telia | **Americas**: Dallas 3, Washington DC 2 | | |
 | Tokai | **APAC**: Osaka 1, Tokyo 3 | |
 | Verizon SCI | **Americas**: Dallas 3, San Jose 2, Washington DC 2  \n **EU**: Amsterdam 2, Frankfurt 1 | |
@@ -89,7 +89,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect service provide
 | Dallas 13 | CyrusOne  \n IBM Power Virtual Server |
 | Denver 1 | Coresite |
 | Frankfurt 1 | AT&T NetBond for Cloud  \n British Telecom  \n Colt  \n DE-CIX  \n  Digital Realty  \n Epsilon  \n EU Networks  \n Intercloud  \n Lumen  \n Megaport  \n Verizon SCI  \n Vodafone |
-| Frankfurt 3 | BlueFringe  \n British Telecom  \n China Unicom  \n Colt  \n DE-CIX \n Equinix  \n Intercloud  \n nextGen GNPP  \n Vodafone |
+| Frankfurt 3 | BlueFringe  \n British Telecom  \n China Unicom  \n Colt  \n DE-CIX \n Equinix  \n Intercloud  \n nextGen GNPP  \n Tata Communications  \n Vodafone |
 | Frankfurt 4 | DE-CIX  \n IBM Power Virtual Server |
 | Frankfurt 5 | DE-CIX  \n IBM Power Virtual Server |
 | Hong Kong 1 | Console Connect  \n Chief Telecom  \n Epsilon  \n Tata Communications |
@@ -114,6 +114,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect service provide
 | Paris 2 | Colt  \n Equinix  \n Lumen  \n Megaport  \n Orange Business Services |
 | Paris 3 | Colt  \n Equinix |
 | San Jose 2 | AT&T NetBond for Cloud (no diversity, on same XCR) \n China Unicom  \n Colt  \n Console Connect  \n Equinix  \n Lumen  \n Megaport  \n PacketFabric  \n Verizon SCI |
+| San Jose 3 | Tata Communications |
 | São Paulo 1 | Ascenty, a Digital Realty Company  \n British Telecom  \n IBM Power Virtual Server |
 | São Paulo 2 | Ascenty, a Digital Realty Company  \n  Equinix  \n Level3  \n Neutrona |
 | São Paulo 5 | Ascenty, a Digital Realty Company |
@@ -125,7 +126,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect service provide
 | Sydney 4 | IBM Power Virtual Server |
 | Sydney 5 | IBM Power Virtual Server |
 | Taipei 1 | Chief Telecom |
-| Tokyo 1 | BBIX  \n Colt  \n Console Connect  \n Equinix  \n Zenlayer |
+| Tokyo 1 | BBIX  \n Colt  \n Console Connect  \n Equinix  \n Tata Communications  \n Zenlayer |
 | Tokyo 2 | AT Tokyo  \n Megaport |
 | Tokyo 3 | BBIX  \n Colt  \n Equinix  \n Megaport  \n Tokai |
 | Tokyo 4 | IBM Power Virtual Server  \n Softbank |
