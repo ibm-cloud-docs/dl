@@ -2,7 +2,7 @@
 
 copyright:
   years: 2024, 2026
-lastupdated: "2026-05-12"
+lastupdated: "2026-09-22"
 keywords: service metrics
 
 subcollection: dl
@@ -75,6 +75,9 @@ The metric contains the following metadata:
 {: #ibm_directlink_connect_gateway_bgp_state}
 
 This metric reports the BGP connection state for a Direct Link Connect gateway.
+
+During maintenance windows, BGP updates are not reported.
+{: note}
 
 State values: 1=Idle, 2=Connect, 3=Active, 4=OpenSent, 5=OpenConfirm, 6=Established
 
@@ -180,6 +183,9 @@ The metric contains the following metadata:
 {: #ibm_directlink_dedicated_gateway_bgp_state}
 
 This metric reports the BGP connection state for a Direct Link Dedicated gateway.
+
+During maintenance windows, BGP updates are not reported.
+{: note}
 
 State values: 1=Idle, 2=Connect, 3=Active, 4=OpenSent, 5=OpenConfirm, 6=Established
 
