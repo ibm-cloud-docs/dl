@@ -56,8 +56,7 @@ Make sure to review the following information before you order Direct Link Conne
 
 To order Direct Link Connect, follow these steps:
 
-1. If you are already logged in to your IBM Cloud account, [open the Direct Link provisioning page](/interconnectivity/direct-link). Otherwise, log in to the [{{site.data.keyword.cloud_notm}} console](/login){: external}, select the Navigation Menu icon ![Menu icon](../../icons/icon_hamburger.svg) on the upper left of the page, then click **Infrastructure** > **Network** > **Direct link**.   
-1. Click **Order Direct Link**, then click the **Direct Link Connect** tile to open the provisioning page.
+1. If you are already logged in to your IBM Cloud account, [open the Direct Link Connect provisioning page](/interconnectivity/direct-link/connect/provision). Otherwise, log in to the [{{site.data.keyword.cloud_notm}} console](/login){: external}, select the Navigation Menu icon ![Menu icon](../../icons/icon_hamburger.svg) on the upper left of the page, then click **Infrastructure** > **Network** > **Direct link**. To open the provisioning page, click **Order Direct Link**, then click the **Direct Link Connect** tile.
 1. In the Before you begin section, click **Open checklist** to review the ordering process (also described in [Completing the connection](/docs/dl?topic=dl-how-to-order-ibm-cloud-dl-connect#complete-connection-connect)).
 1. In the Resource section, complete the following information:
    * Type a name for your {{site.data.keyword.dl_short}} connection.
