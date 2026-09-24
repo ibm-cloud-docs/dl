@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2026
-lastupdated: "2026-08-05"
+lastupdated: "2026-09-24"
 
 keywords: direct link, direct link dedicated, macsec
 
@@ -47,7 +47,7 @@ Review the following information before you order Direct Link Dedicated:
 To order {{site.data.keyword.dl_full}} Dedicated, follow these steps.
 {: shortdesc}
 
-1. In the [{{site.data.keyword.cloud_notm}} console](/login){: external}, click the **Navigation menu** icon ![menu icon](../icons/icon_hamburger.svg), then select **Infrastructure > Network > Direct link**.
+1. If you are already logged in to your IBM Cloud account, [open the Direct Link provisioning page](/interconnectivity/direct-link). Otherwise, log in to the [{{site.data.keyword.cloud_notm}} console](/login){: external}, select the Navigation Menu icon ![Menu icon](../../icons/icon_hamburger.svg) on the upper left of the page, then click **Infrastructure** > **Network** > **Direct link**.  
 1. Click **Order Direct Link**, then click the **Direct Link Dedicated** tile to open the provisioning page.
 1. In the Before you begin section, click **Expand checklist** to review the ordering process (also described in [Completing the connection](/docs/dl?topic=dl-complete-connection-dedicated)).
 1. In the Resource section, complete the following information:
