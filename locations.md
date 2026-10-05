@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2026
-lastupdated: "2026-09-08"
+lastupdated: "2026-10-05"
 
 keywords: direct link
 
@@ -209,7 +209,6 @@ The following table provides details about the {{site.data.keyword.cloud_notm}} 
 | Osaka 23  | DC | IDC Frontier (SoftBank) | OSA023 |
 | Perth 1 |  PoP | Equinix | PE2 |
 | Singapore 1 |	DC  | Digital Realty | SIN10 |
-| Sydney 1 | DC | Global Switch | SYD01 |
 | Sydney 2 | PoP | Equinix | SY3 |
 | Sydney 3 | PoP | NextDC | SYD03 |
 | Sydney 4 | DC | Digital Realty | SYD10 |
@@ -287,7 +286,7 @@ The sites highlighted in **bold** are emphasized because they differ from the ma
 | Hong Kong | | Hong Kong 3 \n **Taipei** |
 | Melbourne | | Melbourne 2 |
 | Singapore | Singapore 1 | |
-| Sydney | Sydney 1 \n Sydney 4 \n Sydney 5 | **Perth 1** \n Sydney 2 \n Sydney 3 |
+| Sydney | Sydney 4 \n Sydney 5 | **Perth 1** \n Sydney 2 \n Sydney 3 |
 | Tokyo | **Osaka 21** \n **Osaka 22** \n **Osaka 23** \n Tokyo 2 \n Tokyo 4 \n Tokyo 5 | **Osaka 1** \n Tokyo 1 \n Tokyo 3 |
 {: caption="Direct Link Dedicated - APAC" caption-side="bottom"}
 {: #simpletabtable22}
