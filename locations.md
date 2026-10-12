@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2026
-lastupdated: "2026-10-05"
+lastupdated: "2026-10-12"
 
 keywords: direct link
 
@@ -43,7 +43,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect service provide
 | CyrusOne | **Americas**: Dallas 13 | |
 | DE-CIX | **Americas**: Dallas 10  \n **EU**: Frankfurt 1, Frankfurt 3, Frankfurt 4, Frankfurt 5 | ![Checkmark icon](../icons/checkmark-icon.svg) |
 | Digital Realty | **Americas**: Dallas 12, Washington DC 4  \n **APAC**: Singapore 1  \n **EU**: Frankfurt 1, Madrid 3 | ![Checkmark icon](../icons/checkmark-icon.svg) |
-| Epsilon | **Americas**: Washington DC 2  \n  **APAC**: Hong Kong 1  \n **EU**: Amsterdam 2, Frankfurt 1, London 1 | |
+| Epsilon | **Americas**: Washington DC 2  \n  **APAC**: Hong Kong 1  \n **EU**: Amsterdam 2, Frankfurt 1 | |
 | Equinix | **Americas**: Chicago 1, Dallas 3, Montreal 1, New York 2, San Jose 2, São Paulo 2, Toronto 2, Toronto 3, Washington DC 2  \n **APAC**: Hong Kong 3, Mumbai 1, Osaka 1, Singapore 2, Tokyo 1, Tokyo 3  \n **EU**: Amsterdam 2, Frankfurt 3, London 1, London 3, Madrid 1, Milan 2, Paris 2, Paris 3, Sydney 2 | ![Checkmark icon](../icons/checkmark-icon.svg) |
 | EU Networks | **EU**: Frankfurt 1 | |
 | IBM Power Virtual Server | **Americas**: Dallas 10, Dallas 12, Dallas 13, São Paulo 1, Toronto 1, Washington DC 4, Washington DC 7  \n **APAC**: Osaka 21, Sydney 4, Sydney 5, Tokyo 4  \n **EU**: Frankfurt 4, Frankfurt 5, London 4, London 6 | |
@@ -94,7 +94,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect service provide
 | Frankfurt 5 | DE-CIX  \n IBM Power Virtual Server |
 | Hong Kong 1 | Console Connect  \n Chief Telecom  \n Epsilon  \n Tata Communications |
 | Hong Kong 3 | Chief Telecom  \n China Unicom  \n Colt  \n Equinix \n Megaport  \n Zenlayer |
-| London 1 | AT&T NetBond for Cloud  \n British Telecom  \n Colt \n Console Connect  \n Epsilon  \n Equinix  \n IX Reach  \n nextGen GNPP  \n Tata  \n Vodafone |
+| London 1 | AT&T NetBond for Cloud  \n British Telecom  \n Colt \n Console Connect  \n Equinix  \n IX Reach  \n nextGen GNPP  \n Tata  \n Vodafone |
 | London 3 | British Telecom  \n Colt  \n Equinix  \n IX Reach  \n Lumen  \n Megaport  \n nextGen GNPP  \n Orange Business Services  \n Vodafone |
 | London 4 | IBM Power Virtual Server  \n nextGen GNPP  |
 | London 6 | IBM Power Virtual Server |
