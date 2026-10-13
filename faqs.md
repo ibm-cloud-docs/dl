@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2026
-lastupdated: "2026-08-05"
+lastupdated: "2026-10-13"
 
 keywords: faqs
 
@@ -302,7 +302,7 @@ Enhanced Visibility
 {: #faq-when-to-switch-over}
 {: faq}
 
-No. Secrets Manager co-exists with Key Protect and HPCS until these products are announced as End of Marketing (EOM). Your current Direct Link configurations continue to function exactly as they do today. IBM is introducing this integration now so you can begin exploring its advanced features at your own pace.
+No. Secrets Manager co-exists with Key Protect and HPCS until an End of Marketing (EOM) date is announced. Your current Direct Link configurations continue to function exactly as they do today. IBM is introducing this integration now so you can begin exploring its advanced features at your own pace.
 
 ### What is the long-term plan for Key Protect and HPCS in Direct Link?
 {: #faq-long-term-plan-for-key-protect-hpcs}
@@ -327,6 +327,7 @@ Secrets Manager is an existing, independent product in the IBM Cloud catalog. If
 {: faq}
 
 No. Existing support channels, SLAs, and operational workflows for Direct Link remain the same. Billing for Direct Link continues through your standard IBM Cloud account. The only change is the additional option within the Direct Link UI or API to select Secrets Manager as your provider.
+
 
 ### If I decide to migrate from Key Protect or HPCS to Secrets Manager, what are the steps?
 {: #faq-migration-secrets-manager}

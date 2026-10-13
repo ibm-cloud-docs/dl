@@ -2,7 +2,7 @@
 
 copyright:
   years:  2023, 2026
-lastupdated: "2026-08-05"
+lastupdated: "2026-10-13"
 
 keywords:
 
@@ -81,4 +81,4 @@ These example CLI commands create a context-based restriction rule for Direct Li
 ## How Direct Link integrates with context-based restrictions
 {: #cbr-overview}
 
-Direct Link might call Secrets Manager, Key Protect, or HPCS for key management support. These calls perform authority checks against the Direct Link service making the call. If a CBR Rule is ever created against Secrets Manager, or Key Protect or HPCS, a Direct Link Service Reference must be added to the network zone of the rule.
+Direct Link might call Secrets Manager, HPCS, or Key Protect for key management support. These calls perform authority checks against the Direct Link service making the call. If a CBR Rule is ever created against Secrets Manager, HPCS, or Key Protect, a Direct Link Service Reference must be added to the network zone of the rule.

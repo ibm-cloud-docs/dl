@@ -2,7 +2,7 @@
 
 copyright:
   years: 2026
-lastupdated: "2026-04-23"
+lastupdated: "2026-10-13"
 
 keywords: direct link, direct link dedicated, macsec
 
@@ -64,6 +64,7 @@ To prepare for key exchange with Secrets Manager, follow these steps:
 
 You should grant access to all keys in the Secrets Manager instance; otherwise, you must grant a new service-to-service authorization each time that you want to use a different key for Direct Link Dedicated with MACsec. As long as a key is in use by your gateway, it shouldn’t be deleted and the service-to-service authorization must not be revoked.
 {: note}
+
 
 ## Preparing for key exchange with HPCS
 {: #prepare-key-exchange}

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2026
-lastupdated: "2026-08-13"
+lastupdated: "2026-10-13"
 
 keywords: direct link, macsec, dedicated
 
@@ -18,8 +18,10 @@ subcollection: dl
 Rotating keys regularly helps you meet industry standards and cryptographic best practices.
 {: shortdesc}
 
+
 If your CAK material is stored in HPCS, complete your migration to Secrets Manager by 31 December 2026 — the same date new HPCS-based key creation is removed from Direct Link. Because the cutover involves a brief, planned session reset per connection, early scheduling lets you place each change in a normal maintenance window rather than remediating encryption and routing authentication under deadline pressure ahead of the 28 March 2027 deletion deadline.
 {: important}
+
 
 ## Key concepts
 {: #macsec-cak-rotation-concepts}
@@ -91,5 +93,6 @@ Use of a fallback CAK is optional. If you configure a fallback CAK, you might ne
 
 ## Related resources
 {: #macsec-cak-rotation-related}
+
 
 - [Direct Link HPCS Key Migration](https://community.ibm.com/community/user/blogs/nick-woodyard/2026/08/13/directlinkkeymigration){: external} — IBM Cloud Networking blog post with a step-by-step walkthrough of zero-downtime CAK rotation for Direct Link Dedicated with MACsec.
