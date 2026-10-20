@@ -2,7 +2,7 @@
 
 copyright:
   years: 2026
-lastupdated: "2026-10-13"
+lastupdated: "2026-10-20"
 
 keywords: direct link, direct link dedicated, macsec
 
@@ -20,7 +20,7 @@ Before you can enable and configure MACsec on IBM Cloud Direct Link Dedicated, t
 ## Verifying MACsec device readiness
 {: #readiness-macsec-device}
 
-Ensure that your MACsec-capable device is properly configured and supports the required encryption standards (such as AES) for your network setup. Verify that the device has the necessary hardware and software support for MACsec, and ensure that its ports or interfaces are configured to enable encryption.
+Ensure that your MACsec-capable device is properly configured and supports the required encryption standards for your network setup. Direct Link Dedicated supports the AES-256 encryption level for MACsec. Verify that the device has the necessary hardware and software support for MACsec, and ensure that its ports or interfaces are configured to enable encryption.
 
 Work with your network provider to select the appropriate data center or Point of Presence (PoP) and confirm that the necessary infrastructure and network connections are in place to support MACsec. Also, ensure that a key management system is in place for secure key exchange, and assess the performance impact to ensure that the device can handle encryption without affecting network speed.
 

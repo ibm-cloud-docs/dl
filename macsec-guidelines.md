@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2026
-lastupdated: "2026-03-17"
+lastupdated: "2026-10-20"
 
 keywords: direct link, macsec
 
@@ -19,6 +19,7 @@ MACsec for Direct Link Dedicated has the following guidelines and restrictions:
 
 * The MACsec feature is only supported on the Direct Link Dedicated offering
 * Direct Link supports MACsec Key Agreement (MKA) protocol
+* Direct Link supports the AES-256 encryption level for MACsec.
 * Multiple MACsec peers (different SCI values) for the same interface are not supported
 
 ## Key restrictions
