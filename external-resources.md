@@ -3,7 +3,7 @@
 copyright:
   years: 2020, 2026
 
-lastupdated: "2026-03-12"
+lastupdated: "2026-10-20"
 
 keywords: direct link
 
@@ -19,10 +19,8 @@ subcollection: dl
 These resources are created by {{site.data.keyword.cloud}} and by some IBM Business Partners and customers.
 {: shortdesc}
 
-## Blogs, papers, and case studies
-{: #blogs}
-
-* [Demystifying Direct Link Offerings](https://www.ibm.com/think/insights/demystifying-direct-link-offerings/){: external}, by Bepsy Paul
+## Papers and case studies
+{: #papers-case-studies}
 
 * [**Hybrid Cloud white paper**](https://public.dhe.ibm.com/cloud/bluemix/network/direct-link/ibm-hybrid-cloud-whitepaper.pdf){: external}
 
