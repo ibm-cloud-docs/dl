@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2026
-lastupdated: "2026-04-13"
+lastupdated: "2026-10-20"
 
 keywords: direct link, planning
 
@@ -32,12 +32,12 @@ MACsec provides several key security features:
 
 * Origin authentication using a Connectivity Association Key (CAK)
 * Replay protection with a configurable window for out-of-order frames
-* Data confidentiality through AES encryption
+* Data confidentiality through AES-256 encryption
 * Data integrity using an Integrity Check Value (ICV) per frame
 
 MACsec sessions are established between your MACsec-capable device and the IBM cross-connect switch. The feature supports a primary CAK and an optional fallback CAK in case of a mismatch. CAK secrets are securely stored as Secrets Manager (recommended) or IBM Hyper Protect Crypto Services (HPCS) key resources. To enable this integration, Direct Link must be authorized to retrieve the relevant keys from your Secrets Manager or HPCS instance.
 
-MACsec uses industry-standard MACsec Key Agreement (MKA) for secure key management. It employs hardware-based AES encryption, providing strong security with minimal impact on performance. The encryption ensures data confidentiality and integrity, operating at Layer 2 without the need for changes to higher-layer protocols or applications. IBM also provides guidance for securely rotating CAKs to ensure uninterrupted encryption without impacting traffic.
+MACsec uses industry-standard MACsec Key Agreement (MKA) for secure key management. It employs hardware-based AES encryption, providing strong security with minimal impact on performance. Direct Link Dedicated with MACsec supports the AES-256 encryption level. The encryption ensures data confidentiality and integrity, operating at Layer 2 without the need for changes to higher-layer protocols or applications. IBM also provides guidance for securely rotating CAKs to ensure uninterrupted encryption without impacting traffic.
 
 MACsec is available in select locations where IBM Cloud supports MACsec-capable cross-connect infrastructure. Currently, MACsec for Direct Link Dedicated is available in Chennai, Dallas, Madrid, Montreal, Toronto, and Mumbai.
 {: attention}

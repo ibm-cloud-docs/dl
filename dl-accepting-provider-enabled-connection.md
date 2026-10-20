@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2026
-lastupdated: "2026-03-17"
+lastupdated: "2026-10-13"
 
 keywords: direct link
 
@@ -53,7 +53,7 @@ To enable MD5 authentication after submitting your order, follow these steps:
 1. Review your settings and click **Accept**. The Finalize creation panel displays.
 1. Click the MD5 authentication switch to enable it, then complete the following:
 
-   * For the keystore, select **Secrets Manager**, **Hyper Protect Crypto Services**,  or **Key Protect**.
+   * For the keystore, select **Secrets Manager**, **Hyper Protect Crypto Services**, or **Key Protect**.
    * Choose an authentication keystore instance and authentication key.
 
 1. Click **Create**.

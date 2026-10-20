@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021, 2026
-lastupdated: "2026-04-24"
+lastupdated: "2026-10-13"
 
 keywords: direct link
 
@@ -38,11 +38,15 @@ You can store your keys in either Secrets Manager, Hyper Protect Crypto Services
 1. Set up a keystore instance with keys. For instructions, choose from the following:
 
    * [Secrets Manager: Getting started with Secrets Manager](/docs/secrets-manager?topic=secrets-manager-getting-started)
+   
    * [HPCS: Creating and importing encryption keys](/docs/hs-crypto?topic=hs-crypto-tutorial-import-keys)
+   
    * [Key Protect: Getting started with encryption keys](/docs/key-protect?topic=key-protect-getting-started-tutorial)
 
+   
    If you use HPCS, it is important to note that the `"extractable": <key_type>` value is set to `true` for standard keys.
    {: note}
+   
 
 1. After you create encryption keys for Direct Link, use IBM Cloud Identity and Access Management (IAM) to grant authorization between your instance and the Direct Link service. You can grant access at the instance level to allow Direct Link to use all keys within the instance, or on a key-by-key basis. For instructions, see [Using authorizations to grant access between services](/docs/iam?topic=iam-serviceauth&interface=ui).
 
@@ -51,7 +55,7 @@ You can store your keys in either Secrets Manager, Hyper Protect Crypto Services
 
    You should grant access to all keys in the instance; otherwise, you must grant a new service-to-service authorization each time that you want to use a different key for Direct Link. As long as a key is in use by your gateway, you should never delete it, nor should you revoke the service-to-service authorization.
 
-1. If the Secrets Manager, Key Protect, or HPCS instance has a context-based restriction (CBR) rule, a Direct Link Service Reference must be added to the network zone of that rule. For instructions, see [How Direct Link integrates with context-based restrictions](/docs/dl?topic=dl-cbr&interface=cli#cbr-overview).
+1. If the Secrets Manager, HPCS, or Key Protect instance has a context-based restriction (CBR) rule, a Direct Link Service Reference must be added to the network zone of that rule. For instructions, see [How Direct Link integrates with context-based restrictions](/docs/dl?topic=dl-cbr&interface=cli#cbr-overview).
 
 ## Next step
 {: #md5-next-step}

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2026
-lastupdated: "2026-08-13"
+lastupdated: "2026-10-13"
 
 keywords:
 
@@ -10,6 +10,7 @@ subcollection: dl
 ---
 
 {{site.data.keyword.attribute-definition-list}}
+
 
 # Migrating Direct Link MACsec CAKs and MD5 keys from HPCS to Secrets Manager
 {: #hpcs-migration}

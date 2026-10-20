@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2026
-lastupdated: "2026-08-05"
+lastupdated: "2026-10-13"
 
 keywords: direct link release notes
 
@@ -37,7 +37,9 @@ MACsec and BGP MD5 authentication with Secrets Manager
 
 :   Unlike Hyper Protect Crypto Services (HPCS) and Key Protect, Secrets Manager supports a broader range of secret types and use cases, providing greater flexibility for evolving security requirements. By consolidating secret management into a single service, you can simplify operations while maintaining strong security controls. For more information about Direct Link integration with Secrets Manager, see the [Direct Link security with Secrets Manager FAQs](/docs/dl?topic=dl-faqs#enhance-security-with-secrets-manager).
 
+
     If you want to update Direct Link instances to use Secrets Manager–hosted keys, see [Migrating Direct Link MACsec CAKs and MD5 keys from HPCS to Secrets Manager](/docs/dl?topic=dl-hpcs-migration&interface=ui).
+
 
 
 
