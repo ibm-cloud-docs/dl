@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2026
-lastupdated: "2026-10-13"
+lastupdated: "2026-10-28"
 
 keywords: direct link, direct link connect
 
@@ -45,7 +45,7 @@ Make sure to review the following information before you order Direct Link Conne
 * [Cologix](/docs/dl?topic=dl-cologix-instructions)
 * [Console Connect](/docs/dl?topic=dl-console-connect-ordering)
 * [DE-CIX](/docs/dl?topic=dl-de-cix)
-* [Digital Realty](/docs/dl?topic=dl-digital-realty)
+* [Digital Realty Service Fabric](/docs/dl?topic=dl-digital-realty)
 * [Equinix](/docs/dl?topic=dl-equinix)
 * [Megaport](/docs/dl?topic=dl-megaport)
 * [Verizon SCI](/docs/dl?topic=dl-verizon-sci)
