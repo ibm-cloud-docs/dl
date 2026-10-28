@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023, 2026
-lastupdated: "2026-02-19"
+lastupdated: "2026-10-28"
 
 keywords: direct link
 
@@ -12,10 +12,10 @@ subcollection: dl
 
 {{site.data.keyword.attribute-definition-list}}
 
-# Digital Realty ordering considerations
+# Digital Realty Service Fabric ordering considerations
 {: #digital-realty}
 
-Follow these steps to order Direct Link Connect from Digital Realty:
+Follow these steps to order Direct Link Connect from Digital Realty Service Fabric:
 
 1. Log in to the Digital Realty [ServiceFabric portal](https://servicefabric.digitalrealty.com/){: external} using your credentials.
 1. On the ServiceFabric dashboard, click **Create Link** in the **OTHER RESOURCES** section.

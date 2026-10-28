@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2026
-lastupdated: "2026-10-12"
+lastupdated: "2026-10-28"
 
 keywords: direct link
 
@@ -42,7 +42,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect service provide
 | Coresite | **Americas**: Denver 1, Los Angeles 1, Washington DC 5 | |
 | CyrusOne | **Americas**: Dallas 13 | |
 | DE-CIX | **Americas**: Dallas 10  \n **EU**: Frankfurt 1, Frankfurt 3, Frankfurt 4, Frankfurt 5 | ![Checkmark icon](../icons/checkmark-icon.svg) |
-| Digital Realty | **Americas**: Dallas 12, Washington DC 4  \n **APAC**: Singapore 1  \n **EU**: Frankfurt 1, Madrid 3 | ![Checkmark icon](../icons/checkmark-icon.svg) |
+| Digital Realty Service Fabric | **Americas**: Dallas 12, Washington DC 4  \n **APAC**: Singapore 1  \n **EU**: Frankfurt 1, Madrid 3 | ![Checkmark icon](../icons/checkmark-icon.svg) |
 | Epsilon | **Americas**: Washington DC 2  \n  **APAC**: Hong Kong 1  \n **EU**: Amsterdam 2, Frankfurt 1 | |
 | Equinix | **Americas**: Chicago 1, Dallas 3, Montreal 1, New York 2, San Jose 2, São Paulo 2, Toronto 2, Toronto 3, Washington DC 2  \n **APAC**: Hong Kong 3, Mumbai 1, Osaka 1, Singapore 2, Tokyo 1, Tokyo 3  \n **EU**: Amsterdam 2, Frankfurt 3, London 1, London 3, Madrid 1, Milan 2, Paris 2, Paris 3, Sydney 2 | ![Checkmark icon](../icons/checkmark-icon.svg) |
 | EU Networks | **EU**: Frankfurt 1 | |
@@ -85,10 +85,10 @@ The following table lists {{site.data.keyword.dl_short}} Connect service provide
 | Dallas 4 |  PacketFabric  \n Megaport |
 | Dallas 8 | AT&T NetBond for Cloud |
 | Dallas 10 | DE-CIX  \n IBM Power Virtual Server |
-| Dallas 12 | Digital Realty  \n IBM Power Virtual Server  \n POWERIAASLITE-STAGING |
+| Dallas 12 | Digital Realty Service Fabric  \n IBM Power Virtual Server  \n POWERIAASLITE-STAGING |
 | Dallas 13 | CyrusOne  \n IBM Power Virtual Server |
 | Denver 1 | Coresite |
-| Frankfurt 1 | AT&T NetBond for Cloud  \n British Telecom  \n Colt  \n DE-CIX  \n  Digital Realty  \n Epsilon  \n EU Networks  \n Intercloud  \n Lumen  \n Megaport  \n Verizon SCI  \n Vodafone |
+| Frankfurt 1 | AT&T NetBond for Cloud  \n British Telecom  \n Colt  \n DE-CIX  \n  Digital Realty Service Fabric  \n Epsilon  \n EU Networks  \n Intercloud  \n Lumen  \n Megaport  \n Verizon SCI  \n Vodafone |
 | Frankfurt 3 | BlueFringe  \n British Telecom  \n China Unicom  \n Colt  \n DE-CIX \n Equinix  \n Intercloud  \n nextGen GNPP  \n Tata Communications  \n Vodafone |
 | Frankfurt 4 | DE-CIX  \n IBM Power Virtual Server |
 | Frankfurt 5 | DE-CIX  \n IBM Power Virtual Server |
@@ -100,7 +100,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect service provide
 | London 6 | IBM Power Virtual Server |
 | Los Angeles 1 | Coresite |
 | Madrid 1 | Equinix |
-| Madrid 3| Digital Realty |
+| Madrid 3| Digital Realty Service Fabric |
 | Melbourne 2 | NextDC |
 | Miami 1 | Level3 |
 | Milan 2 | Equinix |
@@ -119,7 +119,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect service provide
 | São Paulo 2 | Ascenty, a Digital Realty Company  \n  Equinix  \n Level3  \n Neutrona |
 | São Paulo 5 | Ascenty, a Digital Realty Company |
 | Seoul 2 | KINX |
-| Singapore 1 | Digital Realty  \n Megaport[^singapore2]  \n Tata Communications |
+| Singapore 1 | Digital Realty Service Fabric  \n Megaport[^singapore2]  \n Tata Communications |
 | Singapore 2 | Equinix |
 | Sydney 2 | Megaport |
 | Sydney 3 | NextDC |
@@ -136,7 +136,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect service provide
 | Toronto 3 | Equinix |
 | Washington DC 2 |  AT&T NetBond for Cloud  \n BlueFringe  \n Cologix  \n Colt  \n Epsilon  \n Equinix  \n IXReach  \n Lumen  \n Megaport  \n Neutrona  \n nextGen GNPP  \n PacketFabric  \n SES Networks  \n TATA Communications  \n Telia  \n Verizon SCI  \n Zayo |
 | Washington DC 3 | AT&T NetBond for Cloud |
-| Washington DC 4 | Anthem  \n Digital Realty  \n IBM Power Virtual Server |
+| Washington DC 4 | Anthem  \n Digital Realty Service Fabric  \n IBM Power Virtual Server |
 | Washington DC 5 | Coresite |
 | Washington DC 7 | IBM Power Virtual Server |
 {: caption="Direct Link Connect by Location" caption-side="bottom"}
@@ -158,10 +158,10 @@ The following table provides details about the {{site.data.keyword.cloud_notm}} 
 |-----------------|----------------|-----------------|-----------------|
 | Chicago 1 | PoP | Equinix  | CH4 |
 | Dallas 3 | PoP | Equinix | DA1 |
-| Dallas 4 | PoP | Digital Realty | DFW14 |
-| Dallas 09 | DC | Digital Realty | DFW17 |
+| Dallas 4 | PoP | Digital Realty Service Fabric | DFW14 |
+| Dallas 09 | DC | Digital Realty Service Fabric | DFW17 |
 | Dallas 10 | DC | QTS | IRV |
-| Dallas 12 | DC | Digital Realty | DFW18 |
+| Dallas 12 | DC | Digital Realty Service Fabric | DFW18 |
 | Dallas 13 | DC | CyrusOne | Carrollton - Frankford |
 | Dallas 14 | DC | STACK Infrastructure | DFW02 |
 | Denver 1 | PoP | Coresite |	DE1 |
@@ -173,21 +173,21 @@ The following table provides details about the {{site.data.keyword.cloud_notm}} 
 | New York City 2[^newyork2]  | PoP | Equinix | NY4 |
 | New York City 3 | PoP | Equinix | NY5 |
 | San Jose 2 | PoP | Equinix | SV1 |
-| San Jose 3| DC | Digital Realty | SJC31|
+| San Jose 3| DC | Digital Realty Service Fabric | SJC31|
 | San Jose 4 | DC | Infomart | SJC1 |
 | São Paulo 1 | DC | Ascenty, a Digital Realty Company | SAO01 |
 | São Paulo 2 | PoP | Equinix | SP4 |
 | São Paulo 3 | PoP  | ODATA | SAO03 |
 | São Paulo 4 | DC | ODATA | SAO04 |
 | São Paulo 5 | DC |  Ascenty, a Digital Realty Company| SAO05 |
-| Seattle 2 | PoP | Digital Realty (The Westin Building) | WBX |
-| Toronto 1 | DC| Digital Realty | TOR01 |
+| Seattle 2 | PoP | Digital Realty Service Fabric (The Westin Building) | WBX |
+| Toronto 1 | DC| Digital Realty Service Fabric | TOR01 |
 | Toronto 2 | PoP | Cologix | TOR02 |
 | Toronto 3 | PoP | Equinix| TR2 |
 | Toronto 4 | DC | Server Farm | TOR04 |
-| Toronto 5 | DC | Digital Realty | TOR05 |
+| Toronto 5 | DC | Digital Realty Service Fabric | TOR05 |
 | Washington DC 2 | PoP | Equinix | DC2 |
-| Washington DC 4 | DC | Digital Realty | IAD38 |
+| Washington DC 4 | DC | Digital Realty Service Fabric | IAD38 |
 | Washington DC 5 | PoP | Coresite | DC2 |
 | Washington DC 6 | DC | Raging Wire | VA2 |
 | Washington DC 7 | DC | Sabey | Sabey Intergate.Ashburn |
@@ -208,10 +208,10 @@ The following table provides details about the {{site.data.keyword.cloud_notm}} 
 | Osaka 22  | DC | IDC Frontier (SoftBank) | OSA022 |
 | Osaka 23  | DC | IDC Frontier (SoftBank) | OSA023 |
 | Perth 1 |  PoP | Equinix | PE2 |
-| Singapore 1 |	DC  | Digital Realty | SIN10 |
+| Singapore 1 |	DC  | Digital Realty Service Fabric | SIN10 |
 | Sydney 2 | PoP | Equinix | SY3 |
 | Sydney 3 | PoP | NextDC | SYD03 |
-| Sydney 4 | DC | Digital Realty | SYD10 |
+| Sydney 4 | DC | Digital Realty Service Fabric | SYD10 |
 | Sydney 5 | DC | Equinix | SY4 |
 | Taipei 1 | PoP | Chief Telecom | TPE01 |
 | Tokyo 1 | Pop | Equinix | TY2  |
@@ -229,22 +229,22 @@ The following table provides details about the {{site.data.keyword.cloud_notm}} 
 |-----------------|-----------------|-----------------|--------------------|
 | Amsterdam 2 | PoP | Equinix | AM2 |
 | Amsterdam 3 | DC | KPN | Amsterdam 3 |
-| Frankfurt 1 | PoP | Digital Realty | FRA6 |
+| Frankfurt 1 | PoP | Digital Realty Service Fabric | FRA6 |
 | Frankfurt 2 | DC | CyrusOne (Zenium) | FRA1 |
 | Frankfurt 3 | PoP | Equinix | FR6 |
 | Frankfurt 4 | DC  | NTT | Frankfurt 1 |
-| Frankfurt 5 | DC  | Digital Realty | FRA11 |
+| Frankfurt 5 | DC  | Digital Realty Service Fabric | FRA11 |
 | London 1 | PoP | Equinix (Telecity) | LD8 |
-| London 2 | DC | Digital Realty | LHR13 |
+| London 2 | DC | Digital Realty Service Fabric | LHR13 |
 | London 3 | PoP | Equinix | LD5 |
 | London 4 | DC | ARK | A103 |
 | London 5 | DC |   |   |
 | London 6 | DC | CyrusOne (Zenium) | LON1 |
 | Madrid 1 | PoP | Equinix | MD1 |
 | Madrid 2 | DC  | DATA4 | MAD01 |
-| Madrid 3 | PoP | Digital Realty |  MAD3 |
+| Madrid 3 | PoP | Digital Realty Service Fabric |  MAD3 |
 | Madrid 4 | DC  | NTT Data Center | MADRID 1 |
-| Madrid 5 | DC  | Digital Realty | MAD4 |
+| Madrid 5 | DC  | Digital Realty Service Fabric | MAD4 |
 | Milan 2 | PoP | Infracom Italia | Infracom 21 Via Caldera Way |
 | Paris 1 | DC  | Global Switch Limited | PAR01 |
 | Paris 2 | PoP | Equinix | PA2 |
@@ -341,9 +341,9 @@ The following table provides details about the {{site.data.keyword.cloud_notm}} 
 |-----------------|----------------|-----------------|-----------------|
 | Madrid 1 | PoP | Equinix | MD1 |
 | Madrid 2 | DC  | DATA4 | MAD01 |
-| Madrid 3 | PoP | Digital Realty |  MAD3 |
+| Madrid 3 | PoP | Digital Realty Service Fabric |  MAD3 |
 | Madrid 4 | DC  | NTT Data Center | MADRID 1 |
-| Madrid 5 | DC  | Digital Realty | MAD4 |
+| Madrid 5 | DC  | Digital Realty Service Fabric | MAD4 |
 {: caption="Direct Link Dedicated with MACsec hardware - EMEA" caption-side="bottom"}
 {: #simpletabtable333}
 {: tab-title="EU"}

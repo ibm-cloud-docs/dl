@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2026
-lastupdated: "2026-08-05"
+lastupdated: "2026-10-28"
 
 keywords: direct link
 
@@ -57,7 +57,7 @@ The following table summarizes the type of connections that each {{site.data.key
 | China Unicom | **Layer 3** |
 | Colt | Layer 2  |
 | Console Connect | Layer 2 |
-| Digital Realty Service Exchange | Layer 2 |
+| Digital Realty Service Fabric | Layer 2 |
 | Epsilon | Layer 2 |
 | Equinix Fabric | Layer 2 |
 | EU Networks | Layer 2 |

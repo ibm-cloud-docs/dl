@@ -3,7 +3,7 @@
 copyright:
   years: 2020, 2026
 
-lastupdated: "2026-10-20"
+lastupdated: "2026-10-28"
 
 keywords: direct link
 
@@ -28,7 +28,7 @@ These resources are created by {{site.data.keyword.cloud}} and by some IBM Busin
 
     This paper presents test results that show how a well-designed, well-executed, hybrid cloud architecture performs versus one that uses standard facilities, using connections and an architecture that is not optimized for application performance.
 
-     * Reference solution for implementing NetApp private storage for {{site.data.keyword.cloud_notm}}, colocated in a Digital Realty data center
+     * Reference solution for implementing NetApp private storage for {{site.data.keyword.cloud_notm}}, colocated in a Digital Realty Service Fabric data center
      * Results of performance tests conducted by Krystallize Technologies
 
 * [**Case Study for {{site.data.keyword.dl_short}} and {{site.data.keyword.cloud_notm}}**](https://www.digitalrealty.com/resources?type=case+studies){: external}
