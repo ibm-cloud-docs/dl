@@ -2,7 +2,7 @@
 
 copyright:
   years: 2024, 2026
-lastupdated: "2026-09-22"
+lastupdated: "2026-11-03"
 keywords: service metrics
 
 subcollection: dl
@@ -40,6 +40,14 @@ Each metric is composed of the following metadata types:
 * Metric type - Determines whether the metric value is a counter metric or a gauge metric. Each of these metrics is of type `gauge`, which represents a single numerical value that can arbitrarily fluctuate over time.
 * Value type - A unit of measurement for a specific metric. Examples include bytes or counts. A value type of `none` means that the metric value represents individual occurrences of that metric type.
 * Segment - How you want {{site.data.keyword.mon_full_notm}} to divide and display the monitoring metrics.
+
+### Traffic policing and Direct Link metrics
+{: #metrics-policing}
+
+{{site.data.keyword.dl_full_notm}} applies a policer that shapes traffic before the Direct Link router passes it on to the next hop. The policer is applied after the interface counters that the Direct Link Dedicated metrics are based on. As a result, the bytes per second and packets per second metrics show all traffic that arrives on the interface before the policer is applied. These metrics do not account for traffic that the policer drops, so they might not match the traffic that is forwarded by the Direct Link router.
+
+You are responsible for the traffic that you send to the Direct Link gateway router, even if the policer later shapes or drops some of it. That traffic is carried through the {{site.data.keyword.IBM_notm}} network or your connectivity provider's network before it reaches the gateway router. Metered Direct Link customers are charged for the traffic that is passed onto the Direct Link gateway router.
+{: important}
 
 ### Direct Link Connect - Bytes per second data for egress traffic
 {: #ibm_cloud_direct_link_connect_bytes_per_second_egress}
@@ -153,6 +161,9 @@ The metric contains the following metadata:
 {: #ibm_cloud_direct_link_dedicated_packets_dropped_per_second_ingress}
 
 Packets dropped per second data for all the ingress data flow on a gateway.
+
+This metric does not include packets that are dropped by the traffic policer. The policer shapes traffic before the Direct Link router passes it on to the next hop, and it is applied after the interface counters. Metered Direct Link customers are charged for traffic that is passed onto the Direct Link gateway router.
+{: note}
 
 The metric contains the following metadata:
 

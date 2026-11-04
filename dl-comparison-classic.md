@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021, 2026
-lastupdated: "2026-10-20"
+lastupdated: "2026-11-03"
 
 keywords: direct link
 
@@ -15,7 +15,7 @@ subcollection: dl
 # Feature comparison between Direct Link versions
 {: #dl-comparison-classic}
 
-Review feature support for Direct Link on Classic (1.0), Direct Link (2.0), and Direct Link Dedicated with MACsec
+Review feature support for Direct Link on Classic, Direct Link, and Direct Link Dedicated with MACsec.
 {: shortdesc}
 
 | **Feature** | **Direct Link on Classic** | **Direct Link** | **Direct Link Dedicated with MACsec** |

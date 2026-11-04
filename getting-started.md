@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2026
-lastupdated: "2026-03-17"
+lastupdated: "2026-11-03"
 
 keywords: direct link, direct link dedicated, direct link connect
 
@@ -23,7 +23,7 @@ Use {{site.data.keyword.dl_short}} to seamlessly connect your on-premises resour
 * Free global routing with bring your own IP (BYIOP) support
 * Flexible bandwidth options (1, 2, 5, and 10 Gbps)
 * Integrated support for virtual routing, dynamic path selection, and VPC connectivity
-* Metered billing with no price increase compared to Direct Link on Classic (1.0)
+* Metered billing with no price increase compared to Direct Link on Classic
 * Automated ordering experience through API integration with partners
 
 ## {{site.data.keyword.dl_short}} Connect
