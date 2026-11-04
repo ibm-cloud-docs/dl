@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2026
-lastupdated: "2026-10-28"
+lastupdated: "2026-11-04"
 
 keywords: direct link
 
@@ -240,7 +240,7 @@ The following table provides details about the {{site.data.keyword.cloud_notm}} 
 | London 4 | DC | ARK | A103 |
 | London 5 | DC |   |   |
 | London 6 | DC | CyrusOne (Zenium) | LON1 |
-| Madrid 1 | PoP | Equinix | MD1 |
+| Madrid 1 | PoP | Equinix | MD2 |
 | Madrid 2 | DC  | DATA4 | MAD01 |
 | Madrid 3 | PoP | Digital Realty Service Fabric |  MAD3 |
 | Madrid 4 | DC  | NTT Data Center | MADRID 1 |
@@ -339,7 +339,7 @@ The following table provides details about the {{site.data.keyword.cloud_notm}} 
 
 | IBM Location Code  | Location Type  |  Meet Me Room Operator |  Operator Site Code  |
 |-----------------|----------------|-----------------|-----------------|
-| Madrid 1 | PoP | Equinix | MD1 |
+| Madrid 1 | PoP | Equinix | MD2 |
 | Madrid 2 | DC  | DATA4 | MAD01 |
 | Madrid 3 | PoP | Digital Realty Service Fabric |  MAD3 |
 | Madrid 4 | DC  | NTT Data Center | MADRID 1 |
