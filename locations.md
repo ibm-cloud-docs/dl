@@ -168,8 +168,8 @@ The following table provides details about the {{site.data.keyword.cloud_notm}} 
 | Los Angeles 1 | PoP | Coresite | LAX01 |
 | Miami 1 | PoP  | TERREMARK | MI1 |
 | Montreal 1 | DC | Cologix | MTL9 |
-| Montreal 2 | PoP | Cologix | MTL07 |
-| Montreal 3 | PoP | Cologix | MT1 |
+| Montreal 2 | PoP | Cologix | MTL7 |
+| Montreal 3 | PoP | Equinix | MT1 |
 | New York City 2[^newyork2]  | PoP | Equinix | NY4 |
 | New York City 3 | PoP | Equinix | NY5 |
 | San Jose 2 | PoP | Equinix | SV1 |
@@ -319,7 +319,7 @@ The following table provides details about the {{site.data.keyword.cloud_notm}} 
 |-----------------|----------------|-----------------|-----------------|
 | Dallas 3 | PoP | Equinix | DA1 |
 | Dallas 14 | DC | STACK Infrastructure | DFW02 |
-| Montreal 2 | PoP | Cologix | MTL07 |
+| Montreal 2 | PoP | Cologix | MTL7 |
 | Toronto 2 | PoP | Cologix | TOR02 |
 {: caption="Direct Link Dedicated with MACsec hardware - Americas" caption-side="bottom"}
 {: #simpletabtable111}
