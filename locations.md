@@ -52,7 +52,7 @@ The following table lists {{site.data.keyword.dl_short}} Connect service provide
 | KINX | **APAC**: Seoul 2 | |
 | Level3 | **Americas**: Dallas 3, Miami 1, São Paulo 2 | |
 | Lumen | **Americas**: Dallas 3, San Jose 2, Toronto 2, Washington DC 2  \n  **EU**: Frankfurt 1, London 3, Paris 2 | |
-| Megaport | **Americas**: Chicago 1, Dallas 4, Montreal 2, San Jose 2, Toronto 2, Washington DC 2  \n **APAC**: Chennai 1, Chennai 3, Chennai 4, Hong Kong 3, Mumbai 1, Osaka 1, Singapore 1[^singapore1], Sydney 2, Tokyo 2, Tokyo 3 \n **EU**: Amsterdam 2, Frankfurt 1, London 3, Paris 2 | ![Checkmark icon](../icons/checkmark-icon.svg) |
+| Megaport | **Americas**: Chicago 1, Dallas 4, Montreal 2, San Jose 2, Toronto 2, Washington DC 2  \n **APAC**: Chennai 1, Hong Kong 3, Mumbai 1, Osaka 1, Singapore 1[^singapore1], Sydney 2, Tokyo 2, Tokyo 3 \n **EU**: Amsterdam 2, Frankfurt 1, London 3, Paris 2 | ![Checkmark icon](../icons/checkmark-icon.svg) |
 | NextDC | **APAC**: Melbourne 2, Sydney 3 | |
 | nextGen GNPP | **Americas**: Washington DC 2  \n **EU**: Amsterdam 2, Frankfurt 3, London 1, London 3, London 4 | |
 | NTT | **APAC**: Tokyo 5 | |
@@ -78,8 +78,8 @@ The following table lists {{site.data.keyword.dl_short}} Connect service provide
 |----|----|
 | Amsterdam 2 | BlueFringe  \n  Colt  \n Epsilon  \n Equinix  \n Intercloud  \n Megaport  \n nextGen GNPP  \n Verizon SCI |
 | Chennai 1 | Airtel  \n BlueFringe  \n Megaport  \n Tata Communications |
-| Chennai 3 | Megaport  \n Tata Communications |
-| Chennai 4 | Airtel  \n Megaport |
+| Chennai 3 | Tata Communications |
+| Chennai 4 | Airtel |
 | Chicago 1 | Cologix  \n Console Connect  \n Equinix  \n Megaport |
 | Dallas 3 |  AT&T Cloud Gateway  \n AT&T NetBond for Cloud  \n Axtel  \n BlueFringe  \n Console Connect  \n Equinix  \n Level3  \n Lumen  \n Neutrona  \n Orange Business Systems  \n Telia  \n  Verizon SCI  \n Zayo |
 | Dallas 4 |  PacketFabric  \n Megaport |
