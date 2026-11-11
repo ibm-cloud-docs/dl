@@ -2,7 +2,7 @@
 
 copyright:
   years: 2026
-lastupdated: "2026-03-17"
+lastupdated: "2026-11-11"
 
 keywords: direct link, direct link dedicated, connections
 
@@ -19,7 +19,7 @@ After you submit your {{site.data.keyword.dl_short}} Dedicated order, the {{site
 
 Here's how the process works:
 
-1. IBM Cloud uploads a Letter of Authorization (LOA) containing a Connecting Facility Assignment (CFA) within 24 hours. In turn, the connection status changes to **Waiting LOA review**. Currently, you can click the corresponding buttons to preview and accept the LOA.
+1. IBM Cloud uploads a Letter of Authorization (LOA) containing a Connecting Facility Assignment (CFA) within 5 days. In turn, the connection status changes to **Waiting LOA review**. Currently, you can click the corresponding buttons to preview and accept the LOA.
 1. After you accept the LOA and download it, the connection status changes to **Waiting completion notice upload**. Now take the LOA document to your carrier and get the completion notice ([Example](/docs/dl?topic=dl-completion-notice-example)). To do so, you can:
 
    * Supply the LOA/CFA to your colocation provider and have them order a cross-connect and any required inter-campus connectivity.
